@@ -39,21 +39,25 @@ const config = {
       ({
         docs: {
           sidebarCollapsed: false,
-          sidebarPath: require.resolve('./sidebars.js'),
-          path: 'articles',
-          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js')
+          // path: 'docs',
+          // routeBasePath: '/',
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/astriaai/astria-articles/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/astriaai/astria-articles/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
+          // disable recent posts
+          blogSidebarCount: 0,
+          path: 'blog',
+          routeBasePath: '/'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/astriaai/astria-articles/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/astriaai/astria-articles/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,7 +71,7 @@ const config = {
     ({
       image: 'img/high-quality-finetuning.jpg',
       navbar: {
-        title: 'Astria documentation',
+        title: 'Astria articles',
         logo: {
           alt: 'Astria',
           src: 'img/logo@2x.png',
