@@ -38,13 +38,22 @@ Multi-pass inference allows for a more balanced composition between the foregrou
 
 As an example take a look at these two images of a man wearing sportswear and posing inside a gym. The first one was generated in a single prompt, while for the second one we used a multi-pass approach.
 
-<center> (without multi-pass) </center>
+<div style={{ display: "grid", 'grid-template-columns': '1fr 1fr', gap: '1.5rem' }}>
+
+<div>
+<figcaption>Without multi-pass</figcaption>
 
 ![alt_text](images/image7.png)
+</div>
 
-<center> (with multi-pass) </center>
+<div>
+<figcaption>With multi-pass</figcaption>
 
 ![alt_text](images/image6.png)
+</div>  
+
+</div>
+
 
 
 As you can see in the second image the background has more character to it. The elements of the gym are more prominent as compared to the former.
