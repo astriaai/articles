@@ -70,29 +70,39 @@ A woman reading a book
 </div>
 
 
-On-brand headshots of these same people would look something like this:
+#### On-brand headshots of these same people would look something like this:
 
 <div style={{ display: "grid", 'grid-template-columns': '1fr 1fr', gap: '1.5rem' }}>
-    <div>
-      
+<div>
+
 ![A woman walking in a park](on-brand/image16.png)
-    </div>
-    <div>
-      
+</div>
+<div> 
+
 ![A man listening to music in a park](on-brand/image17.png)
-    </div>
+</div>
 </div>
 
 <div style={{ display: "grid", 'grid-template-columns': '1fr 1fr', gap: '1.5rem' }}>
-    <div>
+
+<div>
+
       
 ![A woman walking in a park](on-brand/image22.png)
-    </div>
-    <div>
+
+
+</div>
+
+<div>
+
       
 ![A man listening to music in a park](on-brand/image24.png)
-    </div>
+
+
 </div>
+
+</div>
+
 
 Now, wouldn’t it be awesome if you could generate corporate headshots like these quickly and efficiently?
 
