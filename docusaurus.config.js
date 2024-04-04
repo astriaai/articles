@@ -50,14 +50,12 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // disable recent posts
-          blogSidebarCount: 0,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All our posts',
+          blogDescription: 'Learn about fine-tuning and AI photography with consistent characters and high quality images.',
+
           path: 'blog',
-          routeBasePath: '/'
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/astriaai/astria-articles/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
