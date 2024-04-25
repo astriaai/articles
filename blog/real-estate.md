@@ -87,88 +87,130 @@ See below:
 
 **Original Image => AI Generated Image by Astria.ai**
 
-Prompt: A serene and opulent private bedroom, featuring a plush king-size bed with a tufted velvet headboard and a delicate crystal chandelier above, surrounded by richly textured walls in a soothing gray tone, and a lavish area rug in a soft, creamy color, with a comfortable reading nook by the window, complete with a oversized armchair and a matching ottoman, and a spacious walk-in closet with custom cabinetry and a marble-topped dresser, all bathed in a warm, golden light, in a 3D rendering style &lt;lora:epi_noiseoffset2:0.5>&lt;lora:FilmVelvia2:0.5>&lt;lora:add_detail:0.5>&lt;lora:epiCRealismHelper:0.2> --mask_prompt windows door --mask_invert --controlnets mlsd --controlnet_weights 0.5
-
-<style>
-  table {
-    width: 100%;
-    table-layout: fixed;
-  }
-
-  td {
-    width: 50%;
-    padding: 5px;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-</style>
-
-<table>
-  <tr>
-    <td><img src="real-estate/image7.png" alt="Alt Text 1" width="300" height="200"></td>
-    <td><img src="real-estate/image4.png" alt="Alt Text 2" width="300" height="200"></td>
-  </tr>
-</table>
-
-<br>
-
-Prompt: A modern office room with a minimalist aesthetic, featuring a sleek wooden desk with a silver laptop and a ergonomic chair, surrounded by floor-to-ceiling windows with a cityscape view, and a few potted plants on a shelf, with walls lined with tall cabinets filled with neatly organized books and files, and a subtle warm lighting and a hint of natural light, in a 3D rendering style &lt;lora:epi_noiseoffset2:0.5>&lt;lora:FilmVelvia2:0.5>&lt;lora:add_detail:0.5>&lt;lora:epiCRealismHelper:0.2> --mask_prompt windows door --mask_invert --controlnets mlsd --controlnet_weights 0.5
+```text
+A serene and opulent private bedroom, featuring a plush king-size bed with a tufted velvet headboard and a delicate crystal chandelier above, surrounded by richly textured walls in a soothing gray tone, and a lavish area rug in a soft, creamy color, with a comfortable reading nook by the window, complete with a oversized armchair and a matching ottoman, and a spacious walk-in closet with custom cabinetry and a marble-topped dresser, all bathed in a warm, golden light, in a 3D rendering style &lt;lora:epi_noiseoffset2:0.5>&lt;lora:FilmVelvia2:0.5>&lt;lora:add_detail:0.5>&lt;lora:epiCRealismHelper:0.2> --mask_prompt windows door --mask_invert --controlnets mlsd --controlnet_weights 0.5
+```
 
 
 <table>
   <tr>
-    <td><img src="real-estate/image13.png" alt="Alt Text 1" width="300" height="200"></td>
-    <td><img src="real-estate/image5.png" alt="Alt Text 2" width="300" height="200"></td>
+    <td>
+
+![image](real-estate/image7.png)
+
+</td>
+    <td>
+
+![image](real-estate/image4.png)
+
+</td>
   </tr>
 </table>
 
-<br>
+
+
+```text
+A modern office room with a minimalist aesthetic, featuring a sleek wooden desk with a silver laptop and a ergonomic chair, surrounded by floor-to-ceiling windows with a cityscape view, and a few potted plants on a shelf, with walls lined with tall cabinets filled with neatly organized books and files, and a subtle warm lighting and a hint of natural light, in a 3D rendering style &lt;lora:epi_noiseoffset2:0.5>&lt;lora:FilmVelvia2:0.5>&lt;lora:add_detail:0.5>&lt;lora:epiCRealismHelper:0.2> --mask_prompt windows door --mask_invert --controlnets mlsd --controlnet_weights 0.5
+```
+
+
+<table>
+  <tr>
+    <td>
+
+![image](real-estate/image13.png)
+
+</td>
+    <td>
+
+![image](real-estate/image5.png)
+
+</td>
+  </tr>
+</table>
+
+
 
 A contemporary office space with an industrial chic vibe, featuring a reclaimed wood desk with a vintage-inspired lamp and a worn leather office chair, surrounded by exposed brick walls and polished concrete floors, with a floor-to-ceiling metal shelving unit filled with vintage books and decorative objects, and a large glass door leading to a private outdoor patio with a city view, in a 3D rendering style &lt;lora:epi_noiseoffset2:0.5>&lt;lora:FilmVelvia2:0.5>&lt;lora:add_detail:0.5>&lt;lora:epiCRealismHelper:0.2> --mask_prompt windows door --mask_invert --controlnets mlsd --controlnet_weights 0.5
 
 
 <table>
   <tr>
-    <td><img src="real-estate/image1.png" alt="Alt Text 1" width="300" height="200"></td>
-    <td><img src="real-estate/image10.png" alt="Alt Text 2" width="300" height="200"></td>
+    <td>
+
+![image](real-estate/image1.png)
+
+</td>
+    <td>
+
+![image](real-estate/image10.png)
+
+</td>
   </tr>
 </table>
 
-<br>
-Prompt: A sleek and modern home gym, featuring a spacious open floor plan with high ceilings and large windows allowing for natural light, equipped with a variety of high-end exercise equipment including a treadmill, stationary bike, and free weights, surrounded by mirrored walls and a polished wood floor, with a comfortable seating area for relaxation and a large flat-screen TV for entertainment, and a modern sound system for an immersive workout experience, in a 3D rendering style
+
+```text
+A sleek and modern home gym, featuring a spacious open floor plan with high ceilings and large windows allowing for natural light, equipped with a variety of high-end exercise equipment including a treadmill, stationary bike, and free weights, surrounded by mirrored walls and a polished wood floor, with a comfortable seating area for relaxation and a large flat-screen TV for entertainment, and a modern sound system for an immersive workout experience, in a 3D rendering style
+```
 
 
 
 <table>
   <tr>
-    <td><img src="real-estate/image9.png" alt="Alt Text 1" width="300" height="200"></td>
-    <td><img src="real-estate/image8.png" alt="Alt Text 2" width="300" height="200"></td>
+    <td>
+
+![image](real-estate/image9.png)
+
+</td>
+    <td>
+
+![image](real-estate/image8.png)
+
+</td>
   </tr>
 </table>
 
-<br>
-Prompt: Coastal-themed nursery: an empty room staged as a serene coastal-themed nursery with a white crib, soft blue accents, shiplap wall, and nautical decor elements – controlnets MLSD Composition
+
+```text
+Coastal-themed nursery: an empty room staged as a serene coastal-themed nursery with a white crib, soft blue accents, shiplap wall, and nautical decor elements – controlnets MLSD Composition
+```
 
 
 
 <table>
   <tr>
-    <td><img src="real-estate/image2.png" alt="Alt Text 1" ></td>
-    <td><img src="real-estate/image11.png" alt="Alt Text 2" width="100%"></td>
+    <td>
+
+![image](real-estate/image2.png)
+
+</td>
+    <td>
+
+![image](real-estate/image11.png)
+
+</td>
   </tr>
 </table>
 
-<br>
-Prompt: A peaceful and calming meditation room, featuring a serene and minimalist space with a focus on natural materials and textures, including a reclaimed wood floor, a stone feature wall, and a live edge wooden meditation bench, surrounded by floor-to-ceiling windows allowing for an abundance of natural light and a connection to nature, with a few carefully placed plants and a subtle water feature creating a sense of tranquility, and a soft, warm glow emanating from candles or string lights, in a 3D rendering style &lt;lora:epi_noiseoffset2:0.5>&lt;lora:FilmVelvia2:0.5>&lt;lora:add_detail:0.5>&lt;lora:epiCRealismHelper:0.2> --mask_prompt windows door --mask_invert --controlnets mlsd --controlnet_weights 0.5
+
+```text
+A peaceful and calming meditation room, featuring a serene and minimalist space with a focus on natural materials and textures, including a reclaimed wood floor, a stone feature wall, and a live edge wooden meditation bench, surrounded by floor-to-ceiling windows allowing for an abundance of natural light and a connection to nature, with a few carefully placed plants and a subtle water feature creating a sense of tranquility, and a soft, warm glow emanating from candles or string lights, in a 3D rendering style &lt;lora:epi_noiseoffset2:0.5>&lt;lora:FilmVelvia2:0.5>&lt;lora:add_detail:0.5>&lt;lora:epiCRealismHelper:0.2> --mask_prompt windows door --mask_invert --controlnets mlsd --controlnet_weights 0.5
+```
 
 
 <table>
   <tr>
-    <td><img src="real-estate/image6.png" alt="Alt Text 1"></td>
-    <td><img src="real-estate/image12.png" alt="Alt Text 2" width="100%"></td>
+    <td>
+
+![image](real-estate/image6.png)
+
+</td>
+    <td>
+
+![image](real-estate/image12.png)
+
+</td>
   </tr>
 </table>
 
