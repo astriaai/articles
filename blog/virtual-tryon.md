@@ -77,7 +77,7 @@ Next, create a FaceID fine-tune of the garment image. The image could be of a mo
 ![alt_text](virtual-tryon/image8.png "image_tooltip")
 
 
-While generating the FaceID for the sweater, it’s important to mention the class name as either ‘Garment’ or ‘Clothing’, in case you have full body clothing like a dress or a swimsuit. If you want to just mask the upper body, for e.g. with shirts, t-shorts, tops, then use the class name ‘Shirt’. Similarly to mask the lower body use the class name ‘Pant. This ensures that the tune preserves the appropriate part of the garment while generating the images.
+While generating the FaceID for the sweater, it’s important to mention the class name as either `clothing`, in case you have full body clothing like a dress or a swimsuit. If you want to just mask the upper body, for e.g. with shirts, t-shorts, tops, then use the class name `shirt`. Similarly to mask the lower body use the class name `pants`. This ensures that the tune preserves the appropriate part of the garment while generating the images.
 
 
 ![alt_text](virtual-tryon/image7.png "image_tooltip")
