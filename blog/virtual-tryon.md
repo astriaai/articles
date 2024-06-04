@@ -33,7 +33,7 @@ Virtual try-on is increasingly being used for a variety of products, including:
 
 # Steps to Virtual Garment Try-On with Astria
 
-Developers interested in integrating Virtual Try-On capabilities into their applications can seamlessly utilize the APIs provided by [https://www.astria.ai](Astria).
+Developers interested in integrating Virtual Try-On capabilities into their applications can seamlessly utilize the APIs provided by [Astria](https://www.astria.ai).
 
 Here’s what you need to do step-by-step.
 
