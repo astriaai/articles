@@ -1,4 +1,4 @@
-# Exploring Virtual Fashion: Garment Try-On with Astria.ai
+# Exploring Virtual Fashion: Garment Try-On with Astria
 
 
 # What Is a Virtual Try-On?
@@ -31,9 +31,9 @@ Virtual try-on is increasingly being used for a variety of products, including:
 * **Shoppers **can quickly see how clothes would look on them by simulating the garments on their own images. This enhances the shopping experience, increases customer satisfaction, and can lead to higher sales.
 
 
-# Steps to Virtual Garment Try-On with Astria.ai
+# Steps to Virtual Garment Try-On with Astria
 
-Developers interested in integrating Virtual Try-On capabilities into their applications can seamlessly utilize the APIs provided by [Astria.ai](Astria.ai).
+Developers interested in integrating Virtual Try-On capabilities into their applications can seamlessly utilize the APIs provided by [https://www.astria.ai](Astria).
 
 Here’s what you need to do step-by-step.
 
@@ -295,4 +295,4 @@ h=640
 
 # Final Words
 
-Using Virtual Try-On with Astria.ai is seamless and the results are nearly perfect. With minimal effort, any business can visualize different outfits on models or on their customers. The clothes fit perfectly and blend in accurately with the model they are simulated on.
+Using Virtual Try-On with Astria is seamless and the results are nearly perfect. With minimal effort, any business can visualize different outfits on models or on their customers. The clothes fit perfectly and blend in accurately with the model they are simulated on.
