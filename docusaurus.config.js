@@ -14,7 +14,7 @@ const config = {
   url: 'https://www.astria.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/articles',
+  baseUrl: '/articles/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
