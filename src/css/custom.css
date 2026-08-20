@@ -66,3 +66,27 @@ nav.menu>ul>li>div>a {
 h4 {
    margin-bottom: 0;
 }
+
+/* Article images open in a focused, theme-aware lightbox. */
+.markdown img:not([data-no-zoom]) {
+  border-radius: 10px;
+  cursor: zoom-in;
+  transition: box-shadow 180ms ease, filter 180ms ease;
+}
+
+.markdown img:not([data-no-zoom]):hover {
+  box-shadow: 0 12px 32px rgba(24, 24, 50, 0.18);
+  filter: brightness(0.98);
+}
+
+.medium-zoom-overlay {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+
+.medium-zoom-image--opened {
+  border-radius: 4px;
+  cursor: zoom-out;
+  z-index: 1001;
+}
