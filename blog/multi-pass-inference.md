@@ -1,6 +1,7 @@
 ---
 title: How to Use Astria.ai's Multi-Pass Inference for Highly Controlled Stable Diffusion Image Generation
 description: How to Generate Striking Images with Astria.ai's Multi-Pass Inference
+unlisted: true
 ---
 
 # How to Use Astria.ai's Multi-Pass Inference for Highly Controlled Stable Diffusion Image Generation

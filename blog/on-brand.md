@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 # Generate On-Brand Corporate Headshots in Minutes by Fine-Tuning Stable Diffusion Models on Astria.ai
 
 

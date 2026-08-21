@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 # Enhancing Real Estate Listings with Virtual Staging on Stable Diffusion
 
 Virtual staging is the process of digitally adding furniture, decor, and other elements to photos of empty or sparsely furnished spaces. Along with Stable Diffusion, it can significantly improve real estate listings by creating realistic and attractive virtual staging.
