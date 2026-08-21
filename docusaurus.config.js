@@ -51,8 +51,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: 'All our posts',
+          blogSidebarCount: 0,
           blogDescription: 'Learn about fine-tuning and AI photography with consistent characters and high quality images.',
 
           path: 'blog',
