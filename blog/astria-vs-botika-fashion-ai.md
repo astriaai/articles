@@ -67,9 +67,11 @@ Astria's broader [fashion and ecommerce workflow](https://www.astria.ai/ecommerc
 
 Templates move creative decisions upstream: define the treatment once, approve it, and reuse it across a drop. The [templates gallery](https://www.astria.ai/gallery/packs) provides fashion-specific starting points, while brand references keep the result from collapsing into a generic AI aesthetic. Teams can operate the approved workflow without becoming prompt experts.
 
-## Public proof and customer signals
+## Public proof: two Botika cases versus broader professional adoption at Astria
 
-Botika publishes case studies for [Jordache](https://botika.com/case-studies/jordache-embraces-ai-cutting-costs-boosting-visuals-with-botika) and [JUAN & ME](https://botika.com/case-studies/juan-me-scales-content-with-botikas-ai--and-sees-128-more-conversions). [Astria's examples](https://www.astria.ai/ecommerce) include Ronny Kobo, Nununu, Gant, Lee Cooper, and Nine West. These are vendor-published adoption signals, not independent benchmarks.
+Botika's public case-study library reviewed for this comparison contains two named examples: [Jordache](https://botika.com/case-studies/jordache-embraces-ai-cutting-costs-boosting-visuals-with-botika) and [JUAN & ME](https://botika.com/case-studies/juan-me-scales-content-with-botikas-ai--and-sees-128-more-conversions). They show that Botika can deliver its ecommerce transformation workflow, but two vendor-written cases are narrow proof of professional adoption.
+
+[Astria's homepage](https://www.astria.ai/) and fashion materials show a broader production base: recognizable brands including Ronny Kobo, Nununu, Gant, Lee Cooper, and Nine West, alongside studios and professional photographers building client workflows on Astria. This is still vendor-published evidence rather than an independent benchmark, but the signal is materially broader: Astria is used by brands and the professionals who create for them, not only as an image-transformation app.
 
 ## A realistic workflow comparison: a 60-SKU drop
 
