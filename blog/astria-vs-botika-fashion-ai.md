@@ -116,7 +116,7 @@ That keeps a photographer or freelancer, the in-house studio, and the social med
 ## Choose Botika only if...
 
 - You need a standardized on-model PDP transformation from existing product photos.
-- The team prefers preset choices over category-specific fashion direction.
+- You are willing to trade category-specific fashion direction for generic preset choices.
 - A correction queue is sufficient; you do not need to own a reusable creative workflow.
 - Published credit pricing matters more than a distinctive, cross-channel visual system.
 
