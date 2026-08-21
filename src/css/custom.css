@@ -149,12 +149,14 @@ h4 {
 
 .astria-article-cta__button--primary {
   background: #5251f6;
-  color: #fff;
+  color: #fff !important;
 }
 
-.astria-article-cta__button--primary:hover {
+.astria-article-cta__button--primary:hover,
+.astria-article-cta__button--primary:focus,
+.astria-article-cta__button--primary:active {
   background: #4646d0;
-  color: #fff;
+  color: #fff !important;
 }
 
 .astria-article-cta__button--secondary {
