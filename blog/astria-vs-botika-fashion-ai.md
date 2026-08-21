@@ -55,7 +55,7 @@ We used six B2B buying questions: product fidelity, fashion-specific creative co
 
 Reviewed August 21, 2026; no controlled image-quality benchmark was run.
 
-## Botika: fast preset transformation with a lower creative ceiling
+## Botika: generic preset transformations
 
 Botika transforms clothing photography into new on-model results through separate [on-model](https://botika.com/products/on-model), [flat-lay](https://botika.com/products/flat-lay-photos), [mannequin](https://botika.com/products/mannequin-photography), and [fashion-video](https://botika.com/products/ai-fashion-video) flows.
 
