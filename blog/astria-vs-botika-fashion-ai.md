@@ -46,7 +46,7 @@ We used six B2B buying questions: product fidelity, fashion-specific creative co
 | Creative direction | Choose from prepared models, poses, and backgrounds | Build and reuse casting, styling, scene, crop, lighting, and format direction | **Astria** |
 | Casting and assets | Curated self-serve choices; custom options are plan-dependent | Models across ages and body types, locations, poses, and reusable references | **Astria** |
 | Template breadth | On-model, flat-lay, mannequin, and video transformations | Beauty, jewelry, apparel, footwear, sports, luxury, editorial, and campaign templates | **Astria** |
-| Natural-looking people | Human correction on eligible plans | Face refinement improves facial detail, skin, hair, and texture | **Astria** |
+| Natural-looking people | Manual human correction after generation on eligible plans | A face-inpainting and refinement layer improves facial detail inside the production workflow | **Astria** |
 | Motion | A guided fashion-video product | Multiple current video options can animate approved stills in the same workflow | **Astria** |
 | Team production | Team access is advertised on the Advanced plan | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
 | Compounding value | Primarily completes product-photo transformations | SKUs, avatars, templates, approvals, and outputs carry from collection to campaign, video, and social | **Astria** |
@@ -93,7 +93,9 @@ Astria keeps fashion context in the workflow. Teams can draw from models—inclu
 
 ### Natural-looking people — winner: Astria
 
-Botika offers human correction and retouching on eligible plans. Astria also includes face refinement: a dedicated pass that improves facial detail, skin, hair, and texture where wider frames can otherwise look synthetic. Neither feature proves professional quality by itself. Judge anatomy, fabric drape, construction details, styling logic, lighting, and consistency across the collection.
+Botika's answer to synthetic-looking people is a manual service: on eligible plans, users flag an output and a human corrects or retouches it. That turns realism into a post-production queue, with turnaround and consistency dependent on manual intervention.
+
+Astria handles the problem as a professional technology layer. Its face-inpainting and refinement pass rebuilds facial detail, skin, hair, eyes, and texture—especially in full-body and wider fashion frames where generic generation can produce an obvious AI look. Human creative review still matters, but the finishing layer operates inside a repeatable production workflow rather than being outsourced as a correction request.
 
 ### Stills, motion, and existing brand material — winner: Astria
 
