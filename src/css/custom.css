@@ -67,6 +67,143 @@ h4 {
    margin-bottom: 0;
 }
 
+/* Conversion rail for comparison articles. */
+.astria-article-cta {
+  background: #fbfbff;
+  border: 1px solid #dedee8;
+  border-radius: 20px;
+  box-shadow: 0 18px 48px rgba(34, 34, 72, 0.08);
+  margin: 2.25rem 0;
+  padding: 24px;
+}
+
+.astria-article-cta__mark {
+  align-items: center;
+  background: #18181d;
+  border-radius: 14px;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  margin-bottom: 22px;
+  width: 56px;
+}
+
+.astria-article-cta__mark img {
+  border-radius: 0 !important;
+  cursor: default !important;
+  height: 34px;
+  object-fit: contain;
+  width: 34px;
+}
+
+.astria-article-cta__eyebrow {
+  color: #5251f6;
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.astria-article-cta__title {
+  font-size: 1.55rem;
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+  margin: 0 0 12px;
+}
+
+.astria-article-cta__copy {
+  color: #686875;
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0 0 22px;
+}
+
+.astria-article-cta__actions {
+  display: grid;
+  gap: 10px;
+}
+
+.astria-article-cta__button {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: space-between;
+  min-height: 52px;
+  padding: 0 17px;
+  text-decoration: none !important;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.astria-article-cta__button:hover {
+  transform: translateY(-1px);
+}
+
+.astria-article-cta__button:focus-visible {
+  outline: 3px solid rgba(82, 81, 246, 0.28);
+  outline-offset: 3px;
+}
+
+.astria-article-cta__button--primary {
+  background: #5251f6;
+  color: #fff;
+}
+
+.astria-article-cta__button--primary:hover {
+  background: #4646d0;
+  color: #fff;
+}
+
+.astria-article-cta__button--secondary {
+  background: #fff;
+  border-color: #d9d9e3;
+  color: #202027;
+}
+
+.astria-article-cta__button--secondary:hover {
+  background: #f3f3f8;
+  border-color: #cacaD7;
+  color: #202027;
+}
+
+@media (min-width: 1180px) {
+  .blog-post-page main:has(.astria-article-cta) {
+    flex: 0 0 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
+    width: 100%;
+  }
+
+  .blog-post-page .markdown:has(> .astria-article-cta) {
+    column-gap: 48px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+  }
+
+  .blog-post-page .markdown:has(> .astria-article-cta) > :not(.astria-article-cta) {
+    grid-column: 1;
+  }
+
+  .astria-article-cta {
+    align-self: start;
+    grid-column: 2;
+    grid-row: 1 / span 999;
+    margin: 0;
+    position: sticky;
+    top: calc(var(--ifm-navbar-height) + 28px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .astria-article-cta__button {
+    transition: none;
+  }
+}
+
 /* Article images open in a focused, theme-aware lightbox. */
 .markdown img:not([data-no-zoom]) {
   border-radius: 10px;
