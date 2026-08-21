@@ -3,6 +3,7 @@ title: "Astria vs Botika (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Botika for fashion brands: compare professional art direction, product fidelity, templates, video, collaboration, and catalog production."
 slug: astria-vs-botika-fashion-ai
 date: 2026-08-21
+hide_table_of_contents: true
 keywords:
   - Astria vs Botika
   - Botika alternative
