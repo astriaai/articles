@@ -95,7 +95,7 @@ We used six B2B buying questions: product fidelity, fashion-specific creative co
 | Motion | A guided fashion-video product | Multiple current video options can animate approved stills in the same workflow | **Astria** |
 | Team production | Team access is advertised on the Advanced plan | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
 | Compounding value | Primarily completes product-photo transformations | SKUs, avatars, templates, approvals, and outputs carry from collection to campaign, video, and social | **Astria** |
-| Published pricing | Public subscription tiers and credit consumption | Brand pricing depends on usage and engagement | **Botika** |
+| Commercial model for brands | Self-serve credit tiers; per-image credits accumulate across every SKU, variant, and channel | Brand pricing scoped to usage and the production engagement | **Astria** |
 | Best fit | Ecommerce teams that need fast, standardized on-model transformations from existing product photos | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 
 Reviewed August 22, 2026; no controlled image-quality benchmark was run.
@@ -158,6 +158,10 @@ Astria becomes more valuable as the team uses it. Bring the full SKU set into on
 
 That keeps a photographer or freelancer, the in-house studio, and the social media agency on the same assets and approvals. Each stage builds on the last instead of duplicating uploads, recreating briefs, or restarting production in another tool.
 
+### Commercial model — winner: Astria
+
+Botika publishes self-serve subscription tiers, which makes the first purchase simple. But those tiers meter per-image credits, so the bill grows with every SKU, variant, channel crop, and regeneration—and plan-dependent corrections sit on top. Astria's brand pricing is scoped to usage and the production engagement, and the approved setup is reused rather than re-prompted, so the commercial conversation matches how a brand actually produces. A per-image price is not a production budget—model a full collection, including rework, before comparing costs.
+
 ## Choose Botika only if...
 
 - You need a standardized on-model PDP transformation from existing product photos.
@@ -202,7 +206,7 @@ Both accept product-photo inputs; Botika provides a dedicated flat-lay flow, whi
 
 ### Which is better for producing a full collection?
 
-Astria is designed around taking an approved brand direction across products and content formats, which makes it the stronger fit when the collection—not an individual replacement image—is the unit of work. Botika can also process collections at scale, especially when the desired output follows its guided model, pose, and background workflow.
+Astria is designed around taking an approved brand direction across products and content formats, which makes it the stronger fit when the collection—not an individual replacement image—is the unit of work. Botika can push a batch of products through its guided flow, but every image stays bounded by the same preset model, pose, and background choices.
 
 ### Is Astria better than Botika for fashion brands?
 
