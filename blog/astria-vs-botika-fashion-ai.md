@@ -4,6 +4,9 @@ description: "Astria vs Botika for fashion brands: compare professional art dire
 slug: astria-vs-botika-fashion-ai
 date: 2026-08-21
 hide_table_of_contents: true
+image: /img/blog/astria-vs-botika-fashion-ai.jpg
+authors: [astria]
+tags: [comparisons]
 keywords:
   - Astria vs Botika
   - Botika alternative

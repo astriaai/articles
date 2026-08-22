@@ -6,6 +6,9 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  /* Infima leaves this transparent in light mode, letting the browser canvas
+     show through on dark-preference systems. Pin it. */
+  --ifm-background-color: #ffffff;
   --ifm-color-primary: #5251f6;
   --ifm-color-primary-dark: #4646d0;
   --ifm-color-primary-darker: #3838a1;

@@ -1,0 +1,7 @@
+# Blog tags double as the category tabs on the index page.
+# When adding a tag here, also add a matching tab in
+# src/components/BlogIndex/categories.ts.
+comparisons:
+  label: Comparisons
+  permalink: /comparisons
+  description: Head-to-head looks at Astria and other AI fashion platforms.

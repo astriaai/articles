@@ -42,6 +42,11 @@ const config = {
 
   plugins: [require.resolve('docusaurus-plugin-image-zoom')],
 
+  // Fraunces is the display face for the blog index (hero + featured titles).
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&display=swap',
+  ],
+
   presets: [
     [
       'classic',
@@ -61,7 +66,8 @@ const config = {
         blog: {
           showReadingTime: true,
           blogSidebarCount: 0,
-          blogDescription: 'Learn about fine-tuning and AI photography with consistent characters and high quality images.',
+          blogTitle: 'Notes on AI fashion production',
+          blogDescription: 'Comparisons, techniques, and field notes for teams producing on-brand fashion imagery with AI.',
 
           path: 'blog',
           routeBasePath: '/',
@@ -138,28 +144,25 @@ const config = {
           // },
         ],
       },
+      // Mirrors the main site footer (sdbooth app/views/layouts/application.html.slim).
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'Astria - Tailor-made AI',
+          src: 'img/logo@2x.png',
+          href: 'https://www.astria.ai/',
+          height: 40,
+        },
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Use cases',
-          //       to: '/docs/category/use-cases',
-          //     },
-          //     {
-          //       label: 'Features',
-          //       to: '/docs/category/features',
-          //     },
-          //   ],
-          // },
           {
-            title: 'Community',
+            title: 'Astria',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/MtW9gBgsMX',
+                html: '<span style="opacity:.6">Tailor-made AI</span>',
+              },
+              {
+                label: 'Email support',
+                href: 'mailto:support@astria.ai',
               },
               {
                 label: 'Twitter',
@@ -168,24 +171,90 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Company',
             items: [
               {
+                label: 'Terms & Conditions',
+                href: 'https://www.astria.ai/terms',
+              },
+              {
+                label: 'Content Policy',
+                href: 'https://www.astria.ai/content',
+              },
+              {
+                label: 'Privacy',
+                href: 'https://www.astria.ai/privacy',
+              },
+              {
+                label: 'Pricing',
+                href: 'https://www.astria.ai/pricing',
+              },
+              {
+                label: 'Affiliate',
+                href: 'https://www.astria.ai/affiliate',
+              },
+              {
+                label: 'Creative Partner Program',
+                href: 'https://www.astria.ai/creators',
+              },
+              {
+                label: 'Support',
+                href: 'mailto:support@astria.ai',
+              },
+            ],
+          },
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'Academy',
+                href: 'https://www.astria.ai/academy',
+              },
+              {
+                label: 'Workspaces Gallery',
+                href: 'https://www.astria.ai/gallery/workspaces',
+              },
+              {
+                label: '3D - Packshots',
+                href: 'https://www.astria.ai/w/3d-packshots',
+              },
+              {
+                label: 'Blog',
+                href: 'https://blog.astria.ai/',
+              },
+              {
+                label: 'FAQ',
+                href: 'https://docs.astria.ai/docs/use-cases/faq/',
+              },
+              {
+                label: 'API',
+                href: 'https://docs.astria.ai/docs/api/tune/create',
+              },
+            ],
+          },
+          {
+            title: 'Product',
+            items: [
+              {
+                label: 'Photoshop plugin',
+                href: 'https://www.astria.ai/nano-banana-photoshop',
+              },
+              {
                 label: 'Gallery',
-                to: 'https://www.astria.ai/gallery',
+                href: 'https://www.astria.ai/gallery?branch=flux1',
               },
               {
-                label: 'Community examples',
-                href: 'https://astria.ai/community',
+                label: 'Models',
+                href: 'https://www.astria.ai/gallery/tunes',
               },
               {
-                label: 'Home',
-                href: 'https://astria.ai/',
+                label: 'Docs',
+                href: 'https://docs.astria.ai/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Astria, Inc.`,
+        copyright: `© 2022-${new Date().getFullYear()} Astria`,
       },
       prism: {
         theme: lightCodeTheme,

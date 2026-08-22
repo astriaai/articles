@@ -4,6 +4,9 @@ description: "Astria vs Ayna for fashion brands: compare creative direction, pro
 slug: astria-vs-ayna-fashion-ai
 date: 2026-08-22
 hide_table_of_contents: true
+image: /img/blog/astria-vs-ayna-fashion-ai.jpg
+authors: [astria]
+tags: [comparisons]
 keywords:
   - Astria vs Ayna
   - Ayna alternative
