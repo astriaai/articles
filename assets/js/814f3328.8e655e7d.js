@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkastria_docs_2||=[]).push([[472],{5513(s){s.exports=JSON.parse('{"title":"Recent posts","items":[]}')}}]);
