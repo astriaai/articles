@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkastria_docs_2||=[]).push([[4860],{1024(s){s.exports=JSON.parse('{"tags":[{"label":"Comparisons","permalink":"/articles/tags/comparisons","description":"Head-to-head looks at Astria and other AI fashion platforms.","count":7}]}')}}]);
