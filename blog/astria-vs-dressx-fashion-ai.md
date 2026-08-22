@@ -216,6 +216,8 @@ For producing the brand's imagery, yes, and that is the decision this article ad
 
 For adjacent decisions, see how Astria compares with [FASHN](./astria-vs-fashn-fashion-ai.md), [Tellos](./astria-vs-tellos-fashion-ai.md), and [Botika](./astria-vs-botika-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 26, 2026. Key sources include DRESSX's homepage describing its AI suite, its [B2B virtual try-on page](https://dressx.com/b2b/virtual-try-on) with integration options and published outcome claims, and its [Mirror product page](https://dressx.com/b2b/mirror), plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find public pricing for the DRESSX B2B suite in this review.

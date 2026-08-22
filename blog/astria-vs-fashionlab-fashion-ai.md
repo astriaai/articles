@@ -229,6 +229,8 @@ For producing a collection across channels, yes: broader categories, motion, mul
 
 For adjacent decisions, see how Astria compares with [Pixelz](./astria-vs-pixelz-fashion-ai.md), [Stoodio](./astria-vs-stoodio-fashion-ai.md), and [Lookgen](./astria-vs-lookgen-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on September 1, 2026. Key sources include FashionLab's homepage describing its five-step batch flow, model library and digital-twin options, published use cases, creative marketplace, and retouching service, and its pricing page covering the Basic plan's brand, project, and seat limits, add-on costs, and token package rates, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

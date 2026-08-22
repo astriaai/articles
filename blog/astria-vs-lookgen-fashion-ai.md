@@ -227,6 +227,8 @@ For producing a collection across every channel, yes: broader categories, deeper
 
 For adjacent decisions, see how Astria compares with [Looklet](./astria-vs-looklet-fashion-ai.md), [Graswald](./astria-vs-graswald-fashion-ai.md), and [Botika](./astria-vs-botika-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 30, 2026. Key sources include Lookgen's homepage describing its three-step flow, virtual models and brand-only avatars, accessory placement, camera angles, PIM and DAM automation, editorial scenery options, and its published customer testimonials, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find public pricing for Lookgen in this review.

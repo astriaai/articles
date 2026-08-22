@@ -1,10 +1,19 @@
 ---
-unlisted: true
+title: "FaceID: Studio-Quality Portraits Without Training a Model"
+description: "FaceID produces a consistent likeness from a single reference image — no training wait. What it is good at, where a trained model still wins, and how to choose."
+slug: face-id
+date: 2024-04-04
+hide_table_of_contents: true
+authors: [astria]
+tags: [guides]
+keywords:
+  - AI portraits without training
+  - FaceID Astria
+  - instant AI headshot
+  - consistent likeness AI
 ---
 
-# Create Studio-Quality Custom Portraits Instantly with Astria's FaceID Tool
-
-
+*Originally published April 2024. Reviewed August 2026 — see [Where this stands in 2026](#where-this-stands-in-2026) below.*
 
 You can now generate instant custom headshot photos for professional use in just a few clicks.
 
@@ -53,6 +62,8 @@ Several industries could benefit from it. Here are some key ones:
 
 So how do we at Astria.ai come in?
 
+
+<!-- truncate -->
 
 # Astria’s FaceID Feature for Instant Fine-tuning
 
@@ -210,3 +221,12 @@ By implementing FaceID in your tech stack, you unlock the power of real-time, hi
 7. Free-Tier Services
 
 Integrating FaceID into your application is a straightforward process, thanks to Astria.ai’s developer-friendly [API](https://docs.astria.ai/docs/category/api). With just a few lines of code, you can integrate the feature into your tech stack, letting your users generate portraits with minimal waiting time.
+
+## Where this stands in 2026
+
+FaceID's core promise — a consistent likeness without waiting for a model to train — still holds, and the instant-reference approach has since been extended across newer model branches. Two things changed worth knowing:
+
+- **Instant references are no longer only about faces.** The same idea now covers products, poses, backgrounds, and garments, which is what makes a whole photoshoot template reusable rather than just a person.
+- **A trained model still wins on hard likenesses.** For a face that has to hold up across dozens of images at close crop, training on eight to sixteen images remains more reliable than a single reference. FaceID is the fast path, not the strictly better one.
+
+If you are producing portraits for a whole team rather than one person, the constraint is consistency across people — see [AI headshots for teams](./ai-headshots-for-teams.md). For the fashion production equivalent, see the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).

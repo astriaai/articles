@@ -220,6 +220,8 @@ For brands producing on-brand imagery across a collection and multiple channels,
 
 For adjacent decisions, see how Astria compares with [Botika](./astria-vs-botika-fashion-ai.md), [Caimera](./astria-vs-caimera-fashion-ai.md), [Ayna](./astria-vs-ayna-fashion-ai.md), [Rawshot](./astria-vs-rawshot-fashion-ai.md), [FASHN](./astria-vs-fashn-fashion-ai.md), and [Tellos](./astria-vs-tellos-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 24, 2026. Key sources include Looklet's homepage, its product workflow page describing studio capture and the Look Creator styling software, its [pricing page](https://www.looklet.com/pricing/) covering Virtual Studio bundles and the enterprise offering, and its [Saks Fifth Avenue case study](https://www.looklet.com/case-study/saks-fifth-avenue/), plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

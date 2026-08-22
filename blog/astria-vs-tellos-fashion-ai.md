@@ -215,6 +215,8 @@ For brands producing on-brand imagery and motion across a collection and its cha
 
 For adjacent decisions, see how Astria compares with [Botika](./astria-vs-botika-fashion-ai.md), [Caimera](./astria-vs-caimera-fashion-ai.md), [Ayna](./astria-vs-ayna-fashion-ai.md), [Rawshot](./astria-vs-rawshot-fashion-ai.md), and [FASHN](./astria-vs-fashn-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 24, 2026. Key sources include Tellos's homepage, its AI video studio page, its [pricing page](https://www.jointellos.com/pricing) covering studio balances and traffic-tiered storefront plans, and its [Inglot brand story](https://www.jointellos.com/brand-stories/inglot), plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

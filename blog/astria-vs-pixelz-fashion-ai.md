@@ -221,6 +221,8 @@ For brands that want to own a repeatable production capability, yes. Brands that
 
 For adjacent decisions, see how Astria compares with [Looklet](./astria-vs-looklet-fashion-ai.md), [Graswald](./astria-vs-graswald-fashion-ai.md), and [Caimera](./astria-vs-caimera-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 25, 2026. Key sources include Pixelz's homepage and services overview, its [pricing page](https://www.pixelz.com/pricing/) covering plan subscriptions, per-image rates, turnaround times, add-on modules, and professional services, and its published customer material, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

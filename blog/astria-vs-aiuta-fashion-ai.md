@@ -227,6 +227,8 @@ For producing and directing a collection's imagery, yes. Enterprise retailers wh
 
 For adjacent decisions, see how Astria compares with [DRESSX](./astria-vs-dressx-fashion-ai.md), [Pixelz](./astria-vs-pixelz-fashion-ai.md), and [FASHN](./astria-vs-fashn-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 28, 2026. Key sources include Aiuta's [Studio page](https://www.aiuta.com/aiuta-studio) describing its workflow, human QA step, first-pass acceptance rate, and 24–48 hour turnaround, and its [shopper experience page](https://www.aiuta.com/shopper-experience) listing named retail customers and integration options, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find public pricing for either Aiuta product in this review.

@@ -227,6 +227,8 @@ For brands producing a collection across channels, yes. Small teams needing a ha
 
 For adjacent decisions, see how Astria compares with [Stylic](./astria-vs-stylic-fashion-ai.md), [Rawshot](./astria-vs-rawshot-fashion-ai.md), and [Botika](./astria-vs-botika-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 31, 2026. Key sources include Lumoo Air's homepage describing its single-source workflow, capability set, template packages, and real-time collaboration, and its pricing page covering free credits and the Lite, Basic, Pro, and custom tiers with their stated image and video equivalents, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

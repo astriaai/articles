@@ -219,6 +219,8 @@ For producing a fashion collection's imagery, yes: it is built around casting, g
 
 For adjacent decisions, see how Astria compares with [Rawshot](./astria-vs-rawshot-fashion-ai.md), [Graswald](./astria-vs-graswald-fashion-ai.md), and [Tolstoy](./astria-vs-tolstoy-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 27, 2026. Key sources include Figma's [Weave solution page](https://www.figma.com/solutions/figma-ai-tool-weave/), the [Figma Weave product site](https://weave.figma.com/), and Figma's [acquisition announcement](https://www.figma.com/blog/welcome-weavy-to-figma/) dated October 30, 2025, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

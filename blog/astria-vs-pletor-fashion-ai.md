@@ -224,6 +224,8 @@ For producing a fashion collection's imagery, yes. Marketing teams whose bottlen
 
 For adjacent decisions, see how Astria compares with [Tolstoy](./astria-vs-tolstoy-fashion-ai.md), [FLORA](./astria-vs-flora-fashion-ai.md), and [Figma Weave](./astria-vs-figma-weave-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 29, 2026. Key sources include Pletor's homepage describing its orchestration approach, supported models, and marketing use cases, its published customer references, and its [pricing page](https://www.pletor.ai/pricing) covering credit tiers, rollover, and team access, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

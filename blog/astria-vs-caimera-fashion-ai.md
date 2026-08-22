@@ -216,6 +216,10 @@ Caimera is a fast way to produce individual product and ad images on self-serve 
 
 For professional brands producing on-brand imagery across a collection and multiple channels, yes. Buyers who mainly need fast self-serve product imagery may find Caimera sufficient.
 
+For adjacent decisions, see how Astria compares with [Botika](./astria-vs-botika-fashion-ai.md), [Ayna](./astria-vs-ayna-fashion-ai.md), and [Rawshot](./astria-vs-rawshot-fashion-ai.md).
+
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 22, 2026. Key sources include Caimera's product pages for its editorial and swap tools, its pricing and credit documentation, its help center articles on tool selection and campaign ideas, and its case-study library, plus Astria's fashion offering, template gallery, workspace documentation, and video documentation.

@@ -219,6 +219,8 @@ For producing an approved collection across its channels, yes: deeper casting, c
 
 For adjacent decisions, see how Astria compares with [Figma Weave](./astria-vs-figma-weave-fashion-ai.md), [Graswald](./astria-vs-graswald-fashion-ai.md), and [Browzwear](./astria-vs-browzwear-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 28, 2026. Key sources include FLORA's [fashion solution page](https://flora.ai/solution-fashion) describing Fashion Studio, Canvas, and batch application across SKUs, its homepage and published references, and its [pricing page](https://flora.ai/pricing) covering per-seat tiers, seat caps, and included usage, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

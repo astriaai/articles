@@ -217,6 +217,10 @@ Astria is designed around taking an approved brand direction across products and
 
 Yes, when the requirement is professional, brand-specific production rather than standardized PDP replacement. Astria offers the broader creative environment and the higher operational ceiling. Buyers should still test difficult garments for fidelity and collection-wide consistency.
 
+For adjacent decisions, see how Astria compares with [Rawshot](./astria-vs-rawshot-fashion-ai.md), [Caimera](./astria-vs-caimera-fashion-ai.md), and [Ayna](./astria-vs-ayna-fashion-ai.md) — or read the [Botika alternatives](./botika-alternatives.md) roundup.
+
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 22, 2026. Key sources include Botika's product overview, on-model workflow, case studies, pricing, and help center, plus Astria's fashion offering, template gallery, workspace documentation, and video documentation.

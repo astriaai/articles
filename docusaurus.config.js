@@ -40,7 +40,20 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [require.resolve('docusaurus-plugin-image-zoom')],
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom'),
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Legacy article URLs kept alive after re-slugging.
+        redirects: [
+          {from: '/fine-tuning-flux.1', to: '/fine-tuning-flux'},
+          {from: '/on-brand', to: '/ai-headshots-for-teams'},
+          {from: '/virtual-tryon', to: '/virtual-try-on-for-fashion-brands'},
+        ],
+      },
+    ],
+  ],
 
   // Fraunces is the display face for the blog index (hero + featured titles).
   stylesheets: [
@@ -52,16 +65,13 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        // The docs plugin stays enabled only because @easyops-cn/docusaurus-search-local's
+        // SearchBar calls useActiveVersion() unconditionally and throws without it.
+        // Its single page is `unlisted` (noindex + out of the sitemap) and is not indexed
+        // by search. Product documentation lives at https://docs.astria.ai/.
         docs: {
           sidebarCollapsed: false,
-          sidebarPath: require.resolve('./sidebars.js')
-          // path: 'docs',
-          // routeBasePath: '/',
-
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/astriaai/astria-articles/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
           showReadingTime: true,
@@ -83,7 +93,7 @@ const config = {
           lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/articles/search/**'],
+          ignorePatterns: ['/articles/search/**', '/articles/docs/**'],
           filename: 'sitemap.xml',
         },
       }),
@@ -96,7 +106,7 @@ const config = {
       /** @satisfies {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
       ({
         hashed: 'filename',
-        indexDocs: true,
+        indexDocs: false,
         indexBlog: true,
         blogRouteBasePath: '/',
       }),

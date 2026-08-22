@@ -221,6 +221,8 @@ For most brands, yes: broader category coverage, external collaboration and hand
 
 For adjacent decisions, see how Astria compares with [Looklet](./astria-vs-looklet-fashion-ai.md), [Caimera](./astria-vs-caimera-fashion-ai.md), [Ayna](./astria-vs-ayna-fashion-ai.md), and [Botika](./astria-vs-botika-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 25, 2026. Key sources include Graswald's homepage and its stated production workflow, its [VAUDE case study](https://www.graswald.ai/case-study/vaude-produces-on-model-imagery-in-hours), and its [PUMA case study](https://www.graswald.ai/case-study/puma-uses-graswald-ai-to-localise-product-imagery-in-the-us-driving-relevance-and-conversion), plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find a public pricing page for Graswald in this review.

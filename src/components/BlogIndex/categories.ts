@@ -8,4 +8,7 @@ export type BlogCategory = {
 export const blogCategories: BlogCategory[] = [
   {label: 'All articles', to: '/'},
   {label: 'Comparisons', to: '/tags/comparisons/'},
+  {label: 'Guides', to: '/tags/guides/'},
+  {label: 'Economics', to: '/tags/economics/'},
+  {label: 'Engineering', to: '/tags/engineering/'},
 ];

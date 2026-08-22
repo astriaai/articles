@@ -222,6 +222,8 @@ For producing the brand's imagery, yes, and that is the decision this article ad
 
 For adjacent decisions, see how Astria compares with [Looklet](./astria-vs-looklet-fashion-ai.md), [Graswald](./astria-vs-graswald-fashion-ai.md), and [Pixelz](./astria-vs-pixelz-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 26, 2026. Key sources include Browzwear's homepage with its stated platform outcomes and customer base, and its [VStitcher product page](https://browzwear.com/products/v-stitcher) describing virtual twins, fabric physics, fit tools, and tech pack output, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find public pricing for Browzwear in this review.

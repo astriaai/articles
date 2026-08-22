@@ -227,6 +227,8 @@ For producing a collection's imagery, yes: deeper casting, full channel coverage
 
 For adjacent decisions, see how Astria compares with [Browzwear](./astria-vs-browzwear-fashion-ai.md), [FLORA](./astria-vs-flora-fashion-ai.md), and [Graswald](./astria-vs-graswald-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 31, 2026. Key sources include Fermat's homepage with its positioning, tool count, security claims, and named customers, its [photography use case page](https://www.fermat.app/use-cases/photography) describing extraction, visualization, enhancement, and export, and its [pricing page](https://www.fermat.app/pricing) covering credit tiers and per-image and per-video costs, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

@@ -227,6 +227,8 @@ For brands producing on-brand imagery across a collection and its channels, yes.
 
 For adjacent decisions, see how Astria compares with [Botika](./astria-vs-botika-fashion-ai.md), [Rawshot](./astria-vs-rawshot-fashion-ai.md), and [Ayna](./astria-vs-ayna-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 30, 2026. Key sources include Stylic's homepage describing its three-step workflow, model and background libraries, feature list, target audiences, and published statistics, and its pricing tiers, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

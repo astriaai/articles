@@ -213,6 +213,8 @@ For professional brands producing on-brand imagery across a collection and multi
 
 For adjacent decisions, see how Astria compares with [Botika](./astria-vs-botika-fashion-ai.md) and [Caimera](./astria-vs-caimera-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 22, 2026. Key sources include Ayna's homepage and product pages for photography, models, video, and listings, its [pricing page](https://www.getayna.com/pricing) with plan allowances and credit rates, and its case-study library, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
