@@ -98,8 +98,10 @@ We used six B2B buying questions: product fidelity, fashion-specific creative co
 | Motion | A guided fashion-video product | Multiple current video options can animate approved stills in the same workflow | **Astria** |
 | Team production | Team access is advertised on the Advanced plan | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
 | Compounding value | Primarily completes product-photo transformations | SKUs, avatars, templates, approvals, and outputs carry from collection to campaign, video, and social | **Astria** |
+| Collection scale | Guided flow processes a batch, one preset transformation at a time | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
 | Commercial model for brands | Self-serve credit tiers; per-image credits accumulate across every SKU, variant, and channel | Brand pricing scoped to usage and the production engagement | **Astria** |
 | Best fit | Ecommerce teams that need fast, standardized on-model transformations from existing product photos | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
+| Overall | A quick fix for a standardized PDP transformation | The stronger platform for professional fashion production | **Astria** |
 
 Reviewed August 22, 2026; no controlled image-quality benchmark was run.
 

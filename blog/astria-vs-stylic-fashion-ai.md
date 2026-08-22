@@ -110,7 +110,7 @@ We used six B2B buying questions: who the product is designed for, how creative 
 | Collection scale | Bulk and catalogue photoshoots, configured per run | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
 | Commercial model for brands | Low monthly tiers sized for listing volume | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Verifiable proof | Large vendor-published figures without stated methodology | Named fashion brands plus studios and photographers running client work | **Astria** |
-| Entry price and time to first image | Very low cost, roughly three minutes end to end | A production setup that pays back across a collection | **Stylic** |
+| Time to first image | Roughly three minutes end to end, with no setup | A production setup that pays back across a collection | **Stylic** |
 | Best fit | Individual sellers producing listing images cheaply | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | A cheap listing-image generator | The stronger platform for professional fashion production | **Astria** |
 
@@ -146,9 +146,9 @@ With Astria, the stylist sets casting, styling, lighting, crop, and format once,
 
 ## The differences that matter most
 
-### Entry price and time to first image — winner: Stylic
+### Time to first image — winner: Stylic
 
-This is Stylic's genuine edge and the one concession that matters here. Roughly $23 a month and about three minutes from upload to download is a genuinely low barrier, and for a seller listing a handful of products it may be all that is required. No production system competes with that on immediacy, and there is nothing wrong with buying the cheap thing when the cheap thing is sufficient.
+This is Stylic's genuine edge and the one concession that matters here. About three minutes from upload to download, with no setup and nothing to configure beyond two menus, is a genuinely low barrier — and for a seller listing a handful of products it may be all that is required. No production system competes with that on immediacy, and there is nothing wrong with buying the simple thing when the simple thing is sufficient.
 
 ### "Replacing the photographer" versus encoding the photographer — winner: Astria
 
