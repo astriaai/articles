@@ -1,8 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/vsDark');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes: prismThemes} = require('prism-react-renderer');
+
+const lightCodeTheme = prismThemes.vsDark;
+const darkCodeTheme = prismThemes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -19,11 +21,16 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'astriaai', // Usually your GitHub org/user name.
-  projectName: 'astria-articles', // Usually your repo name.
+  projectName: 'articles', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   trailingSlash: true,
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -32,6 +39,8 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [require.resolve('docusaurus-plugin-image-zoom')],
 
   presets: [
     [
@@ -63,14 +72,45 @@ const config = {
         gtag: {
           trackingID: 'G-PR5YMLZ2Y1',
           anonymizeIP: false, // Should IPs be anonymized?
-        }
+        },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/articles/search/**'],
+          filename: 'sitemap.xml',
+        },
+      }),
+    ],
+  ],
+
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @satisfies {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        hashed: 'filename',
+        indexDocs: true,
+        indexBlog: true,
+        blogRouteBasePath: '/',
       }),
     ],
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig & {zoom: object}} */
     ({
+      zoom: {
+        selector: '.markdown img:not([data-no-zoom])',
+        background: {
+          light: 'rgba(255, 255, 255, 0.94)',
+          dark: 'rgba(16, 18, 27, 0.94)',
+        },
+        config: {
+          margin: 32,
+          scrollOffset: 40,
+        },
+      },
       image: 'img/high-quality-finetuning.jpg',
       navbar: {
         title: 'Astria articles',

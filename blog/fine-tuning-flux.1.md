@@ -15,8 +15,8 @@ FLUX.1, launched in August 2024 by Black Forest Labs, represents a significant a
 FLUX.1 is built on a robust foundation of 12 billion parameters, allowing it to deliver exceptional image fidelity and controllability. This model excels in generating high-quality images that cater to a wide range of applications, from artistic creations to detailed photorealistic outputs. The architecture combines the strengths of transformer models and diffusion techniques, enabling FLUX.1 to outperform its predecessors, including SDXL and SD1.5, in terms of image quality and prompt adherence.
 
 
-![alt_text](fine-tuning-flux.1/image1.png)
-![alt_text](fine-tuning-flux.1/image2.png)
+![alt_text][image1]
+![alt_text][image2]
 
 ## Variants of FLUX.1
 
@@ -196,15 +196,15 @@ generate\_images(API\_KEY, MODEL\_ID)
 
 ###   Output
 
-![alt_text](fine-tuning-flux.1/image3.png)
+![alt_text][image3]
 
 **Prompt 2:** A woman dressed in ornate, golden armour, holding a sword, standing on the battlefield at sunrise, with a determined expression.
 
-![alt_text](fine-tuning-flux.1/image4.png)
+![alt_text][image4]
 
 **Prompt 3:** A woman driving a classic pink convertible with a shiny finish, reminiscent of a Barbie car, cruising down a candy-coloured boulevard lined with palm trees. She's wearing a stylish outfit in shades of pink and pastels, with oversized sunglasses and a bright smile. The scene is set in a whimsical, dreamlike world with cotton candy clouds, glittering starbursts in the sky, and playful details like oversized flowers and butterflies floating around
 
-![alt_text](fine-tuning-flux.1/image5.png)
+![alt_text][image5]
 
 ### Guide to Fine-Tuning Pet Photographs
 
@@ -218,11 +218,11 @@ If you have a pet, here’s how you can fine-tune FLUX.1 to generate stunning ne
 
 **Prompt 1**: A dog wearing cool sunglasses, lounging on a beach towel with the ocean in the background, under a colourful beach umbrella.
 
-![alt_text](fine-tuning-flux.1/image6.png)
+![alt_text][image6]
 
 **Prompt 2**: A dog dressed in a tuxedo, sitting at a beautifully set dinner table with a candlelit ambience, looking classy and elegant.
 
-![alt_text](fine-tuning-flux.1/image7.png)
+![alt_text][image7]
 
 ## How Flux.1 Compares to SD1.5 and SDXL
 
