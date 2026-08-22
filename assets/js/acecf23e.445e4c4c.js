@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkastria_docs_2||=[]).push([[903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/articles/","blogTitle":"Notes on AI fashion production","authorsListPath":"/articles/authors"}')}}]);
