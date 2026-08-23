@@ -2,7 +2,7 @@
 title: "Astria vs Tolstoy (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Tolstoy for fashion brands: a bundled commerce platform with an AI content module versus a fashion-specific production system built for collections."
 slug: astria-vs-tolstoy-fashion-ai
-date: 2026-08-27
+date: 2026-08-07
 hide_table_of_contents: true
 image: /img/covers/astria-vs-tolstoy-fashion-ai.jpg
 authors: [astria]
@@ -113,7 +113,7 @@ We used six B2B buying questions: how much of the product is actually about prod
 | Best fit | Shopify brands buying content, shoppable widgets, and an assistant as one bundle | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | A broad commerce stack with content attached | The stronger platform for professional fashion production | **Astria** |
 
-Reviewed August 27, 2026; no controlled image-quality benchmark was run.
+Reviewed August 7, 2026; no controlled image-quality benchmark was run.
 
 ## Tolstoy: three products around the product page
 
@@ -228,7 +228,7 @@ Still narrowing the field? The category map is in [best AI fashion photography p
 
 ## Sources and methodology
 
-This article compares public product information available on August 27, 2026. Key sources include Tolstoy's homepage describing AI Studio, AI Player, and AI Shopper with named customers and published lift figures, and its [pricing page](https://www.gotolstoy.com/pricing) covering bundle and per-product tiers, token allowances, and impression overage rates, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
+This article compares public product information available on August 7, 2026. Key sources include Tolstoy's homepage describing AI Studio, AI Player, and AI Shopper with named customers and published lift figures, and its [pricing page](https://www.gotolstoy.com/pricing) covering bundle and per-product tiers, token allowances, and impression overage rates, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
 
 Pricing, token allowances, product scope, and published metrics can change. Confirm current terms and request methodology for any performance claim before making a decision.
 

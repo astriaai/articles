@@ -2,7 +2,7 @@
 title: "Astria vs Figma Weave (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Figma Weave for fashion brands: a general node-based AI canvas versus a fashion-specific production system for catalog, lookbook, and campaign work."
 slug: astria-vs-figma-weave-fashion-ai
-date: 2026-08-27
+date: 2026-08-08
 hide_table_of_contents: true
 image: /img/covers/astria-vs-figma-weave-fashion-ai.jpg
 authors: [astria]
@@ -112,7 +112,7 @@ We used six B2B buying questions: how much fashion knowledge the product supplie
 | Best fit | Design and creative teams producing many kinds of visual work | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | The most flexible general creative canvas | The stronger platform for professional fashion production | **Astria** |
 
-Reviewed August 27, 2026; no controlled image-quality benchmark was run.
+Reviewed August 8, 2026; no controlled image-quality benchmark was run.
 
 ## Figma Weave: a canvas for building creative pipelines
 
@@ -223,7 +223,7 @@ Still narrowing the field? The category map is in [best AI fashion photography p
 
 ## Sources and methodology
 
-This article compares public product information available on August 27, 2026. Key sources include Figma's [Weave solution page](https://www.figma.com/solutions/figma-ai-tool-weave/), the [Figma Weave product site](https://weave.figma.com/), and Figma's [acquisition announcement](https://www.figma.com/blog/welcome-weavy-to-figma/) dated October 30, 2025, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
+This article compares public product information available on August 8, 2026. Key sources include Figma's [Weave solution page](https://www.figma.com/solutions/figma-ai-tool-weave/), the [Figma Weave product site](https://weave.figma.com/), and Figma's [acquisition announcement](https://www.figma.com/blog/welcome-weavy-to-figma/) dated October 30, 2025, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
 
 Model availability, workflow features, integration scope, and credit terms can change. Confirm current terms and test representative garments before making a production decision.
 

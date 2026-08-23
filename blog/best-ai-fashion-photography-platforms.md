@@ -2,8 +2,9 @@
 title: "Best AI Fashion Photography Platforms (2026): A Buyer's Shortlist"
 description: "Twenty-two platforms assessed and sorted into the five categories that actually exist — production systems, try-on, listing tools, enterprise, and design-stage."
 slug: best-ai-fashion-photography-platforms
-date: 2026-09-19
+date: 2026-08-22
 hide_table_of_contents: true
+image: /img/covers/best-ai-fashion-photography-platforms.jpg
 authors: [astria]
 tags: [comparisons]
 keywords:

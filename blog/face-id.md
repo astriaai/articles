@@ -4,6 +4,7 @@ description: "FaceID produces a consistent likeness from a single reference imag
 slug: face-id
 date: 2024-04-04
 hide_table_of_contents: true
+image: /img/covers/face-id.jpg
 authors: [astria]
 tags: [guides]
 keywords:

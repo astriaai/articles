@@ -2,8 +2,9 @@
 title: "AI vs Traditional Photoshoot: An Honest Cost Comparison"
 description: "The cents-versus-thousands comparison is misleading. A fully-loaded model of both approaches, where the break-even sits, and when a traditional shoot still wins."
 slug: ai-vs-traditional-photoshoot-cost
-date: 2026-09-15
+date: 2026-08-18
 hide_table_of_contents: true
+image: /img/covers/ai-vs-traditional-photoshoot-cost.jpg
 authors: [astria]
 tags: [economics]
 keywords:

@@ -2,8 +2,9 @@
 title: "AI Headshots for Teams: Getting 40 People to Look Like One Company"
 description: "Consumer headshot apps solve one person's problem. A company website needs 40 portraits that match. Here's what changes when the unit of work is the team."
 slug: ai-headshots-for-teams
-date: 2026-09-03
+date: 2026-08-14
 hide_table_of_contents: true
+image: /img/covers/ai-headshots-for-teams.jpg
 authors: [astria]
 tags: [guides]
 keywords:

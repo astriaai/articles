@@ -2,8 +2,9 @@
 title: "What a Fashion Photoshoot Actually Costs (2026 Breakdown)"
 description: "A line-by-line look at fashion photoshoot costs — crew, studio, samples, post — why quotes vary so widely, and the hidden items that blow up budgets."
 slug: fashion-photoshoot-cost
-date: 2026-09-11
+date: 2026-08-17
 hide_table_of_contents: true
+image: /img/covers/fashion-photoshoot-cost.jpg
 authors: [astria]
 tags: [economics]
 keywords:

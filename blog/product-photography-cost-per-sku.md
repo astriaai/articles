@@ -2,8 +2,9 @@
 title: "Product Photography Cost Per SKU: The Number That Runs Your Catalog"
 description: "Cost per SKU is the only imagery metric that scales with your catalog. How to calculate yours properly, why the long tail is underserved, and what changes it."
 slug: product-photography-cost-per-sku
-date: 2026-09-12
+date: 2026-08-17
 hide_table_of_contents: true
+image: /img/covers/product-photography-cost-per-sku.jpg
 authors: [astria]
 tags: [economics]
 keywords:

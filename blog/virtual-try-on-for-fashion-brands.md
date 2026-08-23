@@ -2,8 +2,9 @@
 title: "Virtual Try-On for Fashion Brands (2026): What It Actually Means"
 description: "Two different technologies share the name virtual try-on. Only one of them solves a brand's imagery problem — here's how to tell them apart and what each is for."
 slug: virtual-try-on-for-fashion-brands
-date: 2026-09-02
+date: 2026-08-14
 hide_table_of_contents: true
+image: /img/covers/virtual-try-on-for-fashion-brands.jpg
 authors: [astria]
 tags: [guides]
 keywords:

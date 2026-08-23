@@ -2,7 +2,7 @@
 title: "Astria vs Pletor (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Pletor for fashion brands: an ad-production engine for marketing teams versus a fashion production system for catalog, lookbook, and campaign work."
 slug: astria-vs-pletor-fashion-ai
-date: 2026-08-29
+date: 2026-08-10
 hide_table_of_contents: true
 image: /img/covers/astria-vs-pletor-fashion-ai.jpg
 authors: [astria]
@@ -113,7 +113,7 @@ We used six B2B buying questions: which stage of the funnel each product serves,
 | Best fit | Marketing and growth teams producing high ad variant volume | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | A capable ad-production engine | The stronger platform for professional fashion production | **Astria** |
 
-Reviewed August 29, 2026; no controlled image-quality benchmark was run.
+Reviewed August 10, 2026; no controlled image-quality benchmark was run.
 
 ## Pletor: an engine for campaign versions
 
@@ -228,7 +228,7 @@ Still narrowing the field? The category map is in [best AI fashion photography p
 
 ## Sources and methodology
 
-This article compares public product information available on August 29, 2026. Key sources include Pletor's homepage describing its orchestration approach, supported models, and marketing use cases, its published customer references, and its [pricing page](https://www.pletor.ai/pricing) covering credit tiers, rollover, and team access, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
+This article compares public product information available on August 10, 2026. Key sources include Pletor's homepage describing its orchestration approach, supported models, and marketing use cases, its published customer references, and its [pricing page](https://www.pletor.ai/pricing) covering credit tiers, rollover, and team access, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
 
 Pricing, credit allowances, model availability, and product scope can change. Confirm current terms and test representative garments before making a production decision.
 

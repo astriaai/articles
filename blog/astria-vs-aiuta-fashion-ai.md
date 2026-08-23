@@ -2,7 +2,7 @@
 title: "Astria vs Aiuta (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Aiuta for fashion brands: an enterprise try-on vendor with a QA-delivered studio service versus a production workspace your own creative team controls."
 slug: astria-vs-aiuta-fashion-ai
-date: 2026-08-28
+date: 2026-08-09
 hide_table_of_contents: true
 image: /img/covers/astria-vs-aiuta-fashion-ai.jpg
 authors: [astria]
@@ -114,7 +114,7 @@ We used six B2B buying questions: who controls the creative decision, how long a
 | Best fit | Enterprise retailers buying try-on, with catalog imagery as an add-on | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | A strong try-on vendor with a service attached | The stronger platform for professional fashion production | **Astria** |
 
-Reviewed August 28, 2026; no controlled image-quality benchmark was run.
+Reviewed August 9, 2026; no controlled image-quality benchmark was run.
 
 ## Aiuta: try-on infrastructure, with a studio attached
 
@@ -231,7 +231,7 @@ Still narrowing the field? The category map is in [best AI fashion photography p
 
 ## Sources and methodology
 
-This article compares public product information available on August 28, 2026. Key sources include Aiuta's [Studio page](https://www.aiuta.com/aiuta-studio) describing its workflow, human QA step, first-pass acceptance rate, and 24–48 hour turnaround, and its [shopper experience page](https://www.aiuta.com/shopper-experience) listing named retail customers and integration options, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find public pricing for either Aiuta product in this review.
+This article compares public product information available on August 9, 2026. Key sources include Aiuta's [Studio page](https://www.aiuta.com/aiuta-studio) describing its workflow, human QA step, first-pass acceptance rate, and 24–48 hour turnaround, and its [shopper experience page](https://www.aiuta.com/shopper-experience) listing named retail customers and integration options, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find public pricing for either Aiuta product in this review.
 
 Product scope, turnaround commitments, integrations, and commercial terms can change. Confirm current terms and test representative garments before making a production decision.
 

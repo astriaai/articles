@@ -2,8 +2,9 @@
 title: "Flat Lay to On-Model: Turning Product Shots Into People Wearing Clothes"
 description: "On-model images convert better than flat lays, and cost far more to produce. How the conversion works, which garments survive it, and how to check the output."
 slug: flat-lay-to-on-model
-date: 2026-09-09
+date: 2026-08-15
 hide_table_of_contents: true
+image: /img/covers/flat-lay-to-on-model.jpg
 authors: [astria]
 tags: [guides]
 keywords:

@@ -2,8 +2,9 @@
 title: "AI Jewelry Photography: Where Generic Product Tools Fall Apart"
 description: "Jewelry breaks most AI product photography. Why metal, stones, and scale are uniquely hard, what actually works, and how to review output before it ships."
 slug: ai-jewelry-photography
-date: 2026-09-16
+date: 2026-08-19
 hide_table_of_contents: true
+image: /img/covers/ai-jewelry-photography.jpg
 authors: [astria]
 tags: [guides]
 keywords:

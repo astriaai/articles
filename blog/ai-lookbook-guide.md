@@ -2,8 +2,9 @@
 title: "The AI Lookbook Guide: Producing a Season Without a Shoot Day"
 description: "A lookbook is a narrative, not a grid of products. How to produce one with AI — casting, story, sequencing, and the mistakes that make a lookbook look like a catalog."
 slug: ai-lookbook-guide
-date: 2026-09-05
+date: 2026-08-22
 hide_table_of_contents: true
+image: /img/covers/ai-lookbook-guide.jpg
 authors: [astria]
 tags: [guides]
 keywords:

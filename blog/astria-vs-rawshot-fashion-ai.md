@@ -2,7 +2,7 @@
 title: "Astria vs Rawshot (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Rawshot for fashion brands: compare art direction, casting, catalog consistency, video, collaboration, and production at collection scale."
 slug: astria-vs-rawshot-fashion-ai
-date: 2026-08-23
+date: 2026-08-02
 hide_table_of_contents: true
 image: /img/covers/astria-vs-rawshot-fashion-ai.jpg
 authors: [astria]
@@ -111,7 +111,7 @@ We used six B2B buying questions: how creative direction gets specified, whether
 | Best fit | Solo designers and marketplace sellers needing occasional images fast | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | The easiest on-ramp to an AI fashion image | The stronger platform for professional fashion production | **Astria** |
 
-Reviewed August 23, 2026; no controlled image-quality benchmark was run.
+Reviewed August 2, 2026; no controlled image-quality benchmark was run.
 
 ## Rawshot: removing the prompt, one menu at a time
 
@@ -220,7 +220,7 @@ Still narrowing the field? The category map is in [best AI fashion photography p
 
 ## Sources and methodology
 
-This article compares public product information available on August 23, 2026. Key sources include Rawshot's homepage, its [AI fashion photography solution page](https://rawshot.ai/solution/ai-fashion-photography), and its [pricing page](https://rawshot.ai/pricing) covering plan tiers and token costs, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
+This article compares public product information available on August 2, 2026. Key sources include Rawshot's homepage, its [AI fashion photography solution page](https://rawshot.ai/solution/ai-fashion-photography), and its [pricing page](https://rawshot.ai/pricing) covering plan tiers and token costs, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
 
 Pricing, plan limits, model libraries, compliance scope, and workflow support can change. Confirm current terms and test representative garments before making a production decision.
 

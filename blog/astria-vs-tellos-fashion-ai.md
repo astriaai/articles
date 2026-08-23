@@ -2,7 +2,7 @@
 title: "Astria vs Tellos (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Tellos for fashion brands: compare AI fashion video, shoppable storefront content, art direction, catalog production, collaboration, and scale."
 slug: astria-vs-tellos-fashion-ai
-date: 2026-08-24
+date: 2026-08-04
 hide_table_of_contents: true
 image: /img/covers/astria-vs-tellos-fashion-ai.jpg
 authors: [astria]
@@ -110,7 +110,7 @@ We used six B2B buying questions: how creative direction is specified and reused
 | Best fit | Ecommerce teams adding product video to a Shopify storefront and social feeds | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | The fastest route to storefront and social video | The stronger platform for professional fashion production | **Astria** |
 
-Reviewed August 24, 2026; no controlled image-quality benchmark was run.
+Reviewed August 4, 2026; no controlled image-quality benchmark was run.
 
 ## Tellos: video-first content for the storefront
 
@@ -219,7 +219,7 @@ Still narrowing the field? The category map is in [best AI fashion photography p
 
 ## Sources and methodology
 
-This article compares public product information available on August 24, 2026. Key sources include Tellos's homepage, its AI video studio page, its [pricing page](https://www.jointellos.com/pricing) covering studio balances and traffic-tiered storefront plans, and its [Inglot brand story](https://www.jointellos.com/brand-stories/inglot), plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
+This article compares public product information available on August 4, 2026. Key sources include Tellos's homepage, its AI video studio page, its [pricing page](https://www.jointellos.com/pricing) covering studio balances and traffic-tiered storefront plans, and its [Inglot brand story](https://www.jointellos.com/brand-stories/inglot), plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
 
 Pricing, plan limits, model libraries, and workflow support can change. Confirm current terms and test representative products before making a production decision.
 

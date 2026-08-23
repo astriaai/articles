@@ -2,8 +2,9 @@
 title: "AI Photoshoots for Fashion Brands: The Complete Guide (2026)"
 description: "How AI fashion photoshoots actually work in production — casting, treatments, collection scale, cost, and the failure modes nobody demos. A practical guide."
 slug: ai-fashion-photoshoot-guide
-date: 2026-09-04
+date: 2026-08-23
 hide_table_of_contents: true
+image: /img/covers/ai-fashion-photoshoot-guide.jpg
 authors: [astria]
 tags: [guides]
 keywords:

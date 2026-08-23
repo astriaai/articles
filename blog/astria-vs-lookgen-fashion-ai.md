@@ -2,7 +2,7 @@
 title: "Astria vs Lookgen (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Lookgen for fashion brands: styled outfit generation with PIM publishing versus a full production system for catalog, campaign, social, and motion."
 slug: astria-vs-lookgen-fashion-ai
-date: 2026-08-30
+date: 2026-08-11
 hide_table_of_contents: true
 image: /img/covers/astria-vs-lookgen-fashion-ai.jpg
 authors: [astria]
@@ -114,7 +114,7 @@ We used six B2B buying questions: what the product treats as the unit of work, h
 | Best fit | Retailers merchandising styled combinations into a catalog | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | A focused look-merchandising engine | The stronger platform for professional fashion production | **Astria** |
 
-Reviewed August 30, 2026; no controlled image-quality benchmark was run.
+Reviewed August 11, 2026; no controlled image-quality benchmark was run.
 
 ## Lookgen: the look as the product
 
@@ -231,7 +231,7 @@ Still narrowing the field? The category map is in [best AI fashion photography p
 
 ## Sources and methodology
 
-This article compares public product information available on August 30, 2026. Key sources include Lookgen's homepage describing its three-step flow, virtual models and brand-only avatars, accessory placement, camera angles, PIM and DAM automation, editorial scenery options, and its published customer testimonials, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find public pricing for Lookgen in this review.
+This article compares public product information available on August 11, 2026. Key sources include Lookgen's homepage describing its three-step flow, virtual models and brand-only avatars, accessory placement, camera angles, PIM and DAM automation, editorial scenery options, and its published customer testimonials, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation. We did not find public pricing for Lookgen in this review.
 
 Product scope, integrations, and commercial terms can change. Confirm current terms and test representative garments before making a production decision.
 

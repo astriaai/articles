@@ -2,8 +2,9 @@
 title: "AI Footwear Photography: Packshots, On-Foot, and the Shoes That Fight Back"
 description: "Footwear has its own conventions — three-quarter hero, sole shot, on-foot context. What AI handles well, where it fails, and how to review shoe imagery."
 slug: ai-footwear-photography
-date: 2026-09-17
+date: 2026-08-19
 hide_table_of_contents: true
+image: /img/covers/ai-footwear-photography.jpg
 authors: [astria]
 tags: [guides]
 keywords:

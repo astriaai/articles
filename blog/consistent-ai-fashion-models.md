@@ -2,8 +2,9 @@
 title: "How to Keep the Same AI Model Across a Whole Collection"
 description: "Casting drift is the reason AI catalogs look wrong. Why consistency breaks, the four kinds of consistency you actually need, and how to hold all of them."
 slug: consistent-ai-fashion-models
-date: 2026-09-08
+date: 2026-08-15
 hide_table_of_contents: true
+image: /img/covers/consistent-ai-fashion-models.jpg
 authors: [astria]
 tags: [guides]
 keywords:

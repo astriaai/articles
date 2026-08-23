@@ -2,8 +2,9 @@
 title: "How to Create a Lookbook: A Working Process from Brief to Delivery"
 description: "The practical steps behind a fashion lookbook — brief, casting, shot list, sequencing, formats, and distribution — plus where AI production fits into each stage."
 slug: how-to-create-a-lookbook
-date: 2026-09-10
+date: 2026-08-16
 hide_table_of_contents: true
+image: /img/covers/how-to-create-a-lookbook.jpg
 authors: [astria]
 tags: [guides]
 keywords:

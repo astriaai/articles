@@ -2,7 +2,7 @@
 title: "Astria vs Looklet (2026): Which Is Better for Fashion Brands?"
 description: "Astria vs Looklet for fashion brands: compare studio capture requirements, digitized models, creative direction, channel coverage, collaboration, and cost."
 slug: astria-vs-looklet-fashion-ai
-date: 2026-08-24
+date: 2026-08-04
 hide_table_of_contents: true
 image: /img/covers/astria-vs-looklet-fashion-ai.jpg
 authors: [astria]
@@ -111,7 +111,7 @@ We used six B2B buying questions: what infrastructure the workflow requires befo
 | Best fit | Retail groups running in-house capture studios at very high catalog volume | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | The mature choice for industrial catalog capture | The stronger platform for professional fashion production | **Astria** |
 
-Reviewed August 24, 2026; no controlled image-quality benchmark was run.
+Reviewed August 4, 2026; no controlled image-quality benchmark was run.
 
 ## Looklet: digital styling on top of a capture operation
 
@@ -224,7 +224,7 @@ Still narrowing the field? The category map is in [best AI fashion photography p
 
 ## Sources and methodology
 
-This article compares public product information available on August 24, 2026. Key sources include Looklet's homepage, its product workflow page describing studio capture and the Look Creator styling software, its [pricing page](https://www.looklet.com/pricing/) covering Virtual Studio bundles and the enterprise offering, and its [Saks Fifth Avenue case study](https://www.looklet.com/case-study/saks-fifth-avenue/), plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
+This article compares public product information available on August 4, 2026. Key sources include Looklet's homepage, its product workflow page describing studio capture and the Look Creator styling software, its [pricing page](https://www.looklet.com/pricing/) covering Virtual Studio bundles and the enterprise offering, and its [Saks Fifth Avenue case study](https://www.looklet.com/case-study/saks-fifth-avenue/), plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
 
 Pricing, plan limits, model portfolios, and workflow support can change. Confirm current terms and test representative garments before making a production decision.
 

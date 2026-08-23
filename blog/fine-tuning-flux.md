@@ -4,6 +4,7 @@ description: "Train a FLUX.1 LoRA on your own images through Astria's API — ke
 slug: fine-tuning-flux
 date: 2024-09-18
 hide_table_of_contents: true
+image: /img/covers/fine-tuning-flux.jpg
 authors: [astria]
 tags: [engineering]
 keywords:

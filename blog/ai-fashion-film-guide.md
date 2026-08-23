@@ -2,8 +2,9 @@
 title: "AI Fashion Film: Turning a Campaign Into Motion"
 description: "Fashion video is where AI production gets hardest and most valuable. Shot structure, continuity across cuts, what still breaks, and a realistic sequence."
 slug: ai-fashion-film-guide
-date: 2026-09-18
+date: 2026-08-20
 hide_table_of_contents: true
+image: /img/covers/ai-fashion-film-guide.jpg
 authors: [astria]
 tags: [guides]
 keywords:

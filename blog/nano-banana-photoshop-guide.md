@@ -2,8 +2,9 @@
 title: "Nano Banana in Photoshop: Generative Editing Without Leaving the Document"
 description: "How the Astria Photoshop plugin brings Nano Banana, Seedream, and Flux into a live document — selection-based edits, layer workflow, and when to use which model."
 slug: nano-banana-photoshop-guide
-date: 2026-09-23
+date: 2026-08-21
 hide_table_of_contents: true
+image: /img/covers/nano-banana-photoshop-guide.jpg
 authors: [astria]
 tags: [engineering]
 keywords:

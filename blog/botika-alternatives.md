@@ -2,8 +2,9 @@
 title: "Botika Alternatives (2026): What to Look at Instead, and Why"
 description: "Comparing Botika alternatives for AI fashion photography — production systems, try-on tools, and listing generators, sorted by the problem each one actually solves."
 slug: botika-alternatives
-date: 2026-09-22
+date: 2026-08-21
 hide_table_of_contents: true
+image: /img/covers/botika-alternatives.jpg
 authors: [astria]
 tags: [comparisons]
 keywords:
