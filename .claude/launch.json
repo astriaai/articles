@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "articles",
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": ["start", "--no-open"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}

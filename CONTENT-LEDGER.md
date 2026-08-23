@@ -79,7 +79,7 @@ Kept off the index and out of the sitemap. Revisit only if the strategy changes.
 
 ## Data review — 2026-10-04
 
-The content program is **paused** as of 2026-08-23. Forty-three articles are published across
+The content program is **paused** as of 2026-08-23. Forty-four articles are published across
 four clusters and the on-page work from the SEO plan is complete. No further articles until
 this review, because every keyword target so far is qualitative SERP inference and expanding
 blind is worth less than expanding what actually moves.
@@ -115,7 +115,7 @@ compare against Pages and Queries tabs. Also check Indexing → Pages for anythi
 "AI fashion models" category page, `ghost-mannequin-alternative`, additional video pieces,
 and further `<competitor> alternatives` pages beyond the Botika pilot.
 
-**The likely real bottleneck:** off-page. Forty-three internally well-linked pages with no
+**The likely real bottleneck:** off-page. Forty-four internally well-linked pages with no
 external backlinks will not rank on competitive head terms. The educator/partner program is
 the backlink engine identified in the internal GTM notes, and `/fashion-educators` is still
 a 404.

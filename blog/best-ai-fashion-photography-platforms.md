@@ -1,6 +1,6 @@
 ---
 title: "Best AI Fashion Photography Platforms (2026): A Buyer's Shortlist"
-description: "Twenty-five platforms assessed and sorted into the five categories that actually exist — production systems, try-on, listing tools, enterprise, and design-stage."
+description: "Twenty-six platforms assessed and sorted into the five categories that actually exist — production systems, try-on, listing tools, enterprise, and design-stage."
 slug: best-ai-fashion-photography-platforms
 date: 2026-08-22
 hide_table_of_contents: true
@@ -147,6 +147,8 @@ Cheap, fast, and genuinely sufficient for marketplace sellers. Buy one if listin
 **Lookgen** — styled outfit generation with PIM publishing. [Full comparison](./astria-vs-lookgen-fashion-ai.md).
 
 **Emilia AI Studio** — a general ecommerce product studio where clothing is one of six categories, with an unusually good hands-on editor and a free tier. [Full comparison](./astria-vs-emilia-fashion-ai.md).
+
+**Rewarx Studio** — an AI product-photography suite spanning 20+ industries, with ghost mannequin, group shots, mockups, and marketplace-formatted listing sets for Amazon, Etsy, and eBay. Metered in credits, with 4K at triple a standard frame. [Full comparison](./astria-vs-rewarx-fashion-ai.md).
 
 ## Enterprise and managed services
 
