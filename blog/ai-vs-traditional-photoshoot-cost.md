@@ -165,6 +165,8 @@ Most brands need both, for different work — which is the actual answer, and th
 4. Extend to **next season**. Traditional starts from zero; AI starts from the approved treatment.
 5. Add the **speed-to-listing value** if your category is seasonal.
 
+For step one, the [photoshoot calculator](https://www.astria.ai/photoshoot-calculator) will read your storefront and count the products needing imagery, which is usually the number people guess worst.
+
 Do this on real numbers rather than published averages. The result will not match anyone's marketing claim in either direction, and it will be the number your decision should actually rest on.
 
 ## Frequently asked questions
@@ -189,4 +191,4 @@ When the photograph must document something real — a specific person, place, o
 
 Usually not the per-image price. It is the removal of scheduling — no model booking, studio hire, or sample shipping — and the collapse in the cost of revision, since a change of mind after approval becomes an edit rather than a reshoot.
 
-[Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+[Price your catalog with the photoshoot calculator](https://www.astria.ai/photoshoot-calculator), or [explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).

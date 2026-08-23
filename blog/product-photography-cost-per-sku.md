@@ -172,6 +172,8 @@ For your own catalog, work out:
 
 If step five is uncomfortable for the median product, you have quantified why your long tail looks the way it does. Then model the alternative honestly: up-front direction cost, plus per-variant generation and review, divided across the same SKU count.
 
+If you would rather not assemble step two by hand, the [photoshoot calculator](https://www.astria.ai/photoshoot-calculator) reads your storefront, counts the products that need imagery, and prices the coverage tiers against that count.
+
 The full side-by-side is in [AI versus traditional photoshoot cost](./ai-vs-traditional-photoshoot-cost.md), and the traditional line items are broken down in [what a fashion photoshoot costs](./fashion-photoshoot-cost.md).
 
 ## Frequently asked questions
@@ -196,4 +198,4 @@ For accuracy, yes — recolouring an image is a common shortcut and a common sou
 
 There is no universal figure — it depends on price point, margin, and expected units. The useful test is relative: your imagery cost per SKU should be a defensible fraction of the gross margin that SKU is expected to generate over its life.
 
-[Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+[Price your catalog with the photoshoot calculator](https://www.astria.ai/photoshoot-calculator), or [explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).

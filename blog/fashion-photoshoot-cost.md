@@ -155,7 +155,7 @@ Counted properly, the per-image gap narrows considerably. It remains large — b
 - **The long tail becomes affordable.** Products that could never justify a shoot day can be presented properly — which is where the revenue argument usually lives.
 - **Direction is retained.** The approved treatment is reusable next season rather than expiring with the shoot.
 
-The side-by-side model is worked through in [AI versus traditional photoshoot cost](./ai-vs-traditional-photoshoot-cost.md), and the per-variant view in [product photography cost per SKU](./product-photography-cost-per-sku.md).
+The side-by-side model is worked through in [AI versus traditional photoshoot cost](./ai-vs-traditional-photoshoot-cost.md), and the per-variant view in [product photography cost per SKU](./product-photography-cost-per-sku.md). For a figure against your own catalog rather than a worked example, the [photoshoot calculator](https://www.astria.ai/photoshoot-calculator) counts the products in your store that need imagery and prices the coverage from there.
 
 ## How to compare two quotes properly
 
@@ -192,4 +192,4 @@ Highly variable, but a well-run ecommerce day produces far more usable frames th
 
 Per image, dramatically. Fully loaded, the gap is smaller than headline figures suggest once setup, review, rejected variants, and staff time are counted. The larger practical saving is usually the removal of scheduling and sample logistics rather than the per-image price.
 
-[Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+[Price your catalog with the photoshoot calculator](https://www.astria.ai/photoshoot-calculator), or [explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
