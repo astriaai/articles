@@ -73,14 +73,63 @@ Kept off the index and out of the sitemap. Revisit only if the strategy changes.
 | multi-pass-inference | Technique is superseded; retained for inbound links |
 | real-estate | Off-strategy for the fashion positioning |
 
+## Data review — 2026-10-04
+
+The content program is **paused** as of 2026-08-23. Forty articles are published across
+four clusters and the on-page work from the SEO plan is complete. No further articles until
+this review, because every keyword target so far is qualitative SERP inference and expanding
+blind is worth less than expanding what actually moves.
+
+**Pull:** Search Console → Performance → filter Page contains `/articles/`, last 28 days,
+compare against Pages and Queries tabs. Also check Indexing → Pages for anything excluded.
+
+**Decision rules — apply in this order:**
+
+1. **Not indexed?** Fix that before reading anything else. A cluster showing zero
+   impressions because it was never crawled is not a demand signal.
+2. **Positions 11–30** — the highest-value work. These are one solid pass from page one.
+   Strengthen the page, add internal links to it, expand the section matching the query.
+3. **Impressions with near-zero CTR** — a title/description problem, not a content problem.
+   Rewrite the meta description; the page is already ranking.
+4. **Queries with impressions and no matching page** — the best new-article candidates,
+   because demand is demonstrated rather than assumed.
+5. **Cluster at zero impressions 6+ weeks after indexation** — demote its remaining backlog
+   rather than pushing through. Named in the plan as the kill criterion.
+
+**Specific questions to answer:**
+
+- Do the 22 comparisons rank for their own `astria vs <competitor>` terms? If not, that is
+  an indexation or authority problem, not a content one.
+- Does `best-ai-fashion-photography-platforms` pick up any "best AI fashion" variants? It is
+  the highest-ceiling page published.
+- Does the economics cluster show any `cost per sku` / `photoshoot cost` impressions? That
+  cluster was the strategic bet and has the weakest competitive precedent.
+- Is `ai-lookbook-guide` ranking for "ai lookbook"? It was picked as the most winnable
+  head term on the whole list; if it does not rank, the difficulty estimates were wrong.
+
+**Known gaps deliberately left unwritten** (revisit only if data supports them): an
+"AI fashion models" category page, `ghost-mannequin-alternative`, additional video pieces,
+and further `<competitor> alternatives` pages beyond the Botika pilot.
+
+**The likely real bottleneck:** off-page. Forty internally well-linked pages with no
+external backlinks will not rank on competitive head terms. The educator/partner program is
+the backlink engine identified in the internal GTM notes, and `/fashion-educators` is still
+a 404.
+
+
 ## Open items
 
-- **Cover images.** New articles ship without `image:` frontmatter, so the index renders a
-  letter card and social shares fall back to the site-wide default. Covers belong in
-  `static/img/covers/<slug>.jpg` in the lilac-editorial series. Never place assets under a
-  path containing `blog` — the www.astria.ai proxy 403s any `/articles/` URL containing it.
-- **Search Console.** Confirm `/articles/` is covered by the www.astria.ai property, submit
-  `/articles/sitemap.xml`, and verify the proxy is not blocking Googlebot on article paths.
+- **Search Console.** Confirm `/articles/` coverage in the www.astria.ai property and run
+  URL Inspection on a few new URLs. Discovery is already wired correctly — robots.txt points
+  to the root sitemap index, which lists `/articles/sitemap.xml`, and Googlebot returns 200
+  on articles, tag pages, covers, and the sitemap. Google's sitemap ping endpoint was retired
+  in 2023 and now 404s, so Search Console is the only submission route.
+- **Root sitemap `lastmod`.** In `astria.ai/sitemap.xml`, the `/articles/sitemap.xml` entry
+  carries no `<lastmod>`, unlike its siblings. Adding one signals freshness for re-crawl.
+  Lives in the main app repo, not here.
+- **Covers.** Done — all 40 published posts have one in the lilac-editorial series. Keep new
+  ones in `static/img/covers/<slug>.jpg`, and never under a path containing `blog`: the
+  www.astria.ai proxy 403s any `/articles/` URL containing that string.
 - **Alternatives cluster.** `botika-alternatives` is the pilot. Extend to other competitors
   only where query data shows the "<competitor> alternatives" intent is distinct from the
   "astria vs <competitor>" page already ranking.
