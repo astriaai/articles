@@ -129,10 +129,14 @@ const config = {
       },
       image: 'img/high-quality-finetuning.jpg',
       navbar: {
-        title: 'Astria articles',
+        title: 'Astria',
+        // The brand (logo + title) leaves the docs site for the main product
+        // site; the articles index gets its own navbar item below.
         logo: {
           alt: 'Astria',
           src: 'img/logo@2x.png',
+          href: 'https://www.astria.ai/',
+          target: '_self',
         },
         items: [
           // {
@@ -141,12 +145,7 @@ const config = {
           //   position: 'left',
           //   label: 'Use cases',
           // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://www.astria.ai/',
-            label: 'Home',
-            // position: 'right',
-          },
+          {to: '/', label: 'Articles', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
