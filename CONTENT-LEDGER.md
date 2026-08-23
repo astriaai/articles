@@ -47,6 +47,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | astria-vs-fermat-fashion-ai | astria vs fermat | 2026-08-12 | 2026-08-22 | P F S | 2026-11-21 | comparisons |
 | astria-vs-fashionlab-fashion-ai | astria vs fashionlab | 2026-08-13 | 2026-08-22 | P F S | 2026-11-21 | comparisons |
 | astria-vs-lumoo-fashion-ai | astria vs lumoo | 2026-08-13 | 2026-08-22 | P F S | 2026-11-21 | comparisons |
+| astria-vs-emilia-fashion-ai | astria vs emilia ai studio | 2026-08-14 | 2026-08-22 | P F S | 2026-11-21 | comparisons |
 | ai-headshots-for-teams | ai headshots for teams | 2026-08-14 | 2026-08-22 | F L | 2027-02-20 | guides |
 | virtual-try-on-for-fashion-brands | virtual try on for brands | 2026-08-14 | 2026-08-22 | F L | 2027-02-20 | guides |
 | consistent-ai-fashion-models | consistent ai models across images | 2026-08-15 | 2026-08-22 | F M | 2027-02-20 | guides |
@@ -63,6 +64,9 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | ai-lookbook-guide | ai lookbook | 2026-08-22 | 2026-08-22 | F | 2027-02-20 | guides |
 | best-ai-fashion-photography-platforms | best ai fashion photography platforms | 2026-08-22 | 2026-08-22 | P F S | 2026-11-21 | comparisons |
 | ai-fashion-photoshoot-guide | ai fashion photoshoot | 2026-08-23 | 2026-08-22 | F | 2027-02-21 | guides |
+| astria-vs-rewarx-fashion-ai | astria vs rewarx | 2026-08-23 | 2026-08-23 | P F S | 2026-11-21 | comparisons |
+| astria-vs-wearview-fashion-ai | astria vs wearview | 2026-08-23 | 2026-08-23 | P F S | 2026-11-21 | comparisons |
+| astria-vs-stytrix-fashion-ai | astria vs stytrix | 2026-08-23 | 2026-08-23 | P F S | 2026-11-21 | comparisons |
 
 ## Unlisted (deliberately noindexed)
 
@@ -75,7 +79,7 @@ Kept off the index and out of the sitemap. Revisit only if the strategy changes.
 
 ## Data review — 2026-10-04
 
-The content program is **paused** as of 2026-08-23. Forty articles are published across
+The content program is **paused** as of 2026-08-23. Forty-three articles are published across
 four clusters and the on-page work from the SEO plan is complete. No further articles until
 this review, because every keyword target so far is qualitative SERP inference and expanding
 blind is worth less than expanding what actually moves.
@@ -111,7 +115,7 @@ compare against Pages and Queries tabs. Also check Indexing → Pages for anythi
 "AI fashion models" category page, `ghost-mannequin-alternative`, additional video pieces,
 and further `<competitor> alternatives` pages beyond the Botika pilot.
 
-**The likely real bottleneck:** off-page. Forty internally well-linked pages with no
+**The likely real bottleneck:** off-page. Forty-three internally well-linked pages with no
 external backlinks will not rank on competitive head terms. The educator/partner program is
 the backlink engine identified in the internal GTM notes, and `/fashion-educators` is still
 a 404.
@@ -127,7 +131,7 @@ a 404.
 - **Root sitemap `lastmod`.** In `astria.ai/sitemap.xml`, the `/articles/sitemap.xml` entry
   carries no `<lastmod>`, unlike its siblings. Adding one signals freshness for re-crawl.
   Lives in the main app repo, not here.
-- **Covers.** Done — all 40 published posts have one in the lilac-editorial series. Keep new
+- **Covers.** Done — all 43 published posts have one in the lilac-editorial series. Keep new
   ones in `static/img/covers/<slug>.jpg`, and never under a path containing `blog`: the
   www.astria.ai proxy 403s any `/articles/` URL containing that string.
 - **Alternatives cluster.** `botika-alternatives` is the pilot. Extend to other competitors

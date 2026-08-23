@@ -1,6 +1,6 @@
 ---
 title: "Best AI Fashion Photography Platforms (2026): A Buyer's Shortlist"
-description: "Twenty-two platforms assessed and sorted into the five categories that actually exist — production systems, try-on, listing tools, enterprise, and design-stage."
+description: "Twenty-five platforms assessed and sorted into the five categories that actually exist — production systems, try-on, listing tools, enterprise, and design-stage."
 slug: best-ai-fashion-photography-platforms
 date: 2026-08-22
 hide_table_of_contents: true
@@ -130,6 +130,8 @@ Two different products share this name — see [virtual try-on for fashion brand
 
 **FASHN** — try-on and model generation aimed at brands and creative teams. [Full comparison](./astria-vs-fashn-fashion-ai.md).
 
+**WearView** — fashion-first garment-to-model generation with reusable model personas, pose control, ghost mannequin, and short-form video. Fast, and scoped to the product page. [Full comparison](./astria-vs-wearview-fashion-ai.md).
+
 **Aiuta** — enterprise try-on with a QA-delivered studio service. Suited to buyers who want output delivered rather than a tool to operate. [Full comparison](./astria-vs-aiuta-fashion-ai.md).
 
 **DRESSX** — shopper-facing try-on and digital fashion. A storefront experience, not a production tool. [Full comparison](./astria-vs-dressx-fashion-ai.md).
@@ -144,6 +146,8 @@ Cheap, fast, and genuinely sufficient for marketplace sellers. Buy one if listin
 
 **Lookgen** — styled outfit generation with PIM publishing. [Full comparison](./astria-vs-lookgen-fashion-ai.md).
 
+**Emilia AI Studio** — a general ecommerce product studio where clothing is one of six categories, with an unusually good hands-on editor and a free tier. [Full comparison](./astria-vs-emilia-fashion-ai.md).
+
 ## Enterprise and managed services
 
 **Pixelz** — managed post-production at scale. If you want a service level rather than software, this is a different and legitimate answer to the same problem. [Full comparison](./astria-vs-pixelz-fashion-ai.md).
@@ -155,6 +159,8 @@ Cheap, fast, and genuinely sufficient for marketplace sellers. Buy one if listin
 These are frequently mistaken for production tools. They are upstream or sideways of it.
 
 **FLORA** — design-stage ideation across a broad model canvas. [Full comparison](./astria-vs-flora-fashion-ai.md).
+
+**StyTrix** — a fashion-specific design-room canvas built around killing physical samples: sketches, technical flats, split layers, and client proposals. [Full comparison](./astria-vs-stytrix-fashion-ai.md).
 
 **Figma Weave** — a general node-based AI canvas. Powerful and not fashion-specific. [Full comparison](./astria-vs-figma-weave-fashion-ai.md).
 
