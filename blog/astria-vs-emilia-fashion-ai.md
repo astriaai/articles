@@ -230,6 +230,8 @@ For brands producing a collection across channels, yes: fashion-specific depth, 
 
 For adjacent decisions, see how Astria compares with [Stylic](./astria-vs-stylic-fashion-ai.md), [Lumoo](./astria-vs-lumoo-fashion-ai.md), and [Botika](./astria-vs-botika-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 14, 2026. Key sources include Emilia AI Studio's homepage and studio interface describing its three output types, six category libraries, campaign kits, and editor operations, its [about page](https://ai.emilia.digital/en/about) with company background and published statistics, and its [pricing page](https://ai.emilia.digital/en/pricing) covering credit tiers, per-resolution credit costs, and the custom presenter, custom style, and storage limits on each plan, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.

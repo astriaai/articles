@@ -234,6 +234,8 @@ For brands producing a collection across channels, yes: campaign and editorial w
 
 For adjacent decisions, see how Astria compares with [FASHN](./astria-vs-fashn-fashion-ai.md), [Botika](./astria-vs-botika-fashion-ai.md), and [Lookgen](./astria-vs-lookgen-fashion-ai.md).
 
+Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
 ## Sources and methodology
 
 This article compares public product information available on August 23, 2026. Key sources include WearView's [homepage](https://www.wearview.co/) describing its virtual try-on, product-to-model, model creation, consistent models, pose control, ghost mannequin, model swap, and video features along with its published statistics, its [virtual try-on page](https://www.wearview.co/virtual-try-on) covering accepted inputs, output resolutions, and commercial rights, its [virtual model page](https://www.wearview.co/virtual-model) covering reusable personas and casting options, and its [pricing page](https://www.wearview.co/pricing) covering plan tiers, per-resolution and per-video credit costs, rollover rules, team seats, and API availability, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, API documentation, and video documentation.
