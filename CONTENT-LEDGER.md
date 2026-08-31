@@ -67,6 +67,10 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | astria-vs-rewarx-fashion-ai | astria vs rewarx | 2026-08-23 | 2026-08-23 | P F S | 2026-11-21 | comparisons |
 | astria-vs-wearview-fashion-ai | astria vs wearview | 2026-08-23 | 2026-08-23 | P F S | 2026-11-21 | comparisons |
 | astria-vs-stytrix-fashion-ai | astria vs stytrix | 2026-08-23 | 2026-08-23 | P F S | 2026-11-21 | comparisons |
+| 3d-packshots-ecommerce | 3d packshots | 2026-08-31 | 2026-08-31 | F S | 2026-11-30 | guides |
+| ghost-mannequin-photography-ecommerce | ghost mannequin photography | 2026-08-31 | 2026-08-31 | F | 2027-02-28 | guides |
+| shopify-product-media-guide | shopify product media | 2026-08-31 | 2026-08-31 | F | 2026-11-30 | guides |
+| amazon-product-images-apparel | amazon product images apparel | 2026-08-31 | 2026-08-31 | F | 2026-11-30 | guides |
 
 ## Unlisted (deliberately noindexed)
 
@@ -79,10 +83,11 @@ Kept off the index and out of the sitemap. Revisit only if the strategy changes.
 
 ## Data review — 2026-10-04
 
-The content program is **paused** as of 2026-08-23. Forty-four articles are published across
-four clusters and the on-page work from the SEO plan is complete. No further articles until
-this review, because every keyword target so far is qualitative SERP inference and expanding
-blind is worth less than expanding what actually moves.
+The content program was **paused** on 2026-08-23 after forty-four articles. Four explicitly
+authorized product-visual pilots were added on 2026-08-31 after a cannibalization review:
+3D packshots, ghost mannequin photography, Shopify product media, and Amazon apparel images.
+The wider pause remains in force until this review; do not continue the 24-article backlog
+without query or performance evidence.
 
 **Pull:** Search Console → Performance → filter Page contains `/articles/`, last 28 days,
 compare against Pages and Queries tabs. Also check Indexing → Pages for anything excluded.
@@ -131,7 +136,7 @@ a 404.
 - **Root sitemap `lastmod`.** In `astria.ai/sitemap.xml`, the `/articles/sitemap.xml` entry
   carries no `<lastmod>`, unlike its siblings. Adding one signals freshness for re-crawl.
   Lives in the main app repo, not here.
-- **Covers.** Done — all 43 published posts have one in the lilac-editorial series. Keep new
+- **Covers.** Done — all 48 indexed posts have one in the lilac-editorial series. Keep new
   ones in `static/img/covers/<slug>.jpg`, and never under a path containing `blog`: the
   www.astria.ai proxy 403s any `/articles/` URL containing that string.
 - **Alternatives cluster.** `botika-alternatives` is the pilot. Extend to other competitors
