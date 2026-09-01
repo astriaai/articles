@@ -71,6 +71,8 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | ghost-mannequin-photography-ecommerce | ghost mannequin photography | 2026-08-31 | 2026-08-31 | F | 2027-02-28 | guides |
 | shopify-product-media-guide | shopify product media | 2026-08-31 | 2026-08-31 | F | 2026-11-30 | guides |
 | amazon-product-images-apparel | amazon product images apparel | 2026-08-31 | 2026-08-31 | F | 2026-11-30 | guides |
+| best-3d-packshot-services-ecommerce | best 3D packshot services | 2026-09-01 | 2026-09-01 | P F S | 2026-12-01 | comparisons |
+| ai-product-photography-vs-studio | AI product photography vs studio | 2026-09-01 | 2026-09-01 | P F S | 2026-12-01 | comparisons |
 
 ## Unlisted (deliberately noindexed)
 
@@ -86,8 +88,10 @@ Kept off the index and out of the sitemap. Revisit only if the strategy changes.
 The content program was **paused** on 2026-08-23 after forty-four articles. Four explicitly
 authorized product-visual pilots were added on 2026-08-31 after a cannibalization review:
 3D packshots, ghost mannequin photography, Shopify product media, and Amazon apparel images.
-The wider pause remains in force until this review; do not continue the 24-article backlog
-without query or performance evidence.
+Two explicitly authorized comparison articles were added on 2026-09-01: a procurement guide
+to managed packshot, 360-capture, and true-3D services, and a separate AI-versus-studio hybrid
+workflow guide. The wider pause remains in force until this review; do not continue the rest
+of the 24-article backlog without query or performance evidence.
 
 **Pull:** Search Console → Performance → filter Page contains `/articles/`, last 28 days,
 compare against Pages and Queries tabs. Also check Indexing → Pages for anything excluded.
@@ -136,7 +140,7 @@ a 404.
 - **Root sitemap `lastmod`.** In `astria.ai/sitemap.xml`, the `/articles/sitemap.xml` entry
   carries no `<lastmod>`, unlike its siblings. Adding one signals freshness for re-crawl.
   Lives in the main app repo, not here.
-- **Covers.** Done — all 48 indexed posts have one in the lilac-editorial series. Keep new
+- **Covers.** Done — all 50 indexed posts have one in the lilac-editorial series. Keep new
   ones in `static/img/covers/<slug>.jpg`, and never under a path containing `blog`: the
   www.astria.ai proxy 403s any `/articles/` URL containing that string.
 - **Alternatives cluster.** `botika-alternatives` is the pilot. Extend to other competitors
