@@ -71,7 +71,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | ghost-mannequin-photography-ecommerce | ghost mannequin photography | 2026-08-31 | 2026-08-31 | F | 2027-02-28 | guides |
 | shopify-product-media-guide | shopify product media | 2026-08-31 | 2026-08-31 | F | 2026-11-30 | guides |
 | amazon-product-images-apparel | amazon product images apparel | 2026-08-31 | 2026-08-31 | F | 2026-11-30 | guides |
-| best-3d-packshot-services-ecommerce | best 3D packshot services | 2026-09-01 | 2026-09-01 | P F S | 2026-12-01 | comparisons |
+| best-3d-packshot-services-ecommerce | best 3D packshot services | 2026-09-01 | 2026-09-02 | P F S | 2026-12-02 | comparisons |
 | ai-product-photography-vs-studio | AI product photography vs studio | 2026-09-01 | 2026-09-01 | P F S | 2026-12-01 | comparisons |
 
 ## Unlisted (deliberately noindexed)
