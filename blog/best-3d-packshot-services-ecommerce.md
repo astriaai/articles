@@ -2,7 +2,7 @@
 title: "Best 3D Packshot Services for Ecommerce (2026): What to Buy"
 description: "Compare managed packshot studios, automated 360 capture, true 3D model production, and 3D asset delivery by input, output, QA, and operating model."
 slug: best-3d-packshot-services-ecommerce
-date: 2026-09-01
+date: 2026-09-02
 hide_table_of_contents: true
 image: /img/covers/best-3d-packshot-services-ecommerce.jpg
 authors: [astria]

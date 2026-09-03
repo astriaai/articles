@@ -2,7 +2,7 @@
 title: "3D Packshots for Ecommerce: What They Are and When to Use Them"
 description: "A 3D packshot is an interactive product model, not a spin video or a set of generated angles. What the formats do, where they earn their place, and how to validate them."
 slug: 3d-packshots-ecommerce
-date: 2026-08-31
+date: 2026-08-29
 hide_table_of_contents: true
 image: /img/covers/3d-packshots-ecommerce.jpg
 authors: [astria]

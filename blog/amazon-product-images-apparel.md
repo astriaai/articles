@@ -2,7 +2,7 @@
 title: "Amazon Product Images for Apparel: Main-Image Rules, Detail Views, and Video"
 description: "How to build Amazon apparel image sets around a compliant main image, useful alternate views, product-accuracy review, and video that shows the product immediately."
 slug: amazon-product-images-apparel
-date: 2026-08-31
+date: 2026-09-01
 hide_table_of_contents: true
 image: /img/covers/amazon-product-images-apparel.jpg
 authors: [astria]

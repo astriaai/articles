@@ -2,7 +2,7 @@
 title: "AI Product Photography vs a Packshot Studio: The Hybrid Workflow"
 description: "Decide what fashion brands should photograph physically, what AI can produce from approved references, and how to run a hybrid packshot-to-campaign workflow."
 slug: ai-product-photography-vs-studio
-date: 2026-09-01
+date: 2026-09-03
 hide_table_of_contents: true
 image: /img/covers/ai-product-photography-vs-studio.jpg
 authors: [astria]

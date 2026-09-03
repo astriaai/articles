@@ -2,7 +2,7 @@
 title: "Ghost Mannequin Photography for Ecommerce: The Complete Apparel Guide"
 description: "How ghost mannequin photography is captured and joined, which garment views it needs, where the technique works, and the QC checks that prevent unnatural necks and broken construction."
 slug: ghost-mannequin-photography-ecommerce
-date: 2026-08-31
+date: 2026-08-30
 hide_table_of_contents: true
 image: /img/covers/ghost-mannequin-photography-ecommerce.jpg
 authors: [astria]
