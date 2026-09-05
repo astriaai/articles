@@ -2,6 +2,9 @@
 
 This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
 
+See [ANALYTICS.md](./ANALYTICS.md) for CTA events, optional main-property GA4
+collection, privacy behavior, canonical URLs and the required GA4 admin setup.
+
 ### Installation
 
 ```

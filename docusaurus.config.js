@@ -2,6 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const {themes: prismThemes} = require('prism-react-renderer');
+const analytics = require('./analytics.config');
 
 const lightCodeTheme = prismThemes.vsDark;
 const darkCodeTheme = prismThemes.dracula;
@@ -24,7 +25,10 @@ const config = {
   projectName: 'articles', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+  // Canonical links, sitemap entries and generated routes all use a trailing slash.
+  // The production host must redirect slashless requests (see ANALYTICS.md).
   trailingSlash: true,
+  customFields: {analytics},
 
   markdown: {
     hooks: {
@@ -41,6 +45,7 @@ const config = {
   },
 
   plugins: [
+    require.resolve('./plugins/article-analytics'),
     require.resolve('docusaurus-plugin-image-zoom'),
     [
       '@docusaurus/plugin-client-redirects',
@@ -85,10 +90,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        gtag: {
-          trackingID: 'G-PR5YMLZ2Y1',
-          anonymizeIP: false, // Should IPs be anonymized?
-        },
+        // No preset gtag: the local plugin owns pageviews and CTA events.
         sitemap: {
           lastmod: 'date',
           changefreq: 'weekly',
