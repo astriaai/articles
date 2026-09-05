@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkastria_docs_2||=[]).push([[8607],{8359(a){a.exports=JSON.parse('{"authors":[{"name":"Astria Team","title":"AI fashion production","url":"https://www.astria.ai/","imageURL":"/articles/img/logo@2x.png","key":"astria","page":null,"count":51}]}')}}]);
