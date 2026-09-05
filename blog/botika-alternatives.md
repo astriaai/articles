@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema).replace(/</g, '\\u003c') }}
+/>
 
 Botika is an established AI on-model photography platform with real ecommerce traction, and for a lot of catalogs it does the job it advertises. Brands typically start looking elsewhere for one of four specific reasons — and which reason applies determines which alternative is right.
 
@@ -148,6 +147,8 @@ Be honest about this rather than shopping upmarket.
 6. **Switch between seasons**, and rebuild the treatment deliberately rather than trying to replicate the old one exactly.
 
 The wider category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and the production process itself in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+
+If your shortlist starts elsewhere, use [Lumoo alternatives](./lumoo-alternatives.md) for product-photo and catalog workflows, or [StyTrix alternatives](./stytrix-alternatives.md) to separate visual design, technical sampling, and photography decisions.
 
 ## Frequently asked questions
 
