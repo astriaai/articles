@@ -94,6 +94,8 @@ Ghost mannequin photography is not a one-click cutout. It is a small composite: 
 
 ## What the technique actually does
 
+If you are deciding whether to keep this format, start with [ghost mannequin alternatives](./ghost-mannequin-alternative.md). That comparison weighs replacement workflows; this guide covers capturing and finishing the hollow garment image.
+
 A flat lay documents a garment on a surface. A hanger shot suspends it from the shoulders. A ghost mannequin gives it the chest, waist, sleeve, and hip volume of a worn object, then removes the visible support. It is sometimes called invisible mannequin or hollow-man photography.
 
 That makes it useful for ecommerce because the product remains the only visible subject while construction is easier to read than in a flat lay. It does **not** prove fit. The volume comes from one mannequin form, pinning choices, steaming, camera position, and retouching.

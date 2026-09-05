@@ -11,7 +11,6 @@ keywords:
   - flat lay to on model
   - on model photography AI
   - product photo to model photo
-  - ghost mannequin alternative
 ---
 
 export const faqSchema = {
@@ -91,6 +90,8 @@ Every ecommerce team knows on-model images perform better than flat lays. Every 
 </aside>
 
 ## Why the long tail stays flat
+
+Still choosing a format? The [ghost mannequin alternatives comparison](./ghost-mannequin-alternative.md) covers when to use flat lay, a hanger, live-model photography, or AI on-model. This guide covers the conversion after you have chosen on-model output.
 
 The economics are brutal and familiar. Your top sellers get the full treatment — model, studio, stylist, retouch. Everything below the top 20% gets whatever is cheapest, which means a flat lay or a ghost mannequin, because the marginal revenue does not justify a shoot day.
 
