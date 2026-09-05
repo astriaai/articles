@@ -80,12 +80,12 @@ Monthly billing shown on September 5, 2026:
 
 | Plan | Price | Credits | Approximate images OR videos OR try-ons |
 | --- | ---: | ---: | --- |
-| Free | €0 | 50 once | 30 images / 3 videos / 8 try-ons |
-| Lite | €15/month | 100/month | 60 images / 5 videos / 15 try-ons |
-| Basic | €70/month | 500/month | 300 images / 25 videos / 75 try-ons |
-| Pro | €120/month | 1,000/month | 600 images / 50 videos / 150 try-ons |
+| Free | €0 | 30 once | 20 images / 2 videos / 2 try-ons |
+| Lite | €15/month | 100/month | 60 images / 5 videos / 8 try-ons |
+| Basic | €70/month | 500/month | 300 images / 25 videos / 40 try-ons |
+| Pro | €120/month | 1,000/month | 600 images / 50 videos / 75 try-ons |
 
-Lumoo also lists custom volume plans from 2,000 to 5,000 credits per month, starting at €220/month. These figures come from the rendered [Lumoo Air pricing page](https://air.lumoo.ai/pricing).
+These figures come from the monthly plan cards on the rendered [Lumoo Air product page](https://lumoo.com/products/air). The page title advertises a different entry price, so use the plan card and confirm checkout terms rather than combining the two.
 
 The output counts are vendor estimates and alternatives, not three allowances to add together. A mixed brief consumes the same credit budget. In particular, “600 images” does not mean 600 try-ons. Measure the cost of the operation you will actually use before buying a plan.
 
@@ -101,7 +101,7 @@ The output counts are vendor estimates and alternatives, not three allowances to
 
 ## Lumoo review: one image, many outputs
 
-Lumoo's [homepage](https://air.lumoo.ai/) shows a source image branching into model shots, detail views, and video. It lists cropping, colour controls, template packages, and live collaboration. The page also names Nikben, NEUW, GANT, Gina Tricot, and Holebrook in its brand banner. Those are vendor-published references, not independent evidence of image quality.
+Lumoo's [product page](https://lumoo.com/products/air) shows a source image branching into model shots, detail views, and video. It lists cropping, colour controls, template packages, and live collaboration; Basic and Pro also list Shopify integration. The page names brands including GANT, Gina Tricot, Holebrook, NEUW, and Nikben. Those are vendor-published references, not independent evidence of image quality.
 
 Our assessment: the appeal is keeping adjacent tasks in one place. If the team currently passes each image between a generator, an editor, and a crop tool, test whether a connected flow reduces that work. The public feature list alone does not establish how much time it will save or how reliably casting carries from one item to the next.
 
@@ -137,7 +137,7 @@ The same accounting applies to Astria. Ask for a price against the identical out
 
 Choose five garments with different review problems. Include a pattern, layering, and a construction detail that cannot be inferred from the front. Produce a full look and detail view for each, then ask a colleague to extend the approved treatment to a new item. Compare accepted images and review time, not just render time.
 
-For adjacent options, see [Astria vs WearView](./astria-vs-wearview-fashion-ai.md) and the [AI fashion photography platform shortlist](./best-ai-fashion-photography-platforms.md).
+For a multi-vendor shortlist, see [Lumoo alternatives](./lumoo-alternatives.md). For adjacent options, see [Astria vs WearView](./astria-vs-wearview-fashion-ai.md) and the [AI fashion photography platform shortlist](./best-ai-fashion-photography-platforms.md).
 
 ## Frequently asked questions
 
@@ -157,6 +157,6 @@ Test the collection workflow rather than deciding from the base allowance alone.
 
 Reviewed September 5, 2026. This is an Astria-authored review of public product documentation and pricing, not an independent customer review or a controlled image-quality benchmark. The recommendations are our assessment of workflow fit; vendor examples do not establish results for your garments.
 
-Primary sources checked: [Lumoo Air homepage](https://air.lumoo.ai/) and [pricing](https://air.lumoo.ai/pricing); [Astria fashion offering](https://www.astria.ai/ecommerce) and [lookbook gallery](https://www.astria.ai/gallery/workspaces). Prices, estimated output counts, and product scope can change.
+Primary sources checked: [Lumoo Air product and plan page](https://lumoo.com/products/air), [Astria fashion offering](https://www.astria.ai/ecommerce), and [Astria lookbook gallery](https://www.astria.ai/gallery/workspaces). Prices, estimated output counts, and product scope can change.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).

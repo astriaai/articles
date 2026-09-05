@@ -139,7 +139,7 @@ A subscription allowance is a budgeting constraint, not proof that the platform 
 
 Require a product image, an editorial frame, and a repeatable second look from the same inputs. Check garment construction at full size and compare the whole set for casting and colour drift. Record approvals and rejects. Neither a rendered sketch nor a saved style is proof of garment fidelity.
 
-For a second design-tool comparison, read [Astria vs Fermat](./astria-vs-fermat-fashion-ai.md). For a broader shortlist, use [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md).
+For a multi-vendor design shortlist, see [StyTrix alternatives](./stytrix-alternatives.md). For a second head-to-head comparison, read [Astria vs Fermat](./astria-vs-fermat-fashion-ai.md), or use [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md) for the category map.
 
 ## Frequently asked questions
 
