@@ -34,8 +34,8 @@ The Published values below match frontmatter, not a claim that deployment has ha
 
 | Article | Primary query | Published | Last fact check | Volatile | Next review | Owner |
 | --- | --- | --- | --- | --- | --- | --- |
-| apparel-product-video-guide | apparel product video | 2026-09-05 | 2026-09-05 | F | 2026-12-05 | guides |
-| fashion-video-ads-guide | fashion video ads | 2026-09-05 | 2026-09-05 | F | 2026-12-05 | guides |
+| apparel-product-video-guide | apparel product video | 2026-09-01 | 2026-09-05 | F | 2026-12-05 | guides |
+| fashion-video-ads-guide | fashion video ads | 2026-09-02 | 2026-09-05 | F | 2026-12-05 | guides |
 
 ## Cover provenance
 

@@ -29,8 +29,8 @@ The inherited MDX pattern `<script>{JSON.stringify(faqSchema)}</script>` emitted
 
 | Article | Primary query | Published | Last fact check | Volatile | Next review | Owner |
 | --- | --- | --- | --- | --- | --- | --- |
-| stytrix-alternatives | stytrix alternatives | 2026-09-05 | 2026-09-05 | P F | 2026-10-05 | comparisons |
-| lumoo-alternatives | lumoo alternatives | 2026-09-05 | 2026-09-05 | P F | 2026-10-05 | comparisons |
+| stytrix-alternatives | stytrix alternatives | 2026-08-31 | 2026-09-05 | P F | 2026-10-05 | comparisons |
+| lumoo-alternatives | lumoo alternatives | 2026-08-30 | 2026-09-05 | P F | 2026-10-05 | comparisons |
 
 ## Cover provenance
 

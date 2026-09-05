@@ -2,7 +2,7 @@
 title: "Fashion Video Ads: Build and Test Creative from One Collection"
 description: "Build fashion video ads from approved collection assets: a two-hook test, a 15-second edit brief, placement checks, product proof, and cost per usable creative."
 slug: fashion-video-ads-guide
-date: 2026-09-05
+date: 2026-09-02
 hide_table_of_contents: true
 image: /img/covers/fashion-video-ads-guide.jpg
 authors: [astria]

@@ -2,7 +2,7 @@
 title: "Ghost Mannequin Alternatives: Which Workflow to Choose (2026)"
 description: "Compare flat lay, hanger, live-model and AI on-model alternatives to ghost mannequin photography. Decide what to replace, what to keep, and how to test the switch."
 slug: ghost-mannequin-alternative
-date: 2026-09-05
+date: 2026-09-03
 hide_table_of_contents: true
 image: /img/covers/ghost-mannequin-alternative.jpg
 authors: [astria]

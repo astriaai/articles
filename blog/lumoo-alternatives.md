@@ -2,7 +2,7 @@
 title: "Lumoo Alternatives (2026): A Shortlist for Fashion Catalogs"
 description: "Compare Lumoo Air alternatives for fashion catalogs: WearView, FASHN, and Astria, with switching criteria, credit pitfalls, and a practical product test."
 slug: lumoo-alternatives
-date: 2026-09-05
+date: 2026-08-30
 hide_table_of_contents: true
 image: /img/covers/lumoo-alternatives.jpg
 authors: [astria]

@@ -2,7 +2,7 @@
 title: "AI Fashion Models: A Casting Guide for Brands"
 description: "Choose between fictional AI fashion models, licensed digital twins, and real talent. A brand guide to casting, product accuracy, usage rights, and approval."
 slug: ai-fashion-models
-date: 2026-09-05
+date: 2026-09-04
 hide_table_of_contents: true
 image: /img/covers/ai-fashion-models.jpg
 authors: [astria]

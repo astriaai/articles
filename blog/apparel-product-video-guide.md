@@ -2,7 +2,7 @@
 title: "Apparel Product Video: A Production Guide for Ecommerce PDPs"
 description: "Plan apparel product videos around buying questions: shot lists, filmed versus AI motion, garment accuracy, production costs, and a measurable PDP pilot."
 slug: apparel-product-video-guide
-date: 2026-09-05
+date: 2026-09-01
 hide_table_of_contents: true
 image: /img/covers/apparel-product-video-guide.jpg
 authors: [astria]

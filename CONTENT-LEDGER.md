@@ -74,12 +74,12 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | best-3d-packshot-services-ecommerce | best 3D packshot services | 2026-09-02 | 2026-09-02 | P F S | 2026-12-02 | comparisons |
 | ai-product-photography-vs-studio | AI product photography vs studio | 2026-09-03 | 2026-09-01 | P F S | 2026-12-01 | comparisons |
 | astria-vs-higgsfield-fashion-ai | astria vs higgsfield | 2026-09-05 | 2026-09-05 | P F S M | 2026-12-05 | comparisons |
-| ai-fashion-models | AI fashion models | 2026-09-05 | 2026-09-05 | F S L | 2026-12-05 | guides |
-| ghost-mannequin-alternative | ghost mannequin alternative | 2026-09-05 | 2026-09-05 | F | 2026-12-05 | comparisons |
-| apparel-product-video-guide | apparel product video | 2026-09-05 | 2026-09-05 | F | 2026-12-05 | guides |
-| fashion-video-ads-guide | fashion video ads | 2026-09-05 | 2026-09-05 | F | 2026-12-05 | guides |
-| stytrix-alternatives | stytrix alternatives | 2026-09-05 | 2026-09-05 | P F | 2026-10-05 | comparisons |
-| lumoo-alternatives | lumoo alternatives | 2026-09-05 | 2026-09-05 | P F | 2026-10-05 | comparisons |
+| ai-fashion-models | AI fashion models | 2026-09-04 | 2026-09-05 | F S L | 2026-12-05 | guides |
+| ghost-mannequin-alternative | ghost mannequin alternative | 2026-09-03 | 2026-09-05 | F | 2026-12-05 | comparisons |
+| apparel-product-video-guide | apparel product video | 2026-09-01 | 2026-09-05 | F | 2026-12-05 | guides |
+| fashion-video-ads-guide | fashion video ads | 2026-09-02 | 2026-09-05 | F | 2026-12-05 | guides |
+| stytrix-alternatives | stytrix alternatives | 2026-08-31 | 2026-09-05 | P F | 2026-10-05 | comparisons |
+| lumoo-alternatives | lumoo alternatives | 2026-08-30 | 2026-09-05 | P F | 2026-10-05 | comparisons |
 
 ## Unlisted (deliberately noindexed)
 
@@ -129,8 +129,9 @@ compare against Pages and Queries tabs. Also check Indexing → Pages for anythi
 - Is `ai-lookbook-guide` ranking for "ai lookbook"? It was picked as the most winnable
   head term on the whole list; if it does not rank, the difficulty estimates were wrong.
 
-**Parked roster completed September 5, 2026.** The user explicitly reopened the four held
-areas after this review. The release adds the AI fashion models category guide,
+**Parked roster release completed September 5, 2026, with publication dates staggered from
+August 30 through September 4.** The user explicitly reopened the four held areas after this
+review. The release adds the AI fashion models category guide,
 `ghost-mannequin-alternative`, two distinct video guides, and restrained StyTrix/Lumoo
 alternatives pages. No further backlog expansion is implied; review query overlap and
 indexation before adding more pages to these clusters.
