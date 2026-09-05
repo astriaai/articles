@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Tolstoy sells a connected commerce stack: generate product content, make it shoppable, and help the shopper choose. Content generation is one module of three, and the platform serves fashion alongside beauty, skincare, and homeware. Astria does one thing—produce a fashion brand's imagery—and is built around the way fashion collections actually get made.
 

@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 "3D packshot" is used for at least three different things: an interactive product model, a turntable video, and a polished still rendered from 3D. Those assets can share a production pipeline, but they are not interchangeable on a product detail page.
 

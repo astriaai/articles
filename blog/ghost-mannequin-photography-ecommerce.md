@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Ghost mannequin photography is not a one-click cutout. It is a small composite: the garment is photographed while holding body volume, the support is removed, and separately captured hidden areas are joined back in.
 

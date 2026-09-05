@@ -62,9 +62,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Every ecommerce team knows on-model images perform better than flat lays. Every ecommerce team also knows what it costs to produce them for 600 variants, which is why the long tail of most catalogs is still flat lays and ghost mannequins.
 

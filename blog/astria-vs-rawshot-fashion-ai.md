@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Rawshot makes a sharp promise: fashion AI for people who make clothes, not people who engineer prompts. No prompt box, no studio, no samples—just menus of models, lenses, lighting, and backgrounds, plus a provenance stack that labels every output as AI-generated. Astria answers a different question: not "how do I get an image without learning prompts," but "how does my brand's creative direction become a system my whole team can run."
 

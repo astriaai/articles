@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Looklet is the incumbent in this category, and it earned that position honestly: digitized real models, a mature styling pipeline, and enterprise retailers running it across multiple studios. It is also the comparison where the difference is structural rather than stylistic. Looklet is a capture-to-delivery system that begins with photographing your garments. Astria is a production system that begins with the product photography you already have.
 

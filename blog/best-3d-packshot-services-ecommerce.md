@@ -71,9 +71,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Searching for a 3D packshot service produces a category error. One service generates a rotation video from a flat lay. Another photographs your inventory on a turntable. A third sells the turntable. A fourth builds a real-time model. A fifth assumes that model already exists and optimizes it for the web.
 

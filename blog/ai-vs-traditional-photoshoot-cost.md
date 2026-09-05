@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 The comparison is usually presented as cents against thousands, which is arithmetically true and analytically useless. It sets one raw input cost against another approach's fully-loaded total, and brands that plan against it are surprised twice: first by how much human time AI production still needs, and second by how much they save on things they were not measuring.
 

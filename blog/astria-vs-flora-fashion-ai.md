@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 FLORA is the most credible creative-canvas competitor in this comparison set, and the only one with a purpose-built fashion module: sketch to render, colorways and fabrics, on-model and campaign imagery, batch across a line. It is also a general creative platform with ambitions to be the next Adobe, and that shows in where its strengths and its evidence sit. Astria is narrower: a production system for fashion collections and the people who make them.
 

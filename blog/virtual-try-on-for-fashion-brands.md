@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Two genuinely different technologies are sold under the name "virtual try-on," and the confusion costs brands real money. One produces the imagery you publish. The other is a widget your customer interacts with. They have different buyers, different economics, and different failure modes.
 

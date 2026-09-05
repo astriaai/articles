@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Stoodio is one of the few competitors in this set that is, like Astria, built exclusively for fashion—image generation, video, workflows, a model database, and asset management in one platform. Its distinguishing bet is legal: a partnership with ModelManagement.com giving access to a very large pool of consented, commercially licensed real-model digital twins. The question for a buyer is whether that licensing advantage outweighs a production model that runs through the vendor.
 

@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Generative editing has an annoying workflow problem: the models are in a browser and the work is in a document. Export, upload, prompt, download, re-import, mask, blend — repeat forty times and the tooling costs more time than it saves.
 

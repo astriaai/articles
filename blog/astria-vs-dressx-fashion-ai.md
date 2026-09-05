@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 DRESSX and Astria both put clothes on people with AI, and there the overlap ends. DRESSX builds the experience a shopper has at the moment of decision: a fitting room on the product page, an AI stylist, an interactive mirror in the store. Astria builds what fills that page in the first place—the catalog imagery, the lookbook, the campaign, the social cutdowns.
 

@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Higgsfield is the first product in this comparison set that can credibly answer a fashion brief with both a polished still and a serious filmmaking stack. Its own Soul model is explicitly fashion-aware; Product Photography and Marketing Studio cover on-model images, product shots, ads, marketplace assets, and UGC; Canvas connects references and generations on one board; Cinema Studio adds camera, lens, movement, multishot, and VFX controls across a large model catalog. This is not a lightweight social generator.
 

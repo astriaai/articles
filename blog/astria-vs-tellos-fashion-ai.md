@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Tellos comes at AI fashion content from the storefront: product video that publishes to Shopify, TikTok, and Meta, photo generation alongside it, and a shoppable video layer with real conversion evidence behind it. Astria comes at it from the studio: a workspace where a brand's casting, styling, and art direction become a reusable system that produces the collection and everything downstream of it.
 

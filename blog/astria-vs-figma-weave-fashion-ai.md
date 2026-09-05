@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Figma Weave—the product formerly known as Weavy, acquired by Figma in October 2025—is one of the most capable AI creative environments available: a node-based canvas where many current models sit alongside professional editing tools, inside the design platform creative teams already live in. It is also general-purpose by design. Astria is the opposite bet: a system that already knows what a fashion collection is.
 

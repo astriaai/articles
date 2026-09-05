@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Caimera is the strongest self-serve competitor in AI fashion imagery: fast editorial and catalog generation, transparent credit pricing, and real ad-performance case studies. Astria goes further for professional teams: it turns art direction into a reusable production system covering casting, styling, review, motion, and handoff across a whole collection.
 

@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Pletor calls itself AI creative infrastructure for marketing teams, and the description is accurate. It orchestrates models, brand context, and marketing data to produce performance ads, UGC, and campaign versions at the pace a paid-social calendar demands. Astria sits one step upstream, producing the collection imagery a fashion brand's marketing is built from.
 

@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Jewelry is where general-purpose AI product photography tools stop being convincing. Apparel is forgiving — a knit rendered slightly wrong still looks like a knit. A ring rendered slightly wrong looks like a different ring, and your customer is paying four figures for the specific one.
 

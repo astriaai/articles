@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Aiuta is an enterprise virtual try-on company first. Its shopper experience is deployed at recognizable retailers, and Aiuta Studio is a second product that returns finished product photography after human QA. If you are already buying try-on from Aiuta, the studio looks like an easy consolidation. It is worth understanding what you would be consolidating into.
 

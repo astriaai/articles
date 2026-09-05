@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Stylic is one of the cheapest ways to turn a product photo into an on-model image: upload, pick from a few hundred backgrounds and a few dozen models, download in about three minutes. It is aimed squarely at marketplace sellers—Shopify, Amazon, Meesho, and the Indian marketplace ecosystem—and it is priced accordingly. Astria answers a different brief, from brands and from the photographers and studios who produce for them.
 

@@ -55,9 +55,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Botika offers a quick way to turn existing product photos into standardized on-model images. Astria goes much further: it gives fashion teams the art direction, references, templates, asset range, finishing, motion, and collaborative workspace required to build professional visual production around a brand.
 

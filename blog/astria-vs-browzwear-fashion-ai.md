@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Browzwear and Astria are adjacent, not interchangeable, and any honest comparison has to start there. Browzwear is 30 years of 3D apparel design and development: fabric physics, virtual twins, fit validation, tech packs, fewer physical samples. Astria is a production system for the brand's imagery. The real question buyers ask is narrower and more useful than "which one"—it is whether an existing 3D investment can also produce the catalog and campaign.
 

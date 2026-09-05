@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Pixelz is not another AI image generator, and treating it as one misses the decision. It is a technology-enabled production company: you send product images, expert retouchers and automated steps finish them, and files come back on a guaranteed turnaround. Astria is the opposite arrangement—a production system your own team operates, where the brand's creative direction becomes a reusable asset instead of a specification held by a supplier.
 

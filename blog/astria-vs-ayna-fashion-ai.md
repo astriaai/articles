@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Ayna is the most complete listing-automation competitor in AI fashion imagery: flat-lay to on-model photos, short product videos, AI-written titles and descriptions, and a direct push to Shopify and marketplaces. Astria plays a different game for professional teams: it turns art direction into a reusable production system covering casting, styling, review, motion, and handoff across a whole collection.
 

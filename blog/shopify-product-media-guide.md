@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Shopify product media is one ordered set, not three separate feature checklists. The first item may represent the product in collections and cart; the last item may never be reached. Images, video, and 3D only work when the sequence answers the shopper's questions in order.
 

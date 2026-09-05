@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Graswald is the most direct positional competitor Astria has: an AI production studio for fashion brands, where you configure brand standards once—avatars, lighting, poses—and generate across the catalog. The thesis is close enough that the comparison has to be made on execution rather than category. Three things separate them: who is allowed to adopt the product, how far the work extends past apparel PDPs, and whether the people outside your company can join the production.
 

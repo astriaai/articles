@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Emilia AI Studio turns a phone snap of a product into a studio-grade image in about forty seconds, and it does that across six product categories: general goods, jewelry, clothing, food and drink, furniture, and beauty. Built by a digital agency and available in English, Hebrew, and Spanish, it is a capable and genuinely broad ecommerce tool. Clothing is one of its six categories. For Astria, fashion is the whole product.
 

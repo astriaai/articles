@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Lookgen has picked a sharper target than most of this category: not a single garment on a model, but a complete styled look—items combined, accessories added, angles varied, then published straight into a PIM. It was built with professional stylists, and its Dutch and European retail references say the approach lands. Astria's scope is wider: producing everything a collection needs, from one approved creative direction.
 

@@ -64,9 +64,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Rewarx Studio takes a phone snapshot of a product and returns a 4K commercial image, and it does that across more than twenty industries — electronics, cosmetics, jewelry, home decor, beverages, footwear, eyewear, pet supplies, hand tools. It is a genuinely wide, well-built ecommerce production suite, with eight named tools and marketplace-formatted output for Amazon, Shopify, Etsy, and eBay. Fashion and apparel is one of its verticals. For Astria, fashion is the whole product.
 

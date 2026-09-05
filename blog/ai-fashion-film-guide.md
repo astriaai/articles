@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Motion is the part of AI fashion production that has moved fastest and is still the least reliable. It is also where the compounding argument is most obvious: if a campaign's casting, garments, and world already exist as approved references, the film is a derivation rather than a second production.
 

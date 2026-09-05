@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Ask what a fashion photoshoot costs and you will get answers ranging across two orders of magnitude, all of them true. The word covers a photographer with one light in a rented room and a full production unit on location with a crew of fifteen.
 

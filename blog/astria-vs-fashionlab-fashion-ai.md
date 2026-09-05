@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 FashionLab has done something none of the other tools in this comparison have tried: it has put a talent marketplace next to the generator. Brands batch-produce on-model imagery through a five-step flow, and they can also hire AI creative directors, prompt engineers, retouchers, and 3D artists inside the same platform. Astria's answer to the same underlying problem is different—make the creative direction itself reusable, so the brand needs less external help each season.
 

@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 FASHN is one of the most technically credible names in AI fashion imagery: strong virtual try-on, model swap, product-to-model, and a set of endpoints that other software products build on top of. Astria is not competing for that job. It is a production workspace where a fashion team encodes its own creative direction and runs it across a collection, its channels, and its collaborators.
 

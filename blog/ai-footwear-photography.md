@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Footwear has the most rigid conventions in product photography. Customers expect a specific angle set, in a specific order, and they read those images faster than they read any description. Which makes it both an easy category to serve and an unforgiving one to get wrong.
 
