@@ -189,7 +189,7 @@ test('production bootstrap queues safely, preserves consent state and skips priv
   }
 });
 
-test('optional main measurement ID is validated and deduplicated', () => {
+test('main measurement ID defaults, validates overrides and deduplicates', () => {
   function readConfig(value) {
     return JSON.parse(execFileSync(process.execPath, ['-e',
       'process.stdout.write(JSON.stringify(require("./analytics.config")))'], {
@@ -198,7 +198,7 @@ test('optional main measurement ID is validated and deduplicated', () => {
       stdio: ['ignore', 'pipe', 'pipe'],
     }));
   }
-  assert.deepEqual(readConfig('').measurementIDs, [IDS[0]]);
+  assert.deepEqual(readConfig('').measurementIDs, [IDS[0], 'G-HCZ11XZYYX']);
   assert.deepEqual(readConfig(` ${IDS[0]} `).measurementIDs, [IDS[0]]);
   assert.deepEqual(readConfig(IDS[1]).measurementIDs, IDS);
   assert.throws(() => readConfig("G-';alert(1)"));

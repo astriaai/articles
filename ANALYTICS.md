@@ -18,20 +18,24 @@ plugin runs only in production builds, and its loader and events run only at
 analytics. The delegated click listener survives SPA navigation without adding
 listeners for each article or changing individual Markdown files.
 
-## Optional main-property collection
+## Main-property collection
 
-The main Astria measurement ID is **not present in this repository**. The only
-additional build-time value required to enable dual-tagging is:
+Article traffic is sent to both the Articles property (`G-PR5YMLZ2Y1`) and the
+main Astria property (`G-HCZ11XZYYX`). The latter is the public default web-stream
+ID in the main application configuration. This makes new article-to-product
+journeys observable in the main property while retaining the dedicated content
+reporting view.
+
+If the main site's stream changes, override it at build time:
 
 ```sh
 ASTRIA_MAIN_GA4_MEASUREMENT_ID=<main Astria web stream G-… ID> npm run build
 ```
 
 Set this in the actual build environment; a local `.env` file is not loaded by
-this configuration. `analytics.config.js` validates the ID, keeps the existing
-Articles destination, and deduplicates equal IDs. Both destinations receive
-pageviews and custom events with explicit `send_to` routing, using one gtag.js
-script. Unset the value and rebuild to return to Articles-only collection.
+this configuration. `analytics.config.js` validates the ID, keeps the Articles
+destination, and deduplicates equal IDs. Both destinations receive pageviews and
+custom events with explicit `send_to` routing, using one gtag.js script.
 
 Use the **existing main-site web stream's measurement ID**, after verifying its
 ownership and consent setup. Sharing that stream and its default first-party
