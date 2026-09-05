@@ -137,8 +137,8 @@ indexation before adding more pages to these clusters.
 
 **The likely real bottleneck:** off-page. Forty-four internally well-linked pages with no
 external backlinks will not rank on competitive head terms. The educator/partner program is
-the backlink engine identified in the internal GTM notes, and `/fashion-educators` is still
-a 404.
+the backlink engine identified in the internal GTM notes; `/fashion-educators` now permanently
+redirects to the live `/creators` program page.
 
 
 ## Search Console optimization sprint — 2026-09-05
@@ -198,7 +198,8 @@ Existing warnings about two unlisted posts without truncation markers remain out
 - **Root sitemap and canonical redirects.** The main app already derives child-sitemap
   freshness from declared dates or `Last-Modified`; September 5 adds coverage for the
   article fallback, canonical 301s from slashless article paths, and a legacy
-  `/fashion-educators` → `/creators` redirect. Recheck the live endpoints after rollout.
+  `/fashion-educators` → `/creators` redirect. Both redirects were verified live after the
+  production rollout.
 - **Covers.** Done — all 51 indexed posts have one in the lilac-editorial series. Keep new
   ones in `static/img/covers/<slug>.jpg`, and never under a path containing `blog`: the
   www.astria.ai proxy 403s any `/articles/` URL containing that string.
