@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Nearly everything written about AI fashion photography is either a tool listicle or a demo reel. Neither tells you what actually happens when a brand tries to produce a season this way — where the time goes, which garments fight back, and what breaks at the two-hundredth image rather than the second.
 
@@ -180,7 +179,8 @@ Head-to-head assessments of the main platforms are collected under [comparisons]
 
 ## Where to go next
 
-- **Producing a lookbook specifically** — [the AI lookbook guide](./ai-lookbook-guide.md)
+- **Generating lookbook images from products** — [the AI lookbook guide](./ai-lookbook-guide.md)
+- **Planning the lookbook document** — [how to create a lookbook: shot list, page layout, and delivery](./how-to-create-a-lookbook.md)
 - **Turning flat lays into on-model shots** — [flat lay to on-model](./flat-lay-to-on-model.md)
 - **Keeping one model across a collection** — [consistent AI fashion models](./consistent-ai-fashion-models.md)
 - **Garment-on-body specifically** — [virtual try-on for fashion brands](./virtual-try-on-for-fashion-brands.md)

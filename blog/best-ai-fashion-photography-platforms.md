@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Most "best AI fashion tools" lists rank products that do not compete with each other. A shopper-facing try-on widget, a managed retouching service, and a collection production system end up in the same numbered list, which helps nobody decide anything.
 
@@ -116,7 +115,7 @@ For brands producing collections. The distinguishing question: can an approved c
 
 **Ayna** — positions around fashion photoshoot production with published pricing and case studies. [Full comparison](./astria-vs-ayna-fashion-ai.md).
 
-**Lumoo** — a compact, focused creative studio built around producing from a single image. [Full comparison](./astria-vs-lumoo-fashion-ai.md).
+**Lumoo** — a connected product-image workflow with editing, template packages, and live collaboration. [Lumoo pricing and review](./astria-vs-lumoo-fashion-ai.md).
 
 **Stoodio** — licensed digital twins of real models, with guided onboarding. Worth a look if licensed real-model likenesses are a requirement. [Full comparison](./astria-vs-stoodio-fashion-ai.md).
 
@@ -132,7 +131,7 @@ Two different products share this name — see [virtual try-on for fashion brand
 
 **FASHN** — try-on and model generation aimed at brands and creative teams. [Full comparison](./astria-vs-fashn-fashion-ai.md).
 
-**WearView** — fashion-first garment-to-model generation with reusable model personas, pose control, ghost mannequin, and short-form video. Fast, and scoped to the product page. [Full comparison](./astria-vs-wearview-fashion-ai.md).
+**WearView** — garment-to-model generation with consistent models, pose control, and video; it also advertises lookbook and campaign imagery. [WearView pricing and review](./astria-vs-wearview-fashion-ai.md).
 
 **Aiuta** — enterprise try-on with a QA-delivered studio service. Suited to buyers who want output delivered rather than a tool to operate. [Full comparison](./astria-vs-aiuta-fashion-ai.md).
 
@@ -164,11 +163,11 @@ These are frequently mistaken for production tools. They are upstream or sideway
 
 **FLORA** — design-stage ideation across a broad model canvas. [Full comparison](./astria-vs-flora-fashion-ai.md).
 
-**StyTrix** — a fashion-specific design-room canvas built around killing physical samples: sketches, technical flats, split layers, and client proposals. [Full comparison](./astria-vs-stytrix-fashion-ai.md).
+**StyTrix** — a design canvas with sketch, outfit, and image tools, plus saved model, fabric, and style libraries. [StyTrix pricing and review](./astria-vs-stytrix-fashion-ai.md).
 
 **Figma Weave** — a general node-based AI canvas. Powerful and not fashion-specific. [Full comparison](./astria-vs-figma-weave-fashion-ai.md).
 
-**Fermat** — a design-team AI toolbox with enterprise security posture. [Full comparison](./astria-vs-fermat-fashion-ai.md).
+**Fermat** — a fashion design toolbox that also covers photography and shared-workspace production, with enterprise options. [Fermat pricing and review](./astria-vs-fermat-fashion-ai.md).
 
 **Pletor** — an ad-production engine for marketing teams. [Full comparison](./astria-vs-pletor-fashion-ai.md).
 

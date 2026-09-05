@@ -1,6 +1,6 @@
 ---
-title: "Astria vs Lumoo (2026): Which Is Better for Fashion Brands?"
-description: "Astria vs Lumoo for fashion brands: a compact one-image creative studio versus a production system for collections, casting, campaign work, and handoff."
+title: "Astria vs Lumoo: Pricing & AI Fashion Review (2026)"
+description: "Lumoo Air pricing and workflow reviewed against Astria: euro plans, image and try-on allowances, collaboration, and a practical collection-production test."
 slug: astria-vs-lumoo-fashion-ai
 date: 2026-08-13
 hide_table_of_contents: true
@@ -9,67 +9,51 @@ authors: [astria]
 tags: [comparisons]
 keywords:
   - Astria vs Lumoo
-  - Lumoo alternative
+  - Lumoo pricing
+  - Lumoo review
   - Lumoo Air AI visuals
-  - AI product photos and video for fashion
+  - Lumoo alternative
 ---
 
 export const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: [
+  "mainEntity": [
     {
       "@type": "Question",
-      name: "Is Lumoo an Astria alternative?",
-      acceptedAnswer: {
+      "name": "Is Lumoo an Astria alternative?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "For small-volume work, yes. Lumoo Air turns one product photo into model shots, detail views, video, and try-ons in a single tidy flow. Astria is built for producing a whole collection from one approved creative direction.",
-      },
+        "text": "Yes, for overlapping fashion-image work. Test Lumoo if a connected generation-and-editing flow fits your team, and Astria if fashion templates are your preferred starting point."
+      }
     },
     {
       "@type": "Question",
-      name: "What does Lumoo do particularly well?",
-      acceptedAnswer: {
+      "name": "Does Lumoo Pro include images, videos, and try-ons separately?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "Simplicity. One source image branches into images, video, and try-ons with cropping, colour adjustment, template packages, and real-time collaboration, all in one workspace with transparent credit pricing.",
-      },
+        "text": "No. The pricing page presents approximate alternative outputs from one credit pool. A mixed workload must be budgeted against the operations actually used."
+      }
     },
     {
       "@type": "Question",
-      name: "How does credit pricing behave at collection scale?",
-      acceptedAnswer: {
+      "name": "Is Lumoo suitable for a whole collection?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "Lumoo's published tiers top out around 600 images a month before custom plans. A 150-SKU catalog at four images each exceeds that in one push, and rejected frames spend credits too.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Which keeps a brand's creative direction consistent?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Astria. It stores an approved treatment — casting, styling, scene, crop, lighting, format — and applies it to every SKU. Lumoo's template packages help, but the direction is configured per flow rather than owned as a brand asset.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Is Astria better than Lumoo for fashion brands?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "For brands producing a collection across channels, yes. Small teams needing a handful of polished assets a month from single product photos may find Lumoo sufficient and pleasant to use.",
-      },
-    },
-  ],
+        "text": "Test the collection workflow rather than deciding from the base allowance alone. Budget additional attempts and review time, then compare a suitable volume plan with the alternatives."
+      }
+    }
+  ]
 };
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
-Lumoo Air is the tidiest small product in this category. Upload one product photo and it branches into styled model shots, side and back views, detail crops, video, and try-ons, with cropping, colour adjustment, and template packages built in—plus real-time collaboration and transparent euro pricing. Astria is not competing on tidiness. It is built for the moment one image becomes an entire collection.
+Lumoo Air starts with a product photo and turns it into a connected set of visual outputs. That is a useful proposition for a small team: fewer handoffs between creating, editing, and packaging an asset. The question is how that workflow behaves when the brief becomes a collection.
 
-**The short answer:** Astria is the clear overall winner for fashion brands producing a collection and its channels. Choose Lumoo when your monthly need is a modest set of polished assets from individual product photos.
+**The short answer:** evaluate Lumoo for its connected editing workflow and Astria for a template-led fashion production. Neither an entry price nor a credit allowance settles the comparison. Count the images, try-ons, and videos your brief actually requires.
 
 <!-- truncate -->
 
@@ -90,149 +74,89 @@ Lumoo Air is the tidiest small product in this category. Upload one product phot
   </div>
 </aside>
 
-## How we evaluated Astria and Lumoo
+## Lumoo pricing: what the euro plans include
 
-We used six B2B buying questions: what the product treats as the unit of work, how creative direction persists, casting and category depth, channel coverage, how a full collection behaves under the meter, and what evidence supports the vendor's claims.
+Monthly billing shown on September 5, 2026:
+
+| Plan | Price | Credits | Approximate images OR videos OR try-ons |
+| --- | ---: | ---: | --- |
+| Free | €0 | 50 once | 30 images / 3 videos / 8 try-ons |
+| Lite | €15/month | 100/month | 60 images / 5 videos / 15 try-ons |
+| Basic | €70/month | 500/month | 300 images / 25 videos / 75 try-ons |
+| Pro | €120/month | 1,000/month | 600 images / 50 videos / 150 try-ons |
+
+Lumoo also lists custom volume plans from 2,000 to 5,000 credits per month, starting at €220/month. These figures come from the rendered [Lumoo Air pricing page](https://air.lumoo.ai/pricing).
+
+The output counts are vendor estimates and alternatives, not three allowances to add together. A mixed brief consumes the same credit budget. In particular, “600 images” does not mean 600 try-ons. Measure the cost of the operation you will actually use before buying a plan.
 
 ## Quick verdict: Astria vs Lumoo
 
-| Decision factor | Lumoo | Astria | Winner |
-| --- | --- | --- | --- |
-| Unit of work | One source image, branched into outputs | An approved treatment applied across the collection and its channels | **Astria** |
-| Professional fashion production | Product photos, model shots, and video for a single item at a time | Brand-directed production across ecommerce, lookbook, campaign, and social | **Astria** |
-| Creative direction | Template packages for poses, video, transforms, and sizing | Approved treatment — casting, styling, scene, crop, lighting, format — stored and reused | **Astria** |
-| Casting and assets | Model shots generated per flow | Models across ages and body types, including children and extended-size casting, plus locations and poses | **Astria** |
-| Category coverage | Fashion, sports, and retail products broadly | Apparel, beauty, jewelry, footwear, sports, luxury, and editorial templates | **Astria** |
-| Natural-looking people | Colour and crop adjustment after generation | Face-inpainting and refinement layer inside the production workflow | **Astria** |
-| Motion | Video generated from the same source image | Multiple current video options animate approved stills in the same workflow | **Astria** |
-| Campaign and editorial work | Not the product's focus in the material reviewed | Campaign, editorial, and social treatments from the same approved setup | **Astria** |
-| Review experience | Real-time collaboration on the same workflow | Multiplayer canvas with named cursors and live voice over the actual looks | **Astria** |
-| Collection scale | Credit tiers reaching roughly 600 images a month before custom plans | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
-| Commercial model for brands | Monthly credit tiers, with every generation spending credits | Brand pricing scoped to usage — pay for what you create | **Astria** |
-| Public customer proof | "Trusted by leading brands" with no names in the material reviewed | Named fashion brands plus studios and photographers running client work | **Astria** |
-| Simplicity of the single-source flow | One image to images, video, and try-ons in one connected pass | A production setup that pays back across a collection | **Lumoo** |
-| Best fit | Small teams needing a modest volume of polished assets | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
-| Overall | A neat compact studio | The stronger platform for professional fashion production | **Astria** |
+| Buying question | What to evaluate |
+| --- | --- |
+| Do you need to generate, edit, and crop in one flow? | Try Lumoo's connected workspace |
+| Do you want a fashion template as the production starting point? | Try Astria with your product references |
+| Does the brief mix stills, try-ons, and video? | Model the actual mix, rather than the headline image allowance |
+| Will collaborators work in the tool? | Run a real approval handoff in both |
+| Can one treatment carry the collection? | Test a second look and a late colourway change |
 
-Reviewed August 13, 2026; no controlled image-quality benchmark was run.
+## Lumoo review: one image, many outputs
 
-## Lumoo: one image, many outputs
+Lumoo's [homepage](https://air.lumoo.ai/) shows a source image branching into model shots, detail views, and video. It lists cropping, colour controls, template packages, and live collaboration. The page also names Nikben, NEUW, GANT, Gina Tricot, and Holebrook in its brand banner. Those are vendor-published references, not independent evidence of image quality.
 
-Lumoo Air describes itself as a visual creation studio with a single clear promise: one prompt, studio-grade product photos, model shots, and video, generated, edited, and packaged for every channel. The workflow diagram on its homepage is the product in miniature—a source image fanning out into a side profile, a back view, a detail shot, a video, and social content, all connected in one pass.
+Our assessment: the appeal is keeping adjacent tasks in one place. If the team currently passes each image between a generator, an editor, and a crop tool, test whether a connected flow reduces that work. The public feature list alone does not establish how much time it will save or how reliably casting carries from one item to the next.
 
-Around that sit sensible utilities: instant conversion between images, video, and try-ons, cropping and resizing to standard and custom ratios, colour adjustment for saturation, brightness, contrast, temperature and tint, and pre-built template packages for poses, video, transforms, and sizing. It also offers real-time collaboration on the same workflow, which is more than several larger competitors in this comparison provide.
+A generated back view needs particular care. A single front photo cannot document unseen construction. Supply the actual back and detail references when they matter; reject plausible inventions. The preparation checklist in [flat lay to on-model](./flat-lay-to-on-model.md) applies here too.
 
-Pricing is published in euros and easy to read: 50 free credits with no card, then Lite at €15 a month for 100 credits, Basic at €70 for 500, Pro at €120 for 1,000, with custom plans from 2,000 to 5,000 credits starting at €220. The site converts those for you—Pro is roughly 600 images or 50 videos a month.
+## Astria: a fashion production starting point
 
-One gap is worth naming. The homepage carries a "trusted by leading brands" banner, and in the material we reviewed no brands are named, and we found no case studies. That is common for an early product and it does mean a buyer has little to verify.
+Astria publishes [fashion templates and product-photo workflows](https://www.astria.ai/ecommerce). Its [lookbook gallery](https://www.astria.ai/gallery/workspaces) lets you inspect sets of images rather than isolated demonstrations.
 
-## Astria: a professional fashion-production environment
-
-Astria's unit of work is not the image but the treatment. Products, casting, references, templates, and outputs live in a brand workspace, and the approved combination of casting, styling, scene, crop, lighting, and format is what gets reused across a collection.
-
-Depth follows from that. The casting library spans ages and body types, including children and extended-size casting, alongside locations and poses. Templates treat beauty, jewelry, footwear, sports, luxury, and editorial as distinct fashion categories. Campaign frames, social crops, and motion all extend the same direction, and review happens on a multiplayer Board with named cursors and live voice, with external photographers and agencies inside the same workspace.
-
-## Public proof: an unnamed banner versus named brands
-
-Lumoo's public evidence is currently thin: a trust banner without names and no case studies we could locate. This should not be read as a quality judgement—new products earn references over time—but it does leave a buyer with nothing to check.
-
-Astria's public materials name fashion brands including Ronny Kobo, Nununu, Gant, Lee Cooper, and Nine West, alongside studios and photographers running client work. Vendor-published, and at least verifiable by looking.
+For the comparison, give both tools the same collection references and approved hero image. Require the next look to preserve casting, colour, and garment details while changing the outfit. The useful question is what the team can reproduce, not which homepage has the more ambitious promise. See the [AI lookbook guide](./ai-lookbook-guide.md) for that approval sequence.
 
 ## A realistic workflow comparison: when one image becomes 150
 
-Consider a growing label with 150 styles going live in spring, needing four images per style, a handful of clips for social, and a small campaign set.
+Suppose 150 style-colourways each need four approved images: 600 deliverables. That count equals Lumoo's approximate Pro image allowance before retries. It does not exceed it by itself. Once the brief includes additional attempts, try-ons, or clips, price that workload separately. A larger plan may be appropriate; exceeding the base allowance does not make the workflow unsuitable.
 
-Lumoo handles any single style beautifully. Upload the product photo, get the model shot, the back view, the detail crop, and a clip, adjust the colour, crop for each channel, done. For a founder producing a dozen assets a month this is a genuinely pleasant workflow with almost no learning curve.
+Keep a simple ledger during the pilot: operation, credits consumed, human review minutes, correction work, and whether the output shipped. Use [product photography cost per SKU](./product-photography-cost-per-sku.md) to turn that into a useful budget.
 
-The arithmetic is where it turns. 150 styles at four images is 600 images—the entire Pro tier at €120 a month, before a single rejected frame, before the clips, before the campaign set. Custom plans exist and start at €220 for 2,000 credits, so the volume is servable; the question is whether a per-image meter is the right way to buy a season. And each of those 600 images is configured rather than derived: the template packages help with poses and sizing, but the brand's casting and styling decisions are re-entered rather than stored.
-
-With Astria, the treatment is approved once and the 150 styles run against it after importing from Shopify or Google Drive. The campaign set and social crops extend the same direction rather than being separate jobs, and the clips animate stills that already passed review.
-
-## The differences that matter most
-
-### Simplicity of the single-source flow — winner: Lumoo
-
-This is Lumoo's genuine edge and the one concession that matters here. Going from one product photo to model shots, detail views, video, and try-ons in a single connected pass, with crops and colour built in, is a genuinely well-designed small workflow. For a solo founder or a two-person team, that coherence is worth more than any amount of production machinery they would not use.
-
-### Direction that is stored, not re-entered — winner: Astria
-
-Template packages standardise poses and sizes; they do not hold a brand's point of view. Astria stores the approved treatment so the 80th SKU is produced the same way as the first, by someone who was not there when the decision was made.
-
-### Casting and category depth — winner: Astria
-
-Generating a model per flow covers the common case. Production needs consistent casting across a collection, age ranges including children, extended-size representation, and categories—jewelry, beauty—whose lighting and framing conventions differ from apparel. Astria treats those as first-class.
-
-### Coverage of the whole season — winner: Astria
-
-Lumoo packages outputs for channels, which is useful. It is not the same as producing a campaign or an editorial set with a point of view. Astria treats those as expressions of the approved direction rather than as reformats of a product shot.
-
-### Collaboration — winner: Astria
-
-Credit where due: Lumoo offers real-time collaboration on the same workflow, which several larger competitors do not. Astria goes further in the dimension fashion actually needs—private brand workspaces that external photographers and agencies join, a multiplayer Board with named cursors, and live voice over the production canvas.
-
-### Collection scale and commercial fit — winner: Astria
-
-Published tiers reaching around 600 images a month, with custom plans beyond, describe a product sized for steady output rather than seasonal pushes; and every rejected frame spends credits. Astria treats the collection as the unit of work and prices to usage—pay for what you create. This article makes no claim that Astria is cheaper; at low volumes Lumoo will often cost less. The point is that a per-image meter and a season are different shapes. Model a full collection, including rework, before comparing.
-
-### Verifiable proof — winner: Astria
-
-A trust banner with no names gives a buyer nothing to check. Named brands, studios, and photographers can at least be looked up and asked.
+The same accounting applies to Astria. Ask for a price against the identical output list, and include preparation and review. This review does not establish which platform is cheaper for your collection.
 
 ## Choose Lumoo if...
 
-- Your monthly volume is modest and you value a single tidy flow.
-- One product photo branching into model shots, detail views, and video covers your needs.
-- Transparent, low-commitment credit pricing matters more than production depth.
-- You are a small team without external creative partners to bring into the work.
+- You want to test generation and editing in one connected flow.
+- Your recurring mix of outputs fits the available credit plans.
+- A live workflow shared by your team is central to the pilot.
 
 ## Choose Astria if...
 
-- You are producing a collection, not a handful of assets.
-- One approved creative direction must carry across catalog, lookbook, campaign, social, and motion.
-- Casting depth across ages and body types is a production requirement.
-- Your photographer, studio, or agency should work inside the brand workspace.
-- You want customer references you can actually verify.
-
-## The bottom line
-
-For fashion brands producing a season, Astria is the stronger choice: it stores the creative decision, covers every channel, and scales to a catalog rather than to a monthly credit allowance. Lumoo Air is a well-made compact studio, and for a small team with modest volume it is a reasonable and inexpensive place to start.
-
-The moment your SKU count outruns your credit tier, you are buying the wrong shape of product.
+- You want to begin with a fashion template and a collection of product references.
+- Your evaluation centres on a coherent lookbook or campaign set.
+- You want to inspect published collection examples before building the pilot.
 
 ## What to test before choosing either platform
 
-Count your real annual volume — SKUs times images, plus clips, plus campaign assets, plus a realistic rejection rate — and check it against the published tiers before shortlisting. Then run five representative SKUs through both, require PDP, detail, campaign, and social outputs, and add a colorway after approval. Have a senior creative review outputs blind for garment fidelity, drape, anatomy, styling, and brand fit. Finally, ask each vendor for a customer you can contact.
+Choose five garments with different review problems. Include a pattern, layering, and a construction detail that cannot be inferred from the front. Produce a full look and detail view for each, then ask a colleague to extend the approved treatment to a new item. Compare accepted images and review time, not just render time.
+
+For adjacent options, see [Astria vs WearView](./astria-vs-wearview-fashion-ai.md) and the [AI fashion photography platform shortlist](./best-ai-fashion-photography-platforms.md).
 
 ## Frequently asked questions
 
 ### Is Lumoo an Astria alternative?
 
-For small-volume work, yes. Lumoo Air turns one product photo into model shots, detail views, video, and try-ons in a single tidy flow. Astria is built for producing a whole collection from one approved creative direction.
+Yes, for overlapping fashion-image work. Test Lumoo if a connected generation-and-editing flow fits your team, and Astria if fashion templates are your preferred starting point.
 
-### What does Lumoo do particularly well?
+### Does Lumoo Pro include images, videos, and try-ons separately?
 
-Simplicity. One source image branches into images, video, and try-ons with cropping, colour adjustment, template packages, and real-time collaboration, all in one workspace with transparent credit pricing.
+No. The pricing page presents approximate alternative outputs from one credit pool. A mixed workload must be budgeted against the operations actually used.
 
-### How does credit pricing behave at collection scale?
+### Is Lumoo suitable for a whole collection?
 
-Lumoo's published tiers top out around 600 images a month before custom plans. A 150-SKU catalog at four images each exceeds that in one push, and rejected frames spend credits too.
-
-### Which keeps a brand's creative direction consistent?
-
-Astria. It stores an approved treatment — casting, styling, scene, crop, lighting, format — and applies it to every SKU. Lumoo's template packages help, but the direction is configured per flow rather than owned as a brand asset.
-
-### Is Astria better than Lumoo for fashion brands?
-
-For brands producing a collection across channels, yes. Small teams needing a handful of polished assets a month from single product photos may find Lumoo sufficient and pleasant to use.
-
-For adjacent decisions, see how Astria compares with [Stylic](./astria-vs-stylic-fashion-ai.md), [Rawshot](./astria-vs-rawshot-fashion-ai.md), and [Botika](./astria-vs-botika-fashion-ai.md).
-
-Still narrowing the field? The category map is in [best AI fashion photography platforms](./best-ai-fashion-photography-platforms.md), and how production actually runs is in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
+Test the collection workflow rather than deciding from the base allowance alone. Budget additional attempts and review time, then compare a suitable volume plan with the alternatives.
 
 ## Sources and methodology
 
-This article compares public product information available on August 13, 2026. Key sources include Lumoo Air's homepage describing its single-source workflow, capability set, template packages, and real-time collaboration, and its pricing page covering free credits and the Lite, Basic, Pro, and custom tiers with their stated image and video equivalents, plus Astria's fashion and ecommerce offering, template gallery, workspace documentation, and video documentation.
+Reviewed September 5, 2026. This is an Astria-authored review of public product documentation and pricing, not an independent customer review or a controlled image-quality benchmark. The recommendations are our assessment of workflow fit; vendor examples do not establish results for your garments.
 
-Pricing, credit allowances, and product scope can change. Confirm current terms and test representative garments before making a production decision.
+Primary sources checked: [Lumoo Air homepage](https://air.lumoo.ai/) and [pricing](https://air.lumoo.ai/pricing); [Astria fashion offering](https://www.astria.ai/ecommerce) and [lookbook gallery](https://www.astria.ai/gallery/workspaces). Prices, estimated output counts, and product scope can change.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).

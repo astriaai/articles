@@ -1,6 +1,6 @@
 ---
-title: "How to Create a Lookbook: A Working Process from Brief to Delivery"
-description: "The practical steps behind a fashion lookbook — brief, casting, shot list, sequencing, formats, and distribution — plus where AI production fits into each stage."
+title: "How to Create a Lookbook: 8 Steps + Layout Checklist"
+description: "Make a fashion lookbook from brief to delivery: choose looks, build a shot list, plan the page order, add wholesale details, and export a useful PDF or web edition."
 slug: how-to-create-a-lookbook
 date: 2026-08-16
 hide_table_of_contents: true
@@ -17,59 +17,58 @@ keywords:
 export const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: [
+  "mainEntity": [
     {
       "@type": "Question",
-      name: "What should a lookbook include?",
-      acceptedAnswer: {
+      "name": "What should a lookbook include?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "A curated selection of styled looks in a deliberate order, usually twelve to twenty-four for a season, with enough detail shots to convey fabric and construction. Wholesale lookbooks additionally carry style numbers, colorways, fabric composition, and delivery windows.",
-      },
+        "text": "A curated selection of styled looks in a deliberate order, usually twelve to twenty-four for a season, with enough detail shots to convey fabric and construction. Wholesale lookbooks additionally carry style numbers, colorways, fabric composition, and delivery windows."
+      }
     },
     {
       "@type": "Question",
-      name: "How long does it take to make a lookbook?",
-      acceptedAnswer: {
+      "name": "How long does it take to make a lookbook?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "Traditionally four to eight weeks from brief to delivery, with the shoot itself occupying one or two days of that. Most of the calendar is sample availability, scheduling, and post-production rather than photography.",
-      },
+        "text": "For the small seasonal production outlined here, allow roughly four to eight weeks as a planning example, not a guaranteed turnaround. Sample availability, approvals, revisions, and layout can take longer than the shoot itself."
+      }
     },
     {
       "@type": "Question",
-      name: "What is the difference between a wholesale and a consumer lookbook?",
-      acceptedAnswer: {
+      "name": "What is the difference between a wholesale and a consumer lookbook?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "A wholesale lookbook is a buying tool: it needs style numbers, colorways, composition, price points, and delivery dates alongside clear garment views. A consumer lookbook is a mood piece and carries almost none of that.",
-      },
+        "text": "A wholesale lookbook is a buying tool: it needs style numbers, colorways, composition, price points, and delivery dates alongside clear garment views. A consumer lookbook is a mood piece and carries almost none of that."
+      }
     },
     {
       "@type": "Question",
-      name: "What format should a lookbook be delivered in?",
-      acceptedAnswer: {
+      "name": "What format should a lookbook be delivered in?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "Usually several: a PDF for buyers and press, a web version for the site, and vertical crops for social. Deriving all of them from one production is far cheaper than treating each as a separate deliverable.",
-      },
+        "text": "Usually several: a PDF for buyers and press, a web version for the site, and vertical crops for social. Deriving all of them from one production is far cheaper than treating each as a separate deliverable."
+      }
     },
     {
       "@type": "Question",
-      name: "Do you need a stylist for a lookbook?",
-      acceptedAnswer: {
+      "name": "Do you need a stylist for a lookbook?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "For anything beyond single-product shots, yes. Styling is knowledge about clothes — proportion, layering, what goes with what — and it is the part that most visibly separates a considered lookbook from a grid of garments.",
-      },
-    },
-  ],
+        "text": "For anything beyond single-product shots, yes. Styling is knowledge about clothes — proportion, layering, what goes with what — and it is the part that most visibly separates a considered lookbook from a grid of garments."
+      }
+    }
+  ]
 };
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
-Most lookbook advice is either art direction with no logistics, or logistics with no point of view. What follows is the working sequence a small brand or studio can actually run, with the decision points marked and an honest note about where AI production changes the calendar and where it does not.
+To create a fashion lookbook, choose the audience, write a brief, select and photograph the looks, then sequence the images into a PDF or web edition. Add the buying information your audience needs and check every page before sending. The eight stages below take a small brand or studio from the first brief to delivery.
 
-**The short version:** the shoot is one or two days of a four-to-eight week process. Compressing the shoot changes less than people expect; compressing the revision cycle changes a great deal.
+**The short version:** plan the finished document before producing its images. Page order, product information, and delivery format determine which shots you actually need.
 
 <!-- truncate -->
 
@@ -125,6 +124,20 @@ The shot list is what you will actually produce, and it must be shorter than the
 
 Include every SKU and you have made a catalog. That is a different, also-necessary document.
 
+### A shot list you can copy
+
+Give each planned image a job before booking production. Here is a sample for three looks; expand it to fit the collection.
+
+| Image | Look and products | View | Where it goes |
+| --- | --- | --- | --- |
+| 01 | Look A: jacket J01, trouser T01 | Hero with space for the collection title | Cover and opening web section |
+| 02 | Look A: J01, T01 | Full length, clear silhouette | First look page |
+| 03 | Look B: knit K02, skirt S02 | Three-quarter, showing the layering | Second look page |
+| 04 | Look B: K02 | Close detail of the knit | Detail page beside the full look |
+| 05 | Look C: dress D03 | Full length, a different pose | Closing look page |
+
+Add colourway, sample readiness, orientation, and approval owner as columns in your working sheet. A missing back view is easy to request here and expensive to discover during layout.
+
 ## Stage 4 — Casting, location, styling
 
 The three decisions that determine whether the result looks like anything.
@@ -156,16 +169,36 @@ Lay every image out small, all at once. Then:
 - Group by story, not by product category. "Knitwear" is a merchandising unit, not a narrative one.
 - Read it back to front. Weak endings are more common than weak openings and less often noticed.
 
+### A simple lookbook page layout
+
+For a first edition, use this page order as a starting point:
+
+1. **Cover:** brand, collection or season, and one strong image.
+2. **Opening:** a short collection note and a look that establishes the direction.
+3. **Look pages:** give the clothes enough space; keep captions and look numbers in consistent positions.
+4. **Detail pages:** place fabric or construction close-ups beside the looks they explain.
+5. **Closing page:** a final image, contact or order link, and the next action for the reader.
+
+In the wholesale edition, connect each look to its style numbers and line sheet. In the consumer edition, link to the relevant products. Keep buying information as editable text so a price or delivery change does not require altering the photography.
+
+You can assemble this in a slide editor, page-layout tool, or your site's content system. Choose the tool by what must remain editable and who will update it next season.
+
 ## Stage 7 — Format and deliver
 
 From one production, derive:
 
-- **PDF** for buyers and press. Under 10 MB or it will not survive email. Style numbers and delivery windows on the wholesale version.
+- **PDF** for buyers and press. Aim for a compact download, and send a link if the file is too large for the recipient's attachment limit. Style numbers and delivery windows on the wholesale version.
 - **Web** for the site, in the correct aspect ratios, optimised, with real alt text.
 - **Vertical crops** for social, planned from the start rather than salvaged afterwards.
 - **Print**, if you are producing one, at the right colour profile and resolution.
 
 Planning these formats before production is the difference between four deliverables and four productions.
+
+### Before you export the lookbook
+
+Read the document at the size the recipient will use. Check that captions remain legible on a phone, image crops preserve the garments, and each product link opens the correct style or colourway. Match wholesale codes and dates against the current line sheet. Open the exported PDF itself: a correct working file can still produce clipped text or broken links.
+
+Use descriptive image filenames and keep a master with editable text, full-size images, and a version date. Have someone who did not build the layout check it before delivery.
 
 ## Stage 8 — Distribute
 
@@ -174,7 +207,9 @@ Planning these formats before production is the difference between four delivera
 - Roll out on-site and on social over weeks rather than in one dump.
 - Archive everything — the brief, the approved treatment, the selects — so next season starts from something.
 
-## A realistic calendar
+## An example production calendar
+
+These are planning allowances for a small seasonal brief, not measured industry averages. Replace them with your team's estimates and supplier commitments.
 
 | Stage | Traditional | With AI production |
 | --- | --- | --- |
@@ -195,7 +230,7 @@ A curated selection of styled looks in a deliberate order, usually twelve to twe
 
 ### How long does it take to make a lookbook?
 
-Traditionally four to eight weeks from brief to delivery, with the shoot itself occupying one or two days of that. Most of the calendar is sample availability, scheduling, and post-production rather than photography.
+For the small seasonal production outlined here, allow roughly four to eight weeks as a planning example, not a guaranteed turnaround. Sample availability, approvals, revisions, and layout can take longer than the shoot itself.
 
 ### What is the difference between a wholesale and a consumer lookbook?
 

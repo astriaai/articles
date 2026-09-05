@@ -1,6 +1,6 @@
 ---
-title: "The AI Lookbook Guide: Producing a Season Without a Shoot Day"
-description: "A lookbook is a narrative, not a grid of products. How to produce one with AI — casting, story, sequencing, and the mistakes that make a lookbook look like a catalog."
+title: "AI Lookbook Guide: From Product Photos to a Collection"
+description: "Build an AI fashion lookbook from product photos. Learn what to upload, how to keep models consistent, and what to check before using generated images."
 slug: ai-lookbook-guide
 date: 2026-08-22
 hide_table_of_contents: true
@@ -17,59 +17,58 @@ keywords:
 export const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: [
+  "mainEntity": [
     {
       "@type": "Question",
-      name: "What is a lookbook, and how is it different from a catalog?",
-      acceptedAnswer: {
+      "name": "What is an AI lookbook generator?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "A catalog documents products so someone can buy them — clear, complete, neutral. A lookbook sells a point of view: how the collection is styled, who wears it, and what world it lives in. Same garments, opposite jobs.",
-      },
+        "text": "An AI lookbook generator creates fashion images from product and creative references. Producing a finished lookbook still requires selecting the images, checking the garments, and arranging the set into a deliberate sequence."
+      }
     },
     {
       "@type": "Question",
-      name: "How many looks should a lookbook contain?",
-      acceptedAnswer: {
+      "name": "What references do you need for an AI lookbook?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "Fewer than most brands want. Twelve to twenty-four looks is a common working range for a season. A lookbook that includes every SKU has become a catalog, which defeats its purpose.",
-      },
+        "text": "Supply clear references for each garment and colourway, including the back and any details that will appear. Keep product, casting, and art-direction references separate so a scene change does not become a product change."
+      }
     },
     {
       "@type": "Question",
-      name: "Can one AI model appear across an entire lookbook?",
-      acceptedAnswer: {
+      "name": "Can one AI model appear across an entire lookbook?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "Yes, and it should. Casting continuity is what makes a set of images read as one shoot. It requires the likeness to be stored as a reusable reference rather than re-described in each generation.",
-      },
+        "text": "Yes, and it should. Casting continuity is what makes a set of images read as one shoot. It requires the likeness to be stored as a reusable reference rather than re-described in each generation."
+      }
     },
     {
       "@type": "Question",
-      name: "How long does an AI lookbook take to produce?",
-      acceptedAnswer: {
+      "name": "How long does an AI lookbook take to produce?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "The creative direction — casting, styling, world, sequencing — takes as long as it always did, typically several days. What collapses is execution: once the direction is approved, producing and revising the looks takes hours instead of a shoot day plus post.",
-      },
+        "text": "Allow time for references, a pilot look, revisions, garment checks, and final selection. Generation time alone is not a delivery estimate. Time a small approved batch before committing to the full collection."
+      }
     },
     {
       "@type": "Question",
-      name: "Will an AI lookbook look generic?",
-      acceptedAnswer: {
+      "name": "Will an AI lookbook look generic?",
+      "acceptedAnswer": {
         "@type": "Answer",
-        text: "It will if the direction is generic. The tools default to a glossy, well-lit, mid-Atlantic aesthetic, and accepting that default is what makes AI lookbooks recognisable. Specific casting, specific location logic, and deliberate imperfection are what break it.",
-      },
-    },
-  ],
+        "text": "It will if the direction is generic. The tools default to a glossy, well-lit, mid-Atlantic aesthetic, and accepting that default is what makes AI lookbooks recognisable. Specific casting, specific location logic, and deliberate imperfection are what break it."
+      }
+    }
+  ]
 };
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
-A lookbook is the most misunderstood deliverable in fashion production. Brands ask for one and describe a catalog; tools promise one and produce a grid. The difference is not image quality — it is that a lookbook has a point of view and a catalog deliberately does not.
+An AI lookbook uses generated fashion images to show a collection through a consistent cast, setting, and styling direction. Start with product references, approve one complete look, then produce the remaining images against that treatment. The generator supplies images; you still decide which ones belong in the collection.
 
-**The short version:** AI collapses the cost of executing a lookbook, and changes nothing about the cost of having something to say. Budget your time accordingly.
+**The short version:** a useful AI lookbook workflow preserves both the clothes and the direction. This guide covers inputs, generation, and image review. For the brief, page layout, wholesale information, and delivery checklist, use [how to create a lookbook](./how-to-create-a-lookbook.md).
 
 <!-- truncate -->
 
@@ -90,7 +89,7 @@ A lookbook is the most misunderstood deliverable in fashion production. Brands a
   </div>
 </aside>
 
-## Lookbook versus catalog
+## What an AI lookbook generator should produce
 
 Worth stating plainly, because half of all lookbook problems are actually category confusion:
 
@@ -103,6 +102,16 @@ Worth stating plainly, because half of all lookbook problems are actually catego
 | **Success** | No returns from misunderstanding | Someone feels something |
 
 Both are necessary. They are produced differently, judged differently, and should not be attempted in the same pass. A brand that tries to make one set of images do both jobs ends up with a catalog that feels sterile and a lookbook that feels incomplete.
+
+## What to upload for an AI fashion lookbook
+
+Prepare a folder for each look before opening the generator. Include clear product photos for every garment in the outfit, the intended colourway, and detail references for prints, fastenings, and fabric. Keep the style numbers attached to those references so review never becomes a guessing game.
+
+One front photo cannot establish what the back of a garment looks like. Supply the views you expect to show. If a generator invents a plausible back, that is a concept image until someone checks it against the product. The input pass is covered in [flat lay to on-model photography](./flat-lay-to-on-model.md).
+
+Keep three kinds of reference distinct: **product** for what the clothes are, **casting** for who wears them, and **art direction** for light, pose, and setting. Changing a location reference should not quietly change the jacket.
+
+Astria's [fashion workflow](https://www.astria.ai/ecommerce) starts with a template and uploaded product photos. Its [lookbook gallery](https://www.astria.ai/gallery/workspaces) gives examples to inspect. Use a complete set as the reference for consistency, rather than judging a tool by one hero image.
 
 ## Decide the four things before generating anything
 
@@ -139,13 +148,13 @@ They share a recognisable aesthetic, and it is worth naming the tells because th
 - **No texture.** No grain, no lens character, no imperfection. Clean is not the same as good.
 - **Every garment sitting perfectly.** Real clothes wrinkle, ride up, and catch.
 
-Each of these is a direction problem, not a technology problem. The tools produce the default aesthetic because the default brief invites it.
+A specific brief helps with these problems, but it does not eliminate model limitations. Reject images that cannot preserve the garment or the intended pose.
 
 ## What to check before publishing
 
 Run this pass with fresh eyes, ideally someone who has not been staring at the set:
 
-- **Garment fidelity.** Is every print aligned, every logo correct in scale and placement, every closure and hardware right? This is the failure that costs you returns.
+- **Garment fidelity.** Is every print aligned, every logo correct in scale and placement, every closure and hardware right? Reject any detail that misrepresents the product.
 - **Casting continuity.** Is it the same person in look 3 and look 17? Look at the face at full size, not thumbnail.
 - **Hands and interaction.** Especially where a hand meets a bag, a pocket, a cuff.
 - **Grade drift.** Put all the looks on one screen. Warmth and contrast creep is invisible one image at a time.
@@ -154,10 +163,10 @@ Run this pass with fresh eyes, ideally someone who has not been staring at the s
 
 ## Where the savings actually are
 
-Not in the per-image cost, which is trivial either way at lookbook volumes. The savings are:
+Estimate the savings against your actual brief. The opportunities are:
 
-- **Scheduling.** No model availability, no studio booking, no location permit, no waiting for samples that arrive late.
-- **Revision.** A creative director who wants the whole set warmer gets it in one operation instead of a reshoot or an expensive grading session.
+- **Scheduling.** Generating from suitable references can reduce live-shoot coordination. You still need accurate product inputs and time for review.
+- **Revision.** A warmer treatment can be tested on an approved frame before revising the set. Check the garment colours again after any grading change.
 - **Reuse.** Next season starts from approved casting, references, and treatment rather than from nothing.
 - **Extension.** Campaign frames, social crops, and motion come from the same direction — see [AI fashion film](./ai-fashion-film-guide.md).
 
@@ -167,13 +176,13 @@ The full production picture, including catalog work, is in the [AI fashion photo
 
 ## Frequently asked questions
 
-### What is a lookbook, and how is it different from a catalog?
+### What is an AI lookbook generator?
 
-A catalog documents products so someone can buy them — clear, complete, neutral. A lookbook sells a point of view: how the collection is styled, who wears it, and what world it lives in. Same garments, opposite jobs.
+An AI lookbook generator creates fashion images from product and creative references. Producing a finished lookbook still requires selecting the images, checking the garments, and arranging the set into a deliberate sequence.
 
-### How many looks should a lookbook contain?
+### What references do you need for an AI lookbook?
 
-Fewer than most brands want. Twelve to twenty-four looks is a common working range for a season. A lookbook that includes every SKU has become a catalog, which defeats its purpose.
+Supply clear references for each garment and colourway, including the back and any details that will appear. Keep product, casting, and art-direction references separate so a scene change does not become a product change.
 
 ### Can one AI model appear across an entire lookbook?
 
@@ -181,7 +190,7 @@ Yes, and it should. Casting continuity is what makes a set of images read as one
 
 ### How long does an AI lookbook take to produce?
 
-The creative direction — casting, styling, world, sequencing — takes as long as it always did, typically several days. What collapses is execution: once the direction is approved, producing and revising the looks takes hours instead of a shoot day plus post.
+Allow time for references, a pilot look, revisions, garment checks, and final selection. Generation time alone is not a delivery estimate. Time a small approved batch before committing to the full collection.
 
 ### Will an AI lookbook look generic?
 

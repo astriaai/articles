@@ -63,9 +63,8 @@ export const faqSchema = {
 
 <script
   type="application/ld+json"
->
-  {JSON.stringify(faqSchema)}
-</script>
+  dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
+/>
 
 Look at an AI-produced catalog that has gone wrong and you will usually find the same failure: it is not one model wearing forty garments, it is forty slightly different people. The face changes. The age wanders. The build shifts between the knitwear and the outerwear.
 
@@ -141,6 +140,8 @@ A catalog can fail on any one of these while passing the other three, and the sy
 One consequence worth stating: consistency work is what makes broad casting practical. If every image is a fresh roll of the dice, representing a range of ages, sizes, and bodies across a collection is unmanageable — you cannot hold six different people consistent when you cannot hold one.
 
 Once casting is a stored reference, a brand can run a genuinely varied cast — including children's ranges and extended sizing — with the same reliability as a single model. Whether a brand does that is a values question. Consistency is what turns it from an aspiration into an operation.
+
+For portraits of real employees, the challenge is different: preserve each person while matching the photographic treatment across people. Use the [AI team photos and headshots workflow](./ai-headshots-for-teams.md) for the submission brief and approval process.
 
 ## A test that predicts real-world behaviour
 
