@@ -157,6 +157,8 @@ Budget for it. It is comparatively cheap and it is the highest-leverage improvem
 
 **Concept testing.** Show a director or a client what a film could look like before committing budget to shooting it. This is possibly the strongest current use: not the final artefact, but the thing that gets the final artefact approved.
 
+For a SKU-specific demonstration, use the [apparel product video production guide](./apparel-product-video-guide.md). For acquisition edits and controlled hook tests, use the [fashion video ads guide](./fashion-video-ads-guide.md).
+
 For the wider production context, see the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md) and the [AI lookbook guide](./ai-lookbook-guide.md). If you are choosing the production stack, the [Astria vs Higgsfield comparison](./astria-vs-higgsfield-fashion-ai.md) separates a fashion-collection workflow from a broader cinematic toolset.
 
 ## Frequently asked questions
