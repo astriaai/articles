@@ -2,7 +2,7 @@
 title: "Ecommerce Product Photography Prompts for PDP, Packshots and Campaigns"
 description: "Write ecommerce product photography prompts for clean PDP coverage, packshots, details and campaigns—with copyable examples and public templates."
 slug: ecommerce-product-photography-prompts
-date: 2026-09-06
+date: 2026-09-05
 hide_table_of_contents: true
 image: /img/covers/ecommerce-product-photography-prompts.jpg
 authors: [astria]

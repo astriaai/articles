@@ -81,7 +81,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | stytrix-alternatives | stytrix alternatives | 2026-08-31 | 2026-09-05 | P F | 2026-10-05 | comparisons |
 | lumoo-alternatives | lumoo alternatives | 2026-08-30 | 2026-09-05 | P F | 2026-10-05 | comparisons |
 | ai-fashion-photography-prompts | AI fashion photography prompts | 2026-09-06 | 2026-09-06 | F | 2026-12-06 | guides |
-| ecommerce-product-photography-prompts | ecommerce product photography prompts | 2026-09-06 | 2026-09-06 | F | 2026-12-06 | guides |
+| ecommerce-product-photography-prompts | ecommerce product photography prompts | 2026-09-05 | 2026-09-06 | F | 2026-12-06 | guides |
 
 ## Unlisted (deliberately noindexed)
 
