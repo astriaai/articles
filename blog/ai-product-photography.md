@@ -107,6 +107,33 @@ Those operations carry different risk. Removing a background does not ask the sy
 
 Start by naming the operation. “Make this look premium” is not a production brief. “Preserve the approved bottle, label, cap geometry, and color; replace only the surface and background” is reviewable.
 
+### One product, three asset roles
+
+The public [Handbag Formation workspace](https://www.astria.ai/w/handbag-formation) shows how one product can move from a clean catalog view to another product angle and then into on-model context. These are generated outputs for the same Lara Frame Bag—not a claim that matching automatically makes them accurate. A reviewer should still compare the closure, strap attachment, print scale and direction, hardware, and silhouette with the approved references.
+
+<div className="workspace-example-grid">
+  <figure className="benchmark-card benchmark-card--source">
+    <a href="https://www.astria.ai/prompts/46567362?ws=866" target="_blank" rel="noreferrer">
+      <img loading="lazy" src="/articles/img/workspace-examples/ai-product-photography/lara-frame-bag-front.webp" alt="Generated straight-on catalog packshot of the Lara Frame Bag" />
+    </a>
+    <figcaption><strong>Front packshot</strong>Establish the complete silhouette, closure, pattern, hardware, and strap.</figcaption>
+  </figure>
+  <figure className="benchmark-card benchmark-card--source">
+    <a href="https://www.astria.ai/prompts/46567361?ws=866" target="_blank" rel="noreferrer">
+      <img loading="lazy" src="/articles/img/workspace-examples/ai-product-photography/lara-frame-bag-rear-three-quarter.webp" alt="Generated rear three-quarter catalog view of the Lara Frame Bag" />
+    </a>
+    <figcaption><strong>Rear three-quarter</strong>Expose depth and rear construction without treating an inferred surface as proof.</figcaption>
+  </figure>
+  <figure className="benchmark-card">
+    <a href="https://www.astria.ai/prompts/46526870?ws=866" target="_blank" rel="noreferrer">
+      <img loading="lazy" src="/articles/img/workspace-examples/ai-product-photography/lara-frame-bag-on-model.webp" alt="Generated on-model catalog photograph of the Lara Frame Bag" />
+    </a>
+    <figcaption><strong>On-model context</strong>Add scale, styling, and carrying context after the product treatment passes review.</figcaption>
+  </figure>
+</div>
+
+<p className="benchmark-caption">Public Astria outputs, retrieved from workspace 866 on September 7, 2026. Select an image to inspect its generation record.</p>
+
 ## Begin with a product source of truth
 
 The first input should establish what the customer will receive. It does not need to be the final hero image, but it needs to show the product clearly enough to catch a wrong output.
@@ -288,7 +315,7 @@ Use cost per approved published asset, not cost per generation. Include source p
 
 ## Sources and methodology
 
-Astria workflow statements use its current ecommerce page and public workspaces gallery. Google Merchant Center's current [AI-generated content guidance](https://support.google.com/merchants/answer/14743464?hl=en) requires supported generative images to retain the applicable IPTC digital-source metadata; that is a specific channel requirement, not a universal publishing rule. Marketplace implementation details remain with the separately sourced Shopify and Amazon guides linked above.
+Astria workflow statements use its current ecommerce page and public workspaces gallery. The handbag examples were selected through the Astria CLI from the public [Handbag Formation workspace](https://www.astria.ai/w/handbag-formation), then cached locally for stable article delivery; the linked generation records are prompts 46567362, 46567361, and 46526870 in workspace 866. Google Merchant Center's current [AI-generated content guidance](https://support.google.com/merchants/answer/14743464?hl=en) requires supported generative images to retain the applicable IPTC digital-source metadata; that is a specific channel requirement, not a universal publishing rule. Marketplace implementation details remain with the separately sourced Shopify and Amazon guides linked above.
 
 This is a production framework, not a cross-vendor image benchmark or a claim that every product can be reconstructed from one photograph. The cover is an AI-generated editorial illustration of a fictional, brand-neutral handbag workflow, not a customer result.
 

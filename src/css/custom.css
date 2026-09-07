@@ -290,6 +290,14 @@ h4 {
   margin: 0 0 30px;
 }
 
+/* Public-workspace examples embedded in production guides. */
+.workspace-example-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 22px 0 10px;
+}
+
 .benchmark-verdict {
   background: color-mix(in srgb, #7b72ff 10%, var(--ifm-background-surface-color));
   border-left: 4px solid #7b72ff;
@@ -309,7 +317,8 @@ h4 {
 }
 
 @media (max-width: 520px) {
-  .benchmark-grid {
+  .benchmark-grid,
+  .workspace-example-grid {
     grid-template-columns: 1fr;
   }
 }
