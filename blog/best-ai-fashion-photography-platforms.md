@@ -101,6 +101,8 @@ Most "best AI fashion tools" lists rank products that do not compete with each o
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## What is the best AI fashion model generator for a clothing brand?
 
 The best choice depends on what must happen after the first image. Search results use “AI fashion model generator” for four different purchases:

@@ -99,6 +99,8 @@ export const faqSchema = {
   </div>
 </aside>
 
+<ArticleEvidence profile="packshot" />
+
 **Last fact check:** August 31, 2026. **Search-intent review:** September 7, 2026. Platform specifications change; verify the linked Shopify and Amazon requirements before delivery.
 
 ## First, name the asset correctly

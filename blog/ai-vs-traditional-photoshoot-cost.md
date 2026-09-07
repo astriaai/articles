@@ -89,6 +89,8 @@ The comparison is usually presented as cents against thousands, which is arithme
   </div>
 </aside>
 
+<ArticleEvidence profile="cost" />
+
 ## Compare like with like
 
 Both approaches have fixed and marginal costs. Setting them out the same way is most of the work.

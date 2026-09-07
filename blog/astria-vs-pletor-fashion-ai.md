@@ -89,6 +89,8 @@ Pletor calls itself AI creative infrastructure for marketing teams, and the desc
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonWorkflow" />
+
 ## How we evaluated Astria and Pletor
 
 We used six B2B buying questions: which stage of the funnel each product serves, how much fashion knowledge it supplies, casting and category depth, how collaborators review creative, how a full collection runs, and what the commercial model assumes about the work.

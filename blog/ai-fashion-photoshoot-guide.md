@@ -89,6 +89,8 @@ Nearly everything written about AI fashion photography is either a tool listicle
   </div>
 </aside>
 
+<ArticleEvidence profile="fashion" />
+
 ## What an AI fashion photoshoot actually is
 
 Strip away the marketing and it is a substitution. A traditional shoot expresses creative direction through logistics: you book a model who embodies the casting, a location that carries the mood, a stylist who assembles the look, and a photographer who frames it. The logistics are the *medium* through which the direction reaches the image.

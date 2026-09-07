@@ -89,6 +89,8 @@ Look at an AI-produced catalog that has gone wrong and you will usually find the
   </div>
 </aside>
 
+<ArticleEvidence profile="casting" />
+
 ## Why description fails
 
 "A woman in her late twenties, shoulder-length brown hair, olive skin, natural makeup" feels specific. It is not. It describes a category that contains an enormous number of distinct faces, and each generation is free to choose a different one. Add more adjectives and you narrow the category slightly; you never reduce it to a person.

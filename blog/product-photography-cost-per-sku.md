@@ -89,6 +89,8 @@ Ecommerce teams talk about photoshoot budgets. Catalog operations run on a diffe
   </div>
 </aside>
 
+<ArticleEvidence profile="cost" />
+
 ## Calculate it properly
 
 Most teams compute cost per image, which flatters the number, or divide the photographer's invoice by the SKU count, which understates it badly. The honest formula:

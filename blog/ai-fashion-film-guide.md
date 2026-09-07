@@ -89,6 +89,8 @@ Motion is the part of AI fashion production that has moved fastest and is still 
   </div>
 </aside>
 
+<ArticleEvidence profile="video" />
+
 ## Start from stills, not from a prompt
 
 The productive workflow is not "describe a fashion film." It is:

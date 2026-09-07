@@ -74,6 +74,8 @@ Fermat brings design exploration and photography into the same fashion toolbox. 
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonWorkflow" />
+
 ## Fermat AI pricing: Pro, Studio, and Enterprise
 
 | Plan | Monthly price, USD | Included credits |

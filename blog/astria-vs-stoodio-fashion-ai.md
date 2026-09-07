@@ -89,6 +89,8 @@ Stoodio is one of the few competitors in this set that is, like Astria, built ex
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Stoodio
 
 We used six B2B buying questions: how a brand gets started and how dependent it stays on the vendor, casting depth and licensing, category and channel coverage, how collaborators review the work, what published evidence exists, and how a full collection runs.

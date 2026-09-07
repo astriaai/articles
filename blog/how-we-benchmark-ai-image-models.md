@@ -37,6 +37,8 @@ The September 2026 pilot compares **Nano Banana 2, GPT Image 2, Seedream 5 Pro, 
   </div>
 </aside>
 
+<ArticleEvidence profile="models" />
+
 ## Public leaderboards are context, not a production verdict
 
 Public image leaderboards answer useful questions. They do not all answer the same question.

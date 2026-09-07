@@ -89,6 +89,8 @@ Jewelry is where general-purpose AI product photography tools stop being convinc
   </div>
 </aside>
 
+<ArticleEvidence profile="jewelry" />
+
 ## Three reasons jewelry is genuinely hard
 
 **Metal has no colour of its own.** A polished gold band is almost entirely a picture of its surroundings, curved. Change the environment and the metal changes. This is why jewelry photographers build light tents and control every reflective surface in the room — they are not lighting the object, they are constructing what it reflects. Generated imagery that gets the reflections merely plausible produces metal that reads as *rendered* even to viewers who cannot say why.

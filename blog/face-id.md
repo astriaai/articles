@@ -66,6 +66,8 @@ So how do we at Astria.ai come in?
 
 <!-- truncate -->
 
+<ArticleEvidence profile="casting" />
+
 # Astria’s FaceID Feature for Instant Fine-tuning
 
 With our FaceID tool, you can instantly fine-tune your images while preserving identity in a matter of seconds. All you need is just one photograph.

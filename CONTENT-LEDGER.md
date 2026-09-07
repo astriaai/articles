@@ -212,6 +212,18 @@ transactional `AI fashion model generator` landing page remains a main-site impl
 outside this repository. Review page/query overlap in Search Console after an equal 28-day
 live window before releasing beauty, Shopify-specific, or further alternatives pages.
 
+**Visual proof and prompt cross-link rollout — September 7, 2026:** every indexed article
+outside the seven prompt libraries now carries one topic-matched evidence module. Where a
+verified source/result pair exists, the module shows both images and links the public Astria
+workspace, reusable template, exact prompt when available, and the relevant prompt guide.
+Economics, video, casting, footwear, and technical articles use an explicit three-stage process
+instead of presenting an unrelated generation as proof. Comparison pages label the module as
+Astria workflow evidence and state that it is not a controlled same-input benchmark. The two
+deliberately unlisted articles remain outside the rollout. Specific `/prompts/:id`, `/p/:slug`,
+and `/w/:slug` clicks are measured by destination family without sending the underlying ID or
+slug to analytics. Recheck public link availability on the same quarterly feature schedule as
+the prompt cluster.
+
 **Validation and setup:** `yarn install --frozen-lockfile --non-interactive` succeeded;
 `yarn build`, `yarn typecheck`, whitespace checks, rendered metadata/canonical/indexability/link
 checks, FAQ JSON-LD parsing and answer parity, and worked-example arithmetic passed. Run build

@@ -89,6 +89,8 @@ Botika is an established AI on-model photography platform with real ecommerce tr
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## Diagnose the reason first
 
 | Why you are looking | What to shortlist |

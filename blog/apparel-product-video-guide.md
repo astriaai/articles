@@ -81,6 +81,8 @@ An apparel product video earns its place when it answers something a shopper can
   </div>
 </aside>
 
+<ArticleEvidence profile="video" />
+
 **Reviewed September 5, 2026.** Platform capabilities below were checked against first-party documentation. Shot lengths, budgets, and pilot design are production recommendations, not measured conversion benchmarks.
 
 ## Write the buying question before the shot list

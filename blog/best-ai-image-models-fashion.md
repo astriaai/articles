@@ -38,6 +38,8 @@ That is the result of 11 matched briefs, four models, and 131 returned images—
   </div>
 </aside>
 
+<ArticleEvidence profile="models" />
+
 ## The result in one table
 
 | Production job | Our first choice | What decided it |

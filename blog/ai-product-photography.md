@@ -92,6 +92,8 @@ AI product photography is not one button that replaces a studio. It is a set of 
   </div>
 </aside>
 
+<ArticleEvidence profile="channel" />
+
 ## What is AI product photography?
 
 AI product photography uses generative or editing models to make commercial images from product references and creative direction. Some workflows preserve the photographed product and change only its surroundings. Others regenerate more of the frame to create a new angle, person, pose, or composition.

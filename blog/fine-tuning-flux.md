@@ -22,6 +22,8 @@ FLUX.1, launched in August 2024 by Black Forest Labs, represents a significant a
 
 <!-- truncate -->
 
+<ArticleEvidence profile="models" />
+
 ### Key Features and Innovations
 
 FLUX.1 is built on a robust foundation of 12 billion parameters, allowing it to deliver exceptional image fidelity and controllability. This model excels in generating high-quality images that cater to a wide range of applications, from artistic creations to detailed photorealistic outputs. The architecture combines the strengths of transformer models and diffusion techniques, enabling FLUX.1 to outperform its predecessors, including SDXL and SD1.5, in terms of image quality and prompt adherence.

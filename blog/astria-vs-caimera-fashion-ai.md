@@ -89,6 +89,8 @@ Caimera is the strongest self-serve competitor in AI fashion imagery: fast edito
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Caimera
 
 We used six B2B buying questions: product fidelity on difficult garments, fashion-specific creative control, whether approved work can be reused, collection and channel coverage, collaboration and correction workflow, and commercial predictability.

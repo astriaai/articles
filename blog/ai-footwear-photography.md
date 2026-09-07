@@ -89,6 +89,8 @@ Footwear has the most rigid conventions in product photography. Customers expect
   </div>
 </aside>
 
+<ArticleEvidence profile="footwear" />
+
 ## The standard angle set
 
 Deviating from this costs conversions, because shoppers scan for the views they expect:

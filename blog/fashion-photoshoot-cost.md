@@ -89,6 +89,8 @@ Ask what a fashion photoshoot costs and you will get answers ranging across two 
   </div>
 </aside>
 
+<ArticleEvidence profile="cost" />
+
 ## The line items
 
 Every fashion shoot budget is assembled from the same components. Rates vary enormously by market — a day in London, New York, or Milan is not a day in a smaller city — so treat what follows as a structure to fill in rather than a price list.

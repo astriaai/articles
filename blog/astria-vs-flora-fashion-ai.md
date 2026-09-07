@@ -89,6 +89,8 @@ FLORA is the most credible creative-canvas competitor in this comparison set, an
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonWorkflow" />
+
 ## How we evaluated Astria and FLORA
 
 We used six B2B buying questions: where each product is strongest in the calendar, how deep the fashion-specific assets go, what evidence exists in fashion specifically, how collaborators inside and outside the company get access, how a full collection runs, and how the commercial model behaves as the team grows.

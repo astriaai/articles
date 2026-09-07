@@ -74,6 +74,8 @@ WearView starts with garment-to-model photography and extends into poses, video,
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## WearView pricing: plans, resolution, and credits
 
 Base allowances displayed on the [pricing page](https://www.wearview.co/pricing), September 5, 2026:

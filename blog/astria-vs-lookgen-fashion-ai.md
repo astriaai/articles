@@ -89,6 +89,8 @@ Lookgen has picked a sharper target than most of this category: not a single gar
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Lookgen
 
 We used six B2B buying questions: what the product treats as the unit of work, how a brand gets access, casting and category depth, channel coverage across a season, how collaborators review creative, and how the commercial model behaves for a collection.

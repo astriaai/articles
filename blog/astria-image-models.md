@@ -39,6 +39,8 @@ That is the useful model hierarchy. It is not a claim that one model wins every 
   </div>
 </aside>
 
+<ArticleEvidence profile="models" />
+
 ## The model-selection table
 
 | If the job is… | Start with… | Why |

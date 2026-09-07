@@ -89,6 +89,8 @@ Looklet is the incumbent in this category, and it earned that position honestly:
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Looklet
 
 We used six B2B buying questions: what infrastructure the workflow requires before the first image, how creative direction is specified and reused, channel and format coverage, casting and asset depth, collaboration and review, and how the commercial model behaves for a brand rather than a retail group.

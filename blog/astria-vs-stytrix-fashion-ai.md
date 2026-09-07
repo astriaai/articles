@@ -74,6 +74,8 @@ StyTrix and Astria overlap in fashion image generation, but the brief matters mo
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## StyTrix pricing: monthly plans and credits
 
 | Plan | Monthly price, USD | Included credits |

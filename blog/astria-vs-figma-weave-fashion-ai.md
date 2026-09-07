@@ -89,6 +89,8 @@ Figma Weave—the product formerly known as Weavy, acquired by Figma in October 
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonWorkflow" />
+
 ## How we evaluated Astria and Figma Weave
 
 We used six B2B buying questions: how much fashion knowledge the product supplies versus how much you must build, what it takes to produce the first usable PDP set, coverage across a season's channels, who on the team can operate it, how a full collection runs, and what accumulates after the work is done.

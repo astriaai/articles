@@ -89,6 +89,8 @@ Generative editing has an annoying workflow problem: the models are in a browser
   </div>
 </aside>
 
+<ArticleEvidence profile="models" />
+
 ## What it does
 
 Make a selection, describe the edit, and the result comes back into the document. The plugin handles the export, the API call, and the re-import, and it returns generations as layers so the rest of your normal workflow — masks, blend modes, adjustment layers, non-destructive corrections — still applies.

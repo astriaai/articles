@@ -101,6 +101,8 @@ Those are five different inputs, contracts, and failure modes.
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonPackshot" />
+
 ## The shortlist by job
 
 | Purchase | Representative supplier | You provide | You receive | Best when |

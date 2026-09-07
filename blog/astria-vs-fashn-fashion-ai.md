@@ -89,6 +89,8 @@ FASHN is one of the most technically credible names in AI fashion imagery: stron
   </div>
 </aside>
 
+<ArticleEvidence profile="virtualTryOn" />
+
 ## How we evaluated Astria and FASHN
 
 We used six B2B buying questions: what the product treats as the unit of work, how creative direction is specified and reused, casting and asset depth, collaboration and review, channel and format coverage, and what it takes to run a whole collection rather than a single image.

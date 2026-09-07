@@ -89,6 +89,8 @@ Browzwear and Astria are adjacent, not interchangeable, and any honest compariso
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonPackshot" />
+
 ## How we evaluated Astria and Browzwear
 
 Because these products sit at different points in the calendar, we evaluated them against one shared question: what does it take to get the season's imagery produced? That means looking at inputs required, specialist skills, category and channel coverage, collaboration, collection-scale behavior, and commercial shape — while stating plainly where Browzwear's real value lies, which is upstream.

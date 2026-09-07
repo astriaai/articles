@@ -74,6 +74,8 @@ Lumoo Air starts with a product photo and turns it into a connected set of visua
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## Lumoo pricing: what the euro plans include
 
 Monthly billing shown on September 5, 2026:

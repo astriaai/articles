@@ -100,6 +100,8 @@ AI team photos can mean a grid of individual headshots or one group image assemb
   </div>
 </aside>
 
+<ArticleEvidence profile="casting" />
+
 ## AI team photo generator or individual headshots?
 
 | What you need | Production approach | Approval check |
