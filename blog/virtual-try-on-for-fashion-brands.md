@@ -4,7 +4,7 @@ description: "Two different technologies share the name virtual try-on. Only one
 slug: virtual-try-on-for-fashion-brands
 date: 2026-08-14
 hide_table_of_contents: true
-image: /img/covers/virtual-try-on-for-fashion-brands.jpg
+image: /img/covers/virtual-try-on-for-fashion-brands.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -74,7 +74,7 @@ Two genuinely different technologies are sold under the name "virtual try-on," a
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>
@@ -97,7 +97,7 @@ Two genuinely different technologies are sold under the name "virtual try-on," a
 
 Vendors blur this because the underlying image work rhymes. The purchasing decision does not rhyme at all.
 
-![A garment placed on a model without a physical shoot](virtual-tryon/image14.png "image_tooltip")
+![A garment placed on a model without a physical shoot](virtual-tryon/image14.webp "image_tooltip")
 
 ## Why brand-side is where the money usually is
 
@@ -119,7 +119,7 @@ Being specific about this matters more than any vendor demo, because demos are s
 
 **Still genuinely hard:** garments whose fit is the product — technical outerwear, structured tailoring, compression and performance wear, anything where a customer buys on how it sits rather than how it looks.
 
-![Garment detail reproduced on a generated model](virtual-tryon/image11.png "image_tooltip")
+![Garment detail reproduced on a generated model](virtual-tryon/image11.webp "image_tooltip")
 
 The practical rule: build your evaluation set out of your hardest ten garments, not a representative sample. A tool that handles those handles your catalog. A tool evaluated on your easiest ten tells you nothing you can plan around.
 
@@ -138,7 +138,7 @@ The production framing treats the approved treatment — casting, styling, scene
 
 That distinction is covered in more depth in the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md) and, for the garment-specific workflow, in [flat lay to on-model](./flat-lay-to-on-model.md).
 
-![One creative direction applied consistently across products](virtual-tryon/image8.png "image_tooltip")
+![One creative direction applied consistently across products](virtual-tryon/image8.webp "image_tooltip")
 
 ## A workable evaluation, in five steps
 

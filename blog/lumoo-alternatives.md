@@ -4,7 +4,7 @@ description: "Compare Lumoo Air alternatives for fashion catalogs: WearView, FAS
 slug: lumoo-alternatives
 date: 2026-08-30
 hide_table_of_contents: true
-image: /img/covers/lumoo-alternatives.jpg
+image: /img/covers/lumoo-alternatives.webp
 authors: [astria]
 tags: [comparisons]
 keywords:

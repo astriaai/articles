@@ -202,7 +202,7 @@ Existing warnings about two unlisted posts without truncation markers remain out
   `/fashion-educators` → `/creators` redirect. Both redirects were verified live after the
   production rollout.
 - **Covers.** Done — all 51 indexed posts have one in the lilac-editorial series. Keep new
-  ones in `static/img/covers/<slug>.jpg`, and never under a path containing `blog`: the
+  ones in `static/img/covers/<slug>.webp`, and never under a path containing `blog`: the
   www.astria.ai proxy 403s any `/articles/` URL containing that string.
 - **Alternatives cluster.** Botika remains the pilot; StyTrix and Lumoo are the explicitly
   authorized follow-ons. Review all three on October 5 for query overlap with their existing

@@ -4,7 +4,7 @@ description: "Footwear has its own conventions — three-quarter hero, sole shot
 slug: ai-footwear-photography
 date: 2026-08-19
 hide_table_of_contents: true
-image: /img/covers/ai-footwear-photography.jpg
+image: /img/covers/ai-footwear-photography.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -74,7 +74,7 @@ Footwear has the most rigid conventions in product photography. Customers expect
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

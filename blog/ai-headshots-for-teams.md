@@ -4,7 +4,7 @@ description: "Create AI team photos with matching lighting, backgrounds and crop
 slug: ai-headshots-for-teams
 date: 2026-08-14
 hide_table_of_contents: true
-image: /img/covers/ai-headshots-for-teams.jpg
+image: /img/covers/ai-headshots-for-teams.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -85,7 +85,7 @@ AI team photos can mean a grid of individual headshots or one group image assemb
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Team portraits</p>
   <h2 className="astria-article-cta__title">Create consistent team headshots with Astria</h2>
@@ -124,7 +124,7 @@ Put forty independently-generated headshots on one page and the failures are imm
 
 Each image is fine. The grid is not. And a visitor reads that grid in about two seconds, well before they read anyone's job title.
 
-![Portraits produced against a single approved treatment](on-brand/image6.png)
+![Portraits produced against a single approved treatment](on-brand/image6.webp)
 
 This is precisely what a photographer's day gives you almost for free: one room, one light setup, one lens, one afternoon. Consistency is a *by-product* of the constraint. Remove the constraint — everyone generating their own portraits, whenever, wherever — and consistency has to be engineered back in deliberately.
 
@@ -141,7 +141,7 @@ The useful mental shift is that the reusable asset is not the images. It is the 
 
 Approve that once, with whoever owns the brand. Then every person runs through it. The first portrait establishes the direction; the fortieth still needs a likeness and quality check. And when someone joins in March, they run through the same specification and match the set — which is the failure mode of the photographer's day, where the new hire is visibly the person photographed against a different wall.
 
-![The same treatment applied to different people](on-brand/image25.png)
+![The same treatment applied to different people](on-brand/image25.webp)
 
 ## What each person needs to submit
 
@@ -169,7 +169,7 @@ Worth being straightforward, because overreach is what makes people distrust the
 
 **Doesn't work:** identity documents, anything requiring a verified likeness, and any context where the image asserts that a specific moment happened. That last one is not a technical limit — it is a straightforward honesty limit.
 
-![Consistent portraits across a distributed team](on-brand/image22.png)
+![Consistent portraits across a distributed team](on-brand/image22.webp)
 
 ## Handle consent properly
 

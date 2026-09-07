@@ -4,7 +4,7 @@ description: "A 3D packshot is an interactive product model, not a spin video or
 slug: 3d-packshots-ecommerce
 date: 2026-08-29
 hide_table_of_contents: true
-image: /img/covers/3d-packshots-ecommerce.jpg
+image: /img/covers/3d-packshots-ecommerce.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -74,7 +74,7 @@ export const faqSchema = {
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

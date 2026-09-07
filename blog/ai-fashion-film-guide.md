@@ -4,7 +4,7 @@ description: "Fashion video is where AI production gets hardest and most valuabl
 slug: ai-fashion-film-guide
 date: 2026-08-20
 hide_table_of_contents: true
-image: /img/covers/ai-fashion-film-guide.jpg
+image: /img/covers/ai-fashion-film-guide.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -74,7 +74,7 @@ Motion is the part of AI fashion production that has moved fastest and is still 
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

@@ -4,7 +4,7 @@ description: "Astria vs Caimera for fashion brands: compare creative control, pr
 slug: astria-vs-caimera-fashion-ai
 date: 2026-08-02
 hide_table_of_contents: true
-image: /img/covers/astria-vs-caimera-fashion-ai.jpg
+image: /img/covers/astria-vs-caimera-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -74,7 +74,7 @@ Caimera is the strongest self-serve competitor in AI fashion imagery: fast edito
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

@@ -44,13 +44,13 @@ As an example take a look at these two images of a man wearing sportswear and po
 <div>
 <figcaption>Without multi-pass</figcaption>
 
-![alt_text](multi-pass-inference/image7.png)
+![alt_text](multi-pass-inference/image7.webp)
 </div>
 
 <div>
 <figcaption>With multi-pass</figcaption>
 
-![alt_text](multi-pass-inference/image6.png)
+![alt_text](multi-pass-inference/image6.webp)
 </div>  
 
 </div>
@@ -92,7 +92,7 @@ Overall, while multi-pass inferencing with AI models requires considerable techn
 
 First, create a fine-tune of your subject.
 
-![alt_text](multi-pass-inference/image10.png)
+![alt_text](multi-pass-inference/image10.webp)
 
 
 Select the model type as LORA. This is a fast and efficient way to train the model, as it only trains an adapter layer on top of the base model, instead of training all the weights which is typically the case if we select the Checkpoint Model type.
@@ -100,12 +100,12 @@ Select the model type as LORA. This is a fast and efficient way to train the mod
 We used the following images of a male model obtained from a royalty free collection (Pixabay):
 
 
-![alt_text](multi-pass-inference/image4.jpg)
+![alt_text](multi-pass-inference/image4.webp)
 
 
 Once the tune is ready, we can begin to prompt. Click on your tune.
 
-![alt_text](multi-pass-inference/image3.png)
+![alt_text](multi-pass-inference/image3.webp)
 
 
 ### Step 2 Inference
@@ -136,7 +136,7 @@ We can add an input image if we want our generated image to follow an input temp
 For example, let’s take this pose as our input image:
 
 
-![alt_text](multi-pass-inference/image5.jpg)
+![alt_text](multi-pass-inference/image5.webp)
 
 
 Also, keep the Inpaint Faces and Face Swap toggle on. Inpaint Faces iterates one more time over the faces of the subject to ensure that there is no distortion in the outcome, while the Face Swap option ensures that the face of our model is taken from the training images and swapped in the generated image to enhance resemblance in the final output.
@@ -144,7 +144,7 @@ Also, keep the Inpaint Faces and Face Swap toggle on. Inpaint Faces iterates one
 Let’s look at the result of our first prompt:
 
 
-![alt_text](multi-pass-inference/image8.png)
+![alt_text](multi-pass-inference/image8.webp)
 
 
 As you can see, the ControlNet has ensured that the output pose is similar to the pose of the input image.
@@ -160,7 +160,7 @@ BREAK ohwx man wearing running clothes and shoes, jubilant expression on his fac
 Negative: anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, long neck, disfigured, fused lips,
 ```
 
-![alt_text](multi-pass-inference/image9.png)
+![alt_text](multi-pass-inference/image9.webp)
 
 
 Prompt 3:
@@ -173,7 +173,7 @@ BREAK ohwx man doing push-ups, intense look on his face <lora:960310:1.0>
 Negative: anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, long neck, disfigured, fused lips,
 ```
 
-![alt_text](multi-pass-inference/image1.png)
+![alt_text](multi-pass-inference/image1.webp)
 
 
 Prompt 4:
@@ -187,7 +187,7 @@ Negative: hat, cartoon, ugly
 
 
 
-![alt_text](multi-pass-inference/image2.png)
+![alt_text](multi-pass-inference/image2.webp)
 
 
 

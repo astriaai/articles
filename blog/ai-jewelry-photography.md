@@ -4,7 +4,7 @@ description: "Jewelry breaks most AI product photography. Why metal, stones, and
 slug: ai-jewelry-photography
 date: 2026-08-19
 hide_table_of_contents: true
-image: /img/covers/ai-jewelry-photography.jpg
+image: /img/covers/ai-jewelry-photography.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -74,7 +74,7 @@ Jewelry is where general-purpose AI product photography tools stop being convinc
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

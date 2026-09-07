@@ -6,6 +6,11 @@ comparisons:
   permalink: /comparisons
   description: Head-to-head looks at Astria and other AI fashion platforms.
 
+models:
+  label: Models
+  permalink: /models
+  description: Model selection, benchmarks, strengths, and production tradeoffs for Astria image models.
+
 guides:
   label: Guides
   permalink: /guides

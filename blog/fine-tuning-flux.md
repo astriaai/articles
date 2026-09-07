@@ -4,7 +4,7 @@ description: "Train a FLUX.1 LoRA on your own images through Astria's API — ke
 slug: fine-tuning-flux
 date: 2024-09-18
 hide_table_of_contents: true
-image: /img/covers/fine-tuning-flux.jpg
+image: /img/covers/fine-tuning-flux.webp
 authors: [astria]
 tags: [engineering]
 keywords:
@@ -273,10 +273,10 @@ Always discover models programmatically rather than hardcoding a name — see th
 
 If you are producing fashion or ecommerce imagery rather than building on the API, the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md) covers the production side of the same platform.
 
-[image1]: /articles/img/fine-tuning-flux/image1.png
-[image2]: /articles/img/fine-tuning-flux/image2.png
-[image3]: /articles/img/fine-tuning-flux/image3.png
-[image4]: /articles/img/fine-tuning-flux/image4.png
-[image5]: /articles/img/fine-tuning-flux/image5.png
-[image6]: /articles/img/fine-tuning-flux/image6.png
-[image7]: /articles/img/fine-tuning-flux/image7.png
+[image1]: /articles/img/fine-tuning-flux/image1.webp
+[image2]: /articles/img/fine-tuning-flux/image2.webp
+[image3]: /articles/img/fine-tuning-flux/image3.webp
+[image4]: /articles/img/fine-tuning-flux/image4.webp
+[image5]: /articles/img/fine-tuning-flux/image5.webp
+[image6]: /articles/img/fine-tuning-flux/image6.webp
+[image7]: /articles/img/fine-tuning-flux/image7.webp

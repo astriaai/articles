@@ -4,7 +4,7 @@ description: "Build fashion video ads from approved collection assets: a two-hoo
 slug: fashion-video-ads-guide
 date: 2026-09-02
 hide_table_of_contents: true
-image: /img/covers/fashion-video-ads-guide.jpg
+image: /img/covers/fashion-video-ads-guide.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -74,7 +74,7 @@ A fashion video ad has to earn attention, identify the product, and give the vie
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

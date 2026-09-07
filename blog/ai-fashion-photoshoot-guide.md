@@ -4,7 +4,7 @@ description: "How AI fashion photoshoots actually work in production — casting
 slug: ai-fashion-photoshoot-guide
 date: 2026-08-23
 hide_table_of_contents: true
-image: /img/covers/ai-fashion-photoshoot-guide.jpg
+image: /img/covers/ai-fashion-photoshoot-guide.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -74,7 +74,7 @@ Nearly everything written about AI fashion photography is either a tool listicle
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

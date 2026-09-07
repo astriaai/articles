@@ -4,7 +4,7 @@ description: "Astria vs Lookgen for fashion brands: styled outfit generation wit
 slug: astria-vs-lookgen-fashion-ai
 date: 2026-08-11
 hide_table_of_contents: true
-image: /img/covers/astria-vs-lookgen-fashion-ai.jpg
+image: /img/covers/astria-vs-lookgen-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -74,7 +74,7 @@ Lookgen has picked a sharper target than most of this category: not a single gar
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

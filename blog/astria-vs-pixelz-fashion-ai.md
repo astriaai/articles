@@ -4,7 +4,7 @@ description: "Astria vs Pixelz for fashion brands: compare managed post-producti
 slug: astria-vs-pixelz-fashion-ai
 date: 2026-08-05
 hide_table_of_contents: true
-image: /img/covers/astria-vs-pixelz-fashion-ai.jpg
+image: /img/covers/astria-vs-pixelz-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -74,7 +74,7 @@ Pixelz is not another AI image generator, and treating it as one misses the deci
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

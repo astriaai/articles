@@ -4,7 +4,7 @@ description: "Astria vs Pletor for fashion brands: an ad-production engine for m
 slug: astria-vs-pletor-fashion-ai
 date: 2026-08-10
 hide_table_of_contents: true
-image: /img/covers/astria-vs-pletor-fashion-ai.jpg
+image: /img/covers/astria-vs-pletor-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -74,7 +74,7 @@ Pletor calls itself AI creative infrastructure for marketing teams, and the desc
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

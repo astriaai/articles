@@ -4,7 +4,7 @@ description: "FaceID produces a consistent likeness from a single reference imag
 slug: face-id
 date: 2024-04-04
 hide_table_of_contents: true
-image: /img/covers/face-id.jpg
+image: /img/covers/face-id.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -72,7 +72,7 @@ With our FaceID tool, you can instantly fine-tune your images while preserving i
 
 
 
-![alt_text](face-id/image4.png "image_tooltip")
+![alt_text](face-id/image4.webp "image_tooltip")
 
 
 This feature comes in very handy if you need to generate images quickly and efficiently – such as if you’re offering a free-tier service in a user app and need profile images to be generated in a jiffy. It can also be applied in real-time applications like live-streaming or virtual try-ons.
@@ -105,13 +105,13 @@ As mentioned before, the FaceID fine-tune can be done with just one image. But, 
 
 
 
-![alt_text](face-id/image2.png "image_tooltip")
+![alt_text](face-id/image2.webp "image_tooltip")
 
 
 Now head over to the [New Finetune](https://www.astria.ai/tunes/new) section.
 
 
-![alt_text](face-id/image3.png "image_tooltip")
+![alt_text](face-id/image3.webp "image_tooltip")
 
 
 Under the Advanced features, select the Model type as FaceID. Remember to provide the Class name (woman, in this case).
@@ -136,7 +136,7 @@ Base_tune_id = 69024 refers to the Realistic Vision V5.1 (VAE) model that we use
 
 
 
-![alt_text](face-id/image7.png "image_tooltip")
+![alt_text](face-id/image7.webp "image_tooltip")
 
 
 Let’s start prompting with some real-life use cases, where instant headshot generation would be useful.
@@ -165,7 +165,7 @@ curl -X POST -H "Authorization: Bearer $API_KEY" https://api.astria.ai/tunes/115
 Note the number 1155049 refers to the tune number. Replace it with the tune number of your own fine-tune.
 
 
-![alt_text](face-id/image1.png "image_tooltip")
+![alt_text](face-id/image1.webp "image_tooltip")
 
 
 
@@ -177,7 +177,7 @@ Prompt: A vibrant and inspiring headshot of a fitness coach, wearing a bright gr
 Negative: unhealthy, unmotivated, low-energy, poorly lit, low-quality, blurry, awkward pose, unflattering angles, harsh shadows, distracting background, snapshot, amateur, overexposed, underexposed, uneven skin tone, no retouching, no visible workout equipment
 ```
 
-![alt_text](face-id/image6.png "image_tooltip")
+![alt_text](face-id/image6.webp "image_tooltip")
 
 
 
@@ -190,7 +190,7 @@ Negative: unfashionable, poorly lit, low-quality, blurry, awkward pose, unflatte
 ```
 
 
-![alt_text](face-id/image5.png "image_tooltip")
+![alt_text](face-id/image5.webp "image_tooltip")
 
 
 
@@ -203,7 +203,7 @@ Negative: intimidating, unapproachable, unprofessional, poorly lit, low-quality,
 ```
 
 
-![alt_text](face-id/image8.png "image_tooltip")
+![alt_text](face-id/image8.webp "image_tooltip")
 
 
 

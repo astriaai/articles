@@ -59,7 +59,7 @@ Multi-Controlnet, available only for Backend Version-1, combines multiple Contro
 
 
 
-![alt_text](real-estate/image3.png "image_tooltip")
+![alt_text](real-estate/image3.webp "image_tooltip")
 
 
 
@@ -100,12 +100,12 @@ A serene and opulent private bedroom, featuring a plush king-size bed with a tuf
   <tr>
     <td>
 
-![image](real-estate/image7.png)
+![image](real-estate/image7.webp)
 
 </td>
     <td>
 
-![image](real-estate/image4.png)
+![image](real-estate/image4.webp)
 
 </td>
   </tr>
@@ -122,12 +122,12 @@ A modern office room with a minimalist aesthetic, featuring a sleek wooden desk 
   <tr>
     <td>
 
-![image](real-estate/image13.png)
+![image](real-estate/image13.webp)
 
 </td>
     <td>
 
-![image](real-estate/image5.png)
+![image](real-estate/image5.webp)
 
 </td>
   </tr>
@@ -142,12 +142,12 @@ A contemporary office space with an industrial chic vibe, featuring a reclaimed 
   <tr>
     <td>
 
-![image](real-estate/image1.png)
+![image](real-estate/image1.webp)
 
 </td>
     <td>
 
-![image](real-estate/image10.png)
+![image](real-estate/image10.webp)
 
 </td>
   </tr>
@@ -164,12 +164,12 @@ A sleek and modern home gym, featuring a spacious open floor plan with high ceil
   <tr>
     <td>
 
-![image](real-estate/image9.png)
+![image](real-estate/image9.webp)
 
 </td>
     <td>
 
-![image](real-estate/image8.png)
+![image](real-estate/image8.webp)
 
 </td>
   </tr>
@@ -186,12 +186,12 @@ Coastal-themed nursery: an empty room staged as a serene coastal-themed nursery 
   <tr>
     <td>
 
-![image](real-estate/image2.png)
+![image](real-estate/image2.webp)
 
 </td>
     <td>
 
-![image](real-estate/image11.png)
+![image](real-estate/image11.webp)
 
 </td>
   </tr>
@@ -207,12 +207,12 @@ A peaceful and calming meditation room, featuring a serene and minimalist space 
   <tr>
     <td>
 
-![image](real-estate/image6.png)
+![image](real-estate/image6.webp)
 
 </td>
     <td>
 
-![image](real-estate/image12.png)
+![image](real-estate/image12.webp)
 
 </td>
   </tr>

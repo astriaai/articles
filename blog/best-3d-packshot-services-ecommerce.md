@@ -4,7 +4,7 @@ description: "Compare managed packshot studios, automated 360 capture, true 3D m
 slug: best-3d-packshot-services-ecommerce
 date: 2026-09-02
 hide_table_of_contents: true
-image: /img/covers/best-3d-packshot-services-ecommerce.jpg
+image: /img/covers/best-3d-packshot-services-ecommerce.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -86,7 +86,7 @@ Those are five different inputs, contracts, and failure modes.
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Astria 3D ghost packshots</p>
   <h2 className="astria-article-cta__title">Turn one flat lay into a product rotation</h2>

@@ -41,13 +41,13 @@ The Published values below match frontmatter, not a claim that deployment has ha
 
 Generated with the built-in imagegen tool, visually inspected, then converted to JPEG with macOS sips (quality 85). Both are 1672 × 941 landscape images. Original generated PNGs were retained outside the repository. These are editorial illustrations, not actual product demonstrations or ad performance evidence.
 
-### static/img/covers/apparel-product-video-guide.jpg
+### static/img/covers/apparel-product-video-guide.webp
 
 Final generation prompt:
 
 > Use case: photorealistic-natural. Asset type: wide landscape editorial cover for an article on apparel product video production. Create one image, approximately 16:9. Refined fashion magazine behind-the-scenes still life in a studio: a beautifully constructed charcoal jacket on an ivory tailor dress form at center-right, angled slightly to reveal lapel and side pocket; a compact unbranded cinema camera on a tripod in the left foreground directed toward the jacket. A small monitor beside the camera shows the same jacket close-up with no UI lettering. Seamless dusty lilac paper backdrop and floor, soft large side light, restrained editorial shadows, natural cloth texture, analog photographic polish. Color palette dusty lilac, warm cream, charcoal. Thoughtful spacious composition, complete jacket in frame, no people, no brand logos, no typography, no watermark, no collage. Must feel like a real editorial photograph, not a tech illustration.
 
-### static/img/covers/fashion-video-ads-guide.jpg
+### static/img/covers/fashion-video-ads-guide.webp
 
 Final generation prompt:
 

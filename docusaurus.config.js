@@ -129,14 +129,14 @@ const config = {
           scrollOffset: 40,
         },
       },
-      image: 'img/high-quality-finetuning.jpg',
+      image: 'img/high-quality-finetuning.webp',
       navbar: {
         title: 'Astria',
         // The brand (logo + title) leaves the docs site for the main product
         // site; the articles index gets its own navbar item below.
         logo: {
           alt: 'Astria',
-          src: 'img/logo@2x.png',
+          src: 'img/logo@2x.webp',
           href: 'https://www.astria.ai/',
           target: '_self',
         },
@@ -160,7 +160,7 @@ const config = {
         style: 'dark',
         logo: {
           alt: 'Astria - Tailor-made AI',
-          src: 'img/logo@2x.png',
+          src: 'img/logo@2x.webp',
           href: 'https://www.astria.ai/',
           height: 40,
         },

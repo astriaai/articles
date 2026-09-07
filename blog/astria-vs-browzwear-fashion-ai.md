@@ -4,7 +4,7 @@ description: "Astria vs Browzwear for fashion brands: 3D design and fit validati
 slug: astria-vs-browzwear-fashion-ai
 date: 2026-08-06
 hide_table_of_contents: true
-image: /img/covers/astria-vs-browzwear-fashion-ai.jpg
+image: /img/covers/astria-vs-browzwear-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -74,7 +74,7 @@ Browzwear and Astria are adjacent, not interchangeable, and any honest compariso
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

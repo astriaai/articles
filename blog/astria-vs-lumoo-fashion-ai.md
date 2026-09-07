@@ -4,7 +4,7 @@ description: "Lumoo Air pricing and workflow reviewed against Astria: euro plans
 slug: astria-vs-lumoo-fashion-ai
 date: 2026-08-13
 hide_table_of_contents: true
-image: /img/covers/astria-vs-lumoo-fashion-ai.jpg
+image: /img/covers/astria-vs-lumoo-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -59,7 +59,7 @@ Lumoo Air starts with a product photo and turns it into a connected set of visua
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

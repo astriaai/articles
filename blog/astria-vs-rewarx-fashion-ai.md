@@ -4,7 +4,7 @@ description: "Astria vs Rewarx Studio for fashion brands: a 20-industry AI produ
 slug: astria-vs-rewarx-fashion-ai
 date: 2026-08-23
 hide_table_of_contents: true
-image: /img/covers/astria-vs-rewarx-fashion-ai.jpg
+image: /img/covers/astria-vs-rewarx-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -75,7 +75,7 @@ Rewarx Studio takes a phone snapshot of a product and returns a 4K commercial im
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

@@ -4,7 +4,7 @@ description: "Astria vs DRESSX for fashion brands: shopper-facing virtual try-on
 slug: astria-vs-dressx-fashion-ai
 date: 2026-08-07
 hide_table_of_contents: true
-image: /img/covers/astria-vs-dressx-fashion-ai.jpg
+image: /img/covers/astria-vs-dressx-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -74,7 +74,7 @@ DRESSX and Astria both put clothes on people with AI, and there the overlap ends
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

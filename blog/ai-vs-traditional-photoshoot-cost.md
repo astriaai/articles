@@ -4,7 +4,7 @@ description: "The cents-versus-thousands comparison is misleading. A fully-loade
 slug: ai-vs-traditional-photoshoot-cost
 date: 2026-08-18
 hide_table_of_contents: true
-image: /img/covers/ai-vs-traditional-photoshoot-cost.jpg
+image: /img/covers/ai-vs-traditional-photoshoot-cost.webp
 authors: [astria]
 tags: [economics]
 keywords:
@@ -74,7 +74,7 @@ The comparison is usually presented as cents against thousands, which is arithme
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

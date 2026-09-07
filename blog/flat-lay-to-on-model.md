@@ -4,7 +4,7 @@ description: "On-model images convert better than flat lays, and cost far more t
 slug: flat-lay-to-on-model
 date: 2026-08-15
 hide_table_of_contents: true
-image: /img/covers/flat-lay-to-on-model.jpg
+image: /img/covers/flat-lay-to-on-model.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -73,7 +73,7 @@ Every ecommerce team knows on-model images perform better than flat lays. Every 
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

@@ -4,7 +4,7 @@ description: "Astria vs FashionLab for fashion brands: a talent-marketplace cont
 slug: astria-vs-fashionlab-fashion-ai
 date: 2026-08-13
 hide_table_of_contents: true
-image: /img/covers/astria-vs-fashionlab-fashion-ai.jpg
+image: /img/covers/astria-vs-fashionlab-fashion-ai.webp
 authors: [astria]
 tags: [comparisons]
 keywords:
@@ -74,7 +74,7 @@ FashionLab has done something none of the other tools in this comparison have tr
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>

@@ -4,7 +4,7 @@ description: "Compare StyTrix alternatives by the work you need: Fermat for desi
 slug: stytrix-alternatives
 date: 2026-08-31
 hide_table_of_contents: true
-image: /img/covers/stytrix-alternatives.jpg
+image: /img/covers/stytrix-alternatives.webp
 authors: [astria]
 tags: [comparisons]
 keywords:

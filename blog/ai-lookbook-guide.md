@@ -4,7 +4,7 @@ description: "Build an AI fashion lookbook from product photos. Learn what to up
 slug: ai-lookbook-guide
 date: 2026-08-22
 hide_table_of_contents: true
-image: /img/covers/ai-lookbook-guide.jpg
+image: /img/covers/ai-lookbook-guide.webp
 authors: [astria]
 tags: [guides]
 keywords:
@@ -74,7 +74,7 @@ An AI lookbook uses generated fashion images to show a collection through a cons
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
   <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.png" alt="" />
+    <img src="/articles/img/logo@2x.webp" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
   <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>
