@@ -176,7 +176,7 @@ Compare these choices against turnaround time and the coverage customers need. T
 
 ## What changes the shape
 
-The reason AI production is interesting here is not that it is cheap per image — it is that it **decouples per-SKU cost from crew time**.
+The reason AI production is interesting here is not that it is cheap per image — it is that it **decouples per-SKU cost from crew time**. The [AI product photography workflow](./ai-product-photography.md) shows where reference preparation, review, rejects, and channel delivery enter that calculation.
 
 Once an approved treatment exists, the next SKU needs reference preparation, generation, and review. Some products will also need manual corrections or conventional photography. Measure those costs in a pilot rather than assuming they fall to the generation fee.
 

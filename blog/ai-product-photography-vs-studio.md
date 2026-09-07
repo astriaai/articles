@@ -66,7 +66,7 @@ export const faqSchema = {
   dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
 />
 
-“AI or studio?” is the wrong production question for a fashion brand. It forces a choice between two systems that are good at different forms of evidence.
+"AI or studio?" is the wrong production question for a fashion brand. It forces a choice between two systems that are good at different forms of evidence. If you first need the broader definition, inputs, and quality-control process, start with the [AI product photography guide](./ai-product-photography.md).
 
 A physical packshot establishes what the customer will receive. An AI production system turns that approved truth into more scenes, casts, crops, formats, and campaign treatments. The strongest workflow assigns each system the work it can defend.
 

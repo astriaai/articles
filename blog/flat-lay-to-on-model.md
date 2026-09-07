@@ -1,6 +1,6 @@
 ---
-title: "Flat Lay to On-Model: Turning Product Shots Into People Wearing Clothes"
-description: "On-model images convert better than flat lays, and cost far more to produce. How the conversion works, which garments survive it, and how to check the output."
+title: "Flat Lay to On-Model: Put Clothes on an AI Model"
+description: "Turn a flat lay or garment photo into an on-model image with AI. Learn the source-image requirements, product-to-model workflow, accuracy checks, and limits."
 slug: flat-lay-to-on-model
 date: 2026-08-15
 hide_table_of_contents: true
@@ -9,6 +9,9 @@ authors: [astria]
 tags: [guides]
 keywords:
   - flat lay to on model
+  - flat lay to model
+  - AI put clothes on model
+  - clothing on model generator
   - on model photography AI
   - product photo to model photo
 ---
@@ -57,6 +60,22 @@ export const faqSchema = {
         text: "No. A ghost mannequin shows the garment holding a human shape with the mannequin removed — no person. On-model conversion puts the garment on a rendered person, which communicates fit, scale, and styling that a hollow shape cannot.",
       },
     },
+    {
+      "@type": "Question",
+      name: "Can AI put my clothes on a model?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. A product-to-model or brand-side virtual try-on workflow uses your garment photograph as a reference and generates a person wearing it. The result must still be checked against the real garment for color, cut, print, closures, texture, and any detail hidden in the source image.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can you change the model without changing the clothes?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A model-swap workflow is designed to change the person while preserving the photographed garment, pose, and composition. Treat preservation as a testable requirement rather than an automatic guarantee, and compare every result with the approved clothing reference before publishing it.",
+      },
+    },
   ],
 };
 
@@ -65,9 +84,11 @@ export const faqSchema = {
   dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
 />
 
-Every ecommerce team knows on-model images perform better than flat lays. Every ecommerce team also knows what it costs to produce them for 600 variants, which is why the long tail of most catalogs is still flat lays and ghost mannequins.
+An AI clothing-on-model generator can turn a flat lay, ghost mannequin, or garment photo into an image of a person wearing the product. That makes on-model coverage possible for catalog items that would not justify another model-and-studio day.
 
-**The short version:** the conversion works well, and its quality is decided almost entirely by your source photography — which is the part nobody wants to hear.
+**The short version:** use a complete, evenly lit garment reference; tell the workflow what must not change; and check product truth before judging the model or scene. A convincing person does not prove that the clothing is accurate or that it will physically fit a customer.
+
+**Reviewed September 7, 2026.** Search language and workflow boundaries were refreshed; this is a production guide, not a cross-tool accuracy benchmark.
 
 <!-- truncate -->
 
@@ -87,6 +108,20 @@ Every ecommerce team knows on-model images perform better than flat lays. Every 
     </a>
   </div>
 </aside>
+
+## Flat lay to model, product-to-model, or virtual try-on?
+
+Several search terms describe overlapping jobs:
+
+| Term | Usually means | What to verify |
+| --- | --- | --- |
+| **Flat lay to model** | Turn a garment photographed from above into a person wearing it | The full garment is visible and unfolded |
+| **Product-to-model** | Combine a product reference with a selected or generated model | Which parts of the product and person the workflow preserves |
+| **Clothing-on-model generator** | A tool-led name for either of the above | Whether it accepts your real clothing image rather than generating a similar outfit from text |
+| **Model swap** | Replace the person in an existing fashion image | Garment, pose, crop, and lighting remain unchanged |
+| **Brand-side virtual try-on** | Generate merchandising imagery of a product on selected models | This is not the same as a shopper fitting-room widget or measured fit prediction |
+
+If the immediate goal is to put your clothes on an AI model, the operation is product-to-model. If the goal is to let each shopper upload a selfie, that is a different product and privacy workflow. The [virtual try-on guide](./virtual-try-on-for-fashion-brands.md) separates the two.
 
 ## Why the long tail stays flat
 
@@ -155,7 +190,7 @@ It solves presentation for the long tail, colorway coverage without reshooting, 
 
 It does not solve fit information — no image tells a customer whether a size 12 will fit them — and it does not replace the photography of your hero products, where the real thing photographed properly still carries weight that a conversion does not.
 
-For the wider production picture, see the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md). For the garment-on-body question specifically, see [virtual try-on for fashion brands](./virtual-try-on-for-fashion-brands.md). For what the whole exercise costs per variant, see [product photography cost per SKU](./product-photography-cost-per-sku.md).
+For the wider production picture, see the [AI product photography guide](./ai-product-photography.md) and [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md). For the garment-on-body question specifically, see [virtual try-on for fashion brands](./virtual-try-on-for-fashion-brands.md). For what the whole exercise costs per variant, see [product photography cost per SKU](./product-photography-cost-per-sku.md).
 
 ## Frequently asked questions
 
@@ -178,5 +213,13 @@ Directional prints across seams, sheer and semi-sheer fabrics, complex drape and
 ### Is this the same as a ghost mannequin shot?
 
 No. A ghost mannequin shows the garment holding a human shape with the mannequin removed — no person. On-model conversion puts the garment on a rendered person, which communicates fit, scale, and styling that a hollow shape cannot.
+
+### Can AI put my clothes on a model?
+
+Yes. A product-to-model or brand-side virtual try-on workflow uses your garment photograph as a reference and generates a person wearing it. The result must still be checked against the real garment for color, cut, print, closures, texture, and any detail hidden in the source image.
+
+### Can you change the model without changing the clothes?
+
+A model-swap workflow is designed to change the person while preserving the photographed garment, pose, and composition. Treat preservation as a testable requirement rather than an automatic guarantee, and compare every result with the approved clothing reference before publishing it.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).

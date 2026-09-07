@@ -210,7 +210,7 @@ A shared master capture can reduce duplication, but “shoot once” does not me
 | Short motion master | Hosted product video | Placement-specific Amazon export and policy review |
 | True 3D model | Interactive Shopify media where theme supports it | Not a substitute for Amazon's required main image |
 
-The [Shopify product media guide](./shopify-product-media-guide.md) explains that platform's file limits, theme support, order, and variant constraints. Build channel derivatives from the same approved product source, then attach separate roles, crops, and approvals.
+The [Shopify product media guide](./shopify-product-media-guide.md) explains that platform's file limits, theme support, order, and variant constraints. The broader [AI product photography guide](./ai-product-photography.md) separates approved physical evidence from generated derivatives. Build channel assets from the same product source, then attach separate roles, crops, and approvals.
 
 ## The Amazon asset manifest
 
