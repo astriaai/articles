@@ -4,10 +4,91 @@
         <title>Astria articles Blog</title>
         <link>https://www.astria.ai/articles/</link>
         <description>Astria articles Blog</description>
-        <lastBuildDate>Sun, 06 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Which AI Image Model Should You Use in Astria? (2026 Guide)]]></title>
+            <link>https://www.astria.ai/articles/astria-image-models/</link>
+            <guid>https://www.astria.ai/articles/astria-image-models/</guid>
+            <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Choose the right Astria image model for fashion, beauty, text, swimwear, jewelry, and reference-heavy work, based on a controlled 131-image comparison.]]></description>
+            <content:encoded><![CDATA[<p><strong>The short answer:</strong> start with <strong>Nano Banana 2</strong> for fashion. Choose <strong>GPT Image 2</strong> when beauty art direction or readable text is central, <strong>Seedream 5</strong> for swimwear and demanding color, texture, or identity work, and <strong>Muse</strong> when several references must survive one complicated brief.</p>
+<p>That is the useful model hierarchy. It is not a claim that one model wins every image prompt.</p>
+<aside class="astria-article-cta" aria-label="Start creating with Astria"><div class="astria-article-cta__mark"><img src="https://www.astria.ai/articles/img/logo@2x.webp" alt=""></div><p class="astria-article-cta__eyebrow">Fashion production workspace</p><h2 class="astria-article-cta__title">Try the model that fits the brief</h2><p class="astria-article-cta__copy">Generate with a popular model or start from a reference-based fashion template.</p><div class="astria-article-cta__actions"><a class="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a class="astria-article-cta__button astria-article-cta__button--secondary" href="https://www.astria.ai/gallery/workspaces"><span>Templates gallery</span><span aria-hidden="true">→</span></a></div></aside>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="the-model-selection-table">The model-selection table<a href="https://www.astria.ai/articles/astria-image-models/#the-model-selection-table" class="hash-link" aria-label="Direct link to The model-selection table" title="Direct link to The model-selection table" translate="no">​</a></h2>
+<table><thead><tr><th>If the job is…</th><th>Start with…</th><th>Why</th></tr></thead><tbody><tr><td>General fashion editorial, lookbook, or campaign work</td><td><strong>Nano Banana 2</strong></td><td>Best overall balance of direction, realism, garment handling, identity, and usable composition in our test</td></tr><tr><td>Beauty, cosmetics, packaging, or prominent copy</td><td><strong>GPT Image 2</strong></td><td>Particularly good beauty-ad finish, layout, and readable headline work</td></tr><tr><td>Swimwear or another benign brief affected by stricter sensitivity handling</td><td><strong>Seedream 5</strong></td><td>Practical fallback, with strong color, texture, skin, and identity rendering</td></tr><tr><td>Saturated color, woven texture, sheen, or consistent casting</td><td><strong>Seedream 5</strong></td><td>Excellent surface rendering and identity preservation in the tested campaign</td></tr><tr><td>Jewelry or a brief combining several references and constraints</td><td><strong>Muse</strong></td><td>Deliberate, reference-first behavior and dependable interpretation of each asset's role</td></tr></tbody></table>
+<p>These recommendations come from a controlled Astria comparison captured on September 6, 2026: 11 briefs, four models, three requested outputs per brief, and 131 returned images. See the <a class="" href="https://www.astria.ai/articles/best-ai-image-models-fashion/">full visual benchmark</a> and <a class="" href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/">methodology</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="nano-banana-2-the-fashion-default">Nano Banana 2: the fashion default<a href="https://www.astria.ai/articles/astria-image-models/#nano-banana-2-the-fashion-default" class="hash-link" aria-label="Direct link to Nano Banana 2: the fashion default" title="Direct link to Nano Banana 2: the fashion default" translate="no">​</a></h2>
+<p>Nano Banana 2 is the answer when a creative team should not have to become a model-routing team before it can make a lookbook.</p>
+<p>Across the general fashion, movement, garment-reference, and multi-reference briefs, it most consistently landed in the middle of the useful production triangle: the image looked directed, the references remained recognizable, and the composition was close to something an art director could continue with. Some specialists matched or exceeded it in individual tests. None displaced it as the safest starting point across ordinary fashion work.</p>
+<div class="benchmark-grid benchmark-grid--four"><figure class="benchmark-card"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/general-nano-banana-2.webp" alt="Nano Banana 2 general fashion benchmark output"><figcaption><strong>Nano Banana 2</strong>Best-balanced default</figcaption></figure><figure class="benchmark-card"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/general-gpt-image-2.webp" alt="GPT Image 2 general fashion benchmark output"><figcaption><strong>GPT Image 2</strong>Polished campaign finish</figcaption></figure><figure class="benchmark-card"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/general-seedream-5.webp" alt="Seedream 5 general fashion benchmark output"><figcaption><strong>Seedream 5 Pro</strong>Strong color and fabric</figcaption></figure><figure class="benchmark-card"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/general-muse.webp" alt="Muse general fashion benchmark output"><figcaption><strong>Muse</strong>Strong reference use</figcaption></figure></div>
+<p class="benchmark-caption">Matched 3:4 brief and references. Each card is the first predetermined output, not a hand-picked favorite.</p>
+<p>Use Nano Banana 2 first for:</p>
+<ul>
+<li class="">fashion editorials and campaign scenes;</li>
+<li class="">moving from a garment reference to an on-model image;</li>
+<li class="">shot-list variety with one cast identity;</li>
+<li class="">mixed creative and preservation briefs where no single constraint dominates.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="gpt-image-2-beauty-and-text">GPT Image 2: beauty and text<a href="https://www.astria.ai/articles/astria-image-models/#gpt-image-2-beauty-and-text" class="hash-link" aria-label="Direct link to GPT Image 2: beauty and text" title="Direct link to GPT Image 2: beauty and text" translate="no">​</a></h2>
+<p>GPT Image 2 is the specialist to try when the frame has to behave like an advertisement, not only a photograph. In our beauty test it combined a polished portrait, a held cosmetic product, open copy space, and the exact headline <strong>COLOR, KEPT TRUE</strong> especially well.</p>
+<p>The distinction matters. Exact wording, hierarchy, product geometry, and beauty finish are separate failure points. A model can produce beautiful skin and still miss the headline; it can spell the headline correctly and quietly redesign the bottle. GPT Image 2 gave the most convincing overall beauty-ad composition in this set, although Nano Banana 2 and Muse were competitive and also rendered the large headline correctly.</p>
+<p>Choose GPT Image 2 first for:</p>
+<ul>
+<li class="">cosmetic campaigns and close beauty portraits;</li>
+<li class="">packaging-led advertising;</li>
+<li class="">headlines, signs, labels, and designed copy space;</li>
+<li class="">layouts where typography is part of the image rather than added later.</li>
+</ul>
+<p>For a product listing, still compare every generated label against the real pack. Readable-looking small type is not proof of exact type.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="seedream-5-swimwear-color-texture-and-identity">Seedream 5: swimwear, color, texture, and identity<a href="https://www.astria.ai/articles/astria-image-models/#seedream-5-swimwear-color-texture-and-identity" class="hash-link" aria-label="Direct link to Seedream 5: swimwear, color, texture, and identity" title="Direct link to Seedream 5: swimwear, color, texture, and identity" translate="no">​</a></h2>
+<p>Seedream 5 is the practical specialist for two different reasons.</p>
+<p>First, it is a useful alternate route for ordinary adult swimwear and other briefs that can encounter stricter sensitivity handling elsewhere. This is not advice to bypass safeguards. Keep the subject adult, the framing commercial, and the pose unambiguous. If a benign job still does not complete as expected, Seedream can keep the production moving.</p>
+<p>Second, its visual strengths are real. The test showed excellent cobalt and coral separation, rich teal and burnt-orange color, convincing jacquard and fabric sheen, and stable identity across close-up, seated, full-length, and movement shots.</p>
+<p>In this particular benchmark every model produced tasteful swimwear images. One Nano Banana 2 editorial request returned two images rather than three, without a reported error or moderation reason. That isolated omission is recorded; it is not presented as proof of why the third image was absent.</p>
+<p>Choose Seedream 5 first for:</p>
+<ul>
+<li class="">swimwear and skin-exposure briefs with ordinary commercial intent;</li>
+<li class="">saturated color and exact color relationships;</li>
+<li class="">embroidery, woven surfaces, sheen, and other difficult textures;</li>
+<li class="">repeated casting where face and skin continuity matter.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="muse-reference-first-constraint-heavy-work">Muse: reference-first, constraint-heavy work<a href="https://www.astria.ai/articles/astria-image-models/#muse-reference-first-constraint-heavy-work" class="hash-link" aria-label="Direct link to Muse: reference-first, constraint-heavy work" title="Direct link to Muse: reference-first, constraint-heavy work" translate="no">​</a></h2>
+<p>Muse is the option for the brief that reads like a small logic problem: use this person, that jacket, this necklace, one bottle in the right hand, a specified background, and no extra objects.</p>
+<p>We call it a <strong>thinking model</strong> in a practical editorial sense: its useful distinction is the behavior visible in the output—careful interpretation of multiple references and their separate roles. This guide does not make an undocumented claim about its internal architecture.</p>
+<p>Muse was particularly dependable for jewelry and the complex multi-reference frame. It is worth trying when reference reliability matters more than discovering the fastest general-purpose look.</p>
+<p>Choose Muse first for:</p>
+<ul>
+<li class="">several references with explicit roles;</li>
+<li class="">jewelry and accessory placement;</li>
+<li class="">strict inclusion and exclusion lists;</li>
+<li class="">a reference-led brief that other models keep simplifying or blending.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="what-else-is-in-astrias-model-gui">What else is in Astria's model GUI?<a href="https://www.astria.ai/articles/astria-image-models/#what-else-is-in-astrias-model-gui" class="hash-link" aria-label="Direct link to What else is in Astria's model GUI?" title="Direct link to What else is in Astria's model GUI?" translate="no">​</a></h2>
+<p>Astria's popular model selector changes as endpoints improve. In the September 6 catalog snapshot, it included current variants from the Nano Banana and Seedream families alongside Flux 2 Pro, GPT Image 2, Recraft V4.1, Ideogram V4, and WAN 2.7/Pro.</p>
+<p>The public partner-model gallery was broader: Reve, Riverflow, HyperRealism, Flux Turbo and Klein, P-Image, Recraft variants, Grok Imagine, Krea, Qwen Image, MAI Image, and Muse were among the visible families.</p>
+<p>Two cautions make that list easier to use:</p>
+<ol>
+<li class=""><strong>Public in the GUI does not mean open weights.</strong> It means the model is visible as a public Astria partner model.</li>
+<li class=""><strong>A long catalog is not a reason to test everything on every job.</strong> Start with the four-model routing table, then qualify a challenger only when it offers a relevant capability, speed, price, or aesthetic.</li>
+</ol>
+<p>Model names and availability are volatile. Treat this as a dated snapshot and check the live selector before committing a production pipeline.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="a-simple-routing-workflow">A simple routing workflow<a href="https://www.astria.ai/articles/astria-image-models/#a-simple-routing-workflow" class="hash-link" aria-label="Direct link to A simple routing workflow" title="Direct link to A simple routing workflow" translate="no">​</a></h2>
+<ol>
+<li class="">Run the approved brief in Nano Banana 2.</li>
+<li class="">If the job is beauty- or text-led, run GPT Image 2 alongside it.</li>
+<li class="">If color, texture, identity, or swimwear completion is the risk, add Seedream 5.</li>
+<li class="">If several references must be interpreted separately, add Muse.</li>
+<li class="">Judge product accuracy separately from aesthetic preference.</li>
+<li class="">Approve a treatment before multiplying it across a collection.</li>
+</ol>
+<p>The cheapest model per generated image is not automatically the cheapest production choice. The metric that matters is cost per approved output after retries and retouching. The benchmark's 131 images cost <strong>$43.15</strong> for the four-model core run; source creation and calibration brought the full project generation spend to <strong>$45.79</strong>.</p>
+<p>Continue to the <a class="" href="https://www.astria.ai/articles/best-ai-image-models-fashion/">side-by-side results</a>, or inspect <a class="" href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/">how the test was designed</a>.</p>]]></content:encoded>
+            <category>Models</category>
+            <category>Guides</category>
+        </item>
         <item>
             <title><![CDATA[AI Fashion Photography Prompts: A Production-Ready Guide]]></title>
             <link>https://www.astria.ai/articles/ai-fashion-photography-prompts/</link>
@@ -144,87 +225,6 @@
 <h3 class="anchor anchorTargetStickyNavbar_zz1c" id="can-the-same-prompt-work-for-catalog-and-campaign-images">Can the same prompt work for catalog and campaign images?<a href="https://www.astria.ai/articles/ai-fashion-photography-prompts/#can-the-same-prompt-work-for-catalog-and-campaign-images" class="hash-link" aria-label="Direct link to Can the same prompt work for catalog and campaign images?" title="Direct link to Can the same prompt work for catalog and campaign images?" translate="no">​</a></h3>
 <p>Not well. Catalog prompts prioritize coverage, clean backgrounds, legible construction, and repeatable framing. Campaign prompts can prioritize gesture, atmosphere, cropping, and narrative, but they still need an explicit product-preservation clause.</p>]]></content:encoded>
             <category>Prompts</category>
-            <category>Guides</category>
-        </item>
-        <item>
-            <title><![CDATA[Which AI Image Model Should You Use in Astria? (2026 Guide)]]></title>
-            <link>https://www.astria.ai/articles/astria-image-models/</link>
-            <guid>https://www.astria.ai/articles/astria-image-models/</guid>
-            <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Choose the right Astria image model for fashion, beauty, text, swimwear, jewelry, and reference-heavy work, based on a controlled 131-image comparison.]]></description>
-            <content:encoded><![CDATA[<p><strong>The short answer:</strong> start with <strong>Nano Banana 2</strong> for fashion. Choose <strong>GPT Image 2</strong> when beauty art direction or readable text is central, <strong>Seedream 5</strong> for swimwear and demanding color, texture, or identity work, and <strong>Muse</strong> when several references must survive one complicated brief.</p>
-<p>That is the useful model hierarchy. It is not a claim that one model wins every image prompt.</p>
-<aside class="astria-article-cta" aria-label="Start creating with Astria"><div class="astria-article-cta__mark"><img src="https://www.astria.ai/articles/img/logo@2x.webp" alt=""></div><p class="astria-article-cta__eyebrow">Fashion production workspace</p><h2 class="astria-article-cta__title">Try the model that fits the brief</h2><p class="astria-article-cta__copy">Generate with a popular model or start from a reference-based fashion template.</p><div class="astria-article-cta__actions"><a class="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a class="astria-article-cta__button astria-article-cta__button--secondary" href="https://www.astria.ai/gallery/workspaces"><span>Templates gallery</span><span aria-hidden="true">→</span></a></div></aside>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="the-model-selection-table">The model-selection table<a href="https://www.astria.ai/articles/astria-image-models/#the-model-selection-table" class="hash-link" aria-label="Direct link to The model-selection table" title="Direct link to The model-selection table" translate="no">​</a></h2>
-<table><thead><tr><th>If the job is…</th><th>Start with…</th><th>Why</th></tr></thead><tbody><tr><td>General fashion editorial, lookbook, or campaign work</td><td><strong>Nano Banana 2</strong></td><td>Best overall balance of direction, realism, garment handling, identity, and usable composition in our test</td></tr><tr><td>Beauty, cosmetics, packaging, or prominent copy</td><td><strong>GPT Image 2</strong></td><td>Particularly good beauty-ad finish, layout, and readable headline work</td></tr><tr><td>Swimwear or another benign brief affected by stricter sensitivity handling</td><td><strong>Seedream 5</strong></td><td>Practical fallback, with strong color, texture, skin, and identity rendering</td></tr><tr><td>Saturated color, woven texture, sheen, or consistent casting</td><td><strong>Seedream 5</strong></td><td>Excellent surface rendering and identity preservation in the tested campaign</td></tr><tr><td>Jewelry or a brief combining several references and constraints</td><td><strong>Muse</strong></td><td>Deliberate, reference-first behavior and dependable interpretation of each asset's role</td></tr></tbody></table>
-<p>These recommendations come from a controlled Astria comparison captured on September 6, 2026: 11 briefs, four models, three requested outputs per brief, and 131 returned images. See the <a class="" href="https://www.astria.ai/articles/best-ai-image-models-fashion/">full visual benchmark</a> and <a class="" href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/">methodology</a>.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="nano-banana-2-the-fashion-default">Nano Banana 2: the fashion default<a href="https://www.astria.ai/articles/astria-image-models/#nano-banana-2-the-fashion-default" class="hash-link" aria-label="Direct link to Nano Banana 2: the fashion default" title="Direct link to Nano Banana 2: the fashion default" translate="no">​</a></h2>
-<p>Nano Banana 2 is the answer when a creative team should not have to become a model-routing team before it can make a lookbook.</p>
-<p>Across the general fashion, movement, garment-reference, and multi-reference briefs, it most consistently landed in the middle of the useful production triangle: the image looked directed, the references remained recognizable, and the composition was close to something an art director could continue with. Some specialists matched or exceeded it in individual tests. None displaced it as the safest starting point across ordinary fashion work.</p>
-<div class="benchmark-grid benchmark-grid--four"><figure class="benchmark-card"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/general-nano-banana-2.webp" alt="Nano Banana 2 general fashion benchmark output"><figcaption><strong>Nano Banana 2</strong>Best-balanced default</figcaption></figure><figure class="benchmark-card"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/general-gpt-image-2.webp" alt="GPT Image 2 general fashion benchmark output"><figcaption><strong>GPT Image 2</strong>Polished campaign finish</figcaption></figure><figure class="benchmark-card"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/general-seedream-5.webp" alt="Seedream 5 general fashion benchmark output"><figcaption><strong>Seedream 5 Pro</strong>Strong color and fabric</figcaption></figure><figure class="benchmark-card"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/general-muse.webp" alt="Muse general fashion benchmark output"><figcaption><strong>Muse</strong>Strong reference use</figcaption></figure></div>
-<p class="benchmark-caption">Matched 3:4 brief and references. Each card is the first predetermined output, not a hand-picked favorite.</p>
-<p>Use Nano Banana 2 first for:</p>
-<ul>
-<li class="">fashion editorials and campaign scenes;</li>
-<li class="">moving from a garment reference to an on-model image;</li>
-<li class="">shot-list variety with one cast identity;</li>
-<li class="">mixed creative and preservation briefs where no single constraint dominates.</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="gpt-image-2-beauty-and-text">GPT Image 2: beauty and text<a href="https://www.astria.ai/articles/astria-image-models/#gpt-image-2-beauty-and-text" class="hash-link" aria-label="Direct link to GPT Image 2: beauty and text" title="Direct link to GPT Image 2: beauty and text" translate="no">​</a></h2>
-<p>GPT Image 2 is the specialist to try when the frame has to behave like an advertisement, not only a photograph. In our beauty test it combined a polished portrait, a held cosmetic product, open copy space, and the exact headline <strong>COLOR, KEPT TRUE</strong> especially well.</p>
-<p>The distinction matters. Exact wording, hierarchy, product geometry, and beauty finish are separate failure points. A model can produce beautiful skin and still miss the headline; it can spell the headline correctly and quietly redesign the bottle. GPT Image 2 gave the most convincing overall beauty-ad composition in this set, although Nano Banana 2 and Muse were competitive and also rendered the large headline correctly.</p>
-<p>Choose GPT Image 2 first for:</p>
-<ul>
-<li class="">cosmetic campaigns and close beauty portraits;</li>
-<li class="">packaging-led advertising;</li>
-<li class="">headlines, signs, labels, and designed copy space;</li>
-<li class="">layouts where typography is part of the image rather than added later.</li>
-</ul>
-<p>For a product listing, still compare every generated label against the real pack. Readable-looking small type is not proof of exact type.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="seedream-5-swimwear-color-texture-and-identity">Seedream 5: swimwear, color, texture, and identity<a href="https://www.astria.ai/articles/astria-image-models/#seedream-5-swimwear-color-texture-and-identity" class="hash-link" aria-label="Direct link to Seedream 5: swimwear, color, texture, and identity" title="Direct link to Seedream 5: swimwear, color, texture, and identity" translate="no">​</a></h2>
-<p>Seedream 5 is the practical specialist for two different reasons.</p>
-<p>First, it is a useful alternate route for ordinary adult swimwear and other briefs that can encounter stricter sensitivity handling elsewhere. This is not advice to bypass safeguards. Keep the subject adult, the framing commercial, and the pose unambiguous. If a benign job still does not complete as expected, Seedream can keep the production moving.</p>
-<p>Second, its visual strengths are real. The test showed excellent cobalt and coral separation, rich teal and burnt-orange color, convincing jacquard and fabric sheen, and stable identity across close-up, seated, full-length, and movement shots.</p>
-<p>In this particular benchmark every model produced tasteful swimwear images. One Nano Banana 2 editorial request returned two images rather than three, without a reported error or moderation reason. That isolated omission is recorded; it is not presented as proof of why the third image was absent.</p>
-<p>Choose Seedream 5 first for:</p>
-<ul>
-<li class="">swimwear and skin-exposure briefs with ordinary commercial intent;</li>
-<li class="">saturated color and exact color relationships;</li>
-<li class="">embroidery, woven surfaces, sheen, and other difficult textures;</li>
-<li class="">repeated casting where face and skin continuity matter.</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="muse-reference-first-constraint-heavy-work">Muse: reference-first, constraint-heavy work<a href="https://www.astria.ai/articles/astria-image-models/#muse-reference-first-constraint-heavy-work" class="hash-link" aria-label="Direct link to Muse: reference-first, constraint-heavy work" title="Direct link to Muse: reference-first, constraint-heavy work" translate="no">​</a></h2>
-<p>Muse is the option for the brief that reads like a small logic problem: use this person, that jacket, this necklace, one bottle in the right hand, a specified background, and no extra objects.</p>
-<p>We call it a <strong>thinking model</strong> in a practical editorial sense: its useful distinction is the behavior visible in the output—careful interpretation of multiple references and their separate roles. This guide does not make an undocumented claim about its internal architecture.</p>
-<p>Muse was particularly dependable for jewelry and the complex multi-reference frame. It is worth trying when reference reliability matters more than discovering the fastest general-purpose look.</p>
-<p>Choose Muse first for:</p>
-<ul>
-<li class="">several references with explicit roles;</li>
-<li class="">jewelry and accessory placement;</li>
-<li class="">strict inclusion and exclusion lists;</li>
-<li class="">a reference-led brief that other models keep simplifying or blending.</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="what-else-is-in-astrias-model-gui">What else is in Astria's model GUI?<a href="https://www.astria.ai/articles/astria-image-models/#what-else-is-in-astrias-model-gui" class="hash-link" aria-label="Direct link to What else is in Astria's model GUI?" title="Direct link to What else is in Astria's model GUI?" translate="no">​</a></h2>
-<p>Astria's popular model selector changes as endpoints improve. In the September 6 catalog snapshot, it included current variants from the Nano Banana and Seedream families alongside Flux 2 Pro, GPT Image 2, Recraft V4.1, Ideogram V4, and WAN 2.7/Pro.</p>
-<p>The public partner-model gallery was broader: Reve, Riverflow, HyperRealism, Flux Turbo and Klein, P-Image, Recraft variants, Grok Imagine, Krea, Qwen Image, MAI Image, and Muse were among the visible families.</p>
-<p>Two cautions make that list easier to use:</p>
-<ol>
-<li class=""><strong>Public in the GUI does not mean open weights.</strong> It means the model is visible as a public Astria partner model.</li>
-<li class=""><strong>A long catalog is not a reason to test everything on every job.</strong> Start with the four-model routing table, then qualify a challenger only when it offers a relevant capability, speed, price, or aesthetic.</li>
-</ol>
-<p>Model names and availability are volatile. Treat this as a dated snapshot and check the live selector before committing a production pipeline.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="a-simple-routing-workflow">A simple routing workflow<a href="https://www.astria.ai/articles/astria-image-models/#a-simple-routing-workflow" class="hash-link" aria-label="Direct link to A simple routing workflow" title="Direct link to A simple routing workflow" translate="no">​</a></h2>
-<ol>
-<li class="">Run the approved brief in Nano Banana 2.</li>
-<li class="">If the job is beauty- or text-led, run GPT Image 2 alongside it.</li>
-<li class="">If color, texture, identity, or swimwear completion is the risk, add Seedream 5.</li>
-<li class="">If several references must be interpreted separately, add Muse.</li>
-<li class="">Judge product accuracy separately from aesthetic preference.</li>
-<li class="">Approve a treatment before multiplying it across a collection.</li>
-</ol>
-<p>The cheapest model per generated image is not automatically the cheapest production choice. The metric that matters is cost per approved output after retries and retouching. The benchmark's 131 images cost <strong>$43.15</strong> for the four-model core run; source creation and calibration brought the full project generation spend to <strong>$45.79</strong>.</p>
-<p>Continue to the <a class="" href="https://www.astria.ai/articles/best-ai-image-models-fashion/">side-by-side results</a>, or inspect <a class="" href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/">how the test was designed</a>.</p>]]></content:encoded>
-            <category>Models</category>
             <category>Guides</category>
         </item>
         <item>
@@ -452,89 +452,6 @@
             <category>Guides</category>
         </item>
         <item>
-            <title><![CDATA[How We Benchmark AI Image Models for Fashion and Product Work]]></title>
-            <link>https://www.astria.ai/articles/how-we-benchmark-ai-image-models/</link>
-            <guid>https://www.astria.ai/articles/how-we-benchmark-ai-image-models/</guid>
-            <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The prompts, references, selection rule, costs, limitations, and disclosure behind Astria's 2026 fashion image-model comparison.]]></description>
-            <content:encoded><![CDATA[<p>We benchmark image models on the work a fashion or product team actually has to approve: garments, color, texture, identity, jewelry, copy, benign swimwear, and briefs containing several references at once.</p>
-<p>The September 2026 pilot compares <strong>Nano Banana 2, GPT Image 2, Seedream 5 Pro, and Muse</strong> across 11 controlled briefs. Three outputs were requested for every model-and-brief pair: 132 requested, 131 returned.</p>
-<aside class="astria-article-cta" aria-label="Start creating with Astria"><div class="astria-article-cta__mark"><img src="https://www.astria.ai/articles/img/logo@2x.webp" alt=""></div><p class="astria-article-cta__eyebrow">Transparent comparison</p><h2 class="astria-article-cta__title">Run your own production brief</h2><p class="astria-article-cta__copy">Use the same references and prompt across models, then approve for accuracy and art direction separately.</p><div class="astria-article-cta__actions"><a class="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a class="astria-article-cta__button astria-article-cta__button--secondary" href="https://www.astria.ai/gallery/workspaces"><span>Templates gallery</span><span aria-hidden="true">→</span></a></div></aside>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="public-leaderboards-are-context-not-a-production-verdict">Public leaderboards are context, not a production verdict<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#public-leaderboards-are-context-not-a-production-verdict" class="hash-link" aria-label="Direct link to Public leaderboards are context, not a production verdict" title="Direct link to Public leaderboards are context, not a production verdict" translate="no">​</a></h2>
-<p>Public image leaderboards answer useful questions. They do not all answer the same question.</p>
-<p><a href="https://artificialanalysis.ai/image/methodology" target="_blank" rel="noopener noreferrer" class="">Artificial Analysis</a> separates text-to-image from image editing, uses human preference, and reports endpoint quality, price, and generation time. Its methodology also distinguishes localized editing from reference-to-image generation. <a href="https://github.com/TIGER-AI-Lab/GenAI-Bench" target="_blank" rel="noopener noreferrer" class="">GenAI-Bench</a> studies how model judgments align with human preferences collected in a generative arena. <a href="https://github.com/pku-yuangroup/ImgEdit" target="_blank" rel="noopener noreferrer" class="">ImgEdit-Bench</a> evaluates instruction adherence, editing quality, detail preservation, and single- versus multi-turn editing.</p>
-<p>Those are valuable priors. A fashion production decision adds different questions:</p>
-<ul>
-<li class="">Did the number and placement of buttons survive?</li>
-<li class="">Is a woven pattern merely plausible, or is it the same pattern?</li>
-<li class="">Does cobalt remain cobalt under a new lighting treatment?</li>
-<li class="">Does the same person remain recognizable from close-up to full length?</li>
-<li class="">Is the packaging copy exact?</li>
-<li class="">Did the model keep four references separate rather than blend them?</li>
-</ul>
-<p>We therefore use public benchmark design as context, then test the current endpoints inside the workflow being recommended.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="what-the-pilot-tested">What the pilot tested<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#what-the-pilot-tested" class="hash-link" aria-label="Direct link to What the pilot tested" title="Direct link to What the pilot tested" translate="no">​</a></h2>
-<p>The pilot has 11 briefs:</p>
-<table><thead><tr><th>Track</th><th style="text-align:right">Briefs</th><th>Primary risk</th></tr></thead><tbody><tr><td>General fashion</td><td style="text-align:right">1</td><td>Overall art direction, garment use, realism, and composition</td></tr><tr><td>Color and texture</td><td style="text-align:right">1</td><td>Jacquard, embroidery, buttons, saturated color, and sheen</td></tr><tr><td>Swimwear</td><td style="text-align:right">2</td><td>Tasteful completion, garment preservation, framing, and unwanted alteration</td></tr><tr><td>Beauty with text</td><td style="text-align:right">1</td><td>Skin, bottle geometry, exact headline, and small packaging copy</td></tr><tr><td>Jewelry</td><td style="text-align:right">1</td><td>Stone count, settings, spacing, chain, scale, and reflections</td></tr><tr><td>Identity series</td><td style="text-align:right">4</td><td>One person and one garment across close-up, full-length, seated, and movement shots</td></tr><tr><td>Complex references</td><td style="text-align:right">1</td><td>Person, garment, necklace, bottle, placement, background, and exclusions in one frame</td></tr></tbody></table>
-<p>All people are adults. The swimwear prompts use ordinary ecommerce and editorial framing and do not attempt to evade safety systems.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="the-source-assets">The source assets<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#the-source-assets" class="hash-link" aria-label="Direct link to The source assets" title="Direct link to The source assets" translate="no">​</a></h2>
-<p>The four product references are synthetic and brand-neutral. We created them for this test so no customer product, artwork, or campaign would become public benchmark material. One dedicated, approved synthetic cast identity was reused across all on-model briefs.</p>
-<div class="benchmark-grid benchmark-grid--four"><figure class="benchmark-card benchmark-card--source"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Synthetic orange jacquard jacket benchmark reference"><figcaption><strong>Textured jacket</strong>Color, weave, cranes, buttons, and silhouette</figcaption></figure><figure class="benchmark-card benchmark-card--source"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/source-swimsuit.webp" alt="Synthetic cobalt and coral swimsuit benchmark reference"><figcaption><strong>Swimsuit</strong>Color, asymmetric straps, piping, and rings</figcaption></figure><figure class="benchmark-card benchmark-card--source"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/source-beauty.webp" alt="Synthetic rose serum bottle and carton benchmark reference"><figcaption><strong>Beauty pack</strong>Geometry, material, label, and carton</figcaption></figure><figure class="benchmark-card benchmark-card--source benchmark-card--square"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/source-necklace.webp" alt="Synthetic emerald and rose gold necklace benchmark reference"><figcaption><strong>Jewelry</strong>Stones, settings, spacing, chain, and clasp</figcaption></figure></div>
-<p class="benchmark-caption">Ground truth is the rendered source, not the text prompt that produced it. That distinction prevents an evaluator from penalizing a comparison model for an attribute absent from the actual reference.</p>
-<p>The visual ground truth is recorded before judging. For example, the rendered jacket contains four crane motifs and four buttons, while the rendered necklace contains nine emeralds. The comparison prompts use those observed facts.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="controls-and-selection-rule">Controls and selection rule<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#controls-and-selection-rule" class="hash-link" aria-label="Direct link to Controls and selection rule" title="Direct link to Controls and selection rule" translate="no">​</a></h2>
-<p>Every model received the same semantic brief and the same Astria reference tokens. Portrait and editorial work used a shared <strong>3:4</strong> aspect ratio; the jewelry macro used <strong>1:1</strong>. The initial calibration used 4:5, but Muse did not support that ratio, so 3:4 became the fair shared portrait format. Nano Banana 2, GPT Image 2, and Seedream 5 used 2K where exposed; Muse used its native endpoint settings.</p>
-<p>Three outputs were requested per cell. The article shows <strong>output 00</strong>, the first predetermined result, for every completed cell. We did not inspect all three and choose the prettiest. Alternate results remain in the run archive, including failures and unwanted variations.</p>
-<p>That rule removes one common source of misleading model comparisons: showing the best lucky draw from one model beside an ordinary draw from another.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="what-we-record">What we record<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#what-we-record" class="hash-link" aria-label="Direct link to What we record" title="Direct link to What we record" translate="no">​</a></h2>
-<p>For each request, the benchmark stores:</p>
-<ul>
-<li class="">model and endpoint identifier;</li>
-<li class="">exact brief and reference tokens;</li>
-<li class="">aspect ratio and resolution policy;</li>
-<li class="">prompt ID;</li>
-<li class="">output count requested and received;</li>
-<li class="">reported generation cost;</li>
-<li class="">public display asset;</li>
-<li class="">completion, instruction, reference, identity/text, and editorial notes.</li>
-</ul>
-<p>The raw run manifest is machine-readable JSON and the first-pass review is a CSV. The public article does not turn those notes into a fabricated universal score.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="how-results-are-judged">How results are judged<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#how-results-are-judged" class="hash-link" aria-label="Direct link to How results are judged" title="Direct link to How results are judged" translate="no">​</a></h2>
-<p>We keep accuracy separate from preference.</p>
-<p><strong>Instruction following</strong> asks whether the requested view, pose, framing, objects, and exclusions appeared. <strong>Reference fidelity</strong> checks product color, silhouette, construction, texture, hardware, and separation of roles. <strong>Identity</strong> asks whether the cast remains recognizably the same. <strong>Text</strong> checks wording and layout, with small package copy treated more strictly than text that only looks typographic. <strong>Editorial usability</strong> asks whether a creative team could reasonably take the result into approval or light retouching.</p>
-<p>The publication review for this pilot is a disclosed editorial assessment by Astria, not a blinded multi-reviewer scientific study. The output order was fixed before review, but model names are visible in the published comparison. The qualitative verdicts should therefore be read as production guidance supported by inspectable examples, not as statistically powered proof.</p>
-<p>A larger follow-up should add at least three blinded reviewers, randomize the presentation order, record pairwise preferences, run OCR for exact text, and calculate cost per approved output using a predefined pass gate.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="completion-and-cost">Completion and cost<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#completion-and-cost" class="hash-link" aria-label="Direct link to Completion and cost" title="Direct link to Completion and cost" translate="no">​</a></h2>
-<p>The core run requested <strong>132 images and returned 131</strong>. Forty-three of 44 model-and-brief requests returned all three images. The Nano Banana 2 swimwear-editorial request returned two of three; the endpoint reported no <code>user_error</code> and no reason for the missing image. Every model produced safe, tasteful imagery for both swimwear briefs.</p>
-<p>The core benchmark cost <strong>$43.15199</strong> in Astria generation charges, rounded to <strong>$43.15</strong> in article copy. Synthetic source creation and ratio calibration cost another <strong>$2.64</strong>, bringing the full generation project to <strong>$45.79199</strong>, rounded to <strong>$45.79</strong>.</p>
-<p>Cost per generated image is only an input metric. A production comparison should ultimately divide the total generation and retouch spend by the number of outputs that pass approval.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="known-limitations">Known limitations<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#known-limitations" class="hash-link" aria-label="Direct link to Known limitations" title="Direct link to Known limitations" translate="no">​</a></h2>
-<ul>
-<li class="">Eleven briefs are enough to show useful differences, not to rank the entire model market.</li>
-<li class="">One synthetic identity and four synthetic products do not represent every skin tone, textile, body, material, or brand system.</li>
-<li class="">Three outputs per cell reveal variation but do not provide a large statistical sample.</li>
-<li class="">Endpoint behavior, pricing, safety handling, and catalog availability can change after September 6, 2026.</li>
-<li class="">Muse used native endpoint settings while the other core models used exposed 2K settings.</li>
-<li class="">Text and jewelry geometry were reviewed visually; no OCR or automated geometric score is presented in this pilot.</li>
-<li class="">Astria publishes this comparison and sells access to the tested endpoints.</li>
-</ul>
-<p>The recommendation is about the tested Astria endpoints on the capture date. It is not a claim about every deployment of the underlying models.</p>
-<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="reproducing-the-comparison">Reproducing the comparison<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#reproducing-the-comparison" class="hash-link" aria-label="Direct link to Reproducing the comparison" title="Direct link to Reproducing the comparison" translate="no">​</a></h2>
-<p>The exact prompts, source descriptions, reference IDs, prompt IDs, costs, and judging notes live in the repository benchmark package. To reproduce the logic in another workspace:</p>
-<ol>
-<li class="">Create rights-cleared source products and one approved adult identity.</li>
-<li class="">Record the visual ground truth of each source.</li>
-<li class="">Convert each source to a stable reference.</li>
-<li class="">Send the same semantic brief to every compatible model.</li>
-<li class="">Request the same number of outputs and preserve all of them.</li>
-<li class="">Choose the public display rule before opening the results.</li>
-<li class="">Review aesthetic quality and product accuracy as separate decisions.</li>
-</ol>
-<p>Read the <a class="" href="https://www.astria.ai/articles/best-ai-image-models-fashion/">full side-by-side results</a> or use the shorter <a class="" href="https://www.astria.ai/articles/astria-image-models/">Astria model-selection guide</a>.</p>]]></content:encoded>
-            <category>Models</category>
-            <category>Engineering</category>
-        </item>
-        <item>
             <title><![CDATA[Astria vs Higgsfield (2026): Which Is Better for Fashion Brands?]]></title>
             <link>https://www.astria.ai/articles/astria-vs-higgsfield-fashion-ai/</link>
             <guid>https://www.astria.ai/articles/astria-vs-higgsfield-fashion-ai/</guid>
@@ -628,6 +545,89 @@
 <p>All performance, user-count, customer, savings, and product-fidelity statements from either vendor are first-party claims, not independent benchmarks. Model availability, credit rates, plan entitlements, and product scope change frequently. Confirm current terms and test representative garments before making a production decision.</p>
 <p><a href="https://www.astria.ai/ecommerce" target="_blank" rel="noopener noreferrer" class="">Explore Astria for fashion and ecommerce</a>.</p>]]></content:encoded>
             <category>Comparisons</category>
+        </item>
+        <item>
+            <title><![CDATA[How We Benchmark AI Image Models for Fashion and Product Work]]></title>
+            <link>https://www.astria.ai/articles/how-we-benchmark-ai-image-models/</link>
+            <guid>https://www.astria.ai/articles/how-we-benchmark-ai-image-models/</guid>
+            <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The prompts, references, selection rule, costs, limitations, and disclosure behind Astria's 2026 fashion image-model comparison.]]></description>
+            <content:encoded><![CDATA[<p>We benchmark image models on the work a fashion or product team actually has to approve: garments, color, texture, identity, jewelry, copy, benign swimwear, and briefs containing several references at once.</p>
+<p>The September 2026 pilot compares <strong>Nano Banana 2, GPT Image 2, Seedream 5 Pro, and Muse</strong> across 11 controlled briefs. Three outputs were requested for every model-and-brief pair: 132 requested, 131 returned.</p>
+<aside class="astria-article-cta" aria-label="Start creating with Astria"><div class="astria-article-cta__mark"><img src="https://www.astria.ai/articles/img/logo@2x.webp" alt=""></div><p class="astria-article-cta__eyebrow">Transparent comparison</p><h2 class="astria-article-cta__title">Run your own production brief</h2><p class="astria-article-cta__copy">Use the same references and prompt across models, then approve for accuracy and art direction separately.</p><div class="astria-article-cta__actions"><a class="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a class="astria-article-cta__button astria-article-cta__button--secondary" href="https://www.astria.ai/gallery/workspaces"><span>Templates gallery</span><span aria-hidden="true">→</span></a></div></aside>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="public-leaderboards-are-context-not-a-production-verdict">Public leaderboards are context, not a production verdict<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#public-leaderboards-are-context-not-a-production-verdict" class="hash-link" aria-label="Direct link to Public leaderboards are context, not a production verdict" title="Direct link to Public leaderboards are context, not a production verdict" translate="no">​</a></h2>
+<p>Public image leaderboards answer useful questions. They do not all answer the same question.</p>
+<p><a href="https://artificialanalysis.ai/image/methodology" target="_blank" rel="noopener noreferrer" class="">Artificial Analysis</a> separates text-to-image from image editing, uses human preference, and reports endpoint quality, price, and generation time. Its methodology also distinguishes localized editing from reference-to-image generation. <a href="https://github.com/TIGER-AI-Lab/GenAI-Bench" target="_blank" rel="noopener noreferrer" class="">GenAI-Bench</a> studies how model judgments align with human preferences collected in a generative arena. <a href="https://github.com/pku-yuangroup/ImgEdit" target="_blank" rel="noopener noreferrer" class="">ImgEdit-Bench</a> evaluates instruction adherence, editing quality, detail preservation, and single- versus multi-turn editing.</p>
+<p>Those are valuable priors. A fashion production decision adds different questions:</p>
+<ul>
+<li class="">Did the number and placement of buttons survive?</li>
+<li class="">Is a woven pattern merely plausible, or is it the same pattern?</li>
+<li class="">Does cobalt remain cobalt under a new lighting treatment?</li>
+<li class="">Does the same person remain recognizable from close-up to full length?</li>
+<li class="">Is the packaging copy exact?</li>
+<li class="">Did the model keep four references separate rather than blend them?</li>
+</ul>
+<p>We therefore use public benchmark design as context, then test the current endpoints inside the workflow being recommended.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="what-the-pilot-tested">What the pilot tested<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#what-the-pilot-tested" class="hash-link" aria-label="Direct link to What the pilot tested" title="Direct link to What the pilot tested" translate="no">​</a></h2>
+<p>The pilot has 11 briefs:</p>
+<table><thead><tr><th>Track</th><th style="text-align:right">Briefs</th><th>Primary risk</th></tr></thead><tbody><tr><td>General fashion</td><td style="text-align:right">1</td><td>Overall art direction, garment use, realism, and composition</td></tr><tr><td>Color and texture</td><td style="text-align:right">1</td><td>Jacquard, embroidery, buttons, saturated color, and sheen</td></tr><tr><td>Swimwear</td><td style="text-align:right">2</td><td>Tasteful completion, garment preservation, framing, and unwanted alteration</td></tr><tr><td>Beauty with text</td><td style="text-align:right">1</td><td>Skin, bottle geometry, exact headline, and small packaging copy</td></tr><tr><td>Jewelry</td><td style="text-align:right">1</td><td>Stone count, settings, spacing, chain, scale, and reflections</td></tr><tr><td>Identity series</td><td style="text-align:right">4</td><td>One person and one garment across close-up, full-length, seated, and movement shots</td></tr><tr><td>Complex references</td><td style="text-align:right">1</td><td>Person, garment, necklace, bottle, placement, background, and exclusions in one frame</td></tr></tbody></table>
+<p>All people are adults. The swimwear prompts use ordinary ecommerce and editorial framing and do not attempt to evade safety systems.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="the-source-assets">The source assets<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#the-source-assets" class="hash-link" aria-label="Direct link to The source assets" title="Direct link to The source assets" translate="no">​</a></h2>
+<p>The four product references are synthetic and brand-neutral. We created them for this test so no customer product, artwork, or campaign would become public benchmark material. One dedicated, approved synthetic cast identity was reused across all on-model briefs.</p>
+<div class="benchmark-grid benchmark-grid--four"><figure class="benchmark-card benchmark-card--source"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Synthetic orange jacquard jacket benchmark reference"><figcaption><strong>Textured jacket</strong>Color, weave, cranes, buttons, and silhouette</figcaption></figure><figure class="benchmark-card benchmark-card--source"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/source-swimsuit.webp" alt="Synthetic cobalt and coral swimsuit benchmark reference"><figcaption><strong>Swimsuit</strong>Color, asymmetric straps, piping, and rings</figcaption></figure><figure class="benchmark-card benchmark-card--source"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/source-beauty.webp" alt="Synthetic rose serum bottle and carton benchmark reference"><figcaption><strong>Beauty pack</strong>Geometry, material, label, and carton</figcaption></figure><figure class="benchmark-card benchmark-card--source benchmark-card--square"><img loading="lazy" src="https://www.astria.ai/articles/img/model-benchmarks/2026-09/source-necklace.webp" alt="Synthetic emerald and rose gold necklace benchmark reference"><figcaption><strong>Jewelry</strong>Stones, settings, spacing, chain, and clasp</figcaption></figure></div>
+<p class="benchmark-caption">Ground truth is the rendered source, not the text prompt that produced it. That distinction prevents an evaluator from penalizing a comparison model for an attribute absent from the actual reference.</p>
+<p>The visual ground truth is recorded before judging. For example, the rendered jacket contains four crane motifs and four buttons, while the rendered necklace contains nine emeralds. The comparison prompts use those observed facts.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="controls-and-selection-rule">Controls and selection rule<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#controls-and-selection-rule" class="hash-link" aria-label="Direct link to Controls and selection rule" title="Direct link to Controls and selection rule" translate="no">​</a></h2>
+<p>Every model received the same semantic brief and the same Astria reference tokens. Portrait and editorial work used a shared <strong>3:4</strong> aspect ratio; the jewelry macro used <strong>1:1</strong>. The initial calibration used 4:5, but Muse did not support that ratio, so 3:4 became the fair shared portrait format. Nano Banana 2, GPT Image 2, and Seedream 5 used 2K where exposed; Muse used its native endpoint settings.</p>
+<p>Three outputs were requested per cell. The article shows <strong>output 00</strong>, the first predetermined result, for every completed cell. We did not inspect all three and choose the prettiest. Alternate results remain in the run archive, including failures and unwanted variations.</p>
+<p>That rule removes one common source of misleading model comparisons: showing the best lucky draw from one model beside an ordinary draw from another.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="what-we-record">What we record<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#what-we-record" class="hash-link" aria-label="Direct link to What we record" title="Direct link to What we record" translate="no">​</a></h2>
+<p>For each request, the benchmark stores:</p>
+<ul>
+<li class="">model and endpoint identifier;</li>
+<li class="">exact brief and reference tokens;</li>
+<li class="">aspect ratio and resolution policy;</li>
+<li class="">prompt ID;</li>
+<li class="">output count requested and received;</li>
+<li class="">reported generation cost;</li>
+<li class="">public display asset;</li>
+<li class="">completion, instruction, reference, identity/text, and editorial notes.</li>
+</ul>
+<p>The raw run manifest is machine-readable JSON and the first-pass review is a CSV. The public article does not turn those notes into a fabricated universal score.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="how-results-are-judged">How results are judged<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#how-results-are-judged" class="hash-link" aria-label="Direct link to How results are judged" title="Direct link to How results are judged" translate="no">​</a></h2>
+<p>We keep accuracy separate from preference.</p>
+<p><strong>Instruction following</strong> asks whether the requested view, pose, framing, objects, and exclusions appeared. <strong>Reference fidelity</strong> checks product color, silhouette, construction, texture, hardware, and separation of roles. <strong>Identity</strong> asks whether the cast remains recognizably the same. <strong>Text</strong> checks wording and layout, with small package copy treated more strictly than text that only looks typographic. <strong>Editorial usability</strong> asks whether a creative team could reasonably take the result into approval or light retouching.</p>
+<p>The publication review for this pilot is a disclosed editorial assessment by Astria, not a blinded multi-reviewer scientific study. The output order was fixed before review, but model names are visible in the published comparison. The qualitative verdicts should therefore be read as production guidance supported by inspectable examples, not as statistically powered proof.</p>
+<p>A larger follow-up should add at least three blinded reviewers, randomize the presentation order, record pairwise preferences, run OCR for exact text, and calculate cost per approved output using a predefined pass gate.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="completion-and-cost">Completion and cost<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#completion-and-cost" class="hash-link" aria-label="Direct link to Completion and cost" title="Direct link to Completion and cost" translate="no">​</a></h2>
+<p>The core run requested <strong>132 images and returned 131</strong>. Forty-three of 44 model-and-brief requests returned all three images. The Nano Banana 2 swimwear-editorial request returned two of three; the endpoint reported no <code>user_error</code> and no reason for the missing image. Every model produced safe, tasteful imagery for both swimwear briefs.</p>
+<p>The core benchmark cost <strong>$43.15199</strong> in Astria generation charges, rounded to <strong>$43.15</strong> in article copy. Synthetic source creation and ratio calibration cost another <strong>$2.64</strong>, bringing the full generation project to <strong>$45.79199</strong>, rounded to <strong>$45.79</strong>.</p>
+<p>Cost per generated image is only an input metric. A production comparison should ultimately divide the total generation and retouch spend by the number of outputs that pass approval.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="known-limitations">Known limitations<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#known-limitations" class="hash-link" aria-label="Direct link to Known limitations" title="Direct link to Known limitations" translate="no">​</a></h2>
+<ul>
+<li class="">Eleven briefs are enough to show useful differences, not to rank the entire model market.</li>
+<li class="">One synthetic identity and four synthetic products do not represent every skin tone, textile, body, material, or brand system.</li>
+<li class="">Three outputs per cell reveal variation but do not provide a large statistical sample.</li>
+<li class="">Endpoint behavior, pricing, safety handling, and catalog availability can change after September 6, 2026.</li>
+<li class="">Muse used native endpoint settings while the other core models used exposed 2K settings.</li>
+<li class="">Text and jewelry geometry were reviewed visually; no OCR or automated geometric score is presented in this pilot.</li>
+<li class="">Astria publishes this comparison and sells access to the tested endpoints.</li>
+</ul>
+<p>The recommendation is about the tested Astria endpoints on the capture date. It is not a claim about every deployment of the underlying models.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zz1c" id="reproducing-the-comparison">Reproducing the comparison<a href="https://www.astria.ai/articles/how-we-benchmark-ai-image-models/#reproducing-the-comparison" class="hash-link" aria-label="Direct link to Reproducing the comparison" title="Direct link to Reproducing the comparison" translate="no">​</a></h2>
+<p>The exact prompts, source descriptions, reference IDs, prompt IDs, costs, and judging notes live in the repository benchmark package. To reproduce the logic in another workspace:</p>
+<ol>
+<li class="">Create rights-cleared source products and one approved adult identity.</li>
+<li class="">Record the visual ground truth of each source.</li>
+<li class="">Convert each source to a stable reference.</li>
+<li class="">Send the same semantic brief to every compatible model.</li>
+<li class="">Request the same number of outputs and preserve all of them.</li>
+<li class="">Choose the public display rule before opening the results.</li>
+<li class="">Review aesthetic quality and product accuracy as separate decisions.</li>
+</ol>
+<p>Read the <a class="" href="https://www.astria.ai/articles/best-ai-image-models-fashion/">full side-by-side results</a> or use the shorter <a class="" href="https://www.astria.ai/articles/astria-image-models/">Astria model-selection guide</a>.</p>]]></content:encoded>
+            <category>Models</category>
+            <category>Engineering</category>
         </item>
         <item>
             <title><![CDATA[AI Fashion Models: A Casting Guide for Brands]]></title>
