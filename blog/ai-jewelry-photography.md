@@ -130,6 +130,36 @@ The approach that works for most jewelry brands is a split rather than a wholesa
 
 This keeps the material claim anchored in photography and moves the expensive contextual work — which is most of the volume — to production that scales.
 
+## A five-shot ring prompt ladder
+
+A ring set should move from proof to context without asking one image to do both jobs. Keep the verified macro of the actual piece as the factual anchor. Then use a stable preservation clause in each generated prompt: preserve the ring's stone count, cut, setting geometry, prong count, band profile, metal colour, finish, and realistic scale.
+
+The public [Jewelry Product Photography workspace](https://www.astria.ai/w/jewelry-product-photography) and [Ring template](https://www.astria.ai/p/jewelry-ring) provide a working starting point. Its finished examples cover [macro still life](https://www.astria.ai/prompts/33498743?ws=297), [lifestyle](https://www.astria.ai/prompts/33498723?ws=297), and [on-model context](https://www.astria.ai/prompts/33498478?ws=297). Direct prompt pages may require sign-in; pair them with the public workspace and template when sharing the workflow.
+
+**1. Verified macro — the anchor**
+
+> Straight-on macro product photograph of the actual reference ring, centered and fully visible. Show the stone, setting, prongs, band width, metal finish and hallmark-facing profile with accurate colour and geometry. Neutral light-grey sweep, controlled reflective environment, crisp edge detail, even focus across the piece, square composition, no props.
+
+This is the image to photograph or verify most strictly. It carries the product claim.
+
+**2. Editorial macro — add material context**
+
+> Macro product photograph of the reference ring resting in soft folds of light textured fabric. Use the fabric curves to frame the ring without obscuring its setting, band profile or stone. Preserve stone count, setting geometry, prongs, metal colour and finish. Warm diffused natural light, clean neutral background, crisp detail, shallow depth of field, restrained luxury mood, square composition.
+
+**3. On-hand scale — answer size**
+
+> Close on-hand photograph of the reference ring worn naturally on the ring finger, with the hand resting lightly on pale stone. Preserve the ring's geometry, prong count, band width, metal finish and realistic scale against the finger. Soft side light, natural skin texture, anatomically correct hand, clean nails, shallow depth of field, vertical 4:5.
+
+**4. Gesture — show wear without hiding the piece**
+
+> Wrist-to-fingertip lifestyle photograph of the same hand wearing the reference ring while gently holding the stem of a plain ceramic cup. Keep the ring unobscured and preserve its setting, band profile, finish and scale. Quiet morning interior, warm window light, neutral wardrobe, physically natural grip, vertical 4:5.
+
+**5. Campaign close — create desire**
+
+> Tight luxury campaign photograph of the reference ring on the same hand near a softly shadowed cream silk sleeve. Preserve the stone, setting, prongs, band, metal colour and realistic scale. Directional late-afternoon light creates one controlled highlight across the metal; deep but legible shadow, refined grain, generous negative space, vertical 4:5.
+
+The ladder goes from specification to atmosphere. Review every generated rung against the anchor before it enters the product page or campaign. For reusable product-page prompt structures across apparel, accessories, beauty, and jewelry, continue with [ecommerce product photography prompts](./ecommerce-product-photography-prompts.md).
+
 ## Reviewing jewelry output
 
 Slower and more specific than apparel review. Per image:

@@ -80,6 +80,8 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | fashion-video-ads-guide | fashion video ads | 2026-09-02 | 2026-09-05 | F | 2026-12-05 | guides |
 | stytrix-alternatives | stytrix alternatives | 2026-08-31 | 2026-09-05 | P F | 2026-10-05 | comparisons |
 | lumoo-alternatives | lumoo alternatives | 2026-08-30 | 2026-09-05 | P F | 2026-10-05 | comparisons |
+| ai-fashion-photography-prompts | AI fashion photography prompts | 2026-09-06 | 2026-09-06 | F | 2026-12-06 | guides |
+| ecommerce-product-photography-prompts | ecommerce product photography prompts | 2026-09-06 | 2026-09-06 | F | 2026-12-06 | guides |
 
 ## Unlisted (deliberately noindexed)
 
@@ -182,6 +184,15 @@ page/query impressions, clicks, CTR, and average position over an equivalent 28-
 At the October 4 review, account for the actual number of live days. Check the two lookbook URLs
 together for query overlap before expanding either one. Rankings or CTR improvements are not
 claimed by this implementation.
+
+**Prompt-content pilot — September 6, 2026:** the explicitly authorized first phase adds
+`ai-fashion-photography-prompts` and `ecommerce-product-photography-prompts`, plus bounded
+prompt sequences on the existing lookbook and jewelry guides. Public workspace and template
+links were checked during research; direct prompt-detail pages may require sign-in. Treat that
+availability as a volatile feature claim and recheck it on the quarterly schedule above. Five
+reference-to-result recipe cards cache optimized copies of the public images locally and retain
+links to their source workspace, template, and generation. This first phase does not release
+separate beauty, bridal, or supplement articles from the plan.
 
 **Validation and setup:** `yarn install --frozen-lockfile --non-interactive` succeeded;
 `yarn build`, `yarn typecheck`, whitespace checks, rendered metadata/canonical/indexability/link

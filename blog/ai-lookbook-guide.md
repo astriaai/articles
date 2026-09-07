@@ -137,6 +137,40 @@ Only after these four does generation start. Everything before this point is the
 6. **Sequence and edit.** Lay them out in order. Cut the weakest three. A lookbook of eighteen strong looks beats one of twenty-four with six passengers.
 7. **Derive the channel crops.** Vertical for social, wide for the site, square for the grid — from the same set rather than as new productions.
 
+## A six-prompt lookbook sequence
+
+Write the sequence as one stable production block plus six controlled variations. The stable block should name the approved cast, reference outfit, styling, location family, light, colour treatment, and product details that must not change. The individual prompts then direct the rhythm of the edit.
+
+For this example, the invariant is: the same model, the same reference tailored outfit and shoes, a pale modernist courtyard, soft overcast light, a muted cream-and-mineral grade, realistic fabric behaviour, and vertical 4:5 output. Each frame must preserve the outfit's neckline, lapels, fastening, waist, trouser length, footwear, colour, and material texture.
+
+**1. Opener — establish the world**
+
+> Wide environmental fashion photograph of the model wearing the reference tailored outfit at the entrance to a pale modernist courtyard. Show the complete silhouette and shoes at a smaller scale, with generous architecture around her. She stands still and looks beyond frame left. Soft overcast daylight, muted cream-and-mineral colour grade, restrained contrast, vertical 4:5.
+
+**2. Hero — establish the look**
+
+> Full-body front three-quarter photograph of the same model and reference outfit in the same courtyard. She stands at a 45-degree angle with her weight on the back foot and looks toward the camera. Keep the complete outfit, fastening and shoes clearly visible. Eye-level camera, soft overcast light, quiet shadow, vertical 4:5.
+
+**3. Movement — change the energy**
+
+> Full-body photograph of the same model and reference outfit walking parallel to the courtyard wall, captured mid-step. Preserve the jacket construction and trouser length; allow restrained movement at the jacket hem only. Eye-level camera, consistent soft overcast light and muted grade, natural anatomy, vertical 4:5.
+
+**4. Detail — give the sequence a pause**
+
+> Shoulder-to-hip detail of the same model wearing the reference outfit, focused on the lapel, fastening, waist construction and fabric surface. One hand adjusts the cuff without covering the garment. Same pale-stone setting and soft overcast light, sharp product detail, shallow background, vertical 4:5.
+
+**5. Profile — reveal different construction**
+
+> Full-body side-profile photograph of the same model wearing the reference outfit, paused beside a courtyard column. Keep the jacket length, side seam, trouser silhouette and shoes legible. Camera at waist height, consistent light and colour treatment, subtle asymmetrical framing, vertical 4:5.
+
+**6. Closer — resolve rather than repeat**
+
+> Rear three-quarter photograph of the same model and reference outfit walking toward the courtyard exit, head turned slightly toward the light. Preserve the back construction, hem, trousers and footwear. Add a gentle late-afternoon warmth while staying within the established muted grade, with restrained fabric movement and vertical 4:5 framing.
+
+The order moves wide, full, active, close, graphic, and away. That is enough variation to feel edited while retaining one visual world. If a frame fails, revise its one variable rather than rewriting the shared treatment.
+
+For more prompt structures and copyable catalog, movement, detail, and editorial examples, use the [AI fashion photography prompts guide](./ai-fashion-photography-prompts.md). The public [Dark Swimwear workspace](https://www.astria.ai/w/dark-swimwear), [Swimsuit Set 1 template](https://www.astria.ai/p/swimsuit-set-1), [turning frame](https://www.astria.ai/prompts/40584408?ws=368), and [transitional frame](https://www.astria.ai/prompts/40584411?ws=368) show how neighboring poses can belong to one set. Direct prompt pages may ask anonymous visitors to sign in, so the public workspace and template are the reliable starting points.
+
 ## Why AI lookbooks look like AI lookbooks
 
 They share a recognisable aesthetic, and it is worth naming the tells because they are all avoidable:
