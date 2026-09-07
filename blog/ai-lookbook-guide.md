@@ -169,7 +169,7 @@ For this example, the invariant is: the same model, the same reference tailored 
 
 The order moves wide, full, active, close, graphic, and away. That is enough variation to feel edited while retaining one visual world. If a frame fails, revise its one variable rather than rewriting the shared treatment.
 
-For more prompt structures and copyable catalog, movement, detail, and editorial examples, use the [AI fashion photography prompts guide](./ai-fashion-photography-prompts.md). The public [Dark Swimwear workspace](https://www.astria.ai/w/dark-swimwear), [Swimsuit Set 1 template](https://www.astria.ai/p/swimsuit-set-1), [turning frame](https://www.astria.ai/prompts/40584408?ws=368), and [transitional frame](https://www.astria.ai/prompts/40584411?ws=368) show how neighboring poses can belong to one set. Direct prompt pages may ask anonymous visitors to sign in, so the public workspace and template are the reliable starting points.
+For the visual, copyable eight-frame version of this sequence, use [AI Lookbook Prompts](./ai-lookbook-prompts.md). For broader catalog, movement, detail and editorial structures, continue with [AI Fashion Photography Prompts](./ai-fashion-photography-prompts.md). The public [Dark Swimwear workspace](https://www.astria.ai/w/dark-swimwear), [Swimsuit Set 1 template](https://www.astria.ai/p/swimsuit-set-1), [turning frame](https://www.astria.ai/prompts/40584408?ws=368), and [transitional frame](https://www.astria.ai/prompts/40584411?ws=368) show how neighboring poses can belong to one set. Direct prompt pages may ask anonymous visitors to sign in, so the public workspace and template are the reliable starting points.
 
 ## Why AI lookbooks look like AI lookbooks
 

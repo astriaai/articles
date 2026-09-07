@@ -334,6 +334,14 @@ Do not rewrite the entire brief per SKU. Create a matrix with rows for media slo
 
 This turns prompting into a production system rather than a collection of isolated sentences.
 
+## Vertical prompt libraries
+
+- [AI Lookbook Prompts](./ai-lookbook-prompts.md) turns one approved outfit and treatment into an edited fashion sequence.
+- [Beauty Product Photography Prompts](./beauty-product-photography-prompts.md) covers reflective vessels, formula texture, hands and campaigns.
+- [Jewelry Photography Prompts](./jewelry-photography-prompts.md) separates ring, necklace and earring geometry from on-body context.
+- [Wedding Dress Photography Prompts](./wedding-dress-photography-prompts.md) combines gown construction proof with bridal art direction.
+- [Vitamin and Supplement Photography Prompts](./vitamin-supplement-photography-prompts.md) adds label, product-form and claims safeguards for supplement imagery.
+
 ## Review before the images enter the catalog
 
 Use the source product beside the generated output. Check:

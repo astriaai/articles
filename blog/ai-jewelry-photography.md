@@ -158,7 +158,7 @@ This is the image to photograph or verify most strictly. It carries the product 
 
 > Tight luxury campaign photograph of the reference ring on the same hand near a softly shadowed cream silk sleeve. Preserve the stone, setting, prongs, band, metal colour and realistic scale. Directional late-afternoon light creates one controlled highlight across the metal; deep but legible shadow, refined grain, generous negative space, vertical 4:5.
 
-The ladder goes from specification to atmosphere. Review every generated rung against the anchor before it enters the product page or campaign. For reusable product-page prompt structures across apparel, accessories, beauty, and jewelry, continue with [ecommerce product photography prompts](./ecommerce-product-photography-prompts.md).
+The ladder goes from specification to atmosphere. Review every generated rung against the anchor before it enters the product page or campaign. For copyable ring, necklace and earring recipes with a visual example, continue with [Jewelry Photography Prompts](./jewelry-photography-prompts.md). For reusable product-page structures across categories, use [E-commerce Product Photography Prompts](./ecommerce-product-photography-prompts.md).
 
 ## Reviewing jewelry output
 

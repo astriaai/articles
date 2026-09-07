@@ -12,13 +12,17 @@ type PromptRecipeProps = {
   notes: string[];
   prompt: string;
   promptUrl: string;
+  primaryActionLabel?: string;
   purpose: string;
   referenceImages: RecipeImage[];
   resultImage: RecipeImage;
+  sourceNote?: string;
   specs?: string[];
+  templateLabel?: string;
   templateUrl: string;
   title: string;
   vertical: string;
+  workspaceLabel?: string;
   workspaceUrl: string;
 };
 
@@ -27,13 +31,17 @@ export default function PromptRecipe({
   notes,
   prompt,
   promptUrl,
+  primaryActionLabel = 'Open and rerun in Astria',
   purpose,
   referenceImages,
   resultImage,
+  sourceNote = 'Reference and result images come from the linked public Astria example.',
   specs = [],
+  templateLabel = 'Use the template',
   templateUrl,
   title,
   vertical,
+  workspaceLabel = 'View the workspace',
   workspaceUrl,
 }: PromptRecipeProps) {
   const [copyState, setCopyState] = useState<'idle' | 'copied' | 'failed'>('idle');
@@ -174,18 +182,16 @@ export default function PromptRecipe({
 
       <nav className={styles.actions} aria-label={`${title} resources`}>
         <a className={styles.primaryAction} href={promptUrl} target="_blank" rel="noreferrer">
-          Open and rerun in Astria
+          {primaryActionLabel}
         </a>
         <a href={templateUrl} target="_blank" rel="noreferrer">
-          Use the template
+          {templateLabel}
         </a>
         <a href={workspaceUrl} target="_blank" rel="noreferrer">
-          View the workspace
+          {workspaceLabel}
         </a>
       </nav>
-      <p className={styles.sourceLine}>
-        Reference and result images come from the linked public Astria example.
-      </p>
+      <p className={styles.sourceLine}>{sourceNote}</p>
     </section>
   );
 }

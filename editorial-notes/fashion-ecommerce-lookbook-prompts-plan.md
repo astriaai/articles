@@ -1,12 +1,14 @@
 # Fashion, ecommerce and lookbook prompts: content plan
 
-Prepared September 6, 2026. This is an editorial plan, not authorization to publish the full roster. The repository's wider content pause and October 4 review still apply.
+Prepared September 6, 2026; implementation status updated September 7, 2026.
+
+**Expansion authorized September 7, 2026:** the two-page pilot is expanded with dedicated lookbook, beauty, jewelry, wedding-dress and vitamin/supplement prompt libraries. Their editorial dates are staggered from August 31 through September 4. The supplement guide retains the evidence gate as an explicit disclosure: it uses the public Beauty bottle example only as adjacent packaging evidence and does not claim a proven public supplement workflow.
 
 ## Decision
 
 Build a prompt-led content cluster around a practical idea: a useful image prompt is a production brief, not a list of aesthetic adjectives. Every page should give readers copyable English prompts, show the generated proof in a public Astria workspace, and offer the reusable template when one exists.
 
-Start with one new pillar, one new ecommerce page, and two contained updates to existing pages. Hold the remaining vertical pages until the first group has been indexed and measured. Vitamins is additionally gated on producing a public proof workspace; the current curated workspace gallery does not contain a vitamin or supplement collection strong enough to cite as a proven example.
+The original pilot started with one new pillar, one new ecommerce page, and two contained updates to existing pages. The September 7 expansion adds five focused libraries while keeping workflow and strategy on the established guides. The current curated workspace gallery still does not contain a vitamin or supplement collection strong enough to cite as a proven example, so that page is published as a conservative prompt-and-QA framework with the limitation visible beside its image and links.
 
 The plan deliberately does not reproduce Astria's internal reference-token syntax. Prompts use plain editorial placeholders such as “the reference dress” or “the reference product,” so they remain readable, portable, and free of implementation detail.
 
@@ -63,15 +65,16 @@ Publish only after the October 4 data review unless the content pause is explici
 | P1 | **Add a “six-prompt lookbook sequence” section to the AI Lookbook Guide** | Existing-page update | Capture lookbook-prompt variants without creating a competing URL. Keep the page's current strategy intent and add a worked sequence. | Use [The Language of Form](https://www.astria.ai/w/angela-fraser) and [Chapter 2](https://www.astria.ai/p/chapter-2-the-lookbook). | Existing links remain; add the new fashion-prompts pillar once live. |
 | P1 | **Add a “ring shot ladder” to AI Jewelry Photography** | Existing-page update | Satisfy jewelry-prompt intent inside the established jewelry authority page. No second generic jewelry article. | Use [Jewelry Product Photography](https://www.astria.ai/w/jewelry-product-photography) and [Ring](https://www.astria.ai/p/jewelry-ring). | Link to ecommerce-prompts guide for product-only coverage and the fashion-prompts pillar for on-model direction. |
 
-### Phase 2: vertical expansion, only if the pilot earns it
+### Phase 2: vertical expansion — authorized September 7
 
 | Priority | Deliverable | Type | Distinct angle | Proof requirement |
 | --- | --- | --- | --- | --- |
-| P2 | **Beauty Product Photography Prompts: 15 Campaign and Still-Life Setups** | New vertical guide | A campaign system mixing packshot, texture, model-plus-product, hands and ingredient world-building. | Already met by [Beauty](https://www.astria.ai/w/beauty) and its [template](https://www.astria.ai/p/beauty). |
-| P2 | **Wedding Dress Photography Prompts for Designer Lookbooks** | New vertical guide | Gown construction, train, veil, lace and beading fidelity across editorial movement and sales coverage. Target designers, not consumer bridal portraits. | Already met by [Wedding Dress AI Photoshoot](https://www.astria.ai/w/wedding-dress) and its [template](https://www.astria.ai/p/wedding-dress). Do not use the consumer bridal-portrait template as the main proof. |
+| Done | **AI Lookbook Prompts: Build a Cohesive Fashion Sequence** | New vertical guide | A visual opener-to-closer sequence with a stable production block and eight copyable prompts. | [The Language of Form](https://www.astria.ai/w/angela-fraser), [Chapter 2](https://www.astria.ai/p/chapter-2-the-lookbook), and linked America Basics/Dark Swimwear examples. |
+| Done | **Beauty Product Photography Prompts: 8 Copy-Ready Setups** | New vertical guide | A campaign system mixing packshot, texture, model-plus-product, hands and ingredient world-building. | Met by [Beauty](https://www.astria.ai/w/beauty) and its [template](https://www.astria.ai/p/beauty). |
+| Done | **Wedding Dress Photography Prompts: A Bridal Lookbook Shot List** | New vertical guide | Gown construction, train, lace and fabric fidelity across editorial movement and sales coverage. Target designers, not consumer bridal portraits. | Met by [Wedding Dress AI Photoshoot](https://www.astria.ai/w/wedding-dress) and its [template](https://www.astria.ai/p/wedding-dress). |
 | P2 | **Swimwear Photography Prompts: Studio Coverage Without Static Poses** | Optional new vertical guide | Motion direction, body/product interaction and a consistent dark studio treatment. | Already met by [Dark Swimwear](https://www.astria.ai/w/dark-swimwear). Publish only if query data separates this from the pillar. |
-| P2 | **Jewelry Prompt Library: Rings, Necklaces and Earrings** | Optional hub or expansion to the existing article | Product-only macro, hand, neck/ear crop and lifestyle prompts organized by product class. | Use the [jewelry workspace](https://www.astria.ai/w/jewelry-product-photography) plus [ring](https://www.astria.ai/p/jewelry-ring), [necklace](https://www.astria.ai/p/jewelry-necklace) and [earrings](https://www.astria.ai/p/earrings). Prefer expanding the current article unless Search Console shows a separate prompt query cluster. |
-| Gate | **Vitamin and Supplement Product Photography Prompts** | New vertical guide after proof | Bottle, sachet, gummy, capsule and subscription-bundle imagery; label fidelity; ingredient styling; compliant lifestyle context; no invented health outcomes. | First create and publish a six-to-eight-image supplement workspace plus reusable template. The current public Beauty work can inform the art-direction pattern, but should not be presented as vitamin proof. |
+| Done | **Jewelry Photography Prompts: Rings, Necklaces and Earrings** | Focused prompt library | Product-only macro, hand, neck/ear crop and lifestyle prompts organized by product class. | Uses the [jewelry workspace](https://www.astria.ai/w/jewelry-product-photography) plus [ring](https://www.astria.ai/p/jewelry-ring), [necklace](https://www.astria.ai/p/jewelry-necklace) and [earrings](https://www.astria.ai/p/earrings). |
+| Done with disclosure | **Vitamin and Supplement Photography Prompts for E-commerce** | Prompt-and-QA framework | Bottle, sachet, gummy, capsule and subscription-bundle imagery; label fidelity; ingredient styling; no invented health outcomes. | No supplement-specific public proof was found. The page labels [Beauty](https://www.astria.ai/w/beauty) as adjacent evidence only and requires product-specific validation. |
 
 ## Editorial prompt library
 
@@ -221,7 +224,7 @@ After each new page is indexed, compare equivalent 28-day windows in Search Cons
 - template starts or generation events where analytics can attribute them;
 - assisted visits from prompt articles into the existing production guides.
 
-Expand to Phase 2 if at least one pilot page reaches positions 11–30, earns meaningful prompt-query impressions, or generates attributable template activity. Rewrite titles/descriptions if impressions arrive with negligible CTR. Merge or redirect if prompt and existing-guide URLs compete for the same query set. Keep the vertical backlog paused if the pilot has no impressions six weeks after confirmed indexation.
+The September 7 authorization supersedes the original Phase 2 measurement gate for the five requested vertical pages. Rewrite titles/descriptions if impressions arrive with negligible CTR. Merge or redirect if prompt and existing-guide URLs compete for the same query set. Swimwear remains optional rather than becoming an eighth prompt article automatically.
 
 ## Editorial QA and governance
 
@@ -234,14 +237,12 @@ Expand to Phase 2 if at least one pilot page reaches positions 11–30, earns me
 - For vitamins and beauty, do not invent efficacy, clinical, ingredient, certification or regulatory claims.
 - For wedding dresses, distinguish designer lookbook production from consumer bridal portraits.
 - Use licensed or brand-authorized products and talent; a public example is evidence of a workflow, not permission to reuse a third party's identity or design.
-- Add new published pages to `CONTENT-LEDGER.md` only when publication is approved, with prompt/template availability marked as a volatile feature claim.
+- Keep every implemented or published prompt page in `CONTENT-LEDGER.md`, with prompt/template availability marked as a volatile feature claim.
 
 ## Immediate production checklist
 
-1. Run the October 4 content review or explicitly lift the pause for this pilot.
-2. Confirm Search Console query evidence for `fashion prompts`, `product photography prompts`, `lookbook prompts`, `jewelry prompts`, `beauty product prompts`, `wedding dress prompts` and `vitamin product prompts`.
-3. Draft the fashion pillar and ecommerce guide from the normalized library above.
-4. Add the bounded lookbook and jewelry sections to their existing pages.
-5. Recheck all public links and capture article-owned screenshots or output images with provenance.
-6. Publish the Phase 1 set sequentially, not all on one day, and start the 28-day measurement window after indexation.
-7. Commission the vitamin proof workspace before scheduling the vitamin article.
+1. Recheck all public links immediately before deployment.
+2. Publish the seven-page prompt cluster using the staggered editorial dates already assigned.
+3. Start one 28-day measurement window after indexation and watch query overlap with the established lookbook and jewelry guides.
+4. Commission a supplement-specific public workspace; replace the adjacent Beauty example when a verified prompt/result pair is available.
+5. Keep swimwear separate unless query and template activity justify its own page.

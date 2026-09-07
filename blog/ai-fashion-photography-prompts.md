@@ -310,6 +310,16 @@ CHARACTER: [light, contrast, texture, editorial mood]
 
 The worksheet is intentionally plain. Specific nouns and physical relationships do more work than a pile of style adjectives.
 
+## Vertical prompt libraries
+
+Use the broad recipes above when planning a mixed campaign. Use the dedicated libraries when the product class changes what must be preserved and reviewed:
+
+- [AI Lookbook Prompts](./ai-lookbook-prompts.md) — eight frames organized as an opener-to-closer sequence.
+- [Beauty Product Photography Prompts](./beauty-product-photography-prompts.md) — packaging, formula texture, hands, routine and campaign coverage.
+- [Jewelry Photography Prompts](./jewelry-photography-prompts.md) — rings, necklaces and earrings with geometry and scale checks.
+- [Wedding Dress Photography Prompts](./wedding-dress-photography-prompts.md) — front, back, train, construction detail and restrained movement.
+- [Vitamin and Supplement Photography Prompts](./vitamin-supplement-photography-prompts.md) — labels, closures, product form, ingredients and bundles with an explicit compliance review gate.
+
 ## Frequently asked questions
 
 ### How do you write a good AI fashion photography prompt?
