@@ -2,7 +2,7 @@
 title: "How We Benchmark AI Image Models for Fashion and Product Work"
 description: "The prompts, references, selection rule, costs, limitations, and disclosure behind Astria's 2026 fashion image-model comparison."
 slug: how-we-benchmark-ai-image-models
-date: 2026-09-06
+date: 2026-09-05
 hide_table_of_contents: false
 image: /img/covers/how-we-benchmark-ai-image-models.webp
 authors: [astria]

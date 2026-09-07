@@ -2,7 +2,7 @@
 title: "Which AI Image Model Should You Use in Astria? (2026 Guide)"
 description: "Choose the right Astria image model for fashion, beauty, text, swimwear, jewelry, and reference-heavy work, based on a controlled 131-image comparison."
 slug: astria-image-models
-date: 2026-09-06
+date: 2026-09-07
 hide_table_of_contents: false
 image: /img/covers/astria-image-models.webp
 authors: [astria]
