@@ -143,6 +143,7 @@
 <p>Name the visible construction details that matter, such as neckline, sleeve length, closures, seams, hem, print placement, and fabric behavior. Use clear front, back, and detail references, then review each output against them before publishing.</p>
 <h3 class="anchor anchorTargetStickyNavbar_wxMe" id="can-the-same-prompt-work-for-catalog-and-campaign-images">Can the same prompt work for catalog and campaign images?<a href="https://www.astria.ai/articles/ai-fashion-photography-prompts/#can-the-same-prompt-work-for-catalog-and-campaign-images" class="hash-link" aria-label="Direct link to Can the same prompt work for catalog and campaign images?" title="Direct link to Can the same prompt work for catalog and campaign images?" translate="no">​</a></h3>
 <p>Not well. Catalog prompts prioritize coverage, clean backgrounds, legible construction, and repeatable framing. Campaign prompts can prioritize gesture, atmosphere, cropping, and narrative, but they still need an explicit product-preservation clause.</p>]]></content:encoded>
+            <category>Prompts</category>
             <category>Guides</category>
         </item>
         <item>
@@ -294,6 +295,7 @@
 <p>Specify a seamless pure-white background, clean product edges, neutral color balance, a restrained contact shadow, no horizon line, no props, and the required crop. Verify the exported pixels and marketplace requirements separately.</p>
 <h3 class="anchor anchorTargetStickyNavbar_wxMe" id="how-many-prompts-does-one-ecommerce-product-need">How many prompts does one ecommerce product need?<a href="https://www.astria.ai/articles/ecommerce-product-photography-prompts/#how-many-prompts-does-one-ecommerce-product-need" class="hash-link" aria-label="Direct link to How many prompts does one ecommerce product need?" title="Direct link to How many prompts does one ecommerce product need?" translate="no">​</a></h3>
 <p>Build prompts around the media slots the page needs: usually a hero, alternate angle, back or side view, construction detail, scale or use context, and one or more campaign crops. The exact count depends on product complexity and channel requirements.</p>]]></content:encoded>
+            <category>Prompts</category>
             <category>Guides</category>
         </item>
         <item>

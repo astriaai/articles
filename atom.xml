@@ -146,6 +146,7 @@
             <name>Astria Team</name>
             <uri>https://www.astria.ai/</uri>
         </author>
+        <category label="Prompts" term="Prompts"/>
         <category label="Guides" term="Guides"/>
     </entry>
     <entry>
@@ -301,6 +302,7 @@
             <name>Astria Team</name>
             <uri>https://www.astria.ai/</uri>
         </author>
+        <category label="Prompts" term="Prompts"/>
         <category label="Guides" term="Guides"/>
     </entry>
     <entry>
