@@ -6,7 +6,7 @@ date: 2026-09-06
 hide_table_of_contents: true
 image: /img/covers/ecommerce-product-photography-prompts.jpg
 authors: [astria]
-tags: [guides]
+tags: [prompts, guides]
 keywords:
   - ecommerce product photography prompts
   - AI product photography prompts

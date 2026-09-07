@@ -7,6 +7,7 @@ export type BlogCategory = {
 
 export const blogCategories: BlogCategory[] = [
   {label: 'All articles', to: '/'},
+  {label: 'Prompts', to: '/tags/prompts/'},
   {label: 'Comparisons', to: '/tags/comparisons/'},
   {label: 'Guides', to: '/tags/guides/'},
   {label: 'Economics', to: '/tags/economics/'},

@@ -6,7 +6,7 @@ date: 2026-09-06
 hide_table_of_contents: true
 image: /img/covers/ai-fashion-photography-prompts.jpg
 authors: [astria]
-tags: [guides]
+tags: [prompts, guides]
 keywords:
   - AI fashion photography prompts
   - fashion AI prompts
