@@ -92,4 +92,4 @@ Veo 3.1 Lite accepts fixed 4, 6, or 8-second durations. Its comparison prompt is
 
 ## What comes before a winner
 
-The full benchmark still needs three outputs per finalist, randomized labels, and at least three reviewers. Review should score action order, reference assignment, identity, garment silhouette, shoes and gait, camera behavior, temporal defects, usable-output rate, latency, and cost per approved second. Until that review is complete, this page remains a draft.
+The full benchmark still needs three outputs per finalist, randomized labels, and at least three reviewers. Review should score action order, reference assignment, identity, garment silhouette, shoes and gait, camera behavior, temporal defects, usable-output rate, latency, and cost per approved second. Until that review is complete, treat this page as a published calibration rather than a final ranking.
