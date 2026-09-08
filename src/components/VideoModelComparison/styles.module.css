@@ -1,0 +1,82 @@
+.comparison {
+  --comparison-ink: #17251f;
+  --comparison-accent: #b9512f;
+  margin: 2.5rem 0;
+  padding: clamp(1rem, 3vw, 2rem);
+  color: var(--comparison-ink);
+  background: linear-gradient(145deg, #f4efe6, #e9e1d4);
+  border: 1px solid rgba(23, 37, 31, 0.13);
+  border-radius: 1.25rem;
+}
+
+.header {
+  max-width: 48rem;
+  margin-bottom: 1.25rem;
+}
+
+.header h2 {
+  margin: 0.15rem 0 0.45rem;
+  color: var(--comparison-ink);
+}
+
+.header p {
+  margin: 0;
+}
+
+.eyebrow {
+  color: var(--comparison-accent);
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(13rem, 100%), 1fr));
+  gap: 0.85rem;
+}
+
+.card {
+  overflow: hidden;
+  margin: 0;
+  background: #fcfaf6;
+  border: 1px solid rgba(23, 37, 31, 0.14);
+  border-radius: 0.85rem;
+}
+
+.card video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #111;
+}
+
+.card figcaption {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.75rem;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.card figcaption span {
+  color: rgba(23, 37, 31, 0.7);
+}
+
+.card figcaption a {
+  width: fit-content;
+  color: var(--comparison-accent);
+  font-weight: 650;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .card figcaption {
+    font-size: 0.75rem;
+  }
+}

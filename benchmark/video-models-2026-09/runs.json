@@ -1,0 +1,114 @@
+{
+  "benchmark": "video-models-2026-09",
+  "status": "calibration_unjudged",
+  "captured_at": "2026-09-08",
+  "track": "approved_still_to_video_picture_only",
+  "requested": {
+    "duration_seconds": 6,
+    "aspect_ratio": "9:16",
+    "num_outputs": 1,
+    "generate_audio": false,
+    "prompt": "Locked full-body fashion shot. The adult model takes one controlled step forward, stops, then turns her shoulders slightly toward camera. The camera makes a very slow straight push-in. Her hair and the jacket hem move slightly in a light indoor draft. Preserve the exact face, short dark wavy hair, burnt-orange jacket color, four teal crane motifs, four brass buttons, pointed collar, scalloped hem, black trousers, black shoes, pale-stone gallery, framing, and lighting. No speech, text, logos, additional people, garment changes, camera orbit, crop below shoes, or exaggerated motion."
+  },
+  "source": {
+    "origin_prompt_id": 46575268,
+    "origin_prompt_url": "https://www.astria.ai/prompts/46575268",
+    "description": "Adult synthetic fashion benchmark frame, centered on a 1080x1920 pale canvas without cropping",
+    "webp": {
+      "path": "assets/source-fashion-walk-9x16.webp",
+      "sha256": "b56d97b84c76dd480b09f7f40bfbbd0054c136ac6c9ad5f2d56bf8e23242fa96"
+    },
+    "png": {
+      "path": "assets/source-fashion-walk-9x16.png",
+      "sha256": "52c2157a863e967097960e82226f3ef77055fa9eae2bda010d632e01458b227d"
+    }
+  },
+  "runs": [
+    {
+      "model_label": "Wan 3.0",
+      "video_model": "wan30_720p",
+      "prompt_id": 46607630,
+      "status": "succeeded",
+      "cost_mc": 66000,
+      "created_at": "2026-09-08T13:22:03.478Z",
+      "completed_at": "2026-09-08T13:24:20.875Z",
+      "latency_seconds": 137.397,
+      "output": {"path": "../../static/video/model-benchmarks/2026-09/wan-3-0-720p-fashion-walk.mp4", "sha256": "8b296aa82569c4c7b34a09abc65814b82e7915637592e5ecd5558ccb12b86213", "width": 720, "height": 1280, "fps": 30, "duration_seconds": 6.0, "audio_stream": false}
+    },
+    {
+      "model_label": "MiniMax H3 Max",
+      "video_model": "minimax_h3_max_768p",
+      "prompt_id": 46607729,
+      "status": "succeeded",
+      "cost_mc": 53000,
+      "created_at": "2026-09-08T13:25:59.172Z",
+      "completed_at": "2026-09-08T13:26:07.900Z",
+      "latency_seconds": 8.728,
+      "output": {"path": "../../static/video/model-benchmarks/2026-09/minimax-h3-max-768p-fashion-walk.mp4", "sha256": "d9f0a9bc1047e85a96ff1c1800c2ef608d879d43627077d5b70bc69aa7c94e9c", "width": 768, "height": 1344, "fps": 24, "duration_seconds": 6.592, "audio_stream": true}
+    },
+    {
+      "model_label": "Kling 3.0 Standard",
+      "video_model": "kling30_standard",
+      "prompt_id": 46607728,
+      "status": "succeeded",
+      "cost_mc": 110000,
+      "created_at": "2026-09-08T13:25:58.966Z",
+      "completed_at": "2026-09-08T13:27:18.435Z",
+      "latency_seconds": 79.469,
+      "output": {"path": "../../static/video/model-benchmarks/2026-09/kling-3-0-standard-fashion-walk.mp4", "sha256": "39e09bcbf85d632504fd24a2a77238dcc5234bf9fec81885c9cb54e40e11601a", "width": 720, "height": 1280, "fps": 24, "duration_seconds": 6.042, "audio_stream": false}
+    },
+    {
+      "model_label": "FLUX 3 Video",
+      "video_model": "flux3_720p",
+      "prompt_id": 46607730,
+      "status": "succeeded",
+      "cost_mc": 122000,
+      "created_at": "2026-09-08T13:25:59.500Z",
+      "completed_at": "2026-09-08T13:28:07.588Z",
+      "latency_seconds": 128.088,
+      "output": {"path": "../../static/video/model-benchmarks/2026-09/flux-3-720p-fashion-walk.mp4", "sha256": "3730097b5b49a26647b5130d720532474dd15aef61951fcdd2e17b8fffc75450", "width": 704, "height": 1280, "fps": 24, "duration_seconds": 6.042, "audio_stream": false}
+    },
+    {
+      "model_label": "Seedance 2 Fast",
+      "video_model": "seedance2_fast_720p",
+      "operational_role": "Astria default video model at capture time",
+      "prompt_id": 46608567,
+      "status": "succeeded",
+      "cost_mc": 132000,
+      "created_at": "2026-09-08T14:00:05.855Z",
+      "completed_at": "2026-09-08T14:02:21.701Z",
+      "latency_seconds": 135.846,
+      "output": {"path": "../../static/video/model-benchmarks/2026-09/seedance-2-fast-720p-fashion-walk.mp4", "sha256": "c438629a99e59af07f2b148e8cfeac5f5ed31887f8075c907df417e785cc4338", "width": 720, "height": 1280, "fps": 24, "duration_seconds": 6.042, "audio_stream": false}
+    },
+    {
+      "model_label": "Seedance 2.5",
+      "video_model": "seedance25_720p",
+      "prompt_id": 46608568,
+      "status": "succeeded",
+      "cost_mc": 238000,
+      "created_at": "2026-09-08T14:00:06.627Z",
+      "completed_at": "2026-09-08T14:07:36.042Z",
+      "latency_seconds": 449.415,
+      "output": {"path": "../../static/video/model-benchmarks/2026-09/seedance-2-5-720p-fashion-walk.mp4", "sha256": "1184937e81225f76e1fc69fe299c0f90d169732d32b4cf4a910925f99699c6ad", "width": 720, "height": 1280, "fps": 24, "duration_seconds": 6.042, "audio_stream": false}
+    },
+    {
+      "model_label": "Veo 3.1 Lite",
+      "video_model": "veo31_lite_720p",
+      "prompt_id": 46607731,
+      "status": "failed",
+      "cost_mc": 0,
+      "source_encoding": "webp",
+      "error": "Unsupported image format. Expected JPEG or PNG."
+    },
+    {
+      "model_label": "Veo 3.1 Lite",
+      "video_model": "veo31_lite_720p",
+      "prompt_id": 46607787,
+      "status": "blocked",
+      "cost_mc": 0,
+      "source_encoding": "png",
+      "prompt_difference": "One extra ASCII space after the first sentence to prevent failed-job cache reuse",
+      "error": "1 videos were filtered out because they violated Vertex AI's usage guidelines. Support code: 15236754"
+    }
+  ]
+}

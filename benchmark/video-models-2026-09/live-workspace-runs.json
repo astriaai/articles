@@ -1,0 +1,118 @@
+{
+  "benchmark": "live-workspace-reference-runway-2026-09-08",
+  "status": "unjudged_calibration",
+  "captured_at": "2026-09-08",
+  "source": {
+    "workspace_id": 602,
+    "workspace_slug": "live",
+    "prompt_id": 46434600,
+    "still_model": "nano-banana-2",
+    "references": [
+      {"id": 3908227, "name": "woman", "title": "Elara"},
+      {"id": 5198108, "name": "dress", "title": "Navy pinstriped sleeveless midi dress"},
+      {"id": 5176212, "name": "sandals", "title": "Gold rhinestone strapped brown flat sandals"},
+      {"id": 5191564, "name": "background", "title": "Concrete-gray studio background"}
+    ]
+  },
+  "request": {
+    "duration_seconds": 9,
+    "aspect_ratio": "16:9",
+    "num_images": 1,
+    "reference_block": "<faceid:3908227:1> woman\nelegant posture, high-fashion runway silhouette woman wearing <faceid:5198108:1> dress\n<faceid:5176212:1> sandals, full body view with much headroom\n\n<faceid:5191564:1> background background, concrete grey floor",
+    "motion_block": "0s-2s: Fast walking into the frame from the left with a continuous, fluid, and confident stride. Full body view with plenty of headroom.\n2s-4s: She smoothly comes to a complete stop while facing forward. She naturally places one hand on her hip and holds the pose briefly with confident posture.\n4s-9s: She lowers her hand, resumes walking with the same fluid, confident stride, walks directly toward and past the camera, and completely exits the frame.\nStatic camera, continuous motion, no cuts, seamless transitions.",
+    "video_prompt": "<faceid:3908227:1> woman\nelegant posture, high-fashion runway silhouette woman wearing <faceid:5198108:1> dress\n<faceid:5176212:1> sandals, full body view with much headroom\n\n<faceid:5191564:1> background background, concrete grey floor\n\n\n0s-2s: Fast walking into the frame from the left with a continuous, fluid, and confident stride. Full body view with plenty of headroom.\n2s-4s: She smoothly comes to a complete stop while facing forward. She naturally places one hand on her hip and holds the pose briefly with confident posture.\n4s-9s: She lowers her hand, resumes walking with the same fluid, confident stride, walks directly toward and past the camera, and completely exits the frame.\nStatic camera, continuous motion, no cuts, seamless transitions."
+  },
+  "runs": [
+    {
+      "label": "Seedance 2 Fast",
+      "model": "seedance2_fast_720p",
+      "prompt_id": 46608981,
+      "cost_mc": 231000,
+      "created_at": "2026-09-08T14:26:14.663Z",
+      "trained_at": "2026-09-08T14:30:29.406Z",
+      "submit_to_result_seconds": 254.743,
+      "video": {"path": "static/video/model-benchmarks/2026-09/live-workspace/seedance-2-fast-720p-live-runway.mp4", "duration_seconds": 9.041667, "width": 1280, "height": 720, "fps": 24, "audio": false, "sha256": "412e14acc6acdbaa9054ee2f24931acbd87bda08cf0028eb203916ba26e7ada1"},
+      "poster": {"path": "static/video/model-benchmarks/2026-09/live-workspace/seedance-2-fast-first-frame.jpg", "sha256": "e65fcbfedc0053ccecf473635fa8e8faa9e9dee021e1dae8c18c7ad530d543ca"}
+    },
+    {
+      "label": "Seedance 2.5",
+      "model": "seedance25_720p",
+      "prompt_id": 46608977,
+      "cost_mc": 389000,
+      "created_at": "2026-09-08T14:26:09.021Z",
+      "trained_at": "2026-09-08T14:34:03.727Z",
+      "submit_to_result_seconds": 474.706,
+      "video": {"path": "static/video/model-benchmarks/2026-09/live-workspace/seedance-2-5-720p-live-runway.mp4", "duration_seconds": 9.041667, "width": 1280, "height": 720, "fps": 24, "audio": false, "sha256": "774e7ba5af15c4a593d39401ff6ec2022825d6d727e5d86e79a81eda0d8fb317"},
+      "poster": {"path": "static/video/model-benchmarks/2026-09/live-workspace/seedance-2-5-first-frame.jpg", "sha256": "6810688a6af10f5e4a5e62fa1e25c550b577227dc055d717cc60ab58786f6445"}
+    },
+    {
+      "label": "Wan 3.0",
+      "model": "wan30_720p",
+      "prompt_id": 46608979,
+      "cost_mc": 132000,
+      "created_at": "2026-09-08T14:26:11.402Z",
+      "trained_at": "2026-09-08T14:31:38.527Z",
+      "submit_to_result_seconds": 327.125,
+      "video": {"path": "static/video/model-benchmarks/2026-09/live-workspace/wan-3-0-720p-live-runway.mp4", "duration_seconds": 9, "width": 1280, "height": 720, "fps": 30, "audio": false, "sha256": "01c21599dac3a72a3e34a5a58ad395916925ad71541d5dce6c89efdc6961a81b"},
+      "poster": {"path": "static/video/model-benchmarks/2026-09/live-workspace/wan-3-0-first-frame.jpg", "sha256": "2cd7bd9abcb38d08972b7430cf9372cc06d11b55c3e46571c1692950d5ee2c6f"}
+    },
+    {
+      "label": "MiniMax H3 Max",
+      "model": "minimax_h3_max_768p",
+      "prompt_id": 46608978,
+      "cost_mc": 112000,
+      "created_at": "2026-09-08T14:26:11.172Z",
+      "trained_at": "2026-09-08T14:26:55.211Z",
+      "submit_to_result_seconds": 44.039,
+      "video": {"path": "static/video/model-benchmarks/2026-09/live-workspace/minimax-h3-max-768p-live-runway.mp4", "duration_seconds": 9.44, "width": 1344, "height": 768, "fps": 24, "audio": true, "audio_codec": "aac", "sha256": "eb7730c2efe7714a0fd5b85f5d2ccc821e53ababd7374261a9f94c9a755baf2f"},
+      "poster": {"path": "static/video/model-benchmarks/2026-09/live-workspace/h3-max-first-frame.jpg", "sha256": "7624045a3094393e8f028d3f9065a9b1680b9be912e13fd9e20d6fe02b6abfbe"}
+    },
+    {
+      "label": "Kling 3.0 Standard",
+      "model": "kling30_standard",
+      "prompt_id": 46609258,
+      "cost_mc": 199000,
+      "created_at": "2026-09-08T14:48:29.954Z",
+      "trained_at": "2026-09-08T14:52:11.620Z",
+      "submit_to_result_seconds": 221.666,
+      "prompt_variant": {
+        "reason": "Astria treats blank paragraphs as Kling multi-shot separators; the formatted exact prompt triggered a per-shot 512-character validation error.",
+        "character_count": 480,
+        "video_prompt": "<faceid:3908227:1> woman\nelegant posture, high-fashion runway silhouette woman wearing <faceid:5198108:1> dress\n<faceid:5176212:1> sandals, full body view with much headroom\n<faceid:5191564:1> background background, concrete grey floor\n0-2s: Walk quickly in from left, fluid and confident, full body with headroom.\n2-4s: Stop facing front; place one hand on hip and hold.\n4-9s: Lower hand, walk toward and past camera, then fully exit.\nStatic camera; one continuous shot; no cuts."
+      },
+      "video": {"path": "static/video/model-benchmarks/2026-09/live-workspace/kling-3-0-standard-live-runway.mp4", "duration_seconds": 9.041667, "width": 1284, "height": 716, "fps": 24, "audio": false, "sha256": "e278844c2978dae1d3254e84a4c96a3add08072c253b482e952ea2692d156212"},
+      "poster": {"path": "static/video/model-benchmarks/2026-09/live-workspace/kling-3-0-standard-first-frame.jpg", "sha256": "a51c6dbf3fe6c325bec13d24440fe10aee227e183dbb9ca13adec25ff482bf48"}
+    },
+    {
+      "label": "FLUX 3 Video",
+      "model": "flux3_720p",
+      "prompt_id": 46608980,
+      "cost_mc": 217000,
+      "created_at": "2026-09-08T14:26:11.551Z",
+      "trained_at": "2026-09-08T14:29:40.982Z",
+      "submit_to_result_seconds": 209.431,
+      "video": {"path": "static/video/model-benchmarks/2026-09/live-workspace/flux-3-720p-live-runway.mp4", "duration_seconds": 9.041667, "width": 1280, "height": 704, "fps": 24, "audio": false, "sha256": "ed62e8475fc70c63cd3363c29f73660bbff1e3a048bfddd577ddbb37b0a1ef46"},
+      "poster": {"path": "static/video/model-benchmarks/2026-09/live-workspace/flux-3-first-frame.jpg", "sha256": "0c17a91f63d84a531d910a580d55ca2adbbce1057ec06a401443aff3df2cd3a9"}
+    },
+    {
+      "label": "Veo 3.1 Lite",
+      "model": "veo31_lite_720p",
+      "prompt_id": 46609256,
+      "cost_mc": 77000,
+      "created_at": "2026-09-08T14:48:27.554Z",
+      "trained_at": "2026-09-08T14:50:00.422Z",
+      "submit_to_result_seconds": 92.868,
+      "prompt_variant": {
+        "reason": "Veo supports fixed 4, 6, or 8-second durations rather than the source brief's 9 seconds.",
+        "duration_seconds": 8,
+        "change": "The final interval is 4s-8s instead of 4s-9s; all other prompt text is unchanged."
+      },
+      "video": {"path": "static/video/model-benchmarks/2026-09/live-workspace/veo-3-1-lite-720p-live-runway.mp4", "duration_seconds": 8, "width": 1280, "height": 720, "fps": 24, "audio": false, "sha256": "78ca0d752e37685787ee7f0a1856ea3e561d35599cd5d6d5847725abc74b7d43"},
+      "poster": {"path": "static/video/model-benchmarks/2026-09/live-workspace/veo-3-1-lite-first-frame.jpg", "sha256": "3af5a7844cfad33ace96b7a51ae499d0344b1a3bc06dcf1c4e2f93c8da6c7b3e"}
+    }
+  ],
+  "compatibility_findings": [
+    {"label": "Kling 3.0 Standard", "status": "resolved_with_disclosed_variant", "initial_error": "each multiprompt text must be 512 characters or less", "root_cause": "For Kling 3, Astria's is_video_multiprompt? returns true whenever video_prompt contains a blank line, so ordinary paragraph formatting is parsed as multiple shots."},
+    {"label": "Veo 3.1 Lite", "status": "resolved_with_disclosed_variant", "root_cause": "The endpoint supports fixed 4, 6, or 8-second durations; the comparison uses 8 seconds."}
+  ]
+}
