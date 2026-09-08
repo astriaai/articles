@@ -9,6 +9,12 @@ export type GuidePrompt = {
   why: string;
 };
 
+export type GuidePromptVisual = {
+  alt: string;
+  label?: string;
+  src: string;
+};
+
 export type FeatureGuide = {
   slug: string;
   eyebrow: string;
@@ -32,6 +38,7 @@ export type FeatureGuide = {
     text: string;
   }>;
   prompts: GuidePrompt[];
+  promptVisuals?: GuidePromptVisual[];
   modelNotes: Array<{
     model: string;
     use: string;
@@ -105,6 +112,11 @@ export const featureGuides: Record<(typeof guideOrder)[number], FeatureGuide> = 
       {label: 'Catalog look · 3:4', text: '<faceid:CHILD_MODEL_ID:1> girl, 8 years old, natural child proportions, wearing <faceid:SWEATSHIRT_ID:1> sweatshirt, <faceid:SKIRT_ID:1> skirt and <faceid:SHOES_ID:1> boots. Full-length front catalog photograph, relaxed shoulders, feet comfortably apart, soft curious expression. Pale warm-grey seamless studio, diffused daylight, true garment colors, realistic fabric drape. No makeup, no adult pose, no jewelry, no beauty retouching.', why: 'The reusable face and product references do the factual work. The text protects age, posture, light, and garment behavior.'},
       {label: 'Lookbook movement · 4:5', text: '<faceid:CHILD_MODEL_ID:1> boy, 11 years old, natural tween proportions, wearing <faceid:JACKET_ID:1> jacket and <faceid:TROUSERS_ID:1> trousers. He walks across a quiet painted schoolyard, caught mid-step while glancing toward a friend outside frame. Late-afternoon overcast light, 50mm documentary fashion photograph, fabric moving naturally, gentle film grain, playful but not performative. Keep the child’s face, age, body proportions and outfit exact.', why: 'A small action and an implied friend create life without forcing an adult fashion pose.'},
     ],
+    promptVisuals: [
+      {src: '/img/features/kids-casting-portrait.webp', alt: 'Synthetic child casting portrait on a white studio background'},
+      {src: '/img/features/kids-catalog-result.webp', alt: 'Child model wearing a complete referenced catalog outfit'},
+      {src: '/img/features/kids-lookbook-movement.webp', alt: 'Child model walking naturally through a painted schoolyard'},
+    ],
     modelNotes: [
       {model: 'Recraft 4.1', use: 'Fresh synthetic casting faces', note: 'Use it without a person reference for the first square portrait. Astria added Recraft V4.1 as a partner text-to-image model in May 2026.'},
       {model: 'Nano Banana / Gemini', use: 'Putting approved cast and products together', note: 'Use references for the face and each essential garment. Keep the reference stack lean; add accessories in a second pass if they compete.'},
@@ -165,6 +177,11 @@ export const featureGuides: Record<(typeof guideOrder)[number], FeatureGuide> = 
       {label: 'Body master · 3:4', text: '<faceid:MODEL_ID:1> woman, 34 years old, plus-size body with full hips, soft midsection, broad upper arms and naturally proportioned legs. Full-length neutral casting photograph, relaxed upright stance, arms resting comfortably at her sides. Wearing a simple fitted black T-shirt and straight black trousers. White seamless studio, level camera at waist height, soft even light. Preserve her exact face, body shape and proportions. No waist slimming, no elongated legs, no contouring pose, no beauty filter.', why: 'A neutral master makes the body decision visible before clothing, cropping and campaign light complicate it.'},
       {label: 'PDP garment view · 3:4', text: '<faceid:MODEL_ID:1> woman, preserve the exact approved face and plus-size body proportions from the model reference. Wearing <faceid:DRESS_ID:1> dress; keep neckline, sleeve opening, waist seam, print scale and hem length faithful to the product reference. Full-length front PDP photograph, comfortable natural stance, hands relaxed, pale grey seamless background #f5f5f5, large diffused softbox, true color, realistic fabric tension and drape. No body reshaping, no hidden arms, no pinched waist, no garment redesign.', why: 'It names the places where garment fidelity often fails and explicitly protects the approved body.'},
     ],
+    promptVisuals: [
+      {src: '/img/features/plus-size-casting-portrait.webp', alt: 'Synthetic adult plus-size fashion casting portrait on white'},
+      {src: '/img/features/plus-size-casting-master.webp', alt: 'Full-length neutral body master for a plus-size fashion model'},
+      {src: '/img/features/plus-size-pdp-example.webp', alt: 'Plus-size fashion model wearing a teal midi dress in a clean PDP photograph'},
+    ],
     modelNotes: [
       {model: 'Recraft 4.1', use: 'Original face casting', note: 'Strong for making the first synthetic casting sheet. Keep this pass face-led; body approval happens separately.'},
       {model: 'Nano Banana / Gemini', use: 'Face + body + garment composition', note: 'Use the approved face/body master and the product reference. A lean, well-labeled stack usually beats a pile of weak references.'},
@@ -217,6 +234,11 @@ export const featureGuides: Record<(typeof guideOrder)[number], FeatureGuide> = 
       {label: 'Editorial woman · Recraft 4.1 · 1:1', text: 'Close-up studio headshot of a fictional 42-year-old East Asian woman with light olive skin, monolid dark-brown eyes, a straight narrow nose, high cheekbones, a small scar through the right eyebrow, and black hair pulled into a low knot. Bare shoulders, no clothing visible, no jewelry. Quiet assured expression, looking at camera. Clean white background #fff, large north-facing soft light, natural realistic skin texture, casting photograph.', why: 'Age, structure and one imperfect detail create somebody specific enough to remember.'},
       {label: 'Characterful man · Recraft 4.1 · 1:1', text: 'Close-up studio headshot of a fictional 31-year-old Middle Eastern man with warm olive skin, close-set amber-brown eyes, a prominent aquiline nose, angular jaw, a faint dimple in the left cheek, and thick dark wavy hair brushed back. Bare shoulders, no jewelry. Open thoughtful expression, looking at camera. Clean white background #fff, soft clamshell studio light, natural pores and beard shadow, honest casting photograph.', why: 'The prompt avoids celebrity shorthand and builds the face from visible traits.'},
       {label: 'Production identity test · 4:5', text: '<faceid:MODEL_ID:1> woman in four consistent fashion moments: full-length standing, close portrait, seated three-quarter view, and walking mid-step. Same face, age, hair, body proportions and understated expression in every frame. Minimal black tailoring, white daylight studio, 50mm lens, natural skin and fabric. No face drift, no hairstyle change, no body reshaping.', why: 'The four-distance test exposes drift before the model is attached to a hundred products.'},
+    ],
+    promptVisuals: [
+      {src: '/img/model-benchmarks/2026-09/identity-seedream-close.webp', alt: 'Close editorial fashion casting portrait from an Astria model benchmark'},
+      {src: '/img/model-benchmarks/2026-09/identity-gpt-close.webp', alt: 'Character-led studio fashion portrait from an Astria model benchmark'},
+      {src: '/img/model-benchmarks/2026-09/identity-nano-motion.webp', alt: 'Fashion model identity tested in a full-body movement frame'},
     ],
     modelNotes: [
       {model: 'Recraft 4.1', use: 'Casting without a reference', note: 'The Astria skill’s first choice for original face generation. It is a casting tool here, not the entire production pipeline.'},
