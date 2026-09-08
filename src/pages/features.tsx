@@ -167,7 +167,7 @@ export default function FeaturesPage(): ReactNode {
       description="Astria turns a brand's photographic language into a reusable AI production system for products, lookbooks, campaigns, social content, and video."
       title="One photographic language. A whole collection.">
       <Head>
-        <meta property="og:image" content="https://www.astria.ai/articles/img/prompt-recipes/fashion-catalog-result.webp" />
+        <meta property="og:image" content="https://www.astria.ai/articles/img/prompt-recipes/fashion-catalog-result.jpg" />
       </Head>
 
       <main className={styles.page}>
@@ -199,21 +199,21 @@ export default function FeaturesPage(): ReactNode {
               <Picture
                 alt="Fashion model wearing the products from the reference photographs"
                 eager
-                src="/img/prompt-recipes/fashion-catalog-result.webp"
+                src="/img/prompt-recipes/fashion-catalog-result.jpg"
               />
               <figcaption>The finished frame</figcaption>
             </figure>
             <div className={styles.referenceStrip}>
               <figure>
-                <Picture alt="Brown sweatshirt product reference" eager src="/img/prompt-recipes/fashion-shirt-reference.webp" />
+                <Picture alt="Brown sweatshirt product reference" eager src="/img/prompt-recipes/fashion-shirt-reference.jpg" />
                 <figcaption>Shirt</figcaption>
               </figure>
               <figure>
-                <Picture alt="Grey pleated skirt product reference" eager src="/img/prompt-recipes/fashion-skirt-reference.webp" />
+                <Picture alt="Grey pleated skirt product reference" eager src="/img/prompt-recipes/fashion-skirt-reference.jpg" />
                 <figcaption>Skirt</figcaption>
               </figure>
               <figure>
-                <Picture alt="Shoe product reference" eager src="/img/prompt-recipes/fashion-shoes-reference.webp" />
+                <Picture alt="Shoe product reference" eager src="/img/prompt-recipes/fashion-shoes-reference.jpg" />
                 <figcaption>Shoes</figcaption>
               </figure>
             </div>
@@ -276,23 +276,23 @@ export default function FeaturesPage(): ReactNode {
           </div>
           <div className={styles.collectionGrid}>
             <figure className={styles.collectionTall}>
-              <Picture alt="Fashion campaign image from an Astria workflow" src="/img/prompt-recipes/bridal-terrace-result.webp" />
+              <Picture alt="Fashion campaign image from an Astria workflow" src="/img/prompt-recipes/bridal-terrace-result.jpg" />
               <figcaption><b>Campaign</b><span>Give the collection somewhere to live.</span></figcaption>
             </figure>
             <figure>
-              <Picture alt="Generated fashion catalog image" src="/img/prompt-recipes/fashion-catalog-result.webp" />
+              <Picture alt="Generated fashion catalog image" src="/img/prompt-recipes/fashion-catalog-result.jpg" />
               <figcaption><b>Lookbook</b><span>Keep the cast and treatment across the sequence.</span></figcaption>
             </figure>
             <figure>
-              <Picture alt="Generated volumetric dress packshot" src="/img/prompt-recipes/packshot-dress-result.webp" />
+              <Picture alt="Generated volumetric dress packshot" src="/img/prompt-recipes/packshot-dress-result.jpg" />
               <figcaption><b>Product page</b><span>Make the product easy to inspect.</span></figcaption>
             </figure>
             <figure>
-              <Picture alt="Generated jewelry macro photograph" src="/img/prompt-recipes/jewelry-ring-result.webp" />
+              <Picture alt="Generated jewelry macro photograph" src="/img/prompt-recipes/jewelry-ring-result.jpg" />
               <figcaption><b>Detail</b><span>Bring the eye close without losing the object.</span></figcaption>
             </figure>
             <figure>
-              <Picture alt="Generated beauty campaign still life" src="/img/prompt-recipes/beauty-still-life-result.webp" />
+              <Picture alt="Generated beauty campaign still life" src="/img/prompt-recipes/beauty-still-life-result.jpg" />
               <figcaption><b>Social and launch</b><span>Branch the art direction into new formats.</span></figcaption>
             </figure>
           </div>
@@ -312,8 +312,8 @@ export default function FeaturesPage(): ReactNode {
           <div className={styles.proofRows}>
             <article>
               <div className={styles.proofImages}>
-                <Picture alt="Sweatshirt reference for America Basics" src="/img/prompt-recipes/fashion-shirt-reference.webp" />
-                <Picture alt="America Basics full-look result" src="/img/prompt-recipes/fashion-catalog-result.webp" />
+                <Picture alt="Sweatshirt reference for America Basics" src="/img/prompt-recipes/fashion-shirt-reference.jpg" />
+                <Picture alt="America Basics full-look result" src="/img/prompt-recipes/fashion-catalog-result.jpg" />
               </div>
               <div className={styles.proofCopy}>
                 <h3>America Basics</h3>
@@ -331,8 +331,8 @@ export default function FeaturesPage(): ReactNode {
 
             <article>
               <div className={styles.proofImages}>
-                <Picture alt="Dress product reference" src="/img/prompt-recipes/packshot-dress-reference.webp" />
-                <Picture alt="Generated dress packshot" src="/img/prompt-recipes/packshot-dress-result.webp" />
+                <Picture alt="Dress product reference" src="/img/prompt-recipes/packshot-dress-reference.jpg" />
+                <Picture alt="Generated dress packshot" src="/img/prompt-recipes/packshot-dress-result.jpg" />
               </div>
               <div className={styles.proofCopy}>
                 <h3>3D ghost packshots</h3>
@@ -351,8 +351,8 @@ export default function FeaturesPage(): ReactNode {
 
             <article>
               <div className={styles.proofImages}>
-                <Picture alt="Ring product reference" src="/img/prompt-recipes/jewelry-ring-reference.webp" />
-                <Picture alt="Generated ring macro" src="/img/prompt-recipes/jewelry-ring-result.webp" />
+                <Picture alt="Ring product reference" src="/img/prompt-recipes/jewelry-ring-reference.jpg" />
+                <Picture alt="Generated ring macro" src="/img/prompt-recipes/jewelry-ring-result.jpg" />
               </div>
               <div className={styles.proofCopy}>
                 <h3>Jewelry, close enough to count</h3>
@@ -390,7 +390,7 @@ export default function FeaturesPage(): ReactNode {
         </section>
 
         <section className={styles.finalCta}>
-          <Picture alt="Fashion model in a finished Astria campaign photograph" src="/img/prompt-recipes/fashion-catalog-result.webp" />
+          <Picture alt="Fashion model in a finished Astria campaign photograph" src="/img/prompt-recipes/fashion-catalog-result.jpg" />
           <div>
             <h2>Bring us one product. Leave with a way to photograph the next hundred.</h2>
             <p>
