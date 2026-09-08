@@ -7,6 +7,7 @@ import {
   guideOrder,
   type FeatureGuide as FeatureGuideData,
   type GuideLink,
+  type GuidePromptVisual,
 } from '../../features/guides';
 import styles from './styles.module.css';
 
@@ -19,7 +20,50 @@ function SmartLink({children, href}: {children: ReactNode; href: string}): React
   );
 }
 
-function PromptCard({label, text, why}: {label: string; text: string; why: string}): ReactNode {
+const fallbackPromptVisuals: Record<string, GuidePromptVisual[]> = {
+  'product-to-model': [
+    {src: '/img/prompt-recipes/fashion-catalog-result.jpg', alt: 'Clean full-length on-model catalog result'},
+    {src: '/img/model-benchmarks/2026-09/complex-nano-banana-2.webp', alt: 'Layered reference fashion result from an Astria model benchmark'},
+    {src: '/img/model-benchmarks/2026-09/identity-nano-motion.webp', alt: 'Full-length fashion model in motion'},
+  ],
+  'consistent-models': [
+    {src: '/img/model-benchmarks/2026-09/identity-nano-full.webp', alt: 'Full-length fashion model identity result'},
+    {src: '/img/model-benchmarks/2026-09/identity-nano-seated.webp', alt: 'Same fashion identity in a new seated scene'},
+    {src: '/img/model-benchmarks/2026-09/identity-nano-close.webp', alt: 'Close crop preserving the same fashion identity'},
+  ],
+  'lookbook-photos': [
+    {src: '/img/prompt-recipes/bridal-terrace-result.jpg', alt: 'Fashion lookbook location master on a limestone terrace'},
+    {src: '/img/model-benchmarks/2026-09/identity-nano-motion.webp', alt: 'Fashion model in a natural movement frame'},
+    {src: '/img/model-benchmarks/2026-09/identity-seedream-close.webp', alt: 'Quiet close detail in a fashion sequence'},
+  ],
+  'ecommerce-catalog': [
+    {src: '/img/prompt-recipes/packshot-dress-result.jpg', alt: 'Volumetric dress packshot result'},
+    {src: '/img/model-benchmarks/2026-09/general-gpt-image-2.webp', alt: 'Clean product photography result from an Astria model benchmark'},
+    {src: '/img/prompt-recipes/fashion-catalog-result.jpg', alt: 'Full-length on-model PDP catalog result'},
+  ],
+  'campaign-editorial': [
+    {src: '/img/prompt-recipes/bridal-terrace-result.jpg', alt: 'Fashion campaign hero in a coherent location'},
+    {src: '/img/prompt-recipes/beauty-still-life-result.jpg', alt: 'Beauty product campaign still-life result'},
+    {src: '/img/prompt-recipes/jewelry-ring-result.jpg', alt: 'Editorial jewelry macro result'},
+  ],
+  'product-video': [
+    {src: '/img/prompt-recipes/bridal-terrace-result.jpg', alt: 'Approved fashion first frame ready for motion', label: 'Approved first frame'},
+    {src: '/img/prompt-recipes/packshot-dress-result.jpg', alt: 'Approved product frame ready for turntable motion', label: 'Approved first frame'},
+    {src: '/img/prompt-recipes/beauty-still-life-result.jpg', alt: 'Approved beauty still ready for subtle campaign motion', label: 'Approved first frame'},
+  ],
+  'production-workspaces': [
+    {src: '/img/prompt-recipes/fashion-catalog-result.jpg', alt: 'Reusable on-model template result'},
+    {src: '/img/prompt-recipes/packshot-dress-result.jpg', alt: 'Reusable product pack result'},
+    {src: '/img/prompt-recipes/jewelry-ring-result.jpg', alt: 'Reviewed jewelry workflow result'},
+  ],
+};
+
+function PromptCard({label, text, visual, why}: {
+  label: string;
+  text: string;
+  visual: GuidePromptVisual;
+  why: string;
+}): ReactNode {
   const [copied, setCopied] = useState(false);
 
   async function copyPrompt(): Promise<void> {
@@ -30,6 +74,10 @@ function PromptCard({label, text, why}: {label: string; text: string; why: strin
 
   return (
     <article className={styles.promptCard}>
+      <figure className={styles.promptVisual}>
+        <img alt={visual.alt} decoding="async" loading="lazy" src={useBaseUrl(visual.src)} />
+        <figcaption>{visual.label ?? 'Example result'}</figcaption>
+      </figure>
       <div className={styles.promptTopline}>
         <span>{label}</span>
         <button onClick={copyPrompt} type="button">{copied ? 'Copied' : 'Copy prompt'}</button>
@@ -54,6 +102,10 @@ export default function FeatureGuide({guide}: {guide: FeatureGuideData}): ReactN
   const next = position < guideOrder.length - 1 ? featureGuides[guideOrder[position + 1]] : undefined;
   const heroSrc = useBaseUrl(guide.heroImage);
   const proofSrc = useBaseUrl(guide.proof.image);
+  const promptVisuals = guide.promptVisuals ?? fallbackPromptVisuals[guide.slug] ?? guide.prompts.map(() => ({
+    alt: guide.proof.imageAlt,
+    src: guide.proof.image,
+  }));
 
   return (
     <Layout description={guide.description} title={guide.title}>
@@ -127,7 +179,9 @@ export default function FeatureGuide({guide}: {guide: FeatureGuideData}): ReactN
             </div>
           </header>
           <div className={styles.promptGrid}>
-            {guide.prompts.map((prompt) => <PromptCard key={prompt.label} {...prompt} />)}
+            {guide.prompts.map((prompt, index) => (
+              <PromptCard key={prompt.label} visual={promptVisuals[index]} {...prompt} />
+            ))}
           </div>
         </section>
 
