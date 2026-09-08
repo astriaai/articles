@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkastria_docs_2||=[]).push([[9647],{1091(s,e,r){r.r(e),r.d(e,{default:()=>l});r(9001);var a=r(3422),c=r(2937),t=r(2350),u=r(1830),d=r(786),i=r(9549);function l(s){return(0,i.jsx)(t.e3,{className:(0,a.A)(c.G.wrapper.docsPages),children:(0,i.jsx)(d.A,{children:(0,u.v)(s.route.routes)})})}}}]);
