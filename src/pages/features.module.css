@@ -234,6 +234,89 @@
   font-weight: 600;
 }
 
+.guideDirectory {
+  display: grid;
+  gap: clamp(3rem, 8vw, 8rem);
+  grid-template-columns: minmax(280px, 0.68fr) minmax(0, 1fr);
+  margin: 0 auto;
+  max-width: 1320px;
+  padding: 8rem 2rem;
+}
+
+.guideDirectory header {
+  align-self: start;
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 2rem);
+}
+
+.guideDirectory h2 {
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2.7rem, 4.6vw, 4.9rem);
+  font-weight: 520;
+  letter-spacing: -0.045em;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.guideDirectory header > p:last-child {
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 36em;
+}
+
+.guideDirectory ol {
+  border-top: 2px solid var(--ink);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.guideDirectory li {
+  border-bottom: 1px solid var(--line);
+}
+
+.guideDirectory a {
+  align-items: start;
+  color: var(--ink) !important;
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: 40px 1fr 24px;
+  padding: 1.3rem 0;
+  text-decoration: none !important;
+}
+
+.guideDirectory a:hover h3 {
+  color: var(--blue-dark);
+}
+
+.guideDirectory a > span {
+  color: var(--safelight);
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1rem;
+}
+
+.guideDirectory a p {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 740;
+  margin-bottom: 0.35rem;
+}
+
+.guideDirectory a h3 {
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(1.3rem, 2vw, 1.75rem);
+  font-weight: 570;
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+  margin-bottom: 0;
+}
+
+.guideDirectory a b {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 .manifesto {
   border-bottom: 1px solid var(--line);
   border-top: 1px solid var(--line);
@@ -698,8 +781,13 @@
   .sectionHeader,
   .collectionHeading,
   .money,
-  .capabilities {
+  .capabilities,
+  .guideDirectory {
     grid-template-columns: 1fr;
+  }
+
+  .guideDirectory header {
+    position: static;
   }
 
   .collectionGrid {
@@ -755,6 +843,10 @@
     gap: 1.5rem;
     grid-template-columns: 1fr;
     padding: 4.5rem 1.25rem;
+  }
+
+  .guideDirectory {
+    padding: 5rem 1.25rem;
   }
 
   .brandProof {

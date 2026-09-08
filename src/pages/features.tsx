@@ -2,6 +2,7 @@ import React, {useMemo, useState, type ReactNode} from 'react';
 import Head from '@docusaurus/Head';
 import Layout from '@theme/Layout';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import {featureGuides, guideOrder} from '../features/guides';
 import styles from './features.module.css';
 
 type PictureProps = {
@@ -233,6 +234,35 @@ export default function FeaturesPage(): ReactNode {
             <li>Sacks</li>
             <li>Nine West</li>
           </ul>
+        </section>
+
+        <section className={styles.guideDirectory} aria-labelledby="guide-directory-title">
+          <header>
+            <p className={styles.kicker}>Ten practical guides</p>
+            <h2 id="guide-directory-title">Start with the photograph you need to make.</h2>
+            <p>
+              Not a dictionary of tiny SEO pages. Ten working guides—with prompts,
+              model choices, templates, proof, and the production decision that pays
+              for the next frame.
+            </p>
+          </header>
+          <ol>
+            {guideOrder.map((slug, index) => {
+              const guide = featureGuides[slug];
+              return (
+                <li key={slug}>
+                  <a href={`/articles/features/${slug}/`}>
+                    <span>{String(index + 1).padStart(2, '0')}</span>
+                    <div>
+                      <p>{guide.eyebrow}</p>
+                      <h3>{guide.title}</h3>
+                    </div>
+                    <b aria-hidden="true">↗</b>
+                  </a>
+                </li>
+              );
+            })}
+          </ol>
         </section>
 
         <section className={styles.manifesto} aria-labelledby="manifesto-title">
