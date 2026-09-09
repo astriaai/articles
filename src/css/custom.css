@@ -184,6 +184,12 @@ h4 {
     width: 100%;
   }
 
+  /* The sticky CTA replaces the standard article-outline rail. Without this,
+     Docusaurus wraps its TOC below the full-width article column. */
+  .blog-post-page main:has(.astria-article-cta) + .col {
+    display: none;
+  }
+
   .blog-post-page .markdown:has(> .astria-article-cta) {
     column-gap: 48px;
     display: grid;
@@ -210,7 +216,7 @@ h4 {
   }
 }
 
-/* Article images open in a focused, theme-aware lightbox. */
+/* Article images open in the custom zoom-and-pan viewer. */
 .markdown img:not([data-no-zoom]) {
   border-radius: 10px;
   cursor: zoom-in;
@@ -220,18 +226,6 @@ h4 {
 .markdown img:not([data-no-zoom]):hover {
   box-shadow: 0 12px 32px rgba(24, 24, 50, 0.18);
   filter: brightness(0.98);
-}
-
-.medium-zoom-overlay {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  z-index: 1000;
-}
-
-.medium-zoom-image--opened {
-  border-radius: 4px;
-  cursor: zoom-out;
-  z-index: 1001;
 }
 
 /* Labeled, fixed-order model comparisons used by the image benchmark series. */
@@ -249,6 +243,11 @@ h4 {
   margin: 0;
   min-width: 0;
   overflow: hidden;
+}
+
+.benchmark-card--single {
+  margin: 22px auto 30px;
+  max-width: 560px;
 }
 
 .benchmark-card img {
@@ -303,6 +302,10 @@ h4 {
 }
 
 @media (min-width: 760px) {
+  .benchmark-grid--three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .benchmark-grid--four {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
