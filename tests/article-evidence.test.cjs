@@ -52,3 +52,13 @@ test('every blog post uses the Astria CTA rail instead of an article outline', (
   assert.match(cta, /href="\/prompts"/);
   assert.match(cta, /href="\/gallery\/workspaces"/);
 });
+
+test('video comparisons stack one full-width player per row', () => {
+  const styles = fs.readFileSync(
+    path.join(root, 'src/components/VideoModelComparison/styles.module.css'),
+    'utf8',
+  );
+
+  assert.match(styles, /\.grid\s*\{[^}]*grid-template-columns: minmax\(0, 1fr\)/s);
+  assert.doesNotMatch(styles, /grid-template-columns: repeat\(2,/);
+});
