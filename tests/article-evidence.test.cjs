@@ -42,3 +42,13 @@ test('public evidence links stay on the Astria origin and internal guides stay i
   assert.ok(external.every(url => new URL(url).origin === 'https://www.astria.ai'));
   assert.ok(guides.every(url => /^\/articles\/[a-z0-9-]+$/.test(url)));
 });
+
+test('every blog post uses the Astria CTA rail instead of an article outline', () => {
+  const page = fs.readFileSync(path.join(root, 'src/theme/BlogPostPage/index.tsx'), 'utf8');
+  const cta = fs.readFileSync(path.join(root, 'src/components/ArticleCTA/index.tsx'), 'utf8');
+
+  assert.match(page, /<BlogLayout sidebar=\{sidebar\} toc=\{<ArticleCTA \/>\}>/);
+  assert.doesNotMatch(page, /@theme\/TOC|<TOC/);
+  assert.match(cta, /href="\/prompts"/);
+  assert.match(cta, /href="\/gallery\/workspaces"/);
+});

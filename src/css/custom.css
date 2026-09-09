@@ -70,7 +70,7 @@ h4 {
    margin-bottom: 0;
 }
 
-/* Conversion rail for comparison articles. */
+/* Conversion rail for every article. Tailored in-article CTAs override the default. */
 .astria-article-cta {
   background: #fbfbff;
   border: 1px solid #dedee8;
@@ -175,6 +175,23 @@ h4 {
   color: #202027;
 }
 
+@media (min-width: 997px) {
+  .blog-post-page main + .col.col--2 {
+    flex: 0 0 300px;
+    max-width: 300px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .blog-post-page main:not(:has(.markdown > .astria-article-cta)) {
+    flex: 1 1 0;
+    margin-left: 0;
+    max-width: none;
+    min-width: 0;
+    padding-right: 48px;
+  }
+}
+
 @media (min-width: 1180px) {
   .blog-post-page main:has(.astria-article-cta) {
     flex: 0 0 100%;
@@ -202,6 +219,12 @@ h4 {
     position: sticky;
     top: calc(var(--ifm-navbar-height) + 28px);
   }
+}
+
+/* Keep article-specific CTAs where they exist; never render two conversion rails. */
+.blog-post-page .row:has(main .markdown > .astria-article-cta)
+  > .col:has(> .astria-article-cta--default) {
+  display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
