@@ -89,8 +89,6 @@ DRESSX and Astria both put clothes on people with AI, and there the overlap ends
   </div>
 </aside>
 
-<ArticleEvidence profile="virtualTryOn" />
-
 ## How we evaluated Astria and DRESSX
 
 These products sit on opposite sides of the product page, so we evaluated them against one shared question: what does a brand need in order to publish and merchandise a season? That means asking who each product serves, what it produces, what it measures, and where the creative direction lives — while stating plainly where DRESSX's real value sits, which is at the point of purchase.

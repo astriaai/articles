@@ -39,7 +39,7 @@ export const faqSchema = {
       name: "How does FashionLab's pricing scale to a catalog?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Its entry plan covers one brand and one project with two seats, extra seats and projects are paid add-ons, and tokens run roughly $1.10–$1.20 each. A 60-SKU drop at four images each is a few hundred dollars in tokens before rework.",
+        text: "Check the current vendor pricing page for plan scope, collaborators, projects, and generation rates. Use https://www.astria.ai/pricing for Astria rates, then budget for the full collection including rework.",
       },
     },
     {
@@ -106,8 +106,8 @@ We used six B2B buying questions: how the brand gets to a repeatable result, whe
 | Category coverage | Apparel and editorial projects | Apparel, beauty, jewelry, footwear, sports, luxury, and editorial templates | **Astria** |
 | Natural-looking people | Professional retouching offered as a paid service | Face-inpainting and refinement layer inside the production workflow | **Astria** |
 | Motion | Not offered in the material reviewed | Multiple current video options animate approved stills in the same workflow | **Astria** |
-| Account structure | Entry plan covers one brand and one project; more are paid add-ons | Private brand workspaces without per-project gating | **Astria** |
-| Collaboration | Two seats included; extra seats billed monthly | Multiplayer canvas with named cursors and live voice over the actual looks | **Astria** |
+| Account structure | Brand and project access depends on plan | Private brand workspaces without per-project gating | **Astria** |
+| Collaboration | Collaborator access depends on plan | Multiplayer canvas with named cursors and live voice over the actual looks | **Astria** |
 | Collection scale | Batch generation metered in tokens per generation | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
 | Commercial model for brands | Base plan plus per-seat, per-project, and per-token charges | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Public proof | One named testimonial; "top Scandinavian brands" | Named fashion brands plus studios and photographers running client work | **Astria** |
@@ -125,7 +125,7 @@ Its casting options are broader than most small competitors: a free library of d
 
 The genuinely novel part is the Creative Marketplace. Brands can hire specialized talent for creative direction, prompting, retouching, and project management; creators can find paid projects from brands. A separate in-built professional retouching service handles polished finishing at scale. No other product in this comparison bundles a labour market with the software.
 
-The commercial structure needs care. The Basic plan is $20 a month and covers one brand and one project with two collaborator seats; extra seats are $20 a month each, four additional projects are $30 a month, and tokens are purchased separately at roughly $1.10–$1.20 each, with each generation consuming tokens according to resolution and complexity. Published proof is early: one named testimonial from a brand and marketing manager at Bruun Steengade, plus a reference to top Scandinavian brands.
+Check the vendor’s current pricing page for brand, project, seat, and token terms. Published proof is early: one named testimonial from a brand and marketing manager at Bruun Steengade, plus a reference to top Scandinavian brands.
 
 ## Astria: a professional fashion-production environment
 
@@ -143,7 +143,7 @@ Astria's public materials name fashion brands including Ronny Kobo, Nununu, Gant
 
 Consider a brand with three lines—womenswear, a kids range, and a small accessories capsule—producing roughly 200 SKUs a season.
 
-On FashionLab, the batch flow handles the womenswear and kids imagery well, and the kids use case is a real strength. Where the model shows its shape is in the account structure and the economics of expertise. Three lines against a plan built around one brand and one project means paid add-ons; a fourth collaborator means another $20 a month; and 200 SKUs at four images is 800 generations, which at roughly $1.10–$1.20 a token is a meaningful token bill before any rejected frame. If the brand does not have a strong prompt-fluent operator, the marketplace answer is to hire one—which works, and which means the brand's creative consistency is a contractor relationship rather than a stored asset.
+On FashionLab, the batch flow handles the womenswear and kids imagery well, and the kids use case is a real strength. Where the model shows its shape is in the account structure and the economics of expertise. Check the current pricing page for the brand, project, collaborator, and generation capacity required by the full collection, including rejected frames. If the brand does not have a strong prompt-fluent operator, the marketplace answer is to hire one—which works, and which means the brand's creative consistency is a contractor relationship rather than a stored asset.
 
 On Astria, each line gets a brand workspace, the treatment is approved once per line, and the 200 SKUs import from Shopify or Google Drive and run against it. The accessories capsule uses jewelry templates rather than being forced through an apparel flow. Motion for social comes from the same approved stills. When the brand hires an outside art director, that person works in the workspace and the direction stays after the invoice is paid.
 
@@ -171,11 +171,11 @@ We found no video capability in FashionLab's material reviewed. Astria animates 
 
 ### Account structure and collaboration — winner: Astria
 
-One brand, one project, and two seats on the entry plan, with paid add-ons for more of each, is a structure that charges for the shape of a real fashion business—multiple lines, several collaborators, a partner agency. Astria's brand workspaces and multiplayer Board with named cursors and live voice are built for that shape rather than metering it.
+Brand, project, and collaborator allowances can affect a business with multiple lines and an outside agency. Check [FashionLab pricing](https://fashionlab.tech/pricing) for current terms. Astria's brand workspaces and multiplayer Board with named cursors and live voice are built for that shape rather than metering it.
 
 ### Collection scale and commercial fit — winner: Astria
 
-Tokens at roughly $1.10–$1.20 per generation, stacked on a base plan plus per-seat and per-project charges, produce a bill that is difficult to forecast and grows with every rejected frame. Astria treats the collection as the unit of work and prices to usage—pay for what you create. This article makes no claim that Astria is cheaper; it observes that four separate charges are not a production budget. Model a full collection, including rework and all your lines, before comparing.
+Use the vendor’s current pricing page and [Astria pricing](https://www.astria.ai/pricing) to budget for the same collection. Include the required brands, collaborators, projects, output settings, and rework before comparing total production costs.
 
 ### Compounding production value — winner: Astria
 
@@ -218,7 +218,7 @@ Its creative marketplace. Brands can hire AI creative directors, prompt engineer
 
 ### How does FashionLab's pricing scale to a catalog?
 
-Its entry plan covers one brand and one project with two seats, extra seats and projects are paid add-ons, and tokens run roughly $1.10–$1.20 each. A 60-SKU drop at four images each is a few hundred dollars in tokens before rework.
+Check the current vendor pricing page for plan scope, collaborators, projects, and generation rates. Use [Astria pricing](https://www.astria.ai/pricing) for Astria rates, then budget for the full collection including rework.
 
 ### Do both handle kids and size-inclusive casting?
 

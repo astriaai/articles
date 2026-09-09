@@ -61,17 +61,17 @@ The four Live-workspace references are Elara (`woman`), the navy pinstriped slee
 
 ## What the endpoints returned
 
-| Model | Requested | Delivered | Cost (mc) | Submit-to-result |
-| --- | --- | --- | ---: | ---: |
-| Seedance 2 Fast | 9s, 16:9, 720p | 9.04s, 1280×720, 24fps, silent | 231,000 ($2.31) | 254.7s |
-| Seedance 2.5 | 9s, 16:9, 720p | 9.04s, 1280×720, 24fps, silent | 389,000 ($3.89) | 474.7s |
-| Wan 3.0 | 9s, 16:9, 720p | 9.00s, 1280×720, 30fps, silent | 132,000 ($1.32) | 327.1s |
-| MiniMax H3 Max | 9s, 16:9, 768p | 9.44s, 1344×768, 24fps, AAC track present | 112,000 ($1.12) | 44.0s |
-| Kling 3.0 Standard | 9s, 16:9, standard; 480-character variant | 9.04s, 1284×716, 24fps, silent | 199,000 ($1.99) | 221.7s |
-| FLUX 3 Video | 9s, 16:9, 720p | 9.04s, 1280×704, 24fps, silent | 217,000 ($2.17) | 209.4s |
-| Veo 3.1 Lite | 8s, 16:9, 720p; timing variant | 8.00s, 1280×720, 24fps, silent | 77,000 ($0.77) | 92.9s |
+| Model | Requested | Delivered | Submit-to-result |
+| --- | --- | --- | ---: |
+| Seedance 2 Fast | 9s, 16:9, 720p | 9.04s, 1280×720, 24fps, silent | 254.7s |
+| Seedance 2.5 | 9s, 16:9, 720p | 9.04s, 1280×720, 24fps, silent | 474.7s |
+| Wan 3.0 | 9s, 16:9, 720p | 9.00s, 1280×720, 30fps, silent | 327.1s |
+| MiniMax H3 Max | 9s, 16:9, 768p | 9.44s, 1344×768, 24fps, AAC track present | 44.0s |
+| Kling 3.0 Standard | 9s, 16:9, standard; 480-character variant | 9.04s, 1284×716, 24fps, silent | 221.7s |
+| FLUX 3 Video | 9s, 16:9, 720p | 9.04s, 1280×704, 24fps, silent | 209.4s |
+| Veo 3.1 Lite | 8s, 16:9, 720p; timing variant | 8.00s, 1280×720, 24fps, silent | 92.9s |
 
-MiniMax returned an AAC stream even though this comparison did not ask for generated audio. `cost_mc` is measured in millicents: 100,000 equals US$1.00. The players do not crop, stretch, upscale, or re-encode any output.
+MiniMax returned an AAC stream even though this comparison did not ask for generated audio. For current video generation rates, see [Astria pricing](https://www.astria.ai/pricing). The players do not crop, stretch, upscale, or re-encode any output.
 
 ## Disclosed Kling and Veo variants
 

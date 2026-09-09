@@ -89,8 +89,6 @@ Ecommerce teams talk about photoshoot budgets. Catalog operations run on a diffe
   </div>
 </aside>
 
-<ArticleEvidence profile="cost" />
-
 ## Calculate it properly
 
 Most teams compute cost per image, which flatters the number, or divide the photographer's invoice by the SKU count, which understates it badly. The honest formula:
@@ -111,22 +109,13 @@ Two denominators matter. Use **SKUs that shipped**, not SKUs photographed — th
 
 Run this once on your last production. Compare the invoice-only figure with the loaded figure to see which omitted costs matter in your workflow.
 
-## Worked example: per-image pricing versus cost per SKU
+## Calculate cost per SKU with current quotes
 
-This is an illustrative budget in USD, not a market rate or vendor quote. Assume 50 style-colourways are photographed, with four final images required for each.
+Assume 50 style-colourways need four final images each. That is 200 required images. Add photography, studio, styling, sample handling, retouching, internal review, and revisions using your own quotes. For AI generation rates, use [Astria pricing](https://www.astria.ai/pricing).
 
-| Cost line | Example amount |
-| --- | ---: |
-| Photography and studio | $2,400 |
-| Styling and sample handling | $600 |
-| Retouching | $800 |
-| Internal coordination, review, and upload | $900 |
-| Revisions and reshoots | $300 |
-| **Total loaded production cost** | **$5,000** |
+Divide the total by the number of complete, approved SKU sets. If only 40 sets ship, divide by 40 SKUs or 160 approved images. Rejected frames still consume budget, but do not count as deliverables.
 
-If all 50 sets are approved, the cost is **$100 per SKU** and **$25 per approved image** across 200 images. If only 40 complete sets ship for the same spend, it becomes **$125 per SKU** and **$31.25 per approved image** across 160 images. A folder of rejected frames does not improve either number.
-
-For a quote of $20 per finished image, four required images make an $80 image line per SKU *before* any separately billed setup, logistics, licensing, or internal work. Ask what is included before comparing it with an all-in per-product quote.
+For a per-image quote, multiply the quoted rate by the required views per SKU, then add any separately billed setup, logistics, licensing, and internal work.
 
 ## How to compare product photography quotes
 

@@ -138,7 +138,7 @@ Rawshot's public evidence is different in kind. The company publishes extensive 
 
 Consider a knitwear label with 24 styles, each in three colorways, needing PDP and detail shots, a small lookbook, and paid-social crops.
 
-With Rawshot, an operator configures the first look—model, lens, framing, lighting, background—and generates. The result arrives in well under a minute, labelled and cleared for commercial use. Reusing that face and framing across the assortment is supported, so the catalog can stay coherent. The arithmetic is the constraint: 72 colorway variants at four images each is 288 images, and Rawshot meters generation in tokens—five per image, more for generating a human model. That volume sits above the monthly allowance of its Pro tier before a single revision, and every rejected frame spends tokens too.
+With Rawshot, an operator configures the first look—model, lens, framing, lighting, background—and generates. The result arrives in well under a minute, labelled and cleared for commercial use. Reusing that face and framing across the assortment is supported, so the catalog can stay coherent. Use [Rawshot pricing](https://rawshot.ai/pricing) to budget for the full collection, model creation, and rejected attempts.
 
 With Astria, the team defines casting, styling, lighting, crop, and format once, approves the treatment, and runs the collection against it. Colorway two and three inherit the approved setup rather than repeating the configuration. The lookbook and social crops extend the same direction instead of restarting it, and the reviewers work on the shared board rather than passing exports around.
 

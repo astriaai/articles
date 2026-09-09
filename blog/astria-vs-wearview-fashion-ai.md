@@ -29,10 +29,10 @@ export const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "Is every WearView image one credit?",
+      "name": "Where can I check WearView generation rates?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. The one-credit rate is for HD virtual try-on. Other image operations and higher resolutions have different listed rates; use the pricing table for the intended workflow."
+        "text": "Use the WearView pricing page at https://www.wearview.co/pricing for current rates for your intended workflow and resolution."
       }
     },
     {
@@ -76,35 +76,11 @@ WearView starts with garment-to-model photography and extends into poses, video,
 
 <ArticleEvidence profile="comparisonFashion" />
 
-## WearView pricing: plans, resolution, and credits
+## Where to check current pricing
 
-Base allowances displayed on the [pricing page](https://www.wearview.co/pricing), September 5, 2026:
+For current rates, credit allowances, billing terms, and plan features, use [WearView pricing](https://www.wearview.co/pricing) and [Astria pricing](https://www.astria.ai/pricing).
 
-| Plan | Monthly billing, USD | Credits/month |
-| --- | ---: | ---: |
-| Lite | $29 | 50 |
-| Pro | $49 | 200 |
-| Advanced | $99 | 500 |
-| Enterprise | Custom | Custom |
-
-Yearly billing displays lower monthly equivalents; those are not the month-to-month prices. The credit selectors may offer other volumes.
-
-| Operation | Listed credits |
-| --- | ---: |
-| Virtual try-on, HD | 1/image |
-| General image, HD | 2/image |
-| Image, 2K | 3/image |
-| Image, 4K | 5/image |
-| Video, 720p | 10/video |
-| Video, 1080p | 20/video |
-
-Advanced explicitly includes rollover. The page says top-up packs do not expire and lists API access under Enterprise. Confirm the rollover conditions for your chosen plan. These are generation costs, not guarantees of approved output.
-
-### A collection budget at 4K
-
-For an illustrative 60-style brief with four generated 4K images per style: 60 × 4 × 5 = **1,200 credits**. That is 700 beyond the displayed Advanced base allowance, before retries or video. Price additional capacity for the production month; the base allowance is not a hard limit on what can be purchased.
-
-Do the same calculation using the resolution you actually need. Inspect a detail crop before paying for 4K across the entire catalog, and do not assume a larger file restores product details that were generated incorrectly. Turn the pilot into a [cost-per-SKU budget](./product-photography-cost-per-sku.md).
+Compare the same collection, output settings, additional attempts, review time, and approved deliverables. Use the [cost-per-SKU worksheet](./product-photography-cost-per-sku.md) with the rates from those pages.
 
 ## Quick verdict: Astria vs WearView
 
@@ -162,9 +138,9 @@ For adjacent options, read [Astria vs Lumoo](./astria-vs-lumoo-fashion-ai.md) an
 
 Yes. WearView explicitly advertises both uses. Test a complete set for garment fidelity, casting, and creative direction rather than assuming the tool is limited to product pages.
 
-### Is every WearView image one credit?
+### Where can I check WearView generation rates?
 
-No. The one-credit rate is for HD virtual try-on. Other image operations and higher resolutions have different listed rates; use the pricing table for the intended workflow.
+Use [WearView pricing](https://www.wearview.co/pricing) for current rates for your intended workflow and resolution.
 
 ### Is Astria cheaper than WearView?
 

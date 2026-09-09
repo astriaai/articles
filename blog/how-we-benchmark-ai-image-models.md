@@ -37,8 +37,6 @@ The September 2026 pilot compares **Nano Banana 2, GPT Image 2, Seedream 5 Pro, 
   </div>
 </aside>
 
-<ArticleEvidence profile="models" />
-
 ## Public leaderboards are context, not a production verdict
 
 Public image leaderboards answer useful questions. They do not all answer the same question.
@@ -123,7 +121,7 @@ A larger follow-up should add at least three blinded reviewers, randomize the pr
 
 The core run requested **132 images and returned 131**. Forty-three of 44 model-and-brief requests returned all three images. The Nano Banana 2 swimwear-editorial request returned two of three; the endpoint reported no `user_error` and no reason for the missing image. Every model produced safe, tasteful imagery for both swimwear briefs.
 
-The core benchmark cost **$43.15199** in Astria generation charges, rounded to **$43.15** in article copy. Synthetic source creation and ratio calibration cost another **$2.64**, bringing the full generation project to **$45.79199**, rounded to **$45.79**.
+We recorded generation charges for reproducibility but do not publish them as current pricing. Model rates change; use [Astria's pricing page](https://www.astria.ai/pricing) for live pricing and calculate cost per approved output from your own pass rate.
 
 Cost per generated image is only an input metric. A production comparison should ultimately divide the total generation and retouch spend by the number of outputs that pass approval.
 

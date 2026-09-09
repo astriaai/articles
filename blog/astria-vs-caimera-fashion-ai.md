@@ -159,7 +159,7 @@ Caimera supports team collaboration from its Starter plan and human Photoshop re
 
 ### Self-serve onboarding — winner: Caimera
 
-This is Caimera's genuine edge, and the one concession that matters: a free tier and published plans from $15 per user per month mean a team can start the same day, without a sales conversation. It is an onboarding advantage, not a production-cost verdict—those plans meter per-image credits, so at collection scale the bill tracks how many generations, and regenerations, the work actually takes.
+This is Caimera's genuine edge, and the one concession that matters: self-serve onboarding mean a team can start the same day, without a sales conversation. It is an onboarding advantage, not a production-cost verdict—those plans meter per-image credits, so at collection scale the bill tracks how many generations, and regenerations, the work actually takes.
 
 ### Collection scale and commercial fit — winner: Astria
 

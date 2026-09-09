@@ -109,8 +109,6 @@ An AI clothing-on-model generator can turn a flat lay, ghost mannequin, or garme
   </div>
 </aside>
 
-<ArticleEvidence profile="virtualTryOn" />
-
 ## Flat lay to model, product-to-model, or virtual try-on?
 
 Several search terms describe overlapping jobs:

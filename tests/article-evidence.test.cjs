@@ -2,43 +2,66 @@ const assert = require('node:assert/strict');
 const {test} = require('node:test');
 const fs = require('node:fs');
 const path = require('node:path');
+const Module = require('node:module');
+const ts = require('typescript');
+const React = require('react');
+const {renderToStaticMarkup} = require('react-dom/server');
 
 const root = path.resolve(__dirname, '..');
 const blogDir = path.join(root, 'blog');
 const articles = fs.readdirSync(blogDir).filter(name => name.endsWith('.md'));
+const filename = path.join(root, 'src/components/ArticleEvidence/index.tsx');
+const component = fs.readFileSync(filename, 'utf8');
+const profileDefinitions = component.split('const profiles = {')[1].split('} satisfies')[0];
+const implemented = [...profileDefinitions.matchAll(/^  ([A-Za-z]+): \{/gm)].map(match => match[1]);
+const compiled = new Module(filename, module);
+compiled.filename = filename;
+compiled.paths = module.paths;
+const originalRequire = compiled.require.bind(compiled);
+compiled.require = id => id.endsWith('.css') ? {} : originalRequire(id);
+compiled._compile(ts.transpileModule(component, {
+  compilerOptions: {jsx: ts.JsxEmit.React, module: ts.ModuleKind.CommonJS, esModuleInterop: true},
+}).outputText, filename);
+const render = profile => renderToStaticMarkup(React.createElement(compiled.exports.default, {profile}));
 
-test('every indexed non-prompt article has one evidence module', () => {
-  const missing = [];
-  const unexpected = [];
+test('article examples are optional and referenced profiles must exist', () => {
   for (const name of articles) {
     const body = fs.readFileSync(path.join(blogDir, name), 'utf8');
-    const modules = body.match(/<ArticleEvidence\s+profile="[A-Za-z]+"\s*\/>/g) || [];
-    const excluded = /^tags: \[prompts/m.test(body) || /^unlisted: true/m.test(body);
-    if (!excluded && modules.length !== 1) missing.push(`${name}: ${modules.length}`);
-    if (excluded && modules.length) unexpected.push(name);
+    const requested = [...body.matchAll(/<ArticleEvidence\s+profile="([A-Za-z]+)"\s*\/>/g)].map(match => match[1]);
+    assert.ok(requested.length <= 1, `${name}: duplicate example`);
+    for (const profile of requested) assert.ok(implemented.includes(profile), `${name}: unknown profile ${profile}`);
   }
-  assert.deepEqual(missing, []);
-  assert.deepEqual(unexpected, []);
 });
 
-test('article profiles resolve to implemented evidence profiles', () => {
-  const component = fs.readFileSync(path.join(root, 'src/components/ArticleEvidence/index.tsx'), 'utf8');
-  const implemented = new Set([...component.matchAll(/^  ([A-Za-z]+): \{/gm)].map(match => match[1]));
-  const requested = new Set();
-  for (const name of articles) {
-    const body = fs.readFileSync(path.join(blogDir, name), 'utf8');
-    for (const match of body.matchAll(/<ArticleEvidence\s+profile="([A-Za-z]+)"\s*\/>/g)) {
-      requested.add(match[1]);
+test('every example renders two real media assets with descriptive captions', () => {
+  assert.ok(implemented.length > 0);
+  for (const profile of implemented) {
+    const html = render(profile);
+    assert.equal((html.match(/<figure>/g) || []).length, 2, profile);
+    assert.equal((html.match(/<figcaption>[^<]+<\/figcaption>/g) || []).length, 2, profile);
+    const media = [...html.matchAll(/<(?:img|video)\s[^>]*src="([^"]+)"/g)].map(match => match[1]);
+    assert.equal(media.length, 2, profile);
+    for (const src of media) {
+      assert.ok(src.startsWith('/articles/'), `${profile}: ${src}`);
+      assert.ok(fs.statSync(path.join(root, 'static', src.slice('/articles/'.length))).size > 0, `${profile}: missing ${src}`);
     }
+    assert.doesNotMatch(html, /<ol|<nav/, `${profile}: examples should not render a workflow or resource menu`);
   }
-  assert.deepEqual([...requested].filter(profile => !implemented.has(profile)), []);
 });
 
-test('public evidence links stay on the Astria origin and internal guides stay in articles', () => {
-  const component = fs.readFileSync(path.join(root, 'src/components/ArticleEvidence/index.tsx'), 'utf8');
-  const external = [...component.matchAll(/(?:workspaceUrl|templateUrl|promptUrl): '([^']+)'/g)].map(match => match[1]);
-  const guides = [...component.matchAll(/guideUrl: '([^']+)'/g)].map(match => match[1]);
-  assert.ok(external.length > 0);
-  assert.ok(external.every(url => new URL(url).origin === 'https://www.astria.ai'));
-  assert.ok(guides.every(url => /^\/articles\/[a-z0-9-]+$/.test(url)));
+test('example resources stay relevant and limited to two links', () => {
+  for (const profile of implemented) {
+    const html = render(profile);
+    const links = [...html.matchAll(/<a\s[^>]*href="([^"]+)"/g)].map(match => match[1]);
+    // A video fallback is a media link rather than an additional resource.
+    const resources = links.filter(url => !url.endsWith('.mp4'));
+    assert.ok(resources.length > 0 && resources.length <= 2, profile);
+    assert.ok(resources.every(url => url.startsWith('/articles/') || new URL(url).origin === 'https://www.astria.ai'), profile);
+  }
+});
+
+test('video example retains accessible native playback and a visible poster', () => {
+  const html = render('video');
+  assert.match(html, /<video[^>]*poster="[^"]+"[^>]*controls=""[^>]*playsinline=""[^>]*aria-label="[^"]+"/);
+  assert.doesNotMatch(html, /autoplay/);
 });

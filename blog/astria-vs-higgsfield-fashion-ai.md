@@ -91,8 +91,6 @@ It is also not a fashion production system in the same sense as Astria. Higgsfie
   </div>
 </aside>
 
-<ArticleEvidence profile="comparisonWorkflow" />
-
 ## How we evaluated Astria and Higgsfield
 
 We used seven B2B buying questions: what each platform treats as the reusable unit, how fashion products and casting persist, how much of a season it covers, the depth of still and motion control, how a team works together, what the meter does at production scale, and what public evidence supports the claims. We reviewed product and help-center material from both vendors; no controlled output-quality benchmark was run.

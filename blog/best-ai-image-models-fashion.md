@@ -38,8 +38,6 @@ That is the result of 11 matched briefs, four models, and 131 returned images—
   </div>
 </aside>
 
-<ArticleEvidence profile="models" />
-
 ## The result in one table
 
 | Production job | Our first choice | What decided it |
@@ -210,8 +208,8 @@ This is what “thinking model” means in our Muse recommendation: the output b
 | Outputs requested | 132 |
 | Outputs returned | 131 |
 | Complete three-output request cells | 43 of 44 |
-| Core benchmark generation cost | $43.15 |
-| Full project cost with synthetic sources and calibration | $45.79 |
+
+The later MAI qualification requested 24 additional outputs and returned 21. It is reported separately because it used text-only generation and direct input-image editing rather than the core benchmark's reusable reference tokens. For budget planning, use [current Astria pricing](https://www.astria.ai/pricing) rather than dated generation charges.
 
 This was an Astria-run editorial benchmark of endpoints available through Astria on September 6, 2026. Astria sells access to the tested models. The review was not blinded or independently funded, and three outputs per cell are not enough for statistical ranking. Model behavior, names, pricing, and availability will change.
 

@@ -89,8 +89,6 @@ Pletor calls itself AI creative infrastructure for marketing teams, and the desc
   </div>
 </aside>
 
-<ArticleEvidence profile="comparisonWorkflow" />
-
 ## How we evaluated Astria and Pletor
 
 We used six B2B buying questions: which stage of the funnel each product serves, how much fashion knowledge it supplies, casting and category depth, how collaborators review creative, how a full collection runs, and what the commercial model assumes about the work.
@@ -109,7 +107,7 @@ We used six B2B buying questions: which stage of the funnel each product serves,
 | Motion | Video and UGC output within credit allowances | Multiple current video options animate approved stills in the same workflow | **Astria** |
 | Review experience | Marketing workflow and versioning | Multiplayer canvas with named cursors and live voice over the actual looks | **Astria** |
 | Collection scale | Credit allowances sized for ad output | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
-| Commercial model for brands | Credit tiers from $19 to $199 monthly, with rollover | Brand pricing scoped to usage — pay for what you create | **Astria** |
+| Commercial model for brands | [See current Pletor pricing](https://www.pletor.ai/pricing) | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Ad variant production at campaign pace | Purpose-built: one campaign into every version it needs | Not the product's focus | **Pletor** |
 | Best fit | Marketing and growth teams producing high ad variant volume | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | A capable ad-production engine | The stronger platform for professional fashion production | **Astria** |
@@ -120,7 +118,7 @@ Reviewed August 10, 2026; no controlled image-quality benchmark was run.
 
 Pletor's framing is deliberate: production infrastructure, not a generative toy. It orchestrates models—Flux, Seedance, Kling, Veo, Sora, and language models among them, with new ones added continuously—alongside brand context and marketing data, so a team can produce product imagery from a catalog, performance ads at campaign pace, and AI-generated UGC. The clearest statement of intent is its promise to turn one campaign into every version it needs to be: languages, formats, markets, seasons.
 
-Pricing is published and legible: Starter at $19 a month for 1,000 credits, Builder at $49 for 3,000 with a month of rollover, Studio at $199 for 15,000 with three months of rollover and an onboarding call, plus annual discounts and enterprise. All plans include unlimited team invites, which is unusually generous in this category and worth noting.
+Use [Pletor pricing](https://www.pletor.ai/pricing) for current plans, credit allowances, rollover, and team access. For Astria rates and terms, see [Astria pricing](https://www.astria.ai/pricing).
 
 Its published references—an agency, a creative director, a global consumer electronics brand—describe marketing organizations rather than fashion brands. That is consistent with the positioning. Pletor is not claiming to be a fashion product, and a fair comparison should not pretend otherwise.
 

@@ -108,7 +108,7 @@ We used six B2B buying questions: what infrastructure the workflow requires befo
 | Motion | Not publicly verified in the material reviewed | Multiple current video options animate approved stills in the same workflow | **Astria** |
 | Team production | Studio operator roles; multiplayer review not publicly verified | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
 | Collection scale | Throughput depends on studio capture capacity and processing queue | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
-| Commercial model for brands | Published image bundles from $1,500; enterprise is sales-led and includes hardware | Brand pricing scoped to usage — pay for what you create | **Astria** |
+| Commercial model for brands | [See current Looklet pricing](https://www.looklet.com/pricing/) | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Best fit | Retail groups running in-house capture studios at very high catalog volume | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | The mature choice for industrial catalog capture | The stronger platform for professional fashion production | **Astria** |
 
@@ -166,7 +166,7 @@ Looklet's collaboration model centers on studio operators and production roles; 
 
 ### Collection scale and commercial fit — winner: Astria
 
-Looklet's scale is capture throughput, and it is bounded by studio capacity and the processing queue. Astria's scale is the collection as a unit of work: import the SKUs, run them against the approved setup, extend into campaign and motion. On cost, Looklet publishes Virtual Studio bundles starting at $1,500 for 100 images and rising to $9,000 for 1,000, with the enterprise tier sales-led and inclusive of hardware. Astria's brand pricing is scoped to usage—pay for what you create. A per-image bundle rate is not a production budget; model a full collection, including rework and the channels beyond the catalog, before comparing costs.
+Looklet's scale is capture throughput, and it is bounded by studio capacity and the processing queue. Astria's scale is the collection as a unit of work: import the SKUs, run them against the approved setup, extend into campaign and motion. For current commercial terms, see [Looklet pricing](https://www.looklet.com/pricing/) and [Astria pricing](https://www.astria.ai/pricing). A per-image bundle rate is not a production budget; model a full collection, including rework and the channels beyond the catalog, before comparing costs.
 
 ### Compounding production value — winner: Astria
 

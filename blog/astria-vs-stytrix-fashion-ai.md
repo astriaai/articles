@@ -76,24 +76,11 @@ StyTrix and Astria overlap in fashion image generation, but the brief matters mo
 
 <ArticleEvidence profile="comparisonFashion" />
 
-## StyTrix pricing: monthly plans and credits
+## Where to check current pricing
 
-| Plan | Monthly price, USD | Included credits |
-| --- | ---: | ---: |
-| Starter | $19 | 250 |
-| Pro | $49 | 750 |
-| Team | $99 | 1,500 |
-| Enterprise | Custom | Custom |
+For current rates, credit allowances, billing terms, and plan features, use [StyTrix pricing](https://www.stytrix.com/pricing) and [Astria pricing](https://www.astria.ai/pricing).
 
-The [pricing page](https://www.stytrix.com/pricing) lists a three-day paid-plan trial, Pro credit rollover, and non-expiring top-up packs. Pro includes up to three seats; Team includes up to ten. API and batch processing appear under Enterprise. Annual billing is a separate commitment.
-
-There is a documentation conflict: the [user guide](https://www.stytrix.com/guide) shows different plan prices and trial wording. Use the dedicated pricing page for the table above and check the checkout terms before subscribing.
-
-### How far do StyTrix credits go?
-
-The guide lists Concept Creator and Mix & Match at ten credits per generation. For those operations, 240 generations require 2,400 credits. That is 900 beyond the Team allowance, before additional attempts. This is illustrative credit arithmetic, not a quote for 240 approved images; other operations and output settings need their own calculation.
-
-Measure [cost per SKU](./product-photography-cost-per-sku.md) after review, rather than treating every generation as a finished product photo.
+Compare the same collection, output settings, additional attempts, review time, and approved deliverables. Use the [cost-per-SKU worksheet](./product-photography-cost-per-sku.md) with the rates from those pages.
 
 ## Quick verdict: Astria vs StyTrix
 

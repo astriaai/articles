@@ -89,8 +89,6 @@ Aiuta is an enterprise virtual try-on company first. Its shopper experience is d
   </div>
 </aside>
 
-<ArticleEvidence profile="virtualTryOn" />
-
 ## How we evaluated Astria and Aiuta
 
 We used six B2B buying questions: who controls the creative decision, how long a change takes, coverage across a season's channels, casting and asset depth, how collaborators participate, and what the commercial relationship looks like for a brand rather than a retail platform team.

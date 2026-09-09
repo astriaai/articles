@@ -121,7 +121,7 @@ This is not a ranking from one to seven. It is a routing table. An AI-generated 
 
 Astria is the most direct option here for a fashion team that has a flat-lay product photo and needs the product to move. The [Astria 3D ghost packshot workflow](https://www.astria.ai/w/3d-packshots) returns one six-second 1080p MP4 rotation plus front, side, and three-quarter stills. The assets are designed for product pages, Reels, TikTok, and ad creative.
 
-The operational difference is substantial: no turntable, model, studio booking, or sample shipment. Choose a locked template for the product class, upload the flat lay, and use the resulting rotation and stills across the collection. Astria’s page currently describes pay-per-SKU use with no subscription and advertises entry pricing “from $9”; those are **Astria-reported product and pricing claims**, current on the review date, and may change.
+The operational difference is substantial: no turntable, model, studio booking, or sample shipment. Choose a locked template for the product class, upload the flat lay, and use the resulting rotation and stills across the collection. See [Astria pricing](https://www.astria.ai/pricing) for current packshot rates and billing terms.
 
 The trade-off is equally important. Astria infers views that the one input photograph does not show. The output is a generated video, not a photographed sequence and not a model containing geometry, materials, or verified dimensions. Review prints, logos, closures, hardware, hemlines, back construction, and product color against the real SKU before publication.
 

@@ -22,8 +22,6 @@ FLUX.1, launched in August 2024 by Black Forest Labs, represents a significant a
 
 <!-- truncate -->
 
-<ArticleEvidence profile="models" />
-
 ### Key Features and Innovations
 
 FLUX.1 is built on a robust foundation of 12 billion parameters, allowing it to deliver exceptional image fidelity and controllability. This model excels in generating high-quality images that cater to a wide range of applications, from artistic creations to detailed photorealistic outputs. The architecture combines the strengths of transformer models and diffusion techniques, enabling FLUX.1 to outperform its predecessors, including SDXL and SD1.5, in terms of image quality and prompt adherence.
@@ -76,7 +74,7 @@ Before you can start fine-tuning FLUX.1, you'll need to generate an API key on A
 
 3\. Generate the API Key: Click on the 'Generate API Key' button. This will create your unique API key, which you can use for all API requests.
 
-4\. $20 Free Credits: Upon generating your API key, you'll receive $20 in credits. These credits can be used to create fine-tunes and generate images using FLUX.1.
+4\. Check [current pricing](https://www.astria.ai/pricing) before creating fine-tunes and generating images using FLUX.1.
 
 ### Guide to Fine-Tuning Human Faces
 
@@ -269,7 +267,7 @@ This guide still describes the fine-tuning flow accurately — you upload images
 - **The FLUX line advanced.** FLUX.1 [Pro], [Dev], and [Schnell] have been joined by newer releases, including FLUX.2 Pro. The `branch` and `model` parameters shown below still work; check the current list before hardcoding one.
 - **Gemini-branch references removed the training wait.** For many use cases you no longer need to train a LoRA at all — a reference can be created instantly from a handful of images and used the same way in prompts.
 - **Editing models joined the line-up.** Nano Banana and Seedream handle instruction-based edits (background swap, object removal, colour change) that previously required inpainting or a second pass.
-- **The credit grant has changed.** The $20 figure below reflects a 2024 promotion. Check [current pricing](https://www.astria.ai/pricing) for what a new API key includes today.
+- **Check current terms.** Use [current pricing](https://www.astria.ai/pricing) for API rates and any available offers.
 
 Always discover models programmatically rather than hardcoding a name — see the [API reference](https://docs.astria.ai/docs/api/tune/create) for the current endpoints and parameters.
 

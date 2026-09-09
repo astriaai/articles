@@ -159,7 +159,7 @@ A useful calculation is:
 
 **Cost per approved SKU clip = total pilot production cost ÷ approved SKU clips.**
 
-For illustration only, a $900 pilot that delivers six approved SKU clips costs $150 per clip. Three aspect-ratio exports of each clip remain six underlying product demonstrations; count the exports separately when estimating delivery work. These figures are arithmetic examples, not vendor rates.
+Divide your pilot spend by the number of approved SKU clips. Three aspect-ratio exports of each clip remain the same underlying product demonstration; count the exports separately when estimating delivery work. Use [Astria pricing](https://www.astria.ai/pricing) for current generation rates.
 
 Record the reason for each rejection. If most expense comes from a complex fastening, film that action once per relevant sample setup. If it comes from mismatched colorways, improve the reference and approval process before increasing generation volume. The [cost per SKU guide](./product-photography-cost-per-sku.md) covers the wider catalog budget.
 

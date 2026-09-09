@@ -119,9 +119,9 @@ Reviewed August 5, 2026; no controlled image-quality benchmark was run.
 
 Pixelz describes itself as one place to scale ecommerce content, and the offering is broad: PDP image retouching, editorial and campaign retouching, video post-production, image-to-video, AI-generated content, and AI models and digital twins. What holds it together is the delivery model. Pixelz's own terms describe the standard service as human-assisted hybrid editing—expert retouchers combined with automated AI-driven steps—which is an honest description of a service rather than a product.
 
-The operational apparatus is real and mature. Customers get a cloud platform for review, markup, order tracking, and dashboards; the Professional plan publishes next-morning turnaround with a three-hour expedite option and capacity around 200 images a day; the Enterprise plan offers turnaround from three hours with custom capacity. Editorial work is quoted at 48 hours standard, video at 24. Brand logos on the site include large retailers such as Zalando, Mango, ASICS, and Bestseller.
+The operational apparatus is real and mature. Customers get a cloud platform for review, markup, order tracking, and dashboards; the Professional plan publishes next-morning turnaround with a three-hour expedite option and plan-dependent capacity; the Enterprise plan offers turnaround from three hours with custom capacity. Editorial work is quoted at 48 hours standard, video at 24. Brand logos on the site include large retailers such as Zalando, Mango, ASICS, and Bestseller.
 
-The commercial structure deserves a careful read. Professional lists roughly $0.95–$1.35 per image on top of a $75–$95 monthly subscription; Enterprise carries a $1,995–$2,495 monthly subscription with custom per-image rates. Software add-ons run $19–$45 a month each, and professional services range from $195 for product training to $4,995 for advanced onboarding. Every line is reasonable on its own; together they describe a relationship, not a purchase.
+Check [Pixelz pricing](https://www.pixelz.com/pricing/) for current subscription, per-image, add-on, and service terms. Use [Astria pricing](https://www.astria.ai/pricing) for Astria rates. Include every required service in the production budget.
 
 ## Astria: a professional fashion-production environment
 
