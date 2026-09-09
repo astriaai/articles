@@ -133,6 +133,17 @@ The necklace edit produced a strong beauty portrait and a recognizable nine-ston
 
 Jewelry exposes the difference between resemblance and fidelity. A result can look expensive while changing a clasp, prong, spacer, or stone. MAI is promising here, but the [Muse Image review](./muse-image-model-review.md) remains the stronger starting point when several references and simultaneous constraints are the job.
 
+## Beauty text: a reference-led headline edit
+
+We also qualified MAI on a supplied skincare source from Sivan Tests. The edit keeps the original UV-protector cream tube, gold cap, orange sun mark, and printed product copy while adding one short campaign headline in the open space.
+
+<div className="benchmark-grid benchmark-grid--two">
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-sivan-uv-protector-creme.jpg" alt="Supplied Sivan Tests UV-Protector Cream SPF 60 source reference" /><figcaption><strong>Source</strong>4,000 × 6,000 Sivan Tests skincare reference</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-sivan-uv-protector-creme.jpg"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-beauty-headline.jpg" alt="MAI Image 2.6 direct edit of the UV-Protector Cream with the exact DAILY DEFENSE headline" /><figcaption><strong>MAI-Image-2.6</strong>2K vertical direct edit; the headline is clear and the supplied pack remains recognizable.</figcaption></figure>
+</div>
+
+The selected output passed both gates for this article: it reads as a finished commercial frame at article size, and the tube's geometry, gold cap, orange mark, and label remain visibly tied to the supplied source. The source tune and generation record are documented in the benchmark audit.
+
 ## The two production caveats
 
 ### Reusable Astria references did not complete
