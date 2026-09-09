@@ -222,20 +222,6 @@ export default function FeaturesPage(): ReactNode {
           </div>
         </section>
 
-        <section className={styles.brandProof} aria-label="Brands using Astria">
-          <p>Made for teams with real seasons to ship</p>
-          <ul>
-            <li>Terminal X</li>
-            <li>Renuar</li>
-            <li>Fox</li>
-            <li>Golf &amp; Co</li>
-            <li>Ronny Kobo</li>
-            <li>Nununu</li>
-            <li>Sacks</li>
-            <li>Nine West</li>
-          </ul>
-        </section>
-
         <section className={styles.guideDirectory} aria-labelledby="guide-directory-title">
           <header>
             <p className={styles.kicker}>Ten practical guides</p>

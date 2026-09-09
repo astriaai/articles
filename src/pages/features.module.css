@@ -198,43 +198,6 @@
   padding-top: 0.5rem;
 }
 
-.brandProof {
-  align-items: center;
-  border-bottom: 1px solid var(--line);
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: minmax(170px, 0.34fr) 1fr;
-  margin: 0 auto;
-  max-width: 1320px;
-  padding: 2.5rem 2rem;
-}
-
-.brandProof > p {
-  color: var(--muted);
-  font-size: 0.78rem;
-  line-height: 1.45;
-  margin-bottom: 0;
-  max-width: 18em;
-}
-
-.brandProof ul {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.9rem 2rem;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.brandProof li {
-  color: #393a40;
-  font-family: Fraunces, Georgia, serif;
-  font-size: clamp(1rem, 1.4vw, 1.25rem);
-  font-weight: 600;
-}
-
 .guideDirectory {
   display: grid;
   gap: clamp(3rem, 8vw, 8rem);
@@ -848,17 +811,6 @@
 
   .guideDirectory {
     padding: 5rem 1.25rem;
-  }
-
-  .brandProof {
-    align-items: start;
-    gap: 1.25rem;
-    grid-template-columns: 1fr;
-    padding: 2.25rem 1.25rem;
-  }
-
-  .brandProof ul {
-    justify-content: flex-start;
   }
 
   .process,
