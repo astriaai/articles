@@ -18,6 +18,8 @@ We benchmark image models on the work a fashion or product team actually has to 
 
 The September 2026 pilot compares **Nano Banana 2, GPT Image 2, Seedream 5 Pro, and Muse** across 11 controlled briefs. Three outputs were requested for every model-and-brief pair: 132 requested, 131 returned.
 
+On September 8 we added a separate **MAI-Image-2.6 and Flash qualification** using supplied product images. It is not folded into the core matrix because the working MAI path accepted one direct input image, while the reusable Astria reference-token requests used by the core benchmark failed.
+
 <!-- truncate -->
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
@@ -121,9 +123,25 @@ A larger follow-up should add at least three blinded reviewers, randomize the pr
 
 The core run requested **132 images and returned 131**. Forty-three of 44 model-and-brief requests returned all three images. The Nano Banana 2 swimwear-editorial request returned two of three; the endpoint reported no `user_error` and no reason for the missing image. Every model produced safe, tasteful imagery for both swimwear briefs.
 
-The core benchmark cost **$43.15199** in Astria generation charges, rounded to **$43.15** in article copy. Synthetic source creation and ratio calibration cost another **$2.64**, bringing the full generation project to **$45.79199**, rounded to **$45.79**.
+We recorded generation charges for reproducibility but do not publish them as current pricing. Model rates change; use [Astria's pricing page](https://www.astria.ai/pricing) for live pricing and calculate cost per approved output from your own pass rate.
 
 Cost per generated image is only an input metric. A production comparison should ultimately divide the total generation and retouch spend by the number of outputs that pass approval.
+
+## How the MAI challenger round differs
+
+MAI-Image-2.6 was visible in Astria's public partner gallery but was not part of the original four-model run. We first submitted the general-fashion prompt with its existing cast and garment tokens. It failed with `Unexpected error` and returned no images. Direct single-image editing succeeded, so the publishable qualification is limited to that reference-led path.
+
+The round contained:
+
+| Track | Flagship cells | Flash cells | Outcome |
+| --- | ---: | ---: | --- |
+| Direct jacket edit | 1 | 1 | 6 of 6 returned |
+| Direct jewelry edit | 1 | 0 | 3 of 3 returned |
+| Direct adult-swimwear edit | 1 | 0 | Blocked; 0 of 3 returned |
+
+In the matched jacket cell, the recorded server processing intervals were 24.2 seconds for the flagship and 19.0 seconds for Flash. These small samples describe the tested endpoint, not guaranteed latency. Consult [current Astria pricing](https://www.astria.ai/pricing).
+
+As with the core benchmark, candidate selection was fixed before review. Publication then applied a second gate: an output had to be both attractive and faithful enough to its supplied reference to teach a useful production decision. The jacket and jewelry results met that bar.
 
 ## Known limitations
 
@@ -131,6 +149,7 @@ Cost per generated image is only an input metric. A production comparison should
 - One synthetic identity and four synthetic products do not represent every skin tone, textile, body, material, or brand system.
 - Three outputs per cell reveal variation but do not provide a large statistical sample.
 - Endpoint behavior, pricing, safety handling, and catalog availability can change after September 6, 2026.
+- The MAI results use a different input path and must not be treated as a fifth matched core-model score.
 - Muse used native endpoint settings while the other core models used exposed 2K settings.
 - Text and jewelry geometry were reviewed visually; no OCR or automated geometric score is presented in this pilot.
 - Astria publishes this comparison and sells access to the tested endpoints.

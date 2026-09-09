@@ -1,0 +1,88 @@
+{
+  "qualification": "MAI-Image-2.6 challenger qualification — September 2026",
+  "captured_on": "2026-09-08",
+  "selection_rule": "Output 00 was fixed as the review candidate for every completed direct-edit prompt; public figures additionally require an attractive, reference-faithful result. Alternates were retained and were not used to rescue a weak candidate.",
+  "comparability_note": "This is not a fifth core benchmark column. Direct single-image editing completed, while the reusable Astria reference-token path used by the core benchmark failed. Text-to-image tracks were removed under the reference-led editorial policy.",
+  "outputs_requested": 15,
+  "outputs_received": 12,
+  "qualification_cost_mc": 94650,
+  "qualification_cost_usd": 0.9465,
+  "models": {
+    "5605362": "MAI Image 2.6",
+    "5603706": "MAI Image 2.6 Flash"
+  },
+  "runs": [
+    {
+      "brief": "mai-jacket-edit",
+      "model": "5605362",
+      "prompt_id": 46601345,
+      "requested": 3,
+      "received": 3,
+      "cost_mc": 27807,
+      "processing_seconds": 24.236,
+      "display_output": "prompt-46601345-00.jpg"
+    },
+    {
+      "brief": "mai-jewelry-edit",
+      "model": "5605362",
+      "prompt_id": 46601347,
+      "requested": 3,
+      "received": 3,
+      "cost_mc": 27807,
+      "processing_seconds": 25.205,
+      "display_output": "prompt-46601347-00.jpg"
+    },
+    {
+      "brief": "mai-swimsuit-edit",
+      "model": "5605362",
+      "prompt_id": 46601348,
+      "requested": 3,
+      "received": 0,
+      "cost_mc": 0,
+      "processing_seconds": 24.728,
+      "error": "Response content blocked by label 'MultiSeverity_SexualScore'."
+    },
+    {
+      "brief": "mai-beauty-edit",
+      "model": "5605362",
+      "prompt_id": 46601349,
+      "requested": 3,
+      "received": 3,
+      "cost_mc": 27807,
+      "processing_seconds": 45.249,
+      "display_output": "prompt-46601349-00.jpg"
+    },
+    {
+      "brief": "mai-jacket-edit",
+      "model": "5603706",
+      "prompt_id": 46601539,
+      "requested": 3,
+      "received": 3,
+      "cost_mc": 11229,
+      "processing_seconds": 19.003,
+      "display_output": "prompt-46601539-00.jpg"
+    }
+  ],
+  "compatibility_checks": [
+    {
+      "prompt_id": 46601254,
+      "path": "workspace-scoped Astria identity and garment reference tokens",
+      "result": "failed",
+      "cost_mc": 0,
+      "error": "Unexpected error"
+    },
+    {
+      "prompt_id": 46601306,
+      "path": "personal-scope Astria identity and garment reference tokens",
+      "result": "failed",
+      "cost_mc": 0,
+      "error": "Unexpected error"
+    },
+    {
+      "prompt_id": 46601332,
+      "path": "direct single-image jacket edit, 3:4",
+      "result": "completed",
+      "cost_mc": 9269
+    }
+  ]
+}

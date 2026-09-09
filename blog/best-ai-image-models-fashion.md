@@ -1,6 +1,6 @@
 ---
 title: "Best AI Image Models for Fashion and Product Photography (2026 Benchmark)"
-description: "A 131-image Astria comparison of Nano Banana 2, GPT Image 2, Seedream 5, and Muse across fashion, beauty, text, swimwear, jewelry, identity, and references."
+description: "A reference-led Astria comparison of Nano Banana 2, GPT Image 2, Seedream 5, Muse, GPT Image 2.5 Sunburst and Flare, and MAI-Image-2.6."
 slug: best-ai-image-models-fashion
 date: 2026-09-06
 hide_table_of_contents: false
@@ -17,7 +17,9 @@ keywords:
 
 **Nano Banana 2 is the best general choice for fashion.** GPT Image 2 is our first specialist choice for beauty and text. Seedream 5 is the practical choice for swimwear, rich color, difficult texture, and strong identity preservation. Muse is the reference-first model for jewelry and briefs with several simultaneous constraints.
 
-That is the result of 11 matched briefs, four models, and 131 returned images—not a generic ranking copied from a public leaderboard.
+That is the result of 11 matched briefs, four core models, and 131 returned images—not a generic ranking copied from a public leaderboard. A later MAI-Image-2.6 qualification adds reference-led direct-edit evidence without pretending it was part of the original matched grid.
+
+GPT Image 2.5 is covered in a current matched follow-up: the same Sloane dress-and-bag reference brief rendered in **Sunburst**, **Flare**, **Nano Banana 2**, **MAI-Image-2.6-Flash**, and **Muse**. It is an additional comparison, not a retroactive change to the original benchmark scorecard.
 
 <!-- truncate -->
 
@@ -47,8 +49,39 @@ That is the result of 11 matched briefs, four models, and 131 returned images—
 | Swimwear and sensitivity fallback | **Seedream 5 Pro** | Reliable completion of tasteful adult briefs, plus excellent color, skin, texture, and identity |
 | Difficult color and texture | **Seedream 5 Pro** | Strongest surface and saturated-color rendering in the jacket comparison |
 | Jewelry and multiple references | **Muse** | Most dependable reference interpretation when product geometry or simultaneous constraints dominate |
+| One-image commercial edits | **Qualify MAI-Image-2.6 / Flash** | Strong supplied-jacket preservation; current reusable-reference and swimwear caveats prevent a core recommendation |
 
 No row means “always use this model.” It means this is where we would start before spending the next generation or retouching dollar.
+
+## MAI-Image-2.6: a challenger, tested separately
+
+MAI-Image-2.6 entered Astria's public partner gallery after the four-model benchmark was designed. We attempted to add it to the same reusable-reference matrix on September 8, 2026. Those requests failed with an unexpected endpoint error. Direct single-image editing worked, so we ran a separate reference-led qualification rather than silently changing the benchmark controls.
+
+<div className="benchmark-grid benchmark-grid--three">
+  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Supplied burnt-orange crane jacket reference" /><figcaption><strong>Source</strong>Four cranes, four buttons, jacquard, and scalloped hem</figcaption></figure>
+  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-jacket-edit.webp" alt="MAI Image 2.6 direct jacket edit qualification" /><figcaption><strong>MAI-Image-2.6</strong>Excellent first-output jacket preservation</figcaption></figure>
+  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-flash-jacket-edit.webp" alt="MAI Image 2.6 Flash direct jacket edit qualification" /><figcaption><strong>Flash</strong>Strong campaign frame with simplified construction detail</figcaption></figure>
+</div>
+
+The jacket and jewelry selections cleared both publication gates: the result is attractive enough to show and the supplied product remains inspectable against its source. A benign adult swimwear edit was blocked. Flash finished the matched jacket cell faster, while the flagship preserved more construction detail. See [Astria's pricing page](https://www.astria.ai/pricing) for current model pricing.
+
+That evidence earns MAI a place in the model cluster, but not a fifth column in an incompatible reference benchmark. Read the complete [MAI-Image-2.6 and Flash review](./mai-image-2-6-review.md).
+
+## GPT Image 2.5: a matched Sloane dress-hero comparison
+
+GPT Image 2.5 launched after the original benchmark capture. To make the new models directly comparable, this addendum reruns source prompt `46557199`: the same Sloane woman, dress, and bag references with the same off-kilter flash-lit bar direction. Each card is one output from that shared reference-led brief; open a card to inspect the public prompt record.
+
+Browse the live [GPT Image 2.5 Sunburst gallery](https://www.astria.ai/gallery/tunes/5634510/prompts) and [GPT Image 2.5 Flare gallery](https://www.astria.ai/gallery/tunes/5634511/prompts).
+
+<div className="benchmark-grid">
+  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/46627868"><img loading="lazy" src="https://mp.astria.ai/rtdwmzk0remmhdrrn4e7kbzij2kt" alt="GPT Image 2.5 Sunburst Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Sunburst</strong>GPT Image 2.5, Sloane with the reference dress and bag</figcaption></figure>
+  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/46627866"><img loading="lazy" src="https://mp.astria.ai/w3a7wmdf2mpugy5h1r67s9cg899b" alt="GPT Image 2.5 Flare Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Flare</strong>GPT Image 2.5, matched Sloane rerun</figcaption></figure>
+  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/35515953"><img loading="lazy" src="https://mp.astria.ai/shpr04pjunn9kjkg95x0ttalcf28" alt="Nano Banana 2 Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Nano Banana 2</strong>Existing reference-led counterpart</figcaption></figure>
+  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/46557199"><img loading="lazy" src="https://mp.astria.ai/eoddzwykczgozkahbd4713wogklc" alt="MAI Image 2.6 Flash Sloane dress hero with reference dress and bag" /></a><figcaption><strong>MAI-Image-2.6-Flash</strong>Source comparison run</figcaption></figure>
+  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/46557200"><img loading="lazy" src="https://mp.astria.ai/fab6fytbch30ylwuq4zmbscmu8y6" alt="Muse Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Muse</strong>Source comparison run</figcaption></figure>
+</div>
+
+These are reference-led examples, not a new universal ranking. Compare the same brief horizontally, then inspect the prompt records and source references before drawing a production conclusion.
 
 ## How to read the grids
 
@@ -208,8 +241,8 @@ This is what “thinking model” means in our Muse recommendation: the output b
 | Outputs requested | 132 |
 | Outputs returned | 131 |
 | Complete three-output request cells | 43 of 44 |
-| Core benchmark generation cost | $43.15 |
-| Full project cost with synthetic sources and calibration | $45.79 |
+
+The later MAI qualification is reported separately because it used direct supplied-image editing rather than the core benchmark's reusable reference tokens. For budget planning, use [current Astria pricing](https://www.astria.ai/pricing).
 
 This was an Astria-run editorial benchmark of endpoints available through Astria on September 6, 2026. Astria sells access to the tested models. The review was not blinded or independently funded, and three outputs per cell are not enough for statistical ranking. Model behavior, names, pricing, and availability will change.
 
@@ -217,7 +250,7 @@ The value of the comparison is that the prompts, display rule, output counts, pr
 
 <div className="benchmark-verdict">
   <p><strong>Use Nano Banana 2 as the general fashion default.</strong></p>
-  <p>Route beauty and copy-led work to GPT Image 2; route swimwear, saturated color, difficult texture, and identity-sensitive work to Seedream 5; add Muse when reference fidelity and simultaneous constraints are the hard part.</p>
+  <p>Route beauty and copy-led work to GPT Image 2; route swimwear, saturated color, difficult texture, and identity-sensitive work to Seedream 5; add Muse when reference fidelity and simultaneous constraints are the hard part. Qualify MAI flagship or Flash when one supplied product image and direct-edit speed are the opportunity.</p>
 </div>
 
 For a shorter operational version, use the [Astria image-model guide](./astria-image-models.md). For exact test design and limitations, read [how we benchmark image models](./how-we-benchmark-ai-image-models.md).

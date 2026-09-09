@@ -9,6 +9,15 @@ This directory contains the reproducible source prompts, comparison briefs, prom
 - Seedream 5.0 Pro (`seedream5pro`)
 - Muse Image (public partner tune `5605622`)
 
+## Challenger qualification
+
+MAI-Image-2.6 (`5605362`) and MAI-Image-2.6-Flash (`5603706`) were qualified on
+September 8, 2026. They are intentionally separate from the core grid. Direct single-image editing
+worked; the reusable Astria reference-token path used by the core benchmark failed with an
+unexpected endpoint error. Under the reference-led editorial policy, text-to-image tracks and assets
+were removed from this package. The retained direct-edit qualifier requested 15 outputs and returned
+12; the three-image adult-swimwear cell was blocked. See `mai-qualification.json` and `mai-scores.csv`.
+
 ## Benchmark rules
 
 - Use workspace `674` (`Astria Models`).
@@ -133,4 +142,6 @@ Aspect ratio: `3:4`
 
 - `runs.json`: prompt IDs, model, brief, run count, cost, status, and downloaded assets.
 - `scores.csv`: human scoring sheet with one row per generated asset.
+- `mai-qualification.json`: MAI prompt IDs, failures, costs, timing, and compatibility checks.
+- `mai-scores.csv`: first-pass editorial review for the MAI flagship and Flash qualifier.
 - `assets/`: source references and generated outputs, grouped by brief and model.

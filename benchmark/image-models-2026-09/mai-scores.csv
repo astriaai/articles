@@ -1,0 +1,6 @@
+brief,model,prompt_id,display_output,completion,instruction_following,reference_fidelity,identity_or_text,editorial_note
+mai-jacket-edit,MAI Image 2.6,46601345,prompt-46601345-00.jpg,3/3,pass,pass,n/a,"Strong preservation of four cranes, four buttons, jacquard, collar, sleeves, and scalloped hem"
+mai-jewelry-edit,MAI Image 2.6,46601347,prompt-46601347-00.jpg,3/3,pass,partial,n/a,"Convincing placement and overall design; fine geometry requires macro review"
+mai-swimsuit-edit,MAI Image 2.6,46601348,,0/3,blocked,n/a,n/a,"Tasteful adult ecommerce brief blocked by endpoint classifier"
+mai-beauty-edit,MAI Image 2.6,46601349,prompt-46601349-00.jpg,3/3,partial,partial,pass,"Exact headline and readable pack; first output rotated bottle and changed product presentation"
+mai-jacket-edit,MAI Image 2.6 Flash,46601539,prompt-46601539-00.jpg,3/3,pass,partial,n/a,"Recognizable product and strong campaign frame; simplified button and construction details"

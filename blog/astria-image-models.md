@@ -1,6 +1,6 @@
 ---
 title: "Which AI Image Model Should You Use in Astria? (2026 Guide)"
-description: "Choose the right Astria image model for fashion, beauty, text, swimwear, jewelry, and reference-heavy work, based on a controlled 131-image comparison."
+description: "Choose the right Astria image model for reference-led fashion, beauty, swimwear, jewelry, and product editing, with a controlled benchmark and MAI challenger test."
 slug: astria-image-models
 date: 2026-09-06
 hide_table_of_contents: false
@@ -48,10 +48,11 @@ That is the useful model hierarchy. It is not a claim that one model wins every 
 | Swimwear or another benign brief affected by stricter sensitivity handling | **Seedream 5** | Practical fallback, with strong color, texture, skin, and identity rendering |
 | Saturated color, woven texture, sheen, or consistent casting | **Seedream 5** | Excellent surface rendering and identity preservation in the tested campaign |
 | Jewelry or a brief combining several references and constraints | **Muse** | Deliberate, reference-first behavior and dependable interpretation of each asset's role |
+| One direct supplied-product edit | **MAI-Image-2.6 Flash or flagship** | Flash completed the matched jacket qualifier faster; the flagship preserved more construction detail |
 
-These recommendations come from a controlled Astria comparison captured on September 6, 2026: 11 briefs, four models, three requested outputs per brief, and 131 returned images. See the [full visual benchmark](./best-ai-image-models-fashion.md) and [methodology](./how-we-benchmark-ai-image-models.md).
+The first five rows come from a controlled Astria comparison captured on September 6, 2026: 11 briefs, four models, three requested outputs per brief, and 131 returned images. MAI was tested separately on September 8 because the working Astria path accepted direct input images rather than the reference-token setup used by the core benchmark. See the [full visual benchmark](./best-ai-image-models-fashion.md), [MAI review](./mai-image-2-6-review.md), and [methodology](./how-we-benchmark-ai-image-models.md).
 
-## Nano Banana 2: the fashion default
+## [Nano Banana 2](./nano-banana-2-for-fashion.md): the fashion default
 
 Nano Banana 2 is the answer when a creative team should not have to become a model-routing team before it can make a lookbook.
 
@@ -72,7 +73,7 @@ Use Nano Banana 2 first for:
 - shot-list variety with one cast identity;
 - mixed creative and preservation briefs where no single constraint dominates.
 
-## GPT Image 2: beauty and text
+## [GPT Image 2](./gpt-image-2-for-product-photography.md): beauty and text
 
 GPT Image 2 is the specialist to try when the frame has to behave like an advertisement, not only a photograph. In our beauty test it combined a polished portrait, a held cosmetic product, open copy space, and the exact headline **COLOR, KEPT TRUE** especially well.
 
@@ -87,7 +88,7 @@ Choose GPT Image 2 first for:
 
 For a product listing, still compare every generated label against the real pack. Readable-looking small type is not proof of exact type.
 
-## Seedream 5: swimwear, color, texture, and identity
+## [Seedream 5](./seedream-5-for-fashion.md): swimwear, color, texture, and identity
 
 Seedream 5 is the practical specialist for two different reasons.
 
@@ -104,7 +105,7 @@ Choose Seedream 5 first for:
 - embroidery, woven surfaces, sheen, and other difficult textures;
 - repeated casting where face and skin continuity matter.
 
-## Muse: reference-first, constraint-heavy work
+## [Muse](./muse-image-model-review.md): reference-first, constraint-heavy work
 
 Muse is the option for the brief that reads like a small logic problem: use this person, that jacket, this necklace, one bottle in the right hand, a specified background, and no extra objects.
 
@@ -119,16 +120,29 @@ Choose Muse first for:
 - strict inclusion and exclusion lists;
 - a reference-led brief that other models keep simplifying or blending.
 
+## [MAI-Image-2.6](./mai-image-2-6-review.md): the commercial challenger
+
+MAI joined the cluster through a separate reference-led qualification round. Direct jacket and jewelry placement completed; a tasteful adult swimsuit edit was blocked. Existing Astria reusable-reference prompts failed during the test, while direct supplied-image editing worked.
+
+The flagship preserved the orange jacket's four cranes, four buttons, woven surface, collar, sleeves, and scalloped hem especially well. Flash completed the matched jacket cell faster, but simplified more product detail. Check [Astria's pricing page](https://www.astria.ai/pricing) for current model pricing.
+
+Use MAI first for:
+
+- turning one direct product image into a campaign candidate;
+- a Flash-first, flagship-final workflow when the product passes review.
+
+Do not make it the current Astria default for reusable multi-reference production or swimwear without requalifying those exact paths.
+
 ## What else is in Astria's model GUI?
 
 Astria's popular model selector changes as endpoints improve. In the September 6 catalog snapshot, it included current variants from the Nano Banana and Seedream families alongside Flux 2 Pro, GPT Image 2, Recraft V4.1, Ideogram V4, and WAN 2.7/Pro.
 
-The public partner-model gallery was broader: Reve, Riverflow, HyperRealism, Flux Turbo and Klein, P-Image, Recraft variants, Grok Imagine, Krea, Qwen Image, MAI Image, and Muse were among the visible families.
+The public partner-model gallery was broader: Reve, Riverflow, HyperRealism, Flux Turbo and Klein, P-Image, Recraft variants, Grok Imagine, Krea, Qwen Image, MAI Image, and Muse were among the visible families. MAI and Muse now have dedicated tested guides; the other challengers remain catalog options rather than editorial recommendations.
 
 Two cautions make that list easier to use:
 
 1. **Public in the GUI does not mean open weights.** It means the model is visible as a public Astria partner model.
-2. **A long catalog is not a reason to test everything on every job.** Start with the four-model routing table, then qualify a challenger only when it offers a relevant capability, speed, price, or aesthetic.
+2. **A long catalog is not a reason to test everything on every job.** Start with the core routing table, then qualify a challenger only when it offers a relevant capability, speed, price, or aesthetic.
 
 Model names and availability are volatile. Treat this as a dated snapshot and check the live selector before committing a production pipeline.
 
@@ -138,9 +152,10 @@ Model names and availability are volatile. Treat this as a dated snapshot and ch
 2. If the job is beauty- or text-led, run GPT Image 2 alongside it.
 3. If color, texture, identity, or swimwear completion is the risk, add Seedream 5.
 4. If several references must be interpreted separately, add Muse.
-5. Judge product accuracy separately from aesthetic preference.
-6. Approve a treatment before multiplying it across a collection.
+5. If one supplied product image and direct-edit speed are the opportunity, qualify MAI flagship and Flash.
+6. Judge product accuracy separately from aesthetic preference.
+7. Approve a treatment before multiplying it across a collection.
 
-The cheapest model per generated image is not automatically the cheapest production choice. The metric that matters is cost per approved output after retries and retouching. The benchmark's 131 images cost **$43.15** for the four-model core run; source creation and calibration brought the full project generation spend to **$45.79**.
+The cheapest model per generated image is not automatically the cheapest production choice. The metric that matters is cost per approved output after retries and retouching. Use [current Astria pricing](https://www.astria.ai/pricing), then model retries and retouching against your own approval rate.
 
-Continue to the [side-by-side results](./best-ai-image-models-fashion.md), or inspect [how the test was designed](./how-we-benchmark-ai-image-models.md).
+Continue to the [side-by-side results](./best-ai-image-models-fashion.md), open the [MAI-Image-2.6 qualification](./mai-image-2-6-review.md), or inspect [how the tests were designed](./how-we-benchmark-ai-image-models.md).
