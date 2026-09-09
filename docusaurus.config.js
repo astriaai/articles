@@ -53,6 +53,7 @@ const config = {
         // Legacy article URLs kept alive after re-slugging.
         redirects: [
           {from: '/fine-tuning-flux.1', to: '/fine-tuning-flux'},
+          {from: '/face-id', to: '/ai-headshots-without-model-training'},
           {from: '/on-brand', to: '/ai-headshots-for-teams'},
           {from: '/virtual-tryon', to: '/virtual-try-on-for-fashion-brands'},
         ],

@@ -193,7 +193,7 @@ Use this as a starting specification, then test it on the pilot:
 - **Approval:** one production owner checks the grid; each employee checks their own likeness before publication.
 - **Delivery record:** employee name, approved file, treatment version, approval status, and planned usage.
 
-Do not use the prompt as the identity reference. The employee's submitted photos supply the likeness; the brief supplies the photographic treatment. The distinction is explained in [AI portraits with FaceID](./face-id.md).
+Do not use the prompt as the identity reference. The employee's submitted photos supply the likeness; the brief supplies the photographic treatment. The distinction is explained in [AI headshots and portraits without training a model](./ai-headshots-without-model-training.md).
 
 Keep the written treatment and approved examples for new hires, and check the provider's retention settings separately. Saving a brief does not mean an uploaded face model remains available indefinitely. Astria's [storage FAQ](https://docs.astria.ai/docs/use-cases/faq/#what-happens-to-my-model-training-pictures-and-image-generations) describes its default fine-tune retention and extension option.
 

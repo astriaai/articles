@@ -23,7 +23,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 
 | Article | Primary query | Published | Last fact check | Volatile | Next review | Owner |
 | --- | --- | --- | --- | --- | --- | --- |
-| face-id | ai portraits without training | 2024-04-04 | 2026-08-22 | F M | 2027-02-20 | guides |
+| ai-headshots-without-model-training | AI headshots without training | 2024-04-04 | 2026-08-22 | F M | 2027-02-20 | guides |
 | fine-tuning-flux | fine tune flux api | 2024-09-18 | 2026-08-22 | M F | 2026-11-21 | engineering |
 | astria-vs-ayna-fashion-ai | astria vs ayna | 2026-08-01 | 2026-08-22 | P F S | 2026-11-21 | comparisons |
 | astria-vs-botika-fashion-ai | astria vs botika | 2026-08-01 | 2026-08-22 | P F S | 2026-11-21 | comparisons |

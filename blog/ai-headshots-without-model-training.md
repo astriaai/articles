@@ -1,7 +1,7 @@
 ---
-title: "FaceID: Studio-Quality Portraits Without Training a Model"
-description: "FaceID produces a consistent likeness from a single reference image — no training wait. What it is good at, where a trained model still wins, and how to choose."
-slug: face-id
+title: "AI Headshots and Portraits Without Training a Model"
+description: "Create consistent AI headshots and portraits from one reference photo without training a custom model. Learn when the instant approach works and when training wins."
+slug: ai-headshots-without-model-training
 date: 2024-04-04
 hide_table_of_contents: true
 image: /img/covers/face-id.jpg
@@ -9,9 +9,10 @@ authors: [astria]
 tags: [guides]
 keywords:
   - AI portraits without training
-  - FaceID Astria
+  - AI headshots without training
   - instant AI headshot
   - consistent likeness AI
+  - FaceID Astria
 ---
 
 *Originally published April 2024. Reviewed August 2026 — see [Where this stands in 2026](#where-this-stands-in-2026) below.*
@@ -66,9 +67,9 @@ So how do we at Astria.ai come in?
 
 <!-- truncate -->
 
-# Astria’s FaceID Feature for Instant Fine-tuning
+# Create AI Headshots and Portraits From a Reference Photo
 
-With our FaceID tool, you can instantly fine-tune your images while preserving identity in a matter of seconds. All you need is just one photograph.
+Astria's no-training portrait workflow is called FaceID. It preserves a person's likeness from a reference photo and can begin generating images in seconds, without training a custom model. You can start with one clear photograph.
 
 
 
@@ -88,7 +89,7 @@ Just one point to remember: the adapter was trained on human faces, so best not 
 * For realistic images, enable Face-Correct to improve the facial features.
 
 
-# FaceID vs Full Fine-Tuning
+# AI Portraits Without Model Training vs Full Fine-Tuning
 
 Astria offers full fine-tuning tools using the [Dreambooth](https://huggingface.co/docs/diffusers/en/training/dreambooth) API. This is a technique that updates the entire Stable Diffusion model by training on just a few images of a subject or style. This is a pretty efficient way of fine-tuning as it allows for the generation of realistic and diverse images of the specific subjects or concepts.
 
@@ -99,7 +100,7 @@ Both the techniques above are well suited for high fidelity on identity preserva
 FaceID does not involve training of the model at all. Under the hood it only calculates and retains the embeddings of the training images, and then reproduces these embeddings during inference. This way the Stable Diffusion model doesn’t have to go through any changes in its weights, and that’s why the fine-tuning process is so rapid. It takes less than 10 seconds for a FaceID based fine-tune to be created.
 
 
-# Guide to Using FaceID on Astria.ai
+# How to Create No-Training AI Portraits on Astria
 
 As mentioned before, the FaceID fine-tune can be done with just one image. But, for the sake of fidelity, we’ve taken 3 images of a model from [Unsplash](https://unsplash.com). Here are the input images:
 
@@ -207,7 +208,7 @@ Negative: intimidating, unapproachable, unprofessional, poorly lit, low-quality,
 
 
 
-# Why Implement Astria’s FaceID in Your Tech Stack
+# When a No-Training Portrait Workflow Fits
 
 By implementing FaceID in your tech stack, you unlock the power of real-time, high-quality image generation. Consider the possibilities:
 
