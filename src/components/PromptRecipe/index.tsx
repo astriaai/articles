@@ -133,7 +133,7 @@ export default function PromptRecipe({
         <figure className={styles.result}>
           <p className={styles.mediaLabel}>Generated result</p>
           <a href={promptUrl} target="_blank" rel="noreferrer">
-            <img src={resultImage.src} alt={resultImage.alt} loading="lazy" data-no-zoom />
+            <img src={resultImage.src} alt={resultImage.alt} loading="lazy" />
           </a>
           <figcaption>{resultImage.label}</figcaption>
         </figure>

@@ -46,7 +46,6 @@ const config = {
 
   plugins: [
     require.resolve('./plugins/article-analytics'),
-    require.resolve('docusaurus-plugin-image-zoom'),
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -117,19 +116,8 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig & {zoom: object}} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      zoom: {
-        selector: '.markdown img:not([data-no-zoom])',
-        background: {
-          light: 'rgba(255, 255, 255, 0.94)',
-          dark: 'rgba(16, 18, 27, 0.94)',
-        },
-        config: {
-          margin: 32,
-          scrollOffset: 40,
-        },
-      },
       image: 'img/high-quality-finetuning.jpg',
       navbar: {
         title: 'Astria',

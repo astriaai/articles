@@ -1,0 +1,257 @@
+.backdrop {
+  --viewer-white: #fff;
+  --viewer-glass: rgba(24, 24, 27, 0.82);
+  --viewer-line: rgba(255, 255, 255, 0.12);
+  align-items: center;
+  background: rgba(5, 6, 8, 0.95);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 2000;
+}
+
+.closeButton {
+  align-items: center;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.78);
+  cursor: pointer;
+  display: inline-flex;
+  height: 32px;
+  justify-content: center;
+  position: absolute;
+  right: max(12px, env(safe-area-inset-right));
+  top: max(12px, env(safe-area-inset-top));
+  transition: color 120ms ease, opacity 120ms ease, transform 120ms ease;
+  width: 32px;
+  z-index: 3;
+}
+
+.closeButton svg,
+.navButton svg,
+.controls svg {
+  fill: none;
+  height: 15px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 1.8;
+  width: 15px;
+}
+
+.closeButton:hover {
+  color: var(--viewer-white);
+  transform: scale(1.04);
+}
+
+.closeButton:active {
+  transform: scale(0.97);
+}
+
+.navButton {
+  align-items: center;
+  appearance: none;
+  backdrop-filter: blur(12px);
+  background: var(--viewer-glass);
+  border: 1px solid var(--viewer-line);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.82);
+  cursor: pointer;
+  display: inline-flex;
+  height: 42px;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 120ms ease, color 120ms ease, transform 120ms ease;
+  width: 42px;
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 3;
+}
+
+.navButton:hover {
+  background: rgba(255, 255, 255, 0.13);
+  color: var(--viewer-white);
+}
+
+.navButton:active {
+  transform: translateY(-50%) scale(0.96);
+}
+
+.navButton:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.82);
+  outline-offset: 2px;
+}
+
+.navButton svg {
+  height: 20px;
+  width: 20px;
+}
+
+.previousButton {
+  left: max(12px, env(safe-area-inset-left));
+}
+
+.nextButton {
+  right: max(12px, env(safe-area-inset-right));
+}
+
+.position {
+  background: var(--viewer-glass);
+  border: 1px solid var(--viewer-line);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  left: 50%;
+  padding: 4px 9px;
+  position: absolute;
+  top: max(13px, env(safe-area-inset-top));
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.controls button {
+  align-items: center;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.74);
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  justify-content: center;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+.sourceLink {
+  align-items: center;
+  color: rgba(255, 255, 255, 0.74);
+  display: inline-flex;
+  font-size: 0.7rem;
+  font-weight: 600;
+  height: 27px;
+  padding: 0 9px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sourceLink:hover {
+  color: var(--viewer-white);
+}
+
+.controls button:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--viewer-white);
+}
+
+.controls button:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.82);
+  outline-offset: 2px;
+}
+
+.closeButton:focus-visible {
+  color: var(--viewer-white);
+  outline: none;
+}
+
+.viewport {
+  align-items: center;
+  cursor: zoom-in;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  touch-action: none;
+  user-select: none;
+}
+
+.viewport.isZoomed {
+  cursor: grab;
+}
+
+.viewport:active.isZoomed {
+  cursor: grabbing;
+}
+
+.viewport img {
+  border-radius: 0 !important;
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.46);
+  cursor: inherit !important;
+  display: block;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  transform-origin: center center;
+  user-select: none;
+  width: auto;
+  will-change: transform;
+}
+
+.controls {
+  align-items: center;
+  backdrop-filter: blur(12px);
+  background: var(--viewer-glass);
+  border: 1px solid var(--viewer-line);
+  border-radius: 999px;
+  bottom: max(12px, env(safe-area-inset-bottom));
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
+  display: flex;
+  gap: 1px;
+  left: 50%;
+  padding: 3px 4px;
+  position: absolute;
+  transform: translateX(-50%);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 3;
+}
+
+.controls button {
+  height: 27px;
+  min-width: 27px;
+}
+
+.controls button:disabled {
+  cursor: default;
+  opacity: 0.36;
+}
+
+.controls .zoomValue {
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  min-width: 44px;
+}
+
+@media (max-width: 620px) {
+  .closeButton {
+    right: max(8px, env(safe-area-inset-right));
+    top: max(8px, env(safe-area-inset-top));
+  }
+
+  .navButton {
+    height: 36px;
+    width: 36px;
+  }
+
+  .previousButton {
+    left: max(6px, env(safe-area-inset-left));
+  }
+
+  .nextButton {
+    right: max(6px, env(safe-area-inset-right));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .viewport img {
+    transition: none;
+  }
+}

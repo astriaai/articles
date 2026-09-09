@@ -70,7 +70,7 @@ export default function ImageModelComparison({
       {reference ? (
         <figure className={styles.reference}>
           <div className={styles.referenceImage}>
-            <img loading="eager" decoding="async" data-no-zoom src={reference.src} alt={reference.alt} />
+            <img loading="eager" decoding="async" src={reference.src} alt={reference.alt} />
           </div>
           <figcaption>
             <span>Source product</span>
@@ -84,7 +84,7 @@ export default function ImageModelComparison({
         <div className={styles.grid}>
           {items.map((item) => (
             <figure className={styles.card} key={`${item.label}-${item.src}`}>
-              <img loading="lazy" decoding="async" data-no-zoom src={item.src} alt={item.alt} />
+              <img loading="lazy" decoding="async" src={item.src} alt={item.alt} />
               <figcaption>
                 <strong>{item.label}</strong>
                 {item.verdict ? <span>{item.verdict}</span> : null}
@@ -122,7 +122,6 @@ export default function ImageModelComparison({
           <div className={styles.scanStage}>
             <img data-no-zoom src={right.src} alt={right.alt} className={styles.baseImage} />
             <img
-              data-no-zoom
               src={left.src}
               alt={left.alt}
               className={styles.overlayImage}
