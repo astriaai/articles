@@ -39,8 +39,6 @@ That is the useful model hierarchy. It is not a claim that one model wins every 
   </div>
 </aside>
 
-<ArticleEvidence profile="models" />
-
 ## The model-selection table
 
 | If the job is… | Start with… | Why |
@@ -143,6 +141,6 @@ Model names and availability are volatile. Treat this as a dated snapshot and ch
 5. Judge product accuracy separately from aesthetic preference.
 6. Approve a treatment before multiplying it across a collection.
 
-The cheapest model per generated image is not automatically the cheapest production choice. The metric that matters is cost per approved output after retries and retouching. The benchmark's 131 images cost **$43.15** for the four-model core run; source creation and calibration brought the full project generation spend to **$45.79**.
+The cheapest model per generated image is not automatically the cheapest production choice. The metric that matters is cost per approved output after retries and retouching. Use [current Astria pricing](https://www.astria.ai/pricing), then model retries and retouching against your own approval rate.
 
 Continue to the [side-by-side results](./best-ai-image-models-fashion.md), or inspect [how the test was designed](./how-we-benchmark-ai-image-models.md).

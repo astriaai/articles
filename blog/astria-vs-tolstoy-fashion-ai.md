@@ -39,7 +39,7 @@ export const faqSchema = {
       name: "How do the pricing models compare at catalog volume?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tolstoy meters AI Studio in tokens; its highest published tier equates to roughly a thousand images a month. A 400-SKU catalog at four images each exceeds that before any rework. Astria's brand pricing is scoped to usage — model a full collection before comparing.",
+        text: "Check https://www.gotolstoy.com/pricing and https://www.astria.ai/pricing for current rates and allowances. Budget for the complete collection, rework, and any storefront services before comparing.",
       },
     },
     {
@@ -108,7 +108,7 @@ We used six B2B buying questions: how much of the product is actually about prod
 | Campaign and editorial work | Not the platform's focus in the material reviewed | Campaign, editorial, and social treatments from the same approved setup | **Astria** |
 | Motion | Shoppable video, published through its own player | Multiple current video options animate approved stills in the same workflow | **Astria** |
 | Team production | Merchandising and campaign configuration | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
-| Collection scale | Token allowances cap monthly output; top published tier is around a thousand images | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
+| Collection scale | [See current Tolstoy pricing](https://www.gotolstoy.com/pricing) | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
 | Commercial model for brands | Three metered products: content tokens, player impressions with overage, assistant tokens | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Storefront merchandising and shopper assistance | Shoppable player and AI shopping assistant, with published lift figures | Not attempted | **Tolstoy** |
 | Best fit | Shopify brands buying content, shoppable widgets, and an assistant as one bundle | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
@@ -140,7 +140,7 @@ Astria's public materials show a production base among fashion brands and the pr
 
 Consider a fashion brand on Shopify with 400 SKUs and a two-person ecommerce team. It needs four PDP images per SKU, a lookbook, campaign assets, and social content, and it is attracted to buying one platform instead of three.
 
-The bundle logic is genuinely appealing until the arithmetic. 400 SKUs at four images is 1,600 images. Tolstoy's highest published AI Studio tier equates to roughly a thousand images a month, so the catalog alone exceeds the top self-serve tier before any rejected frame, colorway, or campaign asset. The player is metered separately by impressions with per-thousand overage, and the assistant by its own tokens. Three meters, three consumption curves, and a conversation with sales as soon as the catalog is real.
+A 400-SKU catalog at four images requires 1,600 images before rejected frames, colorways, or campaign assets. Check [Tolstoy pricing](https://www.gotolstoy.com/pricing) for current AI Studio, player, and assistant terms, and budget for each required service.
 
 The creative question matters more. Brand guidelines are an input Tolstoy consumes per asset; they are not the same as an approved treatment that fixes casting, crop, and styling across a collection. The lookbook and campaign work is outside what the content module is aimed at, so it still needs an answer.
 
@@ -213,7 +213,7 @@ No. Its published customers span beauty, skincare, and homeware alongside appare
 
 ### How do the pricing models compare at catalog volume?
 
-Tolstoy meters AI Studio in tokens; its highest published tier equates to roughly a thousand images a month. A 400-SKU catalog at four images each exceeds that before any rework. Astria's brand pricing is scoped to usage — model a full collection before comparing.
+Check [Tolstoy pricing](https://www.gotolstoy.com/pricing) and [Astria pricing](https://www.astria.ai/pricing) for current rates and allowances. Budget for the complete collection, rework, and any storefront services before comparing.
 
 ### Which is better for campaign and editorial work?
 

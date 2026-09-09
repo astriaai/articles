@@ -31,7 +31,7 @@ export const faqSchema = {
       name: "How much does the plugin cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The plugin itself is a one-time purchase, with generation credits billed separately by usage. Check the product page for current pricing, since both the plugin price and per-generation costs change as models change.",
+        text: "See https://www.astria.ai/pricing for current plugin pricing and generation rates.",
       },
     },
     {
@@ -88,8 +88,6 @@ Generative editing has an annoying workflow problem: the models are in a browser
     </a>
   </div>
 </aside>
-
-<ArticleEvidence profile="models" />
 
 ## What it does
 
@@ -154,7 +152,7 @@ An Astria plugin that connects a Photoshop selection to current generative image
 
 ### How much does the plugin cost?
 
-The plugin itself is a one-time purchase, with generation credits billed separately by usage. Check the product page for current pricing, since both the plugin price and per-generation costs change as models change.
+See [Astria pricing](https://www.astria.ai/pricing) for current plugin pricing and generation rates.
 
 ### Can I use my own Google API key?
 

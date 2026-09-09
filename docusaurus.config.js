@@ -148,6 +148,7 @@ const config = {
           //   label: 'Use cases',
           // },
           {to: '/', label: 'Articles', position: 'left'},
+          {to: '/features', label: 'How Astria works', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',

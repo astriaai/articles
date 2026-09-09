@@ -76,20 +76,11 @@ Lumoo Air starts with a product photo and turns it into a connected set of visua
 
 <ArticleEvidence profile="comparisonFashion" />
 
-## Lumoo pricing: what the euro plans include
+## Where to check current pricing
 
-Monthly billing shown on September 5, 2026:
+For current rates, credit allowances, billing terms, and plan features, use [Lumoo pricing](https://lumoo.com/products/air) and [Astria pricing](https://www.astria.ai/pricing).
 
-| Plan | Price | Credits | Approximate images OR videos OR try-ons |
-| --- | ---: | ---: | --- |
-| Free | €0 | 30 once | 20 images / 2 videos / 2 try-ons |
-| Lite | €15/month | 100/month | 60 images / 5 videos / 8 try-ons |
-| Basic | €70/month | 500/month | 300 images / 25 videos / 40 try-ons |
-| Pro | €120/month | 1,000/month | 600 images / 50 videos / 75 try-ons |
-
-These figures come from the monthly plan cards on the rendered [Lumoo Air product page](https://lumoo.com/products/air). The page title advertises a different entry price, so use the plan card and confirm checkout terms rather than combining the two.
-
-The output counts are vendor estimates and alternatives, not three allowances to add together. A mixed brief consumes the same credit budget. In particular, “600 images” does not mean 600 try-ons. Measure the cost of the operation you will actually use before buying a plan.
+Compare the same collection, output settings, additional attempts, review time, and approved deliverables. Use the [cost-per-SKU worksheet](./product-photography-cost-per-sku.md) with the rates from those pages.
 
 ## Quick verdict: Astria vs Lumoo
 
@@ -117,7 +108,7 @@ For the comparison, give both tools the same collection references and approved 
 
 ## A realistic workflow comparison: when one image becomes 150
 
-Suppose 150 style-colourways each need four approved images: 600 deliverables. That count equals Lumoo's approximate Pro image allowance before retries. It does not exceed it by itself. Once the brief includes additional attempts, try-ons, or clips, price that workload separately. A larger plan may be appropriate; exceeding the base allowance does not make the workflow unsuitable.
+Suppose 150 style-colourways each need four approved images: 600 deliverables. Use [Lumoo pricing](https://lumoo.com/products/air) to budget for that count plus additional attempts, try-ons, and clips. A larger plan may be appropriate; exceeding the base allowance does not make the workflow unsuitable.
 
 Keep a simple ledger during the pilot: operation, credits consumed, human review minutes, correction work, and whether the output shipped. Use [product photography cost per SKU](./product-photography-cost-per-sku.md) to turn that into a useful budget.
 

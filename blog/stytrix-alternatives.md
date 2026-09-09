@@ -79,7 +79,7 @@ Do not replace a design tool just because another platform makes attractive mode
 
 StyTrix's [homepage](https://www.stytrix.com/) describes collaborative visual design, including sketches, rendered garments, outfit compositions, and variations. Its [tool catalog](https://www.stytrix.com/tools) includes style training, model swapping, and virtual sampling. That is a reasonable starting point for a studio presenting options to a client.
 
-On its [pricing page](https://www.stytrix.com/pricing), monthly Starter is $19 for 250 credits, Pro is $49 for 750, and Team is $99 for 1,500; Enterprise is custom. The page places batch processing and API access under Enterprise. However, its [user guide](https://www.stytrix.com/guide) shows a different plan table. Use the dedicated pricing page as the published reference and confirm checkout terms for your account; do not combine allowances from one page with prices from the other.
+Use [StyTrix pricing](https://www.stytrix.com/pricing) for current plans, credit allowances, and automation access. Confirm checkout terms for your account rather than relying on a dated plan table in an article.
 
 Before switching, write down the failed task. “We cannot get a clean sleeve revision” is useful. “Another tool has more credits” is not yet a production requirement.
 
@@ -89,7 +89,7 @@ Fermat is the first alternative to investigate when you want to stay in image-ba
 
 **Why shortlist it:** your team needs to explore the same design through several material, construction, or styling proposals. **What to test:** submit one approved sketch and ask for a sleeve change, a new fabric, and a print-scale revision separately. Have the designer mark every unintended change. A compelling output that quietly changes the garment is a failed revision.
 
-Fermat's [monthly pricing](https://www.fermat.app/pricing) lists Pro at $30 for 150 credits and Studio at $250 for 500 credits with unlimited users. The FAQ lists one credit per image and four per video; Enterprise includes custom workflows, batch processing, and API access. Those are different buying units from StyTrix's credits. Studio's price also buys team access, so dividing its fee by credits alone hides part of the purchase.
+Use [Fermat pricing](https://www.fermat.app/pricing) for current rates, credit usage, team access, and enterprise options. Budget for the same required deliverables and collaborators when comparing tools.
 
 **Stay with StyTrix if** your existing canvas already handles the brief and Fermat does not improve the revision result enough to justify moving projects. See the separate [Fermat comparison](./astria-vs-fermat-fashion-ai.md) for its relationship to Astria.
 

@@ -32,7 +32,7 @@ export const faqSchema = {
       name: "How does Rewarx Studio's credit model behave at collection scale?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Credits are charged by output: one for standard, two for HD, three for 4K Ultra, and twenty for a video clip. A 60-style drop at four 4K images each costs about 720 credits, above the 500 included on the $129.90 Scale tier, before a single rejected frame or any motion.",
+        text: "Use https://www.rewarx.com/#pricing for current output rates and allowances, and https://www.astria.ai/pricing for Astria rates. Budget for the complete collection, including rejected images and motion.",
       },
     },
     {
@@ -40,7 +40,7 @@ export const faqSchema = {
       name: "Can a fashion team collaborate inside Rewarx Studio?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Multi-user account access is listed as an Agency-tier entitlement at $249.90 a month. Astria puts brand workspaces and a shared production canvas in front of the whole team, including external photographers and agencies.",
+        text: "Check the current Rewarx pricing page for multi-user account access and plan terms. Astria puts brand workspaces and a shared production canvas in front of the whole team, including external photographers and agencies.",
       },
     },
     {
@@ -107,10 +107,10 @@ We used six B2B buying questions: how much of the product is about fashion speci
 | Reusable brand assets | Cloud asset storage, unlimited only on the top tier | Products, casting, locations, poses, and references accumulate without plan entitlements | **Astria** |
 | What "lookbook" means | Standardizing one lighting setup across a catalog | An editorial set expressing the collection's direction | **Astria** |
 | Campaign and editorial work | Commercial ad posters with typography over a product focal point | Campaign, editorial, and social treatments from the same approved setup | **Astria** |
-| Motion | Cinematic video clips from a static shot, metered at 20 credits each | Multiple current video options animate approved stills in the same workflow | **Astria** |
+| Motion | Cinematic video clips from a static shot | Multiple current video options animate approved stills in the same workflow | **Astria** |
 | Catalog import | Marketplace and store integrations: Shopify, Amazon, Etsy, eBay | SKU import from Shopify or Google Drive into a brand workspace | **Astria** |
 | Team production | Multi-user account access listed on the Agency tier | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
-| Collection scale | Credits charged by output type; 4K costs triple a standard frame | The full SKU set runs against one approved setup | **Astria** |
+| Collection scale | [See current Rewarx pricing](https://www.rewarx.com/#pricing) | The full SKU set runs against one approved setup | **Astria** |
 | Commercial model for brands | Monthly credit tiers with entitlements attached to each level | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Public customer proof | Aggregate figures and first-name testimonials; no named brands found | Named fashion brands plus studios and photographers running client work | **Astria** |
 | Ready-made ecommerce output types | Ghost mannequin, group shot, mockup, product page sets, ad poster, marketplace formatting | Fashion production outputs, without marketplace listing templates | **Rewarx Studio** |
@@ -125,7 +125,7 @@ Rewarx Limited, based in San Francisco, positions Rewarx Studio as an AI product
 
 The apparel-specific work is real. Ghost Mannequin fills a neckline and removes the mannequin. The company describes a Geometry-Lock approach it says preserves a product's dimensions and logo placement, and a texture engine intended to hold stitching and material grain. Model Studio offers archetypes across ethnicities, ages, and body types, and its Lookalike technology can carry one face and body across a production — a meaningful capability, and one a fashion buyer should test rather than assume.
 
-The commercial plumbing is sensible too: assets formatted for Amazon, Shopify, Etsy, and eBay, a Shopify app, batch generation, exports up to 4096 pixels, stated commercial ownership of generated assets, and a free trial covering the first ten generations with no credit card. The company also states that uploads are not used to train public models.
+The commercial plumbing is sensible too: assets formatted for Amazon, Shopify, Etsy, and eBay, a Shopify app, batch generation, exports up to 4096 pixels, stated commercial ownership of generated assets, and self-serve onboarding. The company also states that uploads are not used to train public models.
 
 Two things a fashion buyer should read closely. The first is what the fashion page means by standardizing a lookbook: applying the same studio lighting setup consistently across a large catalog. That is useful, and it is catalog standardization rather than what a fashion team means by a lookbook. The second is the plan structure, discussed below.
 
@@ -143,17 +143,17 @@ Astria's public materials name fashion and retail brands including Gant, Nine We
 
 ## A realistic workflow comparison: the month the drop lands
 
-Consider a contemporary womenswear label with 60 styles going live: four images per style at 4K, a campaign set, social crops, and a handful of short clips for Reels. It signs up on Rewarx's Scale plan at $129.90 a month, which includes 500 credits and a Batch Template Studio built for multi-SKU stores.
+Consider a contemporary womenswear label with 60 styles going live: four images per style at 4K, a campaign set, social crops, and a handful of short clips for Reels. The team evaluates Rewarx’s batch tools against that complete brief.
 
 The first week goes well. Ghost mannequin on the knitwear is fast and clean, background removal saves the offshore clipping-path budget, and the Shopify export is genuinely convenient. Then three ceilings arrive at once.
 
-Credits: 60 styles at four 4K images each is 240 generations at three credits, or roughly 720 credits — 220 past the Scale tier before anyone rejects a frame. Add ten short clips at twenty credits each and the drop needs about 920 credits, which is the Agency tier at $249.90. Rejected frames spend credits too, and a rejection rate is not a rounding error in fashion.
+Budget for all required images, clips, and rejected attempts using [current Rewarx pricing](https://www.rewarx.com/#pricing). Check capacity for the complete drop before choosing a plan.
 
 Collaboration: the stylist wants to review with the ecommerce lead and the freelance photographer. Multi-user account access is an Agency-tier entitlement, so a workflow question becomes a billing question.
 
 Direction: the brand wants its own recurring look held across the season. Custom style training also sits on the Agency tier. Until then, direction is re-selected per generation by whoever is at the keyboard.
 
-Then the campaign brief lands. An ad poster puts typography over a product focal point, which is a listing asset rather than a campaign. A real lookbook is not one lighting setup applied consistently. And motion at twenty credits a clip means a social calendar is priced against the same pool as the catalog.
+Then the campaign brief lands. An ad poster puts typography over a product focal point, which is a listing asset rather than a campaign. A real lookbook is not one lighting setup applied consistently. Include the social calendar alongside the catalog when checking [current Rewarx pricing](https://www.rewarx.com/#pricing).
 
 With Astria, casting is a library the brand builds and keeps, the 60 styles run against one approved treatment, the campaign and editorial frames come from that same direction, motion animates stills that already passed review, and the photographer is in the workspace rather than outside the account. Nothing in the season is rationed by a plan tier.
 
@@ -161,7 +161,7 @@ With Astria, casting is a library the brand builds and keeps, the 60 styles run 
 
 ### Ready-made ecommerce output types — winner: Rewarx Studio
 
-This is Rewarx's genuine edge and the one concession that matters here. Ghost mannequin, group shots, pattern mockups, eight-image product page sets, and ad posters, all exporting into Amazon, Etsy, eBay, and Shopify formats, cover a marketplace seller's asset list without anyone having to decide what a listing should look like. If your job is to put correct, consistent, well-lit images against many SKUs across a mixed catalog, that toolkit is a real advantage, and self-serve onboarding is fast — ten free generations, no credit card.
+This is Rewarx's genuine edge and the one concession that matters here. Ghost mannequin, group shots, pattern mockups, eight-image product page sets, and ad posters, all exporting into Amazon, Etsy, eBay, and Shopify formats, cover a marketplace seller's asset list without anyone having to decide what a listing should look like. If your job is to put correct, consistent, well-lit images against many SKUs across a mixed catalog, that toolkit is a real advantage, and self-serve onboarding supports an initial evaluation. Check [Rewarx pricing](https://www.rewarx.com/#pricing) for current trial terms.
 
 ### Fashion depth versus catalog breadth — winner: Astria
 
@@ -185,7 +185,7 @@ Rewarx's plan structure places multi-user account access, API access, and a whit
 
 ### Collection scale and commercial fit — winner: Astria
 
-Charging by output type is transparent, and it makes quality expensive precisely where fashion needs it: 4K costs three times a standard frame, and video costs twenty. Layer on the entitlements attached to each tier — batch templates at Scale, multi-user access and custom style training at Agency — and the plan level starts shaping creative decisions. Astria treats the collection as the unit of work and prices to usage. This article makes no claim that Astria is cheaper; at low volumes Rewarx's entry tiers plainly cost less, and the $9.90 first month is a low-friction way to try it. The point is that a season should not be constrained by an entitlement table. Model a full collection, including a realistic rejection rate and every channel, before comparing.
+Check [Rewarx pricing](https://www.rewarx.com/#pricing) and [Astria pricing](https://www.astria.ai/pricing) for current rates and plan features. Model a full collection, including a realistic rejection rate, collaborators, and every channel, before comparing costs.
 
 ### Compounding production value — winner: Astria
 
@@ -223,11 +223,11 @@ For single-product transformations, yes. Rewarx Studio is an AI product-photogra
 
 ### How does Rewarx Studio's credit model behave at collection scale?
 
-Credits are charged by output: one for standard, two for HD, three for 4K Ultra, and twenty for a video clip. A 60-style drop at four 4K images each costs about 720 credits, above the 500 included on the $129.90 Scale tier, before a single rejected frame or any motion.
+Use [Rewarx pricing](https://www.rewarx.com/#pricing) for current output rates and allowances, and [Astria pricing](https://www.astria.ai/pricing) for Astria rates. Budget for the complete collection, including rejected images and motion.
 
 ### Can a fashion team collaborate inside Rewarx Studio?
 
-Multi-user account access is listed as an Agency-tier entitlement at $249.90 a month. Astria puts brand workspaces and a shared production canvas in front of the whole team, including external photographers and agencies.
+Check the current Rewarx pricing page for multi-user account access and plan terms. Astria puts brand workspaces and a shared production canvas in front of the whole team, including external photographers and agencies.
 
 ### Does Rewarx Studio produce a fashion lookbook?
 

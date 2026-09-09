@@ -91,8 +91,6 @@ An AI fashion model can be an invented face, a digital version of a working mode
   </div>
 </aside>
 
-<ArticleEvidence profile="casting" />
-
 ## What is an AI fashion model?
 
 In fashion production, an **AI fashion model** is a digitally generated or AI-transformed representation of a person used to present clothing or accessories. Here, “model” means the cast member customers see. It does not mean the underlying image-generation software.

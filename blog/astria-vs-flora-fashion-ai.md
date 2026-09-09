@@ -39,7 +39,7 @@ export const faqSchema = {
       name: "How does per-seat pricing affect a production team?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "FLORA prices per seat with usage credits on top, and its self-serve tiers cap at eight seats. When a photographer, in-house team, and agency all need access, seats become a gate on collaboration. Astria's brand pricing is scoped to usage.",
+        text: "FLORA prices per seat with usage credits on top, and team access depends on the plan. When a photographer, in-house team, and agency all need access, seats become a gate on collaboration. Astria's brand pricing is scoped to usage.",
       },
     },
     {
@@ -89,8 +89,6 @@ FLORA is the most credible creative-canvas competitor in this comparison set, an
   </div>
 </aside>
 
-<ArticleEvidence profile="comparisonWorkflow" />
-
 ## How we evaluated Astria and FLORA
 
 We used six B2B buying questions: where each product is strongest in the calendar, how deep the fashion-specific assets go, what evidence exists in fashion specifically, how collaborators inside and outside the company get access, how a full collection runs, and how the commercial model behaves as the team grows.
@@ -106,7 +104,7 @@ We used six B2B buying questions: where each product is strongest in the calenda
 | Category coverage | Apparel-centric fashion studio | Apparel, beauty, jewelry, footwear, sports, luxury, and editorial templates | **Astria** |
 | Design exploration | Sketch to render, colorways, fabric and print replacement | Not the product's focus | **FLORA** |
 | Motion | Broad video model access on the canvas | Multiple current video options animate approved stills in the same workflow | **Astria** |
-| Collaborator access | Per-seat licensing; self-serve tiers cap at eight seats | Brand workspaces open to the photographer, in-house studio, and agency | **Astria** |
+| Collaborator access | Per-seat licensing; team access depends on the plan | Brand workspaces open to the photographer, in-house studio, and agency | **Astria** |
 | Review experience | Real-time team iteration on the canvas | Multiplayer canvas with named cursors and live voice over the actual looks | **Astria** |
 | Collection scale | Batch one approved look across SKUs on the canvas | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
 | Commercial model for brands | Per-seat subscription plus metered usage credits | Brand pricing scoped to usage — pay for what you create | **Astria** |
@@ -139,7 +137,7 @@ Astria's public materials show a production base among fashion brands and the pr
 
 Consider a contemporary label developing a 120-piece resort collection. The design team explores silhouettes and prints in the autumn; the production team needs catalog, lookbook, campaign, and social assets in the spring; a freelance photographer sets the visual direction; an agency handles paid social.
 
-FLORA is genuinely strong in the autumn half. Sketch-to-render, colorway exploration, and print and pattern replacement are exactly the design-stage problems a creative team has, and having 50+ models on one canvas makes exploration cheap. The spring half is where the shape of the product starts to matter. Batch across SKUs exists, but the casting depth is shallower, category templates outside apparel are thinner, and—most practically—every additional collaborator is a seat. With self-serve tiers capped at eight seats and per-seat prices running from $18 to $200 a month plus metered usage on top, adding the photographer, two agency people, and a merchandiser is a procurement decision rather than an invitation.
+FLORA is genuinely strong in the autumn half. Sketch-to-render, colorway exploration, and print and pattern replacement are exactly the design-stage problems a creative team has, and having 50+ models on one canvas makes exploration cheap. The spring half is where the shape of the product starts to matter. Batch across SKUs exists, but the casting depth is shallower, category templates outside apparel are thinner, and—most practically—every additional collaborator is a seat. Check [FLORA pricing](https://flora.ai/pricing) for current seat and usage terms when adding the photographer, agency collaborators, and merchandiser.
 
 Astria inverts the emphasis. It contributes little to the autumn exploration, and it is built for the spring: the approved treatment runs across the 120 pieces imported from Shopify or Google Drive, campaign and social extend the same direction, motion animates approved stills, and the photographer and agency work inside the brand workspace rather than against a seat count.
 
@@ -167,7 +165,7 @@ FLORA batches one approved look across SKUs, which is the right idea. Astria imp
 
 ### Commercial model for brands — winner: Astria
 
-FLORA's shape is a creative-suite subscription: per seat, per month, with metered usage credits layered on and enterprise beyond the eight-seat ceiling. That is coherent for a design department with stable headcount, and awkward for a production that expands and contracts around a season and pulls in outside collaborators. Astria's brand pricing is scoped to usage—pay for what you create. This article makes no claim that Astria is cheaper; it observes that seats plus credits is not a production budget. Model a full collection, including every collaborator who needs access, before comparing.
+FLORA's shape is a creative-suite subscription: per seat, per month, with metered usage credits layered on and enterprise options for larger teams. That is coherent for a design department with stable headcount, and awkward for a production that expands and contracts around a season and pulls in outside collaborators. Astria's brand pricing is scoped to usage—pay for what you create. This article makes no claim that Astria is cheaper; it observes that seats plus credits is not a production budget. Model a full collection, including every collaborator who needs access, before comparing.
 
 ### Compounding production value — winner: Astria
 
@@ -208,7 +206,7 @@ Astria. FLORA's marquee references are design and entertainment names such as Pe
 
 ### How does per-seat pricing affect a production team?
 
-FLORA prices per seat with usage credits on top, and its self-serve tiers cap at eight seats. When a photographer, in-house team, and agency all need access, seats become a gate on collaboration. Astria's brand pricing is scoped to usage.
+FLORA prices per seat with usage credits on top, and team access depends on the plan. When a photographer, in-house team, and agency all need access, seats become a gate on collaboration. Astria's brand pricing is scoped to usage.
 
 ### Which is better for exploring a new collection's design?
 

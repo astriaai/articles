@@ -47,7 +47,7 @@ export const faqSchema = {
       name: "How does the credit model behave at collection scale?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Credits are charged by resolution — three for 1K, four for 2K, six for 4K. A 60-SKU drop at four 4K images each costs about 1,440 credits, above the 1,000-credit Creator tier, before any rejected frame.",
+        text: "Check https://ai.emilia.digital/en/pricing for current credit rates and allowances, and https://www.astria.ai/pricing for Astria rates. Include the resolution you need and rejected attempts in the collection budget.",
       },
     },
     {
@@ -142,9 +142,9 @@ Astria's public materials name fashion brands including Ronny Kobo, Nununu, Gant
 
 ## A realistic workflow comparison: the day you need a third model
 
-Consider a womenswear label with 60 styles going live, needing four images per style at 4K, plus campaign assets and social crops. It signs up on Emilia's Creator plan at $55 a month.
+Consider a womenswear label with 60 styles going live, needing four images per style at 4K, plus campaign assets and social crops. The team evaluates Emilia against that complete brief.
 
-The first week goes well. The editor is pleasant, packshots and lifestyle scenes look good, and the WooCommerce import saves real time. Then three constraints arrive together. Casting: the brand wants three recurring models for different segments of the line, and Creator allows five custom presenters, which is workable—but Starter would have allowed two, and a brand that grows into more distinct casting needs runs into a ceiling that is a billing conversation rather than a creative one. Credits: 60 styles at four 4K images each is 240 images at six credits, or roughly 1,440 credits, above Creator's 1,000 before a single rejected frame. Storage: the plan caps stored images, so a season's output has to be managed against a ceiling.
+The first week goes well. The editor is pleasant, packshots and lifestyle scenes look good, and the WooCommerce import saves real time. Then three constraints arrive together. Casting: the brand wants three recurring models for different segments of the line, so it needs to check that the plan supports its casting requirements. Credits: use [current Emilia pricing](https://ai.emilia.digital/en/pricing) to budget for every required image and rejected attempt. Storage: the plan caps stored images, so a season's output has to be managed against a ceiling.
 
 Then the campaign brief lands. Campaign kits give four ready-made images per category, which is a starting point rather than a brand's campaign. A real lookbook is not three angle variations. Motion for social is not something we could verify the product does at all.
 
@@ -162,7 +162,7 @@ A product serving food, furniture, and apparel optimizes for what they share: a 
 
 ### Casting that scales with the collection — winner: Astria
 
-This is the sharpest structural difference. Emilia rations custom presenters by plan—one, two, five, eight, or twelve. For a seller shooting one product line that is generous. For a fashion brand, casting is not a feature allowance: a womenswear line, a kids range, and an extended-size offer are three casting requirements before anyone discusses campaigns. Astria treats casting as a reusable library, alongside locations, poses, and brand references that accumulate season over season.
+This is the sharpest structural difference. Emilia makes custom-presenter access depend on the plan; check [current Emilia pricing](https://ai.emilia.digital/en/pricing). For a seller shooting one product line that is generous. For a fashion brand, casting is not a feature allowance: a womenswear line, a kids range, and an extended-size offer are three casting requirements before anyone discusses campaigns. Astria treats casting as a reusable library, alongside locations, poses, and brand references that accumulate season over season.
 
 ### What survives between sessions — winner: Astria
 
@@ -178,7 +178,7 @@ Emilia reads as a single-account tool in the material reviewed, with subscriptio
 
 ### Collection scale and commercial fit — winner: Astria
 
-Charging by resolution is transparent and it makes quality expensive precisely where fashion needs it: 4K costs twice a 1K frame, and rejected frames spend credits too. Layer on capped presenters, capped styles, and capped storage, and the plan tier starts shaping creative decisions. Astria treats the collection as the unit of work and prices to usage—pay for what you create. This article makes no claim that Astria is cheaper; at low volumes Emilia's free and entry tiers plainly cost less. The point is that a season should not be constrained by an entitlement table. Model a full collection, including rework and every channel, before comparing.
+Check [Emilia pricing](https://ai.emilia.digital/en/pricing) and [Astria pricing](https://www.astria.ai/pricing) for current rates and plan features. Model a full collection, including rework, collaborators, and every channel, before comparing costs.
 
 ### Compounding production value — winner: Astria
 
@@ -223,7 +223,7 @@ No. Emilia's Lookbook generates up to three variations of one product from diffe
 
 ### How does the credit model behave at collection scale?
 
-Credits are charged by resolution — three for 1K, four for 2K, six for 4K. A 60-SKU drop at four 4K images each costs about 1,440 credits, above the 1,000-credit Creator tier, before any rejected frame.
+Check [Emilia pricing](https://ai.emilia.digital/en/pricing) for current credit rates and allowances, and [Astria pricing](https://www.astria.ai/pricing) for Astria rates. Include the resolution you need and rejected attempts in the collection budget.
 
 ### Is Astria better than Emilia AI Studio for fashion brands?
 

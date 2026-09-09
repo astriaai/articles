@@ -93,8 +93,6 @@ A physical packshot establishes what the customer will receive. An AI production
   </div>
 </aside>
 
-<ArticleEvidence profile="cost" />
-
 ## The short answer
 
 | Requirement | Physical packshot studio | AI production workspace | Hybrid decision |

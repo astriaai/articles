@@ -89,8 +89,6 @@ FASHN is one of the most technically credible names in AI fashion imagery: stron
   </div>
 </aside>
 
-<ArticleEvidence profile="virtualTryOn" />
-
 ## How we evaluated Astria and FASHN
 
 We used six B2B buying questions: what the product treats as the unit of work, how creative direction is specified and reused, casting and asset depth, collaboration and review, channel and format coverage, and what it takes to run a whole collection rather than a single image.
@@ -105,7 +103,7 @@ We used six B2B buying questions: what the product treats as the unit of work, h
 | Category coverage | Apparel and accessory try-on and on-model imagery | Fashion-specific templates for apparel, beauty, jewelry, footwear, sports, luxury, and editorial | **Astria** |
 | Natural-looking people | Face swap and editing tools applied per image | Face-inpainting and refinement layer inside the production workflow | **Astria** |
 | Motion | Short one-click clips; 1080p video from the mid plan | Multiple current video options animate approved stills in the same workflow | **Astria** |
-| Team production | Seat-capped plans, from two to ten members | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
+| Team production | Team access depends on plan | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
 | Collection scale | Tool-by-tool in the app; catalog automation means building against the endpoints | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
 | Commercial model for brands | Per-seat plans with monthly and daily credit caps; every generation spends credits | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Best fit | Product teams embedding try-on, and creators needing individual image operations | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
@@ -153,7 +151,7 @@ This is FASHN's genuine edge and the one concession that matters here. If the re
 
 ### Collaboration, review, and handoff — winner: Astria
 
-FASHN's plans define collaboration by seat count—two, five, or ten members depending on tier. Astria treats review as part of production: private brand workspaces, a multiplayer Board with named cursors, and live voice over the actual looks. For work that passes between a photographer, an in-house studio, and an agency, the question is not how many logins exist but whether the next person inherits the decisions.
+Check [FASHN pricing](https://fashn.ai/pricing) for current team access and plan terms. Astria treats review as part of production: private brand workspaces, a multiplayer Board with named cursors, and live voice over the actual looks. For work that passes between a photographer, an in-house studio, and an agency, the question is not how many logins exist but whether the next person inherits the decisions.
 
 ### Collection scale — winner: Astria
 

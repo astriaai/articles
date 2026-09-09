@@ -183,7 +183,7 @@ Keep the full test record, including inconclusive results. Avoid declaring a win
 
 Track concept development, source production, all generation attempts, product review, editing, audio, captions, and delivery. Keep media spend separate so you can distinguish an expensive production process from an expensive acquisition channel.
 
-For illustration, $600 of production work yielding two approved creative variants is $300 per variant. Cropping those variants into three ratios each gives six files, not six independent creative ideas. Price both the underlying concepts and the additional finishing work explicitly. These are hypothetical inputs, not Astria pricing.
+Divide your production spend by the number of approved creative variants. Cropping two variants into three ratios each gives six files, not six independent creative ideas. Budget for both the underlying concepts and the additional finishing work. Use [Astria pricing](https://www.astria.ai/pricing) for current generation rates.
 
 A promising concept should survive a second SKU without losing its logic. Reuse the shot structure and editing treatment, but replace the evidence with footage of the actual new product. A removable-collar ad is not a template for a jacket whose collar is fixed.
 

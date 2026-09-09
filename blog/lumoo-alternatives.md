@@ -66,7 +66,7 @@ This guide is for buyers considering several alternatives. The [Astria vs Lumoo 
 
 ## Establish what Lumoo already covers
 
-Lumoo Air's [product page](https://lumoo.com/products/air) presents a connected workflow from one product photo to model shots, detail views, and video, with editing and live collaboration. Its monthly plan cards show Lite at €15 for 100 credits, Basic at €70 for 500, and Pro at €120 for 1,000. Basic and Pro list workflow templates and Shopify integration.
+Lumoo Air's [product page](https://lumoo.com/products/air) presents a connected workflow from one product photo to model shots, detail views, and video, with editing and live collaboration. Check [Lumoo pricing](https://lumoo.com/products/air) for current rates, allowances, workflow templates, and integration access.
 
 Those capabilities matter: a search for an alternative should not start by assuming Lumoo lacks templates, collaboration, or a store connection. Its plan illustrations are estimates of output, not guarantees of accepted catalog images. Test the relevant workflow and confirm the integration's actual scope before buying.
 
@@ -87,7 +87,7 @@ WearView's [plan page](https://www.wearview.co/pricing) lists product-to-model, 
 
 **The evaluation:** choose one recurring face and a fixed pose brief. Produce several garments, then add a new colorway. Compare face continuity, garment silhouette, and how much manual correction the operator needs. Test your own inputs; product-page examples do not establish performance on sheer fabric, unusual sleeves, or small prints.
 
-**The tradeoff:** check the feature tier you actually need before comparing price. The published credit rules also distinguish resolutions and workflows: ordinary HD image generation uses two credits, while HD virtual try-on uses one; 2K uses three and 4K five. That means “50 credits” is not automatically fifty deliverable images. [WearView's pricing rules](https://www.wearview.co/pricing) are the reference; our [WearView comparison](./astria-vs-wearview-fashion-ai.md) supplies the wider buying context.
+**The tradeoff:** check the feature tier you actually need before comparing price. Use [WearView pricing](https://www.wearview.co/pricing) for current credit requirements for your resolution and workflow; our [WearView comparison](./astria-vs-wearview-fashion-ai.md) supplies the wider buying context.
 
 ## FASHN: evaluate try-on and integration separately
 

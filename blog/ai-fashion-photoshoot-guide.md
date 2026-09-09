@@ -158,7 +158,7 @@ Per-image generation prices are commonly quoted in cents, and those numbers are 
 - Retouching or correction on the garments that fight back
 - The salaried hours of whoever runs the process
 
-A brand comparing "$0.10 per image" against "$3,000 per shoot day" is comparing a raw input cost against a fully-loaded one, and will be surprised. The honest comparison is worked through in [fashion photoshoot cost](./fashion-photoshoot-cost.md) and, per-SKU, in [product photography cost per SKU](./product-photography-cost-per-sku.md). For the wider workflow across catalog, lifestyle, on-model, and campaign assets, use the [AI product photography guide](./ai-product-photography.md).
+A brand comparing a generation rate against a full shoot-day quote is comparing a raw input cost against a fully-loaded one, and will be surprised. The honest comparison is worked through in [fashion photoshoot cost](./fashion-photoshoot-cost.md) and, per-SKU, in [product photography cost per SKU](./product-photography-cost-per-sku.md). For the wider workflow across catalog, lifestyle, on-model, and campaign assets, use the [AI product photography guide](./ai-product-photography.md).
 
 The genuine saving is usually not the per-image price. It is the disappearance of scheduling: no sample shipping, no model availability, no studio booking, no waiting three weeks because a product arrived late.
 

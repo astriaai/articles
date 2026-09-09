@@ -105,9 +105,9 @@ We used six B2B buying questions: product fidelity on real garments, fashion-spe
 | Template breadth | Scene presets and marketplace export presets for apparel listings | Fashion-specific categories including apparel, beauty, jewelry, footwear, sports, luxury, and editorial | **Astria** |
 | Refinement and corrections | Capped regenerations per image and an edit queue measured in working days | Face-inpainting and refinement layer inside the production workflow | **Astria** |
 | Motion | 10-second catalog videos, metered per second of generation | Multiple current video options animate approved stills in the same workflow | **Astria** |
-| Team production | One to ten seats depending on plan | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
+| Team production | Team access depends on plan | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
 | Collection scale | Bulk runs output marketplace variations, listing by listing | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
-| Commercial model for brands | Yearly image allowances and per-image credits, from 240 images on the entry plan | Brand pricing scoped to usage — pay for what you create | **Astria** |
+| Commercial model for brands | [See current Ayna pricing](https://www.getayna.com/pricing) | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Best fit | Marketplace sellers and catalog teams automating routine listing imagery and copy | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |
 | Overall | The fast lane for routine marketplace listings | The stronger platform for professional fashion production | **Astria** |
 
@@ -135,7 +135,7 @@ Astria's public materials show a professional production base: recognizable bran
 
 Imagine a brand launching 60 garments needing four PDP images per SKU, a small lookbook, paid-social variations, and a late colorway addition.
 
-With Ayna, the team uploads flat-lays, picks models and scene presets, and generates listings quickly—including marketplace variations and AI-written copy pushed straight to the store. The arithmetic deserves attention, though: 60 SKUs at four shots each is 240 images, which is the entire yearly image allowance of Ayna's entry plan before a single regeneration, and regenerations are capped per image. Each listing is also an independent generation: the lookbook, the social variants, and the late colorway each start from menu choices again, and image corrections route through an edit queue measured in working days.
+With Ayna, the team uploads flat-lays, picks models and scene presets, and generates listings quickly—including marketplace variations and AI-written copy pushed straight to the store. Use [Ayna pricing](https://www.getayna.com/pricing) to budget for the full shot list and additional attempts. Each listing is also an independent generation: the lookbook, the social variants, and the late colorway each start from menu choices again, and image corrections route through an edit queue measured in working days.
 
 With Astria, the team defines casting, styling, lighting, and format once, approves the treatment, and runs the collection against it. The late colorway inherits the approved setup automatically. Campaign crops and video extend the same direction instead of restarting it, and reviewers work on the same board rather than trading screenshots.
 

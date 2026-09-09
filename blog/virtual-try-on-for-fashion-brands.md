@@ -89,8 +89,6 @@ Two genuinely different technologies are sold under the name "virtual try-on," a
   </div>
 </aside>
 
-<ArticleEvidence profile="virtualTryOn" />
-
 ## The two things called virtual try-on
 
 **Brand-side try-on** takes a garment — a flat lay, a packshot, a sample on a hanger — and produces a photograph of a model wearing it. The output is an image file. It goes on the product page, in the lookbook, into the ad, onto Instagram. The buyer is whoever owns imagery: an ecommerce manager, a brand marketer, a studio producing for the brand.
