@@ -12,7 +12,6 @@ keywords:
   - AI headshots without training
   - instant AI headshot
   - consistent likeness AI
-  - FaceID Astria
 ---
 
 *Originally published April 2024. Reviewed August 2026 — see [Where this stands in 2026](#where-this-stands-in-2026) below.*
@@ -69,7 +68,7 @@ So how do we at Astria.ai come in?
 
 # Create AI Headshots and Portraits From a Reference Photo
 
-Astria's no-training portrait workflow is called FaceID. It preserves a person's likeness from a reference photo and can begin generating images in seconds, without training a custom model. You can start with one clear photograph.
+Astria's composer can preserve a person's likeness from a reference photo without training a custom model. You can start with one clear photograph and generate a new portrait directly from the composer.
 
 
 
@@ -78,15 +77,9 @@ Astria's no-training portrait workflow is called FaceID. It preserves a person's
 
 This feature comes in very handy if you need to generate images quickly and efficiently – such as if you’re offering a free-tier service in a user app and need profile images to be generated in a jiffy. It can also be applied in real-time applications like live-streaming or virtual try-ons.
 
-In e-commerce applications, instant fine-tuning can be a game-changer as it allows users to visualize products with their own images seamlessly, enhancing the shopping experience and boosting conversion rates. In the gaming industry, instant fine-tuning can be used to create personalized gaming avatars or characters that resemble the user, thereby increasing immersion and emotional connection with the game. Additionally, social media platforms could use the FaceID feature to offer instant filters and lenses, letting users create and share more personalized content with their friends and followers.
+In e-commerce applications, reference-based generation can let users visualize products with their own images. It can also support personalized avatars, profile photos, social content, and other experiences where the result should resemble the person in the supplied photo.
 
-Just one point to remember: the adapter was trained on human faces, so best not to try faces of your pets or other subjects at the moment. A few other points to note:
-
-
-
-* FaceID can work with [Face Swap](https://docs.astria.ai/docs/features/face-swap) to improve similarity. Disable Face Swap in case your prompt is animation style.
-* For fast generation, use [LCM schedulers](https://docs.astria.ai/docs/features/lcm).
-* For realistic images, enable Face-Correct to improve the facial features.
+Use a sharp, well-lit reference with one unobstructed face. A front-facing or three-quarter portrait is easier to preserve than a distant group photo, heavy filter, or image where hair, glasses, or hands cover important facial details.
 
 
 # AI Portraits Without Model Training vs Full Fine-Tuning
@@ -95,76 +88,35 @@ Astria offers full fine-tuning tools using the [Dreambooth](https://huggingface.
 
 Apart from this, Astria also has the option of LoRA fine-tuning. In this technique, instead of fine-tuning the entire model, a low-rank adapter layer is inserted into the model architecture. This reduces the computational time and storage requirements leading to a lower cost of fine-tuning.
 
-Both the techniques above are well suited for high fidelity on identity preservation of the subject images, but they take around 5-10 minutes for process completion and, therefore, we have FaceID for instant results.
+Both techniques above are well suited to high-fidelity identity preservation, but they require a training step. Reference-based generation is the faster option when you want to begin from an attached photo.
 
-FaceID does not involve training of the model at all. Under the hood it only calculates and retains the embeddings of the training images, and then reproduces these embeddings during inference. This way the Stable Diffusion model doesn’t have to go through any changes in its weights, and that’s why the fine-tuning process is so rapid. It takes less than 10 seconds for a FaceID based fine-tune to be created.
-
-
-# How to Create No-Training AI Portraits on Astria
-
-As mentioned before, the FaceID fine-tune can be done with just one image. But, for the sake of fidelity, we’ve taken 3 images of a model from [Unsplash](https://unsplash.com). Here are the input images:
+Reference-based generation does not update the model's weights. The attached image conditions the generation at inference time, which is why there is no separate model-training wait.
 
 
+# How to Create No-Training AI Portraits in the Composer
 
-![alt_text](face-id/image2.png "image_tooltip")
-
-
-Now head over to the [New Finetune](https://www.astria.ai/tunes/new) section.
-
-
-![alt_text](face-id/image3.png "image_tooltip")
-
-
-Under the Advanced features, select the Model type as FaceID. Remember to provide the Class name (woman, in this case).
-
-Your tune will be ready in a matter of seconds.
-
-Here’s the API to create the tune:
-
-
-```bash
-curl -X POST -H "Authorization: Bearer $API_KEY" https://api.astria.ai/tunes \
-         -F tune[title]="Unsplash Model Female - 1" \
-         -F tune[name]=woman \
-         -F tune[base_tune_id]=690204 \
-         -F tune[images][0]="@1.jpg" \
-         -F tune[images][1]="@2.jpg" \
-         -F tune[images][2]="@3.jpg" \
-```
-
-
-Base_tune_id = 69024 refers to the Realistic Vision V5.1 (VAE) model that we used as the base model. You can check out the list of available models [here](https://www.astria.ai/gallery/tunes).
+You can begin with one photo. For the examples below, we used three photos of a model from [Unsplash](https://unsplash.com) so the face is visible from more than one angle.
 
 
 
-![alt_text](face-id/image7.png "image_tooltip")
+![Three portrait references of the same model from different angles](face-id/image2.png)
 
 
-Let’s start prompting with some real-life use cases, where instant headshot generation would be useful.
+1. Open the [Astria composer](https://www.astria.ai/prompts).
+2. Drag a clear face photo into the composer to attach it as a reference. Add another angle only when it helps clarify the likeness.
+3. Describe the portrait you want: framing, wardrobe, expression, lighting, background, and photographic style.
+4. Generate, review the likeness, and adjust the reference or prompt if an important facial feature drifts.
+
+The reference remains attached in the composer, so the prompt only needs to describe the new portrait. Here are four starting points.
 
 
 ## Use-Case 1: Professional Networking
 
 ```
-Prompt: A professional headshot of a female software engineer, wearing a blue blazer, with a friendly smile and confident gaze, studio lighting, high-resolution, 8k, sharp focus, Nikon D850, 85mm lens, f/1.8, 1/200s, ISO 100 &lt;faceid:1155049:1.0> **(replace this with the faceid number of your tune**)
+Prompt: A professional headshot of a female software engineer, wearing a blue blazer, with a friendly smile and confident gaze, studio lighting, high-resolution, 8k, sharp focus, Nikon D850, 85mm lens, f/1.8, 1/200s, ISO 100
 
 Negative Prompt: unprofessional, casual, blurry, low-resolution, poor lighting, unflattering angles, awkward pose, unfriendly expression, distracting background, snapshot, amateur, overexposed, underexposed, harsh shadows, uneven skin tone
 ```
-
-API to create the prompt:
-
-
-```bash
-curl -X POST -H "Authorization: Bearer $API_KEY" https://api.astria.ai/tunes/1155049/prompts \
-         -F prompt[text]="A professional headshot of a female software engineer, wearing a blue blazer, with a friendly smile and confident gaze, studio lighting, high-resolution, 8k, sharp focus, Nikon D850, 85mm lens, f/1.8, 1/200s, ISO 100 <faceid:1155049:1.0>" \
-         -F prompt[negative_prompt]="unprofessional, casual, blurry, low-resolution, poor lighting, unflattering angles, awkward pose, unfriendly expression, distracting background, snapshot, amateur, overexposed, underexposed, harsh shadows, uneven skin tone" \
-         -F prompt[super_resolution]=true \
-         -F prompt[face_correct]=true \
-```
-
-
-Note the number 1155049 refers to the tune number. Replace it with the tune number of your own fine-tune.
-
 
 ![alt_text](face-id/image1.png "image_tooltip")
 
@@ -173,7 +125,7 @@ Note the number 1155049 refers to the tune number. Replace it with the tune numb
 ## Use-Case 2: Fitness & Wellness Coach
 
 ```
-Prompt: A vibrant and inspiring headshot of a fitness coach, wearing a bright green athletic top, with an energetic smile and motivated expression, outdoor natural lighting, high-resolution, 8k, sharp focus, Nikon Z7 II, 85mm lens, f/2.8, 1/200s, ISO 200, vivid color palette, blurred park background, sun flare&lt;faceid:1155049:1.0>
+Prompt: A vibrant and inspiring headshot of a fitness coach, wearing a bright green athletic top, with an energetic smile and motivated expression, outdoor natural lighting, high-resolution, 8k, sharp focus, Nikon Z7 II, 85mm lens, f/2.8, 1/200s, ISO 200, vivid color palette, blurred park background, sun flare
 
 Negative: unhealthy, unmotivated, low-energy, poorly lit, low-quality, blurry, awkward pose, unflattering angles, harsh shadows, distracting background, snapshot, amateur, overexposed, underexposed, uneven skin tone, no retouching, no visible workout equipment
 ```
@@ -185,7 +137,7 @@ Negative: unhealthy, unmotivated, low-energy, poorly lit, low-quality, blurry, a
 ## Use-Case 3: Social Media and Marketing Influencer
 
 ```
-Prompt: A vibrant and engaging headshot of a female fashion influencer, wearing a stylish red dress, with a charming smile and confident pose, golden hour lighting, high-resolution, 8k, sharp focus, Canon EOS R5, 50mm lens, f/1.4, 1/160s, ISO 100, cinematic color grading, bokeh background &lt;faceid:1155049:1.0>
+Prompt: A vibrant and engaging headshot of a female fashion influencer, wearing a stylish red dress, with a charming smile and confident pose, golden hour lighting, high-resolution, 8k, sharp focus, Canon EOS R5, 50mm lens, f/1.4, 1/160s, ISO 100, cinematic color grading, bokeh background
 
 Negative: unfashionable, poorly lit, low-quality, blurry, awkward pose, unflattering angles, dull colors, flat lighting, distracting background, snapshot, amateur, overexposed, underexposed, harsh shadows, uneven skin tone, no makeup, no retouching
 ```
@@ -198,7 +150,7 @@ Negative: unfashionable, poorly lit, low-quality, blurry, awkward pose, unflatte
 ## Use-Case 4: Educational Platform & Online Learning
 
 ```
-Prompt: A friendly and approachable headshot of a female history professor, wearing a navy blue sweater, with a warm smile and inviting gaze, soft natural lighting, high-resolution, 8k, sharp focus, Sony A7R IV, 85mm lens, f/2.8, 1/125s, ISO 200, neutral color palette, clean background&lt;faceid:1155049:1.0>
+Prompt: A friendly and approachable headshot of a female history professor, wearing a navy blue sweater, with a warm smile and inviting gaze, soft natural lighting, high-resolution, 8k, sharp focus, Sony A7R IV, 85mm lens, f/2.8, 1/125s, ISO 200, neutral color palette, clean background
 
 Negative: intimidating, unapproachable, unprofessional, poorly lit, low-quality, blurry, awkward pose, unflattering angles, harsh shadows, distracting background, snapshot, amateur, overexposed, underexposed, uneven skin tone, no retouching
 ```
@@ -210,7 +162,7 @@ Negative: intimidating, unapproachable, unprofessional, poorly lit, low-quality,
 
 # When a No-Training Portrait Workflow Fits
 
-By implementing FaceID in your tech stack, you unlock the power of real-time, high-quality image generation. Consider the possibilities:
+The reference-first composer works well when you need a portrait quickly and do not want to create and manage a trained model. Common uses include:
 
 
 
@@ -222,13 +174,13 @@ By implementing FaceID in your tech stack, you unlock the power of real-time, hi
 6. E-commerce Apps
 7. Free-Tier Services
 
-Integrating FaceID into your application is a straightforward process, thanks to Astria.ai’s developer-friendly [API](https://docs.astria.ai/docs/category/api). With just a few lines of code, you can integrate the feature into your tech stack, letting your users generate portraits with minimal waiting time.
+For an app integration rather than the visual composer, use Astria's current [API documentation](https://docs.astria.ai/docs/category/api) as the source of truth for reference-image inputs.
 
 ## Where this stands in 2026
 
-FaceID's core promise — a consistent likeness without waiting for a model to train — still holds, and the instant-reference approach has since been extended across newer model branches. Two things changed worth knowing:
+The core promise — a consistent likeness without waiting for a model to train — still holds, and the instant-reference approach has since been extended across newer model branches. Two things changed worth knowing:
 
 - **Instant references are no longer only about faces.** The same idea now covers products, poses, backgrounds, and garments, which is what makes a whole photoshoot template reusable rather than just a person.
-- **A trained model still wins on hard likenesses.** For a face that has to hold up across dozens of images at close crop, training on eight to sixteen images remains more reliable than a single reference. FaceID is the fast path, not the strictly better one.
+- **A trained model still wins on hard likenesses.** For a face that has to hold up across dozens of images at close crop, training on eight to sixteen images remains more reliable than a single reference. Dragging a reference into the composer is the fast path, not the strictly better one.
 
 If you are producing portraits for a whole team rather than one person, the constraint is consistency across people — see [AI headshots for teams](./ai-headshots-for-teams.md). For the fashion production equivalent, see the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md).
