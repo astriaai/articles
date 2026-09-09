@@ -58,9 +58,9 @@ No row means “always use this model.” It means this is where we would start 
 MAI-Image-2.6 entered Astria's public partner gallery after the four-model benchmark was designed. We attempted to add it to the same reusable-reference matrix on September 8, 2026. Those requests failed with an unexpected endpoint error. Direct single-image editing worked, so we ran a separate reference-led qualification rather than silently changing the benchmark controls.
 
 <div className="benchmark-grid benchmark-grid--three">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Supplied burnt-orange crane jacket reference" /><figcaption><strong>Source</strong>Four cranes, four buttons, jacquard, and scalloped hem</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-jacket-edit.webp" alt="MAI Image 2.6 direct jacket edit qualification" /><figcaption><strong>MAI-Image-2.6</strong>Excellent first-output jacket preservation</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-flash-jacket-edit.webp" alt="MAI Image 2.6 Flash direct jacket edit qualification" /><figcaption><strong>Flash</strong>Strong campaign frame with simplified construction detail</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Supplied burnt-orange crane jacket reference" /><figcaption><strong>Source</strong>Four cranes, four buttons, jacquard, and scalloped hem</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-jacket-edit.webp" alt="MAI Image 2.6 direct jacket edit qualification" /><figcaption><strong>MAI-Image-2.6</strong>Excellent first-output jacket preservation</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-flash-jacket-edit.webp" alt="MAI Image 2.6 Flash direct jacket edit qualification" /><figcaption><strong>Flash</strong>Strong campaign frame with simplified construction detail</figcaption></figure>
 </div>
 
 The jacket and jewelry selections cleared both publication gates: the result is attractive enough to show and the supplied product remains inspectable against its source. A benign adult swimwear edit was blocked. Flash finished the matched jacket cell faster, while the flagship preserved more construction detail. See [Astria's pricing page](https://www.astria.ai/pricing) for current model pricing.
@@ -74,11 +74,11 @@ GPT Image 2.5 launched after the original benchmark capture. To make the new mod
 Browse the live [GPT Image 2.5 Sunburst gallery](https://www.astria.ai/gallery/tunes/5634510/prompts) and [GPT Image 2.5 Flare gallery](https://www.astria.ai/gallery/tunes/5634511/prompts).
 
 <div className="benchmark-grid">
-  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/46627868"><img loading="lazy" src="https://mp.astria.ai/rtdwmzk0remmhdrrn4e7kbzij2kt" alt="GPT Image 2.5 Sunburst Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Sunburst</strong>GPT Image 2.5, Sloane with the reference dress and bag</figcaption></figure>
-  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/46627866"><img loading="lazy" src="https://mp.astria.ai/w3a7wmdf2mpugy5h1r67s9cg899b" alt="GPT Image 2.5 Flare Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Flare</strong>GPT Image 2.5, matched Sloane rerun</figcaption></figure>
-  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/35515953"><img loading="lazy" src="https://mp.astria.ai/shpr04pjunn9kjkg95x0ttalcf28" alt="Nano Banana 2 Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Nano Banana 2</strong>Existing reference-led counterpart</figcaption></figure>
-  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/46557199"><img loading="lazy" src="https://mp.astria.ai/eoddzwykczgozkahbd4713wogklc" alt="MAI Image 2.6 Flash Sloane dress hero with reference dress and bag" /></a><figcaption><strong>MAI-Image-2.6-Flash</strong>Source comparison run</figcaption></figure>
-  <figure className="benchmark-card"><a href="https://www.astria.ai/prompts/46557200"><img loading="lazy" src="https://mp.astria.ai/fab6fytbch30ylwuq4zmbscmu8y6" alt="Muse Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Muse</strong>Source comparison run</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="https://www.astria.ai/prompts/46627868"><a href="https://www.astria.ai/prompts/46627868"><img loading="lazy" src="https://mp.astria.ai/rtdwmzk0remmhdrrn4e7kbzij2kt" alt="GPT Image 2.5 Sunburst Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Sunburst</strong>GPT Image 2.5, Sloane with the reference dress and bag</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="https://www.astria.ai/prompts/46627866"><a href="https://www.astria.ai/prompts/46627866"><img loading="lazy" src="https://mp.astria.ai/w3a7wmdf2mpugy5h1r67s9cg899b" alt="GPT Image 2.5 Flare Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Flare</strong>GPT Image 2.5, matched Sloane rerun</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="https://www.astria.ai/prompts/35515953"><a href="https://www.astria.ai/prompts/35515953"><img loading="lazy" src="https://mp.astria.ai/shpr04pjunn9kjkg95x0ttalcf28" alt="Nano Banana 2 Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Nano Banana 2</strong>Existing reference-led counterpart</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="https://www.astria.ai/prompts/46557199"><a href="https://www.astria.ai/prompts/46557199"><img loading="lazy" src="https://mp.astria.ai/eoddzwykczgozkahbd4713wogklc" alt="MAI Image 2.6 Flash Sloane dress hero with reference dress and bag" /></a><figcaption><strong>MAI-Image-2.6-Flash</strong>Source comparison run</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="https://www.astria.ai/prompts/46557200"><a href="https://www.astria.ai/prompts/46557200"><img loading="lazy" src="https://mp.astria.ai/fab6fytbch30ylwuq4zmbscmu8y6" alt="Muse Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Muse</strong>Source comparison run</figcaption></figure>
 </div>
 
 These are reference-led examples, not a new universal ranking. Compare the same brief horizontally, then inspect the prompt records and source references before drawing a production conclusion.
@@ -93,12 +93,7 @@ All references are synthetic and brand-neutral. Portrait comparisons used 3:4 be
 
 **Brief:** one fixed adult identity, one referenced white tank, ivory wide-leg trousers, black slingbacks, a walking pose, pale-stone gallery, late-afternoon side light, and no text or extra people.
 
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-nano-banana-2.webp" alt="Nano Banana 2 fashion editorial with a white tank and ivory trousers" /><figcaption><strong>Nano Banana 2</strong>Balanced direction, movement, and reference use</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-gpt-image-2.webp" alt="GPT Image 2 fashion editorial with a white tank and ivory trousers" /><figcaption><strong>GPT Image 2</strong>Polished pose and campaign finish</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-seedream-5.webp" alt="Seedream 5 fashion editorial with a white tank and ivory trousers" /><figcaption><strong>Seedream 5 Pro</strong>Strong color and natural fabric handling</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-muse.webp" alt="Muse fashion editorial with a white tank and ivory trousers" /><figcaption><strong>Muse</strong>Dramatic trouser movement and solid references</figcaption></figure>
-</div>
+<p className="benchmark-caption">This general-fashion strip is omitted from public display because its supplied person-and-garment source set is not published with the benchmark.</p>
 <p className="benchmark-caption">All four models produced usable fashion frames. Nano Banana 2 earns the default recommendation from its balance across this and the other fashion tasks, not from a runaway win in one image.</p>
 
 This is the most important result because it reflects ordinary production. A default should be broadly competent before it is exceptional. Nano Banana 2 followed the art direction, preserved the cast and shirt, gave the fabric believable movement, and produced a composition that did not demand a new workflow decision.
@@ -108,10 +103,10 @@ This is the most important result because it reflects ordinary production. A def
 **Brief:** preserve the synthetic jacket's burnt-orange jacquard, teal crane motifs, brass buttons, collar, sleeves, and scalloped hem over a black dress against deep teal.
 
 <div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-nano-banana-2.webp" alt="Nano Banana 2 orange jacquard jacket benchmark" /><figcaption><strong>Nano Banana 2</strong>Good balance of product detail and portrait</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-gpt-image-2.webp" alt="GPT Image 2 orange jacquard jacket benchmark" /><figcaption><strong>GPT Image 2</strong>Strong finish with small detail variation</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-seedream-5.webp" alt="Seedream 5 orange jacquard jacket benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Best color and surface rendering here</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-muse.webp" alt="Muse orange jacquard jacket benchmark" /><figcaption><strong>Muse</strong>Dramatic result; some details shift or crop</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-nano-banana-2.webp" alt="Nano Banana 2 orange jacquard jacket benchmark" /><figcaption><strong>Nano Banana 2</strong>Good balance of product detail and portrait</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-gpt-image-2.webp" alt="GPT Image 2 orange jacquard jacket benchmark" /><figcaption><strong>GPT Image 2</strong>Strong finish with small detail variation</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-seedream-5.webp" alt="Seedream 5 orange jacquard jacket benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Best color and surface rendering here</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-muse.webp" alt="Muse orange jacquard jacket benchmark" /><figcaption><strong>Muse</strong>Dramatic result; some details shift or crop</figcaption></figure>
 </div>
 <p className="benchmark-caption">The source jacket is synthetic. Ground truth follows the rendered source: four crane motifs and four brass buttons.</p>
 
@@ -124,20 +119,20 @@ Two tasteful briefs tested the same adult identity and cobalt swimsuit: straight
 ### Ecommerce
 
 <div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-nano-banana-2.webp" alt="Nano Banana 2 tasteful swimwear ecommerce benchmark" /><figcaption><strong>Nano Banana 2</strong>Full-length and commercially clean</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-gpt-image-2.webp" alt="GPT Image 2 tasteful swimwear ecommerce benchmark" /><figcaption><strong>GPT Image 2</strong>Clean full-length presentation</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-seedream-5.webp" alt="Seedream 5 tasteful swimwear ecommerce benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Strong garment and identity; tighter crop</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-muse.webp" alt="Muse tasteful swimwear ecommerce benchmark" /><figcaption><strong>Muse</strong>Dependable reference-grounded frame</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-nano-banana-2.webp" alt="Nano Banana 2 tasteful swimwear ecommerce benchmark" /><figcaption><strong>Nano Banana 2</strong>Full-length and commercially clean</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-gpt-image-2.webp" alt="GPT Image 2 tasteful swimwear ecommerce benchmark" /><figcaption><strong>GPT Image 2</strong>Clean full-length presentation</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-seedream-5.webp" alt="Seedream 5 tasteful swimwear ecommerce benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Strong garment and identity; tighter crop</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-muse.webp" alt="Muse tasteful swimwear ecommerce benchmark" /><figcaption><strong>Muse</strong>Dependable reference-grounded frame</figcaption></figure>
 </div>
 <p className="benchmark-caption">Seedream preserved the product well but its predetermined first ecommerce output did not satisfy the requested full-length framing.</p>
 
 ### Poolside editorial
 
 <div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-nano-banana-2.webp" alt="Nano Banana 2 poolside adult swimwear editorial benchmark" /><figcaption><strong>Nano Banana 2</strong>Tasteful output; two of three images returned</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-gpt-image-2.webp" alt="GPT Image 2 poolside adult swimwear editorial benchmark" /><figcaption><strong>GPT Image 2</strong>Polished resort composition</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-seedream-5.webp" alt="Seedream 5 poolside adult swimwear editorial benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Reliable completion and strong cobalt tones</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-muse.webp" alt="Muse poolside adult swimwear editorial benchmark" /><figcaption><strong>Muse</strong>Reference-faithful editorial framing</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-nano-banana-2.webp" alt="Nano Banana 2 poolside adult swimwear editorial benchmark" /><figcaption><strong>Nano Banana 2</strong>Tasteful output; two of three images returned</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-gpt-image-2.webp" alt="GPT Image 2 poolside adult swimwear editorial benchmark" /><figcaption><strong>GPT Image 2</strong>Polished resort composition</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-seedream-5.webp" alt="Seedream 5 poolside adult swimwear editorial benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Reliable completion and strong cobalt tones</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-muse.webp" alt="Muse poolside adult swimwear editorial benchmark" /><figcaption><strong>Muse</strong>Reference-faithful editorial framing</figcaption></figure>
 </div>
 <p className="benchmark-caption">Every endpoint produced safe, tasteful outputs. The Nano Banana 2 request returned two images instead of three, with no reported error or moderation reason; we do not claim to know why.</p>
 
@@ -148,10 +143,10 @@ The measured run does not establish a moderation-rate ranking. It does support S
 **Brief:** close beauty portrait, a referenced rose serum bottle held beside the face, exact bottle label, and the headline **COLOR, KEPT TRUE** once above the left shoulder.
 
 <div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-nano-banana-2.webp" alt="Nano Banana 2 beauty campaign with serum and headline" /><figcaption><strong>Nano Banana 2</strong>Exact large headline; solid beauty result</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-gpt-image-2.webp" alt="GPT Image 2 beauty campaign with serum and headline" /><figcaption><strong>GPT Image 2</strong>Best combined beauty-ad composition</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-seedream-5.webp" alt="Seedream 5 beauty campaign with serum and headline" /><figcaption><strong>Seedream 5 Pro</strong>Strong skin and color; small label less stable</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-muse.webp" alt="Muse beauty campaign with serum and headline" /><figcaption><strong>Muse</strong>Exact headline and dependable product placement</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-beauty.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-nano-banana-2.webp" alt="Nano Banana 2 beauty campaign with serum and headline" /><figcaption><strong>Nano Banana 2</strong>Exact large headline; solid beauty result</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-beauty.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-gpt-image-2.webp" alt="GPT Image 2 beauty campaign with serum and headline" /><figcaption><strong>GPT Image 2</strong>Best combined beauty-ad composition</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-beauty.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-seedream-5.webp" alt="Seedream 5 beauty campaign with serum and headline" /><figcaption><strong>Seedream 5 Pro</strong>Strong skin and color; small label less stable</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-beauty.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-muse.webp" alt="Muse beauty campaign with serum and headline" /><figcaption><strong>Muse</strong>Exact headline and dependable product placement</figcaption></figure>
 </div>
 <p className="benchmark-caption">The large headline is readable in all four selected outputs. The specialist verdict combines typography with portrait finish, product placement, and advertising composition.</p>
 
@@ -164,10 +159,10 @@ Small packaging copy remains a high-risk detail in every generated image. Use th
 **Brief:** place the same nine-emerald, rose-gold necklace on the cast; preserve the settings, small white diamonds, chain, spacing, and proportions; frame both face and necklace clearly.
 
 <div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card benchmark-card--square"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-nano-banana-2.webp" alt="Nano Banana 2 on-model emerald necklace benchmark" /><figcaption><strong>Nano Banana 2</strong>Strong portrait; inspect fine geometry</figcaption></figure>
-  <figure className="benchmark-card benchmark-card--square"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-gpt-image-2.webp" alt="GPT Image 2 on-model emerald necklace benchmark" /><figcaption><strong>GPT Image 2</strong>Polished metal and gemstone presentation</figcaption></figure>
-  <figure className="benchmark-card benchmark-card--square"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-seedream-5.webp" alt="Seedream 5 on-model emerald necklace benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Rich color and consistent identity</figcaption></figure>
-  <figure className="benchmark-card benchmark-card--square"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-muse.webp" alt="Muse on-model emerald necklace benchmark" /><figcaption><strong>Muse</strong>Most dependable reference interpretation here</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--square" data-source-reference="/articles/img/model-benchmarks/2026-09/source-necklace.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-nano-banana-2.webp" alt="Nano Banana 2 on-model emerald necklace benchmark" /><figcaption><strong>Nano Banana 2</strong>Strong portrait; inspect fine geometry</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--square" data-source-reference="/articles/img/model-benchmarks/2026-09/source-necklace.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-gpt-image-2.webp" alt="GPT Image 2 on-model emerald necklace benchmark" /><figcaption><strong>GPT Image 2</strong>Polished metal and gemstone presentation</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--square" data-source-reference="/articles/img/model-benchmarks/2026-09/source-necklace.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-seedream-5.webp" alt="Seedream 5 on-model emerald necklace benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Rich color and consistent identity</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--square" data-source-reference="/articles/img/model-benchmarks/2026-09/source-necklace.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-muse.webp" alt="Muse on-model emerald necklace benchmark" /><figcaption><strong>Muse</strong>Most dependable reference interpretation here</figcaption></figure>
 </div>
 <p className="benchmark-caption">A convincing necklace is not necessarily the same necklace. Compare stone count, prongs, spacing, chain, clasp, scale, and placement before commerce use.</p>
 
@@ -179,41 +174,7 @@ For primary listing imagery, keep a macro photograph of the actual piece. The wi
 
 The next matrix changes crop and pose while keeping the person, jacket, pale-stone setting, and restrained light fixed. Read each row horizontally.
 
-### Nano Banana 2
-
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-nano-close.webp" alt="Nano Banana 2 identity benchmark close-up" /><figcaption><strong>Close-up</strong>Direct gaze</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-nano-full.webp" alt="Nano Banana 2 identity benchmark full length" /><figcaption><strong>Full length</strong>Square stance</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-nano-seated.webp" alt="Nano Banana 2 identity benchmark seated" /><figcaption><strong>Seated</strong>Steel bench</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-nano-motion.webp" alt="Nano Banana 2 identity benchmark walking" /><figcaption><strong>Movement</strong>Walking toward camera</figcaption></figure>
-</div>
-
-### GPT Image 2
-
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-gpt-close.webp" alt="GPT Image 2 identity benchmark close-up" /><figcaption><strong>Close-up</strong>Direct gaze</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-gpt-full.webp" alt="GPT Image 2 identity benchmark full length" /><figcaption><strong>Full length</strong>Square stance</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-gpt-seated.webp" alt="GPT Image 2 identity benchmark seated" /><figcaption><strong>Seated</strong>Steel bench</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-gpt-motion.webp" alt="GPT Image 2 identity benchmark walking" /><figcaption><strong>Movement</strong>Walking toward camera</figcaption></figure>
-</div>
-
-### Seedream 5 Pro
-
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-close.webp" alt="Seedream 5 identity benchmark close-up" /><figcaption><strong>Close-up</strong>Direct gaze</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-full.webp" alt="Seedream 5 identity benchmark full length" /><figcaption><strong>Full length</strong>Square stance</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-seated.webp" alt="Seedream 5 identity benchmark seated" /><figcaption><strong>Seated</strong>Steel bench</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-motion.webp" alt="Seedream 5 identity benchmark walking" /><figcaption><strong>Movement</strong>Walking toward camera</figcaption></figure>
-</div>
-
-### Muse
-
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-close.webp" alt="Muse identity benchmark close-up" /><figcaption><strong>Close-up</strong>Direct gaze</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-full.webp" alt="Muse identity benchmark full length" /><figcaption><strong>Full length</strong>Square stance</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-seated.webp" alt="Muse identity benchmark seated" /><figcaption><strong>Seated</strong>Steel bench</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-motion.webp" alt="Muse identity benchmark walking" /><figcaption><strong>Movement</strong>Walking toward camera</figcaption></figure>
-</div>
+<p className="benchmark-caption">The identity strips are omitted from public display because the supplied cast reference is not part of the published source set.</p>
 <p className="benchmark-caption">All four rows keep a recognizable cast. Seedream 5 and Muse are particularly strong reference options; Nano Banana 2 remains the balanced fashion default across the complete set.</p>
 
 Identity is not just a face crop. A production model has to survive changing camera distance, body visibility, pose, and fabric movement. This test is deliberately small, so the conclusion is qualitative: all four are viable; Seedream 5's skin and facial continuity reinforce its specialist role, while Muse's consistent interpretation reinforces its reference-first role.
@@ -222,12 +183,7 @@ Identity is not just a face crop. A production model has to survive changing cam
 
 The final brief combines the cast, orange jacket, emerald necklace, serum bottle, exact right-hand placement, deep teal backdrop, coral floor strip, product attributes, and a no-extras list.
 
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/complex-nano-banana-2.webp" alt="Nano Banana 2 complex multi-reference benchmark" /><figcaption><strong>Nano Banana 2</strong>Very strong multi-reference result</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/complex-gpt-image-2.webp" alt="GPT Image 2 complex multi-reference benchmark" /><figcaption><strong>GPT Image 2</strong>Strong composition and object separation</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/complex-seedream-5.webp" alt="Seedream 5 complex multi-reference benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Strong color, texture, and identity</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/complex-muse.webp" alt="Muse complex multi-reference benchmark" /><figcaption><strong>Muse</strong>First choice when constraints are the job</figcaption></figure>
-</div>
+<p className="benchmark-caption">The multi-reference output strip is omitted because the complete person, jacket, jewelry, and beauty source set is not published with the benchmark.</p>
 <p className="benchmark-caption">The first outputs are unusually strong across the board. Muse's recommendation is about dependable reference-led behavior across the jewelry and complex tests, not a claim that the other three failed this frame.</p>
 
 This is what “thinking model” means in our Muse recommendation: the output behaves as if the brief's references and constraints were considered together before composition. We are describing observable behavior, not asserting undocumented internal architecture.

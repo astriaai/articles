@@ -9,6 +9,7 @@ const WHEEL_SENSITIVITY = 0.0012;
 type OpenImage = {
   alt: string;
   href?: string;
+  sourceHref?: string;
   src: string;
 };
 
@@ -96,6 +97,7 @@ export default function ImageLightbox() {
       if (!(target instanceof HTMLImageElement)) return;
       if (!target.matches('.markdown img:not([data-no-zoom])')) return;
       const sourceLink = target.closest('a[href]') as HTMLAnchorElement | null;
+      const sourceReference = target.closest('[data-source-reference]') as HTMLElement | null;
       event.preventDefault();
       event.stopPropagation();
       previousFocus.current = target;
@@ -103,6 +105,7 @@ export default function ImageLightbox() {
         src: target.currentSrc || target.src,
         alt: target.alt || 'Expanded article image',
         href: sourceLink?.href,
+        sourceHref: sourceReference?.dataset.sourceReference,
       });
       updateView(initialView);
     };
@@ -267,9 +270,9 @@ export default function ImageLightbox() {
       </div>
 
       <div className={styles.controls} aria-label="Zoom controls">
-        {openImage.href ? (
-          <a className={styles.sourceLink} href={openImage.href} target="_blank" rel="noreferrer">
-            Open source
+        {openImage.sourceHref || openImage.href ? (
+          <a className={styles.sourceLink} href={openImage.sourceHref || openImage.href} target="_blank" rel="noreferrer">
+            {openImage.sourceHref ? 'View source references' : 'Open source'}
           </a>
         ) : null}
         <button type="button" onClick={() => zoomAt(viewRef.current.zoom / 1.35)} disabled={view.zoom <= 1} aria-label="Zoom out">

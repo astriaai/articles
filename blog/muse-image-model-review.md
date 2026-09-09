@@ -27,7 +27,7 @@ We gave Muse the necklace image on the left and asked it to show the necklace on
 
 <div className="benchmark-grid benchmark-grid--two">
   <figure className="benchmark-card benchmark-card--square benchmark-card--source"><img loading="eager" src="/articles/img/model-benchmarks/2026-09/source-necklace.webp" alt="Synthetic emerald necklace supplied as the source reference" /><figcaption><strong>Input: necklace reference</strong>Synthetic product image used in this test.</figcaption></figure>
-  <figure className="benchmark-card benchmark-card--square benchmark-card--source"><img loading="eager" src="/articles/img/model-benchmarks/2026-09/jewelry-muse.webp" alt="Muse-generated portrait of a person wearing the emerald necklace" /><figcaption><strong>Output: Muse image</strong>The necklace shown on a generated person.</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--square" data-source-reference="/articles/img/model-benchmarks/2026-09/source-necklace.webp"><img loading="eager" src="/articles/img/model-benchmarks/2026-09/jewelry-muse.webp" alt="Muse-generated portrait of a person wearing the emerald necklace" /><figcaption><strong>Output: Muse image</strong>The necklace shown on a generated person.</figcaption></figure>
 </div>
 
 ## Muse at a glance
@@ -55,7 +55,7 @@ The final benchmark brief combined:
 - product-specific counts and colors;
 - an explicit list banning extra garments, jewelry, bottles, text, objects, and people.
 
-<figure className="benchmark-card benchmark-card--single"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/complex-muse.webp" alt="Muse complex multi-reference fashion campaign benchmark" /><figcaption><strong>Muse</strong>First choice when satisfying simultaneous constraints is the central job.</figcaption></figure>
+<p className="benchmark-caption">The complex-reference output is omitted because the complete person, jacket, jewelry, and beauty source set is not published with the article.</p>
 
 Nano Banana 2, GPT Image 2, and Seedream 5 also produced unusually strong first outputs for this brief. Muse's recommendation comes from its dependable behavior across this case and the product-reference tests, not from a claim that every competitor failed.
 
@@ -69,12 +69,7 @@ The result still requires macro inspection. Generated jewelry can look convincin
 
 Muse kept both face and jacket recognizable across four crops and poses.
 
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-close.webp" alt="Muse identity close-up" /><figcaption><strong>Close-up</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-full.webp" alt="Muse identity full length" /><figcaption><strong>Full length</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-seated.webp" alt="Muse identity seated" /><figcaption><strong>Seated</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-motion.webp" alt="Muse identity walking" /><figcaption><strong>Movement</strong></figcaption></figure>
-</div>
+<p className="benchmark-caption">The identity strip is omitted because the supplied cast reference is not part of the published source set.</p>
 
 This is useful for production because references accumulate. A campaign rarely asks only for a face; it asks for the same person, garment, accessory, location language, and exclusions across a shot list.
 

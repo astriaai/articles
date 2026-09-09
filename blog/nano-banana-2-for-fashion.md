@@ -34,7 +34,7 @@ The controlled benchmark ran 11 briefs with three requested outputs per model. N
 
 ## Why it is the fashion default
 
-<figure className="benchmark-card benchmark-card--single"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-nano-banana-2.webp" alt="Nano Banana 2 fashion editorial benchmark output" /><figcaption><strong>General fashion</strong>Good direction, movement, identity, and garment handling in one frame.</figcaption></figure>
+<p className="benchmark-caption">The general-fashion output is omitted from this public page because its supplied person-and-garment source set is not published with the article.</p>
 
 A useful default has to reduce routing decisions. Nano Banana 2 followed the walking fashion brief, preserved the cast and referenced tank, rendered believable trouser movement, and produced a composition ready for refinement. GPT Image 2 gave a polished alternative; Seedream 5 handled color beautifully; Muse read references carefully. Nano Banana 2 was the best-balanced starting point across the complete set.
 
@@ -50,7 +50,7 @@ Use it first for:
 
 Nano Banana 2 kept the orange jacket recognizable while giving it a credible campaign treatment.
 
-<figure className="benchmark-card benchmark-card--single"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-nano-banana-2.webp" alt="Nano Banana 2 orange jacquard jacket benchmark" /><figcaption><strong>Product-grounded fashion</strong>Strong overall fidelity; Seedream 5 rendered the saturated color and woven surface better in this case.</figcaption></figure>
+<figure className="benchmark-card benchmark-card--single" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-nano-banana-2.webp" alt="Nano Banana 2 orange jacquard jacket benchmark" /><figcaption><strong>Product-grounded fashion</strong>Strong overall fidelity; Seedream 5 rendered the saturated color and woven surface better in this case.</figcaption></figure>
 
 That distinction is worth preserving. Nano Banana 2 is good at the whole frame. Seedream 5 is the model we would add when fabric sheen, saturated color, embroidery, or weave is the approval risk. Product fidelity should be scored separately from beauty: a more attractive picture can still be the wrong SKU.
 
@@ -58,12 +58,7 @@ That distinction is worth preserving. Nano Banana 2 is good at the whole frame. 
 
 The four-shot series changed camera distance and pose while keeping one cast identity, jacket, setting, and light. Nano Banana 2 maintained a recognizable person from close-up to full length, seated, and walking. The movement frame was especially useful because the body, garment, and face all had to remain plausible at once.
 
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-nano-close.webp" alt="Nano Banana 2 close-up identity test" /><figcaption><strong>Close-up</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-nano-full.webp" alt="Nano Banana 2 full-length identity test" /><figcaption><strong>Full length</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-nano-seated.webp" alt="Nano Banana 2 seated identity test" /><figcaption><strong>Seated</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-nano-motion.webp" alt="Nano Banana 2 walking identity test" /><figcaption><strong>Movement</strong></figcaption></figure>
-</div>
+<p className="benchmark-caption">The identity strip is omitted because the supplied cast reference is not part of the published source set.</p>
 
 For a real collection, four images are only a qualification. Approve the cast across the actual shot list before generating hundreds of assets.
 
@@ -71,7 +66,7 @@ For a real collection, four images are only a qualification. Approve the cast ac
 
 The stress test combined a person, jacket, necklace, serum bottle, hand placement, background colors, and a no-extras list.
 
-<figure className="benchmark-card benchmark-card--single"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/complex-nano-banana-2.webp" alt="Nano Banana 2 complex multi-reference fashion campaign" /><figcaption><strong>Complex brief</strong>A very strong result even though Muse remains our reference-first specialist.</figcaption></figure>
+<p className="benchmark-caption">The complex-reference output is omitted because the complete person, jewelry, and beauty source set is not published with the article.</p>
 
 Nano Banana 2 is often enough for multi-reference work. Add Muse when repeated generations keep omitting, blending, or simplifying assets. The decision is not “creative versus accurate”; it is which failure creates more rework on this job.
 

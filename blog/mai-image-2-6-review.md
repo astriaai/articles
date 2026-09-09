@@ -63,9 +63,9 @@ Microsoft launched both for developers in Foundry on September 4, 2026. Its [lau
 The hardest successful test started from the benchmark's synthetic jacket: burnt-orange jacquard, four embroidered cranes, four brass buttons, a pointed collar, long sleeves, and a scalloped hem. We asked MAI to place that garment on an adult model over a black column dress.
 
 <div className="benchmark-grid benchmark-grid--three">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Synthetic orange crane jacket source reference" /><figcaption><strong>Source</strong>Four cranes and four buttons</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-jacket-edit.webp" alt="MAI Image 2.6 edit placing the orange jacket on a model" /><figcaption><strong>MAI-Image-2.6</strong>Best detail preservation</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-flash-jacket-edit.webp" alt="MAI Image 2.6 Flash edit placing the orange jacket on a model" /><figcaption><strong>MAI-Image-2.6-Flash</strong>Faster; some construction details simplified</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Synthetic orange crane jacket source reference" /><figcaption><strong>Source</strong>Four cranes and four buttons</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-jacket-edit.webp" alt="MAI Image 2.6 edit placing the orange jacket on a model" /><figcaption><strong>MAI-Image-2.6</strong>Best detail preservation</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-flash-jacket-edit.webp" alt="MAI Image 2.6 Flash edit placing the orange jacket on a model" /><figcaption><strong>MAI-Image-2.6-Flash</strong>Faster; some construction details simplified</figcaption></figure>
 </div>
 
 The flagship's first predetermined output retained the four cranes, four buttons, woven surface, collar, sleeve shape, and scalloped edge. Flash preserved the product's identity and campaign treatment but reduced the visible button count and simplified some detail. On a SKU-sensitive job, that is enough reason to start with the flagship.
@@ -127,8 +127,8 @@ The most useful comparison is not a beauty contest; it is **which model removes 
 The necklace edit produced a strong beauty portrait and a recognizable nine-stone design.
 
 <div className="benchmark-grid benchmark-grid--two">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-necklace.webp" alt="Supplied rose-gold emerald necklace source reference" /><figcaption><strong>Source</strong>Nine emeralds with rose-gold settings</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-jewelry-edit.webp" alt="MAI Image 2.6 edit placing the supplied rose-gold emerald necklace on a model" /><figcaption><strong>MAI-Image-2.6</strong>Strong overall preservation; inspect prongs, diamonds, spacing, and stone count before commerce use.</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-necklace.webp" alt="Supplied rose-gold emerald necklace source reference" /><figcaption><strong>Source</strong>Nine emeralds with rose-gold settings</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-necklace.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/mai-image-2-6-jewelry-edit.webp" alt="MAI Image 2.6 edit placing the supplied rose-gold emerald necklace on a model" /><figcaption><strong>MAI-Image-2.6</strong>Strong overall preservation; inspect prongs, diamonds, spacing, and stone count before commerce use.</figcaption></figure>
 </div>
 
 Jewelry exposes the difference between resemblance and fidelity. A result can look expensive while changing a clasp, prong, spacer, or stone. MAI is promising here, but the [Muse Image review](./muse-image-model-review.md) remains the stronger starting point when several references and simultaneous constraints are the job.

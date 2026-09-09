@@ -36,7 +36,7 @@ The benchmark tested 11 matched briefs and requested three GPT Image 2 outputs p
 
 Beauty advertising asks several systems to work together: believable skin, controlled reflections, recognizable packaging, exact copy, and a composition with visual hierarchy. A model can succeed at four and still make the asset unusable.
 
-<figure className="benchmark-card benchmark-card--single"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-gpt-image-2.webp" alt="GPT Image 2 beauty campaign benchmark with serum bottle and headline" /><figcaption><strong>Beauty and text</strong>Our strongest combined beauty-ad composition with the exact large headline.</figcaption></figure>
+<figure className="benchmark-card benchmark-card--single" data-source-reference="/articles/img/model-benchmarks/2026-09/source-beauty.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/beauty-gpt-image-2.webp" alt="GPT Image 2 beauty campaign benchmark with serum bottle and headline" /><figcaption><strong>Beauty and text</strong>Our strongest combined beauty-ad composition with the exact large headline.</figcaption></figure>
 
 GPT Image 2 handled the requested **COLOR, KEPT TRUE** headline, portrait finish, held product, and open-space layout especially well. That does not eliminate packaging QA. Small text can look plausible while changing a character, quantity, or hierarchy.
 
@@ -52,7 +52,7 @@ Use it first for:
 
 GPT Image 2 also produced one of the strongest general-fashion frames.
 
-<figure className="benchmark-card benchmark-card--single"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-gpt-image-2.webp" alt="GPT Image 2 fashion editorial benchmark output" /><figcaption><strong>General fashion</strong>Polished pose and campaign finish.</figcaption></figure>
+<p className="benchmark-caption">The general-fashion output is omitted from this public page because its supplied person-and-garment source set is not published with the article.</p>
 
 Why is it not the default? A default is judged across the complete workflow. Nano Banana 2 offered the more balanced route through ordinary garment, identity, movement, and reference tasks. Choose GPT Image 2 when the desired finish is closer to an advertisement or when text is a primary approval criterion.
 
@@ -60,7 +60,7 @@ Why is it not the default? A default is judged across the complete workflow. Nan
 
 The jewelry output combined controlled metal highlights, gemstones, and a strong portrait. It also reinforces the central QA rule: resemblance is not exactness.
 
-<figure className="benchmark-card benchmark-card--single"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-gpt-image-2.webp" alt="GPT Image 2 jewelry portrait benchmark" /><figcaption><strong>Jewelry</strong>Polished presentation; verify stones, prongs, chain, and scale against the source.</figcaption></figure>
+<figure className="benchmark-card benchmark-card--single" data-source-reference="/articles/img/model-benchmarks/2026-09/source-necklace.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/jewelry-gpt-image-2.webp" alt="GPT Image 2 jewelry portrait benchmark" /><figcaption><strong>Jewelry</strong>Polished presentation; verify stones, prongs, chain, and scale against the source.</figcaption></figure>
 
 For a campaign crop, GPT Image 2 may be the aesthetic winner. For strict reference interpretation across several assets, [Muse](./muse-image-model-review.md) remains our first route. For one direct product edit, [MAI-Image-2.6](./mai-image-2-6-review.md) is now worth qualifying.
 
@@ -68,12 +68,7 @@ For a campaign crop, GPT Image 2 may be the aesthetic winner. For strict referen
 
 GPT Image 2 kept the benchmark cast recognizable across close-up, full-length, seated, and moving shots. The series sometimes editorialized the person slightly, so approval should happen across the complete campaign rather than from one hero frame.
 
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-gpt-close.webp" alt="GPT Image 2 identity close-up" /><figcaption><strong>Close-up</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-gpt-full.webp" alt="GPT Image 2 identity full length" /><figcaption><strong>Full length</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-gpt-seated.webp" alt="GPT Image 2 identity seated" /><figcaption><strong>Seated</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-gpt-motion.webp" alt="GPT Image 2 identity walking" /><figcaption><strong>Movement</strong></figcaption></figure>
-</div>
+<p className="benchmark-caption">The identity strip is omitted because the supplied cast reference is not part of the published source set.</p>
 
 ## When another model is better
 

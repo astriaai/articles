@@ -27,3 +27,36 @@ test('public figures do not present text-to-image-only examples', () => {
     }
   }
 });
+
+test('every public generated figure declares a source reference or is excluded', () => {
+  const missing = [];
+
+  for (const name of articles) {
+    const body = fs.readFileSync(path.join(blogDir, name), 'utf8');
+    const figures = body.match(/<figure\b[\s\S]*?<\/figure>/g) || [];
+    for (const figure of figures) {
+      if (!/className="[^"]*benchmark-card--source/.test(figure)) {
+        const source = figure.match(/data-source-reference="([^"]+)"/);
+        if (!source) {
+          missing.push(`${name}: ${figure.match(/<img[^>]+src="([^"]+)"/)?.[1] || 'figure'}`);
+          continue;
+        }
+
+        for (const reference of source[1].split(/\s+/)) {
+          if (reference.startsWith('/articles/')) {
+            const asset = path.join(root, 'static', reference.slice('/articles/'.length));
+            assert.ok(fs.existsSync(asset), `${name}: missing source reference asset ${reference}`);
+          } else {
+            assert.match(reference, /^https:\/\/www\.astria\.ai\/(?:prompts|gallery)\//, `${name}: source reference must be a public source or gallery URL`);
+          }
+        }
+      }
+    }
+
+    for (const comparison of body.match(/<ImageModelComparison\b[\s\S]*?\/>/g) || []) {
+      assert.match(comparison, /\breference=\{\{/, `${name}: comparison is missing its visible source reference`);
+    }
+  }
+
+  assert.deepEqual(missing, [], `generated figures without source references:\n${missing.join('\n')}`);
+});

@@ -58,12 +58,7 @@ Nano Banana 2 is the answer when a creative team should not have to become a mod
 
 Across the general fashion, movement, garment-reference, and multi-reference briefs, it most consistently landed in the middle of the useful production triangle: the image looked directed, the references remained recognizable, and the composition was close to something an art director could continue with. Some specialists matched or exceeded it in individual tests. None displaced it as the safest starting point across ordinary fashion work.
 
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-nano-banana-2.webp" alt="Nano Banana 2 general fashion benchmark output" /><figcaption><strong>Nano Banana 2</strong>Best-balanced default</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-gpt-image-2.webp" alt="GPT Image 2 general fashion benchmark output" /><figcaption><strong>GPT Image 2</strong>Polished campaign finish</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-seedream-5.webp" alt="Seedream 5 general fashion benchmark output" /><figcaption><strong>Seedream 5 Pro</strong>Strong color and fabric</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/general-muse.webp" alt="Muse general fashion benchmark output" /><figcaption><strong>Muse</strong>Strong reference use</figcaption></figure>
-</div>
+<p className="benchmark-caption">The general-fashion output strip is omitted because its supplied person-and-garment source set is not published with this article. See the linked specialist reviews for source-auditable product examples.</p>
 <p className="benchmark-caption">Matched 3:4 brief and references. Each card is the first predetermined output, not a hand-picked favorite.</p>
 
 Use Nano Banana 2 first for:

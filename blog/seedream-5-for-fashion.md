@@ -37,8 +37,8 @@ The controlled run used 11 matched briefs, three requested outputs per cell, and
 The orange jacket is deliberately difficult: saturated burnt orange, teal embroidery, woven jacquard, brass buttons, and a scalloped hem under hard studio light.
 
 <div className="benchmark-grid benchmark-grid--two">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Synthetic orange jacquard jacket source" /><figcaption><strong>Source</strong>Color, weave, embroidery, and hardware to preserve</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-seedream-5.webp" alt="Seedream 5 Pro orange jacket fashion benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Best color and surface rendering in the four-model comparison</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Synthetic orange jacquard jacket source" /><figcaption><strong>Source</strong>Color, weave, embroidery, and hardware to preserve</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-jacket.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-seedream-5.webp" alt="Seedream 5 Pro orange jacket fashion benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Best color and surface rendering in the four-model comparison</figcaption></figure>
 </div>
 
 Seedream's useful distinction was material behavior. The orange remained rich, the teal motifs stayed distinct, and the garment read as a light-reactive woven surface rather than a flat print. Small product details still need a checklist; material realism does not guarantee exact construction.
@@ -55,8 +55,8 @@ Use Seedream first when approval depends on:
 The benchmark used one adult identity and one product-only one-piece source in two ordinary briefs: straight-on ecommerce and a calm poolside editorial. Seedream completed all six requested images.
 
 <div className="benchmark-grid benchmark-grid--two">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-seedream-5.webp" alt="Seedream 5 Pro tasteful adult swimwear ecommerce output" /><figcaption><strong>Ecommerce</strong>Strong garment and identity; the first output cropped tighter than the requested full length</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-seedream-5.webp" alt="Seedream 5 Pro tasteful adult swimwear editorial output" /><figcaption><strong>Editorial</strong>Reliable completion with strong cobalt and skin tones</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-seedream-5.webp" alt="Seedream 5 Pro tasteful adult swimwear ecommerce output" /><figcaption><strong>Ecommerce</strong>Strong garment and identity; the first output cropped tighter than the requested full length</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-seedream-5.webp" alt="Seedream 5 Pro tasteful adult swimwear editorial output" /><figcaption><strong>Editorial</strong>Reliable completion with strong cobalt and skin tones</figcaption></figure>
 </div>
 
 This is about completion of a benign commercial brief, not evading safeguards. Keep subjects adult and the framing unambiguous. Nano Banana 2, GPT Image 2, and Muse also produced tasteful swimwear outputs in the core test; one Nano Banana request returned two rather than three images. In the later MAI qualification, the entire swimsuit cell was blocked.
@@ -65,12 +65,7 @@ Seedream is therefore the route we would qualify first for a real swimwear colle
 
 ## Identity across camera distance and pose
 
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-close.webp" alt="Seedream 5 identity close-up" /><figcaption><strong>Close-up</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-full.webp" alt="Seedream 5 identity full length" /><figcaption><strong>Full length</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-seated.webp" alt="Seedream 5 identity seated" /><figcaption><strong>Seated</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-motion.webp" alt="Seedream 5 identity walking" /><figcaption><strong>Movement</strong></figcaption></figure>
-</div>
+<p className="benchmark-caption">The identity strip is omitted from this public page because the supplied cast reference is not part of the published source set. The jacket and swimsuit examples above remain reference-auditable.</p>
 
 The face, skin tone, and overall cast remained especially stable as the framing changed. A four-shot strip is not proof of catalog-scale consistency, but it is enough to justify a production qualification.
 

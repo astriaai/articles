@@ -20,6 +20,8 @@ test('the custom lightbox is mounted globally and targets ordinary article image
   const lightbox = read('src/components/ImageLightbox/index.tsx');
   assert.match(lightbox, /\.markdown img:not\(\[data-no-zoom\]\)/);
   assert.match(lightbox, /target\.closest\('a\[href\]'\)/);
+  assert.match(lightbox, /target\.closest\('\[data-source-reference\]'\)/);
+  assert.match(lightbox, /View source references/);
   assert.match(lightbox, /Open source/);
   assert.match(read('src/css/custom.css'), /\.markdown img:not\(\[data-no-zoom\]\)/);
 });
