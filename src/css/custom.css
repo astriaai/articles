@@ -275,6 +275,10 @@ h4 {
   aspect-ratio: 1 / 1;
 }
 
+.benchmark-card--landscape img {
+  aspect-ratio: 16 / 9;
+}
+
 .benchmark-card--source img {
   background: #fff;
   object-fit: contain;

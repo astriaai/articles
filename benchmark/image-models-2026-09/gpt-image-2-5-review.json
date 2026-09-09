@@ -1,0 +1,103 @@
+{
+  "article": "gpt-image-2-5-review",
+  "captured_at": "2026-09-09",
+  "workspace_id": 896,
+  "source_provenance": {
+    "workspace_id": 6,
+    "workspace_title": "Maison Urban",
+    "source_prompt_id": 46557199,
+    "references": [
+      {
+        "role": "identity",
+        "source_tune_id": 3904080,
+        "article_tune_id": 5639061,
+        "title": "Sloane",
+        "dimensions": "679x722",
+        "note": "Original PNG normalized to JPEG without upscaling so all endpoints received a valid MIME type. Below the preferred 1600px source gate; identity conclusions remain directional."
+      },
+      {
+        "role": "dress",
+        "source_tune_id": 3907553,
+        "article_tune_id": 5639041,
+        "title": "05029128725-e2",
+        "description": "Yellow sleeveless belted midi dress",
+        "dimensions": "1440x2160",
+        "images": 2
+      },
+      {
+        "role": "bag",
+        "source_tune_id": 3907242,
+        "article_tune_id": 5639043,
+        "title": "16669610253-e1",
+        "description": "Gold chain bag with circular metallic details",
+        "dimensions": "1440x2159"
+      }
+    ]
+  },
+  "controls": {
+    "semantic_prompt": "Dress hero shot. An off-kilter, flash-lit photograph of the referenced woman in a dynamic, almost off-balance leaning pose against a dark wooden bar counter or pillar at night. Her body creates a diagonal line. She wears the reference dress and holds the reference bag. The strong flash casts a sharp shadow. Blurred shelves with bottles and bar lights define the out-of-focus background. Cool, edgy vibe.",
+    "aspect_ratio_requested": "16:9",
+    "num_images_requested": 1,
+    "selection_rule": "Only returned output; no cherry-picking",
+    "resolution_rule": "4K where the endpoint exposes the shared resolution control; otherwise omit and record actual output"
+  },
+  "outputs": [
+    {
+      "model": "GPT Image 2.5 Sunburst",
+      "model_id": 5634510,
+      "prompt_id": 46636365,
+      "resolution_requested": "4K",
+      "resolution_actual": "3792x2160",
+      "asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-sunburst-sloane.webp",
+      "selection_rationale": "Passed article-size quality, identity, dress construction, color, and accessory-recognition gates; strongest diagonal tension and flash-led crop."
+    },
+    {
+      "model": "GPT Image 2.5 Flare",
+      "model_id": 5634511,
+      "prompt_id": 46636364,
+      "resolution_requested": "4K",
+      "resolution_actual": "3792x2160",
+      "asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-flare-sloane.webp",
+      "selection_rationale": "Passed article-size quality, identity, dress construction, color, and accessory-recognition gates; keeps the complete bag most legible."
+    },
+    {
+      "model": "Nano Banana 2",
+      "model_id": 4180298,
+      "prompt_id": 46636366,
+      "resolution_requested": "4K",
+      "resolution_actual": "5504x3072",
+      "asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-nano-banana-2-sloane.webp",
+      "selection_rationale": "Matched context output; strong diagonal pose, clean identity, and clearly visible reference bag."
+    },
+    {
+      "model": "MAI Image 2.6 Flash",
+      "model_id": 5603706,
+      "prompt_id": 46636367,
+      "resolution_requested": null,
+      "resolution_actual": "1365x768",
+      "asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-mai-flash-sloane.webp",
+      "selection_rationale": "Matched context output; attractive graphic tilt and recognizable references, with lower output resolution and simplified surface detail recorded."
+    },
+    {
+      "model": "Muse Image",
+      "model_id": 5605622,
+      "prompt_id": 46636363,
+      "resolution_requested": null,
+      "resolution_actual": "1920x1280",
+      "aspect_ratio_actual": "3:2",
+      "asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-muse-sloane.webp",
+      "selection_rationale": "Matched context output; coherent identity, dress, and bag, with the 3:2 return from a 16:9 request explicitly recorded."
+    }
+  ],
+  "excluded": [
+    {
+      "prompt_id": 46636297,
+      "model": "Muse Image",
+      "reason": "Failed because the first copied Sloane reference contained PNG data with a JPEG declaration. Kept internal; all published comparisons use corrected reference tune 5639061."
+    },
+    {
+      "prompt_ids": [46636293, 46636294, 46636295, 46636296],
+      "reason": "Pre-correction comparison outputs. Excluded so every published model uses the same MIME-correct identity tune."
+    }
+  ]
+}

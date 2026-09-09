@@ -1,6 +1,6 @@
 ---
 title: "Best AI Image Models for Fashion and Product Photography (2026 Benchmark)"
-description: "A 131-image Astria comparison of Nano Banana 2, GPT Image 2, Seedream 5, and Muse across fashion, beauty, text, swimwear, jewelry, identity, and references."
+description: "A reference-led Astria comparison of Nano Banana 2, GPT Image 2, Seedream 5, Muse, and the new GPT Image 2.5 Sunburst and Flare variants."
 slug: best-ai-image-models-fashion
 date: 2026-09-06
 hide_table_of_contents: false
@@ -11,13 +11,14 @@ keywords:
   - best AI image model for fashion
   - Nano Banana 2 vs GPT Image 2
   - Nano Banana 2 vs Seedream 5
+  - GPT Image 2.5 Sunburst vs Flare
   - Muse AI image model
   - AI fashion photography benchmark
 ---
 
 **Nano Banana 2 is the best general choice for fashion.** GPT Image 2 is our first specialist choice for beauty and text. Seedream 5 is the practical choice for swimwear, rich color, difficult texture, and strong identity preservation. Muse is the reference-first model for jewelry and briefs with several simultaneous constraints.
 
-That is the result of 11 matched briefs, four models, and 131 returned images—not a generic ranking copied from a public leaderboard.
+That is the result of 11 matched briefs, four core models, and 131 returned images—not a generic ranking copied from a public leaderboard. A new matched Sloane follow-up adds GPT Image 2.5 Sunburst and Flare without rewriting the original scorecard.
 
 <!-- truncate -->
 
@@ -49,6 +50,28 @@ That is the result of 11 matched briefs, four models, and 131 returned images—
 | Jewelry and multiple references | **Muse** | Most dependable reference interpretation when product geometry or simultaneous constraints dominate |
 
 No row means “always use this model.” It means this is where we would start before spending the next generation or retouching dollar.
+
+## GPT Image 2.5: a matched Sloane dress-hero comparison
+
+GPT Image 2.5 launched after the original benchmark capture. To make the new models directly comparable, this addendum reruns source prompt `46557199`: the same Sloane woman, dress, and bag references with the same off-kilter flash-lit bar direction. The source assets were copied from Maison Urban into workspace `896` (Articles), then every model received the same semantic prompt, references, 16:9 request, and one-output count.
+
+Browse the live [GPT Image 2.5 Sunburst gallery](https://www.astria.ai/gallery/tunes/5634510/prompts) and [GPT Image 2.5 Flare gallery](https://www.astria.ai/gallery/tunes/5634511/prompts).
+
+<div className="benchmark-grid benchmark-grid--three">
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp" alt="Sloane identity reference for the GPT Image 2.5 comparison" /><figcaption><strong>Sloane</strong>Fixed identity reference</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp" alt="Yellow belted dress reference for the GPT Image 2.5 comparison" /><figcaption><strong>Dress</strong>Fixed garment reference</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp" alt="Gold circular-detail bag reference for the GPT Image 2.5 comparison" /><figcaption><strong>Bag</strong>Fixed accessory reference</figcaption></figure>
+</div>
+
+<div className="benchmark-grid">
+  <figure className="benchmark-card benchmark-card--landscape" data-source-reference="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp"><a href="https://www.astria.ai/gallery/tunes/5634510/prompts"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-sunburst-sloane.webp" alt="GPT Image 2.5 Sunburst Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Sunburst</strong>Prompt 46636365 · 4K request · stronger diagonal tension</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--landscape" data-source-reference="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp"><a href="https://www.astria.ai/gallery/tunes/5634511/prompts"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-flare-sloane.webp" alt="GPT Image 2.5 Flare Sloane dress hero with reference dress and bag" /></a><figcaption><strong>Flare</strong>Prompt 46636364 · 4K request · complete bag visibility</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--landscape" data-source-reference="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-nano-banana-2-sloane.webp" alt="Nano Banana 2 Sloane dress hero with reference dress and bag" /><figcaption><strong>Nano Banana 2</strong>Prompt 46636366 · matched 4K request</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--landscape" data-source-reference="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-mai-flash-sloane.webp" alt="MAI Image 2.6 Flash Sloane dress hero with reference dress and bag" /><figcaption><strong>MAI-Image-2.6-Flash</strong>Prompt 46636367 · no shared 4K selector</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--landscape" data-source-reference="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-muse-sloane.webp" alt="Muse Sloane dress hero with reference dress and bag" /><figcaption><strong>Muse</strong>Prompt 46636363 · returned 3:2 from the 16:9 request</figcaption></figure>
+</div>
+
+These are reference-led examples, not a new universal ranking. Sunburst and Flare both returned sharp, commercially credible frames; Sunburst pushed the editorial crop harder, while Flare kept the complete bag more legible. Read the dedicated [GPT Image 2.5 Sunburst vs Flare review](./gpt-image-2-5-review.md) for the full controls, source limitation, and production guidance.
 
 ## How to read the grids
 
