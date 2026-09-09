@@ -54,7 +54,7 @@ MAI-Image-2.6 is Microsoft's diffusion-based image model for generation and cont
 The family has two current variants:
 
 - **MAI-Image-2.6** prioritizes precision and output quality.
-- **MAI-Image-2.6-Flash** prioritizes throughput and lower cost.
+- **MAI-Image-2.6-Flash** prioritizes throughput.
 
 Microsoft launched both for developers in Foundry on September 4, 2026. Its [launch announcement](https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/) reported strong public-arena positions, multi-image reference editing, web grounding, dynamic aspect ratios, and up to 1.5K resolution. Those are provider claims and capabilities; this article separates them from what we observed through Astria.
 
@@ -143,7 +143,7 @@ This describes the tested Astria integration on September 8, 2026—not Microsof
 
 ### The benign swimwear cell was blocked
 
-The swimsuit test used an adult subject, a product-only one-piece source, straight-on ecommerce framing, relaxed arms, commercial lighting, and an explicit non-provocative instruction. The complete three-image cell was blocked by the endpoint classifier and returned no output or charge.
+The swimsuit test used an adult subject, a product-only one-piece source, straight-on ecommerce framing, relaxed arms, commercial lighting, and an explicit non-provocative instruction. The complete three-image cell was blocked by the endpoint classifier and returned no output.
 
 That makes MAI a poor current default for swimwear through this endpoint. Start with [Seedream 5](./seedream-5-for-fashion.md) for that workload.
 
@@ -154,7 +154,7 @@ That makes MAI a poor current default for swimwear through this endpoint. Start 
 | Jacket-edit processing time | 24.2 sec | 19.0 sec |
 | Best use from this test | Final candidate generation and fidelity-sensitive edits | Exploration, layout options, and high-volume qualification |
 
-The timings are server processing intervals for this matched cell, not a latency guarantee. Queueing, resolution, load, and integration behavior can change. Flash is the lower-cost variant, but prices change; use [current Astria pricing](https://www.astria.ai/pricing) for planning.
+The timings are server processing intervals for this matched cell, not a latency guarantee. Queueing, resolution, load, and integration behavior can change. Use [current Astria pricing](https://www.astria.ai/pricing) for planning.
 
 Our practical routing rule is simple: **use Flash to explore; rerun the selected direction in the flagship when product detail matters.** For low-stakes social variations where the product passed review, Flash may be sufficient by itself.
 
@@ -170,4 +170,4 @@ Put preservation requirements before mood adjectives. List countable details—b
 
 Try MAI-Image-2.6 when the job is a commercial edit based on one supplied product image. Try Flash first when iteration speed dominates. Keep Nano Banana 2 as the general Astria fashion default, GPT Image 2 as the established beauty specialist, Seedream 5 for swimwear and difficult texture, and Muse for multi-reference constraint work.
 
-The benchmark inputs, prompt IDs, failures, costs, and selection rule are recorded in the [benchmark methodology](./how-we-benchmark-ai-image-models.md). Model availability and integration behavior change; this verdict describes the Astria endpoints tested on September 8, 2026.
+The benchmark inputs, prompt IDs, failures, and selection rule are recorded in the [benchmark methodology](./how-we-benchmark-ai-image-models.md). Model availability and integration behavior change; this verdict describes the Astria endpoints tested on September 8, 2026.

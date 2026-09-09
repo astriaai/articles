@@ -1,0 +1,87 @@
+.example {
+  margin: 2rem 0;
+  color: var(--ifm-font-color-base);
+}
+
+.example,
+.example * {
+  box-sizing: border-box;
+}
+
+.example .title {
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin: 0 0 0.65rem;
+}
+
+.summary {
+  line-height: 1.6;
+  margin: 0 0 1rem;
+  max-width: 68ch;
+}
+
+.media {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.media figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.media img,
+.media video {
+  aspect-ratio: 4 / 5;
+  background: #f4f5f6;
+  border-radius: 0;
+  display: block;
+  height: auto;
+  margin: 0;
+  object-fit: contain;
+  width: 100%;
+}
+
+.motion img,
+.motion video {
+  aspect-ratio: 16 / 9;
+}
+
+.media figcaption {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  padding-top: 0.5rem;
+}
+
+.note {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0.85rem 0 0;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  margin: 0.85rem 0 0;
+}
+
+.links a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.example a:focus-visible,
+.media video:focus-visible {
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  .media {
+    grid-template-columns: 1fr;
+  }
+}

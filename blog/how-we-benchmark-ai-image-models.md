@@ -1,6 +1,6 @@
 ---
 title: "How We Benchmark AI Image Models for Fashion and Product Work"
-description: "The prompts, references, selection rule, costs, limitations, and disclosure behind Astria's 2026 fashion image-model comparison."
+description: "The prompts, references, selection rule, limitations, and disclosure behind Astria's 2026 fashion image-model comparison."
 slug: how-we-benchmark-ai-image-models
 date: 2026-09-06
 hide_table_of_contents: false
@@ -43,7 +43,7 @@ On September 8 we added a separate **MAI-Image-2.6 and Flash qualification** usi
 
 Public image leaderboards answer useful questions. They do not all answer the same question.
 
-[Artificial Analysis](https://artificialanalysis.ai/image/methodology) separates text-to-image from image editing, uses human preference, and reports endpoint quality, price, and generation time. Its methodology also distinguishes localized editing from reference-to-image generation. [GenAI-Bench](https://github.com/TIGER-AI-Lab/GenAI-Bench) studies how model judgments align with human preferences collected in a generative arena. [ImgEdit-Bench](https://github.com/pku-yuangroup/ImgEdit) evaluates instruction adherence, editing quality, detail preservation, and single- versus multi-turn editing.
+[Artificial Analysis](https://artificialanalysis.ai/image/methodology) separates text-to-image from image editing, uses human preference, and reports endpoint quality and generation time. Its methodology also distinguishes localized editing from reference-to-image generation. [GenAI-Bench](https://github.com/TIGER-AI-Lab/GenAI-Bench) studies how model judgments align with human preferences collected in a generative arena. [ImgEdit-Bench](https://github.com/pku-yuangroup/ImgEdit) evaluates instruction adherence, editing quality, detail preservation, and single- versus multi-turn editing.
 
 Those are valuable priors. A fashion production decision adds different questions:
 
@@ -103,7 +103,6 @@ For each request, the benchmark stores:
 - aspect ratio and resolution policy;
 - prompt ID;
 - output count requested and received;
-- reported generation cost;
 - public display asset;
 - completion, instruction, reference, identity/text, and editorial notes.
 
@@ -117,15 +116,13 @@ We keep accuracy separate from preference.
 
 The publication review for this pilot is a disclosed editorial assessment by Astria, not a blinded multi-reviewer scientific study. The output order was fixed before review, but model names are visible in the published comparison. The qualitative verdicts should therefore be read as production guidance supported by inspectable examples, not as statistically powered proof.
 
-A larger follow-up should add at least three blinded reviewers, randomize the presentation order, record pairwise preferences, run OCR for exact text, and calculate cost per approved output using a predefined pass gate.
+A larger follow-up should add at least three blinded reviewers, randomize the presentation order, record pairwise preferences, and run OCR for exact text.
 
-## Completion and cost
+## Completion
 
 The core run requested **132 images and returned 131**. Forty-three of 44 model-and-brief requests returned all three images. The Nano Banana 2 swimwear-editorial request returned two of three; the endpoint reported no `user_error` and no reason for the missing image. Every model produced safe, tasteful imagery for both swimwear briefs.
 
-We recorded generation charges for reproducibility but do not publish them as current pricing. Model rates change; use [Astria's pricing page](https://www.astria.ai/pricing) for live pricing and calculate cost per approved output from your own pass rate.
-
-Cost per generated image is only an input metric. A production comparison should ultimately divide the total generation and retouch spend by the number of outputs that pass approval.
+For current model rates and billing terms, use [Astria's pricing page](https://www.astria.ai/pricing).
 
 ## How the MAI challenger round differs
 
@@ -148,7 +145,7 @@ As with the core benchmark, candidate selection was fixed before review. Publica
 - Eleven briefs are enough to show useful differences, not to rank the entire model market.
 - One synthetic identity and four synthetic products do not represent every skin tone, textile, body, material, or brand system.
 - Three outputs per cell reveal variation but do not provide a large statistical sample.
-- Endpoint behavior, pricing, safety handling, and catalog availability can change after September 6, 2026.
+- Endpoint behavior, safety handling, and catalog availability can change after September 6, 2026.
 - The MAI results use a different input path and must not be treated as a fifth matched core-model score.
 - Muse used native endpoint settings while the other core models used exposed 2K settings.
 - Text and jewelry geometry were reviewed visually; no OCR or automated geometric score is presented in this pilot.
@@ -158,7 +155,7 @@ The recommendation is about the tested Astria endpoints on the capture date. It 
 
 ## Reproducing the comparison
 
-The exact prompts, source descriptions, reference IDs, prompt IDs, costs, and judging notes live in the repository benchmark package. To reproduce the logic in another workspace:
+The exact prompts, source descriptions, reference IDs, prompt IDs, and judging notes live in the repository benchmark package. To reproduce the logic in another workspace:
 
 1. Create rights-cleared source products and one approved adult identity.
 2. Record the visual ground truth of each source.

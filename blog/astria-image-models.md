@@ -142,7 +142,7 @@ The public partner-model gallery was broader: Reve, Riverflow, HyperRealism, Flu
 Two cautions make that list easier to use:
 
 1. **Public in the GUI does not mean open weights.** It means the model is visible as a public Astria partner model.
-2. **A long catalog is not a reason to test everything on every job.** Start with the core routing table, then qualify a challenger only when it offers a relevant capability, speed, price, or aesthetic.
+2. **A long catalog is not a reason to test everything on every job.** Start with the core routing table, then qualify a challenger only when it offers a relevant capability, speed, or aesthetic.
 
 Model names and availability are volatile. Treat this as a dated snapshot and check the live selector before committing a production pipeline.
 
@@ -156,6 +156,6 @@ Model names and availability are volatile. Treat this as a dated snapshot and ch
 6. Judge product accuracy separately from aesthetic preference.
 7. Approve a treatment before multiplying it across a collection.
 
-The cheapest model per generated image is not automatically the cheapest production choice. The metric that matters is cost per approved output after retries and retouching. Use [current Astria pricing](https://www.astria.ai/pricing), then model retries and retouching against your own approval rate.
+For current rates and billing terms, use [Astria pricing](https://www.astria.ai/pricing). Evaluate retries and retouching against your own approval rate.
 
 Continue to the [side-by-side results](./best-ai-image-models-fashion.md), open the [MAI-Image-2.6 qualification](./mai-image-2-6-review.md), or inspect [how the tests were designed](./how-we-benchmark-ai-image-models.md).

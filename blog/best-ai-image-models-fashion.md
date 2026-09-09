@@ -232,7 +232,7 @@ The final brief combines the cast, orange jacket, emerald necklace, serum bottle
 
 This is what “thinking model” means in our Muse recommendation: the output behaves as if the brief's references and constraints were considered together before composition. We are describing observable behavior, not asserting undocumented internal architecture.
 
-## Completion, cost, and the honest caveat
+## Completion and the honest caveat
 
 | Metric | Result |
 | --- | ---: |
@@ -242,7 +242,7 @@ This is what “thinking model” means in our Muse recommendation: the output b
 | Outputs returned | 131 |
 | Complete three-output request cells | 43 of 44 |
 
-The later MAI qualification is reported separately because it used direct supplied-image editing rather than the core benchmark's reusable reference tokens. For budget planning, use [current Astria pricing](https://www.astria.ai/pricing).
+The later MAI qualification is reported separately because it used direct supplied-image editing rather than the core benchmark's reusable reference tokens. For current rates and billing terms, use [Astria pricing](https://www.astria.ai/pricing).
 
 This was an Astria-run editorial benchmark of endpoints available through Astria on September 6, 2026. Astria sells access to the tested models. The review was not blinded or independently funded, and three outputs per cell are not enough for statistical ranking. Model behavior, names, pricing, and availability will change.
 
