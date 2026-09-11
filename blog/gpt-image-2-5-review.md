@@ -2,7 +2,7 @@
 title: "GPT Image 2.5 Review: Sunburst vs Flare for Reference-Led Fashion"
 description: "A hands-on GPT Image 2.5 comparison of Sunburst and Flare using the same Sloane identity, yellow dress, gold bag, prompt, aspect ratio, and output count."
 slug: gpt-image-2-5-review
-date: 2026-09-09
+date: 2026-09-14
 hide_table_of_contents: false
 image: /img/covers/gpt-image-2-5-review.webp
 authors: [astria]
