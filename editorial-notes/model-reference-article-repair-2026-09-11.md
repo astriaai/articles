@@ -1,6 +1,6 @@
 # Image-model article reference repair — editorial record
 
-Captured: 2026-09-11  
+Captured: 2026-09-11
 Workspace: `896` (`Articles`)
 
 ## Audit finding
