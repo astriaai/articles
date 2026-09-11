@@ -1,6 +1,6 @@
 ---
-title: "Seedream 5 for Fashion Photography: Texture, Identity, and Swimwear Test"
-description: "A hands-on Seedream 5 Pro guide for fashion, fabric texture, saturated color, identity, swimwear, product references, and model routing in Astria."
+title: "Seedream 5 for Fashion Photography: Matched Reference Test"
+description: "A hands-on Seedream 5 Pro fashion test using the same Sloane identity, yellow dress, gold bag, semantic prompt, 16:9 ratio, and one-output rule."
 slug: seedream-5-for-fashion
 date: 2026-09-11
 hide_table_of_contents: false
@@ -9,88 +9,58 @@ authors: [astria]
 tags: [models, guides]
 keywords:
   - Seedream 5 fashion
-  - Seedream 5 prompts
+  - Seedream 5 references
   - Seedream 5 Pro review
   - Seedream fashion photography
-  - AI model for swimwear photography
+  - AI fashion photography
 ---
 
-**Seedream 5 Pro is our fashion specialist for difficult color, fabric texture, stable identity, and swimwear.** Nano Banana 2 remains the broader default, but Seedream produced the best surface rendering in the jacket test and completed both tasteful adult swimwear briefs.
+**Seedream 5 Pro produced a sharp, reference-led campaign frame from the same Sloane, dress, and bag inputs used across the model comparison.** The only returned image kept the identity recognizable, the dress pale yellow and sleeveless, and the bag clearly visible while following the flash-lit bar direction.
+
+The earlier weak-source evidence has been removed. This article now makes its model claim from a high-quality, shared reference set.
 
 <!-- truncate -->
 
-<aside className="astria-article-cta" aria-label="Generate with Seedream 5"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Color and texture specialist</p><h2 className="astria-article-cta__title">Test the hardest garment first</h2><p className="astria-article-cta__copy">Qualify saturated color, weave, sheen, and skin before running the collection.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/best-ai-image-models-fashion"><span>Compare models</span><span aria-hidden="true">→</span></a></div></aside>
+<aside className="astria-article-cta" aria-label="Generate with Seedream 5"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Matched 2K reference test</p><h2 className="astria-article-cta__title">Test the complete look in Seedream</h2><p className="astria-article-cta__copy">Keep the identity, garment, accessory, brief, ratio, and output count fixed.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/best-ai-image-models-fashion"><span>Compare models</span><span aria-hidden="true">→</span></a></div></aside>
 
-## Seedream 5 at a glance
+## The complete input reference set
 
-| Best fit | Observed advantage |
-| --- | --- |
-| Saturated garments | Rich color without flattening the fabric |
-| Jacquard, embroidery, and sheen | Best surface rendering in our matched jacket comparison |
-| Repeated casting | Strong face, skin, and identity continuity across four shots |
-| Adult commercial swimwear | Both tested briefs completed with tasteful outputs |
+All sources came from Maison Urban prompt `46557199` and were copied into Astria workspace `896` (Articles).
 
-The controlled run used 11 matched briefs, three requested outputs per cell, and 33 returned Seedream 5 Pro images. The conclusions are qualitative and tied to the Astria endpoint tested in September 2026.
-
-## Where Seedream visibly wins
-
-The orange jacket is deliberately difficult: saturated burnt orange, teal embroidery, woven jacquard, brass buttons, and a scalloped hem under hard studio light.
-
-<div className="benchmark-grid benchmark-grid--two">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Synthetic orange jacquard jacket source" /><figcaption><strong>Source</strong>Color, weave, embroidery, and hardware to preserve</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/texture-seedream-5.webp" alt="Seedream 5 Pro orange jacket fashion benchmark" /><figcaption><strong>Seedream 5 Pro</strong>Best color and surface rendering in the four-model comparison</figcaption></figure>
+<div className="benchmark-grid benchmark-grid--three">
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp" alt="Sloane identity reference used for the Seedream 5 test" /><figcaption><strong>Sloane</strong>Identity · Articles tune 5639061 · 679×722 source, not upscaled</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp" alt="Yellow sleeveless belted dress reference used for the Seedream 5 test" /><figcaption><strong>Dress</strong>Color, buttons, wrapped belt, neckline, and silhouette · Articles tune 5639041</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp" alt="Gold chain bag with circular metallic details used for the Seedream 5 test" /><figcaption><strong>Bag</strong>Gold chain and repeated circular construction · Articles tune 5639043</figcaption></figure>
 </div>
 
-Seedream's useful distinction was material behavior. The orange remained rich, the teal motifs stayed distinct, and the garment read as a light-reactive woven surface rather than a flat print. Small product details still need a checklist; material realism does not guarantee exact construction.
+The dress and bag masters exceed 2K on the long edge. Sloane is the disclosed exception to the 1600px source gate, so identity conclusions remain directional.
 
-Use Seedream first when approval depends on:
+### Prompt
 
-- embroidery, knit, lace, jacquard, or metallic thread;
-- saturated colors that tend to drift or clip;
-- silk, coated fabric, or another sheen-sensitive surface;
-- repeated skin and facial rendering across a campaign.
+> Dress hero shot. An off-kilter, flash-lit photograph of the referenced woman in a dynamic, almost off-balance leaning pose against a dark wooden bar counter or pillar at night. Her body creates a diagonal line. She wears the reference dress and holds the reference bag. The strong flash casts a sharp shadow. Blurred shelves with bottles and bar lights define the out-of-focus background. Cool, edgy vibe.
 
-## Swimwear: the practical production route
+## The matched Seedream 5 Pro result
 
-The benchmark used one adult identity and one product-only one-piece source in two ordinary briefs: straight-on ecommerce and a calm poolside editorial. Seedream completed all six requested images.
+<figure className="benchmark-card benchmark-card--single benchmark-card--landscape" data-source-reference="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/seedream-5-sloane-dress-bag.webp" alt="Seedream 5 Pro output of Sloane wearing the yellow dress and holding the circular-detail gold bag in a dark bar" /><figcaption><strong>Seedream 5 Pro</strong>Prompt 46670430 · 2K requested / 2730×1536 actual · full bag and dress silhouette remain clear; identity is recognizable but slightly softened</figcaption></figure>
 
-<div className="benchmark-grid benchmark-grid--two">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-ecom-seedream-5.webp" alt="Seedream 5 Pro tasteful adult swimwear ecommerce output" /><figcaption><strong>Ecommerce</strong>Strong garment and identity; the first output cropped tighter than the requested full length</figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/swim-editorial-seedream-5.webp" alt="Seedream 5 Pro tasteful adult swimwear editorial output" /><figcaption><strong>Editorial</strong>Reliable completion with strong cobalt and skin tones</figcaption></figure>
-</div>
+The original download is 2730×1536. The published WebP is an optimized 1920×1080 derivative, not the master and not an upscale.
 
-This is about completion of a benign commercial brief, not evading safeguards. Keep subjects adult and the framing unambiguous. Nano Banana 2, GPT Image 2, and Muse also produced tasteful swimwear outputs in the core test; one Nano Banana request returned two rather than three images. In the later MAI qualification, the entire swimsuit cell was blocked.
+## Fidelity review
 
-Seedream is therefore the route we would qualify first for a real swimwear collection.
+Seedream passes the article-size quality gate: skin, flash, dark wood, and background lights are clean; the dress remains pale yellow with the two-button front and wrapped belt; and the bag retains its gold chain and circular surface language.
 
-## Identity across camera distance and pose
+It is not a product-exact reconstruction. The garment's folds and belt wrap change, the neckline is interpreted, and individual bag discs are not preserved one for one. The identity is close but less exact than the strongest results in the set, which matters because the source portrait itself is low resolution.
 
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-close.webp" alt="Seedream 5 identity close-up" /><figcaption><strong>Close-up</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-full.webp" alt="Seedream 5 identity full length" /><figcaption><strong>Full length</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-seated.webp" alt="Seedream 5 identity seated" /><figcaption><strong>Seated</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-seedream-motion.webp" alt="Seedream 5 identity walking" /><figcaption><strong>Movement</strong></figcaption></figure>
-</div>
+## How to qualify Seedream for a collection
 
-The face, skin tone, and overall cast remained especially stable as the framing changed. A four-shot strip is not proof of catalog-scale consistency, but it is enough to justify a production qualification.
-
-## Where another model starts first
-
-- For an ordinary fashion brief without a known specialist risk, use [Nano Banana 2](./nano-banana-2-for-fashion.md).
-- For beauty advertising and prominent copy, use [GPT Image 2](./gpt-image-2-for-product-photography.md).
-- For jewelry and strict multi-reference constraints, use [Muse](./muse-image-model-review.md).
-- For low-cost direct product edits, qualify [MAI-Image-2.6](./mai-image-2-6-review.md)—but avoid it as the current swimwear default.
-
-## Prompting Seedream for fashion
-
-> Create a [crop] fashion photograph using `<identity>` and `<garment>`. Preserve the exact garment color, material, weave, construction, hardware, print, and silhouette. Specify one lighting setup that reveals the material. Define pose and background. Exclude text, logos, extra people, and unrequested accessories.
-
-Name the difficult material explicitly and describe how light should behave on it. “Orange jacket” tests color; “burnt-orange silk jacquard with woven leaf texture under controlled hard side light” tests the thing the art director actually needs to approve.
+- Test the hardest SKU and accessory together before scaling.
+- Request the highest supported resolution; in this comparison that was 2K.
+- Keep the semantic prompt and references fixed when comparing models.
+- Approve identity, garment construction, and accessory geometry separately.
+- Retain the downloaded original and label any smaller WebP as a derivative.
 
 ## Bottom line
 
-Seedream 5 Pro is not our universal winner. It is the model to choose when color, material, identity, or swimwear completion is the hard part. That is a more useful role than an abstract leaderboard position.
-
-See the [complete side-by-side benchmark](./best-ai-image-models-fashion.md) and [methodology](./how-we-benchmark-ai-image-models.md).
+Seedream 5 Pro delivered a strong, complete reference-led fashion frame in this controlled one-output test. It is a credible production candidate, but the softened identity and interpreted product details still need normal approval. See the [full matched comparison](./best-ai-image-models-fashion.md).
 
 For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

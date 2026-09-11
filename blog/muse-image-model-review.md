@@ -1,6 +1,6 @@
 ---
-title: "Muse Image Model Review: Multi-Reference Fashion and Product Tests"
-description: "A hands-on Muse Image review for jewelry, complex references, product fidelity, identity, fashion imagery, constraints, and production routing in Astria."
+title: "Muse Image Model Review: Matched Multi-Reference Fashion Test"
+description: "A reference-led Muse Image review using the same Sloane identity, yellow dress, gold bag, prompt, aspect ratio, and one-output rule as the wider comparison."
 slug: muse-image-model-review
 date: 2026-09-12
 hide_table_of_contents: false
@@ -9,105 +9,56 @@ authors: [astria]
 tags: [models, guides]
 keywords:
   - Muse Image model review
-  - Muse Image prompts
+  - Muse Image references
   - Muse AI image model
   - multi reference image model
-  - AI image model for jewelry
+  - AI fashion photography
 ---
 
-**Muse creates images from several reference photos.** Use it when you need a specific person, garment, or product to appear together in the result. The examples below show what it preserved and what still needs checking.
+**Muse combined an identity, garment, and accessory reference into a coherent campaign image.** It kept Sloane recognizable, preserved the pale-yellow sleeveless dress language, and rendered the circular-detail gold bag as a separate object. The main incompatibility is canvas shape: this endpoint returned 1920×1280 (3:2) from the shared 16:9 request.
 
 <!-- truncate -->
 
-<aside className="astria-article-cta" aria-label="Generate with Muse"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Reference-first specialist</p><h2 className="astria-article-cta__title">Try Muse with your product photos</h2><p className="astria-article-cta__copy">Upload your product and model photos to create a styled image.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/best-ai-image-models-fashion"><span>Compare models</span><span aria-hidden="true">→</span></a></div></aside>
+<aside className="astria-article-cta" aria-label="Generate with Muse"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Reference-first test</p><h2 className="astria-article-cta__title">Give every reference one role</h2><p className="astria-article-cta__copy">Use a person, garment, and accessory reference together, then inspect each one separately.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/best-ai-image-models-fashion"><span>Compare models</span><span aria-hidden="true">→</span></a></div></aside>
 
-## A necklace reference and Muse’s result
+## The complete input reference set
 
-We gave Muse the necklace image on the left and asked it to show the necklace on a person. Compare the stones, chain, and setting with the generated image on the right.
+The source set is the approved Maison Urban material from prompt `46557199`, copied into workspace `896` (Articles). Muse received all three references in one request.
 
-<div className="benchmark-grid benchmark-grid--two">
-  <figure className="benchmark-card benchmark-card--square benchmark-card--source"><img loading="eager" src="/articles/img/model-benchmarks/2026-09/source-necklace.webp" alt="Synthetic emerald necklace supplied as the source reference" /><figcaption><strong>Input: necklace reference</strong>Synthetic product image used in this test.</figcaption></figure>
-  <figure className="benchmark-card benchmark-card--square benchmark-card--source"><img loading="eager" src="/articles/img/model-benchmarks/2026-09/jewelry-muse.webp" alt="Muse-generated portrait of a person wearing the emerald necklace" /><figcaption><strong>Output: Muse image</strong>The necklace shown on a generated person.</figcaption></figure>
+<div className="benchmark-grid benchmark-grid--three">
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp" alt="Sloane identity reference used for the Muse Image test" /><figcaption><strong>Sloane</strong>Identity · Articles tune 5639061 · 679×722 source, not upscaled</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp" alt="Yellow sleeveless belted dress reference used for the Muse Image test" /><figcaption><strong>Dress</strong>Pale-yellow color, sleeveless cut, two buttons, belt, and long silhouette · Articles tune 5639041</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp" alt="Gold chain bag with circular metallic details used for the Muse Image test" /><figcaption><strong>Bag</strong>Gold chain and repeated circular construction · Articles tune 5639043</figcaption></figure>
 </div>
 
-## Muse at a glance
+The dress and bag source masters exceed 2K on the long edge. Sloane's 679×722 portrait is the disclosed exception to the 1600px source gate, so this is a practical identity check rather than a high-resolution likeness benchmark.
 
-| Best fit | Why we route it there |
-| --- | --- |
-| Several references in one frame | Dependable interpretation of separate asset roles |
-| Jewelry and small products | Strong reference-led placement and overall design preservation |
-| Explicit inclusion/exclusion rules | Treats the brief as a set of simultaneous constraints |
-| Identity plus product continuity | Strong cast and garment reference behavior across the tested series |
+### Prompt
 
-We use “thinking model” as an editorial description of observable behavior. Muse's outputs act as though the references and constraints were considered together before composition. We are not making an undocumented claim about internal architecture.
+> Dress hero shot. An off-kilter, flash-lit photograph of the referenced woman in a dynamic, almost off-balance leaning pose against a dark wooden bar counter or pillar at night. Her body creates a diagonal line. She wears the reference dress and holds the reference bag. The strong flash casts a sharp shadow. Blurred shelves with bottles and bar lights define the out-of-focus background. Cool, edgy vibe.
 
-The controlled benchmark requested 33 Muse outputs across 11 briefs; all returned. Output `00` from every cell was selected before review.
+## The matched Muse result
 
-## The multi-reference stress test
+<figure className="benchmark-card benchmark-card--single benchmark-card--landscape" data-source-reference="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp /articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-muse-sloane.webp" alt="Muse Image output of Sloane wearing the yellow dress and holding the circular-detail gold bag in a dark bar" /><figcaption><strong>Muse Image</strong>Prompt 46636363 · native request / 1920×1280 actual · identity, garment, and bag remain coherent; endpoint returned 3:2 from the 16:9 request</figcaption></figure>
 
-The final benchmark brief combined:
+The only returned output passed the visual gate. Sloane remains recognizable and the dress keeps its color, sleeveless construction, buttons, and wrapped belt. The bag is fully legible as the circular gold reference rather than a generic clutch.
 
-- one adult cast identity;
-- an orange crane jacket;
-- an emerald necklace;
-- a serum bottle held upright in the right hand;
-- a deep teal background and coral floor strip;
-- product-specific counts and colors;
-- an explicit list banning extra garments, jewelry, bottles, text, objects, and people.
+The fidelity limit is equally visible: pleats and belt geometry are interpreted rather than copied, individual bag discs change, and the 3:2 canvas is incompatible with the shared 16:9 framing. We record that mismatch instead of cropping the master and pretending the model followed the ratio.
 
-<figure className="benchmark-card benchmark-card--single"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/complex-muse.webp" alt="Muse complex multi-reference fashion campaign benchmark" /><figcaption><strong>Muse</strong>First choice when satisfying simultaneous constraints is the central job.</figcaption></figure>
+## When Muse is a useful route
 
-Nano Banana 2, GPT Image 2, and Seedream 5 also produced unusually strong first outputs for this brief. Muse's recommendation comes from its dependable behavior across this case and the product-reference tests, not from a claim that every competitor failed.
+Muse is worth testing when a brief contains several supplied assets with different roles. A good prompt should say which reference is the person, which is the garment, which is the accessory, and which properties must survive.
 
-## Jewelry: why reference-first behavior matters
+Use a checklist after generation:
 
-A necklace is not a green-and-gold aesthetic. The source has a countable number of emeralds, prongs, diamond spacers, a chain, clasp, spacing, scale, and a relationship to the wearer's body.
-
-The result still requires macro inspection. Generated jewelry can look convincing while changing construction. For a primary listing image, retain a photograph of the real piece; use generated on-body and campaign imagery only after the product passes a detail checklist.
-
-## Identity and garment continuity
-
-Muse kept both face and jacket recognizable across four crops and poses.
-
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-close.webp" alt="Muse identity close-up" /><figcaption><strong>Close-up</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-full.webp" alt="Muse identity full length" /><figcaption><strong>Full length</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-seated.webp" alt="Muse identity seated" /><figcaption><strong>Seated</strong></figcaption></figure>
-  <figure className="benchmark-card"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/identity-muse-motion.webp" alt="Muse identity walking" /><figcaption><strong>Movement</strong></figcaption></figure>
-</div>
-
-This is useful for production because references accumulate. A campaign rarely asks only for a face; it asks for the same person, garment, accessory, location language, and exclusions across a shot list.
-
-## When Muse is unnecessary
-
-Do not add a specialist when the default already works.
-
-- Use [Nano Banana 2](./nano-banana-2-for-fashion.md) for the broadest everyday fashion workflow.
-- Use [GPT Image 2](./gpt-image-2-for-product-photography.md) for beauty, advertising layout, and prominent text.
-- Use [Seedream 5](./seedream-5-for-fashion.md) for saturated color, material rendering, identity, and swimwear.
-- Qualify [MAI-Image-2.6](./mai-image-2-6-review.md) for direct one-image edits or lower-cost commercial exploration.
-
-Muse earns its generation cost when a failed reference is more expensive than another attempt: the wrong necklace, omitted bottle, changed garment, or blended product attributes.
-
-## Prompting Muse as a constraint system
-
-Assign every reference one role:
-
-> `<person>` is the only person. They wear `<garment>` and `<jewelry>`. They hold exactly one `<product>` upright in the right hand. Preserve [countable attributes for each asset]. Place them against [scene]. Do not merge product attributes. No [explicit exclusions].
-
-Then score the output with a checklist rather than one overall impression:
-
-1. Was every reference included?
-2. Did each reference stay in its assigned role?
-3. Were countable product details preserved?
-4. Were placement instructions followed?
-5. Did any banned object appear?
-6. Is the image aesthetically usable after it passes accuracy?
+1. Is the person still recognizable?
+2. Did the garment retain color, neckline, buttons, belt, and silhouette?
+3. Is the bag still a distinct product with the right material language?
+4. Did the requested crop and aspect ratio survive?
+5. Is the result good enough at article or campaign size after it passes those checks?
 
 ## Bottom line
 
-Muse is not the model we would use for every fashion frame. It is the model we add when references and constraints are the risk. That makes it especially valuable for jewelry, accessories, product-and-person compositions, and complicated campaign briefs.
-
-See the [full four-model comparison](./best-ai-image-models-fashion.md) and [benchmark methodology](./how-we-benchmark-ai-image-models.md).
+Muse passed this three-reference composition test and remains a strong candidate when reference separation is the hard part. Its 3:2 return from a 16:9 request is a real production caveat. Compare it with the other models in the [full matched benchmark](./best-ai-image-models-fashion.md).
 
 For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

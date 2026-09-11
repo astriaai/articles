@@ -1,6 +1,6 @@
 ---
 title: "How We Benchmark AI Image Models for Fashion and Product Work"
-description: "The prompts, references, selection rule, costs, limitations, and disclosure behind Astria's 2026 fashion image-model comparison."
+description: "The references, prompt, selection rule, resolution policy, limitations, and disclosure behind Astria's reference-led image-model comparison."
 slug: how-we-benchmark-ai-image-models
 date: 2026-09-05
 hide_table_of_contents: false
@@ -14,139 +14,100 @@ keywords:
   - product reference fidelity
 ---
 
-We benchmark image models on the work a fashion or product team actually has to approve: garments, color, texture, identity, jewelry, copy, benign swimwear, and briefs containing several references at once.
+We benchmark public image models with inputs a fashion team can inspect: one identity, one garment, one accessory, one semantic prompt, one canvas request, and one predetermined output per endpoint.
 
-The September 2026 pilot compares **Nano Banana 2, GPT Image 2, Seedream 5 Pro, and Muse** across 11 controlled briefs. Three outputs were requested for every model-and-brief pair: 132 requested, 131 returned.
+The current public comparison covers GPT Image 2.5 Sunburst and Flare, GPT Image 2, Nano Banana 2, Seedream 5 Pro, Muse Image, MAI-Image-2.6, and MAI-Image-2.6-Flash. All compatible requests ran in Astria workspace `896` (Articles).
 
 <!-- truncate -->
 
-<aside className="astria-article-cta" aria-label="Start creating with Astria">
-  <div className="astria-article-cta__mark">
-    <img src="/articles/img/logo@2x.webp" alt="" />
-  </div>
-  <p className="astria-article-cta__eyebrow">Transparent comparison</p>
-  <h2 className="astria-article-cta__title">Run your own production brief</h2>
-  <p className="astria-article-cta__copy">Use the same references and prompt across models, then approve for accuracy and art direction separately.</p>
-  <div className="astria-article-cta__actions">
-    <a className="astria-article-cta__button astria-article-cta__button--primary" href="/prompts">
-      <span>Generate</span><span aria-hidden="true">→</span>
-    </a>
-    <a className="astria-article-cta__button astria-article-cta__button--secondary" href="/gallery/workspaces">
-      <span>Templates gallery</span><span aria-hidden="true">→</span>
-    </a>
-  </div>
-</aside>
+<aside className="astria-article-cta" aria-label="Start creating with Astria"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Transparent comparison</p><h2 className="astria-article-cta__title">Run one reference set across models</h2><p className="astria-article-cta__copy">Fix the sources and controls first, then score product accuracy separately from art direction.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="/prompts"><span>Generate</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/best-ai-image-models-fashion"><span>See results</span><span aria-hidden="true">→</span></a></div></aside>
 
-## Public leaderboards are context, not a production verdict
+## Why reference-led evidence matters
 
-Public image leaderboards answer useful questions. They do not all answer the same question.
+A text-only image can demonstrate taste, but it cannot show whether a supplied person, garment, or accessory survived generation. A useful fashion benchmark asks questions that have visible ground truth:
 
-[Artificial Analysis](https://artificialanalysis.ai/image/methodology) separates text-to-image from image editing, uses human preference, and reports endpoint quality, price, and generation time. Its methodology also distinguishes localized editing from reference-to-image generation. [GenAI-Bench](https://github.com/TIGER-AI-Lab/GenAI-Bench) studies how model judgments align with human preferences collected in a generative arena. [ImgEdit-Bench](https://github.com/pku-yuangroup/ImgEdit) evaluates instruction adherence, editing quality, detail preservation, and single- versus multi-turn editing.
+- Does the person remain recognizable?
+- Does the dress retain its color, neckline, buttons, belt, and silhouette?
+- Is the bag still a separate product with its chain and circular construction?
+- Did the requested composition and canvas survive?
+- Is the result attractive only after it is accurate enough for the intended use?
 
-Those are valuable priors. A fashion production decision adds different questions:
+No text-to-image-only result is used as public evidence in the current article family.
 
-- Did the number and placement of buttons survive?
-- Is a woven pattern merely plausible, or is it the same pattern?
-- Does cobalt remain cobalt under a new lighting treatment?
-- Does the same person remain recognizable from close-up to full length?
-- Is the packaging copy exact?
-- Did the model keep four references separate rather than blend them?
+## The complete source set
 
-We therefore use public benchmark design as context, then test the current endpoints inside the workflow being recommended.
+The source assets came from Maison Urban prompt `46557199` and were copied into workspace `896` so article work did not run in a customer workspace.
 
-## What the pilot tested
-
-The pilot has 11 briefs:
-
-| Track | Briefs | Primary risk |
-| --- | ---: | --- |
-| General fashion | 1 | Overall art direction, garment use, realism, and composition |
-| Color and texture | 1 | Jacquard, embroidery, buttons, saturated color, and sheen |
-| Swimwear | 2 | Tasteful completion, garment preservation, framing, and unwanted alteration |
-| Beauty with text | 1 | Skin, bottle geometry, exact headline, and small packaging copy |
-| Jewelry | 1 | Stone count, settings, spacing, chain, scale, and reflections |
-| Identity series | 4 | One person and one garment across close-up, full-length, seated, and movement shots |
-| Complex references | 1 | Person, garment, necklace, bottle, placement, background, and exclusions in one frame |
-
-All people are adults. The swimwear prompts use ordinary ecommerce and editorial framing and do not attempt to evade safety systems.
-
-## The source assets
-
-The four product references are synthetic and brand-neutral. We created them for this test so no customer product, artwork, or campaign would become public benchmark material. One dedicated, approved synthetic cast identity was reused across all on-model briefs.
-
-<div className="benchmark-grid benchmark-grid--four">
-  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-jacket.webp" alt="Synthetic orange jacquard jacket benchmark reference" /><figcaption><strong>Textured jacket</strong>Color, weave, cranes, buttons, and silhouette</figcaption></figure>
-  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-swimsuit.webp" alt="Synthetic cobalt and coral swimsuit benchmark reference" /><figcaption><strong>Swimsuit</strong>Color, asymmetric straps, piping, and rings</figcaption></figure>
-  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-beauty.webp" alt="Synthetic rose serum bottle and carton benchmark reference" /><figcaption><strong>Beauty pack</strong>Geometry, material, label, and carton</figcaption></figure>
-  <figure className="benchmark-card benchmark-card--source benchmark-card--square"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/source-necklace.webp" alt="Synthetic emerald and rose gold necklace benchmark reference" /><figcaption><strong>Jewelry</strong>Stones, settings, spacing, chain, and clasp</figcaption></figure>
+<div className="benchmark-grid benchmark-grid--three">
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp" alt="Sloane identity source for the Astria image model benchmark" /><figcaption><strong>Sloane</strong>Maison Urban tune 3904080 · Articles tune 5639061 · 679×722</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp" alt="Yellow sleeveless belted dress source for the Astria image model benchmark" /><figcaption><strong>Dress</strong>Maison Urban tune 3907553 · Articles tune 5639041 · 1440×2160</figcaption></figure>
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp" alt="Gold chain bag with circular metallic details source for the Astria image model benchmark" /><figcaption><strong>Bag</strong>Maison Urban tune 3907242 · Articles tune 5639043 · 1440×2159</figcaption></figure>
 </div>
-<p className="benchmark-caption">Ground truth is the rendered source, not the text prompt that produced it. That distinction prevents an evaluator from penalizing a comparison model for an attribute absent from the actual reference.</p>
 
-The visual ground truth is recorded before judging. For example, the rendered jacket contains four crane motifs and four buttons, while the rendered necklace contains nine emeralds. The comparison prompts use those observed facts.
+The dress and bag pass the preferred 1600px long-edge source gate. Sloane is the explicit exception: the supplied identity portrait is 679×722 and was normalized to a valid JPEG without upscaling. Identity conclusions are directional.
+
+## The semantic prompt
+
+> Dress hero shot. An off-kilter, flash-lit photograph of the referenced woman in a dynamic, almost off-balance leaning pose against a dark wooden bar counter or pillar at night. Her body creates a diagonal line. She wears the reference dress and holds the reference bag. The strong flash casts a sharp shadow. Blurred shelves with bottles and bar lights define the out-of-focus background. Cool, edgy vibe.
+
+The live request inserts `<faceid:5639061:1> woman`, `<faceid:5639041:1> dress`, and `<faceid:5639043:1> bag` in the corresponding semantic roles. Phrases such as “comparison article brief” are not part of the prompt.
 
 ## Controls and selection rule
 
-Every model received the same semantic brief and the same Astria reference tokens. Portrait and editorial work used a shared **3:4** aspect ratio; the jewelry macro used **1:1**. The initial calibration used 4:5, but Muse did not support that ratio, so 3:4 became the fair shared portrait format. Nano Banana 2, GPT Image 2, and Seedream 5 used 2K where exposed; Muse used its native endpoint settings.
+| Control | Rule |
+| --- | --- |
+| Workspace | `896` (Articles) |
+| Aspect ratio | 16:9 requested for every model |
+| Output count | One per endpoint |
+| Selection | The only returned output; no choice among alternates |
+| Resolution | Highest exposed endpoint setting: 4K for GPT Image 2.5, GPT Image 2, and Nano Banana 2; 2K for Seedream 5 Pro; native when no shared selector exists |
+| Reference incompatibility | Record it; never replace the cell with text-to-image |
+| Public asset | Optimized WebP derivative made from the downloaded original |
 
-Three outputs were requested per cell. The article shows **output 00**, the first predetermined result, for every completed cell. We did not inspect all three and choose the prettiest. Alternate results remain in the run archive, including failures and unwanted variations.
-
-That rule removes one common source of misleading model comparisons: showing the best lucky draw from one model beside an ordinary draw from another.
+Muse returned 1920×1280 (3:2) from the 16:9 request. MAI flagship and Flash expose no shared resolution selector and returned 1365×768. Those differences are disclosed rather than normalized away.
 
 ## What we record
 
-For each request, the benchmark stores:
+For each output, the benchmark record stores:
 
-- model and endpoint identifier;
-- exact brief and reference tokens;
-- aspect ratio and resolution policy;
-- prompt ID;
-- output count requested and received;
-- reported generation cost;
-- public display asset;
-- completion, instruction, reference, identity/text, and editorial notes.
+- model and live tune ID;
+- prompt ID and workspace;
+- full semantic prompt and source-tune provenance;
+- requested aspect ratio, resolution, and output count;
+- actual master dimensions and original media URL;
+- public derivative path and dimensions;
+- the fixed selection rule;
+- visual-quality, fidelity, and exclusion notes.
 
-The raw run manifest is machine-readable JSON and the first-pass review is a CSV. The public article does not turn those notes into a fabricated universal score.
+The machine-readable record is `benchmark/image-models-2026-09/reference-comparison.json` in the article repository.
 
-## How results are judged
+## Visual review gate
 
-We keep accuracy separate from preference.
+Every selected result is opened at its original dimensions before publication. It must look good at article size and keep all three reference roles legible. Reviewers inspect identity, dress construction, color, bag geometry, composition, artifacts, and actual canvas shape separately.
 
-**Instruction following** asks whether the requested view, pose, framing, objects, and exclusions appeared. **Reference fidelity** checks product color, silhouette, construction, texture, hardware, and separation of roles. **Identity** asks whether the cast remains recognizably the same. **Text** checks wording and layout, with small package copy treated more strictly than text that only looks typographic. **Editorial usability** asks whether a creative team could reasonably take the result into approval or light retouching.
+The full-resolution downloads remain the masters. WebP files under `static/img/` are delivery derivatives. A smaller derivative is never reported as the generation's actual resolution.
 
-The publication review for this pilot is a disclosed editorial assessment by Astria, not a blinded multi-reviewer scientific study. The output order was fixed before review, but model names are visible in the published comparison. The qualitative verdicts should therefore be read as production guidance supported by inspectable examples, not as statistically powered proof.
+## Exclusions and limitations
 
-A larger follow-up should add at least three blinded reviewers, randomize the presentation order, record pairwise preferences, run OCR for exact text, and calculate cost per approved output using a predefined pass gate.
+An earlier synthetic garment source was rejected for poor reference quality. Its outputs, public claims, and dependent covers were removed from the article family. The historical September pilot remains an internal audit trail in `runs.json`; it is not the evidence presented on the current public pages.
 
-## Completion and cost
+Other limitations remain:
 
-The core run requested **132 images and returned 131**. Forty-three of 44 model-and-brief requests returned all three images. The Nano Banana 2 swimwear-editorial request returned two of three; the endpoint reported no `user_error` and no reason for the missing image. Every model produced safe, tasteful imagery for both swimwear briefs.
-
-We recorded generation charges for reproducibility but do not publish them as current pricing. Model rates change; use [Astria's pricing page](https://www.astria.ai/pricing) for live pricing and calculate cost per approved output from your own pass rate.
-
-Cost per generated image is only an input metric. A production comparison should ultimately divide the total generation and retouch spend by the number of outputs that pass approval.
-
-## Known limitations
-
-- Eleven briefs are enough to show useful differences, not to rank the entire model market.
-- One synthetic identity and four synthetic products do not represent every skin tone, textile, body, material, or brand system.
-- Three outputs per cell reveal variation but do not provide a large statistical sample.
-- Endpoint behavior, pricing, safety handling, and catalog availability can change after September 6, 2026.
-- Muse used native endpoint settings while the other core models used exposed 2K settings.
-- Text and jewelry geometry were reviewed visually; no OCR or automated geometric score is presented in this pilot.
-- Astria publishes this comparison and sells access to the tested endpoints.
-
-The recommendation is about the tested Astria endpoints on the capture date. It is not a claim about every deployment of the underlying models.
+- one output per endpoint cannot estimate retry rates;
+- one identity, dress, and bag do not represent every product or cast;
+- the Sloane source limits high-resolution likeness conclusions;
+- garment folds, belt geometry, chain placement, and individual bag discs vary in every output;
+- model behavior and endpoint controls can change after capture.
 
 ## Reproducing the comparison
 
-The exact prompts, source descriptions, reference IDs, prompt IDs, costs, and judging notes live in the repository benchmark package. To reproduce the logic in another workspace:
+1. Use rights-cleared source images and record their original dimensions.
+2. Put all editorial generations in workspace `896`.
+3. Use the same reference tunes and semantic prompt for every compatible endpoint.
+4. Fix the aspect ratio and output count.
+5. Request the highest exposed resolution without inventing a control for endpoints that lack one.
+6. Download the original output and record its true media type and dimensions.
+7. Review visual quality and source fidelity before creating a web derivative.
+8. Publish the only output or record the incompatibility; do not substitute text-only evidence.
 
-1. Create rights-cleared source products and one approved adult identity.
-2. Record the visual ground truth of each source.
-3. Convert each source to a stable reference.
-4. Send the same semantic brief to every compatible model.
-5. Request the same number of outputs and preserve all of them.
-6. Choose the public display rule before opening the results.
-7. Review aesthetic quality and product accuracy as separate decisions.
-
-Read the [full side-by-side results](./best-ai-image-models-fashion.md) or use the shorter [Astria model-selection guide](./astria-image-models.md).
+Read the [full reference-matched comparison](./best-ai-image-models-fashion.md) or the shorter [Astria model-selection guide](./astria-image-models.md).
