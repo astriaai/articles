@@ -92,7 +92,7 @@ Adobe's summary: "In Photoshop, Generative Fill consumes 10 to 40 credits, depen
 
 | Decision factor | Photoshop Generative Fill | Astria plugin | Winner |
 | --- | --- | --- | --- |
-| Models in the panel today | Three Firefly models plus Nano Banana 2, Nano Banana Pro, FLUX.2 pro and FLUX.1 Kontext; GPT Image is Firefly-web only; no Seedream | GPT Image 2 (mask-aware, 1K/2K/4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro (4K), Seedream 5 (4K edit), Flux 2 Pro | **Astria** for GPT Image and Seedream inside the document |
+| Models in the panel today | Three Firefly models plus Nano Banana 2, Nano Banana Pro, FLUX.2 pro and FLUX.1 Kontext; GPT Image is Firefly-web only; no Seedream | GPT Image 2 (mask-aware, 1K/2K/4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro, Seedream 5, Flux 2 Pro | **Astria** for GPT Image and Seedream inside the document |
 | New-model lead time | Arrives with a Photoshop release and an Adobe partnership; Nano Banana Pro on launch day, Nano Banana 2 in 27.6; GPT Image 2.5 in Firefly web only | Model list is served by the Astria platform, so a model added to Astria appears in the panel that day; GPT Image 2.5 Sunburst and Flare and Muse Image are already on the platform | **Astria** |
 | Returned resolution and layer type | Adobe's FAQ states Firefly returns 1024×1024 to Photoshop and publishes no partner-model size; a community thread reports Nano Banana Pro output well below Gemini web, no fix timeline | Smart Object holding the model's full returned resolution, up to 4K on GPT Image 2 and the Gemini models; re-transform, mask and re-edit without resampling | **Astria** |
 | Selection-to-layer workflow | Selection, Generative Fill in the Contextual Task Bar, model picker, prompt, Generate, then pick a variation in Properties | Select with marquee, lasso, brush or color range, prompt, generate, all in one panel; mask-aware models read the selection; model switched per task from one dropdown; result lands as a new layer, placed as a Smart Object | **Astria** for per-task model choice and Smart Object output |
@@ -116,7 +116,7 @@ Adobe draws a line between its own model and its partners'. Firefly is the model
 
 ## What the Astria Nano Banana plugin for Photoshop is
 
-The Astria plugin is a CCX/UXP panel for Photoshop 2025 (version 26 and later) on macOS and Windows. It costs $9 once. Six hosted models sit in one dropdown: GPT Image 2 (OpenAI, mask-aware, 1K/2K/4K), Nano Banana 2 (Gemini 3.1), Nano Banana Pro (Gemini 3 Pro), Seedream 5 Pro (4K), Seedream 5 (4K edit) and Flux 2 Pro. Flux Kontext was retired in favor of these.
+The Astria plugin is a CCX/UXP panel for Photoshop 2025 (version 26 and later) on macOS and Windows. It costs $9 once. Six hosted models sit in one dropdown: GPT Image 2 (OpenAI, mask-aware, 1K/2K/4K), Nano Banana 2 (Gemini 3.1), Nano Banana Pro (Gemini 3 Pro), Seedream 5 Pro, Seedream 5 and Flux 2 Pro. Flux Kontext was retired in favor of these.
 
 The workflow is three steps. Select with the marquee, lasso, brush or color range. Prompt in short, specific language, dropping reference images into the panel as visual instructions. Generate, and the result lands as a new layer. Mask-aware models read the selection directly. The model is chosen per task, and keys are switched inside the panel.
 
@@ -160,7 +160,7 @@ Nano Banana Pro is 40 credits; Nano Banana 2 is 20 or 30; a Photoshop single-app
 
 ### GPT Image and Seedream inside the document, winner: Astria
 
-Adobe lists GPT Image 2 and both GPT Image 2.5 variants for Firefly, Boards and Illustrator, not Photoshop. Seedream is absent from Adobe's stack. Inside the Astria panel, GPT Image 2 reads the selection as a mask and Seedream 5 Pro edits at 4K, alongside the two Gemini models and Flux 2 Pro. A retoucher who knows which model handles surgical replacement and which handles long structural prompts gets that choice in one dropdown.
+Adobe lists GPT Image 2 and both GPT Image 2.5 variants for Firefly, Boards and Illustrator, not Photoshop. Seedream is absent from Adobe's stack. Inside the Astria panel, GPT Image 2 reads the selection as a mask and Seedream 5 Pro handles long, structured edit prompts, alongside the two Gemini models and Flux 2 Pro. A retoucher who knows which model handles surgical replacement and which handles long structural prompts gets that choice in one dropdown.
 
 ### Bring your own key, and no organizational gate, winner: Astria
 

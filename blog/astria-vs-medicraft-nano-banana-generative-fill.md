@@ -83,7 +83,7 @@ Five criteria: model roster and how fast new models arrive; output fidelity (ret
 
 | Decision factor | Medicraft Nano Banana Generative Fill | Astria | Winner |
 | --- | --- | --- | --- |
-| Models in the panel today | Nano Banana 1, 2, 2 Lite and Pro; Gemini only | GPT Image 2 (mask-aware, 1K–4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro (4K), Seedream 5 (4K edit), Flux 2 Pro | **Astria** |
+| Models in the panel today | Nano Banana 1, 2, 2 Lite and Pro; Gemini only | GPT Image 2 (mask-aware, 1K–4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro, Seedream 5, Flux 2 Pro | **Astria** |
 | New-model lead time | One plugin release per model: Nano Banana 2 on 27 Feb 2026, 2 Lite on 2 Jul 2026; a non-Google model needs new code | Model list served by the Astria platform; new models appear the day they launch, no plugin update | **Astria** |
 | Returned resolution and layer type | Up to 4K on Nano Banana 2 (auto, 1K, 2K or 4K); new layer or written into the original; layer type not publicly verified | Smart Object holding the full returned resolution, up to 4K by model; re-transform and mask without resampling | **Astria** |
 | Selection-to-layer workflow | Select, prompt, generate to a new layer or in place; edge-feather helper; prompt library; Actions on Photoshop 25+ | Marquee, lasso, brush or colour range; prompt; generate. Mask-aware models read the selection; model chosen per task; new layer | **Astria** for mask-aware models and per-task choice |
@@ -111,7 +111,7 @@ Inside the document, Medicraft has built useful things: references from the acti
 
 The Astria plugin is a CCX/UXP panel for Photoshop 2025 (version 26 and later) on macOS and Windows. Select with the marquee, lasso, brush or colour range; type a short prompt, dropping reference images into the panel if the edit should follow a look; generate. Mask-aware models read the selection directly, and the result lands as a new layer.
 
-Six hosted models sit in one dropdown: GPT Image 2 from OpenAI with mask-aware editing at 1K, 2K or 4K; Nano Banana 2 (Gemini 3.1); Nano Banana Pro (Gemini 3 Pro); Seedream 5 Pro at 4K; Seedream 5 for 4K edits; and Flux 2 Pro. Flux Kontext was retired in favour of these. Because the model list is served by the Astria platform, a model added to Astria appears in the panel the day it launches, with no plugin update. The platform already carries GPT Image 2.5 Sunburst and Flare and Muse Image, listed on the site banner on 13 September 2026.
+Six hosted models sit in one dropdown: GPT Image 2 from OpenAI with mask-aware editing at 1K, 2K or 4K; Nano Banana 2 (Gemini 3.1); Nano Banana Pro (Gemini 3 Pro); Seedream 5 Pro; Seedream 5; and Flux 2 Pro. Flux Kontext was retired in favour of these. Because the model list is served by the Astria platform, a model added to Astria appears in the panel the day it launches, with no plugin update. The platform already carries GPT Image 2.5 Sunburst and Flare and Muse Image, listed on the site banner on 13 September 2026.
 
 Each generation is placed as a Smart Object holding the model's full returned resolution. A 4K result placed into a small selection still carries the 4K pixels, so it can be re-transformed, masked and re-edited later without resampling.
 
@@ -143,7 +143,7 @@ For the forty SKUs, the same key and balance drive Astria workspaces and templat
 
 ### Model roster — winner: Astria
 
-Medicraft covers the Gemini image line completely and stops there. GPT Image 2 is the model for replacing a brushed selection cleanly, Seedream 5 handles long, structured prompts and 4K edits, and Flux 2 Pro is a different look again. None exists in Medicraft's panel.
+Medicraft covers the Gemini image line completely and stops there. GPT Image 2 is the model for replacing a brushed selection cleanly, Seedream 5 handles long, structured prompts, and Flux 2 Pro is a different look again. None exists in Medicraft's panel.
 
 ### New-model lead time — winner: Astria
 

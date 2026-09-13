@@ -83,7 +83,7 @@ Five criteria, all from the retoucher's chair. First, the model roster and how q
 
 | Decision factor | Creator MAX | Astria | Winner |
 | --- | --- | --- | --- |
-| Models in the panel today | Nano Banana Pro, 2, 2 Lite and the original (up to 4K); GPT Image 2 at low, medium or high quality; Grok Imagine in Quality and Standard tiers | GPT Image 2 (mask-aware, 1K/2K/4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro, Seedream 5 (4K edit), Flux 2 Pro | **Astria**, for Seedream and Flux; Grok is Creator MAX's alone |
+| Models in the panel today | Nano Banana Pro, 2, 2 Lite and the original (up to 4K); GPT Image 2 at low, medium or high quality; Grok Imagine in Quality and Standard tiers | GPT Image 2 (mask-aware, 1K/2K/4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro, Seedream 5, Flux 2 Pro | **Astria**, for Seedream and Flux; Grok is Creator MAX's alone |
 | New-model lead time | Models ship in plugin releases "once they clear our quality bar"; GPT Image 2 arrived with the July 2026 rebuild, Grok Imagine Image 2.0 on 27 August 2026 | Model list is served by the Astria platform; a model added to Astria appears in the panel on launch day with no plugin update or re-download | **Astria** |
 | Returned resolution and layer type | Up to 4K depending on model; results "land in the originating document as new, named layers, cropped to your selection"; layer type and retained pixel count not publicly verified | Each result is a Smart Object holding the model's full returned resolution at the 1K, 2K or 4K you chose | **Astria** |
 | Selection-to-layer workflow | Select, prompt, pick a model; Lock Edges keeps the selection border; the result returns as a named layer | Select with marquee, lasso, brush or colour range, prompt, generate; mask-aware models read the selection directly; the result is a Smart Object you can re-transform | **Astria** |
@@ -107,7 +107,7 @@ The commercial and privacy design is the other half of the pitch. You bring your
 
 ## What the Astria Nano Banana plugin for Photoshop is
 
-The Astria plugin is a CCX/UXP panel for Photoshop 2025 (v26 and later) on macOS and Windows, with no GPU required. It is a $9 one-time purchase. The panel carries six models today: GPT Image 2 (OpenAI, mask-aware, 1K/2K/4K), Nano Banana 2 (Gemini 3.1), Nano Banana Pro (Gemini 3 Pro), Seedream 5 Pro, Seedream 5 (4K edit) and Flux 2 Pro. Flux Kontext was retired in favour of these.
+The Astria plugin is a CCX/UXP panel for Photoshop 2025 (v26 and later) on macOS and Windows, with no GPU required. It is a $9 one-time purchase. The panel carries six models today: GPT Image 2 (OpenAI, mask-aware, 1K/2K/4K), Nano Banana 2 (Gemini 3.1), Nano Banana Pro (Gemini 3 Pro), Seedream 5 Pro, Seedream 5 and Flux 2 Pro. Flux Kontext was retired in favour of these.
 
 Three things separate it from Creator MAX. The model list is served by the Astria platform, so a model added to Astria appears in the panel the day it launches with no plugin update. Every result is placed as a Smart Object that holds the model's full returned resolution. And billing has two paths. Pay-as-you-go against one Astria key that authenticates every model, with Astria abstracting the Google, OpenAI, fal and ByteDance APIs so quota, auth and retries are invisible. Or your own Google AI Studio key for the Gemini models, billed by Google. No subscription, no minimum; you top up only what you need. Per-image rates are on the [pricing page](https://www.astria.ai/pricing).
 

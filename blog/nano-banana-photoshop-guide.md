@@ -86,7 +86,7 @@ Generative editing has an annoying workflow problem: the models are in a browser
 
 Make a selection, describe the edit, and the result comes back into the document. The plugin handles the export, the API call, and the re-import, and it returns generations as layers so the rest of your normal workflow — masks, blend modes, adjustment layers, non-destructive corrections — still applies.
 
-The panel currently carries six models: GPT Image 2 (mask-aware, at 1K, 2K or 4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro, Seedream 5 (4K edit) and Flux 2 Pro, with the current line-up shifting as new releases land. Results land as Smart Objects holding the model's full returned resolution, so a 4K result dropped into a small selection still carries every pixel. The panel reads its model list from Astria, so a new model appears in the dropdown on launch day with no plugin update. That is deliberate: the plugin's usefulness is partly that you do not have to migrate your workflow every time a better model appears.
+The panel currently carries six models: GPT Image 2 (mask-aware, at 1K, 2K or 4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro, Seedream 5 and Flux 2 Pro, with the current line-up shifting as new releases land. Results land as Smart Objects holding the model's full returned resolution, so a 4K result dropped into a small selection still carries every pixel. The panel reads its model list from Astria, so a new model appears in the dropdown on launch day with no plugin update. That is deliberate: the plugin's usefulness is partly that you do not have to migrate your workflow every time a better model appears.
 
 ## Why model choice matters
 

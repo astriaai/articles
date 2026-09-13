@@ -81,7 +81,7 @@ The reader is a retoucher, photographer, designer, agency or ecommerce studio th
 
 | Decision factor | Pablo | Astria | Winner |
 | --- | --- | --- | --- |
-| Models in the panel today | Nano Banana, Nano Banana 2, Nano Banana Pro, Seedream 4.0 and 4.5, GPT Image 1.5, 2 and 2.5 (pricing page and Exchange notes) | GPT Image 2 (mask-aware, 1K/2K/4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro (4K), Seedream 5 (4K edit), Flux 2 Pro; GPT Image 2.5 Sunburst and Flare and Muse Image already on the platform the panel reads from | **Astria** for current-generation Seedream, Flux and mask-aware GPT Image |
+| Models in the panel today | Nano Banana, Nano Banana 2, Nano Banana Pro, Seedream 4.0 and 4.5, GPT Image 1.5, 2 and 2.5 (pricing page and Exchange notes) | GPT Image 2 (mask-aware, 1K/2K/4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro, Seedream 5, Flux 2 Pro; GPT Image 2.5 Sunburst and Flare and Muse Image already on the platform the panel reads from | **Astria** for current-generation Seedream, Flux and mask-aware GPT Image |
 | New-model lead time | Tied to plugin versions: GPT Image 2.5 arrived in version 0.7.46 on 11 September 2026, three days after OpenAI's release; the user must update | Model list served by the Astria platform; a model added to Astria appears in the panel with no plugin update or re-download | **Astria** |
 | Returned resolution and layer type | 4K generation advertised for Nano Banana Pro; GPT Image priced at 1K; returned pixel size and layer type not publicly verified | Up to 4K per generation; each result is a Smart Object holding the model's full returned resolution | **Astria** |
 | Selection-to-layer workflow | Inpainting and "add and replace objects" advertised; result returns as a layer; selection handling not detailed publicly | Marquee, lasso, brush or colour range; prompt; generate. Mask-aware models read the selection directly; result lands as a new layer | **Astria** |
@@ -105,7 +105,7 @@ Two things to read before paying. Pablo's [terms](https://trypablo.com/terms) sa
 
 ## Astria: the panel is one surface of a platform
 
-The Astria Nano Banana plugin for Photoshop is a CCX/UXP panel for Photoshop 2025 (version 26 and above) on macOS and Windows. The panel carries GPT Image 2 (mask-aware, at 1K, 2K or 4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro at 4K, Seedream 5 with 4K edit, and Flux 2 Pro. Flux Kontext was retired in favour of these. The [landing page](https://www.astria.ai/nano-banana-photoshop) also lists GPT Image 2.5 Sunburst and Flare and Muse Image as available now on the platform.
+The Astria Nano Banana plugin for Photoshop is a CCX/UXP panel for Photoshop 2025 (version 26 and above) on macOS and Windows. The panel carries GPT Image 2 (mask-aware, at 1K, 2K or 4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro, Seedream 5, and Flux 2 Pro. Flux Kontext was retired in favour of these. The [landing page](https://www.astria.ai/nano-banana-photoshop) also lists GPT Image 2.5 Sunburst and Flare and Muse Image as available now on the platform.
 
 That last sentence is the first headline. The panel's model list is served by the Astria platform, so a model added to Astria appears in the panel the day it launches, without a plugin update or re-download.
 
