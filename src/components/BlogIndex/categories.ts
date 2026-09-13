@@ -10,6 +10,7 @@ export const blogCategories: BlogCategory[] = [
   {label: 'Prompts', to: '/tags/prompts/'},
   {label: 'Models', to: '/tags/models/'},
   {label: 'Comparisons', to: '/tags/comparisons/'},
+  {label: 'Photoshop', to: '/tags/photoshop/'},
   {label: 'Guides', to: '/tags/guides/'},
   {label: 'Economics', to: '/tags/economics/'},
   {label: 'Engineering', to: '/tags/engineering/'},

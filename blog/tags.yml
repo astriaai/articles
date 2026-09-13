@@ -30,3 +30,8 @@ engineering:
   label: Engineering
   permalink: /engineering
   description: Fine-tuning, APIs, and tooling for developers building on Astria.
+
+photoshop:
+  label: Photoshop
+  permalink: /photoshop
+  description: The Astria Nano Banana plugin for Photoshop, compared with Adobe's own Generative Fill and every other panel that puts current image models inside the document.
