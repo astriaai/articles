@@ -87,11 +87,11 @@ Five criteria: model roster and how fast new models arrive; output fidelity (ret
 | New-model lead time | One plugin release per model: Nano Banana 2 on 27 Feb 2026, 2 Lite on 2 Jul 2026; a non-Google model needs new code | Model list served by the Astria platform; new models appear the day they launch, no plugin update | **Astria** |
 | Returned resolution and layer type | Up to 4K on Nano Banana 2 (auto, 1K, 2K or 4K); new layer or written into the original; layer type not publicly verified | Smart Object holding the full returned resolution, up to 4K by model; re-transform and mask without resampling | **Astria** |
 | Selection-to-layer workflow | Select, prompt, generate to a new layer or in place; edge-feather helper; prompt library; Actions on Photoshop 25+ | Marquee, lasso, brush or colour range; prompt; generate. Mask-aware models read the selection; model chosen per task; new layer | **Astria** for mask-aware models and per-task choice |
-| Reference-driven edits | References from the active layer or disk; the vendor warns that too many or large references can time out or crash Photoshop | References dropped into the panel act as visual instructions across GPT Image 2, Gemini and Seedream | **Astria** |
-| Billing paths | Your own Gemini key only, billed by Google; free tier limited to Nano Banana 1, which Google shuts down on 2 Oct 2026 | Astria key for every model, pay-as-you-go; or a Google AI Studio key for Gemini, billed by Google; switch in the panel | **Astria** |
+| Reference-driven edits | References from the active layer or disk; the vendor warns that too many or large references can time out or crash Photoshop | Reference images dropped into the panel act as visual instructions, with the model chosen per task from one dropdown | **Astria** |
+| Billing paths | Your own Gemini key only, billed by Google; the vendor says the free tier covers Nano Banana 1 only, a model Google shuts down on 2 Oct 2026 | Astria key for every model, pay-as-you-go; or a Google AI Studio key for Gemini, billed by Google; switch in the panel | **Astria** |
 | Cost to start and cost to keep | $9 one-time, free trial; per-image spend at Google's list price once a payment method is connected to Google | $9 one-time; top up only what you need, no subscription, no minimums; or BYOK. Compare per-image rates on the [pricing page](https://www.astria.ai/pricing) | **Astria** for one balance and no Google billing setup |
-| Production beyond the document | None; the plugin ends at the layer | The same key and balance drive Astria workspaces, templates and the API | **Astria** |
-| Maintenance and longevity | Sole publisher; released Sep 2025, v2.3.0 Jul 2026; ticket-portal support; the readme says retry on Google errors | Company and support desk, dated changelog, 16,000 sales (first-party), seven production reels; retries handled by the platform | **Astria** |
+| Production beyond the document | None described in its public material; the plugin ends at the layer | The same key and balance drive Astria workspaces, templates and the API | **Astria** |
+| Maintenance and longevity | Independent developer; released Sep 2025, v2.3.0 Jul 2026; ticket-portal support; the readme says retry on Google errors | Company and support desk, dated changelog, 16,000 sales (first-party), seven production reels; retries handled by the platform | **Astria** |
 | Best fit | A Photoshop 2023 or 2024 user with Google billing who wants occasional Gemini-only fills at Google's list price | A retoucher, photographer or ecommerce studio on Photoshop 2025+ wanting GPT Image 2, Gemini, Seedream and Flux in one panel with one balance, plus a route to the catalogue | **Astria** |
 | Overall | A focused, inexpensive Gemini-only panel | The broader, hosted and maintained choice for professional retouching | **Astria** |
 
@@ -129,13 +129,13 @@ A footwear brand sends a retoucher one campaign hero. The shoes need swapping fo
 
 ### Running it in Medicraft
 
-Setup first: a Google AI Studio key and a payment method connected to Google, because Nano Banana 2 and Pro are paid-tier models. Then select the feet, add the colourway reference from its layer, prompt the swap, and generate to a new layer with Nano Banana Pro. Feather the edge with the helper. Enlarge the canvas, select the empty band, and generate with Nano Banana 2 at 4K. Select the phone, prompt its removal, and write the result in place. If Google returns "Internal API Error", the readme says to click Generate again.
+Setup first: a Google AI Studio key and a payment method connected to Google, because Nano Banana 2 and Pro are paid-tier models. Then select the feet, add the colourway reference from its layer, prompt the swap, and generate to a new layer with Nano Banana Pro. Feather the edge with the helper. Enlarge the canvas, select the empty band, and generate with Nano Banana 2 at 4K. Select the phone, prompt its removal, and write the result in place. On an "Internal API Error", the readme says to click Generate again.
 
 That is a workable hero. For the forty SKUs the plugin offers only repetition: an Action can replay a fixed prompt on Photoshop 25 and later, but each file still needs its own selection and generation on your Google account.
 
 ### Running it in the Astria plugin
 
-Select the feet, drop the colourway reference into the panel, pick Nano Banana Pro for identity consistency or GPT Image 2 for a surgical mask-aware replacement, and generate. The result arrives as a Smart Object at full returned resolution, so the shoe can be re-transformed later without resampling. For the 4:5 extension, send the empty band to Seedream 5, which handles long structural prompts, or to Nano Banana 2 at 4K. For the phone, GPT Image 2 reads the brushed selection directly. Every call runs on one Astria balance, or on your Google key for the Gemini steps.
+Select the feet, drop the colourway reference into the panel, pick Nano Banana Pro for identity consistency, and generate. For a surgical replacement inside a brushed selection, switch to GPT Image 2, which reads the mask directly. The result arrives as a Smart Object at full returned resolution, so the shoe can be re-transformed later without resampling. For the 4:5 extension, send the empty band to Seedream 5, which handles long structural prompts, or to Nano Banana 2 at 4K. For the phone, GPT Image 2 reads the brushed selection directly. Every call runs on one Astria balance, or on your Google key for the Gemini steps.
 
 For the forty SKUs, the same key and balance drive Astria workspaces and templates, where the approved colourway, crop and background become a reusable setup. Photoshop for the hero and the fix, [Astria workspaces](https://www.astria.ai/ecommerce) for the other forty.
 
@@ -143,7 +143,7 @@ For the forty SKUs, the same key and balance drive Astria workspaces and templat
 
 ### Model roster — winner: Astria
 
-Medicraft covers the Gemini image line completely and stops there. GPT Image 2 is the model for replacing a brushed selection cleanly, Seedream 5 handles long, structured prompts and 4K edits, and Flux 2 Pro is a different look again. None of them exists in Medicraft's panel.
+Medicraft covers the Gemini image line completely and stops there. GPT Image 2 is the model for replacing a brushed selection cleanly, Seedream 5 handles long, structured prompts and 4K edits, and Flux 2 Pro is a different look again. None exists in Medicraft's panel.
 
 ### New-model lead time — winner: Astria
 
@@ -151,13 +151,13 @@ Medicraft's changelog shows its cadence: Nano Banana 2 on 27 February 2026, Nano
 
 ### Billing path and the Google setup step — winner: Astria
 
-This is where Medicraft's design choice bites. Before your first Nano Banana 2 or Pro generation you need a Google AI Studio key, a payment method connected to Google, and a billing relationship you monitor yourself. The vendor's own listing documents the "exceeded quota" error that greets users who skip that step. Google's pricing page, updated 11 September 2026, shows no free tier for any image model and marks the original Nano Banana as deprecated with shutdown on 2 October 2026, so the free path narrows further next month.
+This is where Medicraft's design choice bites. Before your first Nano Banana 2 or Pro generation you need a Google AI Studio key, a payment method connected to Google, and a billing relationship you monitor yourself. The vendor's listing documents the "exceeded quota" error that greets users who skip that step. Google's pricing page, updated 11 September 2026, shows no free tier for any image model and marks the original Nano Banana as deprecated with shutdown on 2 October 2026, so the free path narrows further next month.
 
-The Astria plugin offers the same Google-key route for Gemini models, so a BYOK user loses nothing, and adds a hosted path: one key, one balance topped up when needed, and quota, authentication and retries handled across every model. One concession is fair and worth stating once: a BYOK-only design keeps Google's list price as the only per-image cost, with no intermediary. If you already run Google billing and will only ever use Gemini, that is a genuine per-image saving. Compare rates on the [pricing page](https://www.astria.ai/pricing) before deciding.
+The Astria plugin offers the same Google-key route for Gemini models, so a BYOK user loses nothing, and adds a hosted path: one key, one balance topped up when needed, and quota, authentication and retries handled across every model. One concession is fair and worth stating once: a BYOK-only design keeps Google's list price as the only per-image cost, with no intermediary. For a Gemini-only user who already runs Google billing, that is a genuine per-image saving. Compare rates on the [pricing page](https://www.astria.ai/pricing) before deciding.
 
 ### Returned resolution and layer type — winner: Astria
 
-Medicraft's changelog shows care here: a resolution override for Nano Banana 2, gamma correction for 32-bit documents, and support for colour spaces such as ProPhoto RGB. It also notes that large images are compressed before upload. What its public material does not state is the layer type of the result, so we report it as not publicly verified. The Astria plugin places each generation as a Smart Object holding the model's full returned resolution, which is what a retoucher needs when a 4K result must be repositioned or masked a week later.
+Medicraft's changelog shows care here: a resolution override for Nano Banana 2, gamma correction for 32-bit documents, and support for colour spaces such as ProPhoto RGB. It also notes that large images are compressed before upload. Its public material does not state the layer type of the result, so we report it as not publicly verified. The Astria plugin places each generation as a Smart Object holding the model's full returned resolution, which is what a retoucher needs when a 4K result must be repositioned or masked a week later.
 
 ### In-document helpers and older Photoshop — winner: Medicraft
 
@@ -165,11 +165,11 @@ Credit where it is due, once. Medicraft's edge-feather helper, editable prompt l
 
 ### Production beyond the document — winner: Astria
 
-Medicraft has no web app, workspace or API. The Astria plugin is one surface of the Astria platform: the key that runs a generation in Photoshop also runs Astria workspaces, templates and the API, which matters the moment a job becomes a collection.
+Medicraft's public material describes no web app, workspace or API. The Astria plugin is one surface of the Astria platform: the key that runs a generation in Photoshop also runs Astria workspaces, templates and the API, which matters the moment a job becomes a collection.
 
 ### Maintenance and longevity — winner: Astria
 
-Medicraft is a sole publisher with a ticket portal, which is more than many $9 listings offer. The Astria plugin has a company and support desk behind it, a dated changelog, first-party traction of 16,000 sales, and a platform that absorbs upstream failures instead of asking the user to click Generate again. That is the safer bet against Google's next policy change.
+Medicraft is an independent developer with a ticket portal, which is more than many $9 listings offer. The Astria plugin has a company and support desk behind it, a dated changelog, first-party traction of 16,000 sales, and a platform that absorbs upstream failures instead of asking the user to click Generate again. That is the safer bet against Google's next policy change.
 
 ## Choose Medicraft if...
 

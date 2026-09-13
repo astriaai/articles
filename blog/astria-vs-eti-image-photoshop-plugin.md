@@ -40,7 +40,7 @@ export const faqSchema = {
       name: "Which plugin gets a new model first?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Astria's panel reads its model list from the Astria platform, so a model added to Astria appears in the panel with no plugin update; GPT Image 2.5 Sunburst and Flare and Muse Image are already on the platform. Eti Image adds models through numbered plugin releases installed from a downloaded .ccx file, and its page states a typical lag of about three days from launch to support (vendor-stated).",
+        text: "Astria's panel reads its model list from the Astria platform, so a model added to Astria appears in the panel with no plugin update; GPT Image 2.5 Sunburst and Flare and Muse Image are already on the platform. Eti Image adds models through numbered plugin releases installed from a downloaded .ccx file, and its page states about three days from model launch to support (vendor-stated).",
       },
     },
     {
@@ -75,17 +75,17 @@ Eti Image is the broadest bring-your-own-key panel you can install in Photoshop.
 
 ## How we evaluated Astria and Eti Image
 
-Five questions a retoucher actually asks: which current models are in the panel and how fast a new one reaches it; what comes back into the document (returned resolution, layer type, selection handling); how the edit runs from selection to layer; what it costs to start and to keep using, and whether that is a subscription, pay-as-you-go or your own API keys; and who maintains it. Eti Image facts come from its public product page, read on September 13, 2026; we did not buy or run it.
+Five questions a retoucher actually asks: which current models are in the panel and how fast a new one reaches it; what comes back into the document (returned resolution, layer type, selection handling); how the edit runs from selection to layer; what it costs to start and to keep using, and whether that is a subscription, pay-as-you-go or your own API keys; who maintains it; and, because a hero is rarely the whole job, what lies behind the panel. Eti Image facts come from its public product page, read on September 13, 2026; we did not buy or run it.
 
 ## Quick verdict: Astria vs Eti Image
 
 | Decision factor | Eti Image | Astria | Winner |
 | --- | --- | --- | --- |
-| Models in the panel today | Seedream 5 Pro, 5 Lite, 4.5 and 4; Nano Banana 2, 2 Lite and Pro; GPT Image 2 and 1.5; Flux 2 Pro, Max and Klein; Flux Kontext; Qwen; WAN 2.7; plus Magnific, Topaz and other upscale tools, each on whichever of your three keys serves it | GPT Image 2 (mask-aware, 1K/2K/4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro (4K), Seedream 5 (4K edit), Flux 2 Pro, all on one hosted key | **Astria** for current models ready on one key; the wider menu is conceded below |
-| New-model lead time | Each model is a numbered plugin release installed from a .ccx download; vendor states about three days from launch to support | The panel reads its list from the Astria platform, so a model added to Astria appears with no plugin update; GPT Image 2.5 Sunburst and Flare and Muse Image are already on the platform | **Astria** |
+| Models in the panel today | Seedream 5 Pro, 5 Lite, 4.5 and 4; Nano Banana 2, 2 Lite and Pro; GPT Image 2 and 1.5; Flux 2 Pro, Max and Klein; Flux Kontext; Qwen; WAN 2.7; plus Magnific, Topaz and other enhancement tools, each on whichever of your three keys serves it | GPT Image 2 (mask-aware, 1K/2K/4K), Nano Banana 2, Nano Banana Pro, Seedream 5 Pro (4K), Seedream 5 (4K edit), Flux 2 Pro, all on one hosted key | **Astria** for current models ready on one key; the wider menu is conceded below |
+| New-model lead time | Each model is a numbered plugin release installed from a .ccx download; vendor states about three days from model launch to support | The panel reads its list from the Astria platform, so a model added to Astria appears with no plugin update; GPT Image 2.5 Sunburst and Flare and Muse Image are already on the platform | **Astria** |
 | Returned resolution and layer type | Up to 4K; results arrive as a layer pre-masked to the selection since v3.0. Smart Object placement and retained pixel size: not publicly verified | A Smart Object holding the model's full returned resolution, up to 4K, re-transformable without resampling | **Astria** |
 | Selection-to-layer workflow | Select, prompt, generate; automatic layer masks since v3.0; one prompt can run across several models in parallel | Marquee, lasso, brush or colour range, prompt, generate; mask-aware models read the selection directly; one dropdown per task; keys switch in the panel | **Astria** for a flow that never leaves the panel to sort out providers; parallel runs conceded below |
-| Reference-driven edits | References supported; handling depends on the model and the provider serving it | References dropped into the panel act as visual instructions across the roster, shown on shoes, earrings, glasses and hair in the production reels | **Astria** |
+| Reference-driven edits | Reference image support listed; per-model detail not on the product page | References dropped into the panel act as visual instructions; the reels show them used for shoes, shirts, earrings and glasses | **Astria** |
 | Billing paths | Bring your own key only: Replicate, Kie.ai or Google AI Studio. Google covers the Nano Banana models only; Magnific tools need a Magnific subscription | Hosted pay-as-you-go through one Astria key for every model, or your own Google AI Studio key for the Gemini models | **Astria** |
 | Cost to start and cost to keep | $30 Core or $60 Pro, one-time, plus provider accounts funded separately at each provider's rates | $9 one-time; pay-as-you-go, top up only what you need, no subscription, no minimum; per-image rates on the pricing page | **Astria** on cost to start; compare per-image rates for the models you use |
 | Production beyond the document | A Photoshop panel; no web app, workspace or API described on the product page | The same key and balance drive Astria workspaces, templates and the API | **Astria** |
@@ -127,7 +127,7 @@ First, decide which provider serves the models you want and fund it. Nano Banana
 
 ### Running it in Astria
 
-Sign up, generate an Astria key, top up, paste it into the panel. That is the whole provider setup, for every model. Lasso the shoes, drop the colourway reference into the panel, pick Nano Banana Pro from the dropdown for its subject consistency, and generate; the new shoes land as a Smart Object at the model's full returned resolution. Enlarge the canvas to 4:5, marquee the new band, and generate the extension with a mask-aware model that reads the selection directly. Select the phone and the hand around it and prompt the removal, the job the bridal reel on the landing page shows. Short prompts win.
+Sign up, generate an Astria key, top up, paste it into the panel. That is the whole provider setup, for every model. Lasso the shoes, drop the colourway reference into the panel, pick Nano Banana Pro from the dropdown for its subject consistency, and generate; the new shoes land as a Smart Object at the model's full returned resolution. Enlarge the canvas to 4:5, marquee the new band, and generate the extension with a mask-aware model that reads the selection directly. Select the phone and the hand around it and prompt the removal; the bridal reel on the landing page shows that exact job. Short prompts win.
 
 ### And the other 40 SKUs
 
@@ -145,7 +145,7 @@ Eti Image's breadth is paid for in accounts. Its provider map sends different mo
 
 ### New-model lead time — winner: Astria
 
-Eti Image ships models as releases. Its changelog shows Nano Banana 2 arriving in version 2.5.0 on February 28, 2026, GPT Image 2 in 2.5.6 on April 22, 2026, and Seedream 5 Pro in 2.6.0 on July 8, 2026, and the page states a typical lag of about three days from launch to support. It is still a plugin update installed from a downloaded .ccx file. Astria's panel does not carry its own roster: the list is served by the platform, so a model added to Astria appears with no update to install. GPT Image 2.5 Sunburst and Flare and Muse Image are already there.
+Eti Image ships models as releases. Its changelog shows Nano Banana 2 arriving in version 2.5.0 on February 28, 2026, GPT Image 2 in 2.5.6 on April 22, 2026, and Seedream 5 Pro in 2.6.0 on July 8, 2026, and the page states about three days from model launch to support. It is still a plugin update installed from a downloaded .ccx file. Astria's panel does not carry its own roster: the list is served by the platform, so a model added to Astria appears with no update to install. GPT Image 2.5 Sunburst and Flare and Muse Image are already there.
 
 ### Returned resolution and layer type — winner: Astria
 
@@ -153,7 +153,7 @@ Eti Image's page says results arrive as a layer pre-masked to the selection. It 
 
 ### Cost to start and cost to keep — winner: Astria
 
-Astria is $9 once against $30 or $60, and nothing else is needed to start: top up an Astria balance and generate. Eti Image's licence is only the first purchase; Replicate, Kie.ai and Google accounts are funded separately, and the Magnific tools add a subscription. Per-image cost then depends on the provider and model on Eti Image's side; Astria's rates are on its [pricing page](https://www.astria.ai/pricing); compare them for the models you actually use. The entry price and the number of accounts are the fixed part of the decision, and both favour Astria.
+Astria is $9 once against $30 or $60, and nothing else is needed to start: top up an Astria balance and generate. Eti Image's licence is only the first purchase; Replicate, Kie.ai and Google accounts are funded separately, and the Magnific tools add a subscription. On Eti Image's side, per-image cost depends on the provider and model. Astria's rates are on its [pricing page](https://www.astria.ai/pricing); compare them for the models you actually use. The entry price and the number of accounts are the fixed part of the decision, and both favour Astria.
 
 ### Production beyond the document — winner: Astria
 
@@ -197,7 +197,7 @@ You need at least one of Replicate, Kie.ai or Google AI Studio, and which one de
 
 ### Which plugin gets a new model first?
 
-Astria's panel reads its model list from the Astria platform, so a model added to Astria appears in the panel with no plugin update; GPT Image 2.5 Sunburst and Flare and Muse Image are already on the platform. Eti Image adds models through numbered plugin releases installed from a downloaded .ccx file, and its page states a typical lag of about three days from launch to support (vendor-stated).
+Astria's panel reads its model list from the Astria platform, so a model added to Astria appears in the panel with no plugin update; GPT Image 2.5 Sunburst and Flare and Muse Image are already on the platform. Eti Image adds models through numbered plugin releases installed from a downloaded .ccx file, and its page states about three days from model launch to support (vendor-stated).
 
 ### Can I use my Gemini subscription with either plugin?
 
