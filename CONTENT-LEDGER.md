@@ -60,7 +60,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | ai-jewelry-photography | ai jewelry photography | 2026-08-19 | 2026-08-22 | F L | 2027-02-20 | guides |
 | ai-fashion-film-guide | ai fashion film | 2026-08-20 | 2026-08-22 | F M | 2027-02-20 | guides |
 | botika-alternatives | botika alternatives | 2026-08-21 | 2026-08-22 | P F | 2026-11-21 | comparisons |
-| nano-banana-photoshop-guide | nano banana photoshop plugin | 2026-08-21 | 2026-08-22 | P M F | 2026-11-21 | engineering |
+| nano-banana-photoshop-guide | nano banana photoshop plugin | 2026-08-21 | 2026-09-13 | P M F | 2026-10-13 | engineering |
 | ai-lookbook-guide | ai lookbook | 2026-08-22 | 2026-08-22 | F | 2027-02-20 | guides |
 | best-ai-fashion-photography-platforms | best ai fashion photography platforms | 2026-08-22 | 2026-09-05 | P F S | 2026-12-05 | comparisons |
 | ai-fashion-photoshoot-guide | ai fashion photoshoot | 2026-08-23 | 2026-08-22 | F | 2027-02-21 | guides |
@@ -88,6 +88,12 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | wedding-dress-photography-prompts | wedding dress photography prompts | 2026-09-01 | 2026-09-07 | F | 2026-12-07 | guides |
 | vitamin-supplement-photography-prompts | vitamin and supplement photography prompts | 2026-08-31 | 2026-09-07 | F | 2026-12-07 | guides |
 | ai-product-photography | AI product photography | 2026-09-07 | 2026-09-07 | F L | 2026-12-07 | guides |
+| astria-plugin-vs-photoshop-generative-fill | photoshop generative fill vs nano banana plugin | 2026-09-15 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
+| astria-vs-pablo-photoshop-plugin | pablo photoshop plugin | 2026-09-16 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
+| astria-vs-medicraft-nano-banana-generative-fill | nano banana generative fill plugin | 2026-09-17 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
+| astria-vs-eti-image-photoshop-plugin | eti image photoshop plugin | 2026-09-18 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
+| astria-vs-creator-max-photoshop-plugin | creator max photoshop plugin | 2026-09-19 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
+| best-nano-banana-photoshop-plugins | best nano banana photoshop plugin | 2026-09-20 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
 
 ## Unlisted (deliberately noindexed)
 
@@ -211,6 +217,21 @@ on `best-ai-fashion-photography-platforms`, and generated multi-angle questions 
 transactional `AI fashion model generator` landing page remains a main-site implementation,
 outside this repository. Review page/query overlap in Search Console after an equal 28-day
 live window before releasing beauty, Shopify-specific, or further alternatives pages.
+
+**Photoshop plugin comparison cluster — September 13, 2026:** an explicitly authorized
+exception to the pause, on a separate product line with its own demand evidence (the plugin's
+16,000 first-party sales and existing positions 1–2 on "gemini photoshop plugin" and "nano banana
+photoshop plugin"). Wave 1 of
+`notes/nano-banana-photoshop-plugin-comparison-content-plan-2026-09-13.md`: a round-up hub plus
+head-to-heads against Adobe's native Generative Fill picker, Pablo, Medicraft, Eti Image and
+Creator MAX, dated September 15–20, under the new `photoshop` tag. The existing plugin guide was
+refreshed the same day because its Generative Fill FAQ predated Adobe's partner-model picker.
+Primary queries are the competitor's own brand phrase, with "astria vs <competitor>" secondary;
+flip that convention only if the October 4 review shows the fashion "astria vs" pages ranking.
+No competitor product was purchased or run; returned-resolution and layer-type rows for rivals
+are "Not publicly verified" until the plan's hands-on test happens. Waves 2–3 are conditional on
+Wave 1 impressions six weeks after indexation; at zero impressions the cluster stops at the hub,
+the Adobe piece and Pablo.
 
 **Visual proof and prompt cross-link rollout — September 7, 2026:** every indexed article
 outside the seven prompt libraries now carries one topic-matched evidence module. Where a
