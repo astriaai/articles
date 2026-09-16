@@ -1,6 +1,6 @@
 ---
-title: "Astria vs Eti Image (2026): Which Nano Banana Photoshop Plugin Should You Buy?"
-description: "Astria vs Eti Image for Photoshop: one hosted key and a $9 entry against a 27-model bring-your-own-key panel at $30 to $60. Which plugin should a retoucher buy?"
+title: "Astria vs Eti Image: Photoshop Plugin Comparison"
+description: "Compare Astria and Eti Image for Photoshop on model breadth, provider keys, Smart Objects, parallel runs, upscalers, updates, and production workflow."
 slug: astria-vs-eti-image-photoshop-plugin
 date: 2026-09-18
 hide_table_of_contents: true
@@ -24,7 +24,7 @@ export const faqSchema = {
       name: "Is the Eti Image Photoshop plugin worth buying instead of Astria?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Only for a specific buyer. Eti Image earns its $30 to $60 if you already fund Replicate or Kie.ai accounts and will use its wider model menu, upscalers and parallel multi-model runs every week. For most retouchers, Astria's $9 plugin covers the current models that matter on one hosted key, adds new models without an update, and places results as full-resolution Smart Objects.",
+        text: "Only for a specific buyer. Eti Image fits someone who already funds Replicate or Kie.ai accounts and will use its wider model menu, upscalers and parallel multi-model runs every week. For most retouchers, Astria covers the current models that matter on one hosted key, adds new models without an update, and places results as full-resolution Smart Objects.",
       },
     },
     {
@@ -56,7 +56,7 @@ export const faqSchema = {
       name: "Is Astria better than Eti Image?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For a Photoshop professional putting current generative models into a live document, yes. Astria costs $9 against $30 to $60, one hosted key replaces three provider accounts, new models arrive without a re-download, results land as full-resolution Smart Objects, and the same key drives Astria workspaces and the API for the rest of the catalog. Eti Image is the better purchase only if model breadth, upscalers and parallel runs on your own keys outweigh that.",
+        text: "For a Photoshop professional putting current generative models into a live document, yes. One hosted Astria key replaces several provider accounts, new models arrive without a re-download, results land as full-resolution Smart Objects, and the same key drives Astria workspaces and the API for the rest of the catalog. Eti Image is the better purchase only if model breadth, upscalers and parallel runs on your own keys outweigh that.",
       },
     },
   ],
@@ -67,11 +67,11 @@ export const faqSchema = {
   dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
 />
 
-Eti Image is the broadest bring-your-own-key panel you can install in Photoshop. Seedream, Nano Banana, GPT Image, Flux, Qwen and WAN sit in one dropdown, with Magnific and Topaz upscalers beside them, all running on your own Replicate, Kie.ai or Google keys for a one-time $30 or $60. **For most Photoshop professionals, the Astria Nano Banana plugin for Photoshop is the better buy.** It costs $9 once, and one hosted Astria key authenticates every model in the panel. New models appear without a plugin update, and every result lands as a Smart Object at the model's full returned resolution. Choose Eti Image only if you already fund Replicate or Kie.ai accounts and want the widest possible model menu inside one panel.
+Eti Image is the broadest bring-your-own-key panel you can install in Photoshop. Seedream, Nano Banana, GPT Image, Flux, Qwen and WAN sit in one dropdown, with Magnific and Topaz upscalers beside them, all running on your own Replicate, Kie.ai or Google keys. **For most Photoshop professionals, the Astria Nano Banana plugin for Photoshop is the better buy.** One hosted Astria key authenticates every model in the panel. New models appear without a plugin update, and every result lands as a Smart Object at the model's full returned resolution. Choose Eti Image only if you already fund Replicate or Kie.ai accounts and want the widest possible model menu inside one panel.
 
 <!-- truncate -->
 
-<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. $9 once, pay per image or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/nano-banana-photoshop-guide/"><span>Read the guide</span><span aria-hidden="true">→</span></a></div></aside>
+<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. Use hosted billing or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/nano-banana-photoshop-guide/"><span>Read the guide</span><span aria-hidden="true">→</span></a></div></aside>
 
 ## How we evaluated Astria and Eti Image
 
@@ -87,11 +87,11 @@ Five questions a retoucher actually asks: which current models are in the panel 
 | Selection-to-layer workflow | Select, prompt, generate; automatic layer masks since v3.0; one prompt can run across several models in parallel | Marquee, lasso, brush or colour range, prompt, generate; mask-aware models read the selection directly; one dropdown per task; keys switch in the panel | **Astria** for a flow that never leaves the panel to sort out providers; parallel runs conceded below |
 | Reference-driven edits | Reference image support listed; per-model detail not on the product page | References dropped into the panel act as visual instructions; the reels show them used for shoes, shirts, earrings and glasses | **Astria** |
 | Billing paths | Bring your own key only: Replicate, Kie.ai or Google AI Studio. Google covers the Nano Banana models only; Magnific tools need a Magnific subscription | Hosted pay-as-you-go through one Astria key for every model, or your own Google AI Studio key for the Gemini models | **Astria** |
-| Cost to start and cost to keep | $30 Core or $60 Pro, one-time, plus provider accounts funded separately at each provider's rates | $9 one-time; pay-as-you-go, top up only what you need, no subscription, no minimum; per-image rates on the pricing page | **Astria** on cost to start; compare per-image rates for the models you use |
+| Commercial model | Tiered one-time licence plus provider accounts funded separately; see [Eti Image pricing](https://university.pouyaeti.com/eti-image-photoshop-plugin) | One-time plugin licence plus hosted pay-as-you-go; see [Astria pricing](https://www.astria.ai/pricing) | **Depends on the model mix and accounts already in use** |
 | Production beyond the document | A Photoshop panel; no web app, workspace or API described on the product page | The same key and balance drive Astria workspaces, templates and the API | **Astria** |
 | Maintenance and longevity | Built and maintained by Pouya Eti; 21 or more releases since October 2025, v3.0.0 in August 2026 (vendor-stated); lifetime updates; 14-day refund | A company and support desk behind the panel, a dated changelog, 16,000 sales and 187 ratings (first-party), a roster that stays current without a release | **Astria** |
 | Best fit | A retoucher who already runs Replicate or Kie.ai accounts and wants the widest model menu, upscalers and relight in one panel | A retoucher, photographer or ecommerce studio that wants GPT Image 2, Nano Banana and Seedream in Photoshop on one key, with a route to the rest of the catalog | **Astria** for the Photoshop professional this article is written for |
-| Overall | The broadest bring-your-own-key panel, at a higher entry price with three providers to manage | Six current models, one key, $9 in, zero-day models, full-resolution Smart Objects | **Astria** |
+| Overall | The broadest bring-your-own-key panel, with several providers to manage | Six current models, one key, zero-day models, full-resolution Smart Objects | **Astria** |
 
 Reviewed September 13, 2026; no competitor product was purchased or run.
 
@@ -101,7 +101,7 @@ Eti Image is a CCX/UXP panel built by Pouya Eti for Photoshop 2023 or later on m
 
 None of it runs on a hosted Eti Image account. You bring a Replicate, Kie.ai or Google AI Studio key, and the page maps each model to its provider. Replicate serves most of the roster; Kie.ai serves GPT Image 2 at 4K, WAN 2.7, Qwen 2.0 and Nano Banana 2 Lite; Google serves Nano Banana 2 and Nano Banana Pro only. The Magnific tools need a paid Magnific subscription on top.
 
-The licence is $30 for Core or $60 for Pro, one-time. Pro adds fast actions on Seedream 5 Pro, six premium upscalers to 16×, the Magnific skin, relight and expand tools, and a premium prompt library. Both tiers carry lifetime updates and a 14-day money-back guarantee. The panel also runs one prompt across several models in parallel, places results as layers masked to the selection since version 3.0.0 (August 2026), and includes a Product Views generator.
+Eti Image offers tiered licensing. The higher tier adds fast actions on Seedream 5 Pro, premium upscalers, the Magnific skin, relight and expand tools, and a prompt library. The panel also runs one prompt across several models in parallel, places results as layers masked to the selection since version 3.0.0 (August 2026), and includes a Product Views generator. Check the [vendor page](https://university.pouyaeti.com/eti-image-photoshop-plugin) for current licence and refund terms.
 
 ## Astria: one key, every current model, Smart Objects at full resolution
 
@@ -109,7 +109,7 @@ The Astria Nano Banana plugin for Photoshop is a CCX/UXP panel for Photoshop 202
 
 Three things separate it from a bring-your-own-key panel. The model list is served by the Astria platform, so a model added to Astria appears in the panel the day it launches, with no plugin update or re-download. GPT Image 2.5 Sunburst and Flare and Muse Image are already on the platform. The workflow is three steps: select with the marquee, lasso, brush or colour range, prompt, generate. Mask-aware models read the selection directly, references dropped into the panel act as visual instructions, and the model is chosen per task from one dropdown. And each generation is placed as a Smart Object holding the model's full returned resolution.
 
-The plugin costs $9 once. Generations are pay-as-you-go against an Astria key: top up only what you need, no subscription, no minimums. One key authenticates every model, and Astria abstracts the Google, OpenAI, fal and ByteDance APIs so quota, authentication and retries are invisible. Or paste a Google AI Studio key into the panel for the Gemini models, billed by Google. No GPU is needed, and there are no refunds because the plugin is a downloadable file.
+The Astria plugin uses a one-time licence with hosted usage billed separately. One key authenticates every model, and Astria abstracts the Google, OpenAI, fal and ByteDance APIs so quota, authentication and retries are invisible. Or paste a Google AI Studio key into the panel for the Gemini models. No GPU is needed. Check the [Astria pricing page](https://www.astria.ai/pricing) for current terms.
 
 ## Public proof, with provenance
 
@@ -153,7 +153,7 @@ Eti Image's page says results arrive as a layer pre-masked to the selection. It 
 
 ### Cost to start and cost to keep — winner: Astria
 
-Astria is $9 once against $30 or $60, and nothing else is needed to start: top up an Astria balance and generate. Eti Image's licence is only the first purchase; Replicate, Kie.ai and Google accounts are funded separately, and the Magnific tools add a subscription. On Eti Image's side, per-image cost depends on the provider and model. Astria's rates are on its [pricing page](https://www.astria.ai/pricing); compare them for the models you actually use. The entry price and the number of accounts are the fixed part of the decision, and both favour Astria.
+Astria needs one hosted balance to start, while Eti Image requires the provider accounts used by its chosen models and tools. Compare the same representative workload on [Eti Image's product page](https://university.pouyaeti.com/eti-image-photoshop-plugin), the relevant provider pricing pages, and [Astria's pricing page](https://www.astria.ai/pricing). Account complexity is the fixed part of the decision and favors Astria.
 
 ### Production beyond the document — winner: Astria
 
@@ -172,14 +172,14 @@ Eti Image is a panel and stops at the panel. Astria's panel is the front end of 
 - You want GPT Image 2, Nano Banana 2 and Pro, Seedream 5 and 5 Pro, and Flux 2 Pro on one key with no provider accounts to open.
 - You want new models the day they reach Astria, with no plugin update or re-download.
 - Returned pixels should live in a full-resolution Smart Object so a swap can be re-cropped later.
-- $9 in and pay-as-you-go out, no subscription and no minimum, fits how you buy tools.
+- A hosted pay-as-you-go balance fits how you buy tools.
 - The other forty SKUs need a production route behind the panel.
 
 ## The bottom line
 
-Eti Image is the broadest bring-your-own-key panel we reviewed, and for someone already running Replicate and Kie.ai accounts it is a capable toolbox at $30 to $60.
+Eti Image is the broadest bring-your-own-key panel we reviewed, and for someone already running Replicate and Kie.ai accounts it is a capable toolbox.
 
-For the Photoshop professional putting current models into a live document, Astria is the better buy. One hosted key replaces three provider accounts, $9 replaces $30 to $60, new models arrive without a re-download, and every result is a Smart Object at the resolution the model returned. Behind the panel sits the production route for everything that is not the hero.
+For the Photoshop professional putting current models into a live document, Astria is the better buy. One hosted key replaces several provider accounts, new models arrive without a re-download, and every result is a Smart Object at the resolution the model returned. Behind the panel sits the production route for everything that is not the hero.
 
 ## What to test before choosing
 
@@ -189,7 +189,7 @@ Open one PSD with a hero that needs a reference-driven swap and a 4:5 extension.
 
 ### Is the Eti Image Photoshop plugin worth buying instead of Astria?
 
-Only for a specific buyer. Eti Image earns its $30 to $60 if you already fund Replicate or Kie.ai accounts and will use its wider model menu, upscalers and parallel multi-model runs every week. For most retouchers, Astria's $9 plugin covers the current models that matter on one hosted key, adds new models without an update, and places results as full-resolution Smart Objects.
+Only for a specific buyer. Eti Image fits someone who already funds Replicate or Kie.ai accounts and will use its wider model menu, upscalers and parallel multi-model runs every week. For most retouchers, Astria covers the current models that matter on one hosted key, adds new models without an update, and places results as full-resolution Smart Objects.
 
 ### Do I need a Replicate or Kie.ai account to use Eti Image?
 
@@ -205,13 +205,13 @@ No. Google only authorises external apps through API keys, so a consumer Gemini 
 
 ### Is Astria better than Eti Image?
 
-For a Photoshop professional putting current generative models into a live document, yes. Astria costs $9 against $30 to $60, one hosted key replaces three provider accounts, new models arrive without a re-download, results land as full-resolution Smart Objects, and the same key drives Astria workspaces and the API for the rest of the catalog. Eti Image is the better purchase only if model breadth, upscalers and parallel runs on your own keys outweigh that.
+For a Photoshop professional putting current generative models into a live document, yes. One hosted Astria key replaces several provider accounts, new models arrive without a re-download, results land as full-resolution Smart Objects, and the same key drives Astria workspaces and the API for the rest of the catalog. Eti Image is the better purchase only if model breadth, upscalers and parallel runs on your own keys outweigh that.
 
 Weighing other bring-your-own-key panels? See [Astria vs Creator MAX](./astria-vs-creator-max-photoshop-plugin.md) and [Astria vs Medicraft](./astria-vs-medicraft-nano-banana-generative-fill.md). The full shortlist is in [best Nano Banana Photoshop plugins](./best-nano-banana-photoshop-plugins.md), and the panel's day-to-day workflow is in the [Nano Banana Photoshop guide](./nano-banana-photoshop-guide.md).
 
 ## Sources and methodology
 
-This article compares public product information reviewed on September 13, 2026. Eti Image facts (model roster, provider map, the $30 Core and $60 Pro tiers, the 14-day refund, the Photoshop 2023 requirement, the version 3.0.0 changelog, the "about three days" support claim, and the vendor-stated creator and image counts) come from its [product page](https://university.pouyaeti.com/eti-image-photoshop-plugin), which also links the [Pouya Eti YouTube channel](https://www.youtube.com/@pouyaeti). The observation that YouTube tutorials lead the results for "seedream photoshop" comes from our own search review on the same date. No competitor product was purchased or run for this article; returned-resolution and layer-type behaviour of Eti Image is reported from its public material only.
+This article compares public product information reviewed on September 13, 2026. Eti Image facts—including the model roster, provider map, tiers, refund policy, Photoshop requirement, changelog, support claim, and vendor-stated adoption—come from its [product page](https://university.pouyaeti.com/eti-image-photoshop-plugin), which also links the [Pouya Eti YouTube channel](https://www.youtube.com/@pouyaeti). The observation that YouTube tutorials lead the results for "seedream photoshop" comes from our own search review on the same date. No competitor product was purchased or run for this article; returned-resolution and layer-type behaviour of Eti Image is reported from its public material only. Current commercial terms belong on the vendor's live page.
 
 Astria facts come from the [Astria Nano Banana plugin for Photoshop](https://www.astria.ai/nano-banana-photoshop) landing page, its changelog and FAQ, and the live platform catalog on September 13, 2026, with per-image rates on the [pricing page](https://www.astria.ai/pricing) and the production route on the [ecommerce page](https://www.astria.ai/ecommerce). Sales, rating and creator counts from either vendor are first-party figures. Prices, tiers, provider maps and rosters change often; confirm them before buying.
 

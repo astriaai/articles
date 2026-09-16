@@ -117,7 +117,7 @@ Reviewed August 8, 2026; no controlled image-quality benchmark was run.
 
 FLORA describes itself as the AI-powered canvas for designers, brand teams, and agencies, and it has built a genuine fashion solution on top of that foundation. The pitch for fashion teams is end to end: from a sketch to a render, through colorways and fabrics, to on-model and campaign imagery, with batch application of one approved look across every SKU. It splits the experience into a Fashion Studio for everyday work and a Canvas for deeper ideation where models and steps chain together into reusable workflows.
 
-The platform breadth is real: FLORA advertises access to 50+ models spanning image, video, and multimodal reasoning under one subscription, with recognizable video models available for cinematic work. It has raised $42 million and its published references include Pentagram, Lionsgate, Base Design, and Hebbia.
+The platform breadth is real: FLORA advertises access to 50+ models spanning image, video, and multimodal reasoning under one subscription, with recognizable video models available for cinematic work. It reports venture backing, and its published references include Pentagram, Lionsgate, Base Design, and Hebbia.
 
 That reference list is the most useful signal for a fashion buyer. Pentagram is a design consultancy; Lionsgate is entertainment; Hebbia is enterprise software. They are impressive names and they attest to FLORA's quality as a creative environment. What the fashion solution page offers instead of brand case studies is credits to individual designers. For a brand evaluating who has actually run a season on the platform, that is a thinner evidence base than the platform's overall profile suggests.
 

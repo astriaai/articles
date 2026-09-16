@@ -57,6 +57,7 @@ const DESTINATION_FAMILIES = [
   [/^\/prompts\/\d+$/, ['public_prompt', 'article_prompt_example_click', '/prompts/:id']],
   [/^\/p\/[a-z0-9][a-z0-9-]*$/, ['public_template', 'article_template_click', '/p/:slug']],
   [/^\/w\/[a-z0-9][a-z0-9-]*$/, ['public_workspace', 'article_workspace_click', '/w/:slug']],
+  [/^\/gallery\/tunes\/\d+\/prompts$/, ['model_gallery', 'article_model_gallery_click', '/gallery/tunes/:id/prompts']],
 ];
 
 function destination(href, currentHref) {

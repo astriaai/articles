@@ -83,6 +83,7 @@ const config = {
           blogSidebarCount: 0,
           blogTitle: 'Notes on AI fashion production',
           blogDescription: 'Comparisons, techniques, and field notes for teams producing on-brand fashion imagery with AI.',
+          processBlogPosts: require('./plugins/publish-schedule'),
 
           path: 'blog',
           routeBasePath: '/',

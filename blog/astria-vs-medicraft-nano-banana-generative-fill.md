@@ -1,6 +1,6 @@
 ---
-title: "Astria vs Medicraft Nano Banana Generative Fill (2026): Which Photoshop Plugin Should You Buy?"
-description: "Astria vs Medicraft Nano Banana Generative Fill: a Gemini-only BYOK panel against six hosted models, two billing paths and Smart Objects. Which $9 plugin wins."
+title: "Astria vs Medicraft Nano Banana Generative Fill"
+description: "Compare Astria with Medicraft Nano Banana Generative Fill on model choice, BYOK setup, Smart Objects, resolution, updates, and production workflow."
 slug: astria-vs-medicraft-nano-banana-generative-fill
 date: 2026-09-17
 hide_table_of_contents: true
@@ -24,7 +24,7 @@ export const faqSchema = {
       name: "Which nano banana generative fill plugin should a retoucher buy?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "On Photoshop 2025 or later, the Astria Nano Banana plugin for Photoshop. Both cost $9 once. Medicraft runs only Gemini models on a Google key you fund yourself. Astria adds GPT Image 2, Seedream 5 and Flux 2 Pro, bills through one Astria key or your Google key, and returns Smart Objects at full returned resolution.",
+        text: "On Photoshop 2025 or later, the Astria Nano Banana plugin for Photoshop. Medicraft runs Gemini models on a Google key you fund yourself. Astria adds GPT Image 2, Seedream 5 and Flux 2 Pro, supports one Astria key or your Google key, and returns Smart Objects at full returned resolution.",
       },
     },
     {
@@ -67,17 +67,17 @@ export const faqSchema = {
   dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
 />
 
-Medicraft's Nano Banana Generative Fill for Photoshop is the listing most retouchers meet first when they search for a nano banana generative fill plugin. It costs $9, the same as the Astria Nano Banana plugin for Photoshop. The similarity ends there. Medicraft sends a selection to Google's Gemini image models and nothing else, on a Google API key you create, fund and monitor yourself.
+Medicraft's Nano Banana Generative Fill for Photoshop is the listing many retouchers meet first when they search for a nano banana generative fill plugin. Medicraft sends a selection to Google's Gemini image models on a Google API key you create, fund and monitor yourself.
 
 **The short answer:** Astria is the overall winner for a Photoshop professional who wants current image models inside a live document. It offers six hosted models against one model line, a pay-as-you-go balance for people who will not open a Google Cloud billing account, and bring-your-own-key for those who will. Choose Medicraft only if you are on Photoshop 2023 or 2024, already run Google billing, and only ever want Gemini.
 
 <!-- truncate -->
 
-<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. $9 once, pay per image or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/nano-banana-photoshop-guide/"><span>Read the guide</span><span aria-hidden="true">→</span></a></div></aside>
+<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. Use hosted billing or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/nano-banana-photoshop-guide/"><span>Read the guide</span><span aria-hidden="true">→</span></a></div></aside>
 
 ## How we evaluated
 
-Five criteria: model roster and how fast new models arrive; output fidelity (returned resolution, Smart Object or flattened pixels, mask handling); editing workflow inside the document; commercial model (entry price, per-image cost, subscription or pay-as-you-go, bring-your-own-key); and maintenance and longevity. We also asked what happens after the hero image, because the forty SKUs behind it must be produced somewhere. Sources were the aescripts and Adobe Exchange listings, Medicraft's readme, Google's Gemini API pricing page, and Astria's landing page and live catalogue, all read on 13 September 2026. No Medicraft licence was purchased or run.
+Five criteria: model roster and how fast new models arrive; output fidelity (returned resolution, Smart Object or flattened pixels, mask handling); editing workflow inside the document; billing flexibility and bring-your-own-key support; and maintenance and longevity. We also asked what happens after the hero image, because the forty SKUs behind it must be produced somewhere. Sources were the aescripts and Adobe Exchange listings, Medicraft's readme, Google's Gemini API pricing page, and Astria's landing page and live catalogue, all read on 13 September 2026. No Medicraft licence was purchased or run.
 
 ## Quick verdict: Astria vs Medicraft Nano Banana Generative Fill
 
@@ -89,7 +89,7 @@ Five criteria: model roster and how fast new models arrive; output fidelity (ret
 | Selection-to-layer workflow | Select, prompt, generate to a new layer or in place; edge-feather helper; prompt library; Actions on Photoshop 25+ | Marquee, lasso, brush or colour range; prompt; generate. Mask-aware models read the selection; model chosen per task; new layer | **Astria** for mask-aware models and per-task choice |
 | Reference-driven edits | References from the active layer or disk; the vendor warns that too many or large references can time out or crash Photoshop | Reference images dropped into the panel act as visual instructions, with the model chosen per task from one dropdown | **Astria** |
 | Billing paths | Your own Gemini key only, billed by Google; the vendor says the free tier covers Nano Banana 1 only, a model Google shuts down on 2 Oct 2026 | Astria key for every model, pay-as-you-go; or a Google AI Studio key for Gemini, billed by Google; switch in the panel | **Astria** |
-| Cost to start and cost to keep | $9 one-time, free trial; per-image spend at Google's list price once a payment method is connected to Google | $9 one-time; top up only what you need, no subscription, no minimums; or BYOK. Compare per-image rates on the [pricing page](https://www.astria.ai/pricing) | **Astria** for one balance and no Google billing setup |
+| Commercial model | One-time plugin licence plus a Google key funded on Google's terms; see the vendor listing and [Google pricing](https://ai.google.dev/gemini-api/docs/pricing) | One-time plugin licence plus hosted pay-as-you-go, or a Google key for Gemini; see [Astria pricing](https://www.astria.ai/pricing) | **Astria** for one hosted balance and no Google billing setup |
 | Production beyond the document | None described in its public material; the plugin ends at the layer | The same key and balance drive Astria workspaces, templates and the API | **Astria** |
 | Maintenance and longevity | Independent developer; released Sep 2025, v2.3.0 Jul 2026; ticket-portal support; the readme says retry on Google errors | Company and support desk, dated changelog, 16,000 sales (first-party), seven production reels; retries handled by the platform | **Astria** |
 | Best fit | A Photoshop 2023 or 2024 user with Google billing who wants occasional Gemini-only fills at Google's list price | A retoucher, photographer or ecommerce studio on Photoshop 2025+ wanting GPT Image 2, Gemini, Seedream and Flux in one panel with one balance, plus a route to the catalogue | **Astria** |
@@ -99,9 +99,9 @@ Reviewed 13 September 2026. Medicraft's returned resolution and layer type are r
 
 ## Medicraft Nano Banana Generative Fill: a Gemini-only panel on your own Google key
 
-Medicraft sells the plugin on aescripts and Adobe Exchange for $9 as a single-user licence, with a floating server licence and a free trial on aescripts. The Exchange package is a 61.7 KB UXP plugin, published 19 September 2025 and at version 2.3.0 since July 2026.
+Medicraft sells the plugin on aescripts and Adobe Exchange as a single-user licence, with a floating server licence and a trial on aescripts. The Exchange package is a compact UXP plugin, published 19 September 2025 and at version 2.3.0 since July 2026.
 
-The pitch is generation "with no need to spend money on credits". In practice you create a Gemini API key in Google AI Studio, paste it in, and Google bills you. The listing explains the catch itself: as of 26 March, Google no longer allows the $300 trial credit on the Gemini image API, so you use the free tier, which the vendor limits to Nano Banana 1, or pay per use. A second note says the free tier needs a payment method connected to Google, and that an "exceeded quota" error means you have not done that yet.
+The pitch is generation without a separate hosted balance. In practice you create a Gemini API key in Google AI Studio, paste it in, and Google bills you under its current API terms. The listing notes that an "exceeded quota" error can mean billing is not configured. Check [Google's pricing page](https://ai.google.dev/gemini-api/docs/pricing) for current availability and terms.
 
 The model list is the Gemini image line and nothing else: Nano Banana 1, Nano Banana 2 (added 27 February 2026, with Search grounding and a thinking-level control), Nano Banana Pro, and Nano Banana 2 Lite (added 2 July 2026). Nano Banana 2 has a resolution override of auto, meaning match the selection, or 1K, 2K and 4K.
 
@@ -115,7 +115,7 @@ Six hosted models sit in one dropdown: GPT Image 2 from OpenAI with mask-aware e
 
 Each generation is placed as a Smart Object holding the model's full returned resolution. A 4K result placed into a small selection still carries the 4K pixels, so it can be re-transformed, masked and re-edited later without resampling.
 
-Billing has two paths in one panel. An Astria key authenticates every model with pay-as-you-go top-ups, no subscription and no minimums; Astria abstracts the Google, OpenAI, fal and ByteDance APIs so quota, authentication and retries stay invisible. Or paste a Google AI Studio key and Nano Banana calls run on your own Google quota, billed by Google. Keys switch inside the panel. The plugin is $9 one-time, needs no GPU, and sales are final. Per-image rates are on the [pricing page](https://www.astria.ai/pricing); the workflow is in the [Nano Banana Photoshop guide](./nano-banana-photoshop-guide.md).
+Billing has two paths in one panel. An Astria key authenticates every hosted model with pay-as-you-go top-ups; Astria abstracts the Google, OpenAI, fal and ByteDance APIs so quota, authentication and retries stay invisible. Or paste a Google AI Studio key and run Nano Banana calls on your own Google account. Keys switch inside the panel. Current terms are on the [Astria pricing page](https://www.astria.ai/pricing); the workflow is in the [Nano Banana Photoshop guide](./nano-banana-photoshop-guide.md).
 
 ## Public proof, and where it comes from
 
@@ -153,7 +153,7 @@ Medicraft's changelog shows its cadence: Nano Banana 2 on 27 February 2026, Nano
 
 This is where Medicraft's design choice bites. Before your first Nano Banana 2 or Pro generation you need a Google AI Studio key, a payment method connected to Google, and a billing relationship you monitor yourself. The vendor's listing documents the "exceeded quota" error that greets users who skip that step. Google's pricing page, updated 11 September 2026, shows no free tier for any image model and marks the original Nano Banana as deprecated with shutdown on 2 October 2026, so the free path narrows further next month.
 
-The Astria plugin offers the same Google-key route for Gemini models, so a BYOK user loses nothing, and adds a hosted path: one key, one balance topped up when needed, and quota, authentication and retries handled across every model. One concession is fair and worth stating once: a BYOK-only design keeps Google's list price as the only per-image cost, with no intermediary. For a Gemini-only user who already runs Google billing, that is a genuine per-image saving. Compare rates on the [pricing page](https://www.astria.ai/pricing) before deciding.
+The Astria plugin offers the same Google-key route for Gemini models and adds a hosted path: one key, one balance topped up when needed, and quota, authentication and retries handled across every model. A BYOK-only design removes the hosted intermediary, which may suit a Gemini-only user who already runs Google billing. Compare the same representative workload on [Google's pricing page](https://ai.google.dev/gemini-api/docs/pricing) and the [Astria pricing page](https://www.astria.ai/pricing) before deciding.
 
 ### Returned resolution and layer type — winner: Astria
 
@@ -169,7 +169,7 @@ Medicraft's public material describes no web app, workspace or API. The Astria p
 
 ### Maintenance and longevity — winner: Astria
 
-Medicraft is an independent developer with a ticket portal, which is more than many $9 listings offer. The Astria plugin has a company and support desk behind it, a dated changelog, first-party traction of 16,000 sales, and a platform that absorbs upstream failures instead of asking the user to click Generate again. That is the safer bet against Google's next policy change.
+Medicraft is an independent developer with a ticket portal. The Astria plugin has a company and support desk behind it, a dated changelog, first-party adoption claims, and a platform that absorbs upstream failures instead of asking the user to click Generate again. That is the safer bet against Google's next policy change.
 
 ## Choose Medicraft if...
 
@@ -189,7 +189,7 @@ Medicraft is an independent developer with a ticket portal, which is more than m
 
 Medicraft's Nano Banana Generative Fill is a competent, inexpensive way to run Gemini image models on your own key inside older versions of Photoshop. Its limits are structural: one model line, one billing path, and a free tier that leans on a model Google retires in October.
 
-The Astria Nano Banana plugin for Photoshop is our recommendation for a Photoshop professional on version 26 or later. Six hosted models, two billing paths, Smart Objects at full returned resolution, zero-day model arrivals and a production route behind the panel make it the more capable and more durable purchase at the same $9.
+The Astria Nano Banana plugin for Photoshop is our recommendation for a Photoshop professional on version 26 or later. Six hosted models, two billing paths, Smart Objects at full returned resolution, zero-day model arrivals and a production route behind the panel make it the more capable and durable choice.
 
 ## What to test before choosing
 
@@ -201,7 +201,7 @@ If you are also weighing Photoshop's built-in models, read [Astria vs Photoshop 
 
 ### Which nano banana generative fill plugin should a retoucher buy?
 
-On Photoshop 2025 or later, the Astria Nano Banana plugin for Photoshop. Both cost $9 once. Medicraft runs only Gemini models on a Google key you fund yourself. Astria adds GPT Image 2, Seedream 5 and Flux 2 Pro, bills through one Astria key or your Google key, and returns Smart Objects at full returned resolution.
+On Photoshop 2025 or later, the Astria Nano Banana plugin for Photoshop. Medicraft runs Gemini models on a Google key you fund yourself. Astria adds GPT Image 2, Seedream 5 and Flux 2 Pro, supports one Astria key or your Google key, and returns Smart Objects at full returned resolution.
 
 ### Can I use my Gemini subscription with the Medicraft or Astria plugin?
 

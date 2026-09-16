@@ -80,7 +80,7 @@ Generative editing has an annoying workflow problem: the models are in a browser
 
 <!-- truncate -->
 
-<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. $9 once, pay per image or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/best-nano-banana-photoshop-plugins/"><span>Compare plugins</span><span aria-hidden="true">→</span></a></div></aside>
+<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. Use hosted billing or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/astria-plugin-vs-photoshop-generative-fill/"><span>Compare with Photoshop</span><span aria-hidden="true">→</span></a></div></aside>
 
 ## What it does
 
@@ -96,7 +96,7 @@ The models are not interchangeable, and having several in one panel is most of t
 - **Photographic generation** — new content that has to sit convincingly alongside a photograph — is where the Flux line has generally been strong.
 - **Mask-aware surgical replacement** — swap the shoes from a reference, take the phone out of a hand — is where GPT Image 2 earns its place. It reads a brushed selection directly, so the edit stays inside the mask and the rest of the frame is left alone.
 - **Long, structured prompts** — a multi-clause brief for a packaging variant or a full re-light, with materials, light direction and framing spelled out — are where Seedream 5 tends to hold together.
-- **Speed and cost** — some models return in seconds for cents; others are slower and better. For a hundred small corrections, the fast one is the right call.
+- **Speed and throughput** — some models return in seconds; others are slower and better. For a hundred small corrections, the fast one is the right call.
 
 The practical habit is to try the cheap fast model first and escalate only when it fails. Most edits do not need the best available model, and running everything through the most expensive option is how a plugin subscription starts feeling expensive.
 
@@ -136,7 +136,7 @@ The plugin itself is a one-time purchase rather than a subscription, with genera
 - **Photoshop version.** The maintained plugin is the CCX/UXP build for Photoshop 2025 (v26 and later), on macOS and Windows, with no GPU required. The older JSX script still works with Replicate credits for earlier releases.
 - **Model availability changes.** Names in the panel will shift. Discover what is available in the plugin rather than assuming a specific model is present.
 - **Not every edit should be generative.** A clone stamp is still faster and more predictable for small repairs, and a real mask beats a generated one for anything with a hard edge.
-- **How it compares.** For how the plugin stacks up against other panels and against Photoshop's own model picker, see the [round-up of Nano Banana Photoshop plugins](./best-nano-banana-photoshop-plugins.md).
+- **How it compares.** For how the plugin stacks up against Photoshop's own model picker, see [Astria Plugin vs Photoshop Generative Fill](./astria-plugin-vs-photoshop-generative-fill.md).
 
 For the API-level equivalent of this work, see [fine-tuning FLUX.1 on Astria](./fine-tuning-flux.md).
 

@@ -1,6 +1,6 @@
 ---
-title: "Astria Plugin vs Photoshop Generative Fill (2026): Nano Banana Inside Photoshop, Two Ways"
-description: "Photoshop Generative Fill vs the Astria Nano Banana plugin: returned resolution, 25 credits a month vs pay-as-you-go, GPT Image and Seedream, and BYOK compared."
+title: "Astria Plugin vs Photoshop Generative Fill: 2026 Guide"
+description: "Compare Photoshop Generative Fill with the Astria plugin on model choice, returned resolution, Smart Objects, references, maintenance, and workflow."
 slug: astria-plugin-vs-photoshop-generative-fill
 date: 2026-09-15
 hide_table_of_contents: true
@@ -24,7 +24,7 @@ export const faqSchema = {
       name: "Photoshop Generative Fill vs Nano Banana plugin: which should a retoucher choose?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For a Photoshop professional who needs current partner models at full returned resolution, paying per image, the Astria Nano Banana plugin for Photoshop is our recommendation. Photoshop Generative Fill is the right default when the work is Firefly fill and expand on a Creative Cloud Pro or Photography plan and an occasional Nano Banana fill from the monthly allowance is enough.",
+        text: "For a Photoshop professional who needs current partner models at full returned resolution, the Astria Nano Banana plugin for Photoshop is our recommendation. Photoshop Generative Fill is the right default when the work is primarily Firefly fill and expand and the native Adobe workflow matters most.",
       },
     },
     {
@@ -37,10 +37,10 @@ export const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "How many generative credits does Nano Banana use in Photoshop?",
+      name: "Where can I check current Photoshop partner-model usage terms?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "As of September 2026, Adobe lists Nano Banana Pro at 40 credits per generation and Nano Banana 2 at 20 credits for 1K or 2K output and 30 at 4K, both marked for a limited time. A Photoshop single-app subscriber who joined on or after 17 June 2025 receives 25 credits a month, with no rollover. A 2,000-credit add-on plan covers about 50 Nano Banana Pro fills or 100 Nano Banana 2 fills a month.",
+        text: "Adobe changes partner-model usage terms by model, output size, plan, region, and promotion. Check Adobe's generative credits page and your account's usage panel before committing a production job.",
       },
     },
     {
@@ -65,28 +65,28 @@ Photoshop 27.x put Nano Banana 2, Nano Banana Pro, FLUX.2 pro and FLUX.1 Kontext
 
 <!-- truncate -->
 
-<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. $9 once, pay per image or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/nano-banana-photoshop-guide/"><span>Read the guide</span><span aria-hidden="true">→</span></a></div></aside>
+<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. Use hosted billing or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/nano-banana-photoshop-guide/"><span>Read the guide</span><span aria-hidden="true">→</span></a></div></aside>
 
 ## How we evaluated Photoshop Generative Fill and the Astria plugin
 
-We scored both routes on six questions a Photoshop professional asks before committing a job: which models are in the panel today and how fast new ones arrive; output fidelity, meaning returned resolution, layer type and mask handling; the editing workflow inside the document; the commercial model, covering entry price, per-image cost, subscription or pay-as-you-go, and bring-your-own-key; maintenance and longevity; and what happens to production beyond the single document. Adobe facts come from Adobe's help, legal and community pages; Astria facts from its landing page and live model catalog. No controlled output-quality benchmark was run.
+We scored both routes on six questions a Photoshop professional asks before committing a job: which models are in the panel today and how fast new ones arrive; output fidelity, meaning returned resolution, layer type and mask handling; the editing workflow inside the document; billing flexibility and bring-your-own-key support; maintenance and longevity; and what happens to production beyond the single document. Adobe facts come from Adobe's help, legal and community pages; Astria facts from its landing page and live model catalog. No controlled output-quality benchmark was run.
 
 ## What ships natively today
 
 Photoshop's Generative Fill model picker, per Adobe's [Generative Fill help page](https://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/edit-images-with-generative-fill.html) and [partner models page](https://helpx.adobe.com/creative-cloud/apps/generative-ai/non-adobe-models-in-adobe-products.html), both updated 10 September 2026:
 
-| Picker entry | Provider | Generative credits per use | Notes |
-| --- | --- | --- | --- |
-| Firefly Fill & Expand | Adobe | 1 (standard feature) | Reference image with object or whole-image scope and swap or place intent |
-| Firefly Image 5 | Adobe | 10 | Added in Photoshop 27.6, April 2026 |
-| Firefly Image 1 | Adobe | 1 (standard feature) | Listed in the picker |
-| Gemini 3.1 (with Nano Banana 2) | Google | 20 at 1K or 2K, 30 at 4K, marked "for a limited time" | Added in 27.6, April 2026; up to 8 reference images for Gemini models |
-| Gemini 3 (with Nano Banana Pro) | Google | 40, marked "for a limited time" | Announced by Adobe on 20 November 2025 |
-| FLUX.2 pro | Black Forest Labs | 20, marked "for a limited time" | Up to 3 reference images |
-| FLUX.1 Kontext [pro] | Black Forest Labs | 10 | In the picker before Nano Banana Pro arrived |
-| Gemini 2.5 (with Nano Banana) | Google | Being removed | Photoshop began removing it on 10 September 2026 with build 27.11; Google deprecates it from 2 October 2026 |
+| Picker entry | Provider | Notes |
+| --- | --- | --- |
+| Firefly Fill & Expand | Adobe | Reference image with object or whole-image scope and swap or place intent |
+| Firefly Image 5 | Adobe | Added in Photoshop 27.6, April 2026 |
+| Firefly Image 1 | Adobe | Listed in the picker |
+| Gemini 3.1 (with Nano Banana 2) | Google | Added in 27.6, April 2026; supports several reference images |
+| Gemini 3 (with Nano Banana Pro) | Google | Announced by Adobe on 20 November 2025 |
+| FLUX.2 pro | Black Forest Labs | Supports several reference images |
+| FLUX.1 Kontext [pro] | Black Forest Labs | In the picker before Nano Banana Pro arrived |
+| Gemini 2.5 (with Nano Banana) | Google | Photoshop began removing it on 10 September 2026 with build 27.11 |
 
-Adobe's summary: "In Photoshop, Generative Fill consumes 10 to 40 credits, depending on the output size." Every GPT Image version, 2.5 Flare and Sunburst included, is listed for Firefly, Boards, Illustrator or Express, not Photoshop. No Seedream model appears on Adobe's partner list.
+Every GPT Image version, 2.5 Flare and Sunburst included, is listed for Firefly, Boards, Illustrator or Express, not Photoshop. No Seedream model appears on Adobe's partner list. Check [Adobe's current partner-model page](https://helpx.adobe.com/creative-cloud/apps/generative-ai/non-adobe-models-in-adobe-products.html) for current usage terms.
 
 ## Quick verdict: Astria vs Photoshop Generative Fill
 
@@ -98,25 +98,25 @@ Adobe's summary: "In Photoshop, Generative Fill consumes 10 to 40 credits, depen
 | Selection-to-layer workflow | Selection, Generative Fill in the Contextual Task Bar, model picker, prompt, Generate, then pick a variation in Properties | Select with marquee, lasso, brush or color range, prompt, generate, all in one panel; mask-aware models read the selection; model switched per task from one dropdown; result lands as a new layer, placed as a Smart Object | **Astria** for per-task model choice and Smart Object output |
 | Reference-driven edits | Reference image for Firefly Fill & Expand, and for the Gemini and Flux partner models with a prompt | Reference images dropped into the panel act as visual instructions for every model in the panel, GPT Image 2 and Seedream included | **Astria** for references across every model |
 | Billing paths | Generative credits from the Creative Cloud plan, or an add-on credit plan; no documented bring-your-own-key path; enterprise IT can define which models each user may use | Astria key on pay-as-you-go, one key for every model, or your own Google AI Studio key for the Gemini models billed by Google; keys switched inside the panel | **Astria** |
-| Cost to start and cost to keep | Included with Photoshop; a single-app subscriber since 17 June 2025 gets 25 credits a month with no rollover, below one Nano Banana Pro fill at 40 credits; a 2,000-credit add-on plan is about 50 Nano Banana Pro fills | $9 once; top up only what you use, no subscription, no minimum; or route Gemini calls through your own Google key; compare per-image rates on the pricing page | **Astria** for a Photoshop-only subscriber doing partner-model work |
+| Billing model | Uses the current partner-model terms attached to the subscriber's Adobe plan | Hosted pay-as-you-go through one Astria key, or a Google key for Gemini models; compare current terms on the [Astria pricing page](https://www.astria.ai/pricing) and Adobe's pricing pages | **Depends on the team's existing accounts and model mix** |
 | Production beyond the document | Firefly web app and Firefly Boards, on the same credit pool | The same Astria key and balance drive Astria workspaces, templates and the API for the rest of the collection | **Astria** for catalog-scale work |
 | Maintenance and longevity | Roster changes ship with Photoshop point releases; retirements follow the provider, as with Gemini 2.5 in 27.11 | Maintained CCX/UXP build with a dated changelog and support desk; roster is platform-served, so additions do not wait for a plugin release; legacy JSX users upgraded free | **Astria** for roster upkeep without an app update |
-| Best fit | A Creative Cloud Pro or Photography-plan subscriber whose day is Firefly fill and expand, with an occasional Nano Banana generation from the monthly allowance | A retoucher, photographer, agency or ecommerce studio that needs GPT Image, Nano Banana and Seedream at full returned resolution in a live document, paying per image | **Astria** for professional retouching |
+| Best fit | A Creative Cloud subscriber whose day is Firefly fill and expand | A retoucher, photographer, agency or ecommerce studio that needs GPT Image, Nano Banana and Seedream at full returned resolution in a live document | **Astria** for professional retouching |
 | Overall | Native and zero-install, strongest for Firefly work | Wider current roster, full-resolution Smart Objects, pay-as-you-go or BYOK, zero-day models | **Astria** |
 
-Reviewed 13 September 2026. Credit costs marked "for a limited time" on Adobe's page may change.
+Reviewed 13 September 2026. Adobe's partner-model usage terms may change.
 
 ## What Photoshop Generative Fill is
 
 Generative Fill is Photoshop's native selection-to-fill feature. Make a selection, open Generative Fill from the Contextual Task Bar, pick an Adobe or partner model, prompt or leave it blank, and generate. Firefly fills return as a set of variations to choose from in the Properties panel. Reference images guide Firefly Fill & Expand with an object or whole-image scope; for partner models, a reference panel accepts up to 8 images for Gemini and up to 3 for Flux.
 
-Partner models are premium features that draw on the same generative credits as everything else in Creative Cloud. Adobe's [generative credits FAQ](https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html) states that credits do not roll over and that credits deducted for an unsuccessful generation are typically refunded within minutes. Each user must accept a partner-model confirmation before first use, availability "may vary by country or region," and on Creative Cloud for enterprise Edition 4 and 5, IT can define in the Admin Console which generative models each user may use.
+Partner models use the account terms attached to Creative Cloud. Adobe's [generative credits FAQ](https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html) explains current usage, reset, and refund behavior. Each user must accept a partner-model confirmation before first use, availability "may vary by country or region," and enterprise administrators can define which generative models each user may use.
 
 Adobe draws a line between its own model and its partners'. Firefly is the model it calls commercially safe; for partner models, its FAQ says you decide which to use and are responsible for judging whether one is appropriate. Its [Firefly product description](https://helpx.adobe.com/legal/product-descriptions/adobe-firefly.html) (27 August 2026) excludes capabilities "denoted in the user interface as being powered or provided by non-Adobe trained models" from the Firefly IP indemnity, and its [partner-models security fact sheet](https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-partner-models-security-fact-sheet.pdf) (March 2026) notes that "Partner models may store generated content before returning it to Adobe." That is the boundary Adobe itself sets around Nano Banana and Flux inside Photoshop.
 
 ## What the Astria Nano Banana plugin for Photoshop is
 
-The Astria plugin is a CCX/UXP panel for Photoshop 2025 (version 26 and later) on macOS and Windows. It costs $9 once. Six hosted models sit in one dropdown: GPT Image 2 (OpenAI, mask-aware, 1K/2K/4K), Nano Banana 2 (Gemini 3.1), Nano Banana Pro (Gemini 3 Pro), Seedream 5 Pro, Seedream 5 and Flux 2 Pro. Flux Kontext was retired in favor of these.
+The Astria plugin is a CCX/UXP panel for Photoshop 2025 (version 26 and later) on macOS and Windows. Six hosted models sit in one dropdown: GPT Image 2 (OpenAI, mask-aware, 1K/2K/4K), Nano Banana 2 (Gemini 3.1), Nano Banana Pro (Gemini 3 Pro), Seedream 5 Pro, Seedream 5 and Flux 2 Pro. Flux Kontext was retired in favor of these.
 
 The workflow is three steps. Select with the marquee, lasso, brush or color range. Prompt in short, specific language, dropping reference images into the panel as visual instructions. Generate, and the result lands as a new layer. Mask-aware models read the selection directly. The model is chosen per task, and keys are switched inside the panel.
 
@@ -126,7 +126,7 @@ Billing runs two ways. An Astria key covers every model on pay-as-you-go, with n
 
 ## Public proof, with provenance
 
-Adobe's proof is the release train. Its [blog post of 20 November 2025](https://blog.adobe.com/en/publish/2025/11/20/google-gemini-3-nano-banana-pro-firefly-photoshop) announced Nano Banana Pro powering Generative Fill on the day Google announced the model, and [Photoshop 27.6](https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-6/) added Nano Banana 2 on 28 April 2026 (CG Channel, secondary). Adobe's forum holds the counter-evidence: a [quality thread](https://community.adobe.com/questions-712/why-is-the-quality-of-nano-banana-pro-generation-in-photoshop-significantly-worse-than-in-the-web-version-of-gemini-3-will-it-be-fixed-1551410) from February to April 2026 comparing Nano Banana Pro fills in Photoshop against a 2752×1536 Gemini web result and reporting a lack of sharpness, answered by a community manager asking for examples and giving no timeline; a [bug thread](https://community.adobe.com/bug-reports-711/nano-banana-pro-in-photoshop-could-not-complete-your-request-because-of-a-program-error-works-intermittently-very-slow-fails-most-times-1550456) from February 2026 reporting "program error" failures on Nano Banana Pro, one poster describing about 2,000 credits spent on retries; and a [content-flag thread](https://community.adobe.com/bug-reports-699/p-generated-images-violate-user-guidelines-667663) with roughly 1,392 replies since 2023 about ordinary prompts, swimwear and studio model photos among them, returning a guidelines violation. These are user reports, not benchmarks.
+Adobe's proof is the release train. Its [blog post of 20 November 2025](https://blog.adobe.com/en/publish/2025/11/20/google-gemini-3-nano-banana-pro-firefly-photoshop) announced Nano Banana Pro powering Generative Fill on the day Google announced the model, and [Photoshop 27.6](https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-6/) added Nano Banana 2 on 28 April 2026 (CG Channel, secondary). Adobe's forum holds the counter-evidence: a [quality thread](https://community.adobe.com/questions-712/why-is-the-quality-of-nano-banana-pro-generation-in-photoshop-significantly-worse-than-in-the-web-version-of-gemini-3-will-it-be-fixed-1551410) reports softer Photoshop results than Gemini web; a [bug thread](https://community.adobe.com/bug-reports-711/nano-banana-pro-in-photoshop-could-not-complete-your-request-because-of-a-program-error-works-intermittently-very-slow-fails-most-times-1550456) reports intermittent failures; and a [content-flag thread](https://community.adobe.com/bug-reports-699/p-generated-images-violate-user-guidelines-667663) collects reports of ordinary prompts returning a guidelines violation. These are user reports, not benchmarks.
 
 Astria's proof is first-party: 16,000 sales and 187 ratings on the landing page, and seven production reels covering fashion edits with references, bridal retouching, sketch and CAD to photo, product design, real estate, hair and clothing swaps, and packaging. Treat all of it as vendor-published.
 
@@ -136,9 +136,9 @@ The job: a campaign hero of a model on a stone step. The client wants the shoes 
 
 ### In Photoshop Generative Fill
 
-Select the shoes, open Generative Fill, choose Gemini 3 (with Nano Banana Pro), attach the product shot in the reference panel, prompt, generate: 40 credits. Extend the canvas for 4:5 and fill the new area with Firefly Fill & Expand for 1 credit, or with Nano Banana 2 for 20. Select the phone and hand, run Nano Banana Pro again with a reference of the empty hand: 40 more. About 100 credits for the first pass, before retries.
+Select the shoes, open Generative Fill, choose Gemini 3 (with Nano Banana Pro), attach the product shot in the reference panel, prompt, and generate. Extend the canvas for the delivery crop with Firefly Fill & Expand or Nano Banana 2. Select the phone and hand, then run the partner model again with a reference of the empty hand. Check current Adobe usage terms before estimating the job, including retries.
 
-On Creative Cloud Pro with 4,000 credits or a Photography plan with 1,000, that is a routine morning. On a Photoshop single-app plan started after 17 June 2025, the 25-credit allowance does not cover the first shoe swap, so the job begins with a 2,000-credit add-on plan (US$9.99 a month as reviewed in September 2026; Adobe localizes prices by region). Adobe publishes no partner-model output size, and the forum thread above is the only public data point. If the shoe fill is soft against a 4,000-pixel file, Adobe's route to more pixels is Generative Upscale with Topaz Gigapixel, at 10 credits up to 25 megapixels.
+Adobe publishes no partner-model output size, and the forum thread above is the only public data point. If the shoe fill is soft against a large delivery file, Adobe's route to more pixels is Generative Upscale with Topaz Gigapixel.
 
 ### In the Astria plugin
 
@@ -154,9 +154,9 @@ Here the two products stop being comparable. Photoshop's answer for volume is th
 
 Adobe's [Photoshop generative AI FAQ](https://helpx.adobe.com/photoshop/desktop/generative-ai/frequently-asked-questions-about-generative-ai-features.html), last updated 23 February 2026, states that the Firefly model returns 1024×1024 pixels to Photoshop. It states no size for partner models. The community quality thread reports Nano Banana Pro output in Photoshop as far below the same prompt on Gemini web, with no fix timeline published. The Astria plugin returns each generation as a Smart Object holding the model's full output, up to 4K on GPT Image 2 and the Gemini models. That is the difference between a fill that survives a print crop and one that needs an upscale pass.
 
-### Cost per fill for a Photoshop-only subscriber, winner: Astria
+### Billing flexibility, compare current terms
 
-Nano Banana Pro is 40 credits; Nano Banana 2 is 20 or 30; a Photoshop single-app plan opened since June 2025 carries 25 credits a month with no rollover. That buys one Nano Banana 2 fill and no Nano Banana Pro fill before an add-on plan. The Astria plugin costs $9 once and then bills per image with no subscription and no minimum, or nothing beyond Google's own charges on your AI Studio key. We do not claim Astria is cheaper per image; compare the pricing page against 2,000 credits for US$9.99 a month.
+Adobe and Astria use different billing systems, and model terms change. Price the same representative job—including retries—using [Adobe's current generative credits information](https://www.adobe.com/ai/overview/generative-credits.html) and [Astria's current pricing page](https://www.astria.ai/pricing). Astria also supports a Google AI Studio key for Gemini calls. This article does not claim a universal cost winner.
 
 ### GPT Image and Seedream inside the document, winner: Astria
 
@@ -177,7 +177,7 @@ This is the genuine advantage, stated once and plainly. Generative Fill is alrea
 ## Choose Photoshop Generative Fill if...
 
 - Most of your generative work is Firefly fill and expand, and you want Adobe's commercial-safety framing for it.
-- You are on Creative Cloud Pro or a Photography plan, and 1,000 to 4,000 credits a month comfortably cover the occasional Nano Banana or Flux fill.
+- Your current Creative Cloud terms comfortably cover the occasional Nano Banana or Flux fill.
 - Your organization requires that every model in use be enabled through the Adobe Admin Console.
 - Installing a third-party panel is not an option on your machine.
 
@@ -185,7 +185,7 @@ This is the genuine advantage, stated once and plainly. Generative Fill is alrea
 
 - Fills must hold up at delivery resolution, with the full returned pixels kept inside a Smart Object.
 - You need GPT Image 2 with a mask, or Seedream, without leaving the document.
-- You are a Photoshop-only subscriber and 25 credits a month is not a working budget for partner models.
+- Your current Adobe plan is not a practical fit for sustained partner-model work.
 - You want to bill per image through one key, or run Gemini calls on your own Google key.
 - You want new models on launch day without waiting for a Photoshop release or a plugin update, and a production route behind the panel for the rest of the collection.
 
@@ -203,28 +203,28 @@ Run one fixed PSD through both routes with the same selection, reference and sho
 
 ### Photoshop Generative Fill vs Nano Banana plugin: which should a retoucher choose?
 
-For a Photoshop professional who needs current partner models at full returned resolution, paying per image, the Astria Nano Banana plugin for Photoshop is our recommendation. Photoshop Generative Fill is the right default when the work is Firefly fill and expand on a Creative Cloud Pro or Photography plan and an occasional Nano Banana fill from the monthly allowance is enough.
+For a Photoshop professional who needs current partner models at full returned resolution, the Astria Nano Banana plugin for Photoshop is our recommendation. Photoshop Generative Fill is the right default when the work is primarily Firefly fill and expand and the native Adobe workflow matters most.
 
 ### Why does Nano Banana Pro look softer in Photoshop than on Gemini?
 
 Adobe publishes no output size for partner models in Generative Fill; its Photoshop FAQ states the Firefly model returns 1024x1024 pixels. An Adobe Community thread from February to April 2026 compares a Nano Banana Pro fill in Photoshop with a 2752x1536 result from Gemini web and reports a lack of sharpness, with no fix timeline given. The Astria plugin places each result as a Smart Object holding the model's full returned resolution, up to 4K.
 
-### How many generative credits does Nano Banana use in Photoshop?
+### Where can I check current Photoshop partner-model usage terms?
 
-As of September 2026, Adobe lists Nano Banana Pro at 40 credits per generation and Nano Banana 2 at 20 credits for 1K or 2K output and 30 at 4K, both marked for a limited time. A Photoshop single-app subscriber who joined on or after 17 June 2025 receives 25 credits a month, with no rollover. A 2,000-credit add-on plan covers about 50 Nano Banana Pro fills or 100 Nano Banana 2 fills a month.
+Adobe changes partner-model usage terms by model, output size, plan, region, and promotion. Check [Adobe's generative credits page](https://www.adobe.com/ai/overview/generative-credits.html) and your account's usage panel before committing a production job.
 
 ### Is Astria better than Photoshop Generative Fill?
 
 For the retoucher, photographer, agency or ecommerce studio that needs GPT Image, Nano Banana and Seedream inside a live document at full returned resolution, yes. Photoshop Generative Fill needs no install, is the natural home for Firefly work with its commercial-safety framing, and received Nano Banana Pro the day Google announced it. The Astria plugin extends Photoshop with a wider hosted roster, Smart Objects at original resolution, pay-as-you-go or BYOK billing, and models that arrive without a plugin update.
 
-For the plugin-to-plugin decisions, see [Astria vs Pablo](./astria-vs-pablo-photoshop-plugin.md) and [Astria vs Medicraft's Nano Banana Generative Fill](./astria-vs-medicraft-nano-banana-generative-fill.md). The full field is ranked in [best Nano Banana Photoshop plugins](./best-nano-banana-photoshop-plugins.md), and the panel workflow is walked through in the [Nano Banana Photoshop guide](./nano-banana-photoshop-guide.md).
+For a plugin-to-plugin decision, see [Astria vs Pablo](./astria-vs-pablo-photoshop-plugin.md). The panel workflow is walked through in the [Nano Banana Photoshop guide](./nano-banana-photoshop-guide.md).
 
 ## Sources and methodology
 
-Reviewed 13 September 2026. Adobe facts were read from Adobe's own pages: the [Generative Fill help page](https://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/edit-images-with-generative-fill.html) (updated 10 September 2026) for the picker entries and the Gemini 2.5 removal; the [partner models page](https://helpx.adobe.com/creative-cloud/apps/generative-ai/non-adobe-models-in-adobe-products.html) (updated 10 September 2026) for credit costs per model, where GPT Image is available, regional availability, the partner-model confirmation, the "you decide" wording and Admin Console controls; the [generative credits FAQ](https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html) (updated 10 September 2026) for per-plan allowances, the 17 June 2025 change, no rollover, refunds on failed generations and the Generative Credits Usage panel; the [reference images page](https://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/use-reference-images-for-consistent-results.html) (updated 18 August 2026) for reference limits; the [Photoshop generative AI FAQ](https://helpx.adobe.com/photoshop/desktop/generative-ai/frequently-asked-questions-about-generative-ai-features.html) (updated 23 February 2026) for the 1024×1024 statement; the [Firefly product description](https://helpx.adobe.com/legal/product-descriptions/adobe-firefly.html) (27 August 2026) for the indemnity exclusion; the [partner-models security fact sheet](https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-partner-models-security-fact-sheet.pdf) (March 2026); the [Nano Banana Pro announcement](https://blog.adobe.com/en/publish/2025/11/20/google-gemini-3-nano-banana-pro-firefly-photoshop) (20 November 2025); and the three Adobe Community threads linked above. Add-on credit pack sizes were confirmed on Adobe's [generative credits page](https://www.adobe.com/ai/overview/generative-credits.html), which localizes prices; the US$9.99 figure for 2,000 credits is as reviewed in September 2026. Photoshop 27.6 release details come from [CG Channel](https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-6/), a secondary source.
+Reviewed 13 September 2026. Adobe facts were read from Adobe's own pages: the [Generative Fill help page](https://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/edit-images-with-generative-fill.html), the [partner models page](https://helpx.adobe.com/creative-cloud/apps/generative-ai/non-adobe-models-in-adobe-products.html), the [generative credits FAQ](https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html), the [reference images page](https://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/use-reference-images-for-consistent-results.html), the [Photoshop generative AI FAQ](https://helpx.adobe.com/photoshop/desktop/generative-ai/frequently-asked-questions-about-generative-ai-features.html), the [Firefly product description](https://helpx.adobe.com/legal/product-descriptions/adobe-firefly.html), the [partner-models security fact sheet](https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-partner-models-security-fact-sheet.pdf), and the [Nano Banana Pro announcement](https://blog.adobe.com/en/publish/2025/11/20/google-gemini-3-nano-banana-pro-firefly-photoshop). Photoshop release details come from [CG Channel](https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-6/), a secondary source. Current commercial terms belong on Adobe's and Astria's pricing pages rather than in this article.
 
 Astria facts come from the [plugin landing page](https://www.astria.ai/nano-banana-photoshop) and the live model catalog, both read 13 September 2026. Sales, ratings and reel claims are first-party.
 
-No competitor product was purchased or run for this article; returned-resolution and layer-type behaviour of Photoshop Generative Fill is reported from its public material only. Credit costs marked "for a limited time," plan allowances and model rosters change often; confirm current terms before committing a job.
+No competitor product was purchased or run for this article; returned-resolution and layer-type behaviour of Photoshop Generative Fill is reported from its public material only. Commercial terms and model rosters change often; confirm current terms before committing a job.
 
 [Get the Astria Nano Banana plugin for Photoshop](https://www.astria.ai/nano-banana-photoshop).

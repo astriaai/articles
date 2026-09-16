@@ -82,6 +82,9 @@ test('public prompt, template, and workspace links are classified without exposi
   assert.deepEqual(destination('https://www.astria.ai/w/america-basics', 'https://www.astria.ai/articles/guide/'), {
     cta_id: 'public_workspace', intentEvent: 'article_workspace_click', destination_path: '/w/:slug',
   });
+  assert.deepEqual(destination('https://www.astria.ai/gallery/tunes/5634510/prompts?private=1', 'https://www.astria.ai/articles/guide/'), {
+    cta_id: 'model_gallery', intentEvent: 'article_model_gallery_click', destination_path: '/gallery/tunes/:id/prompts',
+  });
   for (const href of ['/prompts/private', '/p/', '/p/has spaces', '/w/123/private', '/w/_private']) {
     assert.equal(destination(href, 'https://www.astria.ai/articles/guide/'), null, href);
   }

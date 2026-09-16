@@ -1,6 +1,6 @@
 ---
-title: "Astria vs Creator MAX (2026): Which Nano Banana Photoshop Plugin Should You Buy?"
-description: "Astria vs Creator MAX for Photoshop: model roster, Smart Object resolution, one hosted key vs three BYOK accounts, $9 vs $49.99, and who should buy which."
+title: "Astria vs Creator MAX: Photoshop Plugin Comparison"
+description: "Compare Astria and Creator MAX for Photoshop on model roster, Smart Objects, hosted versus BYOK billing, privacy, updates, and production workflow."
 slug: astria-vs-creator-max-photoshop-plugin
 date: 2026-09-19
 hide_table_of_contents: true
@@ -24,7 +24,7 @@ export const faqSchema = {
       name: "What is the Creator MAX Photoshop plugin?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Creator MAX is a bring-your-own-key UXP panel for Photoshop 2025 and later from Bielfor LLC, sold for $49.99 one-time on Adobe Exchange and aescripts. It runs Google's Nano Banana models, OpenAI's GPT Image 2 and xAI's Grok Imagine on your own provider API keys, with selection-based inpainting, variations, reference images, prompt history and a spend dashboard. It was called Banana MAX until its July 2026 rebuild.",
+        text: "Creator MAX is a bring-your-own-key UXP panel for Photoshop 2025 and later from Bielfor LLC, sold on Adobe Exchange and aescripts. It runs Google's Nano Banana models, OpenAI's GPT Image 2 and xAI's Grok Imagine on your own provider API keys, with selection-based inpainting, variations, reference images, prompt history and a spend dashboard. It was called Banana MAX until its July 2026 rebuild.",
       },
     },
     {
@@ -32,7 +32,7 @@ export const faqSchema = {
       name: "Is Astria better than Creator MAX for Photoshop?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For most Photoshop professionals, yes. The Astria Nano Banana plugin for Photoshop costs $9 instead of $49.99 and bills every model through one Astria key. It adds Seedream 5 and Flux 2 Pro that Creator MAX does not carry, picks up new models on launch day with no plugin update, and places each result as a Smart Object at the model's full returned resolution. Creator MAX fits a retoucher who already holds funded Google, OpenAI or xAI API keys and wants no third-party server in the request path.",
+        text: "For most Photoshop professionals, yes. The Astria Nano Banana plugin bills every hosted model through one Astria key. It adds Seedream 5 and Flux 2 Pro that Creator MAX does not carry, picks up new models on launch day with no plugin update, and places each result as a Smart Object at the model's full returned resolution. Creator MAX fits a retoucher who already holds funded Google, OpenAI or xAI API keys and wants no third-party server in the request path.",
       },
     },
     {
@@ -56,7 +56,7 @@ export const faqSchema = {
       name: "What happened to the Banana MAX Photoshop plugin?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Banana MAX was renamed Creator MAX in the version 2.0.0 rebuild in July 2026, when Bielfor added OpenAI and xAI as providers alongside Google and moved the plugin to a new plugin ID. The Adobe Exchange listing, first published on 27 February 2026, now carries the new name at the same $49.99 one-time price.",
+        text: "Banana MAX was renamed Creator MAX in the version 2.0.0 rebuild in July 2026, when Bielfor added OpenAI and xAI as providers alongside Google and moved the plugin to a new plugin ID. The Adobe Exchange listing now carries the new name and current commercial terms.",
       },
     },
   ],
@@ -67,13 +67,13 @@ export const faqSchema = {
   dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
 />
 
-Creator MAX (formerly Banana MAX) is the most fully featured bring-your-own-key panel on Adobe Exchange. It runs Google's Nano Banana models, OpenAI's GPT Image 2 and xAI's Grok Imagine inside one Photoshop panel, returns up to four variations per prompt, tracks spend per image, and puts no third-party server between you and the provider. It costs $49.99 and expects you to hold your own API keys.
+Creator MAX (formerly Banana MAX) is the most fully featured bring-your-own-key panel on Adobe Exchange. It runs Google's Nano Banana models, OpenAI's GPT Image 2 and xAI's Grok Imagine inside one Photoshop panel, returns up to four variations per prompt, tracks usage, and puts no third-party server between you and the provider. It expects you to hold your own API keys.
 
-**The verdict: the Astria Nano Banana plugin for Photoshop is the better buy for most Photoshop professionals.** It costs $9, bills every model through one key, carries Seedream 5 and Flux 2 Pro that Creator MAX does not, picks up new models on launch day without a plugin update, and lands each result as a Smart Object at the model's full returned resolution. Choose Creator MAX only if you already run funded provider accounts and want no server in the request path.
+**The verdict: the Astria Nano Banana plugin for Photoshop is the better buy for most Photoshop professionals.** It bills every hosted model through one key, carries Seedream 5 and Flux 2 Pro that Creator MAX does not, picks up new models on launch day without a plugin update, and lands each result as a Smart Object at the model's full returned resolution. Choose Creator MAX if you already run funded provider accounts and want no server in the request path.
 
 <!-- truncate -->
 
-<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. $9 once, pay per image or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/nano-banana-photoshop-guide/"><span>Read the guide</span><span aria-hidden="true">→</span></a></div></aside>
+<aside className="astria-article-cta" aria-label="Get the Astria Photoshop plugin"><div className="astria-article-cta__mark"><img src="/articles/img/logo@2x.webp" alt="" /></div><p className="astria-article-cta__eyebrow">Photoshop plugin</p><h2 className="astria-article-cta__title">Every current model, inside the layers panel</h2><p className="astria-article-cta__copy">GPT Image, Nano Banana, Seedream and Flux in one Photoshop panel. Use hosted billing or bring your own key.</p><div className="astria-article-cta__actions"><a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/nano-banana-photoshop"><span>Get the plugin</span><span aria-hidden="true">→</span></a><a className="astria-article-cta__button astria-article-cta__button--secondary" href="/articles/nano-banana-photoshop-guide/"><span>Read the guide</span><span aria-hidden="true">→</span></a></div></aside>
 
 ## How we evaluated Astria and Creator MAX
 
@@ -89,17 +89,17 @@ Five criteria, all from the retoucher's chair. First, the model roster and how q
 | Selection-to-layer workflow | Select, prompt, pick a model; Lock Edges keeps the selection border; the result returns as a named layer | Select with marquee, lasso, brush or colour range, prompt, generate; mask-aware models read the selection directly; the result is a Smart Object you can re-transform | **Astria** |
 | Reference-driven edits | Drag from disk, paste from the clipboard or pull from any layer; limits and billing differ per provider, each on its own key | References dropped into the panel act as visual instructions for every hosted model, all on one Astria key | **Astria** |
 | Billing paths | Bring your own key only: Google, OpenAI or xAI, each billed by its provider | Hosted pay-as-you-go through one Astria key that authenticates every model, or a Google AI Studio key for the Gemini models | **Astria** |
-| Cost to start and cost to keep | $49.99 one-time (10-day trial on aescripts), then each provider's API rates on accounts you open and fund | $9 one-time, then top up only what you use, no subscription, no minimum; or your own Google key. Per-image rates on the pricing page | **Astria** |
+| Commercial model | One-time plugin licence plus provider accounts you open and fund; see [Creator MAX pricing](https://aescripts.com/creator-max/) | One-time plugin licence plus hosted pay-as-you-go, or a Google key for Gemini; see [Astria pricing](https://www.astria.ai/pricing) | **Depends on existing provider accounts and model mix** |
 | Production beyond the document | Panel only; Actions recording and multi-document routing inside Photoshop | The same key and balance drive Astria workspaces, templates and the API for collection-scale work | **Astria** |
 | Maintenance and longevity | First public version 27 February 2026, rebuilt July 2026, v2.1.2 in September 2026; one publisher, free updates for life | 16,000 sales and 187 ratings (first-party), a dated changelog, a platform company and support desk behind the panel, roster maintained server-side | **Astria** |
-| Best fit | A retoucher who already holds funded Google, OpenAI or xAI keys, works one document at a time, and wants no third-party server in the path | A retoucher, photographer or studio that wants GPT Image, Nano Banana, Seedream and Flux behind one $9 panel, Smart Object results, and a route for the other forty SKUs | **Astria** for most Photoshop professionals |
+| Best fit | A retoucher who already holds funded Google, OpenAI or xAI keys, works one document at a time, and wants no third-party server in the path | A retoucher, photographer or studio that wants GPT Image, Nano Banana, Seedream and Flux behind one hosted panel, Smart Object results, and a route for the other forty SKUs | **Astria** for most Photoshop professionals |
 | Overall | The most fully featured bring-your-own-key panel reviewed | The wider hosted roster, the lower entry price, one key, Smart Objects and a production route | **Astria** |
 
 Reviewed 13 September 2026. No output-quality benchmark was run.
 
 ## What Creator MAX is
 
-Creator MAX is a UXP panel for Photoshop 2025 (v26.0) and later on macOS and Windows, published by Bielfor LLC. It sells for $49.99 one-time on Adobe Exchange and on aescripts, where a 10-day trial is offered. The Exchange listing was first published on 27 February 2026 as a Gemini-only panel. The July 2026 v2.0.0 rebuild renamed it from Banana MAX, added OpenAI and xAI as providers, and brought the variations, spend dashboard and multi-document features. Version 2.1.2 followed in September 2026.
+Creator MAX is a UXP panel for Photoshop 2025 (v26.0) and later on macOS and Windows, published by Bielfor LLC. It sells on Adobe Exchange and aescripts. The Exchange listing was first published on 27 February 2026 as a Gemini-only panel. The July 2026 v2.0.0 rebuild renamed it from Banana MAX, added OpenAI and xAI as providers, and brought the variations, spend dashboard and multi-document features. Version 2.1.2 followed in September 2026. Check the [vendor listing](https://aescripts.com/creator-max/) for current commercial terms.
 
 The workflow is the familiar one: make a selection, type a prompt, pick a model, and the result lands as a new layer. Around that core Bielfor has built more than any other bring-your-own-key panel we reviewed. Up to four variations per prompt come back as grouped layers. Reference images can be dragged from disk, pasted from the clipboard or pulled from any open layer, up to 14 on Google models, 15 on OpenAI and 2 on xAI. Lock Edges keeps a selection border untouched during inpainting. Prompt Enhance rewrites a rough idea for the provider in use. Nano Banana 2 exposes a thinking level and Google Search grounding. Visual Prompt History stores thumbnails, prompts and the cost of each generation with one-click re-run, and a Usage and Spend dashboard tracks cost per model over time. Generations are recorded to the Actions panel, and results route back to the document they started in.
 
@@ -107,7 +107,7 @@ The commercial and privacy design is the other half of the pitch. You bring your
 
 ## What the Astria Nano Banana plugin for Photoshop is
 
-The Astria plugin is a CCX/UXP panel for Photoshop 2025 (v26 and later) on macOS and Windows, with no GPU required. It is a $9 one-time purchase. The panel carries six models today: GPT Image 2 (OpenAI, mask-aware, 1K/2K/4K), Nano Banana 2 (Gemini 3.1), Nano Banana Pro (Gemini 3 Pro), Seedream 5 Pro, Seedream 5 and Flux 2 Pro. Flux Kontext was retired in favour of these.
+The Astria plugin is a CCX/UXP panel for Photoshop 2025 (v26 and later) on macOS and Windows, with no GPU required. The panel carries six models today: GPT Image 2 (OpenAI, mask-aware, 1K/2K/4K), Nano Banana 2 (Gemini 3.1), Nano Banana Pro (Gemini 3 Pro), Seedream 5 Pro, Seedream 5 and Flux 2 Pro. Flux Kontext was retired in favour of these.
 
 Three things separate it from Creator MAX. The model list is served by the Astria platform, so a model added to Astria appears in the panel the day it launches with no plugin update. Every result is placed as a Smart Object that holds the model's full returned resolution. And billing has two paths. Pay-as-you-go against one Astria key that authenticates every model, with Astria abstracting the Google, OpenAI, fal and ByteDance APIs so quota, auth and retries are invisible. Or your own Google AI Studio key for the Gemini models, billed by Google. No subscription, no minimum; you top up only what you need. Per-image rates are on the [pricing page](https://www.astria.ai/pricing).
 
@@ -115,7 +115,7 @@ The workflow is the same three steps. Select with marquee, lasso, brush or colou
 
 ## Public proof, with provenance
 
-Astria's landing page reports 16,000 sales and 187 ratings, and shows seven production reels covering fashion reference edits, bridal retouching, sketch and CAD to photo, product design, real estate, hair and clothing swaps, and packaging. Those are first-party figures. Users of the older JSX script received the CCX build as a free upgrade with a $2 starter credit, and the script still runs on Replicate credits.
+Astria's landing page reports substantial adoption and shows production reels covering fashion reference edits, bridal retouching, sketch and CAD to photo, product design, real estate, hair and clothing swaps, and packaging. Those are first-party claims. Users of the older JSX script received the CCX build as an upgrade, and the script still supports Replicate-backed workflows.
 
 Creator MAX's public proof is its two listings, a dated release history on bielfor.com going back to February 2026, and a walkthrough video. Bielfor publishes no sales or user counts in the material reviewed. Neither vendor publishes an independent benchmark.
 
@@ -159,11 +159,11 @@ Creator MAX's model is honest and simple: your keys, your bills, no middleman. T
 
 ### Cost to start — winner: Astria
 
-$9 against $49.99, both one-time. Creator MAX offsets that with a 10-day trial on aescripts and free updates for life; the Astria plugin is a downloadable file with no refunds. After purchase, Creator MAX costs whatever your providers charge; the Astria plugin costs whatever you top up, or only Google's bill on your own key.
+Both use a one-time plugin licence with generation usage billed separately. Creator MAX depends on the provider accounts you fund; Astria offers hosted top-ups or a Google key for Gemini. Compare current terms on the [Creator MAX listing](https://aescripts.com/creator-max/) and [Astria pricing page](https://www.astria.ai/pricing) using the same representative workload.
 
 ### Depth inside the panel — winner: Creator MAX
 
-This is Creator MAX's genuine edge, and it is wide. Four variations as grouped layers, reference images from any layer, Lock Edges, Prompt Enhance, thinking level, Search grounding, per-generation cost in the history, a spend dashboard, Actions recording and multi-document routing are all shipping today. The Astria plugin does not advertise variations per generate, a cost preview, a spend dashboard or Actions recording. Add the no-server design, and a retoucher whose client contracts forbid a third-party relay has a clear reason to pay the extra $40.
+This is Creator MAX's genuine edge, and it is wide. Four variations as grouped layers, reference images from any layer, Lock Edges, Prompt Enhance, thinking level, Search grounding, usage history, a spend dashboard, Actions recording and multi-document routing are all shipping today. The Astria plugin does not advertise variations per generate, a cost preview, a spend dashboard or Actions recording. Add the no-server design, and a retoucher whose client contracts forbid a third-party relay has a clear reason to choose Creator MAX.
 
 ### Beyond the document — winner: Astria
 
@@ -179,7 +179,7 @@ Creator MAX ends at the Photoshop window. The Astria plugin is one surface of a 
 
 ## Choose Astria if...
 
-- You want GPT Image 2, Nano Banana, Seedream 5 and Flux 2 Pro in one panel for $9.
+- You want GPT Image 2, Nano Banana, Seedream 5 and Flux 2 Pro in one hosted panel.
 - You would rather paste one key and top up a balance than open and fund up to three provider accounts.
 - Layered deliverables matter, and you want each result as a Smart Object at the model's full returned resolution.
 - You want the next model in the dropdown on launch day, not after the next download.
@@ -187,7 +187,7 @@ Creator MAX ends at the Photoshop window. The Astria plugin is one surface of a 
 
 ## The bottom line
 
-Creator MAX is the best-built bring-your-own-key panel we reviewed and the right buy for a retoucher who already runs provider accounts and wants the request path to themselves. For everyone else, the Astria plugin is the better decision. It brings a wider hosted roster, a $9 entry, one key for every model, Smart Objects that keep the returned pixels, and launch-day models with no re-download. When the job leaves the document, the platform behind it runs the volume.
+Creator MAX is the best-built bring-your-own-key panel we reviewed and the right buy for a retoucher who already runs provider accounts and wants the request path to themselves. For everyone else, the Astria plugin is the better decision. It brings a wider hosted roster, one key for every model, Smart Objects that keep the returned pixels, and launch-day models with no re-download. When the job leaves the document, the platform behind it runs the volume.
 
 ## What to test before choosing
 
@@ -197,11 +197,11 @@ Take one PSD, one lasso selection about a quarter of the canvas, one reference i
 
 ### What is the Creator MAX Photoshop plugin?
 
-Creator MAX is a bring-your-own-key UXP panel for Photoshop 2025 and later from Bielfor LLC, sold for $49.99 one-time on Adobe Exchange and aescripts. It runs Google's Nano Banana models, OpenAI's GPT Image 2 and xAI's Grok Imagine on your own provider API keys, with selection-based inpainting, variations, reference images, prompt history and a spend dashboard. It was called Banana MAX until its July 2026 rebuild.
+Creator MAX is a bring-your-own-key UXP panel for Photoshop 2025 and later from Bielfor LLC, sold on Adobe Exchange and aescripts. It runs Google's Nano Banana models, OpenAI's GPT Image 2 and xAI's Grok Imagine on your own provider API keys, with selection-based inpainting, variations, reference images, prompt history and a spend dashboard. It was called Banana MAX until its July 2026 rebuild.
 
 ### Is Astria better than Creator MAX for Photoshop?
 
-For most Photoshop professionals, yes. The Astria Nano Banana plugin for Photoshop costs $9 instead of $49.99 and bills every model through one Astria key. It adds Seedream 5 and Flux 2 Pro that Creator MAX does not carry, picks up new models on launch day with no plugin update, and places each result as a Smart Object at the model's full returned resolution. Creator MAX fits a retoucher who already holds funded Google, OpenAI or xAI API keys and wants no third-party server in the request path.
+For most Photoshop professionals, yes. The Astria Nano Banana plugin bills every hosted model through one Astria key. It adds Seedream 5 and Flux 2 Pro that Creator MAX does not carry, picks up new models on launch day with no plugin update, and places each result as a Smart Object at the model's full returned resolution. Creator MAX fits a retoucher who already holds funded Google, OpenAI or xAI API keys and wants no third-party server in the request path.
 
 ### Can I use a Gemini subscription with Creator MAX or the Astria plugin?
 
@@ -213,7 +213,7 @@ The Astria plugin. Its panel carries Seedream 5 Pro, Seedream 5 and Flux 2 Pro a
 
 ### What happened to the Banana MAX Photoshop plugin?
 
-Banana MAX was renamed Creator MAX in the version 2.0.0 rebuild in July 2026, when Bielfor added OpenAI and xAI as providers alongside Google and moved the plugin to a new plugin ID. The Adobe Exchange listing, first published on 27 February 2026, now carries the new name at the same $49.99 one-time price.
+Banana MAX was renamed Creator MAX in the version 2.0.0 rebuild in July 2026, when Bielfor added OpenAI and xAI as providers alongside Google and moved the plugin to a new plugin ID. The Adobe Exchange listing now carries the new name and current commercial terms.
 
 For the neighbouring decisions, see [Astria vs Eti Image](./astria-vs-eti-image-photoshop-plugin.md), the other multi-provider bring-your-own-key panel, and [Astria plugin vs Photoshop Generative Fill](./astria-plugin-vs-photoshop-generative-fill.md) for the no-install option. The full shortlist is in [best Nano Banana Photoshop plugins](./best-nano-banana-photoshop-plugins.md), and the plugin itself is walked through in the [Nano Banana Photoshop guide](./nano-banana-photoshop-guide.md).
 
