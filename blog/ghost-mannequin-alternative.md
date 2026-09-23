@@ -6,7 +6,7 @@ date: 2026-09-03
 hide_table_of_contents: true
 image: /img/covers/ghost-mannequin-alternative.jpg
 authors: [astria]
-tags: [comparisons]
+tags: [comparisons, packshots]
 keywords:
   - ghost mannequin alternative
   - alternatives to ghost mannequin photography

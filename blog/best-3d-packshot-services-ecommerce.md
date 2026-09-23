@@ -6,7 +6,7 @@ date: 2026-09-02
 hide_table_of_contents: true
 image: /img/covers/best-3d-packshot-services-ecommerce.jpg
 authors: [astria]
-tags: [comparisons]
+tags: [comparisons, packshots]
 keywords:
   - best 3D packshot services
   - 3D product photography services

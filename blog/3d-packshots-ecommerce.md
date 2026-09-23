@@ -6,7 +6,7 @@ date: 2026-08-29
 hide_table_of_contents: true
 image: /img/covers/3d-packshots-ecommerce.jpg
 authors: [astria]
-tags: [guides]
+tags: [guides, packshots]
 keywords:
   - 3D packshots
   - 3D product images ecommerce
@@ -87,11 +87,11 @@ export const faqSchema = {
     <img src="/articles/img/logo@2x.png" alt="" />
   </div>
   <p className="astria-article-cta__eyebrow">Fashion production workspace</p>
-  <h2 className="astria-article-cta__title">Create your next campaign with Astria</h2>
-  <p className="astria-article-cta__copy">Generate fashion visuals from your products, or start with a production-ready template.</p>
+  <h2 className="astria-article-cta__title">Explore Astria's 3D packshot workspace</h2>
+  <p className="astria-article-cta__copy">See the 3D packshot workflow and start from a product reference.</p>
   <div className="astria-article-cta__actions">
-    <a className="astria-article-cta__button astria-article-cta__button--primary" href="/prompts">
-      <span>Generate</span><span aria-hidden="true">→</span>
+    <a className="astria-article-cta__button astria-article-cta__button--primary" href="https://www.astria.ai/w/3d-packshots">
+      <span>Open 3D packshots workspace</span><span aria-hidden="true">→</span>
     </a>
     <a className="astria-article-cta__button astria-article-cta__button--secondary" href="/gallery/workspaces">
       <span>Templates gallery</span><span aria-hidden="true">→</span>

@@ -12,6 +12,7 @@ export const blogCategories: BlogCategory[] = [
   {label: 'Comparisons', to: '/tags/comparisons/'},
   {label: 'Photoshop', to: '/tags/photoshop/'},
   {label: 'Guides', to: '/tags/guides/'},
+  {label: 'Packshots', to: '/tags/packshots/'},
   {label: 'Economics', to: '/tags/economics/'},
   {label: 'Engineering', to: '/tags/engineering/'},
 ];

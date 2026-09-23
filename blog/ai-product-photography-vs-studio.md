@@ -6,7 +6,7 @@ date: 2026-09-03
 hide_table_of_contents: true
 image: /img/covers/ai-product-photography-vs-studio.jpg
 authors: [astria]
-tags: [comparisons]
+tags: [comparisons, packshots]
 keywords:
   - AI product photography vs studio
   - AI vs packshot studio

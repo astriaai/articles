@@ -6,7 +6,7 @@ date: 2026-08-30
 hide_table_of_contents: true
 image: /img/covers/ghost-mannequin-photography-ecommerce.jpg
 authors: [astria]
-tags: [guides]
+tags: [guides, packshots]
 keywords:
   - ghost mannequin photography
   - invisible mannequin photography

@@ -21,6 +21,11 @@ guides:
   permalink: /guides
   description: How to plan, direct, and run AI fashion photoshoots that stay on brand.
 
+packshots:
+  label: Packshots
+  permalink: /packshots
+  description: Packshot formats, production workflows, and ecommerce product imagery.
+
 economics:
   label: Economics
   permalink: /economics
