@@ -11,6 +11,13 @@ the proposed 24-brief full study: 132 images requested, 131 returned, and $43.15
 generation cost. The published methodology discloses the single-reviewer editorial assessment;
 blinded multi-reviewer scoring remains a future expansion rather than an implied property of this run.
 
+**MAI and model-family expansion — September 8, 2026:** MAI-Image-2.6 and Flash received a
+separate 24-output qualification because their working Astria path supported text-to-image and
+direct single-image editing but not the reusable reference-token setup used by the core matrix.
+Twenty-one outputs returned; the adult-swimwear cell was blocked. Dedicated, evidence-backed
+family pages were added for MAI, Nano Banana 2, GPT Image 2, Seedream 5, and Muse, staggered from
+September 8 through September 12. The original four-model results remain the controlled core.
+
 ## Editorial thesis
 
 The useful top-line answer is: **Nano Banana 2 is the best general-purpose model for fashion work in Astria.** It should be the default recommendation for a team that does not yet know which model to choose. The rest of the series explains the important exceptions rather than weakening that answer with an “it depends” conclusion.

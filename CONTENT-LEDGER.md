@@ -88,6 +88,14 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | wedding-dress-photography-prompts | wedding dress photography prompts | 2026-09-01 | 2026-09-07 | F | 2026-12-07 | guides |
 | vitamin-supplement-photography-prompts | vitamin and supplement photography prompts | 2026-08-31 | 2026-09-07 | F | 2026-12-07 | guides |
 | ai-product-photography | AI product photography | 2026-09-07 | 2026-09-07 | F L | 2026-12-07 | guides |
+| astria-image-models | Astria image models | 2026-09-06 | 2026-09-08 | M F P | 2026-10-08 | models |
+| how-we-benchmark-ai-image-models | AI image model benchmark methodology | 2026-09-06 | 2026-09-08 | M F P | 2026-10-08 | models |
+| best-ai-image-models-fashion | best AI image models for fashion | 2026-09-06 | 2026-09-08 | M F P | 2026-10-08 | models |
+| mai-image-2-6-review | MAI Image 2.6 review | 2026-09-08 | 2026-09-08 | M F P | 2026-10-08 | models |
+| nano-banana-2-for-fashion | Nano Banana 2 fashion | 2026-09-09 | 2026-09-08 | M F P | 2026-10-08 | models |
+| gpt-image-2-for-product-photography | GPT Image 2 product photography | 2026-09-10 | 2026-09-08 | M F P | 2026-10-08 | models |
+| seedream-5-for-fashion | Seedream 5 fashion | 2026-09-11 | 2026-09-08 | M F P | 2026-10-08 | models |
+| muse-image-model-review | Muse Image model review | 2026-09-12 | 2026-09-08 | M F P | 2026-10-08 | models |
 
 ## Unlisted (deliberately noindexed)
 
@@ -211,6 +219,15 @@ on `best-ai-fashion-photography-platforms`, and generated multi-angle questions 
 transactional `AI fashion model generator` landing page remains a main-site implementation,
 outside this repository. Review page/query overlap in Search Console after an equal 28-day
 live window before releasing beauty, Shopify-specific, or further alternatives pages.
+
+**Model-family cluster and MAI qualification — September 8, 2026:** adds one evidence-backed
+family page for each core model and a separate MAI-Image-2.6/Flash challenger page. The core
+benchmark remains the 131-image, reusable-reference comparison; MAI is not inserted as a fifth
+matched column because its Astria reference-token requests failed while text-to-image and direct
+single-image editing succeeded. The MAI round requested 24 outputs, returned 21, cost $1.61, and
+recorded a blocked benign adult-swimwear cell. The five family articles are staggered one per day
+from September 8 through September 12. Review Search Console query overlap after each has had an
+equal 28-day live window; consolidate a family page if the benchmark hub absorbs its intent.
 
 **Validation and setup:** `yarn install --frozen-lockfile --non-interactive` succeeded;
 `yarn build`, `yarn typecheck`, whitespace checks, rendered metadata/canonical/indexability/link
