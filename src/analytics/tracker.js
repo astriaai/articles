@@ -50,6 +50,15 @@ const DESTINATIONS = new Map([
   ['/affiliate', ['affiliate_program', null]],
 ]);
 
+// Public article examples use many specific slugs and numeric prompt IDs. Classify
+// them by route family so new editorial links are measurable without sending the
+// exact URL, workspace slug, prompt ID, or query string to analytics.
+const DESTINATION_FAMILIES = [
+  [/^\/prompts\/\d+$/, ['public_prompt', 'article_prompt_example_click', '/prompts/:id']],
+  [/^\/p\/[a-z0-9][a-z0-9-]*$/, ['public_template', 'article_template_click', '/p/:slug']],
+  [/^\/w\/[a-z0-9][a-z0-9-]*$/, ['public_workspace', 'article_workspace_click', '/w/:slug']],
+];
+
 function destination(href, currentHref) {
   try {
     const url = new URL(href, currentHref);
@@ -57,7 +66,11 @@ function destination(href, currentHref) {
     if (!['www.astria.ai', 'astria.ai'].includes(url.hostname)) return null;
     const path = url.pathname.replace(/\/+$/, '') || '/';
     const entry = DESTINATIONS.get(path);
-    return entry ? {cta_id: entry[0], intentEvent: entry[1], destination_path: path} : null;
+    if (entry) return {cta_id: entry[0], intentEvent: entry[1], destination_path: path};
+    for (const [pattern, [cta_id, intentEvent, destination_path]] of DESTINATION_FAMILIES) {
+      if (pattern.test(path)) return {cta_id, intentEvent, destination_path};
+    }
+    return null;
   } catch { return null; }
 }
 

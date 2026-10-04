@@ -72,6 +72,21 @@ test('destination matching accepts equivalent URLs and never emits arbitrary tar
   }
 });
 
+test('public prompt, template, and workspace links are classified without exposing IDs', () => {
+  assert.deepEqual(destination('https://www.astria.ai/prompts/35818293?ws=54', 'https://www.astria.ai/articles/guide/'), {
+    cta_id: 'public_prompt', intentEvent: 'article_prompt_example_click', destination_path: '/prompts/:id',
+  });
+  assert.deepEqual(destination('https://www.astria.ai/p/basic-shirt', 'https://www.astria.ai/articles/guide/'), {
+    cta_id: 'public_template', intentEvent: 'article_template_click', destination_path: '/p/:slug',
+  });
+  assert.deepEqual(destination('https://www.astria.ai/w/america-basics', 'https://www.astria.ai/articles/guide/'), {
+    cta_id: 'public_workspace', intentEvent: 'article_workspace_click', destination_path: '/w/:slug',
+  });
+  for (const href of ['/prompts/private', '/p/', '/p/has spaces', '/w/123/private', '/w/_private']) {
+    assert.equal(destination(href, 'https://www.astria.ai/articles/guide/'), null, href);
+  }
+});
+
 test('one initial pageview and one per SPA pathname, with safe referrer and dual routing', () => {
   const f = fixture();
   f.tracker.schedulePageView();
