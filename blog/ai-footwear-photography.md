@@ -163,7 +163,7 @@ This keeps the material claim photographic and moves the volume — which is mos
 
 The left/right check deserves its own mention. Generated pairs frequently mirror detail that should not be mirrored — branding on the outer face of both shoes, or a lace pattern that reverses.
 
-For the general process, see the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md). For jewelry, which fails differently, see [AI jewelry photography](./ai-jewelry-photography.md).
+For the general ecommerce process, see the [AI product photography guide](./ai-product-photography.md); for collection production, continue to the [AI fashion photoshoot guide](./ai-fashion-photoshoot-guide.md). For jewelry, which fails differently, see [AI jewelry photography](./ai-jewelry-photography.md).
 
 ## Frequently asked questions
 

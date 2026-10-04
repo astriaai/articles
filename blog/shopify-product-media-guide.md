@@ -124,7 +124,7 @@ A useful apparel image set normally covers:
 - A second pose or use state where movement matters
 - Colorway-specific views
 
-Ghost mannequin can isolate construction without a visible body; [the complete ghost mannequin guide](./ghost-mannequin-photography-ecommerce.md) covers the insert views and joins it needs. For a catalog where every extra angle multiplies across variants, calculate the real [product photography cost per SKU](./product-photography-cost-per-sku.md) before setting the standard.
+Ghost mannequin can isolate construction without a visible body; [the complete ghost mannequin guide](./ghost-mannequin-photography-ecommerce.md) covers the insert views and joins it needs. If approved physical references will also produce on-model, lifestyle, or campaign derivatives, use the [AI product photography workflow](./ai-product-photography.md) to separate product evidence from generated variation. For a catalog where every extra angle multiplies across variants, calculate the real [product photography cost per SKU](./product-photography-cost-per-sku.md) before setting the standard.
 
 ### Video: show change over time
 

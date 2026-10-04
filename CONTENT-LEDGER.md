@@ -87,6 +87,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | jewelry-photography-prompts | jewelry photography prompts | 2026-09-02 | 2026-09-07 | F | 2026-12-07 | guides |
 | wedding-dress-photography-prompts | wedding dress photography prompts | 2026-09-01 | 2026-09-07 | F | 2026-12-07 | guides |
 | vitamin-supplement-photography-prompts | vitamin and supplement photography prompts | 2026-08-31 | 2026-09-07 | F | 2026-12-07 | guides |
+| ai-product-photography | AI product photography | 2026-09-07 | 2026-09-07 | F L | 2026-12-07 | guides |
 
 ## Unlisted (deliberately noindexed)
 
@@ -200,6 +201,16 @@ as a volatile feature claim and recheck it on the quarterly schedule above. The 
 labels the public Beauty example as adjacent packaging evidence because a citable public
 supplement prompt/result pair was not available; it requires product-specific testing plus
 artwork and compliance review rather than claiming public supplement proof.
+
+**Direct-search implementation — September 7, 2026:** adds `ai-product-photography` as the
+canonical definition, input, workflow, and quality-control hub. The existing
+`ai-product-photography-vs-studio` page retains the narrower comparison intent. Search-language
+refreshes keep product-to-model variants on `flat-lay-to-on-model`, platform-selection variants
+on `best-ai-fashion-photography-platforms`, and generated multi-angle questions on
+`3d-packshots-ecommerce`; no overlapping single-task articles were added. The separate
+transactional `AI fashion model generator` landing page remains a main-site implementation,
+outside this repository. Review page/query overlap in Search Console after an equal 28-day
+live window before releasing beauty, Shopify-specific, or further alternatives pages.
 
 **Validation and setup:** `yarn install --frozen-lockfile --non-interactive` succeeded;
 `yarn build`, `yarn typecheck`, whitespace checks, rendered metadata/canonical/indexability/link
