@@ -80,6 +80,13 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | fashion-video-ads-guide | fashion video ads | 2026-09-02 | 2026-09-05 | F | 2026-12-05 | guides |
 | stytrix-alternatives | stytrix alternatives | 2026-08-31 | 2026-09-05 | P F | 2026-10-05 | comparisons |
 | lumoo-alternatives | lumoo alternatives | 2026-08-30 | 2026-09-05 | P F | 2026-10-05 | comparisons |
+| ai-fashion-photography-prompts | AI fashion photography prompts | 2026-09-06 | 2026-09-06 | F | 2026-12-06 | guides |
+| ecommerce-product-photography-prompts | ecommerce product photography prompts | 2026-09-05 | 2026-09-06 | F | 2026-12-06 | guides |
+| ai-lookbook-prompts | AI lookbook prompts | 2026-09-04 | 2026-09-07 | F | 2026-12-07 | guides |
+| beauty-product-photography-prompts | beauty product photography prompts | 2026-09-03 | 2026-09-07 | F | 2026-12-07 | guides |
+| jewelry-photography-prompts | jewelry photography prompts | 2026-09-02 | 2026-09-07 | F | 2026-12-07 | guides |
+| wedding-dress-photography-prompts | wedding dress photography prompts | 2026-09-01 | 2026-09-07 | F | 2026-12-07 | guides |
+| vitamin-supplement-photography-prompts | vitamin and supplement photography prompts | 2026-08-31 | 2026-09-07 | F | 2026-12-07 | guides |
 
 ## Unlisted (deliberately noindexed)
 
@@ -183,6 +190,17 @@ At the October 4 review, account for the actual number of live days. Check the t
 together for query overlap before expanding either one. Rankings or CTR improvements are not
 claimed by this implementation.
 
+**Prompt-content cluster — September 6–7, 2026:** the first phase added
+`ai-fashion-photography-prompts` and `ecommerce-product-photography-prompts`, plus bounded
+prompt sequences on the existing lookbook and jewelry guides. The explicitly authorized expansion
+adds dedicated lookbook, beauty, jewelry, wedding-dress, and vitamin/supplement libraries on
+staggered dates from August 31 through September 4. Public workspace and template links were
+checked during research; direct prompt-detail pages may require sign-in. Treat that availability
+as a volatile feature claim and recheck it on the quarterly schedule above. The supplement page
+labels the public Beauty example as adjacent packaging evidence because a citable public
+supplement prompt/result pair was not available; it requires product-specific testing plus
+artwork and compliance review rather than claiming public supplement proof.
+
 **Validation and setup:** `yarn install --frozen-lockfile --non-interactive` succeeded;
 `yarn build`, `yarn typecheck`, whitespace checks, rendered metadata/canonical/indexability/link
 checks, FAQ JSON-LD parsing and answer parity, and worked-example arithmetic passed. Run build
@@ -201,7 +219,7 @@ Existing warnings about two unlisted posts without truncation markers remain out
   article fallback, canonical 301s from slashless article paths, and a legacy
   `/fashion-educators` → `/creators` redirect. Both redirects were verified live after the
   production rollout.
-- **Covers.** Done — all 51 indexed posts have one in the lilac-editorial series. Keep new
+- **Covers.** Done — all indexed posts have one in the lilac-editorial series. Keep new
   ones in `static/img/covers/<slug>.webp`, and never under a path containing `blog`: the
   www.astria.ai proxy 403s any `/articles/` URL containing that string.
 - **Alternatives cluster.** Botika remains the pilot; StyTrix and Lumoo are the explicitly

@@ -1,0 +1,122 @@
+.prompt {
+  background: #302c33;
+  border: 1px solid #4e4851;
+  color: #fff;
+  margin: 1.15rem 0 1.5rem;
+  overflow: hidden;
+}
+
+.prompt,
+.prompt * {
+  box-sizing: border-box;
+}
+
+.heading {
+  align-items: start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem 1.1rem 0.65rem;
+}
+
+.heading h3 {
+  color: #fff;
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 560;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.heading p {
+  color: #c9c2cb;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  margin: 0.3rem 0 0;
+}
+
+.heading button {
+  background: #ded5e2;
+  border: 0;
+  border-radius: 0.3rem;
+  color: #28232a;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 750;
+  min-width: 7.2rem;
+  padding: 0.55rem 0.7rem;
+}
+
+.heading button:hover {
+  background: #eee6f0;
+}
+
+.heading button:focus-visible,
+.footer a:focus-visible {
+  outline: 3px solid #9185ff;
+  outline-offset: 3px;
+}
+
+.prompt pre {
+  background: transparent;
+  border: 0;
+  font-size: 0.84rem;
+  line-height: 1.65;
+  margin: 0;
+  max-height: none;
+  overflow-x: auto;
+  padding: 0.55rem 1.1rem 1rem;
+  white-space: pre-wrap;
+}
+
+.prompt code {
+  background: transparent;
+  border: 0;
+  color: #f6f1f7;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  padding: 0;
+}
+
+.footer {
+  align-items: center;
+  background: #f2edf3;
+  color: #625b65;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.74rem;
+  gap: 0.8rem 1.25rem;
+  justify-content: space-between;
+  padding: 0.65rem 1.1rem;
+}
+
+.footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.footer a {
+  color: #514658;
+  font-weight: 750;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+@media (max-width: 620px) {
+  .heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .heading button {
+    align-self: flex-start;
+  }
+
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
