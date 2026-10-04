@@ -6,7 +6,7 @@ date: 2026-08-29
 hide_table_of_contents: true
 image: /img/covers/3d-packshots-ecommerce.webp
 authors: [astria]
-tags: [guides]
+tags: [guides, packshots]
 keywords:
   - 3D packshots
   - 3D product images ecommerce
