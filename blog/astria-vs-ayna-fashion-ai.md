@@ -89,6 +89,8 @@ Ayna is the most complete listing-automation competitor in AI fashion imagery: f
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Ayna
 
 We used six B2B buying questions: product fidelity on real garments, fashion-specific creative control, whether approved work can be reused, collection and channel coverage, correction and collaboration workflow, and commercial fit at production scale.

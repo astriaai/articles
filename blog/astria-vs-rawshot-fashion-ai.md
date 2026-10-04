@@ -89,6 +89,8 @@ Rawshot makes a sharp promise: fashion AI for people who make clothes, not peopl
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Rawshot
 
 We used six B2B buying questions: how creative direction gets specified, whether an approved look survives the next SKU, casting and asset depth, collaboration and review, channel and format coverage, and what a full collection actually costs to run.

@@ -89,6 +89,8 @@ Tellos comes at AI fashion content from the storefront: product video that publi
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Tellos
 
 We used six B2B buying questions: how creative direction is specified and reused, motion and format coverage, casting and asset depth, collaboration and review, what it takes to run a whole collection, and how the commercial model behaves as volume grows.

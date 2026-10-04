@@ -74,6 +74,7 @@ Lumoo Air starts with a product photo and turns it into a connected set of visua
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
 
 ## Where to check current pricing
 

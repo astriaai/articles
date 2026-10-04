@@ -74,6 +74,7 @@ WearView starts with garment-to-model photography and extends into poses, video,
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
 
 ## Where to check current pricing
 

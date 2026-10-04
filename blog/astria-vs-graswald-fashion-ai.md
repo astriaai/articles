@@ -89,6 +89,8 @@ Graswald is the most direct positional competitor Astria has: an AI production s
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonPackshot" />
+
 ## How we evaluated Astria and Graswald
 
 We used six B2B buying questions: who can actually adopt the product, how creative direction is specified and reused, category and channel coverage, how collaborators inside and outside the company participate, what evidence each vendor publishes, and how the commercial model behaves for a brand.

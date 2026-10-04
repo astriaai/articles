@@ -89,6 +89,8 @@ To create a fashion lookbook, choose the audience, write a brief, select and pho
   </div>
 </aside>
 
+<ArticleEvidence profile="lookbook" />
+
 ## Stage 1 — Decide who it is for
 
 Before anything visual. A lookbook made for wholesale buyers and one made for customers are different documents wearing similar clothes.

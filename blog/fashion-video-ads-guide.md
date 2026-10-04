@@ -89,6 +89,8 @@ A fashion video ad has to earn attention, identify the product, and give the vie
   </div>
 </aside>
 
+<ArticleEvidence profile="video" />
+
 **Reviewed September 5, 2026.** TikTok specifications and testing features were checked against first-party documentation. Timings and creative structures below are suggested briefs, not platform rules or promised performance results.
 
 ## Give acquisition creative its own brief

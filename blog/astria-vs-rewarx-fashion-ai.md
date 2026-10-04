@@ -90,6 +90,8 @@ Rewarx Studio takes a phone snapshot of a product and returns a 4K commercial im
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Rewarx Studio
 
 We used six B2B buying questions: how much of the product is about fashion specifically, whether casting and creative direction survive between sessions, what the plan tier decides for you, how much of a season each platform covers, how the meter behaves at catalog volume, and what evidence supports the vendor's claims.

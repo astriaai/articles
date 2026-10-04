@@ -89,6 +89,8 @@ Stylic is one of the cheapest ways to turn a product photo into an on-model imag
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Stylic
 
 We used six B2B buying questions: who the product is designed for, how creative direction is specified and whether it persists, casting and category depth, what evidence supports the vendor's claims, how a collection with revisions behaves, and what the team owns at the end.

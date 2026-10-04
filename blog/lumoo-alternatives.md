@@ -62,6 +62,8 @@ This guide is for buyers considering several alternatives. The [Astria vs Lumoo 
 
 <!-- truncate -->
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## Establish what Lumoo already covers
 
 Lumoo Air's [product page](https://lumoo.com/products/air) presents a connected workflow from one product photo to model shots, detail views, and video, with editing and live collaboration. Check [Lumoo pricing](https://lumoo.com/products/air) for current rates, allowances, workflow templates, and integration access.

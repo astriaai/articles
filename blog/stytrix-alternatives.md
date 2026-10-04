@@ -62,6 +62,8 @@ This is a shortlist for teams considering several suppliers. For the narrower tw
 
 <!-- truncate -->
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## Choose the deliverable before the replacement
 
 | Your next approval is… | Start the evaluation with | The test that matters |

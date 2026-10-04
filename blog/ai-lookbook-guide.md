@@ -89,6 +89,8 @@ An AI lookbook uses generated fashion images to show a collection through a cons
   </div>
 </aside>
 
+<ArticleEvidence profile="lookbook" />
+
 ## What an AI lookbook generator should produce
 
 Worth stating plainly, because half of all lookbook problems are actually category confusion:

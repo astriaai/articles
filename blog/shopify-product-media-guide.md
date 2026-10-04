@@ -89,6 +89,8 @@ Shopify product media is one ordered set, not three separate feature checklists.
   </div>
 </aside>
 
+<ArticleEvidence profile="channel" />
+
 **Last tested against Shopify documentation:** August 31, 2026. File and plan limits are volatile; verify Shopify's [product media types](https://help.shopify.com/en/manual/products/product-media/product-media-types) and [media management](https://help.shopify.com/en/manual/products/product-media/add-media) before a bulk delivery.
 
 ## The current Shopify media rules

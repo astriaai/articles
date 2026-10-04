@@ -89,6 +89,8 @@ FashionLab has done something none of the other tools in this comparison have tr
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and FashionLab
 
 We used six B2B buying questions: how the brand gets to a repeatable result, whether creative direction is owned or hired, casting and category depth, channel coverage, how the account structure and meter behave across a catalog, and what evidence supports each vendor.

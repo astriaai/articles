@@ -89,6 +89,8 @@ An Amazon main image is not a campaign image with the background removed. It is 
   </div>
 </aside>
 
+<ArticleEvidence profile="channel" />
+
 **Last fact check:** August 31, 2026. Amazon requirements vary by marketplace, product type, account, and placement. The signed-in [Seller Central product image requirements](https://sellercentral.amazon.com/help/hub/reference/G1881) and category style guide control the listing; this article is a production framework, not a substitute for those rules.
 
 ## Main image and gallery have different jobs

@@ -89,6 +89,8 @@ Ghost mannequin photography is not a one-click cutout. It is a small composite: 
   </div>
 </aside>
 
+<ArticleEvidence profile="packshot" />
+
 **Last fact check:** August 31, 2026. Marketplace main-image rules vary by category and region; verify the current Seller Central guide before delivery.
 
 ## What the technique actually does

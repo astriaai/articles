@@ -93,6 +93,8 @@ The best ghost mannequin alternative depends on what you want to stop doing. Dre
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonPackshot" />
+
 ## Choose the alternative by the work it removes
 
 | Route | What changes in production | What the image gives you | What you still have to solve |

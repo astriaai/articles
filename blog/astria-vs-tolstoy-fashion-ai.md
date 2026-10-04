@@ -89,6 +89,8 @@ Tolstoy sells a connected commerce stack: generate product content, make it shop
   </div>
 </aside>
 
+<ArticleEvidence profile="video" />
+
 ## How we evaluated Astria and Tolstoy
 
 We used six B2B buying questions: how much of the product is actually about producing imagery, how category-specific the creative direction can be, channel and format coverage, collaboration and review, what a full collection costs under each meter, and what the brand owns at the end.

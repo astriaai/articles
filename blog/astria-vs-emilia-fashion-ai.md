@@ -89,6 +89,8 @@ Emilia AI Studio turns a phone snap of a product into a studio-grade image in ab
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Emilia AI Studio
 
 We used six B2B buying questions: how much of the product is about fashion specifically, whether casting can scale with a collection, what the plan structure limits, channel coverage across a season, how the meter behaves at catalog volume, and what evidence supports the vendor's claims.

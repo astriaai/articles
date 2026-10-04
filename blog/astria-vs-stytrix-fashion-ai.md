@@ -74,6 +74,7 @@ StyTrix and Astria overlap in fashion image generation, but the brief matters mo
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
 
 ## Where to check current pricing
 

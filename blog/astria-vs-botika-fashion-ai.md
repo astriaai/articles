@@ -81,6 +81,8 @@ Botika offers a quick way to turn existing product photos into standardized on-m
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonFashion" />
+
 ## How we evaluated Astria and Botika
 
 We used six B2B buying questions: product fidelity, fashion-specific creative control, reuse of an approved setup, collection and channel coverage, correction workflow, and commercial predictability.

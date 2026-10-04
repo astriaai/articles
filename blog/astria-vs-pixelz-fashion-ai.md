@@ -89,6 +89,8 @@ Pixelz is not another AI image generator, and treating it as one misses the deci
   </div>
 </aside>
 
+<ArticleEvidence profile="comparisonPackshot" />
+
 ## How we evaluated Astria and Pixelz
 
 We used six B2B buying questions: where the creative direction lives, what a change costs once work is in flight, coverage across catalog and campaign formats, how the total commercial picture assembles, what the team owns at the end, and how each option behaves across a full collection.
