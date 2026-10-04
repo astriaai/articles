@@ -96,6 +96,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | gpt-image-2-for-product-photography | GPT Image 2 product photography | 2026-09-10 | 2026-09-08 | M F P | 2026-10-08 | models |
 | seedream-5-for-fashion | Seedream 5 fashion | 2026-09-11 | 2026-09-08 | M F P | 2026-10-08 | models |
 | muse-image-model-review | Muse Image model review | 2026-09-12 | 2026-09-08 | M F P | 2026-10-08 | models |
+| flux-3-image-review | FLUX 3 Image comparison | 2026-10-04 | 2026-10-04 | M F P | 2026-11-04 | models |
 
 ## Unlisted (deliberately noindexed)
 

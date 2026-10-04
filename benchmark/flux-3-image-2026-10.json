@@ -1,0 +1,93 @@
+{
+  "article": "flux-3-image-review",
+  "captured_at": "2026-10-04",
+  "workspace_id": 896,
+  "source_provenance": {
+    "reused_manifest": "benchmark/image-models-2026-09/gpt-image-2-5-review.json",
+    "original_workspace_id": 6,
+    "original_workspace_title": "Maison Urban",
+    "original_source_prompt_id": 46557199,
+    "references": [
+      {
+        "role": "identity",
+        "article_tune_id": 5639061,
+        "title": "GPT Image 2.5 article - Sloane valid JPEG",
+        "dimensions": "679x722",
+        "note": "Below the preferred 1600px source gate; retained without upscaling, so identity conclusions remain directional."
+      },
+      {
+        "role": "dress",
+        "article_tune_id": 5639041,
+        "title": "GPT Image 2.5 article - yellow dress",
+        "dimensions": "1440x2160",
+        "description": "Pale-yellow sleeveless belted dress with two buttons and circular waist hardware"
+      },
+      {
+        "role": "bag",
+        "article_tune_id": 5639043,
+        "title": "GPT Image 2.5 article - gold bag",
+        "dimensions": "1440x2159",
+        "description": "Gold chain bag with repeated circular metallic details"
+      }
+    ]
+  },
+  "controls": {
+    "semantic_prompt": "Dress hero shot. An off-kilter, flash-lit photograph of the referenced woman in a dynamic, almost off-balance leaning pose against a dark wooden bar counter or pillar at night. Her body creates a diagonal line. She wears the reference dress and holds the reference bag. The strong flash casts a sharp shadow. Blurred shelves with bottles and bar lights define the out-of-focus background. Cool, edgy vibe.",
+    "aspect_ratio_requested": "16:9",
+    "resolution_requested": "2K",
+    "num_images_requested": 1,
+    "selection_rule": "Only returned output from each prompt; no cherry-picking",
+    "execution_note": "The three incumbent requests were submitted concurrently immediately after the FLUX 3 request. Server processing intervals, not shell wall time, are used in the article."
+  },
+  "outputs": [
+    {
+      "model": "FLUX 3 Image",
+      "model_id": 5811585,
+      "prompt_id": 47065867,
+      "started_at": "2026-10-03T22:25:00.624Z",
+      "completed_at": "2026-10-03T22:26:27.915Z",
+      "server_seconds": 87.291,
+      "resolution_actual": "2736x1536",
+      "asset": "/articles/img/model-benchmarks/2026-10/flux-3-sloane-dress.webp",
+      "selection_rationale": "Passed article-size quality and reference gates; strongest natural location realism while retaining identity, two-button dress construction, waist ring, and recognizable circular-detail bag."
+    },
+    {
+      "model": "Nano Banana 2",
+      "model_id": 4180298,
+      "prompt_id": 47065878,
+      "started_at": "2026-10-03T22:26:58.071Z",
+      "completed_at": "2026-10-03T22:27:30.376Z",
+      "server_seconds": 32.305,
+      "resolution_actual": "2752x1536",
+      "asset": "/articles/img/model-benchmarks/2026-10/nano-banana-2-sloane-dress.webp",
+      "selection_rationale": "Passed article-size quality and reference gates; strongest adherence to the requested off-balance diagonal pose."
+    },
+    {
+      "model": "GPT Image 2.5 Sunburst",
+      "model_id": 5634510,
+      "prompt_id": 47065876,
+      "started_at": "2026-10-03T22:26:56.203Z",
+      "completed_at": "2026-10-03T22:27:20.785Z",
+      "server_seconds": 24.582,
+      "resolution_actual": "2688x1536",
+      "asset": "/articles/img/model-benchmarks/2026-10/gpt-image-2-5-sunburst-sloane-dress.webp",
+      "selection_rationale": "Passed article-size quality and reference gates; fastest recorded completion and a clear commercial read, with a more conservative pose."
+    },
+    {
+      "model": "Seedream 5 Pro",
+      "model_id": 5236038,
+      "prompt_id": 47065877,
+      "started_at": "2026-10-03T22:26:57.105Z",
+      "completed_at": "2026-10-03T22:27:52.499Z",
+      "server_seconds": 55.394,
+      "resolution_actual": "2816x1584",
+      "asset": "/articles/img/model-benchmarks/2026-10/seedream-5-pro-sloane-dress.webp",
+      "selection_rationale": "Passed article-size quality and reference gates; coherent identity, color, and composition, with the weakest bag-handle and hand interaction in the four-output set."
+    }
+  ],
+  "publication_assets": {
+    "cover": "/articles/img/covers/flux-3-image-review.webp",
+    "cover_source_prompt_id": 47065867,
+    "cover_note": "Reference-led FLUX 3 benchmark output, visually reviewed and reused without additional generation."
+  }
+}
