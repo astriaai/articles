@@ -216,3 +216,5 @@ Reviewed against first-party material on September 5, 2026: FASHN's documentatio
 No cross-vendor image test, performance study, or rights audit was conducted for this article. The casting routes, example brief, and twelve-image proof are editorial decision aids. Product scope, service terms, and publishing requirements can change; recheck those against the specific project. The cover is an AI-generated editorial illustration of fictional casting cards, not a customer result or a sample model library.
 
 [Explore Astria's fashion templates](https://www.astria.ai/gallery/workspaces).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

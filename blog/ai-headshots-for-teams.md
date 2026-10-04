@@ -234,3 +234,5 @@ This is the main advantage of storing the treatment rather than booking a sessio
 Yes. People are submitting photos of their own faces, and they should know what is being produced, where it will appear, how the source images are handled, and that they can opt out. Treat participation as consented rather than assumed.
 
 [Explore Astria](https://www.astria.ai/).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

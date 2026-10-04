@@ -217,3 +217,5 @@ Keep accurate existing images while testing the new format. A product-only view 
 Research checked September 5, 2026: [Shopify's clothing photography guide](https://www.shopify.com/blog/clothing-photography), [Pixelz's ghost mannequin service](https://www.pixelz.com/invisible-ghost-mannequin-service/), [Pixelz's synthetic-model production account](https://www.pixelz.com/blog/pixelz-creates-synthetic-models/), and [Astria's ecommerce product page](https://www.astria.ai/ecommerce). These are first-party descriptions of formats and services. The decision tables and pilot are our editorial recommendations; no side-by-side production trial was conducted for this article. The cover is an AI-generated editorial illustration, not a tested product conversion.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

@@ -217,3 +217,5 @@ Usually not. Keep an approved photograph as the source of truth for color, finis
 Instrument model loads, interactions, add-to-cart, purchase, and returns, then compare equivalent products or run a controlled test. Interaction cohorts are useful diagnostics, but they do not prove that 3D caused the result because more interested shoppers are also more likely to interact.
 
 [Explore Astria's 3D packshot workspace](https://www.astria.ai/w/3d-packshots), or [see Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

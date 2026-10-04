@@ -139,7 +139,7 @@ The consistent pattern: as ambition rises, the photography becomes a smaller sha
 
 ## How the AI comparison actually works
 
-The honest framing is not "cents versus thousands," though that comparison is technically accurate and endlessly repeated. Generation cost per image is genuinely a rounding error. The fully-loaded comparison has to include:
+Use [Astria pricing](https://www.astria.ai/pricing) for current generation rates. The fully-loaded comparison has to include:
 
 - Setup time to reach an approved creative direction — real, and typically a day or two
 - Review cycles with whoever owns the brand
@@ -154,7 +154,7 @@ Counted properly, the per-image gap narrows considerably. It remains large — b
 - **The long tail becomes affordable.** Products that could never justify a shoot day can be presented properly — which is where the revenue argument usually lives.
 - **Direction is retained.** The approved treatment is reusable next season rather than expiring with the shoot.
 
-The side-by-side model is worked through in [AI versus traditional photoshoot cost](./ai-vs-traditional-photoshoot-cost.md), and the per-variant view in [product photography cost per SKU](./product-photography-cost-per-sku.md). For a figure against your own catalog rather than a worked example, the [photoshoot calculator](https://www.astria.ai/photoshoot-calculator) counts the products in your store that need imagery and prices the coverage from there.
+The side-by-side model is worked through in [AI versus traditional photoshoot cost](./ai-vs-traditional-photoshoot-cost.md), and the per-variant view in [product photography cost per SKU](./product-photography-cost-per-sku.md). For current Astria rates, use [Astria pricing](https://www.astria.ai/pricing) and apply them to the products and views your catalog requires.
 
 ## How to compare two quotes properly
 
@@ -191,4 +191,4 @@ Highly variable, but a well-run ecommerce day produces far more usable frames th
 
 Per image, dramatically. Fully loaded, the gap is smaller than headline figures suggest once setup, review, rejected variants, and staff time are counted. The larger practical saving is usually the removal of scheduling and sample logistics rather than the per-image price.
 
-[Price your catalog with the photoshoot calculator](https://www.astria.ai/photoshoot-calculator), or [explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+[See current Astria pricing](https://www.astria.ai/pricing), or [explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).

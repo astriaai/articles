@@ -177,3 +177,5 @@ No — it is published by Astria and recommends Astria for collection-scale prod
 Each alternative summarises a longer head-to-head published on this site, written against public first-party product material and reviewed on the date shown in that article. Product scope and pricing change frequently — confirm current terms with any vendor before switching.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

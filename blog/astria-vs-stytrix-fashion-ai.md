@@ -53,7 +53,7 @@ export const faqSchema = {
 
 StyTrix and Astria overlap in fashion image generation, but the brief matters more than the overlap. A designer developing a garment needs room to change it. An ecommerce team photographing an approved garment needs it to stay the same.
 
-**The short answer:** shortlist StyTrix for design development and test Astria for the collection's final imagery. StyTrix's saved assets make the comparison closer than a simple “design tool versus production tool” label suggests. Start with the pricing table, then test the handoff from one approved look to the rest of the collection.
+**The short answer:** shortlist StyTrix for design development and test Astria for the collection's final imagery. StyTrix's saved assets make the comparison closer than a simple “design tool versus production tool” label suggests. Check the linked pricing pages, then test the handoff from one approved look to the rest of the collection.
 
 <!-- truncate -->
 
@@ -74,24 +74,12 @@ StyTrix and Astria overlap in fashion image generation, but the brief matters mo
   </div>
 </aside>
 
-## StyTrix pricing: monthly plans and credits
 
-| Plan | Monthly price, USD | Included credits |
-| --- | ---: | ---: |
-| Starter | $19 | 250 |
-| Pro | $49 | 750 |
-| Team | $99 | 1,500 |
-| Enterprise | Custom | Custom |
+## Where to check current pricing
 
-The [pricing page](https://www.stytrix.com/pricing) lists a three-day paid-plan trial, Pro credit rollover, and non-expiring top-up packs. Pro includes up to three seats; Team includes up to ten. API and batch processing appear under Enterprise. Annual billing is a separate commitment.
+For current rates, credit allowances, billing terms, and plan features, use [StyTrix pricing](https://www.stytrix.com/pricing) and [Astria pricing](https://www.astria.ai/pricing).
 
-There is a documentation conflict: the [user guide](https://www.stytrix.com/guide) shows different plan prices and trial wording. Use the dedicated pricing page for the table above and check the checkout terms before subscribing.
-
-### How far do StyTrix credits go?
-
-The guide lists Concept Creator and Mix & Match at ten credits per generation. For those operations, 240 generations require 2,400 credits. That is 900 beyond the Team allowance, before additional attempts. This is illustrative credit arithmetic, not a quote for 240 approved images; other operations and output settings need their own calculation.
-
-Measure [cost per SKU](./product-photography-cost-per-sku.md) after review, rather than treating every generation as a finished product photo.
+Compare the same collection, output settings, additional attempts, review time, and approved deliverables. Use the [cost-per-SKU worksheet](./product-photography-cost-per-sku.md) with the rates from those pages.
 
 ## Quick verdict: Astria vs StyTrix
 

@@ -196,3 +196,5 @@ Negative: hat, cartoon, ugly
 The above steps can be used to generate product photography or e-commerce images. With multi-pass inference, you can gain a huge amount of control over your image backgrounds vis a vis the foreground. This technique allows you to iteratively refine and tailor the background details, ensuring that they align with your vision and objectives.
 
 Whether you're looking to create images for branding, marketing, storytelling, or artistic expression, multi-pass inference by Astria.ai provides the flexibility and precision to shape the background just as you need it. You can now harness this tool to bring depth, context, and nuance to your visual content, making your image speak in harmony with your creative goals.
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

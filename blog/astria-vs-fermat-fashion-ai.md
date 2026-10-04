@@ -74,17 +74,11 @@ Fermat brings design exploration and photography into the same fashion toolbox. 
   </div>
 </aside>
 
-## Fermat AI pricing: Pro, Studio, and Enterprise
+## Where to check current pricing
 
-| Plan | Monthly price, USD | Included credits |
-| --- | ---: | ---: |
-| Pro | $30 | 150 |
-| Studio | $250 | 500 |
-| Enterprise | Custom | Custom |
+For current rates, credit allowances, billing terms, and plan features, use [Fermat pricing](https://www.fermat.app/pricing) and [Astria pricing](https://www.astria.ai/pricing).
 
-Fermat's [pricing page](https://www.fermat.app/pricing) lists one credit per image and four per video. Studio includes unlimited users; Enterprise adds API and batch processing, SSO, and custom workflows. The free plan contains one credit. Annual prices are separate from the monthly rates above.
-
-A sample brief of 1,000 generated images and ten videos requires 1,040 credits at those listed rates. That is 540 beyond the Studio allowance before further attempts. Obtain a quote for the extra capacity rather than treating the subscription allowance as a production ceiling. This arithmetic describes generations, not approved deliverables.
+Compare the same collection, output settings, additional attempts, review time, and approved deliverables. Use the [cost-per-SKU worksheet](./product-photography-cost-per-sku.md) with the rates from those pages.
 
 ## Quick verdict: Astria vs Fermat
 

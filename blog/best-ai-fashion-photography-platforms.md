@@ -70,6 +70,8 @@ Most "best AI fashion tools" lists rank products that do not compete with each o
 
 **Upfront disclosure:** this list is published by Astria, and it recommends Astria for collection-scale fashion production. What follows is the category map we would give a buyer, including the cases where something else is the better purchase.
 
+**Reviewed September 7, 2026. Evidence status:** this is a source-reviewed category guide, not a matched hands-on benchmark of every platform. Vendor scope and pricing come from current public material and the linked comparisons. Product-fidelity winners are not claimed without a controlled test.
+
 <!-- truncate -->
 
 <aside className="astria-article-cta" aria-label="Start creating with Astria">
@@ -212,3 +214,5 @@ No. It is published by Astria and recommends Astria for collection-scale product
 Each entry summarises a longer head-to-head published on this site, written against public first-party product material and reviewed on the date shown in that article. Categories reflect how each vendor positions itself publicly. Product scope, pricing, and library sizes change frequently — confirm current terms with any vendor before deciding, and run the two tests above on your own garments.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

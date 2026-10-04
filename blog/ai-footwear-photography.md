@@ -188,3 +188,5 @@ For the primary listing images, yes in most cases — material, texture, and con
 Produce the full angle set for one colorway, then extend to the others against the same treatment — but verify material behaviour on each, since a suede and a leather version of the same silhouette do not reflect light the same way.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

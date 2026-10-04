@@ -117,7 +117,7 @@ Reviewed August 11, 2026; no controlled image-quality benchmark was run.
 
 ## Stylic: three minutes to a listing image
 
-Stylic's promise is speed and price. The published workflow is three steps: upload a product image in any format, spend about a minute choosing from 500+ backgrounds and 30+ AI models, and download commercial-ready results roughly ninety seconds later. Features include single, multiple, and catalogue photoshoots, 4K and 8K output, brand watermarking, clothing colour change, custom AI models, and bulk creation. Plans run from around $23 to $58 a month with an enterprise option.
+Stylic's promise is speed and price. The published workflow is three steps: upload a product image in any format, spend about a minute choosing from 500+ backgrounds and 30+ AI models, and download commercial-ready results roughly ninety seconds later. Features include single, multiple, and catalogue photoshoots, 4K and 8K output, brand watermarking, clothing colour change, custom AI models, and bulk creation. Check the vendor’s current pricing page for plans and enterprise terms.
 
 The intended audience is stated plainly: Shopify stores, Amazon sellers, Meesho brands, D2C fashion labels, fashion startups, and creative agencies. The pricing, the marketplace orientation, and the rupee-denominated savings figure all point the same way—this is a tool for sellers, not a system for brands.
 
@@ -235,3 +235,5 @@ This article compares public product information available on August 11, 2026. K
 Pricing, feature scope, library sizes, and published statistics can change. Confirm current terms, request methodology for any performance claim, and test representative garments before making a production decision.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

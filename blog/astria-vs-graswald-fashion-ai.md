@@ -229,3 +229,5 @@ This article compares public product information available on August 5, 2026. Ke
 Pricing, plan limits, model libraries, integrations, and workflow support can change. Confirm current terms and test representative garments before making a production decision.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

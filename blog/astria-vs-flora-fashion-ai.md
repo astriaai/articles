@@ -137,7 +137,7 @@ Astria's public materials show a production base among fashion brands and the pr
 
 Consider a contemporary label developing a 120-piece resort collection. The design team explores silhouettes and prints in the autumn; the production team needs catalog, lookbook, campaign, and social assets in the spring; a freelance photographer sets the visual direction; an agency handles paid social.
 
-FLORA is genuinely strong in the autumn half. Sketch-to-render, colorway exploration, and print and pattern replacement are exactly the design-stage problems a creative team has, and having 50+ models on one canvas makes exploration cheap. The spring half is where the shape of the product starts to matter. Batch across SKUs exists, but the casting depth is shallower, category templates outside apparel are thinner, and—most practically—every additional collaborator is a seat. With self-serve tiers capped at eight seats and per-seat prices running from $18 to $200 a month plus metered usage on top, adding the photographer, two agency people, and a merchandiser is a procurement decision rather than an invitation.
+FLORA is genuinely strong in the autumn half. Sketch-to-render, colorway exploration, and print and pattern replacement are exactly the design-stage problems a creative team has, and having 50+ models on one canvas makes exploration cheap. The spring half is where the shape of the product starts to matter. Batch across SKUs exists, but the casting depth is shallower, category templates outside apparel are thinner, and—most practically—every additional collaborator is a seat. Check [FLORA pricing](https://flora.ai/pricing) for current seat and usage terms when adding the photographer, agency collaborators, and merchandiser.
 
 Astria inverts the emphasis. It contributes little to the autumn exploration, and it is built for the spring: the approved treatment runs across the 120 pieces imported from Shopify or Google Drive, campaign and social extend the same direction, motion animates approved stills, and the photographer and agency work inside the brand workspace rather than against a seat count.
 
@@ -227,3 +227,5 @@ This article compares public product information available on August 8, 2026. Ke
 Pricing, seat limits, model availability, and workflow features can change, and launch offers may expire. Confirm current terms and test representative garments before making a production decision.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

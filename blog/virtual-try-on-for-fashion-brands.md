@@ -183,3 +183,5 @@ Try-on is one operation: put this garment on a body. An AI photoshoot is the who
 For platform-level decisions, see how Astria compares with [Botika](./astria-vs-botika-fashion-ai.md), [FASHN](./astria-vs-fashn-fashion-ai.md), and [DRESSX](./astria-vs-dressx-fashion-ai.md).
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

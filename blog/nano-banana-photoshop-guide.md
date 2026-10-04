@@ -31,7 +31,7 @@ export const faqSchema = {
       name: "How much does the plugin cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The plugin itself is a one-time purchase, with generation credits billed separately by usage. Check the product page for current pricing, since both the plugin price and per-generation costs change as models change.",
+        text: "See https://www.astria.ai/pricing for current plugin pricing and generation rates.",
       },
     },
     {
@@ -101,7 +101,7 @@ The models are not interchangeable, and having several in one panel is most of t
 
 - **Instruction-following edits** — "remove the object", "change the wall to sage green", "make it evening" — are where the Gemini-line models are strongest. Natural-language editing against an existing image is what they are built for.
 - **Photographic generation** — new content that has to sit convincingly alongside a photograph — is where the Flux line has generally been strong.
-- **Speed and cost** — some models return in seconds for cents; others are slower and better. For a hundred small corrections, the fast one is the right call.
+- **Speed and cost** — compare model turnaround and output quality, then check [Astria pricing](https://www.astria.ai/pricing) for current rates. For a hundred small corrections, the fast one is the right call.
 
 The practical habit is to try the cheap fast model first and escalate only when it fails. Most edits do not need the best available model, and running everything through the most expensive option is how a plugin subscription starts feeling expensive.
 
@@ -134,7 +134,7 @@ Two billing paths, and the right one depends on who you are:
 
 **Direct mode with your own Google API key.** Generations bill to your own Google account. This suits developers who already have Google billing set up and want the usage on that invoice.
 
-The plugin itself is a one-time purchase rather than a subscription, with generation costs separate. Because both plugin pricing and per-generation costs move as models change, check the [product page](https://www.astria.ai/nano-banana-photoshop) for current figures rather than trusting a number in an article.
+See [Astria pricing](https://www.astria.ai/pricing) for current plugin pricing, generation rates, and billing terms.
 
 ## Practical notes
 
@@ -152,7 +152,7 @@ An Astria plugin that connects a Photoshop selection to current generative image
 
 ### How much does the plugin cost?
 
-The plugin itself is a one-time purchase, with generation credits billed separately by usage. Check the product page for current pricing, since both the plugin price and per-generation costs change as models change.
+See [Astria pricing](https://www.astria.ai/pricing) for current plugin pricing and generation rates.
 
 ### Can I use my own Google API key?
 

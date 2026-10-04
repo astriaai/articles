@@ -253,3 +253,5 @@ AI can help remove a mannequin, reconstruct simple hidden regions, normalize bac
 Do not assume so. Amazon main-image rules vary by category and marketplace, and some apparel rules require adult clothing to be shown on a human model while other product types must be off-model. Check the current category style guide in Seller Central before producing the main-image set.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

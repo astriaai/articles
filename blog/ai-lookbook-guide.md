@@ -197,3 +197,5 @@ Allow time for references, a pilot look, revisions, garment checks, and final se
 It will if the direction is generic. The tools default to a glossy, well-lit, mid-Atlantic aesthetic, and accepting that default is what makes AI lookbooks recognisable. Specific casting, specific location logic, and deliberate imperfection are what break it.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

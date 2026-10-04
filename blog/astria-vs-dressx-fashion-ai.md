@@ -224,3 +224,5 @@ This article compares public product information available on August 7, 2026. Ke
 Product scope, integrations, published metrics, and commercial terms can change. Confirm current terms and request methodology for any performance claim before making a decision.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

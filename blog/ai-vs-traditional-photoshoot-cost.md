@@ -1,6 +1,6 @@
 ---
 title: "AI vs Traditional Photoshoot: An Honest Cost Comparison"
-description: "The cents-versus-thousands comparison is misleading. A fully-loaded model of both approaches, where the break-even sits, and when a traditional shoot still wins."
+description: "Comparing generation rates with full shoot budgets is misleading. A fully-loaded model of both approaches, where the break-even sits, and when a traditional shoot still wins."
 slug: ai-vs-traditional-photoshoot-cost
 date: 2026-08-18
 hide_table_of_contents: true
@@ -66,7 +66,7 @@ export const faqSchema = {
   dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
 />
 
-The comparison is usually presented as cents against thousands, which is arithmetically true and analytically useless. It sets one raw input cost against another approach's fully-loaded total, and brands that plan against it are surprised twice: first by how much human time AI production still needs, and second by how much they save on things they were not measuring.
+The comparison often sets one raw input cost against another approach's fully-loaded total, and brands that plan against it are surprised twice: first by how much human time AI production still needs, and second by how much they save on things they were not measuring.
 
 **The short version:** the honest saving is large, structural, and mostly not where the marketing says it is.
 
@@ -116,7 +116,7 @@ Be suspicious of anyone quoting only the generation price. The real lines:
 - **Rejected variants.** Everyone produces them; nobody publishes the ratio. Budget for it.
 - **Correction on hard garments.** Prints, sheers, hardware, structured pieces. Per item, not batched.
 - **Staff hours.** Someone runs this. On a small team it is the largest line by a distance.
-- **Generation.** Cents per image. Genuinely negligible at any realistic volume.
+- **Generation.** Use [Astria pricing](https://www.astria.ai/pricing) for current rates and include every attempt, including rejected outputs.
 
 Add these up and AI production is not free. It is *differently shaped*: heavy at the front, light per unit, and cheap to revise.
 
@@ -190,4 +190,4 @@ When the photograph must document something real — a specific person, place, o
 
 Usually not the per-image price. It is the removal of scheduling — no model booking, studio hire, or sample shipping — and the collapse in the cost of revision, since a change of mind after approval becomes an edit rather than a reshoot.
 
-[Price your catalog with the photoshoot calculator](https://www.astria.ai/photoshoot-calculator), or [explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+[See current Astria pricing](https://www.astria.ai/pricing), or [explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).

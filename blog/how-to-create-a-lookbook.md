@@ -245,3 +245,5 @@ Usually several: a PDF for buyers and press, a web version for the site, and ver
 For anything beyond single-product shots, yes. Styling is knowledge about clothes — proportion, layering, what goes with what — and it is the part that most visibly separates a considered lookbook from a grid of garments.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

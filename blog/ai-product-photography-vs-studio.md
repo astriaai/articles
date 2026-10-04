@@ -299,3 +299,5 @@ A seller must follow the current requirements for the exact Amazon category and 
 The managed-studio description uses [GoPackshot’s first-party services page](https://gopackshot.com/services). Platform and marketplace boundaries use Shopify’s [product media guidance](https://help.shopify.com/en/manual/products/product-media) and the repository’s separately sourced Amazon apparel guide. Astria workflow statements describe Astria’s own product and are therefore first-party claims. We do not treat vendor capacity, efficiency, or commercial-outcome claims as independent evidence; buyers should validate them with their own products and written service levels.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

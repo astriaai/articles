@@ -249,3 +249,5 @@ For directly uploaded product video, Shopify currently allows MP4, MOV, or WebM 
 No. Add a format only when it answers a buying question better than the existing gallery. Video is useful for movement, use, and changing detail; 3D is useful for shopper-controlled inspection and scale. Extra media that repeats the same information adds load and review work without improving the decision.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

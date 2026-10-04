@@ -255,3 +255,5 @@ Astria sources include its [platform tour](https://www.astria.ai/academy/watch/a
 All performance, user-count, customer, savings, and product-fidelity statements from either vendor are first-party claims, not independent benchmarks. Model availability, credit rates, plan entitlements, and product scope change frequently. Confirm current terms and test representative garments before making a production decision.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

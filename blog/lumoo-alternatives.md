@@ -64,7 +64,7 @@ This guide is for buyers considering several alternatives. The [Astria vs Lumoo 
 
 ## Establish what Lumoo already covers
 
-Lumoo Air's [product page](https://lumoo.com/products/air) presents a connected workflow from one product photo to model shots, detail views, and video, with editing and live collaboration. Its monthly plan cards show Lite at €15 for 100 credits, Basic at €70 for 500, and Pro at €120 for 1,000. Basic and Pro list workflow templates and Shopify integration.
+Lumoo Air's [product page](https://lumoo.com/products/air) presents a connected workflow from one product photo to model shots, detail views, and video, with editing and live collaboration. Check [Lumoo pricing](https://lumoo.com/products/air) for current rates, allowances, workflow templates, and integration access.
 
 Those capabilities matter: a search for an alternative should not start by assuming Lumoo lacks templates, collaboration, or a store connection. Its plan illustrations are estimates of output, not guarantees of accepted catalog images. Test the relevant workflow and confirm the integration's actual scope before buying.
 
@@ -85,7 +85,7 @@ WearView's [plan page](https://www.wearview.co/pricing) lists product-to-model, 
 
 **The evaluation:** choose one recurring face and a fixed pose brief. Produce several garments, then add a new colorway. Compare face continuity, garment silhouette, and how much manual correction the operator needs. Test your own inputs; product-page examples do not establish performance on sheer fabric, unusual sleeves, or small prints.
 
-**The tradeoff:** check the feature tier you actually need before comparing price. The published credit rules also distinguish resolutions and workflows: ordinary HD image generation uses two credits, while HD virtual try-on uses one; 2K uses three and 4K five. That means “50 credits” is not automatically fifty deliverable images. [WearView's pricing rules](https://www.wearview.co/pricing) are the reference; our [WearView comparison](./astria-vs-wearview-fashion-ai.md) supplies the wider buying context.
+**The tradeoff:** check the feature tier you actually need before comparing price. Use [WearView pricing](https://www.wearview.co/pricing) for current credit requirements for your resolution and workflow; our [WearView comparison](./astria-vs-wearview-fashion-ai.md) supplies the wider buying context.
 
 ## FASHN: evaluate try-on and integration separately
 
@@ -113,7 +113,7 @@ Use one fixed brief across all shortlisted tools: ten products, two catalog view
 
 Track each tool's actual attempts, charged credits or balance, editing minutes, and accepted files. Do not mix euros and dollars without a stated exchange rate, and do not mix monthly subscriptions with an annual price advertised as a monthly equivalent.
 
-For a simple illustration, a run that spends 60 currency units to deliver 20 accepted images costs 3 units per accepted image before labor. If only ten pass review, it costs 6. Those are hypothetical numbers, not results from Lumoo or any competitor. The purpose is to expose the effect of rejection and rework. The [cost-per-SKU guide](./product-photography-cost-per-sku.md) explains how to extend this to a collection budget.
+Divide the full production spend by the number of accepted images. If the approval count halves for the same spend, cost per accepted image doubles. Include labor, rejection, and rework. The [cost-per-SKU guide](./product-photography-cost-per-sku.md) explains how to extend this to a collection budget.
 
 Check your launch calendar too. A plan sufficient for a steady trickle of images can behave differently when the whole collection is due on one day. Ask about additional usage and scheduling against that actual deadline.
 
@@ -147,8 +147,10 @@ A plausible generated view is not evidence of the product's real construction. S
 
 ## Sources and methodology
 
-Sources linked beside the claims are first-party product pages, published plan terms, and API documentation checked on September 5, 2026. Lumoo Air's rendered product page was also inspected directly because the page's content was not fully available in the text fetch. Lumoo plan figures above are the monthly prices on that page; confirm checkout before purchase.
+Sources linked beside the claims are first-party product pages, published plan terms, and API documentation checked on September 5, 2026. Lumoo Air's rendered product page was also inspected directly because the page's content was not fully available in the text fetch. Use the linked pricing page for current Lumoo plans and confirm checkout terms before purchase.
 
-We did not run paid-account trials or independently verify vendor quality claims. The test brief and cost example are evaluation tools, not evidence of a vendor's results. Cover imagery is an editorial illustration, not a sample from any compared platform.
+We did not run paid-account trials or independently verify vendor quality claims. The test brief and cost calculation are evaluation tools, not evidence of a vendor's results. Cover imagery is an editorial illustration, not a sample from any compared platform.
 
 For a design-stage decision, see [StyTrix alternatives](./stytrix-alternatives.md). For a different starting supplier, see [Botika alternatives](./botika-alternatives.md). To test the collection workflow, [explore Astria templates](https://www.astria.ai/gallery/workspaces).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

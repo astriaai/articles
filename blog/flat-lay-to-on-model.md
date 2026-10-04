@@ -180,3 +180,5 @@ Directional prints across seams, sheer and semi-sheer fabrics, complex drape and
 No. A ghost mannequin shows the garment holding a human shape with the mannequin removed — no person. On-model conversion puts the garment on a rendered person, which communicates fit, scale, and styling that a hollow shape cannot.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).

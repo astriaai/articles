@@ -55,7 +55,7 @@ export const faqSchema = {
       name: "What does an AI fashion photoshoot cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Per-image generation costs are typically cents rather than dollars, but that is the wrong unit. The meaningful comparison is total cost per approved, published image across a collection — including the setup time, review cycles, and rejected variants that any honest accounting includes.",
+        text: "See https://www.astria.ai/pricing for current generation rates. The meaningful comparison is total cost per approved, published image across a collection — including the setup time, review cycles, and rejected variants that any honest accounting includes.",
       },
     },
   ],
@@ -148,7 +148,7 @@ Drift is a systems problem, not an image-quality problem. It is solved by storin
 
 ## What it costs
 
-Per-image generation prices are commonly quoted in cents, and those numbers are accurate and mostly irrelevant. The unit that matters is **cost per approved, published image**, which includes:
+Use [Astria pricing](https://www.astria.ai/pricing) for current generation rates. The unit that matters is **cost per approved, published image**, which includes:
 
 - Setup and iteration time to reach an approved treatment
 - Rejected variants — a real number, and one nobody publishes
@@ -156,7 +156,7 @@ Per-image generation prices are commonly quoted in cents, and those numbers are 
 - Retouching or correction on the garments that fight back
 - The salaried hours of whoever runs the process
 
-A brand comparing "$0.10 per image" against "$3,000 per shoot day" is comparing a raw input cost against a fully-loaded one, and will be surprised. The honest comparison is worked through in [fashion photoshoot cost](./fashion-photoshoot-cost.md) and, per-SKU, in [product photography cost per SKU](./product-photography-cost-per-sku.md).
+A brand comparing a generation rate against a full shoot-day quote is comparing a raw input cost against a fully-loaded one, and will be surprised. The honest comparison is worked through in [fashion photoshoot cost](./fashion-photoshoot-cost.md) and, per-SKU, in [product photography cost per SKU](./product-photography-cost-per-sku.md).
 
 The genuine saving is usually not the per-image price. It is the disappearance of scheduling: no sample shipping, no model availability, no studio booking, no waiting three weeks because a product arrived late.
 
@@ -207,6 +207,6 @@ Directional prints and stripes across seams, sheer fabrics, fine hardware, compl
 
 ### What does an AI fashion photoshoot cost?
 
-Per-image generation costs are typically cents rather than dollars, but that is the wrong unit. The meaningful comparison is total cost per approved, published image across a collection — including the setup time, review cycles, and rejected variants that any honest accounting includes.
+See [Astria pricing](https://www.astria.ai/pricing) for current generation rates. The meaningful comparison is total cost per approved, published image across a collection, including setup time, review cycles, and rejected variants.
 
 [Explore Astria for fashion and ecommerce](https://www.astria.ai/ecommerce).

@@ -245,3 +245,5 @@ Things to remember:
 
 * Maintain Realism: While this AI tool is powerful, it's crucial to ensure the generated virtual staging looks realistic and avoids nonsensical elements.
 * Transparency: You may choose to disclose that virtual staging is used in the listing description to build trust with potential buyers.
+
+For current Astria rates and billing terms, see [Astria pricing](https://www.astria.ai/pricing).
