@@ -88,6 +88,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | wedding-dress-photography-prompts | wedding dress photography prompts | 2026-09-01 | 2026-09-07 | F | 2026-12-07 | guides |
 | vitamin-supplement-photography-prompts | vitamin and supplement photography prompts | 2026-08-31 | 2026-09-07 | F | 2026-12-07 | guides |
 | ai-product-photography | AI product photography | 2026-09-07 | 2026-09-07 | F L | 2026-12-07 | guides |
+| nano-banana-2-1-fashion-ecommerce-marketing | Nano Banana 2.1 fashion ecommerce comparison | 2026-10-07 | 2026-10-07 | M F P | 2026-11-07 | models |
 | flux-3-image-review | FLUX 3 Image comparison | 2026-10-04 | 2026-10-04 | M F P | 2026-11-04 | models |
 | astria-plugin-vs-photoshop-generative-fill | photoshop generative fill vs nano banana plugin | 2026-09-15 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
 | astria-vs-pablo-photoshop-plugin | pablo photoshop plugin | 2026-09-16 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |

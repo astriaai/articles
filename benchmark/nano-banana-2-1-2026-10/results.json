@@ -1,0 +1,730 @@
+[
+  {
+    "case": "jacket",
+    "model": "nano-banana-2-0",
+    "prompt_id": 47132456,
+    "tune_id": 4180298,
+    "workspace_id": 896,
+    "text": "Create a product-only ecommerce photograph of <faceid:5851059:1> jacket on an invisible mannequin, front view with sleeves hanging naturally, against a warm ivory seamless studio background. Preserve the exact burnt-orange silk jacquard leaf weave, all four teal crane motifs and lower floral details, four brass dome buttons, pointed collar, cropped length and scalloped hem. Show the complete garment without clipping. Soft even catalog lighting, realistic material detail. No person, no accessories, no added text, no new logos.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T05:56:32.138Z",
+    "completed_at": "2026-10-07T05:56:48.057Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/gnquhwk0ndk4od3gmra2u50n4mzo"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/jacket-nano-banana-2-0.webp"
+  },
+  {
+    "case": "jacket",
+    "model": "sunburst",
+    "prompt_id": 47132457,
+    "tune_id": 5634510,
+    "workspace_id": 896,
+    "text": "Create a product-only ecommerce photograph of <faceid:5851059:1> jacket on an invisible mannequin, front view with sleeves hanging naturally, against a warm ivory seamless studio background. Preserve the exact burnt-orange silk jacquard leaf weave, all four teal crane motifs and lower floral details, four brass dome buttons, pointed collar, cropped length and scalloped hem. Show the complete garment without clipping. Soft even catalog lighting, realistic material detail. No person, no accessories, no added text, no new logos.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T05:56:34.612Z",
+    "completed_at": "2026-10-07T05:56:56.327Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/ytebeq8mfwqv536tn8py4mwidunc"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/jacket-sunburst.webp"
+  },
+  {
+    "case": "jacket",
+    "model": "flare",
+    "prompt_id": 47132458,
+    "tune_id": 5634511,
+    "workspace_id": 896,
+    "text": "Create a product-only ecommerce photograph of <faceid:5851059:1> jacket on an invisible mannequin, front view with sleeves hanging naturally, against a warm ivory seamless studio background. Preserve the exact burnt-orange silk jacquard leaf weave, all four teal crane motifs and lower floral details, four brass dome buttons, pointed collar, cropped length and scalloped hem. Show the complete garment without clipping. Soft even catalog lighting, realistic material detail. No person, no accessories, no added text, no new logos.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T05:56:37.131Z",
+    "completed_at": "2026-10-07T05:56:54.915Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/1ccj8cqmabmpus5fbh2msfgg1k58"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/jacket-flare.webp"
+  },
+  {
+    "case": "jacket",
+    "model": "seedream5pro",
+    "prompt_id": 47132459,
+    "tune_id": 5236038,
+    "workspace_id": 896,
+    "text": "Create a product-only ecommerce photograph of <faceid:5851059:1> jacket on an invisible mannequin, front view with sleeves hanging naturally, against a warm ivory seamless studio background. Preserve the exact burnt-orange silk jacquard leaf weave, all four teal crane motifs and lower floral details, four brass dome buttons, pointed collar, cropped length and scalloped hem. Show the complete garment without clipping. Soft even catalog lighting, realistic material detail. No person, no accessories, no added text, no new logos.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T05:56:39.595Z",
+    "completed_at": "2026-10-07T05:58:54.217Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/ljjx6gjnssg81yxdm0k5vdhmjjiq"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2368,
+      1776
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/jacket-seedream5pro.webp"
+  },
+  {
+    "case": "serum",
+    "model": "nano-banana-2-0",
+    "prompt_id": 47132460,
+    "tune_id": 4180298,
+    "workspace_id": 896,
+    "text": "Create a premium beauty campaign advertisement using <faceid:5851060:1> bottle and its matching carton. Place the bottle upright on the right on a pale rose stone plinth, with the carton upright beside it. Preserve the frosted pink cylindrical bottle, exposed silver pump geometry, matching carton and exact source label text: \"ASTRIA\", \"LUMEN SERUM\", \"No. 04 ROSE\", \"30 mL\". Brand direction: restrained rose, ivory and silver, soft directional studio light, subtle reflections. Leave generous clear space on the left and render exactly these three lines of marketing copy: \"LUMEN SERUM\", \"A daily ritual.\", \"DISCOVER THE COLLECTION\". Elegant legible black typography, no other copy, no added ingredients or claims, no people, no flowers.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T05:56:42.335Z",
+    "completed_at": "2026-10-07T05:56:57.898Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/76zw655veot3q82dkbnl3j3ah2o9"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "serum",
+    "model": "sunburst",
+    "prompt_id": 47132462,
+    "tune_id": 5634510,
+    "workspace_id": 896,
+    "text": "Create a premium beauty campaign advertisement using <faceid:5851060:1> bottle and its matching carton. Place the bottle upright on the right on a pale rose stone plinth, with the carton upright beside it. Preserve the frosted pink cylindrical bottle, exposed silver pump geometry, matching carton and exact source label text: \"ASTRIA\", \"LUMEN SERUM\", \"No. 04 ROSE\", \"30 mL\". Brand direction: restrained rose, ivory and silver, soft directional studio light, subtle reflections. Leave generous clear space on the left and render exactly these three lines of marketing copy: \"LUMEN SERUM\", \"A daily ritual.\", \"DISCOVER THE COLLECTION\". Elegant legible black typography, no other copy, no added ingredients or claims, no people, no flowers.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T05:56:44.111Z",
+    "completed_at": "2026-10-07T05:57:11.083Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/py85rwqe9kq18wohc40vwm4x389i"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "serum",
+    "model": "flare",
+    "prompt_id": 47132463,
+    "tune_id": 5634511,
+    "workspace_id": 896,
+    "text": "Create a premium beauty campaign advertisement using <faceid:5851060:1> bottle and its matching carton. Place the bottle upright on the right on a pale rose stone plinth, with the carton upright beside it. Preserve the frosted pink cylindrical bottle, exposed silver pump geometry, matching carton and exact source label text: \"ASTRIA\", \"LUMEN SERUM\", \"No. 04 ROSE\", \"30 mL\". Brand direction: restrained rose, ivory and silver, soft directional studio light, subtle reflections. Leave generous clear space on the left and render exactly these three lines of marketing copy: \"LUMEN SERUM\", \"A daily ritual.\", \"DISCOVER THE COLLECTION\". Elegant legible black typography, no other copy, no added ingredients or claims, no people, no flowers.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T05:56:45.729Z",
+    "completed_at": "2026-10-07T05:57:01.250Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/ukob82532xd37kivyd1tj95oprg0"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "serum",
+    "model": "seedream5pro",
+    "prompt_id": 47132464,
+    "tune_id": 5236038,
+    "workspace_id": 896,
+    "text": "Create a premium beauty campaign advertisement using <faceid:5851060:1> bottle and its matching carton. Place the bottle upright on the right on a pale rose stone plinth, with the carton upright beside it. Preserve the frosted pink cylindrical bottle, exposed silver pump geometry, matching carton and exact source label text: \"ASTRIA\", \"LUMEN SERUM\", \"No. 04 ROSE\", \"30 mL\". Brand direction: restrained rose, ivory and silver, soft directional studio light, subtle reflections. Leave generous clear space on the left and render exactly these three lines of marketing copy: \"LUMEN SERUM\", \"A daily ritual.\", \"DISCOVER THE COLLECTION\". Elegant legible black typography, no other copy, no added ingredients or claims, no people, no flowers.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T05:56:49.853Z",
+    "completed_at": "2026-10-07T05:59:01.968Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/0lxhvketegi62sv50mr10cd3dp0k"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2368,
+      1776
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "jacket",
+    "model": "nano-banana-2-1",
+    "prompt_id": 47133603,
+    "tune_id": 4180298,
+    "workspace_id": 896,
+    "text": "Create a product-only ecommerce photograph of <faceid:5851059:1> jacket on an invisible mannequin, front view with sleeves hanging naturally, against a warm ivory seamless studio background. Preserve the exact burnt-orange silk jacquard leaf weave, all four teal crane motifs and lower floral details, four brass dome buttons, pointed collar, cropped length and scalloped hem. Show the complete garment without clipping. Soft even catalog lighting, realistic material detail. No person, no accessories, no added text, no new logos.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:53:48.780Z",
+    "completed_at": "2026-10-07T07:54:08.200Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/kr681jt7it5t5h0ukocuyctpwq81"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "serum",
+    "model": "nano-banana-2-1",
+    "prompt_id": 47133604,
+    "tune_id": 4180298,
+    "workspace_id": 896,
+    "text": "Create a premium beauty campaign advertisement using <faceid:5851060:1> bottle and its matching carton. Place the bottle upright on the right on a pale rose stone plinth, with the carton upright beside it. Preserve the frosted pink cylindrical bottle, exposed silver pump geometry, matching carton and exact source label text: \"ASTRIA\", \"LUMEN SERUM\", \"No. 04 ROSE\", \"30 mL\". Brand direction: restrained rose, ivory and silver, soft directional studio light, subtle reflections. Leave generous clear space on the left and render exactly these three lines of marketing copy: \"LUMEN SERUM\", \"A daily ritual.\", \"DISCOVER THE COLLECTION\". Elegant legible black typography, no other copy, no added ingredients or claims, no people, no flowers.",
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:53:51.222Z",
+    "completed_at": "2026-10-07T07:54:10.303Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/hatgkla818sozqv2r6ctmogvv7zz"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "identity-front",
+    "model": "nano-banana-2-1",
+    "prompt_id": 47133628,
+    "tune_id": 4180298,
+    "error": false,
+    "text": "Create a waist-up front-view studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:56:28.280Z",
+    "completed_at": "2026-10-07T07:56:46.698Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/wcbkuikq5oq2h550nwvs59sq1t7s"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-front-nano-banana-2-1.webp"
+  },
+  {
+    "case": "identity-front",
+    "model": "nano-banana-2-0",
+    "prompt_id": 47133629,
+    "tune_id": 5850983,
+    "error": false,
+    "text": "Create a waist-up front-view studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:56:31.669Z",
+    "completed_at": "2026-10-07T07:57:22.640Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/tsnq8vbjx28o8fmnotcu2yc8ezje"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-front-nano-banana-2-0.webp"
+  },
+  {
+    "case": "identity-front",
+    "model": "sunburst",
+    "prompt_id": 47133630,
+    "tune_id": 5634510,
+    "error": false,
+    "text": "Create a waist-up front-view studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:56:33.659Z",
+    "completed_at": "2026-10-07T07:56:57.598Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/9t0leq5kxddrmxjyejnvzm6sm5kz"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-front-sunburst.webp"
+  },
+  {
+    "case": "identity-front",
+    "model": "flare",
+    "prompt_id": 47133631,
+    "tune_id": 5634511,
+    "error": false,
+    "text": "Create a waist-up front-view studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:56:36.963Z",
+    "completed_at": "2026-10-07T07:56:59.674Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/vh87kdpm4d4xtbwwv579c7i6ppk9"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-front-flare.webp"
+  },
+  {
+    "case": "identity-front",
+    "model": "seedream5pro",
+    "prompt_id": 47133632,
+    "tune_id": 5236038,
+    "error": false,
+    "text": "Create a waist-up front-view studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:56:39.532Z",
+    "completed_at": "2026-10-07T07:57:34.762Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/uvvzbtt3dow5g0gbd65x92xx6q1a"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2368,
+      1776
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-front-seedream5pro.webp"
+  },
+  {
+    "case": "identity-three-quarter",
+    "model": "nano-banana-2-1",
+    "prompt_id": 47133635,
+    "tune_id": 4180298,
+    "error": false,
+    "text": "Create a waist-up three-quarter studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, turned 30 degrees to camera-left with her face looking at the camera, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:56:44.212Z",
+    "completed_at": "2026-10-07T07:57:10.835Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/qm4nrprw6oufh9m1yyb8z7kkgwmt"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-three-quarter-nano-banana-2-1.webp"
+  },
+  {
+    "case": "identity-three-quarter",
+    "model": "nano-banana-2-0",
+    "prompt_id": 47133637,
+    "tune_id": 5850983,
+    "error": false,
+    "text": "Create a waist-up three-quarter studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, turned 30 degrees to camera-left with her face looking at the camera, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:56:48.190Z",
+    "completed_at": "2026-10-07T07:57:06.167Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/a6dcf4ivfag1sjyeerbbuemvoae6"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-three-quarter-nano-banana-2-0.webp"
+  },
+  {
+    "case": "identity-three-quarter",
+    "model": "sunburst",
+    "prompt_id": 47133639,
+    "tune_id": 5634510,
+    "error": false,
+    "text": "Create a waist-up three-quarter studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, turned 30 degrees to camera-left with her face looking at the camera, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:56:58.402Z",
+    "completed_at": "2026-10-07T07:57:23.905Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/7rdw6w1v08ohc9jsiz7dlg4bhk3b"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-three-quarter-sunburst.webp"
+  },
+  {
+    "case": "identity-three-quarter",
+    "model": "flare",
+    "prompt_id": 47133641,
+    "tune_id": 5634511,
+    "error": false,
+    "text": "Create a waist-up three-quarter studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, turned 30 degrees to camera-left with her face looking at the camera, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:57:01.750Z",
+    "completed_at": "2026-10-07T07:57:22.926Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/1ugy4bvrx4e7dqgu117spzfv3a4u"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-three-quarter-flare.webp"
+  },
+  {
+    "case": "identity-three-quarter",
+    "model": "seedream5pro",
+    "prompt_id": 47133643,
+    "tune_id": 5236038,
+    "error": false,
+    "text": "Create a waist-up three-quarter studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, turned 30 degrees to camera-left with her face looking at the camera, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:57:05.381Z",
+    "completed_at": "2026-10-07T07:57:58.321Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/nwy9f1osasxvcao9xy3rgyyd8ca4"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2368,
+      1776
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/identity-three-quarter-seedream5pro.webp"
+  },
+  {
+    "case": "multi-reference-campaign",
+    "model": "nano-banana-2-1",
+    "prompt_id": 47133645,
+    "tune_id": 4180298,
+    "error": false,
+    "text": "Create a full-length fashion campaign photograph of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket with plain ivory trousers and <faceid:5851884:1> necklace, in a pale limestone gallery. Brand direction: restrained ivory, burnt orange and teal, warm late-afternoon side light, relaxed walking pose, premium editorial realism. Preserve cast identity, jacket construction, four teal crane motifs, four brass buttons, leaf weave and scalloped hem. Preserve the necklace's nine green stones, white stone separators, rose-gold settings and cable chain; wear it visibly at the neckline without merging it with embroidery. Plausible anatomy and garment contact, no extra people, no additional jewelry, no invented product, no added text.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:57:08.709Z",
+    "completed_at": "2026-10-07T07:57:34.656Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/63g2qi05u09nyhvyooxo1ck5y8y1"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "multi-reference-campaign",
+    "model": "nano-banana-2-0",
+    "prompt_id": 47133647,
+    "tune_id": 5850983,
+    "error": false,
+    "text": "Create a full-length fashion campaign photograph of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket with plain ivory trousers and <faceid:5851884:1> necklace, in a pale limestone gallery. Brand direction: restrained ivory, burnt orange and teal, warm late-afternoon side light, relaxed walking pose, premium editorial realism. Preserve cast identity, jacket construction, four teal crane motifs, four brass buttons, leaf weave and scalloped hem. Preserve the necklace's nine green stones, white stone separators, rose-gold settings and cable chain; wear it visibly at the neckline without merging it with embroidery. Plausible anatomy and garment contact, no extra people, no additional jewelry, no invented product, no added text.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:57:12.001Z",
+    "completed_at": "2026-10-07T07:57:27.519Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/ljk0491hr5hhbaho2x6dnxlywn8q"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2400,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "multi-reference-campaign",
+    "model": "sunburst",
+    "prompt_id": 47133650,
+    "tune_id": 5634510,
+    "error": false,
+    "text": "Create a full-length fashion campaign photograph of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket with plain ivory trousers and <faceid:5851884:1> necklace, in a pale limestone gallery. Brand direction: restrained ivory, burnt orange and teal, warm late-afternoon side light, relaxed walking pose, premium editorial realism. Preserve cast identity, jacket construction, four teal crane motifs, four brass buttons, leaf weave and scalloped hem. Preserve the necklace's nine green stones, white stone separators, rose-gold settings and cable chain; wear it visibly at the neckline without merging it with embroidery. Plausible anatomy and garment contact, no extra people, no additional jewelry, no invented product, no added text.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:57:16.018Z",
+    "completed_at": "2026-10-07T07:57:44.560Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/1ye7m83h29smevadduaycijpl9ko"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "multi-reference-campaign",
+    "model": "flare",
+    "prompt_id": 47133651,
+    "tune_id": 5634511,
+    "error": false,
+    "text": "Create a full-length fashion campaign photograph of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket with plain ivory trousers and <faceid:5851884:1> necklace, in a pale limestone gallery. Brand direction: restrained ivory, burnt orange and teal, warm late-afternoon side light, relaxed walking pose, premium editorial realism. Preserve cast identity, jacket construction, four teal crane motifs, four brass buttons, leaf weave and scalloped hem. Preserve the necklace's nine green stones, white stone separators, rose-gold settings and cable chain; wear it visibly at the neckline without merging it with embroidery. Plausible anatomy and garment contact, no extra people, no additional jewelry, no invented product, no added text.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:57:18.347Z",
+    "completed_at": "2026-10-07T07:57:39.860Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/knpjyl3bjn2hs8o9w12t8f31qp99"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2304,
+      1792
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "multi-reference-campaign",
+    "model": "seedream5pro",
+    "prompt_id": 47133652,
+    "tune_id": 5236038,
+    "text": "Create a full-length fashion campaign photograph of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket with plain ivory trousers and <faceid:5851884:1> necklace, in a pale limestone gallery. Brand direction: restrained ivory, burnt orange and teal, warm late-afternoon side light, relaxed walking pose, premium editorial realism. Preserve cast identity, jacket construction, four teal crane motifs, four brass buttons, leaf weave and scalloped hem. Preserve the necklace's nine green stones, white stone separators, rose-gold settings and cable chain; wear it visibly at the neckline without merging it with embroidery. Plausible anatomy and garment contact, no extra people, no additional jewelry, no invented product, no added text.",
+    "workspace_id": 896,
+    "resolution": "2K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:57:21.700Z",
+    "completed_at": "2026-10-07T07:59:47.252Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/1fokrqzay6fbkcbvqaf2qx1u5rpa"
+    ],
+    "cost_mc": 33000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      2368,
+      1776
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "hero-jacket",
+    "model": "nano-banana-2-1",
+    "prompt_id": 47133663,
+    "tune_id": 4180298,
+    "text": "Create a product-only ecommerce photograph of <faceid:5851059:1> jacket on an invisible mannequin, front view with sleeves hanging naturally, against a warm ivory seamless studio background. Preserve the exact burnt-orange silk jacquard leaf weave, all four teal crane motifs and lower floral details, four brass dome buttons, pointed collar, cropped length and scalloped hem. Show the complete garment without clipping. Soft even catalog lighting, realistic material detail. No person, no accessories, no added text, no new logos.",
+    "workspace_id": 896,
+    "resolution": "4K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T07:58:12.292Z",
+    "completed_at": "2026-10-07T07:58:43.093Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/zrfcrz4m3rgk56sgyifel2hliaq3"
+    ],
+    "cost_mc": 66000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      4800,
+      3584
+    ],
+    "eligible_candidate_asset": null,
+    "publication_note": "Internal only: exact label, product/accessory preservation or requested framing did not pass. See review.json."
+  },
+  {
+    "case": "hero-portrait",
+    "model": "nano-banana-2-1",
+    "prompt_id": 47133692,
+    "tune_id": 4180298,
+    "text": "Create a waist-up front-view studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people. Pair the jacket with plain ivory trousers visible below the hem.",
+    "workspace_id": 896,
+    "resolution": "4K",
+    "aspect_ratio": "4:3",
+    "num_images": 1,
+    "started_at": "2026-10-07T08:01:19.020Z",
+    "completed_at": "2026-10-07T08:01:48.177Z",
+    "failed_at": null,
+    "user_error": null,
+    "images": [
+      "https://mp.astria.ai/w5j885s5ba5qog63wk0zrg7lwj1s"
+    ],
+    "cost_mc": 66000,
+    "inpaint_faces": false,
+    "film_grain": false,
+    "actual_pixels": [
+      4800,
+      3584
+    ],
+    "eligible_candidate_asset": "/articles/img/model-benchmarks/2026-10/nb21/hero-portrait-nano-banana-2-1.webp"
+  }
+]

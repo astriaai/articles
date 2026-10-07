@@ -1,0 +1,257 @@
+{
+  "reviewed_on": "2026-10-07",
+  "selection": "Only output per submitted cell; all originals viewed individually",
+  "public_media_scope": "Four incumbent jacket images, ten identity images, native 4K portrait cover and three supplied references; rejected outputs remain internal.",
+  "jacket": {
+    "nano-banana-2-0": {
+      "prompt_id": 47132456,
+      "article_size_quality": "pass",
+      "main_product_fidelity": "pass with detailed differences",
+      "notes": "Four cranes, four buttons, lower flowers, collar and scalloped hem recognizable. Maintains collar label approximately; texture and feather structures redrawn. No claim of exact SKU reproduction."
+    },
+    "sunburst": {
+      "prompt_id": 47132457,
+      "article_size_quality": "pass",
+      "main_product_fidelity": "pass with detailed differences",
+      "notes": "Four cranes/buttons and scalloped hem. More pronounced relief and changed feather detail; source collar label omitted."
+    },
+    "flare": {
+      "prompt_id": 47132458,
+      "article_size_quality": "pass",
+      "main_product_fidelity": "pass with detailed differences",
+      "notes": "Four cranes/buttons, recognizable flowers and hem. Embroidery and cloth texture redrawn; collar label omitted."
+    },
+    "seedream5pro": {
+      "prompt_id": 47132459,
+      "article_size_quality": "pass",
+      "main_product_fidelity": "pass with detailed differences",
+      "notes": "Four cranes/buttons, rich warm orange and recognizable fabric. Simplified lower flowers, omitted collar label, altered hem details."
+    },
+    "nano-banana-2-1": {
+      "prompt_id": 47133603,
+      "publish_image": false,
+      "article_size_quality": "pass",
+      "main_product_fidelity": "main attributes retained; label constraint fails",
+      "notes": "Four cranes and four buttons, lower flowers, leaf weave and scalloped hem. Replaces source PROSIK collar label with different lettering; excludes image from public selection."
+    }
+  },
+  "serum": {
+    "nano-banana-2-0": {
+      "prompt_id": 47132460,
+      "publish_image": false,
+      "marketing_copy": "Three requested lines legible",
+      "notes": "Simple sans-serif copy. Carton retains sideways copy placement despite upright carton request. Product and pump proportions differ; keep internal."
+    },
+    "sunburst": {
+      "prompt_id": 47132462,
+      "publish_image": false,
+      "marketing_copy": "Three requested lines legible",
+      "notes": "Outlined CTA treatment added. Normalizes packaging typography. Product/pump geometry differs; keep internal."
+    },
+    "flare": {
+      "prompt_id": 47132463,
+      "publish_image": false,
+      "marketing_copy": "Three requested lines legible",
+      "notes": "Italic middle line and clear hierarchy. Product/pump proportions differ; keep internal."
+    },
+    "seedream5pro": {
+      "prompt_id": 47132464,
+      "publish_image": false,
+      "marketing_copy": "Three requested lines legible",
+      "notes": "Duplicates 30 mL near bottom of carton. Product/pump geometry differs; fails strict packaging preservation and remains internal."
+    },
+    "nano-banana-2-1": {
+      "prompt_id": 47133604,
+      "publish_image": false,
+      "marketing_copy": "Three requested lines correct and legible",
+      "notes": "Bottle retains No. ROSE rather than requested No. 04 ROSE. Carton includes 04. Geometry differs; internal only."
+    }
+  },
+  "limitations": [
+    "One output per model per case: qualification samples, not statistical ranking.",
+    "One synthetic cast from GPT Image 2: possible source affinity; already wears shared jacket.",
+    "Independent poses, not recursive edit-chain consistency.",
+    "Common requested settings differ from provider defaults and exact delivered pixel ratios.",
+    "Attempt-level transport/provider response version is not exposed; release and committed routing verified.",
+    "Strict packaging and campaign gates failed; those images stay internal.",
+    "Product-only cells are not Arena multi-image-edit tasks.",
+    "Published images preserve central anchors but have detailed changes; no exact-SKU or biometric identity claim."
+  ],
+  "identity-front": {
+    "nano-banana-2-1": {
+      "prompt_id": 47133628,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Upright pose, recognizable bob/face, four cranes/buttons. Skin smoother; matching orange lower garment invented."
+    },
+    "nano-banana-2-0": {
+      "prompt_id": 47133629,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Upright pose, recognizable cast, narrower face and smoother skin. Four cranes/buttons; orange lower garment invented."
+    },
+    "sunburst": {
+      "prompt_id": 47133630,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Close source face/skin/head tilt, four cranes/buttons. Added hands in pockets and ivory trousers; source tilt weakens strict front-pose compliance."
+    },
+    "flare": {
+      "prompt_id": 47133631,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Close source face/head tilt and garment detail, four cranes/buttons; dark trousers added."
+    },
+    "seedream5pro": {
+      "prompt_id": 47133632,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Recognizable cast and upright pose, four cranes/buttons; skin/embroidery/relief redrawn."
+    }
+  },
+  "identity-three-quarter": {
+    "nano-banana-2-1": {
+      "prompt_id": 47133635,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Clear turn and gaze, recognizable cast, four cranes/buttons; skin/embroidery simplified."
+    },
+    "nano-banana-2-0": {
+      "prompt_id": 47133637,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Clear turn and gaze, recognizable cast and garment; smoother skin and orange lower garment."
+    },
+    "sunburst": {
+      "prompt_id": 47133639,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Strong likeness and cloth detail, clear turn; pocket styling added."
+    },
+    "flare": {
+      "prompt_id": 47133641,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Strong likeness and cloth detail, clear turn; stronger head tilt and pocket styling."
+    },
+    "seedream5pro": {
+      "prompt_id": 47133643,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Recognizable cast, turn, four cranes/buttons and garment; facial finish and relief differ."
+    }
+  },
+  "multi-reference-campaign": {
+    "nano-banana-2-1": {
+      "prompt_id": 47133645,
+      "publish_image": false,
+      "article_size_quality": "not selected",
+      "main_reference_fidelity": "strict campaign constraints not approved",
+      "notes": "Complete walking figure, plausible hands, coherent warm gallery. Open neckline shows three buttons; exact necklace stone/settings geometry unverified."
+    },
+    "nano-banana-2-0": {
+      "prompt_id": 47133647,
+      "publish_image": false,
+      "article_size_quality": "not selected",
+      "main_reference_fidelity": "strict campaign constraints not approved",
+      "notes": "Complete walking figure and directional light. Cream collar changes garment, three buttons; necklace reinterpreted."
+    },
+    "sunburst": {
+      "prompt_id": 47133650,
+      "publish_image": false,
+      "article_size_quality": "not selected",
+      "main_reference_fidelity": "strict campaign constraints not approved",
+      "notes": "Top of head clipped; three buttons after open neckline; necklace setting geometry reinterpreted."
+    },
+    "flare": {
+      "prompt_id": 47133651,
+      "publish_image": false,
+      "article_size_quality": "not selected",
+      "main_reference_fidelity": "strict campaign constraints not approved",
+      "notes": "Below-knee crop violates full-length; four buttons and close likeness; stone shape/setting differs."
+    },
+    "seedream5pro": {
+      "prompt_id": 47133652,
+      "publish_image": false,
+      "article_size_quality": "not selected",
+      "main_reference_fidelity": "strict campaign constraints not approved",
+      "notes": "Lower legs clipped; four buttons and recognizable cast; tiny necklace settings cannot be approved as exact."
+    }
+  },
+  "heroes": {
+    "product": {
+      "prompt_id": 47133663,
+      "publish_image": false,
+      "notes": "Native 4800x3584; main garment retained but altered collar lettering. Excluded."
+    },
+    "portrait": {
+      "prompt_id": 47133692,
+      "publish_image": true,
+      "article_size_quality": "pass",
+      "main_reference_fidelity": "pass with detailed differences",
+      "notes": "Native 4800x3584; recognizable cast, four cranes/buttons, lower flowers, orange leaf weave, collar and scalloped hem. Smooths skin and redraws weave. Separate cover composition adds specified ivory trousers, outside comparison."
+    }
+  },
+  "sources": {
+    "cast": {
+      "original_prompt": 46575270,
+      "output_index": 0,
+      "original_model": "GPT Image 2",
+      "article_tune": 5851882,
+      "pixels": [
+        1792,
+        2304
+      ],
+      "notes": "Detailed synthetic adult portrait from owned benchmark; adopted as current identity ground truth rather than proof of exact former Lee identity. Existing jacket cue disclosed; possible source affinity disclosed. No upscaling."
+    },
+    "necklace": {
+      "original_tune": 5616647,
+      "article_tune": 5851884,
+      "pixels": [
+        2048,
+        2048
+      ],
+      "notes": "Synthetic benchmark-owned nine-green-stone reference; visually reviewed settings, white separators and cable chain.",
+      "source_creation_prompt": 46574786
+    },
+    "margot_rejected": {
+      "tune": 3994656,
+      "pixels": [
+        848,
+        700
+      ],
+      "submitted": false,
+      "notes": "Public gallery candidate inspected for resolution; excluded without enlargement."
+    },
+    "jacket": {
+      "original_tune": 5616645,
+      "source_creation_prompt": 46574787,
+      "article_tune": 5851059,
+      "pixels": [
+        2048,
+        2048
+      ],
+      "notes": "Byte hash matches September benchmark-owned synthetic source; visually reviewed."
+    },
+    "serum": {
+      "original_tune": 5616648,
+      "source_creation_prompt": 46574825,
+      "article_tune": 5851060,
+      "pixels": [
+        1760,
+        2352
+      ],
+      "notes": "Byte hash matches September source; sideways orientation and No. ROSE bottle versus No. 04 ROSE carton documented."
+    }
+  }
+}
