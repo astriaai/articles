@@ -25,7 +25,7 @@ For a fashion brand, a prettier picture with the wrong embroidery is a failed as
 
 <figure data-source-reference="/articles/img/model-benchmarks/2026-10/nb21/source-cast.webp /articles/img/model-benchmarks/2026-10/nb21/source-jacket.webp"><img src="/articles/img/model-benchmarks/2026-10/nb21/hero-portrait-nano-banana-2-1.webp" alt="Reference-driven Nano Banana 2.1 portrait of the synthetic cast wearing the orange crane-embroidered jacket" /><figcaption>Nano Banana 2.1 · separate native 4K cover render · supplied cast and garment references. This cover is outside the matched 2K comparison.</figcaption></figure>
 
-**Tested October 7, 2026.** Five original briefs plus a supplemental small-text bottle test, five models, one output per cell. We show reviewed selections and report the rejected cells in text; there are no replacement runs in the comparison.
+**Tested October 7, 2026.** Five original briefs plus a real beauty-product test, five models, one output per cell. We show reviewed selections and report the rejected cells in text; there are no replacement runs in the comparison.
 
 ## What Nano Banana 2.1 changes
 
@@ -60,7 +60,7 @@ These scores concern human preference in **commercial multi-image editing**. The
 
 We selected Sunburst and Flare because they lead this specific Arena category, and Seedream 5 Pro because it ranks fifth and offers a relevant material-and-fashion alternative. The direct predecessor is required to isolate the practical upgrade question. Muse remains a useful multi-reference challenger; Ideogram 4.5 and Reve 2.0 are not interchangeable with the different versions currently exposed in Astria's catalog.
 
-All five cases use the same supplied images, exact semantic prompt, 4:3 requested aspect ratio, 2K requested resolution, and one requested output per model in Astria workspace **896, Articles**. Face inpainting and film grain are disabled. The only returned image is the predetermined comparison candidate; there are no selective reruns.
+The five original cases use the same supplied images, exact semantic prompt, 4:3 requested aspect ratio, 2K requested resolution, and one requested output per model in Astria workspace **896, Articles**. Face inpainting and film grain are disabled. The only returned image is the predetermined comparison candidate; there are no selective reruns.
 
 We use 2K as the common resolution supported by Seedream Pro and the other selected endpoints. Actual dimensions differ between providers. The cover is a separate native 4K render with the supplied portrait and jacket. No source or output was enlarged to meet the resolution gate.
 
@@ -124,33 +124,26 @@ Product fidelity still needs a stricter judgment. Bottle and pump proportions di
 
 For marketers, approve the product first, then check spelling, hierarchy, contrast, and room for channel-specific crops. For ecommerce teams, retain approved product photography when an AI transformation changes the SKU's defining shape or hardware.
 
-## Beauty bottle: does 12–14 px label text survive?
+## Real beauty product: Seedream wins on packaging fidelity
 
-We added a sixth brief after the original comparison: a controlled beauty bottle with five lines of small secondary copy. The supplied reference is an original fictional bottle illustration at **2400 × 1800**, with native SVG font sizes of **12, 13 and 14 px**. It is a clean, front-facing, high-contrast label; this is an easier case than a photograph with curved, reflective or partly hidden fine print.
+**Seedream 5 Pro wins this bottle test.** It keeps the −417 Milk Cleanser’s black label pattern, leaf seal and handwritten brand line closest to the supplied photograph, while delivering a polished ecommerce image.
 
-The five lines are “Daily facial serum”, “Apply 2 drops to clean skin.”, “For external use only.”, “Store in a cool, dry place.” and “30 mL / 1.0 fl oz”. The prompt asks for a dusty-rose background while preserving the bottle, label, every character and the small typography. **It does not supply those words in the prompt**: models must recover them from the same image reference. Each model gets one 2K output with the same 4:3 request; no reruns.
+We took a real product photograph from the 417 workspace and adapted its actual store-image brief: improve the lighting, remove distracting glare, put the bottle on white, and preserve the packaging. All five models received the same photograph and prompt, with one output each.
 
-**Nano Banana 2.1 preserves all five small-text lines, including punctuation, in this sample.** Nano Banana 2.0, Sunburst and Seedream do too. Flare preserves four lines but changes the volume text to “30 mL / 1.01 oz”, losing “fl” and changing the number. A readable line can therefore still be an incorrect package label.
+<div className="benchmark-grid">
+  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-10/nb21/real-beauty-source.webp" alt="Supplied photograph of the real −417 Milk Cleanser with black pump, gold collar and patterned label" /><figcaption><strong>Supplied product photograph</strong>Real −417 Milk Cleanser, before the studio-lighting edit.</figcaption></figure>
+  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-10/nb21/real-beauty-source.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-10/nb21/real-beauty-seedream5pro.webp" alt="Seedream 5 Pro studio photograph retaining the −417 Milk Cleanser’s black label pattern and handwritten brand line" /><figcaption><strong>Winner: Seedream 5 Pro</strong>Closest packaging match, with clean lighting and a natural product finish.</figcaption></figure>
+</div>
 
-| Model | Exact secondary lines, manually reviewed | Product/edit observation | Prompt ID · native output |
-| --- | --- | --- | --- |
-| Nano Banana 2.1 | 5 / 5 | Re-shades the bottle and rounds its shoulders; background-only fidelity fails, image withheld | 47134330 · 2400 × 1792 |
-| Nano Banana 2.0 | 5 / 5 | Retains the illustrated bottle, cream label and pump | 47134332 · 2400 × 1792 |
-| Sunburst | 5 / 5 | Retains the main bottle anchors; strengthens floor contact | 47134333 · 2304 × 1792 |
-| Flare | 4 / 5 | Volume becomes “1.01 oz”; image withheld | 47134334 · 2304 × 1792 |
-| Seedream 5 Pro | 5 / 5 | Makes the body rose-metallic; background-only fidelity fails, image withheld | 47134336 · 2368 × 1776 |
+| Model | Verdict for this product |
+| --- | --- |
+| **Seedream 5 Pro** | **Winner.** Closest black pattern, leaf seal and handwritten brand line; main English and French copy stays readable. |
+| Nano Banana 2.1 | Clean finish and readable main copy, but turns the black pattern gold and redraws the seal. |
+| Nano Banana 2.0 | Similar tradeoff: readable copy, changed pattern color and a redesigned seal. |
+| Sunburst | Strong packshot, but drops the handwritten brand line and changes the seal. |
+| Flare | Strong packshot, but drops the handwritten brand line and changes the seal. |
 
-<ImageModelComparison
-  title="Small-text bottle — supplied reference and reviewed selections"
-  description="Same reference and edit brief. The two shown outputs retain the small wording and main product anchors; the other results are reported in the table. Open an image to inspect the label at full size."
-  reference={{label: 'Controlled source: 12–14 px secondary text', src: '/articles/img/model-benchmarks/2026-10/nb21/small-text-source.webp', alt: 'Original fictional LUMEN beauty bottle illustration with five precisely sized secondary text lines'}}
-  items={[
-    {label: 'Nano Banana 2.0', src: '/articles/img/model-benchmarks/2026-10/nb21/small-text-nano-banana-2-0.webp', alt: 'Nano Banana 2.0 beauty bottle on a rose background preserving five small-text lines', verdict: 'Five exact lines, including 30 mL / 1.0 fl oz. Retains the illustrated product treatment.'},
-    {label: 'GPT Image 2.5 Sunburst', src: '/articles/img/model-benchmarks/2026-10/nb21/small-text-sunburst.webp', alt: 'Sunburst beauty bottle on a rose background preserving five small-text lines', verdict: 'Five exact lines. Main bottle construction and pump remain recognizable, with stronger floor contact.'}
-  ]}
-/>
-
-The pixel sizes describe **the source font settings**, not CSS text on this page or a guaranteed output font size. Native output dimensions differ across endpoints, and the models redraw typography. We reviewed full images and native-resolution label crops; the published assets are full images encoded losslessly without resizing or text repair. Five-line counts describe these individual outputs, not a general accuracy rate. This supports a limited small-copy pass for 2.1 on a clean fixture, while reinforcing the need to approve product geometry and material separately.
+The deciding factor is brand fidelity: a beautiful bottle with changed packaging loses this round. Seedream’s tiny seal lettering and handwriting still need a final check before a campaign goes live. This is a winner for this product and brief, not a universal ranking.
 
 ## Identity across two poses
 

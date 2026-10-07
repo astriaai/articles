@@ -152,3 +152,7 @@ The clean release checkout passes all 24 repository tests, TypeScript checking, 
 ## Supplemental small-text test
 
 After publication, a sixth brief added five controlled beauty-bottle small-text runs. See `small-text/README.md`, `results.json` and `review.json` for the original SVG, exact 12–14 px source font settings, five matched submissions, complete outputs and selection rationale. Total comparison outputs: 30; earlier 25-cell records remain unchanged.
+
+## Real beauty-product replacement
+
+The public vector fixture is superseded by a real −417 Milk Cleanser comparison inspired by workspace 417. See `real-beauty/README.md` and its complete submissions, results and visual review. Current article: 25 original + 5 real-product outputs = 30. The retired five vector runs remain internal historical records (35 comparison submissions overall). Seedream 5 Pro wins this product-specific packaging comparison.

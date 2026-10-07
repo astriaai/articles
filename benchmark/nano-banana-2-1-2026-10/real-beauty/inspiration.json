@@ -1,0 +1,95 @@
+{
+  "inspiration_workspace": {
+    "id": 33,
+    "title": "417"
+  },
+  "prompts": [
+    {
+      "id": 46816886,
+      "text": "שפר את התאורה שיתאים עם רקע לבן לאתר אינטרנט שופופאי. . וודא שהלוגו והטקסט של התווית נשראים כפי שהם ממורכזים. <faceid:5714081:1.0> bottle",
+      "num_images": 1,
+      "cost_mc": 33000,
+      "images": [
+        "https://mp.astria.ai/4angz18zw7tzzdh1csk711lsbj4q"
+      ],
+      "aspect_ratio": "3:4",
+      "resolution": "1K",
+      "pack_id": null,
+      "tune_id": 4180298,
+      "order_id": null
+    },
+    {
+      "id": 46749995,
+      "text": "ש תשפר את התאורה ותבטל את ההברקות . זהעבור אתר אינטרנט שלנו. שהטקסט ישאר בדיוק כפי שהוא - קריא וברור. רקע לבן <faceid:5685752:1.0> bottle",
+      "num_images": 1,
+      "cost_mc": 33000,
+      "images": [
+        "https://mp.astria.ai/ey70ggco1jq8xsw9w3d9bv863x93"
+      ],
+      "aspect_ratio": "4:5",
+      "resolution": "2K",
+      "pack_id": null,
+      "tune_id": 4180298,
+      "order_id": null
+    },
+    {
+      "id": 46749979,
+      "text": "ש תשפר את התאורה ותבטל את ההברקות . זהעבור אתר אינטרנט שלנו. שהטקסט ישאר בדיוק כפי שהוא - קריא וברור. רקע לבן <faceid:5685741:1.0> bottle",
+      "num_images": 1,
+      "cost_mc": 33000,
+      "images": [
+        "https://mp.astria.ai/moozu1k3wvnvpp8xvyffpv2c1gkl"
+      ],
+      "aspect_ratio": "4:5",
+      "resolution": "2K",
+      "pack_id": null,
+      "tune_id": 4180298,
+      "order_id": null
+    }
+  ],
+  "source": {
+    "id": 5685741,
+    "title": "White pump bottle labeled -417 RE-DEFINE GENTLE NOURISHING MILK CLEANSER.",
+    "name": "bottle",
+    "is_api": false,
+    "token": null,
+    "eta": "2026-09-16T07:49:14.038Z",
+    "callback": null,
+    "trained_at": "2026-09-16T07:46:47.792Z",
+    "started_training_at": "2026-09-16T07:46:47.792Z",
+    "expires_at": null,
+    "created_at": "2026-09-16T07:46:48.252Z",
+    "model_type": "faceid",
+    "updated_at": "2026-09-16T07:46:48.274Z",
+    "cost_mc": 0,
+    "ref_with_trigger": "<faceid:5685741:1.0> bottle",
+    "characteristics": {
+      "caption": "front",
+      "first_name": "",
+      "short_description": "White pump bottle labeled -417 RE-DEFINE GENTLE NOURISHING MILK CLEANSER."
+    },
+    "base_tune_id": 4180298,
+    "branch": "gemini-2",
+    "args": null,
+    "steps": null,
+    "face_crop": false,
+    "ckpt_url": null,
+    "ckpt_urls": [],
+    "url": "https://api.astria.ai/tunes/5685741.json?ws=33",
+    "editable": true,
+    "sources": [],
+    "can_manage_visibility": true,
+    "public_at": false,
+    "liked": false,
+    "likes_count": 0,
+    "orig_images": [
+      "https://mp.astria.ai/wrayq53bmynl4bib271qwqbeu8o2"
+    ],
+    "orig_image_blob_ids": [
+      227491208
+    ],
+    "argus": [
+      null
+    ]
+  }
+}
