@@ -1,6 +1,6 @@
 ---
 title: "Nano Banana 2.1 for Fashion, Ecommerce, and Marketing: Comparison"
-description: "30 matched reference-led outputs of Nano Banana 2.1, 2.0, Sunburst, Flare and Seedream Pro: garment fidelity, identity, ad copy, campaigns and Arena ranking."
+description: "31 reference-led outputs of Nano Banana 2.1, 2.0, Pro, Sunburst, Flare and Seedream Pro: garment fidelity, identity, ad copy, campaigns and Arena ranking."
 slug: nano-banana-2-1-fashion-ecommerce-marketing
 date: 2026-10-07
 hide_table_of_contents: false
@@ -17,7 +17,7 @@ keywords:
 
 import ImageModelComparison from '@site/src/components/ImageModelComparison';
 
-**Nano Banana 2.1 is a strong candidate for commercial reference-based image work: it ranks third in Arena's multi-image-edit Product, Branding & Commercial Design category as checked on October 7, 2026.** In our 30 reference-led samples, it preserves the jacket's main features and produces convincing on-model portraits, but does not win every identity, label, or campaign constraint. It belongs on a production shortlist alongside Sunburst and Flare, with product-specific approval before use.
+**Nano Banana 2.1 is a strong candidate for commercial reference-based image work: it ranks third in Arena's multi-image-edit Product, Branding & Commercial Design category as checked on October 7, 2026.** In our 31 reference-led samples, it preserves the jacket's main features and produces convincing on-model portraits, but does not win every identity, label, or campaign constraint. It belongs on a production shortlist alongside Sunburst and Flare, with product-specific approval before use.
 
 For a fashion brand, a prettier picture with the wrong embroidery is a failed asset. For an ecommerce team, readable copy cannot compensate for a changed product shape. For a marketing team, composition, product fidelity, and copy accuracy need separate approvals.
 
@@ -25,7 +25,7 @@ For a fashion brand, a prettier picture with the wrong embroidery is a failed as
 
 <figure data-source-reference="/articles/img/model-benchmarks/2026-10/nb21/source-cast.webp /articles/img/model-benchmarks/2026-10/nb21/source-jacket.webp"><img src="/articles/img/model-benchmarks/2026-10/nb21/hero-portrait-nano-banana-2-1.webp" alt="Reference-driven Nano Banana 2.1 portrait of the synthetic cast wearing the orange crane-embroidered jacket" /><figcaption>Nano Banana 2.1 · separate native 4K cover render · supplied cast and garment references. This cover is outside the matched 2K comparison.</figcaption></figure>
 
-**Tested October 7, 2026.** Five original briefs plus a real beauty-product test, five models, one output per cell. We show reviewed selections and report the rejected cells in text; there are no replacement runs in the comparison.
+**Tested October 7, 2026.** Five original briefs across five models, plus a French-label UGC bottle brief across six models, one output per cell. We show reviewed selections and report the rejected cells in text; there are no replacement runs in the comparison.
 
 ## What Nano Banana 2.1 changes
 
@@ -124,26 +124,68 @@ Product fidelity still needs a stricter judgment. Bottle and pump proportions di
 
 For marketers, approve the product first, then check spelling, hierarchy, contrast, and room for channel-specific crops. For ecommerce teams, retain approved product photography when an AI transformation changes the SKU's defining shape or hardware.
 
-## Real beauty product: Seedream wins on packaging fidelity
+## French-label beauty UGC: Sunburst wins this round
 
-**Seedream 5 Pro wins this bottle test.** It keeps the −417 Milk Cleanser’s black label pattern, leaf seal and handwritten brand line closest to the supplied photograph, while delivering a polished ecommerce image.
+**Sunburst wins for packaging fidelity on this brief.** It delivers a convincing hand-held skincare image while keeping the lower “Sans conservateur / Preservative-free” copy that the other models garble or omit. Nano Banana 2.1 makes a natural-looking image, but its small label wording changes.
 
-We took a real product photograph from the 417 workspace and adapted its actual store-image brief: improve the lighting, remove distracting glare, put the bottle on white, and preserve the packaging. All five models received the same photograph and prompt, with one output each.
+The reference is a real La Roche-Posay thermal-water bottle photographed outdoors by [Arthur Pereira on Unsplash](https://unsplash.com/photos/white-and-blue-plastic-bottle-lVqdbhX7k8M), used under the [Unsplash License](https://unsplash.com/license). We asked every model to isolate the tall white bottle and turn it into a casual hand-held photograph beside a bathroom window, keeping the complete product, its blue artwork, and all French and English packaging copy.
 
-<div className="benchmark-grid">
-  <figure className="benchmark-card benchmark-card--source"><img loading="lazy" src="/articles/img/model-benchmarks/2026-10/nb21/real-beauty-source.webp" alt="Supplied photograph of the real −417 Milk Cleanser with black pump, gold collar and patterned label" /><figcaption><strong>Supplied product photograph</strong>Real −417 Milk Cleanser, before the studio-lighting edit.</figcaption></figure>
-  <figure className="benchmark-card" data-source-reference="/articles/img/model-benchmarks/2026-10/nb21/real-beauty-source.webp"><img loading="lazy" src="/articles/img/model-benchmarks/2026-10/nb21/real-beauty-seedream5pro.webp" alt="Seedream 5 Pro studio photograph retaining the −417 Milk Cleanser’s black label pattern and handwritten brand line" /><figcaption><strong>Winner: Seedream 5 Pro</strong>Closest packaging match, with clean lighting and a natural product finish.</figcaption></figure>
-</div>
+This round adds **Nano Banana Pro** alongside 2.1, 2.0, Sunburst, Flare and Seedream 5 Pro. The source and brief are identical for all six, with one output each and no reruns. Pro is included in this UGC round only.
 
-| Model | Verdict for this product |
+<ImageModelComparison
+  title="French-label bottle — all six UGC results"
+  description="Same real bottle, same UGC brief. Compare the product and wording beside the supplied photograph, or switch to Scan line for a direct pair."
+  reference={{label: 'Supplied photograph — use the tall white bottle on the left', src: '/articles/img/model-benchmarks/2026-10/nb21/ugc-french-source.webp', alt: 'Arthur Pereira’s outdoor photograph of La Roche-Posay skincare products, including the tall white thermal-water bottle with French and English labeling'}}
+  items={[
+    {
+        "label": "Nano Banana 2.1",
+        "src": "/articles/img/model-benchmarks/2026-10/nb21/ugc-french-nano-banana-2-1.webp",
+        "alt": "Nano Banana 2.1 hand-held La Roche-Posay thermal-water bottle UGC comparison",
+        "verdict": "Convincing warm UGC finish and readable main copy. Loses the accent in protège and replaces the small lower label lines with invented text."
+    },
+    {
+        "label": "Nano Banana Pro",
+        "src": "/articles/img/model-benchmarks/2026-10/nb21/ugc-french-nano-banana-pro.webp",
+        "alt": "Nano Banana Pro hand-held La Roche-Posay thermal-water bottle UGC comparison",
+        "verdict": "Natural window light and recognizable packaging. Changes Apaise to Apaisa and invents the small lower label copy."
+    },
+    {
+        "label": "Nano Banana 2.0",
+        "src": "/articles/img/model-benchmarks/2026-10/nb21/ugc-french-nano-banana-2-0.webp",
+        "alt": "Nano Banana 2.0 hand-held La Roche-Posay thermal-water bottle UGC comparison",
+        "verdict": "Readable main French and English copy, convincing hand-held scene. Invents the small lower label lines and changes the spray-head presentation."
+    },
+    {
+        "label": "GPT Image 2.5 Sunburst",
+        "src": "/articles/img/model-benchmarks/2026-10/nb21/ugc-french-sunburst.webp",
+        "alt": "GPT Image 2.5 Sunburst hand-held La Roche-Posay thermal-water bottle UGC comparison",
+        "verdict": "Winner for label fidelity. Keeps Apaise et protège, Sans conservateur / Preservative-free, the volume and Made in France legible, with a strong UGC finish."
+    },
+    {
+        "label": "GPT Image 2.5 Flare",
+        "src": "/articles/img/model-benchmarks/2026-10/nb21/ugc-french-flare.webp",
+        "alt": "GPT Image 2.5 Flare hand-held La Roche-Posay thermal-water bottle UGC comparison",
+        "verdict": "Bright, polished UGC image and readable main French copy. Omits Sans conservateur / Preservative-free from the lower label."
+    },
+    {
+        "label": "Seedream 5 Pro",
+        "src": "/articles/img/model-benchmarks/2026-10/nb21/ugc-french-seedream5pro.webp",
+        "alt": "Seedream 5 Pro hand-held La Roche-Posay thermal-water bottle UGC comparison",
+        "verdict": "Soft, believable daylight and readable main copy. The small lower label and origin text become garbled."
+    }
+]}
+/>
+
+| Model | What decides this round |
 | --- | --- |
-| **Seedream 5 Pro** | **Winner.** Closest black pattern, leaf seal and handwritten brand line; main English and French copy stays readable. |
-| Nano Banana 2.1 | Clean finish and readable main copy, but turns the black pattern gold and redraws the seal. |
-| Nano Banana 2.0 | Similar tradeoff: readable copy, changed pattern color and a redesigned seal. |
-| Sunburst | Strong packshot, but drops the handwritten brand line and changes the seal. |
-| Flare | Strong packshot, but drops the handwritten brand line and changes the seal. |
+| **Sunburst** | **Winner:** strongest preservation of the French and English label, including the small lower copy. |
+| Flare | Clean main copy and strong finish, but removes the preservative-free lines. |
+| Nano Banana 2.1 | Believable UGC image; drops a French accent and invents lower label wording. |
+| Nano Banana Pro | Believable UGC image; changes “Apaise” to “Apaisa” and invents lower label wording. |
+| Nano Banana 2.0 | Main bilingual copy stays readable, but the lower label becomes invented text. |
+| Seedream 5 Pro | Soft natural finish; the small lower label and origin wording become garbled. |
 
-The deciding factor is brand fidelity: a beautiful bottle with changed packaging loses this round. Seedream’s tiny seal lettering and handwriting still need a final check before a campaign goes live. This is a winner for this product and brief, not a universal ranking.
+All six keep the bottle recognizable and make an attractive image. The difference appears when you read the packaging. For this product, we would start with Sunburst; these are comparison results, and the source photograph remains the final brand reference.
 
 ## Identity across two poses
 
@@ -261,9 +303,9 @@ For this cast and garment, **Nano Banana 2.1 is a credible starting point for po
 
 **Sunburst and Flare deserve the same brief** when close source likeness and editorial material detail matter. In these samples they retain more facial texture, while occasionally retaining the source pose too strongly or choosing a crop the brief did not request. Their Arena lead is relevant shortlist evidence, not a substitute for product review.
 
-**Seedream 5 Pro remains a useful fabric-and-color alternative at 2K.** It keeps the principal jacket features and coherent casting here, but the packaging duplication and campaign crop need correction. **Nano Banana 2.0 remains competitive on these small samples**; we did not measure a consistent upgrade advantage in identity or three-line ad copy.
+**Sunburst wins the French-label UGC bottle round**, while Nano Banana Pro’s appealing finish still changes packaging copy. **Seedream 5 Pro remains a useful fabric-and-color alternative at 2K.** It keeps the principal jacket features and coherent casting here, but the packaging duplication and campaign crop need correction. **Nano Banana 2.0 remains competitive on these small samples**; we did not measure a consistent upgrade advantage in identity or three-line ad copy.
 
-These are 30 qualification samples, including the five supplemental small-text runs, not a statistically reliable model ranking. They use provider defaults rather than matched internal inference budgets: Google's 2.1 default thinking is medium, while its predecessor defaults to minimal. Actual delivered ratios also vary slightly. We did not test long editing chains, real customer SKUs, wider cast diversity or a matched latency distribution. Keep aesthetic, identity, product and copy approvals separate.
+These are 31 qualification samples, including six French-label UGC bottle results, not a statistically reliable model ranking. They use provider defaults rather than matched internal inference budgets: Google's 2.1 default thinking is medium, while its predecessor defaults to minimal. Actual delivered ratios also vary slightly. We did not test long editing chains, wider real-product catalogs, wider cast diversity or a matched latency distribution. Keep aesthetic, identity, product and copy approvals separate.
 
 ## What the community is saying
 

@@ -1,0 +1,133 @@
+{
+  "models": {
+    "nano-banana-pro": {
+      "tune_id": 3618064,
+      "title": "Nano Banana Pro (Gemini 3)",
+      "resolutions": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    },
+    "nano-banana-2": {
+      "tune_id": 4180298,
+      "title": "Nano Banana 2 Pro (Gemini 3.1)",
+      "resolutions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "default": true
+    },
+    "nano-banana": {
+      "tune_id": 3159068,
+      "title": "Nano Banana (Gemini 2.5)"
+    },
+    "seedream": {
+      "tune_id": 3691308,
+      "title": "Seedream 4.5"
+    },
+    "seedream5": {
+      "tune_id": 4160332,
+      "title": "Seedream 5.0 Lite"
+    },
+    "seedream5pro": {
+      "tune_id": 5236038,
+      "title": "Seedream 5.0 Pro",
+      "resolutions": [
+        "1K",
+        "2K"
+      ],
+      "default_resolution": "2K"
+    },
+    "flux2pro": {
+      "tune_id": 3672206,
+      "title": "Flux 2 Pro",
+      "resolutions": [
+        "1K",
+        "2K"
+      ]
+    },
+    "gpt-image-2": {
+      "tune_id": 4665564,
+      "title": "GPT Image 2",
+      "resolutions": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    },
+    "gpt-image-2.5-sunburst": {
+      "tune_id": 5634510,
+      "title": "GPT Image 2.5 Sunburst",
+      "resolutions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "qualities": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "default_resolution": "1K"
+    },
+    "gpt-image-2.5-flare": {
+      "tune_id": 5634511,
+      "title": "GPT Image 2.5 Flare",
+      "resolutions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "qualities": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "default_resolution": "1K"
+    },
+    "recraft-4-1": {
+      "tune_id": 4906493,
+      "title": "Recraft V4.1"
+    },
+    "ideogram-v4": {
+      "tune_id": 5195670,
+      "title": "Ideogram V4",
+      "resolutions": [
+        "1K",
+        "2K"
+      ],
+      "default_resolution": "2K",
+      "qualities": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "wan-2-7": {
+      "tune_id": 4495283,
+      "title": "WAN 2.7"
+    },
+    "wan-2-7-pro": {
+      "tune_id": 4495299,
+      "title": "WAN 2.7 Pro"
+    },
+    "nano-banana-2-lite": {
+      "tune_id": 5205178,
+      "title": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite)"
+    }
+  },
+  "sourcePage": "https://unsplash.com/photos/white-and-blue-plastic-bottle-lVqdbhX7k8M",
+  "author": "Arthur Pereira",
+  "license": "https://unsplash.com/license",
+  "nativeDimensions": [
+    2488,
+    4422
+  ],
+  "imageURL": "https://images.unsplash.com/photo-1595522364454-7e129ac2effa?fm=jpg&q=100"
+}

@@ -1,0 +1,66 @@
+{
+  "args": {
+    "workspace": "896",
+    "title": "Articles — La Roche-Posay thermal water, Arthur Pereira Unsplash",
+    "name": "bottle",
+    "model_type": "faceid",
+    "image_url": [
+      "https://images.unsplash.com/photo-1595522364454-7e129ac2effa?fm=jpg&q=100"
+    ],
+    "description": "Use the tallest white thermal-water aerosol bottle on the left. Licensed outdoor product photo by Arthur Pereira, Unsplash lVqdbhX7k8M; reference includes two other products which are not the target.",
+    "idempotency_key": "nb21-ugc-french-reference-20261007"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"id\":5853668,\"title\":\"Articles — La Roche-Posay thermal water, Arthur Pereira Unsplash\",\"name\":\"bottle\",\"is_api\":true,\"token\":null,\"eta\":\"2026-10-07T11:59:01.429Z\",\"callback\":null,\"trained_at\":\"2026-10-07T11:56:35.239Z\",\"started_training_at\":\"2026-10-07T11:56:35.239Z\",\"expires_at\":null,\"created_at\":\"2026-10-07T11:56:35.644Z\",\"model_type\":\"faceid\",\"updated_at\":\"2026-10-07T11:56:35.654Z\",\"cost_mc\":0,\"ref_with_trigger\":\"<faceid:5853668:1.0> bottle\",\"characteristics\":{\"short_description\":\"Use the tallest white thermal-water aerosol bottle on the left. Licensed outdoor product photo by Arthur Pereira, Unsplash lVqdbhX7k8M; reference includes two other products which are not the target.\"},\"base_tune_id\":4180298,\"branch\":\"gemini-2\",\"args\":null,\"steps\":null,\"face_crop\":false,\"ckpt_url\":null,\"ckpt_urls\":[],\"url\":\"https://api.astria.ai/tunes/5853668.json?ws=896\",\"editable\":true,\"can_manage_visibility\":true,\"public_at\":false,\"liked\":false,\"likes_count\":0,\"orig_images\":[\"https://mp.astria.ai/oqs05uatljqpy2jwgz21v518se0h\"],\"orig_image_blob_ids\":[228914398],\"argus\":[null]}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "id": 5853668,
+        "title": "Articles — La Roche-Posay thermal water, Arthur Pereira Unsplash",
+        "name": "bottle",
+        "is_api": true,
+        "token": null,
+        "eta": "2026-10-07T11:59:01.429Z",
+        "callback": null,
+        "trained_at": "2026-10-07T11:56:35.239Z",
+        "started_training_at": "2026-10-07T11:56:35.239Z",
+        "expires_at": null,
+        "created_at": "2026-10-07T11:56:35.644Z",
+        "model_type": "faceid",
+        "updated_at": "2026-10-07T11:56:35.654Z",
+        "cost_mc": 0,
+        "ref_with_trigger": "<faceid:5853668:1.0> bottle",
+        "characteristics": {
+          "short_description": "Use the tallest white thermal-water aerosol bottle on the left. Licensed outdoor product photo by Arthur Pereira, Unsplash lVqdbhX7k8M; reference includes two other products which are not the target."
+        },
+        "base_tune_id": 4180298,
+        "branch": "gemini-2",
+        "args": null,
+        "steps": null,
+        "face_crop": false,
+        "ckpt_url": null,
+        "ckpt_urls": [],
+        "url": "https://api.astria.ai/tunes/5853668.json?ws=896",
+        "editable": true,
+        "can_manage_visibility": true,
+        "public_at": false,
+        "liked": false,
+        "likes_count": 0,
+        "orig_images": [
+          "https://mp.astria.ai/oqs05uatljqpy2jwgz21v518se0h"
+        ],
+        "orig_image_blob_ids": [
+          228914398
+        ],
+        "argus": [
+          null
+        ]
+      }
+    },
+    "isError": false
+  }
+}

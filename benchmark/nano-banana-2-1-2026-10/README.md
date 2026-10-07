@@ -156,3 +156,7 @@ After publication, a sixth brief added five controlled beauty-bottle small-text 
 ## Real beauty-product replacement
 
 The public vector fixture is superseded by a real −417 Milk Cleanser comparison inspired by workspace 417. See `real-beauty/README.md` and its complete submissions, results and visual review. Current article: 25 original + 5 real-product outputs = 30. The retired five vector runs remain internal historical records (35 comparison submissions overall). Seedream 5 Pro wins this product-specific packaging comparison.
+
+## French-label UGC replacement
+
+At user request, the −417 section is replaced by a licensed La Roche-Posay photograph and six matched UGC outputs, including Nano Banana Pro. See `ugc-french/README.md` and complete records. Current public comparison count: 31 (25 original + six UGC). Both earlier five-run bottle fixtures remain historical/internal. All six UGC outputs are displayed as explicitly requested, with label-fidelity deviations disclosed; Sunburst wins this brief.
