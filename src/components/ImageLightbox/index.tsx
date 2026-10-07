@@ -57,7 +57,7 @@ export default function ImageLightbox() {
   const close = useCallback(() => {
     setGallery(null);
     resetView();
-    window.requestAnimationFrame(() => previousFocus.current?.focus());
+    window.requestAnimationFrame(() => previousFocus.current?.focus({preventScroll: true}));
   }, [resetView]);
 
   const navigate = useCallback((direction: -1 | 1) => {
@@ -139,10 +139,9 @@ export default function ImageLightbox() {
   useEffect(() => {
     if (!gallery) return;
     const previousHtmlOverflow = document.documentElement.style.overflow;
-    const previousBodyOverflow = document.body.style.overflow;
+    const scrollPosition = {left: window.scrollX, top: window.scrollY};
     document.documentElement.style.overflow = 'hidden';
-    document.body.style.overflow = 'hidden';
-    closeRef.current?.focus();
+    closeRef.current?.focus({preventScroll: true});
 
     const handleKey = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
@@ -171,7 +170,7 @@ export default function ImageLightbox() {
     return () => {
       document.removeEventListener('keydown', handleKey);
       document.documentElement.style.overflow = previousHtmlOverflow;
-      document.body.style.overflow = previousBodyOverflow;
+      window.scrollTo({...scrollPosition, behavior: 'instant'});
     };
   }, [close, gallery === null, navigate, resetView, zoomAt]);
 
