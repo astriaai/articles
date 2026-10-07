@@ -1,0 +1,66 @@
+{
+  "args": {
+    "workspace": "896",
+    "title": "Articles — clean Effaclar Mat studio packshot, Cosmin Ursea",
+    "name": "tube",
+    "model_type": "faceid",
+    "image_url": [
+      "https://images.unsplash.com/photo-1641130290711-01c4c4558562?fm=jpg&q=100"
+    ],
+    "description": "Single real white Effaclar Mat skincare tube on a plain light studio background. Native 3376x6000 photo by Cosmin Ursea, Unsplash 2wM1AFH4At0. All 11 front-label text lines visually verified readable.",
+    "idempotency_key": "nb21-clean-packshot-reference-20261007"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"id\":5853747,\"title\":\"Articles — clean Effaclar Mat studio packshot, Cosmin Ursea\",\"name\":\"tube\",\"is_api\":true,\"token\":null,\"eta\":\"2026-10-07T12:13:02.657Z\",\"callback\":null,\"trained_at\":\"2026-10-07T12:10:36.282Z\",\"started_training_at\":\"2026-10-07T12:10:36.282Z\",\"expires_at\":null,\"created_at\":\"2026-10-07T12:10:36.871Z\",\"model_type\":\"faceid\",\"updated_at\":\"2026-10-07T12:10:36.879Z\",\"cost_mc\":0,\"ref_with_trigger\":\"<faceid:5853747:1.0> tube\",\"characteristics\":{\"short_description\":\"Single real white Effaclar Mat skincare tube on a plain light studio background. Native 3376x6000 photo by Cosmin Ursea, Unsplash 2wM1AFH4At0. All 11 front-label text lines visually verified readable.\"},\"base_tune_id\":4180298,\"branch\":\"gemini-2\",\"args\":null,\"steps\":null,\"face_crop\":false,\"ckpt_url\":null,\"ckpt_urls\":[],\"url\":\"https://api.astria.ai/tunes/5853747.json?ws=896\",\"editable\":true,\"can_manage_visibility\":true,\"public_at\":false,\"liked\":false,\"likes_count\":0,\"orig_images\":[\"https://mp.astria.ai/enc4rmjq9p1qylgzyrgrsfvy9ca2\"],\"orig_image_blob_ids\":[228915137],\"argus\":[null]}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "id": 5853747,
+        "title": "Articles — clean Effaclar Mat studio packshot, Cosmin Ursea",
+        "name": "tube",
+        "is_api": true,
+        "token": null,
+        "eta": "2026-10-07T12:13:02.657Z",
+        "callback": null,
+        "trained_at": "2026-10-07T12:10:36.282Z",
+        "started_training_at": "2026-10-07T12:10:36.282Z",
+        "expires_at": null,
+        "created_at": "2026-10-07T12:10:36.871Z",
+        "model_type": "faceid",
+        "updated_at": "2026-10-07T12:10:36.879Z",
+        "cost_mc": 0,
+        "ref_with_trigger": "<faceid:5853747:1.0> tube",
+        "characteristics": {
+          "short_description": "Single real white Effaclar Mat skincare tube on a plain light studio background. Native 3376x6000 photo by Cosmin Ursea, Unsplash 2wM1AFH4At0. All 11 front-label text lines visually verified readable."
+        },
+        "base_tune_id": 4180298,
+        "branch": "gemini-2",
+        "args": null,
+        "steps": null,
+        "face_crop": false,
+        "ckpt_url": null,
+        "ckpt_urls": [],
+        "url": "https://api.astria.ai/tunes/5853747.json?ws=896",
+        "editable": true,
+        "can_manage_visibility": true,
+        "public_at": false,
+        "liked": false,
+        "likes_count": 0,
+        "orig_images": [
+          "https://mp.astria.ai/enc4rmjq9p1qylgzyrgrsfvy9ca2"
+        ],
+        "orig_image_blob_ids": [
+          228915137
+        ],
+        "argus": [
+          null
+        ]
+      }
+    },
+    "isError": false
+  }
+}

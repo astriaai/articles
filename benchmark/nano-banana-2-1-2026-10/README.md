@@ -160,3 +160,7 @@ The public vector fixture is superseded by a real −417 Milk Cleanser compariso
 ## French-label UGC replacement
 
 At user request, the −417 section is replaced by a licensed La Roche-Posay photograph and six matched UGC outputs, including Nano Banana Pro. See `ugc-french/README.md` and complete records. Current public comparison count: 31 (25 original + six UGC). Both earlier five-run bottle fixtures remain historical/internal. All six UGC outputs are displayed as explicitly requested, with label-fidelity deviations disclosed; Sunburst wins this brief.
+
+## Clean single-product packshot correction
+
+User clarified that the source must be ONE clean studio product with fully readable small copy, followed by measuring reproduction in a real scene. The multi-product aerosol round is retired. See `packshot-scene/README.md`, source transcription, six exact submissions and line-by-line visual review. Public count stays 31; five models score 11/11 and Nano Banana 2.0 scores 10/11 (AVEC → AVBE). No single winner claimed.
