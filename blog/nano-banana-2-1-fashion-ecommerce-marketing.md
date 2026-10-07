@@ -1,6 +1,6 @@
 ---
 title: "Nano Banana 2.1 for Fashion, Ecommerce, and Marketing: Comparison"
-description: "25 matched reference-led tests of Nano Banana 2.1, 2.0, Sunburst, Flare and Seedream Pro: garment fidelity, identity, ad copy, campaigns and Arena ranking."
+description: "30 matched reference-led outputs of Nano Banana 2.1, 2.0, Sunburst, Flare and Seedream Pro: garment fidelity, identity, ad copy, campaigns and Arena ranking."
 slug: nano-banana-2-1-fashion-ecommerce-marketing
 date: 2026-10-07
 hide_table_of_contents: false
@@ -17,7 +17,7 @@ keywords:
 
 import ImageModelComparison from '@site/src/components/ImageModelComparison';
 
-**Nano Banana 2.1 is a strong candidate for commercial reference-based image work: it ranks third in Arena's multi-image-edit Product, Branding & Commercial Design category as checked on October 7, 2026.** In our 25 matched reference-led samples, it preserves the jacket's main features and produces convincing on-model portraits, but does not win every identity, label, or campaign constraint. It belongs on a production shortlist alongside Sunburst and Flare, with product-specific approval before use.
+**Nano Banana 2.1 is a strong candidate for commercial reference-based image work: it ranks third in Arena's multi-image-edit Product, Branding & Commercial Design category as checked on October 7, 2026.** In our 30 reference-led samples, it preserves the jacket's main features and produces convincing on-model portraits, but does not win every identity, label, or campaign constraint. It belongs on a production shortlist alongside Sunburst and Flare, with product-specific approval before use.
 
 For a fashion brand, a prettier picture with the wrong embroidery is a failed asset. For an ecommerce team, readable copy cannot compensate for a changed product shape. For a marketing team, composition, product fidelity, and copy accuracy need separate approvals.
 
@@ -25,7 +25,7 @@ For a fashion brand, a prettier picture with the wrong embroidery is a failed as
 
 <figure data-source-reference="/articles/img/model-benchmarks/2026-10/nb21/source-cast.webp /articles/img/model-benchmarks/2026-10/nb21/source-jacket.webp"><img src="/articles/img/model-benchmarks/2026-10/nb21/hero-portrait-nano-banana-2-1.webp" alt="Reference-driven Nano Banana 2.1 portrait of the synthetic cast wearing the orange crane-embroidered jacket" /><figcaption>Nano Banana 2.1 · separate native 4K cover render · supplied cast and garment references. This cover is outside the matched 2K comparison.</figcaption></figure>
 
-**Tested October 7, 2026.** Five briefs, five models, one output per cell. We show reviewed selections and report the rejected cells in text; there are no replacement runs in the comparison.
+**Tested October 7, 2026.** Five original briefs plus a supplemental small-text bottle test, five models, one output per cell. We show reviewed selections and report the rejected cells in text; there are no replacement runs in the comparison.
 
 ## What Nano Banana 2.1 changes
 
@@ -123,6 +123,34 @@ Product fidelity still needs a stricter judgment. Bottle and pump proportions di
 | Seedream 5 Pro | Correct and legible | Adds an extra “30 mL” near the carton bottom |
 
 For marketers, approve the product first, then check spelling, hierarchy, contrast, and room for channel-specific crops. For ecommerce teams, retain approved product photography when an AI transformation changes the SKU's defining shape or hardware.
+
+## Beauty bottle: does 12–14 px label text survive?
+
+We added a sixth brief after the original comparison: a controlled beauty bottle with five lines of small secondary copy. The supplied reference is an original fictional bottle illustration at **2400 × 1800**, with native SVG font sizes of **12, 13 and 14 px**. It is a clean, front-facing, high-contrast label; this is an easier case than a photograph with curved, reflective or partly hidden fine print.
+
+The five lines are “Daily facial serum”, “Apply 2 drops to clean skin.”, “For external use only.”, “Store in a cool, dry place.” and “30 mL / 1.0 fl oz”. The prompt asks for a dusty-rose background while preserving the bottle, label, every character and the small typography. **It does not supply those words in the prompt**: models must recover them from the same image reference. Each model gets one 2K output with the same 4:3 request; no reruns.
+
+**Nano Banana 2.1 preserves all five small-text lines, including punctuation, in this sample.** Nano Banana 2.0, Sunburst and Seedream do too. Flare preserves four lines but changes the volume text to “30 mL / 1.01 oz”, losing “fl” and changing the number. A readable line can therefore still be an incorrect package label.
+
+| Model | Exact secondary lines, manually reviewed | Product/edit observation | Prompt ID · native output |
+| --- | --- | --- | --- |
+| Nano Banana 2.1 | 5 / 5 | Re-shades the bottle and rounds its shoulders; background-only fidelity fails, image withheld | 47134330 · 2400 × 1792 |
+| Nano Banana 2.0 | 5 / 5 | Retains the illustrated bottle, cream label and pump | 47134332 · 2400 × 1792 |
+| Sunburst | 5 / 5 | Retains the main bottle anchors; strengthens floor contact | 47134333 · 2304 × 1792 |
+| Flare | 4 / 5 | Volume becomes “1.01 oz”; image withheld | 47134334 · 2304 × 1792 |
+| Seedream 5 Pro | 5 / 5 | Makes the body rose-metallic; background-only fidelity fails, image withheld | 47134336 · 2368 × 1776 |
+
+<ImageModelComparison
+  title="Small-text bottle — supplied reference and reviewed selections"
+  description="Same reference and edit brief. The two shown outputs retain the small wording and main product anchors; the other results are reported in the table. Open an image to inspect the label at full size."
+  reference={{label: 'Controlled source: 12–14 px secondary text', src: '/articles/img/model-benchmarks/2026-10/nb21/small-text-source.webp', alt: 'Original fictional LUMEN beauty bottle illustration with five precisely sized secondary text lines'}}
+  items={[
+    {label: 'Nano Banana 2.0', src: '/articles/img/model-benchmarks/2026-10/nb21/small-text-nano-banana-2-0.webp', alt: 'Nano Banana 2.0 beauty bottle on a rose background preserving five small-text lines', verdict: 'Five exact lines, including 30 mL / 1.0 fl oz. Retains the illustrated product treatment.'},
+    {label: 'GPT Image 2.5 Sunburst', src: '/articles/img/model-benchmarks/2026-10/nb21/small-text-sunburst.webp', alt: 'Sunburst beauty bottle on a rose background preserving five small-text lines', verdict: 'Five exact lines. Main bottle construction and pump remain recognizable, with stronger floor contact.'}
+  ]}
+/>
+
+The pixel sizes describe **the source font settings**, not CSS text on this page or a guaranteed output font size. Native output dimensions differ across endpoints, and the models redraw typography. We reviewed full images and native-resolution label crops; the published assets are full images encoded losslessly without resizing or text repair. Five-line counts describe these individual outputs, not a general accuracy rate. This supports a limited small-copy pass for 2.1 on a clean fixture, while reinforcing the need to approve product geometry and material separately.
 
 ## Identity across two poses
 
@@ -242,7 +270,7 @@ For this cast and garment, **Nano Banana 2.1 is a credible starting point for po
 
 **Seedream 5 Pro remains a useful fabric-and-color alternative at 2K.** It keeps the principal jacket features and coherent casting here, but the packaging duplication and campaign crop need correction. **Nano Banana 2.0 remains competitive on these small samples**; we did not measure a consistent upgrade advantage in identity or three-line ad copy.
 
-These are 25 qualification samples, not a statistically reliable model ranking. They use provider defaults rather than matched internal inference budgets: Google's 2.1 default thinking is medium, while its predecessor defaults to minimal. Actual delivered ratios also vary slightly. We did not test long editing chains, real customer SKUs, wider cast diversity or a matched latency distribution. Keep aesthetic, identity, product and copy approvals separate.
+These are 30 qualification samples, including the five supplemental small-text runs, not a statistically reliable model ranking. They use provider defaults rather than matched internal inference budgets: Google's 2.1 default thinking is medium, while its predecessor defaults to minimal. Actual delivered ratios also vary slightly. We did not test long editing chains, real customer SKUs, wider cast diversity or a matched latency distribution. Keep aesthetic, identity, product and copy approvals separate.
 
 ## What the community is saying
 

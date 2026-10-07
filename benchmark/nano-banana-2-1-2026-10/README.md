@@ -148,3 +148,7 @@ in an isolated checkout, including only this article, its reviewed assets,
 benchmark records and the content-ledger entry. The deployment target is the
 repository's gh-pages branch and https://www.astria.ai/articles/nano-banana-2-1-fashion-ecommerce-marketing/.
 The clean release checkout passes all 24 repository tests, TypeScript checking, and the production build. The article explicitly imports its comparison component so it renders on the current published branch.
+
+## Supplemental small-text test
+
+After publication, a sixth brief added five controlled beauty-bottle small-text runs. See `small-text/README.md`, `results.json` and `review.json` for the original SVG, exact 12–14 px source font settings, five matched submissions, complete outputs and selection rationale. Total comparison outputs: 30; earlier 25-cell records remain unchanged.

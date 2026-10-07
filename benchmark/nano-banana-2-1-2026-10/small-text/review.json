@@ -1,0 +1,25 @@
+{
+  "workspace": 896,
+  "reference_id": 5852262,
+  "source": "Original fictional SVG bottle fixture authored for this test; rasterized with rsvg-convert, no upscaling or photographic source claim.",
+  "source_pixels": [
+    2400,
+    1800
+  ],
+  "source_font_sizes_px": [
+    14,
+    13,
+    12,
+    12,
+    14
+  ],
+  "expected_lines": [
+    "Daily facial serum",
+    "Apply 2 drops to clean skin.",
+    "For external use only.",
+    "Store in a cool, dry place.",
+    "30 mL / 1.0 fl oz"
+  ],
+  "method": "Manual full-image and native-pixel crop review of all outputs; crops stored only in temporary review files, no OCR score or independent reviewer claimed. Wording and punctuation scored separately from product geometry/material. Source sizes are SVG font sizes, not measured output glyph heights or CSS display sizes.",
+  "selection": "Only Nano Banana 2.0 and Sunburst full images published: attractive controlled-fixture examples with all five small-text lines correct and main product anchors faithful. Nano Banana 2.1, Flare and Seedream outputs internal because product material/geometry or exact small copy fails. No selective reruns."
+}

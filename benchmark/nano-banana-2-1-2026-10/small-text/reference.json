@@ -1,0 +1,40 @@
+{
+  "id": 5852262,
+  "title": "LUMEN controlled 12–14 px beauty label",
+  "name": "bottle",
+  "is_api": true,
+  "token": null,
+  "eta": "2026-10-07T08:51:01.721Z",
+  "callback": null,
+  "trained_at": "2026-10-07T08:48:35.934Z",
+  "started_training_at": "2026-10-07T08:48:35.934Z",
+  "expires_at": null,
+  "created_at": "2026-10-07T08:48:35.935Z",
+  "model_type": "faceid",
+  "updated_at": "2026-10-07T08:48:35.941Z",
+  "cost_mc": 0,
+  "ref_with_trigger": "<faceid:5852262:1.0> bottle",
+  "characteristics": {},
+  "base_tune_id": 4180298,
+  "branch": "gemini-2",
+  "args": null,
+  "steps": null,
+  "face_crop": false,
+  "ckpt_url": null,
+  "ckpt_urls": [],
+  "url": "https://api.astria.ai/tunes/5852262.json?ws=896",
+  "editable": true,
+  "can_manage_visibility": true,
+  "public_at": false,
+  "liked": false,
+  "likes_count": 0,
+  "orig_images": [
+    "https://mp.astria.ai/i3lz6ajyv66k878hjkr7mzfaouat"
+  ],
+  "orig_image_blob_ids": [
+    228903748
+  ],
+  "argus": [
+    null
+  ]
+}
