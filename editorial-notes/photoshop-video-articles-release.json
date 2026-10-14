@@ -1,0 +1,480 @@
+{
+  "timezone": "Asia/Jerusalem",
+  "created": "2026-10-14",
+  "cadence": "one article per calendar day",
+  "articles": [
+    {
+      "slug": "nano-banana-photoshop-architecture",
+      "file": "blog/nano-banana-photoshop-architecture.md",
+      "title": "Nano Banana Architecture in Photoshop for Design Teams",
+      "date": "2026-10-14",
+      "video_id": "92LGIUy9VK0",
+      "hero": "architecture-daylight",
+      "primary_query": "Nano Banana architecture Photoshop"
+    },
+    {
+      "slug": "nano-banana-photoshop-fashion-references",
+      "file": "blog/nano-banana-photoshop-fashion-references.md",
+      "title": "Replace Clothing in Photoshop With Product References",
+      "date": "2026-10-15",
+      "video_id": "EVdifaMROfk",
+      "hero": "fashion-reference-sweater",
+      "primary_query": "replace clothing in Photoshop with reference image"
+    },
+    {
+      "slug": "nano-banana-photoshop-wedding-retouching",
+      "file": "blog/nano-banana-photoshop-wedding-retouching.md",
+      "title": "Wedding Photo Retouching in Photoshop With Nano Banana",
+      "date": "2026-10-16",
+      "video_id": "vqCrHL6c1e8",
+      "hero": "bridal-retouch",
+      "primary_query": "AI wedding photo editing Photoshop"
+    },
+    {
+      "slug": "nano-banana-photoshop-fashion-campaign-variations",
+      "file": "blog/nano-banana-photoshop-fashion-campaign-variations.md",
+      "title": "Fashion Campaign Variations in Photoshop With AI",
+      "date": "2026-10-17",
+      "video_id": "Q82FDj2Ub2w",
+      "hero": "campaign-day",
+      "primary_query": "fashion campaign variations Photoshop"
+    },
+    {
+      "slug": "nano-banana-photoshop-real-estate-editing",
+      "file": "blog/nano-banana-photoshop-real-estate-editing.md",
+      "title": "Real Estate Photo Editing in Photoshop With Nano Banana",
+      "date": "2026-10-18",
+      "video_id": "dryzJgkg3Rw",
+      "hero": "property-evening",
+      "primary_query": "AI real estate photo editing Photoshop"
+    },
+    {
+      "slug": "nano-banana-photoshop-portrait-brand-editing",
+      "file": "blog/nano-banana-photoshop-portrait-brand-editing.md",
+      "title": "Portrait and Brand Photo Editing in Photoshop With AI",
+      "date": "2026-10-19",
+      "video_id": "QEyWRuBgVno",
+      "hero": "portrait-office",
+      "primary_query": "AI portrait editing Photoshop"
+    },
+    {
+      "slug": "nano-banana-photoshop-packaging-mockups",
+      "file": "blog/nano-banana-photoshop-packaging-mockups.md",
+      "title": "AI Packaging Mockups in Photoshop for Product Teams",
+      "date": "2026-10-20",
+      "video_id": "OYnSAHvFQKs",
+      "hero": "packaging-design",
+      "primary_query": "AI packaging mockup Photoshop"
+    }
+  ],
+  "visuals": [
+    {
+      "file": "static/img/photoshop-video-guides/architecture-source.webp",
+      "video_url": "https://www.youtube.com/watch?v=92LGIUy9VK0",
+      "timestamp_seconds": 0.5,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - Switch from Sketch to Realism with architecture",
+      "video_upload_date": "20250915",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "9baf709baa9f44e0ce63ab587d1e66cd33c284a789bafc7d41cb5438423fabf6",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/architecture-daylight.webp",
+      "video_url": "https://www.youtube.com/watch?v=92LGIUy9VK0",
+      "timestamp_seconds": 12,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - Switch from Sketch to Realism with architecture",
+      "video_upload_date": "20250915",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "b0b9af35dbacbee8b7e83bc6a28eabbced4c8f53bed943f0e72f65ec7e95ea98",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/architecture-night.webp",
+      "video_url": "https://www.youtube.com/watch?v=92LGIUy9VK0",
+      "timestamp_seconds": 26,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - Switch from Sketch to Realism with architecture",
+      "video_upload_date": "20250915",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "ec7473d1f2cce14453017fb53b2c59110f992180026b27dc1069d55ee5114aaf",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/architecture-angle.webp",
+      "video_url": "https://www.youtube.com/watch?v=92LGIUy9VK0",
+      "timestamp_seconds": 53,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - Switch from Sketch to Realism with architecture",
+      "video_upload_date": "20250915",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "e36ac04cf816268aa21f703ac3433258359b6bc6db8a5c13f385b80648c2825a",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/fashion-reference-source.webp",
+      "video_url": "https://www.youtube.com/watch?v=EVdifaMROfk",
+      "timestamp_seconds": 0.5,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - using reference images to edit realistic images for fashion",
+      "video_upload_date": "20250921",
+      "source_video_dimensions": [
+        1920,
+        1244
+      ],
+      "published_dimensions": [
+        850,
+        1055
+      ],
+      "processing": "canvas crop only",
+      "sha256": "7e7ee1264b17a967c042e409e1c90eba52ce1302b0dfdd58512c0976989c6888",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/fashion-reference-sweater.webp",
+      "video_url": "https://www.youtube.com/watch?v=EVdifaMROfk",
+      "timestamp_seconds": 65,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - using reference images to edit realistic images for fashion",
+      "video_upload_date": "20250921",
+      "source_video_dimensions": [
+        1920,
+        1244
+      ],
+      "published_dimensions": [
+        850,
+        1055
+      ],
+      "processing": "canvas crop only",
+      "sha256": "9eba6be923ebe2a05bf4c94bd76740697fe44f941a1aeff8975787582228fc0b",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/bridal-source.webp",
+      "video_url": "https://www.youtube.com/watch?v=vqCrHL6c1e8",
+      "timestamp_seconds": 98,
+      "channel": "Astria_AI",
+      "video_title": "Bridal photography editing for photographers using Nano-Banana plugin for Photoshop",
+      "video_upload_date": "20251009",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "4249727d29e49e2ccc1d7463845e7b422e69dcaad0b074afd63c0b27f6955fda",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/bridal-retouch.webp",
+      "video_url": "https://www.youtube.com/watch?v=vqCrHL6c1e8",
+      "timestamp_seconds": 125,
+      "channel": "Astria_AI",
+      "video_title": "Bridal photography editing for photographers using Nano-Banana plugin for Photoshop",
+      "video_upload_date": "20251009",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "a9d84976092bf483001994ac7f29b74792a47e07446152bb66617ce0311a8352",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/campaign-wide.webp",
+      "video_url": "https://www.youtube.com/watch?v=Q82FDj2Ub2w",
+      "timestamp_seconds": 14,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - Fashion workflow with Seedream",
+      "video_upload_date": "20250916",
+      "source_video_dimensions": [
+        1268,
+        720
+      ],
+      "published_dimensions": [
+        1268,
+        720
+      ],
+      "processing": "full native video frame",
+      "sha256": "0c28fbf4249e2139c8c77fe27cecac73e6344eef5320469ef8c65a17d6d26d8b",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/campaign-night.webp",
+      "video_url": "https://www.youtube.com/watch?v=Q82FDj2Ub2w",
+      "timestamp_seconds": 66,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - Fashion workflow with Seedream",
+      "video_upload_date": "20250916",
+      "source_video_dimensions": [
+        1268,
+        720
+      ],
+      "published_dimensions": [
+        1268,
+        720
+      ],
+      "processing": "full native video frame",
+      "sha256": "ea6ceebd3877645ab52b5be0cc24e00162ca85133ad2aae98155b7cc2bfcc07d",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/campaign-day.webp",
+      "video_url": "https://www.youtube.com/watch?v=Q82FDj2Ub2w",
+      "timestamp_seconds": 71,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - Fashion workflow with Seedream",
+      "video_upload_date": "20250916",
+      "source_video_dimensions": [
+        1268,
+        720
+      ],
+      "published_dimensions": [
+        1268,
+        720
+      ],
+      "processing": "full native video frame",
+      "sha256": "473a486ee8f408087f71fee5d6a44fbcc667eac7ec9a29e7e0f0d1cde49d1c45",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/property-day.webp",
+      "video_url": "https://www.youtube.com/watch?v=dryzJgkg3Rw",
+      "timestamp_seconds": 54,
+      "channel": "Astria_AI",
+      "video_title": "Editing images for Real-Estate properties with Photoshop using AI and  Nano-Banana",
+      "video_upload_date": "20251019",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "29fbc48d081901e9ce2939e925a4a038776a9b6a702be6e64601c947f8412a9a",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/property-evening.webp",
+      "video_url": "https://www.youtube.com/watch?v=dryzJgkg3Rw",
+      "timestamp_seconds": 94,
+      "channel": "Astria_AI",
+      "video_title": "Editing images for Real-Estate properties with Photoshop using AI and  Nano-Banana",
+      "video_upload_date": "20251019",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "bda5869c8f3a86949406ea6f4734ecbeee7feeb5ab7d7a00c2ec38948a578b87",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/portrait-office.webp",
+      "video_url": "https://www.youtube.com/watch?v=QEyWRuBgVno",
+      "timestamp_seconds": 35,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - easy photo editing",
+      "video_upload_date": "20251003",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "6d6278ac0952b2984ad65ec1fc2b262f6e0f3a667aa9c25d5a970547954b0cd1",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/portrait-styling.webp",
+      "video_url": "https://www.youtube.com/watch?v=QEyWRuBgVno",
+      "timestamp_seconds": 47,
+      "channel": "Astria_AI",
+      "video_title": "Nano Banana plugin for Photoshop - easy photo editing",
+      "video_upload_date": "20251003",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "3860f04cbb1343df488457b1ffdf6509b0f6235267be0c733abeb07e1af7a57a",
+      "selection_rationale": "Distinct accessory and styling example from the same video, visually reviewed; not a before/after of the office portrait.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/packaging-source.webp",
+      "video_url": "https://www.youtube.com/watch?v=OYnSAHvFQKs",
+      "timestamp_seconds": 40,
+      "channel": "Astria_AI",
+      "video_title": "Packaging, e-commerce and retail with AI in Photoshop using Riverflow in Photoshop",
+      "video_upload_date": "20251023",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "a92b66510488fc802e78c967567823ac35c2b2091bce8e61e2be91139cc611f8",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "file": "static/img/photoshop-video-guides/packaging-design.webp",
+      "video_url": "https://www.youtube.com/watch?v=OYnSAHvFQKs",
+      "timestamp_seconds": 75,
+      "channel": "Astria_AI",
+      "video_title": "Packaging, e-commerce and retail with AI in Photoshop using Riverflow in Photoshop",
+      "video_upload_date": "20251023",
+      "source_video_dimensions": [
+        1920,
+        1080
+      ],
+      "published_dimensions": [
+        1920,
+        1080
+      ],
+      "processing": "full native video frame",
+      "sha256": "eb8ae6c2fea2dc7dc457c38eb286333e08d5c9be571319e98b019b6a997ae7ae",
+      "selection_rationale": "Clear workflow stage; subject, source relationship and edit purpose visually reviewed. Illustration of the recorded workflow, not a resolution or fidelity benchmark.",
+      "workspace": "Legacy recording; not exposed in video",
+      "prompt_id": "Not exposed in video",
+      "model": "Legacy panel model labels visible in the recording; no new generation",
+      "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
+      "reviewed": "2026-10-14"
+    }
+  ]
+}
