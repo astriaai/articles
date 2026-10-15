@@ -3,7 +3,7 @@ title: "AI Packaging Mockups in Photoshop for Product Teams"
 description: "Preview packaging patterns, logos, colors and product scenes in Photoshop. Use video examples and a practical workflow for design, brand and ecommerce teams."
 slug: nano-banana-photoshop-packaging-mockups
 date: 2026-10-15
-image: /img/photoshop-video-guides/packaging-design.webp
+image: /img/photoshop-video-guides/packaging-design-canvas.webp
 authors: [astria]
 tags: [guides, photoshop]
 keywords:
@@ -13,12 +13,14 @@ keywords:
   - "packaging concept variations"
 ---
 
+import VideoEditComparison from '@site/src/components/VideoEditComparison';
+
 export const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Packaging, e-commerce and retail with AI in Photoshop using Riverflow in Photoshop",
   "description": "Preview packaging patterns, logos, colors and product scenes in Photoshop. Use video examples and a practical workflow for design, brand and ecommerce teams.",
-  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/packaging-design.webp",
+  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/packaging-design-canvas.webp",
   "uploadDate": "2025-10-23T00:00:00Z",
   "duration": "PT92S",
   "embedUrl": "https://www.youtube.com/embed/OYnSAHvFQKs"
@@ -69,15 +71,10 @@ The **Astria Nano Banana Photoshop plugin** lets these teams use a package photo
 
 The demonstration applies patterns and logos to jars, pouches and boxes, changes a lid and container appearance, and explores package colors and a product setting. The box sequence begins with a plain white package and develops a patterned blue concept.
 
-<figure>
-  <img src="/articles/img/photoshop-video-guides/packaging-source.webp" alt="Plain white packaging box used as the source for a Photoshop mockup" loading="lazy" />
-  <figcaption>Plain package at 00:40. The visible box supplies the perspective, lid and side planes.</figcaption>
-</figure>
-
-<figure data-source-reference="/articles/img/photoshop-video-guides/packaging-source.webp">
-  <img src="/articles/img/photoshop-video-guides/packaging-design.webp" alt="Blue packaging concept with patterned sides and a white logo in Photoshop" loading="lazy" />
-  <figcaption>Packaging concept at 01:15 after reference graphics and color changes. Review artwork and panel boundaries before using a final asset.</figcaption>
-</figure>
+<VideoEditComparison
+  before={{"src": "/articles/img/photoshop-video-guides/packaging-source-canvas.webp", "alt": "Before: plain white rectangular packaging box on a pale blue surface", "caption": "00:40 — Plain package before applying the graphics and color treatment.", "width": 1476, "height": 984}}
+  after={{"src": "/articles/img/photoshop-video-guides/packaging-design-canvas.webp", "alt": "After: same box with a blue lid, white logo and patterned sides", "caption": "01:28 — Blue lid, white logo and patterned side panels on the same package view.", "width": 1476, "height": 984}}
+/>
 
 <iframe
   src="https://www.youtube-nocookie.com/embed/OYnSAHvFQKs?rel=0"

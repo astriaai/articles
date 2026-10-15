@@ -3,7 +3,7 @@ title: "Nano Banana Architecture in Photoshop for Design Teams"
 description: "Turn sketches and exported model views into architectural concepts in Photoshop. Compare materials, interiors, lighting and development scenarios."
 slug: nano-banana-photoshop-architecture
 date: 2026-10-14
-image: /img/photoshop-video-guides/architecture-daylight.webp
+image: /img/photoshop-video-guides/architecture-daylight-canvas.webp
 authors: [astria]
 tags: [guides, photoshop]
 keywords:
@@ -15,12 +15,14 @@ keywords:
   - "property development visualization"
 ---
 
+import VideoEditComparison from '@site/src/components/VideoEditComparison';
+
 export const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Nano Banana plugin for Photoshop - Switch from Sketch to Realism with architecture",
   "description": "Turn sketches and exported model views into architectural concepts in Photoshop. Compare materials, interiors, lighting and development scenarios.",
-  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/architecture-daylight.webp",
+  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/architecture-daylight-canvas.webp",
   "uploadDate": "2025-09-15T00:00:00Z",
   "duration": "PT62S",
   "embedUrl": "https://www.youtube.com/embed/92LGIUy9VK0"
@@ -71,15 +73,11 @@ The **Astria Nano Banana Photoshop plugin** lets you start with a sketch, a phot
 
 The architecture demonstration starts with a line drawing of a modern house and pool. It creates a daylight interpretation, then explores night lighting, blue pool illumination, outdoor dining and a different viewpoint. The source is already an image in Photoshop.
 
-<figure>
-  <img src="/articles/img/photoshop-video-guides/architecture-source.webp" alt="Architectural line drawing of a modern house and pool in Photoshop" loading="lazy" />
-  <figcaption>Source sketch at 00:00. This two-dimensional view supplies the visible building and pool layout.</figcaption>
-</figure>
-
-<figure data-source-reference="/articles/img/photoshop-video-guides/architecture-source.webp">
-  <img src="/articles/img/photoshop-video-guides/architecture-daylight.webp" alt="Daylight architectural concept generated from the house and pool sketch" loading="lazy" />
-  <figcaption>Daylight concept at 00:12, with the source and generated layer visible in the Photoshop document.</figcaption>
-</figure>
+<VideoEditComparison
+  before={{"src": "/articles/img/photoshop-video-guides/architecture-source-canvas.webp", "alt": "Before: line drawing of a modern house and pool", "caption": "00:00 — The source sketch establishes the house, pool and camera view.", "width": 946, "height": 630}}
+  after={{"src": "/articles/img/photoshop-video-guides/architecture-daylight-canvas.webp", "alt": "After: daylight architectural concept from the same house and pool sketch", "caption": "00:12 — The generated daylight interpretation adds materials, glazing, planting and reflections.", "width": 946, "height": 630}}
+  layers={{"src": "/articles/img/photoshop-video-guides/architecture-layers.webp", "alt": "Recorded Photoshop Layers panel with a generated image and mask above the source sketch", "caption": "00:12 — The generated image and its mask sit above the original sketch on Layer 0. This is the actual panel from the recording.", "width": 270, "height": 285}}
+/>
 
 <iframe
   src="https://www.youtube-nocookie.com/embed/92LGIUy9VK0?rel=0"
@@ -106,13 +104,13 @@ Watch the [original Astria demonstration](https://www.youtube.com/watch?v=92LGIU
 
 ## Explore lighting and viewpoints separately
 
-<figure data-source-reference="/articles/img/photoshop-video-guides/architecture-source.webp">
-  <img src="/articles/img/photoshop-video-guides/architecture-night.webp" alt="Night concept with blue pool lighting and warm house lighting" loading="lazy" />
-  <figcaption>Lighting option at 00:26. Night atmosphere and pool illumination are visual treatments of the source scene.</figcaption>
+<figure data-source-reference="/articles/img/photoshop-video-guides/architecture-source-canvas.webp">
+  <img src="/articles/img/photoshop-video-guides/architecture-night-canvas.webp" alt="Night concept with blue pool lighting and warm house lighting" loading="lazy" />
+  <figcaption>Lighting option at 00:30. Night atmosphere and pool illumination are visual treatments of the source scene.</figcaption>
 </figure>
 
-<figure data-source-reference="/articles/img/photoshop-video-guides/architecture-source.webp">
-  <img src="/articles/img/photoshop-video-guides/architecture-angle.webp" alt="Generated architectural viewpoint beside the house looking toward the pool" loading="lazy" />
+<figure data-source-reference="/articles/img/photoshop-video-guides/architecture-source-canvas.webp">
+  <img src="/articles/img/photoshop-video-guides/architecture-angle-canvas.webp" alt="Generated architectural viewpoint beside the house looking toward the pool" loading="lazy" />
   <figcaption>Viewpoint exploration at 00:53. Generate presentation ideas here; export precise camera views from the project model.</figcaption>
 </figure>
 

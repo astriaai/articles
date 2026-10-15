@@ -3,7 +3,7 @@ title: "Fashion Campaign Variations in Photoshop With AI"
 description: "Explore fashion settings, lighting, framing and poses in Photoshop with the Astria plugin. Prepare clear campaign options for creative and marketing teams."
 slug: nano-banana-photoshop-fashion-campaign-variations
 date: 2026-10-15
-image: /img/photoshop-video-guides/campaign-day.webp
+image: /img/photoshop-video-guides/campaign-day-canvas.webp
 authors: [astria]
 tags: [guides, photoshop]
 keywords:
@@ -13,12 +13,14 @@ keywords:
   - "fashion ad creative variations"
 ---
 
+import VideoEditComparison from '@site/src/components/VideoEditComparison';
+
 export const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Nano Banana plugin for Photoshop - Fashion workflow with Seedream",
   "description": "Explore fashion settings, lighting, framing and poses in Photoshop with the Astria plugin. Prepare clear campaign options for creative and marketing teams.",
-  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/campaign-day.webp",
+  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/campaign-day-canvas.webp",
   "uploadDate": "2025-09-16T00:00:00Z",
   "duration": "PT73S",
   "embedUrl": "https://www.youtube.com/embed/Q82FDj2Ub2w"
@@ -69,15 +71,11 @@ The **Astria Nano Banana Photoshop plugin** lets the team explore those directio
 
 The fashion workflow demonstration revises trousers, reveals more of the model through wider framing, adds and removes sunglasses, changes the setting and time of day, and explores a running pose. The panel contains several model choices; use the model and controls available in your installed version for your own brief.
 
-<figure>
-  <img src="/articles/img/photoshop-video-guides/campaign-wide.webp" alt="Wider full-body fashion composition on a rooftop in Photoshop" loading="lazy" />
-  <figcaption>Wider composition at 00:14. This establishes a complete silhouette for the next campaign decisions.</figcaption>
-</figure>
-
-<figure data-source-reference="/articles/img/photoshop-video-guides/campaign-wide.webp">
-  <img src="/articles/img/photoshop-video-guides/campaign-day.webp" alt="Fashion model running on a beach in a daylight campaign variation" loading="lazy" />
-  <figcaption>Daylight beach variation at 01:11. Setting, pose and accessories have changed during the sequence.</figcaption>
-</figure>
+<VideoEditComparison
+  before={{"src": "/articles/img/photoshop-video-guides/campaign-wide-canvas.webp", "alt": "Before: full-body model in a burgundy track jacket standing on a rooftop", "caption": "00:14 — Rooftop composition before the beach, pose and close-up changes.", "width": 394, "height": 470}}
+  after={{"src": "/articles/img/photoshop-video-guides/campaign-day-canvas.webp", "alt": "After: daylight beach close-up of the model with blonde hair and sunglasses", "caption": "01:12 — Daylight beach close-up after the sequence changes location, pose, hair and sunglasses.", "width": 394, "height": 470}}
+  layers={{"src": "/articles/img/photoshop-video-guides/campaign-layers.webp", "alt": "Recorded Photoshop Layers panel with successive campaign image layers and white masks", "caption": "01:12 — Successive campaign results and their masks remain in the layer stack. Layer names are truncated in this recording.", "width": 182, "height": 214}}
+/>
 
 <iframe
   src="https://www.youtube-nocookie.com/embed/Q82FDj2Ub2w?rel=0"
@@ -104,8 +102,8 @@ A wide image can establish the setting and leave space for a headline. A full-bo
 
 When extending the frame, inspect everything the model introduces outside the source: feet, trouser hems, ground contact and the direction of shadows. Keep exact headline copy and brand artwork on ordinary Photoshop layers after the image direction has been selected.
 
-<figure data-source-reference="/articles/img/photoshop-video-guides/campaign-wide.webp">
-  <img src="/articles/img/photoshop-video-guides/campaign-night.webp" alt="Night beach variation with a running model in Photoshop" loading="lazy" />
+<figure data-source-reference="/articles/img/photoshop-video-guides/campaign-wide-canvas.webp">
+  <img src="/articles/img/photoshop-video-guides/campaign-night-canvas.webp" alt="Night beach variation with a running model in Photoshop" loading="lazy" />
   <figcaption>Night variation at 01:06. Compare lighting treatments after the preferred setting and pose have been selected.</figcaption>
 </figure>
 

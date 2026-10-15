@@ -3,7 +3,7 @@ title: "Wedding Photo Retouching in Photoshop With Nano Banana"
 description: "Remove distractions and refine bridal photographs in Photoshop with Nano Banana. A workflow for wedding photographers, retouchers and album designers."
 slug: nano-banana-photoshop-wedding-retouching
 date: 2026-10-15
-image: /img/photoshop-video-guides/bridal-retouch.webp
+image: /img/photoshop-video-guides/bridal-retouch-canvas.webp
 authors: [astria]
 tags: [guides, photoshop]
 keywords:
@@ -13,12 +13,14 @@ keywords:
   - "bridal photo retouching"
 ---
 
+import VideoEditComparison from '@site/src/components/VideoEditComparison';
+
 export const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Bridal photography editing for photographers using Nano-Banana plugin for Photoshop",
   "description": "Remove distractions and refine bridal photographs in Photoshop with Nano Banana. A workflow for wedding photographers, retouchers and album designers.",
-  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/bridal-retouch.webp",
+  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/bridal-retouch-canvas.webp",
   "uploadDate": "2025-10-09T00:00:00Z",
   "duration": "PT361S",
   "embedUrl": "https://www.youtube.com/embed/vqCrHL6c1e8"
@@ -69,15 +71,10 @@ The **Astria Nano Banana Photoshop plugin** lets a photographer select the affec
 
 The demonstration includes ground cleanup, warm lighting, dress-train changes, hand and phone removal, hair refinement, makeup, and creative pose or setting changes. Those edits serve different purposes: cleaning an obstruction preserves the intended photograph, while changing the dress or setting creates a new interpretation for the client's review.
 
-<figure>
-  <img src="/articles/img/photoshop-video-guides/bridal-source.webp" alt="Bridal profile photograph with hands obscuring the hair and shoulder" loading="lazy" />
-  <figcaption>Source editing stage at 01:38. The hands overlap the bride and require reconstruction of the covered area.</figcaption>
-</figure>
-
-<figure data-source-reference="/articles/img/photoshop-video-guides/bridal-source.webp">
-  <img src="/articles/img/photoshop-video-guides/bridal-retouch.webp" alt="Bridal profile after removing the obstructing hands in the Photoshop demonstration" loading="lazy" />
-  <figcaption>Later retouching stage at 02:05. Inspect reconstructed hair, neckline and jewelry before approving the image.</figcaption>
-</figure>
+<VideoEditComparison
+  before={{"src": "/articles/img/photoshop-video-guides/bridal-source-canvas.webp", "alt": "Before: bridal profile with hands covering the hair and shoulder", "caption": "01:38 — Hands interrupt the bridal profile and hair detail.", "width": 1156, "height": 768}}
+  after={{"src": "/articles/img/photoshop-video-guides/bridal-retouch-canvas.webp", "alt": "After: same bridal profile with the obstructing hands removed", "caption": "02:05 — The hands are removed, revealing a cleaner profile. Compare the hair, earring and neckline.", "width": 1156, "height": 768}}
+/>
 
 <iframe
   src="https://www.youtube-nocookie.com/embed/vqCrHL6c1e8?rel=0"

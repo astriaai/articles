@@ -3,7 +3,7 @@ title: "Real Estate Photo Editing in Photoshop With Nano Banana"
 description: "Clean up property photos, explore staging and create twilight concepts in Photoshop. Practical Nano Banana workflows for photographers and property teams."
 slug: nano-banana-photoshop-real-estate-editing
 date: 2026-10-15
-image: /img/photoshop-video-guides/property-evening.webp
+image: /img/photoshop-video-guides/property-evening-canvas.webp
 authors: [astria]
 tags: [guides, photoshop]
 keywords:
@@ -13,12 +13,14 @@ keywords:
   - "virtual staging Photoshop"
 ---
 
+import VideoEditComparison from '@site/src/components/VideoEditComparison';
+
 export const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Editing images for Real-Estate properties with Photoshop using AI and  Nano-Banana",
   "description": "Clean up property photos, explore staging and create twilight concepts in Photoshop. Practical Nano Banana workflows for photographers and property teams.",
-  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/property-evening.webp",
+  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/property-evening-canvas.webp",
   "uploadDate": "2025-10-19T00:00:00Z",
   "duration": "PT103S",
   "embedUrl": "https://www.youtube.com/embed/dryzJgkg3Rw"
@@ -69,15 +71,10 @@ The **Astria Nano Banana Photoshop plugin** supports those editing and visualiza
 
 The property demonstration works on a pool courtyard and a house terrace. It refines lounge chairs and pool reflections, adds planting and decor, explores evening lighting, and changes the sky and cushions. These are useful examples of selecting a region and revising one part of a property image.
 
-<figure>
-  <img src="/articles/img/photoshop-video-guides/property-day.webp" alt="Daylight photograph of a house terrace before the twilight editing sequence" loading="lazy" />
-  <figcaption>Daylight terrace at 00:54, before the later lighting and decor options.</figcaption>
-</figure>
-
-<figure data-source-reference="/articles/img/photoshop-video-guides/property-day.webp">
-  <img src="/articles/img/photoshop-video-guides/property-evening.webp" alt="Illustrative evening terrace with added planting and yellow cushions in Photoshop" loading="lazy" />
-  <figcaption>Illustrative evening and staging option at 01:34. Keep additions identifiable when explaining an existing property.</figcaption>
-</figure>
+<VideoEditComparison
+  before={{"src": "/articles/img/photoshop-video-guides/property-day-canvas.webp", "alt": "Before: daylight house terrace with grey seating and plain cushions", "caption": "00:54 — Daylight terrace before the lighting and staging changes.", "width": 1296, "height": 864}}
+  after={{"src": "/articles/img/photoshop-video-guides/property-evening-canvas.webp", "alt": "After: same terrace at dusk with lit facade, planting, yellow cushions and a dog", "caption": "01:41 — Cumulative concept edit with dusk lighting, planting, yellow cushions and a dog. The final video frame shows the result without the editing panel.", "width": 1620, "height": 1080}}
+/>
 
 <iframe
   src="https://www.youtube-nocookie.com/embed/dryzJgkg3Rw?rel=0"

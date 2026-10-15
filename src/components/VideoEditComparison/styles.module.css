@@ -1,0 +1,68 @@
+.comparison {
+  margin: 1.75rem 0;
+}
+
+.pair {
+  align-items: start;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card,
+.layers {
+  margin: 0;
+  min-width: 0;
+}
+
+.label {
+  color: var(--ifm-font-color-base);
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.comparison a {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.comparison a:focus-visible {
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 4px;
+}
+
+.comparison img {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.caption,
+.hint {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0.65rem 0 0;
+}
+
+.hint {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.layers {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+@media (max-width: 560px) {
+  .pair {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}

@@ -3,7 +3,7 @@ title: "Replace Clothing in Photoshop With Product References"
 description: "Use the Astria Nano Banana Photoshop plugin to explore garment, shoe and jewelry changes with reference images and a practical fashion approval workflow."
 slug: nano-banana-photoshop-fashion-references
 date: 2026-10-15
-image: /img/photoshop-video-guides/fashion-reference-sweater.webp
+image: /img/photoshop-video-guides/fashion-reference-sweater-canvas.webp
 authors: [astria]
 tags: [guides, photoshop]
 keywords:
@@ -13,12 +13,14 @@ keywords:
   - "virtual styling Photoshop"
 ---
 
+import VideoEditComparison from '@site/src/components/VideoEditComparison';
+
 export const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Nano Banana plugin for Photoshop - using reference images to edit realistic images for fashion",
   "description": "Use the Astria Nano Banana Photoshop plugin to explore garment, shoe and jewelry changes with reference images and a practical fashion approval workflow.",
-  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/fashion-reference-sweater.webp",
+  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/fashion-reference-sweater-canvas.webp",
   "uploadDate": "2025-09-21T00:00:00Z",
   "duration": "PT135S",
   "embedUrl": "https://www.youtube.com/embed/EVdifaMROfk"
@@ -69,15 +71,11 @@ The **Astria Nano Banana Photoshop plugin** brings the source photograph, produc
 
 The demonstration uses a seated model and separate references for shoes, a striped sweater and pearl earrings. It also shows why a sweater swap and a jacket removal are different edits: the jacket can continue covering the intended garment unless the brief addresses both.
 
-<figure>
-  <img src="/articles/img/photoshop-video-guides/fashion-reference-source.webp" alt="Seated model wearing a dark jacket before the reference sweater edit" loading="lazy" />
-  <figcaption>Source photograph at 00:00. Cropped from the video to show the model and styling.</figcaption>
-</figure>
-
-<figure data-source-reference="/articles/img/photoshop-video-guides/fashion-reference-source.webp">
-  <img src="/articles/img/photoshop-video-guides/fashion-reference-sweater.webp" alt="Seated model wearing the striped sweater after the reference garment edit" loading="lazy" />
-  <figcaption>Later styling at 01:05 after replacing the jacket with the reference sweater. The video shows the accompanying layer mask.</figcaption>
-</figure>
+<VideoEditComparison
+  before={{"src": "/articles/img/photoshop-video-guides/fashion-reference-source-canvas.webp", "alt": "Before: seated model wearing a dark jacket and light trousers", "caption": "00:00 — Original photograph with the dark jacket and light trousers.", "width": 850, "height": 1055}}
+  after={{"src": "/articles/img/photoshop-video-guides/fashion-reference-sweater-canvas.webp", "alt": "After: same seated model with a striped sweater and reference shoes", "caption": "01:05 — The reference sweater replaces the dark jacket while the seated composition remains available for comparison.", "width": 850, "height": 1055}}
+  layers={{"src": "/articles/img/photoshop-video-guides/fashion-reference-layers.webp", "alt": "Photoshop Layers panel showing separate masked sweater and shoe edits above the background", "caption": "01:05 — Separate masked layers hold the jacket removal, sweater replacement and shoe edit. The original photograph remains on Background.", "width": 634, "height": 410}}
+/>
 
 <iframe
   src="https://www.youtube-nocookie.com/embed/EVdifaMROfk?rel=0"

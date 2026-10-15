@@ -3,7 +3,7 @@ title: "Portrait and Brand Photo Editing in Photoshop With AI"
 description: "Adapt portrait backgrounds, wardrobe and styling with the Astria Nano Banana Photoshop plugin. A layered workflow for retouchers and in-house brand teams."
 slug: nano-banana-photoshop-portrait-brand-editing
 date: 2026-10-15
-image: /img/photoshop-video-guides/portrait-office.webp
+image: /img/photoshop-video-guides/portrait-office-canvas.webp
 authors: [astria]
 tags: [guides, photoshop]
 keywords:
@@ -13,12 +13,14 @@ keywords:
   - "change portrait background Photoshop"
 ---
 
+import VideoEditComparison from '@site/src/components/VideoEditComparison';
+
 export const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Nano Banana plugin for Photoshop - easy photo editing",
   "description": "Adapt portrait backgrounds, wardrobe and styling with the Astria Nano Banana Photoshop plugin. A layered workflow for retouchers and in-house brand teams.",
-  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/portrait-office.webp",
+  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/portrait-office-canvas.webp",
   "uploadDate": "2025-10-03T00:00:00Z",
   "duration": "PT49S",
   "embedUrl": "https://www.youtube.com/embed/QEyWRuBgVno"
@@ -69,15 +71,10 @@ The **Astria Nano Banana Photoshop plugin** lets an editor adapt an existing pho
 
 The editing reel demonstrates pose changes, apparel colors, a reference garment, hair color, a beach setting, an office background, furniture and accessories. Each is a useful local or contextual editing task when the person and intended purpose remain clear.
 
-<figure>
-  <img src="/articles/img/photoshop-video-guides/portrait-office.webp" alt="Seated portrait in an office setting after a background edit in Photoshop" loading="lazy" />
-  <figcaption>Office background option at 00:35. The source portrait is used as the basis for a different setting.</figcaption>
-</figure>
-
-<figure>
-  <img src="/articles/img/photoshop-video-guides/portrait-styling.webp" alt="Portrait with a navy jacket and necklace in the Photoshop styling demonstration" loading="lazy" />
-  <figcaption>Accessory and styling example at 00:47. This is a separate portrait from the office background example.</figcaption>
-</figure>
+<VideoEditComparison
+  before={{"src": "/articles/img/photoshop-video-guides/portrait-source-canvas.webp", "alt": "Before: brunette woman seated in a cream outfit against a light curtain", "caption": "00:29 — Original seated portrait against a light curtain.", "width": 562, "height": 796}}
+  after={{"src": "/articles/img/photoshop-video-guides/portrait-office-canvas.webp", "alt": "After: same seated portrait with blonde hair and an office background", "caption": "00:35 — The sequence lightens the hair and replaces the curtain with an office. This is the same portrait and pose.", "width": 562, "height": 796}}
+/>
 
 <iframe
   src="https://www.youtube-nocookie.com/embed/QEyWRuBgVno?rel=0"
