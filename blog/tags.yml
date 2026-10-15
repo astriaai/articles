@@ -21,6 +21,11 @@ course:
   permalink: /course
   description: Follow the Astria course, from your first AI lookbook to reusable templates for a collection.
 
+faq:
+  label: FAQ
+  permalink: /faq
+  description: Practical answers to common questions about fashion and product photography.
+
 guides:
   label: Guides
   permalink: /guides

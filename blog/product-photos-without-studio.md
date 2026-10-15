@@ -4,7 +4,7 @@ description: "Choose a ready-reference, phone-capture, remote-direction or targe
 slug: product-photos-without-studio
 date: 2026-10-11
 authors: [astria]
-tags: [guides]
+tags: [guides, faq]
 ---
 
 To launch product photos without booking a full studio shoot, first separate the evidence you already have from the views you still need. Use approved references for scene variations, capture missing details locally, and outsource only the evidence your team cannot produce reliably.

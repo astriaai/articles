@@ -4,7 +4,7 @@ description: "Plan kidswear flatlays, supported shapes and detail photographs wi
 slug: kidswear-photography-without-model
 date: 2026-10-14
 authors: [astria]
-tags: [guides]
+tags: [guides, faq]
 ---
 
 You can photograph kidswear without a child model using complete flatlays, suitable garment supports and close detail shots. Keep the actual size, measurements and construction visible. These formats can explain the garment; they cannot demonstrate how it fits or moves on a child.

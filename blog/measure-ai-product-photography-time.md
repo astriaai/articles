@@ -4,7 +4,7 @@ description: "Compare preparation, capture or generation, review, rework and han
 slug: measure-ai-product-photography-time
 date: 2026-10-15
 authors: [astria]
-tags: [guides]
+tags: [guides, faq]
 ---
 
 To find out whether AI product photography saves time, measure the whole job from source preparation to approved handoff. Compare equivalent deliverables, include rejected candidates and rework, and divide labor by accepted assets. Fast generation alone does not establish faster production.

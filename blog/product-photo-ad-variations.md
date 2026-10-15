@@ -4,7 +4,7 @@ description: "Plan one-product ad variations with locked product details, contro
 slug: product-photo-ad-variations
 date: 2026-10-12
 authors: [astria]
-tags: [guides]
+tags: [guides, faq]
 ---
 
 To make product-photo ad variations, start from one approved product reference and write down what cannot change. Vary one scene, season or crop at a time, then compare the product with the original before export. Treat each generated variation as a candidate until it passes review.
