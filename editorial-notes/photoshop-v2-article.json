@@ -1,0 +1,147 @@
+{
+  "article": "blog/nano-banana-photoshop-v2.md",
+  "publication_date": "2026-10-15",
+  "scope": "Own-product workflow guide, not a model comparison or fidelity benchmark.",
+  "sources": [
+    {
+      "url": "https://www.astria.ai/updates/96",
+      "review_method": "Chrome DOM and visual review",
+      "announcement_date": "2026-09-14",
+      "claims": [
+        "Complete interface rewrite",
+        "Composer settings and progress/cancel",
+        "Selection aspect ratio, uniform scale, feathered mask and sRGB placement",
+        "Positioned Smart Object layer separation"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=J2U5tbCqEek",
+      "title": "Nano Banana for Photoshop V2 | Precise AI Editing & Layer Separation",
+      "upload_date": "2026-09-15",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "duration_seconds": 86
+    },
+    {
+      "repository": "/Users/burg/git/nano-banana-photoshop-uxp",
+      "commit": "84a7d89ad2b062e4c42a9b8fb42bc6be7a705827",
+      "files": [
+        "README.md",
+        "nano-banana/main.js",
+        "nano-banana/ui-src/src/App.tsx",
+        "docs/photoshop-scripting.md"
+      ],
+      "claims": [
+        "OS file drop requires compatible UXP host (9.1+, Photoshop 2026); Add image fallback",
+        "Provider wait outside Photoshop modal scope",
+        "Model catalog adapts controls",
+        "Agent opened in plugin has Photoshop connection; tools blocked during panel generation",
+        "Create video selection or full visible image handoff to browser storyboard workspace"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "path": "static/img/photoshop-v2/composer-and-result.webp",
+      "dimensions": [
+        1819,
+        902
+      ],
+      "sha256": "eee2a0fd13ae14ee15e47f857fe4d51d4888f2d47b863b176e78dc58d94a72a5"
+    },
+    {
+      "path": "static/img/photoshop-v2/layer-breakdown-poster.webp",
+      "dimensions": [
+        640,
+        423
+      ],
+      "sha256": "2870a5d6b382fea8d5dd0bb457284ee3a7e3f329775c9df82f624bfdb54335d4"
+    },
+    {
+      "path": "static/img/photoshop-v2/separated-layers.webp",
+      "dimensions": [
+        359,
+        656
+      ],
+      "sha256": "18880207ee0da014220dd795cebb98242e07c7190cf86b957787cc261ecc89b1"
+    },
+    {
+      "path": "static/img/photoshop-v2/separated-scene.webp",
+      "dimensions": [
+        510,
+        765
+      ],
+      "sha256": "93cb458aba7c0b43c78efa7291973d39613262999d88c879826a4f7616cdc304"
+    },
+    {
+      "path": "static/video/photoshop-v2/layer-breakdown.mp4",
+      "dimensions": [
+        640,
+        424
+      ],
+      "sha256": "4286900c6e3066864583072abc9767a165dc3b966fd8eacecbd5e45571e76de2"
+    }
+  ],
+  "provenance": {
+    "composer-and-result.webp": {
+      "source": "J2U5tbCqEek",
+      "timestamp_seconds": 15,
+      "crop_xyxy": [
+        55,
+        138,
+        1874,
+        1040
+      ],
+      "selection": "Actual reference-driven earring edit plus composer and masked Smart Object. No private email or account balance in crop. This is a UI capture of the historical demo, not a new generation or comparative model test."
+    },
+    "separated-scene.webp": {
+      "source": "J2U5tbCqEek",
+      "timestamp_seconds": 80,
+      "crop_xyxy": [
+        795,
+        229,
+        1305,
+        994
+      ],
+      "selection": "Same frame as layer panel. Two people visible because the right standing person layer is hidden. Caption identifies this state."
+    },
+    "separated-layers.webp": {
+      "source": "J2U5tbCqEek",
+      "timestamp_seconds": 80,
+      "crop_xyxy": [
+        1557,
+        400,
+        1916,
+        1056
+      ],
+      "selection": "Native-resolution actual Photoshop layer names, masks and Smart Object badges, visible with matching scene."
+    },
+    "layer-breakdown": {
+      "source_url": "https://mp.astria.ai/znbip45zwjsoxpbrjpyrmgww72bt",
+      "original_dimensions": [
+        640,
+        423
+      ],
+      "transformation": "GIF to H264 MP4, one row of padding for codec, no upscale. Poster from final original frame. Playback controls, no autoplay.",
+      "selection": "First-party public announcement animation. Annotations explicitly identified as explanatory overlays, not actual Photoshop masks; 10-layer count identified as example only."
+    }
+  },
+  "image_generation": {
+    "new_calls": 0,
+    "workspace": null,
+    "prompt_ids": [],
+    "models": [],
+    "reason": "Existing first-party release media and reference-driven demo captures reused; no new images generated."
+  },
+  "visual_review": "Original frames and campaign animation contact sheets reviewed, followed by all selected cropped stills and rendered article. Native dimensions retained; no upscaling.",
+  "editorial_checks": [
+    "No fixed prices or account amounts",
+    "No measured drift or speed benchmark claims",
+    "No guarantee of exact SKU or identity preservation",
+    "No implication video is inserted in Photoshop timeline",
+    "No claim every model is available",
+    "Announcement date distinct from article date"
+  ]
+}
