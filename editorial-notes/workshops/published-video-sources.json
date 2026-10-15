@@ -1,0 +1,69 @@
+{
+  "recordedOn": "2026-10-15",
+  "purpose": "Source-video inventory for the workshop article batch; actual frame and output selections remain in each article asset manifest.",
+  "videos": [
+    {
+      "episode": "1.1",
+      "url": "https://www.astria.ai/academy/videos/academy-1-1/_full-draft.b1a3b925.mp4",
+      "durationSeconds": 113.3,
+      "sha256": "b1a3b9252d88a60a9fbb68053827568bec1437acfb207c17010a58ce44aafb53",
+      "retrievedOn": "2026-10-15"
+    },
+    {
+      "episode": "1.2",
+      "url": "https://www.astria.ai/academy/videos/academy-1-2/_full-draft.16425cdc.mp4",
+      "durationSeconds": 82.9,
+      "sha256": "16425cdce08754ed87bdf259f84b4734694baf6e2efd715e0850a3de7659ccc8",
+      "retrievedOn": "2026-10-15"
+    },
+    {
+      "episode": "1.4",
+      "url": "https://www.astria.ai/academy/videos/academy-1-4/_full-draft.eb9a6063.mp4",
+      "durationSeconds": 98.1,
+      "sha256": "eb9a606307073ab4d7efd23663d8b4c1d940b522dd5921ab607a7ce083a8652a",
+      "retrievedOn": "2026-10-15"
+    },
+    {
+      "episode": "1.5",
+      "url": "https://www.astria.ai/academy/videos/academy-1-5/_full-draft.3fac458d.mp4",
+      "durationSeconds": 107.3,
+      "sha256": "3fac458d48f1b036d0cc1830b945a940d1870ede7a0523edf22bf81ae7341ce0",
+      "retrievedOn": "2026-10-15"
+    },
+    {
+      "episode": "1.6",
+      "url": "https://www.astria.ai/academy/videos/academy-1-6/_full-draft.04d323d9.mp4",
+      "durationSeconds": 70.3,
+      "sha256": "04d323d92af36a02628ffb84948fbb911e8bb05f516f3898aecdb85ab6fa8355",
+      "retrievedOn": "2026-10-15"
+    },
+    {
+      "episode": "1.7",
+      "url": "https://www.astria.ai/academy/videos/academy-1-7/_full-draft.983cbe6e.mp4",
+      "durationSeconds": 81.7,
+      "sha256": "983cbe6e2fffdb95fd31597dd8fc708bd1b1cdf179c3a69816be592d30ea1971",
+      "retrievedOn": "2026-10-15"
+    },
+    {
+      "episode": "1.8",
+      "url": "https://www.astria.ai/academy/videos/academy-1-8/_full-draft.44b4e5a8.mp4",
+      "durationSeconds": 146.3,
+      "sha256": "44b4e5a86cbc443486c05c910dcab10e61784e7b6556900f18318165d00a1be0",
+      "retrievedOn": "2026-10-15"
+    },
+    {
+      "episode": "1.9",
+      "url": "https://www.astria.ai/academy/videos/academy-1-9/_full-draft.34991f41.mp4",
+      "durationSeconds": 54.3,
+      "sha256": "34991f41bf062be9b774f20352fb0d7b2fdb79c0e00c41bb7fee66dd94473553",
+      "retrievedOn": "2026-10-15"
+    },
+    {
+      "episode": "1.3",
+      "url": "https://www.astria.ai/academy/videos/academy-1-3/_full-draft.56320de2.mp4",
+      "durationSeconds": 129.3,
+      "sha256": "56320de2160551f7c8d2f367a05c821754379651b93b6bb7d7e470c489723179",
+      "retrievedOn": "2026-10-15"
+    }
+  ]
+}

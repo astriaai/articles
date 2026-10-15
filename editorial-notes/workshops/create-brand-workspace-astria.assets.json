@@ -1,0 +1,88 @@
+{
+  "lesson": "1.2",
+  "articlePath": "blog/create-brand-workspace-astria.md",
+  "status": "unlisted-draft",
+  "sourceProject": "webinar-builder/script/projects/academy-1-2.yaml",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.2/narration-lock-v2.json",
+  "narrationLockSha256": "0c5cc6c881b1c4670c8689b0d44733626eac94adbb68f8f46326effbd8d2837a",
+  "exactTextPath": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.2/narration-lock-v2.tts.txt",
+  "narrationSha256": "b2f43499fff8c7a9fdcde055aab860ef7d7497a50a695b2bbaaf816b8b80a2f9",
+  "sourceVideo": {
+    "path": "/tmp/astria-workshop-series-media/academy-1-2.mp4",
+    "sha256": "16425cdce08754ed87bdf259f84b4734694baf6e2efd715e0850a3de7659ccc8",
+    "version": "published full cut",
+    "url": "https://www.astria.ai/academy/videos/academy-1-2/_full-draft.16425cdc.mp4"
+  },
+  "assets": [
+    {
+      "file": "static/img/workshops/create-brand-workspace-astria/create-workspace.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-2.mp4",
+        "sha256": "16425cdce08754ed87bdf259f84b4734694baf6e2efd715e0850a3de7659ccc8",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-2/_full-draft.16425cdc.mp4"
+      },
+      "videoTimeSeconds": 30,
+      "cropXYXY": [
+        690,
+        72,
+        1250,
+        340
+      ],
+      "dimensions": [
+        560,
+        268
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "Type a distinct brand name in the workspace menu.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/create-brand-workspace-astria/brand-logo.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-2.mp4",
+        "sha256": "16425cdce08754ed87bdf259f84b4734694baf6e2efd715e0850a3de7659ccc8",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-2/_full-draft.16425cdc.mp4"
+      },
+      "videoTimeSeconds": 53,
+      "cropXYXY": [
+        135,
+        300,
+        825,
+        680
+      ],
+      "dimensions": [
+        690,
+        380
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "After saving the website URL, use Scrape from website to bring in the brand assets.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/create-brand-workspace-astria/invite-collaborator.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-2.mp4",
+        "sha256": "16425cdce08754ed87bdf259f84b4734694baf6e2efd715e0850a3de7659ccc8",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-2/_full-draft.16425cdc.mp4"
+      },
+      "videoTimeSeconds": 68,
+      "cropXYXY": [
+        224,
+        452,
+        1128,
+        680
+      ],
+      "dimensions": [
+        904,
+        228
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "Select the person under Members, then click Invite.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    }
+  ],
+  "newGenerationJobs": []
+}

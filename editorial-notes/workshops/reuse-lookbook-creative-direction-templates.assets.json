@@ -1,0 +1,130 @@
+{
+  "lesson": "2.1",
+  "articlePath": "blog/reuse-lookbook-creative-direction-templates.md",
+  "status": "unlisted-draft",
+  "sourceProject": "webinar-builder/script/projects/academy-2-1.yaml",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/2.1/narration-lock.json",
+  "narrationLockSha256": "3e5e50e42b46c90e192507c3f2504f8265ae70c55a6962630e3f2d06357f013d",
+  "exactTextPath": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/2.1/narration-locked.tts.txt",
+  "narrationSha256": "e287515c9d14ada7615662bdc57169c7b99d4b2e9ff9e869b675c818cffbf518",
+  "sourceVideo": {
+    "path": "/Users/burg/git/astria-course/webinar-builder/out/academy-2-1/assembly/academy-2-1-assembly-20261015-095218.mp4",
+    "sha256": "2b14292ac27837524a119eabe45ed7e6629f840ee97982d212b6f775eb4ce1b6",
+    "version": "local final assembly 20261015-095218",
+    "url": null
+  },
+  "assets": [
+    {
+      "file": "static/img/workshops/reuse-lookbook-creative-direction-templates/matching-product-pages.webp",
+      "sourceVideo": {
+        "path": "/Users/burg/git/astria-course/webinar-builder/out/academy-2-1/assembly/academy-2-1-assembly-20261015-095218.mp4",
+        "sha256": "2b14292ac27837524a119eabe45ed7e6629f840ee97982d212b6f775eb4ce1b6",
+        "version": "local final assembly 20261015-095218",
+        "url": null
+      },
+      "videoTimeSeconds": 23,
+      "cropXYXY": [
+        72,
+        72,
+        1298,
+        1008
+      ],
+      "dimensions": [
+        1226,
+        936
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "The same category repeats a useful arrangement of shots.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/reuse-lookbook-creative-direction-templates/matching-turned-views.webp",
+      "sourceVideo": {
+        "path": "/Users/burg/git/astria-course/webinar-builder/out/academy-2-1/assembly/academy-2-1-assembly-20261015-095218.mp4",
+        "sha256": "2b14292ac27837524a119eabe45ed7e6629f840ee97982d212b6f775eb4ce1b6",
+        "version": "local final assembly 20261015-095218",
+        "url": null
+      },
+      "videoTimeSeconds": 31,
+      "cropXYXY": [
+        72,
+        72,
+        1298,
+        1008
+      ],
+      "dimensions": [
+        1226,
+        936
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "Both products have a view that explains the back and shape of the shirt.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/reuse-lookbook-creative-direction-templates/saved-prompt-direction.webp",
+      "sourceVideo": {
+        "path": "/Users/burg/git/astria-course/webinar-builder/out/academy-2-1/assembly/academy-2-1-assembly-20261015-095218.mp4",
+        "sha256": "2b14292ac27837524a119eabe45ed7e6629f840ee97982d212b6f775eb4ce1b6",
+        "version": "local final assembly 20261015-095218",
+        "url": null
+      },
+      "videoTimeSeconds": 44,
+      "cropXYXY": [
+        475,
+        375,
+        976,
+        514
+      ],
+      "dimensions": [
+        501,
+        139
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "Pose, background and lighting are part of the saved prompt.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-reference.webp",
+      "sourcePath": "/Users/burg/git/astria-course/webinar-builder/assets/results/series-2/new-shirt-AD037-front.jpg",
+      "sourceSha256": "7be6c32602e4aa58d815e129214927a8e079438b37c00c80623b5d02cbad57cd",
+      "dimensions": [
+        2048,
+        2731
+      ],
+      "type": "product-reference",
+      "selection": "New product reference. Compare its color, stripes, collar and shape with the result.",
+      "visualReview": "source and output inspected together; blue/pink stripes, pointed collar, button front and cropped shirt silhouette retained; selected at native resolution"
+    },
+    {
+      "file": "static/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-result.webp",
+      "sourcePath": "/Users/burg/git/astria-course/webinar-builder/assets/results/series-2/run-1-front-47272219-0.jpg",
+      "sourceSha256": "594dfd3d8d54ad3ce46e734d35397a850725c4549c95ff895e79aa4407ce5cc2",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "type": "existing-reference-driven-output",
+      "selection": "New shirt, saved direction. This is the original full-resolution course result shown in the template run.",
+      "visualReview": "source and output inspected together; blue/pink stripes, pointed collar, button front and cropped shirt silhouette retained; selected at native resolution"
+    }
+  ],
+  "newGenerationJobs": [],
+  "existingGeneration": {
+    "workspace": "744",
+    "model": "nano-banana-2",
+    "text": "<faceid:5898375:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, light shadows --background_color #D8D5CF",
+    "promptId": 47272219,
+    "resolution": "2K",
+    "dimensions": [
+      1792,
+      2400
+    ],
+    "referenceTuneIds": [
+      5898375,
+      5892940,
+      5892941,
+      5896164
+    ],
+    "referenceProvenance": "Bobo Choses AD037 shirt packshots, course styling/product references, and a supplied input image; reused from course workspace 744; no new job"
+  }
+}

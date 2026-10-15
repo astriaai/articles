@@ -1,0 +1,136 @@
+{
+  "collection": "Astria Workshops",
+  "updatedOn": "2026-10-15",
+  "timezone": "Asia/Jerusalem",
+  "cadence": "one article per calendar day",
+  "direction": "Backdated in lesson order, ending with 2.6 on 2026-10-15",
+  "deployment": "Production build and all checks passed; release authorized and awaiting push.",
+  "articles": [
+    {
+      "lesson": "1.1",
+      "title": "How to Define Your Brand’s Visual Direction for an AI Lookbook",
+      "publicationDate": "2026-10-01",
+      "status": "release-built",
+      "articlePath": "blog/define-brand-visual-direction-ai-lookbook.md",
+      "slug": "define-brand-visual-direction-ai-lookbook"
+    },
+    {
+      "lesson": "1.2",
+      "title": "How to Create a Brand Workspace and Invite Your Team in Astria",
+      "publicationDate": "2026-10-02",
+      "status": "release-built",
+      "articlePath": "blog/create-brand-workspace-astria.md",
+      "slug": "create-brand-workspace-astria"
+    },
+    {
+      "lesson": "1.3",
+      "title": "How to Cast an AI Fashion Model with Astria’s Agent",
+      "publicationDate": "2026-10-03",
+      "status": "release-built",
+      "articlePath": "blog/cast-ai-fashion-model-astria-agent.md",
+      "slug": "cast-ai-fashion-model-astria-agent"
+    },
+    {
+      "lesson": "1.4",
+      "title": "How to Create Your First AI Lookbook Image in Astria",
+      "publicationDate": "2026-10-04",
+      "status": "release-built",
+      "articlePath": "blog/create-first-ai-lookbook-astria.md",
+      "slug": "create-first-ai-lookbook-astria"
+    },
+    {
+      "lesson": "1.5",
+      "title": "How to Control Backgrounds and Lighting in an AI Lookbook",
+      "publicationDate": "2026-10-05",
+      "status": "release-built",
+      "articlePath": "blog/control-ai-lookbook-background-lighting.md",
+      "slug": "control-ai-lookbook-background-lighting"
+    },
+    {
+      "lesson": "1.6",
+      "title": "How to Style an AI Lookbook with Hair, Makeup and Accessories",
+      "publicationDate": "2026-10-06",
+      "status": "release-built",
+      "articlePath": "blog/style-ai-lookbook-hair-makeup-accessories.md",
+      "slug": "style-ai-lookbook-hair-makeup-accessories"
+    },
+    {
+      "lesson": "1.7",
+      "title": "How to Choose Poses and Framing for AI Product Photos",
+      "publicationDate": "2026-10-07",
+      "status": "release-built",
+      "articlePath": "blog/choose-poses-framing-ai-product-photos.md",
+      "slug": "choose-poses-framing-ai-product-photos"
+    },
+    {
+      "lesson": "1.8",
+      "title": "How to Choose Product Reference Photos for AI Fashion Images",
+      "publicationDate": "2026-10-08",
+      "status": "release-built",
+      "articlePath": "blog/choose-product-reference-photos-ai-fashion.md",
+      "slug": "choose-product-reference-photos-ai-fashion"
+    },
+    {
+      "lesson": "1.9",
+      "title": "How to Review Your AI Lookbook Before Creating a Template",
+      "publicationDate": "2026-10-09",
+      "status": "release-built",
+      "articlePath": "blog/review-ai-lookbook-before-template.md",
+      "slug": "review-ai-lookbook-before-template"
+    },
+    {
+      "lesson": "2.1",
+      "title": "How Astria Templates Reuse Your Lookbook’s Creative Direction",
+      "publicationDate": "2026-10-10",
+      "status": "release-built",
+      "articlePath": "blog/reuse-lookbook-creative-direction-templates.md",
+      "slug": "reuse-lookbook-creative-direction-templates"
+    },
+    {
+      "lesson": "2.2",
+      "title": "How to Create an Astria Template from Your Lookbook Prompts",
+      "publicationDate": "2026-10-11",
+      "status": "release-built",
+      "articlePath": "blog/create-lookbook-template-astria.md",
+      "slug": "create-lookbook-template-astria"
+    },
+    {
+      "lesson": "2.3",
+      "title": "How to Run an Astria Template on a New Product",
+      "publicationDate": "2026-10-12",
+      "status": "release-built",
+      "articlePath": "blog/run-astria-template-new-product.md",
+      "slug": "run-astria-template-new-product"
+    },
+    {
+      "lesson": "2.4",
+      "title": "How to Generate Multiple Styled Looks with Astria Templates",
+      "publicationDate": "2026-10-13",
+      "status": "release-built",
+      "articlePath": "blog/generate-multiple-styled-looks-astria.md",
+      "slug": "generate-multiple-styled-looks-astria"
+    },
+    {
+      "lesson": "2.5",
+      "title": "How to Choose and Organize Templates by Garment Category",
+      "publicationDate": "2026-10-14",
+      "status": "release-built",
+      "articlePath": "blog/organize-templates-garment-category.md",
+      "slug": "organize-templates-garment-category"
+    },
+    {
+      "lesson": "2.6",
+      "title": "How to Review Your Reusable AI Lookbook Workflow",
+      "publicationDate": "2026-10-15",
+      "status": "release-built",
+      "articlePath": "blog/review-reusable-ai-lookbook-workflow.md",
+      "slug": "review-reusable-ai-lookbook-workflow"
+    }
+  ],
+  "collectionPath": "src/pages/workshops.md",
+  "publication_mode": "immediate",
+  "release_authorization": {
+    "instruction": "publish",
+    "scope": "All 15 workshop articles and collection, preserving daily dates October1–15 2026."
+  }
+}

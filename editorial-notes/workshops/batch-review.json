@@ -1,0 +1,165 @@
+{
+  "createdOn": "2026-10-15",
+  "status": "implemented-unlisted-review",
+  "articleCount": 15,
+  "visualCount": 70,
+  "collectionPath": "src/pages/workshops.md",
+  "previewUrl": "http://127.0.0.1:3414/articles/workshops/",
+  "articleChecks": "pass",
+  "errors": [],
+  "repositoryBuild": {
+    "status": "blocked-by-existing-links",
+    "unrelatedSourceRoutes": [
+      "/articles/ai-citation-audit-buyer-questions/",
+      "/articles/ai-fashion-photoshoot-guide/",
+      "/articles/ai-lookbook-guide/",
+      "/articles/ai-product-photography/",
+      "/articles/automating-pdp-images-with-agents/"
+    ],
+    "brokenLinkCount": 11,
+    "productionConfigChanged": false
+  },
+  "newGenerations": 0,
+  "deployment": "not performed",
+  "articles": [
+    {
+      "lesson": "1.1",
+      "article": "blog/define-brand-visual-direction-ai-lookbook.md",
+      "publicationDate": "2026-10-01",
+      "visuals": 5,
+      "editorialNotes": "editorial-notes/workshops/define-brand-visual-direction-ai-lookbook.md",
+      "assetManifest": "editorial-notes/workshops/define-brand-visual-direction-ai-lookbook.assets.json"
+    },
+    {
+      "lesson": "1.2",
+      "article": "blog/create-brand-workspace-astria.md",
+      "publicationDate": "2026-10-02",
+      "visuals": 3,
+      "editorialNotes": "editorial-notes/workshops/create-brand-workspace-astria.md",
+      "assetManifest": "editorial-notes/workshops/create-brand-workspace-astria.assets.json"
+    },
+    {
+      "lesson": "1.3",
+      "article": "blog/cast-ai-fashion-model-astria-agent.md",
+      "publicationDate": "2026-10-03",
+      "visuals": 3,
+      "editorialNotes": "editorial-notes/workshops/cast-ai-fashion-model-astria-agent.md",
+      "assetManifest": "editorial-notes/workshops/cast-ai-fashion-model-astria-agent.assets.json"
+    },
+    {
+      "lesson": "1.4",
+      "article": "blog/create-first-ai-lookbook-astria.md",
+      "publicationDate": "2026-10-04",
+      "visuals": 9,
+      "editorialNotes": "editorial-notes/workshops/first-ai-lookbook.md",
+      "assetManifest": "editorial-notes/workshops/first-ai-lookbook-assets.json"
+    },
+    {
+      "lesson": "1.5",
+      "article": "blog/control-ai-lookbook-background-lighting.md",
+      "publicationDate": "2026-10-05",
+      "visuals": 6,
+      "editorialNotes": "editorial-notes/workshops/control-ai-lookbook-background-lighting.md",
+      "assetManifest": "editorial-notes/workshops/control-ai-lookbook-background-lighting-assets.json"
+    },
+    {
+      "lesson": "1.6",
+      "article": "blog/style-ai-lookbook-hair-makeup-accessories.md",
+      "publicationDate": "2026-10-06",
+      "visuals": 5,
+      "editorialNotes": "editorial-notes/workshops/style-ai-lookbook-hair-makeup-accessories.md",
+      "assetManifest": "editorial-notes/workshops/style-ai-lookbook-hair-makeup-accessories-assets.json"
+    },
+    {
+      "lesson": "1.7",
+      "article": "blog/choose-poses-framing-ai-product-photos.md",
+      "publicationDate": "2026-10-07",
+      "visuals": 5,
+      "editorialNotes": "editorial-notes/workshops/choose-poses-framing-ai-product-photos.md",
+      "assetManifest": "editorial-notes/workshops/choose-poses-framing-ai-product-photos-assets.json"
+    },
+    {
+      "lesson": "1.8",
+      "article": "blog/choose-product-reference-photos-ai-fashion.md",
+      "publicationDate": "2026-10-08",
+      "visuals": 6,
+      "editorialNotes": "editorial-notes/workshops/choose-product-reference-photos-ai-fashion.md",
+      "assetManifest": "editorial-notes/workshops/choose-product-reference-photos-ai-fashion-assets.json"
+    },
+    {
+      "lesson": "1.9",
+      "article": "blog/review-ai-lookbook-before-template.md",
+      "publicationDate": "2026-10-09",
+      "visuals": 2,
+      "editorialNotes": "editorial-notes/workshops/review-ai-lookbook-before-template.md",
+      "assetManifest": "editorial-notes/workshops/review-ai-lookbook-before-template-assets.json"
+    },
+    {
+      "lesson": "2.1",
+      "article": "blog/reuse-lookbook-creative-direction-templates.md",
+      "publicationDate": "2026-10-10",
+      "visuals": 5,
+      "editorialNotes": "editorial-notes/workshops/reuse-lookbook-creative-direction-templates.md",
+      "assetManifest": "editorial-notes/workshops/reuse-lookbook-creative-direction-templates.assets.json"
+    },
+    {
+      "lesson": "2.2",
+      "article": "blog/create-lookbook-template-astria.md",
+      "publicationDate": "2026-10-11",
+      "visuals": 3,
+      "editorialNotes": "editorial-notes/workshops/create-lookbook-template-astria.md",
+      "assetManifest": "editorial-notes/workshops/create-lookbook-template-astria.assets.json"
+    },
+    {
+      "lesson": "2.3",
+      "article": "blog/run-astria-template-new-product.md",
+      "publicationDate": "2026-10-12",
+      "visuals": 8,
+      "editorialNotes": "editorial-notes/workshops/run-astria-template-new-product.md",
+      "assetManifest": "editorial-notes/workshops/run-astria-template-new-product.assets.json"
+    },
+    {
+      "lesson": "2.4",
+      "article": "blog/generate-multiple-styled-looks-astria.md",
+      "publicationDate": "2026-10-13",
+      "visuals": 4,
+      "editorialNotes": "editorial-notes/workshops/generate-multiple-styled-looks-astria.md",
+      "assetManifest": "editorial-notes/workshops/generate-multiple-styled-looks-astria.assets.json"
+    },
+    {
+      "lesson": "2.5",
+      "article": "blog/organize-templates-garment-category.md",
+      "publicationDate": "2026-10-14",
+      "visuals": 3,
+      "editorialNotes": "editorial-notes/workshops/organize-templates-garment-category.md",
+      "assetManifest": "editorial-notes/workshops/organize-templates-garment-category.assets.json"
+    },
+    {
+      "lesson": "2.6",
+      "article": "blog/review-reusable-ai-lookbook-workflow.md",
+      "publicationDate": "2026-10-15",
+      "visuals": 3,
+      "editorialNotes": "editorial-notes/workshops/review-reusable-ai-lookbook-workflow.md",
+      "assetManifest": "editorial-notes/workshops/review-reusable-ai-lookbook-workflow.assets.json"
+    }
+  ],
+  "browserReview": {
+    "status": "pass",
+    "desktopRoutesChecked": 15,
+    "mobileRoutesChecked": 15,
+    "mobileWidth": 375,
+    "horizontalOverflow": false,
+    "lazyImageSpaceReserved": true,
+    "resultImageViewer": "opens/closes; source-reference link verified",
+    "collectionScreenshot": "/tmp/astria-workshop-series-media/collection-preview.png"
+  },
+  "crossReview": {
+    "status": "resolved",
+    "instructionalFindings": "No consequential narration-order or instruction errors found.",
+    "resolvedFindings": [
+      "Corrected one previous-lesson slug and one source-photo provenance class.",
+      "Removed incidental known text-only casting portrait previews from affected UI frames, with caption disclosure and per-asset redaction records."
+    ],
+    "referenceDrivenOutfitResults": "Retained unchanged by portrait-preview remediation."
+  }
+}

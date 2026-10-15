@@ -1,0 +1,134 @@
+{
+  "lesson": "1.1",
+  "articlePath": "blog/define-brand-visual-direction-ai-lookbook.md",
+  "status": "unlisted-draft",
+  "sourceProject": "webinar-builder/script/projects/academy-1-1.yaml",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.1/narration-lock-v2.json",
+  "narrationLockSha256": "1138ea514d73e2b77d0fd7655f1d0fd8c30f1dbf1e7d3bcc3a2dc79429e10662",
+  "exactTextPath": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.1/narration-lock-v2.tts.txt",
+  "narrationSha256": "8dc7ecf6f597e463e4a26bbb661f7f5e3333d09e2b9cac5526c76c9e0d25a8a6",
+  "sourceVideo": {
+    "path": "/tmp/astria-workshop-series-media/academy-1-1.mp4",
+    "sha256": "b1a3b9252d88a60a9fbb68053827568bec1437acfb207c17010a58ce44aafb53",
+    "version": "published full cut",
+    "url": "https://www.astria.ai/academy/videos/academy-1-1/_full-draft.b1a3b925.mp4"
+  },
+  "assets": [
+    {
+      "file": "static/img/workshops/define-brand-visual-direction-ai-lookbook/background.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-1.mp4",
+        "sha256": "b1a3b9252d88a60a9fbb68053827568bec1437acfb207c17010a58ce44aafb53",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-1/_full-draft.b1a3b925.mp4"
+      },
+      "videoTimeSeconds": 44,
+      "cropXYXY": [
+        72,
+        72,
+        1298,
+        1008
+      ],
+      "dimensions": [
+        1226,
+        936
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "Save a plain background’s color or keep an image reference for its texture.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/define-brand-visual-direction-ai-lookbook/casting-styling.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-1.mp4",
+        "sha256": "b1a3b9252d88a60a9fbb68053827568bec1437acfb207c17010a58ce44aafb53",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-1/_full-draft.b1a3b925.mp4"
+      },
+      "videoTimeSeconds": 70,
+      "cropXYXY": [
+        72,
+        370,
+        1298,
+        821
+      ],
+      "dimensions": [
+        1226,
+        451
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "Compare casting, hair and styling across more than one product.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/define-brand-visual-direction-ai-lookbook/full-length-view.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-1.mp4",
+        "sha256": "b1a3b9252d88a60a9fbb68053827568bec1437acfb207c17010a58ce44aafb53",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-1/_full-draft.b1a3b925.mp4"
+      },
+      "videoTimeSeconds": 85,
+      "cropXYXY": [
+        72,
+        72,
+        1298,
+        1008
+      ],
+      "dimensions": [
+        1226,
+        936
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "A full-length view helps customers see the proportions of the outfit.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/define-brand-visual-direction-ai-lookbook/collar-detail.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-1.mp4",
+        "sha256": "b1a3b9252d88a60a9fbb68053827568bec1437acfb207c17010a58ce44aafb53",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-1/_full-draft.b1a3b925.mp4"
+      },
+      "videoTimeSeconds": 88,
+      "cropXYXY": [
+        72,
+        72,
+        1298,
+        1008
+      ],
+      "dimensions": [
+        1226,
+        936
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "The closer view makes the lace collar easy to inspect.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/define-brand-visual-direction-ai-lookbook/visual-brief.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-1.mp4",
+        "sha256": "b1a3b9252d88a60a9fbb68053827568bec1437acfb207c17010a58ce44aafb53",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-1/_full-draft.b1a3b925.mp4"
+      },
+      "videoTimeSeconds": 98,
+      "cropXYXY": [
+        72,
+        72,
+        1848,
+        1008
+      ],
+      "dimensions": [
+        1776,
+        936
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "The brief becomes your guide for generation and review.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    }
+  ],
+  "newGenerationJobs": []
+}

@@ -1,0 +1,198 @@
+{
+  "episode": "1.9",
+  "article": "blog/review-ai-lookbook-before-template.md",
+  "createdOn": "2026-10-15",
+  "publicationDate": "2026-10-09",
+  "status": "implemented-unlisted-review",
+  "sourceVideo": {
+    "url": "https://www.astria.ai/academy/videos/academy-1-9/_full-draft.34991f41.mp4",
+    "sha256": "34991f41bf062be9b774f20352fb0d7b2fdb79c0e00c41bb7fee66dd94473553",
+    "durationSeconds": 54.3,
+    "version": "Published full cut retrieved 2026-10-15; use URL/hash as version identity. Current cast and compositions visually match source segments; journal filenames alone do not establish byte-identical assembly."
+  },
+  "narrationSource": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.9/narration-locked.tts.txt",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.9/narration-lock.json",
+  "projectSource": "/Users/burg/git/astria-course/webinar-builder/script/projects/academy-1-9.yaml",
+  "segmentSources": "/Users/burg/git/astria-course/webinar-builder/script/segments/academy-1-9",
+  "newGenerations": 0,
+  "newGenerationWorkspace": 896,
+  "assets": [
+    {
+      "file": "static/img/workshops/review-ai-lookbook-before-template/front-and-angle.webp",
+      "kind": "existing-course-composite",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/series-1/L3-front-45-pairA-1.9-c5896164.jpg",
+      "sourceSha256": "5325aa1c16d3c1a3876d2dc545980d18f8dd4e0fc297b7020443127196fa3405",
+      "sha256": "c287321d16e1710168bb11d8b62d46605b4a3ca812c346af28109266654d59c7",
+      "dimensions": [
+        2824,
+        1872
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Exact full-resolution source still seen at the stated video time; preserves full figures, clothes and consistent setting",
+      "visuallyReviewed": true,
+      "timestampSeconds": 33,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-9/_full-draft.34991f41.mp4",
+      "sourceVideoSha256": "34991f41bf062be9b774f20352fb0d7b2fdb79c0e00c41bb7fee66dd94473553",
+      "generationProvenanceIndex": "/Users/burg/git/astria-course/webinar-builder/script/series/series-1/reshoot.index.json",
+      "referenceTuneIds": [
+        4042985,
+        5892939,
+        5892940,
+        5892941,
+        5893656,
+        5893657,
+        5896164
+      ],
+      "workspace": 744,
+      "model": "nano-banana-2",
+      "resolution": "Underlying source outputs 2K, composite 2824x1872",
+      "sourceReceipts": [
+        "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-6/L2.still.receipt.json",
+        "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-45-dark.still.receipt.json"
+      ],
+      "constituents": [
+        {
+          "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-6/L2-47266546-0.jpg",
+          "sourceSha256": "b739819d11ddd1d42d92778c804257990f3d5569d1cc3729329943f06bc4437c",
+          "promptId": 47266546,
+          "workspace": "744",
+          "model": "nano-banana-2",
+          "resolution": "2K",
+          "aspectRatio": "3:4",
+          "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, background and lighting, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, hair pulled back, clean minimal makeup, wearing the gold hoop earrings, the tan bag on her shoulder, light shadows --background_color #D8D5CF",
+          "referenceTuneIds": [
+            5892939,
+            5892940,
+            5892941,
+            5893656,
+            5893657,
+            5896164
+          ],
+          "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-6/L2.still.receipt.json"
+        },
+        {
+          "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/series-1/L3-45-dark-47266780-0.jpg",
+          "sourceSha256": "0ee5d9ad83b119b7427821c069f23b7223af4d848295afd859181d82f34d9333",
+          "promptId": 47266780,
+          "workspace": "744",
+          "model": "nano-banana-2",
+          "resolution": "2K",
+          "aspectRatio": "3:4",
+          "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:4042985:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman in the same room and light as the reference photo: the grey concrete wall, soft daylight from the right, the concrete floor, same clothes, styling, background and lighting, full body, 45 angle view, hair pulled back",
+          "referenceTuneIds": [
+            5892939,
+            5892940,
+            5892941,
+            4042985,
+            5893656,
+            5893657,
+            5896164
+          ],
+          "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-45-dark.still.receipt.json"
+        }
+      ],
+      "promptIds": [
+        47266546,
+        47266780
+      ]
+    },
+    {
+      "file": "static/img/workshops/review-ai-lookbook-before-template/back-views.webp",
+      "kind": "existing-course-composite",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/series-1/L3-back-backb-pairA-1.9-c5896164.jpg",
+      "sourceSha256": "11403d2c15f7300712341a81557db4079fe716a4c577e7347b8c847a588843b5",
+      "sha256": "f1398ec47ca4c462a03a35ab1494a25a178493592e3b3575425046088daa2138",
+      "dimensions": [
+        2824,
+        1872
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Exact full-resolution source still seen at the stated video time; preserves full figures, clothes and consistent setting",
+      "visuallyReviewed": true,
+      "timestampSeconds": 37,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-9/_full-draft.34991f41.mp4",
+      "sourceVideoSha256": "34991f41bf062be9b774f20352fb0d7b2fdb79c0e00c41bb7fee66dd94473553",
+      "generationProvenanceIndex": "/Users/burg/git/astria-course/webinar-builder/script/series/series-1/reshoot.index.json",
+      "referenceTuneIds": [
+        4042972,
+        5892939,
+        5892940,
+        5892941,
+        5893656,
+        5893657,
+        5896164
+      ],
+      "workspace": 744,
+      "model": "nano-banana-2",
+      "resolution": "Underlying source outputs 2K, composite 2824x1872",
+      "sourceReceipts": [
+        "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-back.still.receipt.json",
+        "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-back-b-dark.still.receipt.json"
+      ],
+      "constituents": [
+        {
+          "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-back-47266557-0.jpg",
+          "sourceSha256": "326f7bbbfbcb2a4d6af4ba33394e48d0a13437356ffdee0396109844096b5f0f",
+          "promptId": 47266557,
+          "workspace": "744",
+          "model": "nano-banana-2",
+          "resolution": "2K",
+          "aspectRatio": "3:4",
+          "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:4042972:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, styling, background and lighting, full body, back view, hair pulled back, light shadows --background_color #D8D5CF",
+          "referenceTuneIds": [
+            5892939,
+            5892940,
+            5892941,
+            4042972,
+            5893656,
+            5893657,
+            5896164
+          ],
+          "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-back.still.receipt.json"
+        },
+        {
+          "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/series-1/L3-back-b-dark-47266813-0.jpg",
+          "sourceSha256": "d09e8048f35f52e07ce78ad547b6965a82408f6670435025251b824a28b31cce",
+          "promptId": 47266813,
+          "workspace": "744",
+          "model": "nano-banana-2",
+          "resolution": "2K",
+          "aspectRatio": "3:4",
+          "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:4042972:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman in the same room and light as the reference photo: the grey concrete wall, soft daylight from the right, the concrete floor, same clothes, styling, background and lighting, full body, back view, hair pulled back",
+          "referenceTuneIds": [
+            5892939,
+            5892940,
+            5892941,
+            4042972,
+            5893656,
+            5893657,
+            5896164
+          ],
+          "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-back-b-dark.still.receipt.json"
+        }
+      ],
+      "promptIds": [
+        47266557,
+        47266813
+      ]
+    }
+  ],
+  "referenceProvenance": {
+    "brandPhotographs": "Existing course-supplied Bobo Choses product gallery originals; reused for the same instructional brand-study context. Originals retained; no rights expansion inferred.",
+    "generatedOutputs": "Existing course workspace744 generations, with supplied product references and series cast5896164. Not new article generation. Shirt5892939, trousers5892940, shoes5892941, background5892943, earrings5893656, bag5893657. Product sources retained in pilot first-ai-lookbook-assets.json and course receipts."
+  },
+  "visualQA": {
+    "status": "Passed: all selected sources, output comparisons and final control crops visually inspected",
+    "annotations": "None added; crop only, existing recorded cursor retained",
+    "excluded": "No rejected/failed output or text-only source generation featured; 1.8 omits manufactured creases, erroneous-back and weak-fit examples. No prices/rates visible in selected crops."
+  },
+  "validation": {
+    "deployment": "Not performed",
+    "fullSiteBuild": "Parent integration handles site compilation",
+    "mdxCompilation": "Passed standalone @mdx-js/mdx compilation with Docusaurus truncate marker removed",
+    "images": "All displayed paths and declared dimensions verified",
+    "navigation": "Previous/next Markdown targets verified; parent owns workshops collection route",
+    "publicationDates": "Oct5–9 sequential dates verified",
+    "pricing": "No public billing, price or credit values in article copy or selected captures"
+  }
+}

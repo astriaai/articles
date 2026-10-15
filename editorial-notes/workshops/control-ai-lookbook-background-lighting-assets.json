@@ -1,0 +1,242 @@
+{
+  "episode": "1.5",
+  "article": "blog/control-ai-lookbook-background-lighting.md",
+  "createdOn": "2026-10-15",
+  "publicationDate": "2026-10-05",
+  "status": "implemented-unlisted-review",
+  "sourceVideo": {
+    "url": "https://www.astria.ai/academy/videos/academy-1-5/_full-draft.3fac458d.mp4",
+    "sha256": "3fac458d48f1b036d0cc1830b945a940d1870ede7a0523edf22bf81ae7341ce0",
+    "durationSeconds": 107.3,
+    "version": "Published full cut retrieved 2026-10-15; use URL/hash as version identity. Current cast and compositions visually match source segments; journal filenames alone do not establish byte-identical assembly."
+  },
+  "narrationSource": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.5/narration-locked.tts.txt",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.5/narration-lock.json",
+  "projectSource": "/Users/burg/git/astria-course/webinar-builder/script/projects/academy-1-5.yaml",
+  "segmentSources": "/Users/burg/git/astria-course/webinar-builder/script/segments/academy-1-5",
+  "newGenerations": 0,
+  "newGenerationWorkspace": 896,
+  "assets": [
+    {
+      "file": "static/img/workshops/control-ai-lookbook-background-lighting/01-background-color.webp",
+      "kind": "video-keyframe",
+      "source": "/tmp/astria-workshop-series-media/refinement/5-31.png",
+      "sourceSha256": "a64aca9c69f4ab89f8ec940fcbcde08d0f4349fcf9ac7c895a4a1db11bd0bb97",
+      "sha256": "7a41fe0b5d1428a0e54902fb572cf43b223a73b822ba42be5339393cafe75476",
+      "dimensions": [
+        1226,
+        705
+      ],
+      "transformation": "Crop only, then WebP encoding; no upscale or retouch",
+      "selectionRationale": "Background color row, swatch and HEX input; native eyedropper absent from video",
+      "visuallyReviewed": true,
+      "crop": [
+        72,
+        235,
+        1298,
+        940
+      ],
+      "timestampSeconds": 31,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-5/_full-draft.3fac458d.mp4",
+      "sourceVideoSha256": "3fac458d48f1b036d0cc1830b945a940d1870ede7a0523edf22bf81ae7341ce0"
+    },
+    {
+      "file": "static/img/workshops/control-ai-lookbook-background-lighting/02-background-reference.webp",
+      "kind": "video-keyframe",
+      "source": "/tmp/astria-workshop-series-media/refinement/5-52.png",
+      "sourceSha256": "355ed44e3ae148f2959185bbd84fefdcbfa14ddd83d5643d670a7acf884b8b49",
+      "sha256": "e26f849ceab6960474b7381b616d474293f9dbb9e663d4b0312c23f3b9a738bb",
+      "dimensions": [
+        1226,
+        370
+      ],
+      "transformation": "Crop from actual video frame, then opaque neutral redaction of known text-only Face previews; original Face label lettering retained where present; WebP encoding, no generative redraw or upscale",
+      "selectionRationale": "Background square within the established Lookbook composer; crop excludes generated results",
+      "visuallyReviewed": true,
+      "crop": [
+        72,
+        105,
+        1298,
+        475
+      ],
+      "timestampSeconds": 52,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-5/_full-draft.3fac458d.mp4",
+      "sourceVideoSha256": "3fac458d48f1b036d0cc1830b945a940d1870ede7a0523edf22bf81ae7341ce0",
+      "redactions": [
+        {
+          "box": [
+            435,
+            31,
+            537,
+            134
+          ],
+          "coordinateSystem": "output image pixels, left/top/right/bottom",
+          "fill": "#E8E8E5",
+          "reason": "Known text-only portrait preview omitted under repository article-image rules"
+        },
+        {
+          "box": [
+            675,
+            32,
+            755,
+            112
+          ],
+          "coordinateSystem": "output image pixels, left/top/right/bottom",
+          "fill": "#E8E8E5",
+          "reason": "Known text-only portrait preview omitted under repository article-image rules"
+        },
+        {
+          "box": [
+            684,
+            124,
+            705,
+            148
+          ],
+          "coordinateSystem": "output image pixels, left/top/right/bottom",
+          "fill": "#E8E8E5",
+          "reason": "Known text-only portrait preview omitted under repository article-image rules"
+        }
+      ],
+      "retainedLabel": {
+        "box": [
+          435,
+          114,
+          537,
+          134
+        ],
+        "background": "#666A6A",
+        "method": "Only native bright Face label-letter pixels retained; portrait pixels removed"
+      },
+      "annotation": "Face preview hidden; neutral opaque redaction, disclosed in caption. Reference-driven result faces unchanged."
+    },
+    {
+      "file": "static/img/workshops/control-ai-lookbook-background-lighting/diffused-light.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-5/diffused-47266537-0.jpg",
+      "sourceSha256": "1ee0acc7fd901a68bf97445f48416de7edbd04186d666ca580b2e0d72f384e41",
+      "sha256": "5f9f2b45cf2bd30dedd3de0d2f483f7787036fc069460f9f12afa0d229e5b3d5",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Matched references and prompt except diffused-light phrase; readable garment and gentle shadows",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-5/diffused.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266537,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5892943,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5892943:1> background <faceid:5896164:1.0> woman, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, diffused lighting"
+    },
+    {
+      "file": "static/img/workshops/control-ai-lookbook-background-lighting/on-camera-flash.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-5/flash-47266541-0.jpg",
+      "sourceSha256": "1f51d28b4b6cc6a6357209f7d90bcc7146ce4862818206a065b3eedceac461ec",
+      "sha256": "704cc4e2fc21c050d52d28566e1ae93c89e7c1fccb0bc0ab05d640459291cf00",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Matched references and settings; clear harder cast shadow",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-5/flash.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266541,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5892943,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5892943:1> background <faceid:5896164:1.0> woman, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, on-camera flash"
+    },
+    {
+      "file": "static/img/workshops/control-ai-lookbook-background-lighting/first-look.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/L0-47266351-0.jpg",
+      "sourceSha256": "22b6459de9d29d38bdf22b02b07e6e45698442c7bacc8353014d5bb75fc55b5e",
+      "sha256": "c18f876c8f5c026b82c01f9bd2673b1842a8e497fc8f81a75b7540043315dde6",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Current video initial look, same referenced shirt/trousers/shoes and cast",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/L0.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266351,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5892943,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5892943:1> background <faceid:5896164:1.0> woman, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera"
+    },
+    {
+      "file": "static/img/workshops/control-ai-lookbook-background-lighting/directed-look.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-5/L1-47266456-0.jpg",
+      "sourceSha256": "d2b0430e084839293b069172be405f3816b1441483a9bc2dd68999e0d82ed349",
+      "sha256": "7ff64cf9192b89e2e1921a749e9c7a539162f0d16a9839b9c861144324450885",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Current video directed setting; caption asks reader to assess changes, no exact color/identity guarantee",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-5/L1.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266456,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, light shadows --background_color #D8D5CF"
+    }
+  ],
+  "referenceProvenance": {
+    "brandPhotographs": "Existing course-supplied Bobo Choses product gallery originals; reused for the same instructional brand-study context. Originals retained; no rights expansion inferred.",
+    "generatedOutputs": "Existing course workspace744 generations, with supplied product references and series cast5896164. Not new article generation. Shirt5892939, trousers5892940, shoes5892941, background5892943, earrings5893656, bag5893657. Product sources retained in pilot first-ai-lookbook-assets.json and course receipts."
+  },
+  "visualQA": {
+    "status": "Passed: source photos, reference-driven outputs and final control crops inspected; affected Face previews redacted and checked separately",
+    "annotations": "Three affected UI captures across lessons 1.5/1.6 use disclosed neutral opaque redaction of text-only Face previews. No generative edits. Other captures are cropped only; reference-driven result faces remain unchanged.",
+    "excluded": "No rejected/failed output or text-only source generation featured; 1.8 omits manufactured creases, erroneous-back and weak-fit examples. No prices/rates visible in selected crops."
+  },
+  "validation": {
+    "deployment": "Not performed",
+    "fullSiteBuild": "Parent integration handles site compilation",
+    "mdxCompilation": "Passed standalone @mdx-js/mdx compilation with Docusaurus truncate marker removed",
+    "images": "All displayed paths and declared dimensions verified",
+    "navigation": "Previous/next Markdown targets verified; parent owns workshops collection route",
+    "publicationDates": "Oct5–9 sequential dates verified",
+    "pricing": "No public billing, price or credit values in article copy or selected captures"
+  }
+}
