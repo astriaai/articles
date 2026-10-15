@@ -5,14 +5,35 @@ and a `(2026)` title. Those are assets while they are true and liabilities the m
 are not. This file is the review schedule.
 
 **Publish dates:** all posts were re-dated on 2026-08-23 to run Aug 1–23 rather than into
-the future. Docusaurus renders future-dated posts immediately, so dating ahead published
-everything at once with future timestamps. Each comparison's in-body "Reviewed" and
-"available on" lines were moved to match its new publish date; the underlying research was
-actually done 2026-08-21/22, which is what the "Last fact check" column records.
+the future. Each comparison's in-body "Reviewed" and "available on" lines were moved to match
+its new publish date; the underlying research was actually done 2026-08-21/22, which is what
+the "Last fact check" column records. **Never date an article ahead.** `plugins/publish-schedule`
+drops any post dated later than build time, so a future-dated article is not built at all: it
+is missing from the site and the sitemap, and every link to it fails the build. (Before that
+plugin existed, Docusaurus published future-dated posts immediately, which is what this
+paragraph used to warn about.)
 
-**Process:** review monthly. For each row past its next-review date, re-verify the volatile
-claims listed, update the article and its `Reviewed` line, then set a new next-review date.
-Comparisons carry the highest risk because competitor pricing and feature scope move fastest.
+**What is tracked, and what is not.** A row exists for articles that assert facts about
+someone else — competitor comparisons and model coverage. Those claims rot in public, which is
+the risk this file manages. Workflow guides that only explain how to do something in our own
+product are deliberately not listed; they age, but they do not become wrong about a third party.
+
+**Ask the file instead of reading it:**
+
+```
+node scripts/content-review.cjs          # what is due now, and why
+node scripts/content-review.cjs --all    # every tracked article, soonest first
+```
+
+`tests/content-ledger.test.cjs` fails the suite if a claim-bearing article has no row, if a row
+points at an article that no longer exists, or if a row is malformed. That check exists because
+this table drifted twice without anyone noticing: a cluster of model reviews was published with
+no rows at all, and another set of rows was written on a branch that never reached the remote.
+
+**Process:** review monthly, or whenever the command above reports something due. For each row
+past its next-review date, re-verify the volatile claims listed, update the article and its
+`Reviewed` line, then set a new next-review date. Comparisons carry the highest risk because
+competitor pricing and feature scope move fastest.
 
 **Volatile claim types**
 - `P` pricing, plans, tiers
@@ -97,6 +118,16 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | astria-vs-creator-max-photoshop-plugin | creator max photoshop plugin | 2026-09-19 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
 | best-nano-banana-photoshop-plugins | best nano banana photoshop plugin | 2026-09-20 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
 | layer-separation-photoshop | AI layer separation | 2026-10-15 | 2026-10-15 | M F | 2026-11-16 | photoshop |
+| astria-image-models | Astria image models | 2026-09-07 | 2026-09-08 | M F | 2026-11-15 | models |
+| how-we-benchmark-ai-image-models | AI image model benchmark methodology | 2026-09-05 | 2026-09-08 | M F | 2026-11-15 | models |
+| best-ai-image-models-fashion | best AI image models for fashion | 2026-09-06 | 2026-09-08 | M F S | 2026-11-15 | models |
+| video-model-comparison-calibration | AI video model comparison | 2026-09-08 | 2026-09-08 | M F | 2026-11-15 | models |
+| nano-banana-2-for-fashion | Nano Banana 2 fashion | 2026-09-09 | 2026-09-08 | M F | 2026-11-15 | models |
+| gpt-image-2-for-product-photography | GPT Image 2 product photography | 2026-09-10 | 2026-09-08 | M F | 2026-11-15 | models |
+| seedream-5-for-fashion | Seedream 5 fashion | 2026-09-11 | 2026-09-08 | M F | 2026-11-15 | models |
+| muse-image-model-review | Muse Image model review | 2026-09-12 | 2026-09-08 | M F | 2026-11-15 | models |
+| mai-image-2-6-review | MAI Image 2.6 review | 2026-09-13 | 2026-09-08 | M F | 2026-11-15 | models |
+| gpt-image-2-5-review | GPT Image 2.5 review | 2026-09-14 | 2026-09-14 | M F | 2026-11-15 | models |
 
 ## Unlisted (deliberately noindexed)
 
