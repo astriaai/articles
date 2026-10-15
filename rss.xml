@@ -96,7 +96,6 @@
 <p>Capability descriptions for layer decomposition come from ByteDance's image generation API documentation and its Seedream 5.0 Pro launch post. Adobe's Layered Image Editing announcement is from its October 2025 MAX coverage, with the absence of a shipping feature checked against Adobe's current Photoshop and Firefly feature lists. The Affinity capability is from Canva's September 2026 announcement. Qwen-Image-Layered is Alibaba's December 2025 open-weights release. Higgsfield details come from its own plugin and changelog pages. A provider documenting a capability describes that provider's own surface and does not guarantee identical behaviour through every integration, which is exactly what our first test row shows. Model behaviour and output formats change; re-test before building a process on any single result.</p>
 <p>For how the panel fits a wider production workflow, see the <a class="" href="https://www.astria.ai/articles/nano-banana-photoshop-guide/">Nano Banana Photoshop guide</a> and the <a class="" href="https://www.astria.ai/articles/best-nano-banana-photoshop-plugins/">plugin shortlist</a>.</p>
 <p><a href="https://www.astria.ai/nano-banana-photoshop" target="_blank" rel="noopener noreferrer" class="">Get the Astria Photoshop plugin</a>.</p>]]></content:encoded>
-            <category>Guides</category>
             <category>Photoshop</category>
         </item>
         <item>
@@ -137,7 +136,6 @@
 <p>Start each candidate from the same approved source and references, change one creative attribute at a time, and keep crop, output size and review criteria consistent.</p>
 <h3 class="anchor anchorTargetStickyNavbar_ZDrG" id="does-the-photoshop-plugin-run-ab-tests">Does the Photoshop plugin run A/B tests?<a href="https://www.astria.ai/articles/nano-banana-photoshop-fashion-campaign-variations/#does-the-photoshop-plugin-run-ab-tests" class="hash-link" aria-label="Direct link to Does the Photoshop plugin run A/B tests?" title="Direct link to Does the Photoshop plugin run A/B tests?" translate="no">​</a></h3>
 <p>This workflow creates creative assets for a later test. Run the test and measure its results in your existing advertising, ecommerce or research system.</p>]]></content:encoded>
-            <category>Guides</category>
             <category>Photoshop</category>
         </item>
         <item>
@@ -182,7 +180,6 @@
 <p>No. Review the pattern, color, neckline, seams, closures and proportions against the reference before using a result as a product image. Use a conventional composite for details that require exact reproduction.</p>
 <h3 class="anchor anchorTargetStickyNavbar_ZDrG" id="how-should-a-stylist-present-several-outfit-options">How should a stylist present several outfit options?<a href="https://www.astria.ai/articles/nano-banana-photoshop-fashion-references/#how-should-a-stylist-present-several-outfit-options" class="hash-link" aria-label="Direct link to How should a stylist present several outfit options?" title="Direct link to How should a stylist present several outfit options?" translate="no">​</a></h3>
 <p>Keep the same source photograph and create named layers or groups for each combination. Show the source, proposed styling and associated product references together so the reviewer can judge the specific change.</p>]]></content:encoded>
-            <category>Guides</category>
             <category>Photoshop</category>
         </item>
         <item>
@@ -224,7 +221,6 @@
 <p>No. A mockup visualizes appearance. Use approved editable artwork, the actual dieline, dimensions and normal print-production checks for manufacturing files.</p>
 <h3 class="anchor anchorTargetStickyNavbar_ZDrG" id="how-can-i-compare-packaging-colors-or-patterns">How can I compare packaging colors or patterns?<a href="https://www.astria.ai/articles/nano-banana-photoshop-packaging-mockups/#how-can-i-compare-packaging-colors-or-patterns" class="hash-link" aria-label="Direct link to How can I compare packaging colors or patterns?" title="Direct link to How can I compare packaging colors or patterns?" translate="no">​</a></h3>
 <p>Generate each option from the same source package view, change one attribute at a time, and keep perspective, lighting and the remaining artwork consistent. Use ordinary Photoshop adjustments for controlled color changes when possible.</p>]]></content:encoded>
-            <category>Guides</category>
             <category>Photoshop</category>
         </item>
         <item>
@@ -271,7 +267,6 @@
 <p>Retain an approved source photograph, change one attribute at a time, supply an identity reference when needed, and compare distinctive facial features before approval.</p>
 <h3 class="anchor anchorTargetStickyNavbar_ZDrG" id="when-should-i-use-an-adjustment-layer-instead-of-generation">When should I use an adjustment layer instead of generation?<a href="https://www.astria.ai/articles/nano-banana-photoshop-portrait-brand-editing/#when-should-i-use-an-adjustment-layer-instead-of-generation" class="hash-link" aria-label="Direct link to When should I use an adjustment layer instead of generation?" title="Direct link to When should I use an adjustment layer instead of generation?" translate="no">​</a></h3>
 <p>Use an adjustment layer for a controlled color or exposure change when the photograph already contains the required geometry and detail. Generation is useful when the edit needs new content or a different setting.</p>]]></content:encoded>
-            <category>Guides</category>
             <category>Photoshop</category>
         </item>
         <item>
@@ -311,7 +306,6 @@
 <p>Keep the original photograph and identify furniture, planting or other additions as staged or proposed when presenting the image. Use the version that matches the purpose of the property communication.</p>
 <h3 class="anchor anchorTargetStickyNavbar_ZDrG" id="what-should-i-inspect-after-editing-a-pool-or-patio">What should I inspect after editing a pool or patio?<a href="https://www.astria.ai/articles/nano-banana-photoshop-real-estate-editing/#what-should-i-inspect-after-editing-a-pool-or-patio" class="hash-link" aria-label="Direct link to What should I inspect after editing a pool or patio?" title="Direct link to What should I inspect after editing a pool or patio?" translate="no">​</a></h3>
 <p>Check reflections, water edges, furniture proportions, contact shadows, paving joints, doors and building boundaries against the original photograph.</p>]]></content:encoded>
-            <category>Guides</category>
             <category>Photoshop</category>
         </item>
         <item>
@@ -352,7 +346,6 @@
 <p>Treat pose, wardrobe and setting changes as creative alternatives and let the client choose them separately from corrections to the original photograph.</p>
 <h3 class="anchor anchorTargetStickyNavbar_ZDrG" id="what-should-i-inspect-after-removing-an-obstructing-hand">What should I inspect after removing an obstructing hand?<a href="https://www.astria.ai/articles/nano-banana-photoshop-wedding-retouching/#what-should-i-inspect-after-removing-an-obstructing-hand" class="hash-link" aria-label="Direct link to What should I inspect after removing an obstructing hand?" title="Direct link to What should I inspect after removing an obstructing hand?" translate="no">​</a></h3>
 <p>Check the reconstructed hair, skin, garment edges and jewelry against the source and any supporting photograph. Refine the layer mask and review the result at the intended print or album size.</p>]]></content:encoded>
-            <category>Guides</category>
             <category>Photoshop</category>
         </item>
         <item>
@@ -483,7 +476,6 @@
 <p>Select the relevant surfaces, supply material references, and specify the camera and geometry to preserve. Review openings, edges and repeated elements against the source. For an accurate new viewpoint, export that camera from the project model first.</p>
 <h3 class="anchor anchorTargetStickyNavbar_ZDrG" id="is-an-ai-architectural-image-a-project-simulation">Is an AI architectural image a project simulation?<a href="https://www.astria.ai/articles/nano-banana-photoshop-architecture/#is-an-ai-architectural-image-a-project-simulation" class="hash-link" aria-label="Direct link to Is an AI architectural image a project simulation?" title="Direct link to Is an AI architectural image a project simulation?" translate="no">​</a></h3>
 <p>It is a concept visualization for communicating appearance and comparing design options. Dimensions, construction, daylight, energy and engineering performance require the project model and the relevant analysis tools.</p>]]></content:encoded>
-            <category>Guides</category>
             <category>Photoshop</category>
         </item>
         <item>
