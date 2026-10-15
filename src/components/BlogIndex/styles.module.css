@@ -356,6 +356,46 @@
   margin-top: 3rem;
 }
 
+.loadMore {
+  align-items: center;
+  color: var(--blog-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 3rem;
+  min-height: 5rem;
+  text-align: center;
+}
+
+.loadStatus {
+  margin: 0;
+}
+
+.loadStatus:empty {
+  display: none;
+}
+
+.loadButton {
+  background: var(--blog-card-bg);
+  border: 1px solid var(--blog-border);
+  border-radius: 999px;
+  color: var(--blog-ink);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  padding: 10px 24px;
+}
+
+.loadButton:hover,
+.loadButton:focus-visible {
+  border-color: var(--blog-ink);
+}
+
+.loadButton:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
 /* Responsive */
 
 @media (max-width: 900px) {
