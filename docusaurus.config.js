@@ -137,7 +137,9 @@ const config = {
           //   position: 'left',
           //   label: 'Use cases',
           // },
+          {href: 'https://www.astria.ai/prompts', label: 'Generate', position: 'left', target: '_self'},
           {to: '/', label: 'Articles', position: 'left'},
+          {to: '/tags/course/', label: 'Course', position: 'left'},
           {to: '/features', label: 'How Astria works', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
