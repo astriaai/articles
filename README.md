@@ -27,6 +27,14 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+After building, run `yarn audit:search` to check sitemap URLs, raw HTML, and FAQ/HowTo
+JSON-LD against visible article text. Run `yarn audit:search --live` to also check
+production robots.txt, sitemap discovery, and key pages with the four AI bot user
+agents. This fetches raw HTTP responses without running JavaScript. The root
+robots.txt is served by the main Astria application; an articles/robots.txt would
+not control crawling. Schemas come from the visible FAQ and numbered Step/Stage
+sections through `plugins/remark-article-schema.js`.
+
 ### Deployment
 
 Using SSH:

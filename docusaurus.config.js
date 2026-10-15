@@ -84,6 +84,7 @@ const config = {
           blogTitle: 'Notes on AI fashion production',
           blogDescription: 'Comparisons, techniques, and field notes for teams producing on-brand fashion imagery with AI.',
           processBlogPosts: require('./plugins/publish-schedule'),
+          remarkPlugins: [require('./plugins/remark-article-schema')],
 
           path: 'blog',
           routeBasePath: '/',
