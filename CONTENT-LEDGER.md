@@ -299,6 +299,22 @@ row and the third FAQ must be rewritten; if Adobe ships Layered Image Editing, a
 October 2025 and still in development, the field section must be rewritten. The Flux 3 review's
 Seedream layer-separation sentence was qualified the same day to match the test.
 
+## CTR rewrite — 2026-10-15
+
+The 2026-10-04 data review was run on 2026-10-15 (`notes/search-console-data-review-2026-10-15.md`).
+It overturned the pause's premise: the pages rank (83 of 96 on page one, average position 8.1)
+but 72 of them took zero clicks on 1,481 impressions. The constraint is the SERP snippet, not
+authority and not indexation.
+
+Titles and descriptions were rewritten on the eight worst offenders, with a before/after table
+and the reasoning in `notes/ctr-rewrite-2026-10-15.md`. No body content changed, so the result
+is attributable. **Re-measure on or after 2026-11-12** against the baseline table there.
+
+One of the eight was not a copy problem at all: `/articles/face-id/` ranked at position 4.1 with
+no clicks because client-redirects emits redirects as 200-status stubs with no `<title>`.
+`scripts/noindex-redirects.js` now fixes that on every build.
+
+
 ## Open items
 
 - **Search Console.** Completed September 5: the Higgsfield URL passed the live test and was

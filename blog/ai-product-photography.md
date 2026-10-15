@@ -1,6 +1,6 @@
 ---
-title: "AI Product Photography for Ecommerce: Workflow & QA"
-description: "AI product photography turns product references into catalog, on-model, lifestyle, and campaign images. Learn the workflow, inputs, quality checks, and limits."
+title: "AI Product Photography for Ecommerce: What Works and What Breaks"
+description: "Which products survive AI photography and which fight back — the inputs that decide quality, the checks that catch failures, and where to still shoot for real."
 slug: ai-product-photography
 date: 2026-09-07
 hide_table_of_contents: true

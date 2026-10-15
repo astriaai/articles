@@ -1,6 +1,6 @@
 ---
-title: "How to Create a Lookbook: 8 Steps + Layout Checklist"
-description: "Make a fashion lookbook from brief to delivery: choose looks, build a shot list, plan the page order, add wholesale details, and export a useful PDF or web edition."
+title: "How to Create a Lookbook: 8 Steps, Shot List, and Layout Checklist"
+description: "Build a fashion lookbook from brief to delivery — how many looks to shoot, the shot list, page order, wholesale details, and a PDF buyers actually open."
 slug: how-to-create-a-lookbook
 date: 2026-08-16
 hide_table_of_contents: true
