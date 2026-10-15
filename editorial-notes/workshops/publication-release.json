@@ -98,7 +98,7 @@
   ],
   "collectionUrl": "https://www.astria.ai/articles/workshops/",
   "validation": {
-    "productionBuild": "pass",
+    "productionBuild": "pass from clean current production main; local historical build blockers do not affect release",
     "tests": {
       "passed": 28,
       "failed": 0
@@ -106,7 +106,24 @@
     "typecheck": "pass",
     "indexableArticleRoutes": 15,
     "sitemap": "all15pluscollection",
-    "newGenerationCount": 0
+    "newGenerationCount": 0,
+    "live": {
+      "result": "pass",
+      "pages": 16,
+      "articlePages": 15,
+      "imageHashesMatched": 73,
+      "allIndexable": true,
+      "sitemap": "pass",
+      "browserCollection": "pass"
+    }
   },
-  "deploymentState": "ready-to-push"
+  "deploymentState": "published and verified live",
+  "sourceCommit": "b6c3ecfbc3b1ffcb5ebfa04095432651625b12f1",
+  "pagesCommit": "741c9a28fa1e8203cc274eb897b4c5526e90d386",
+  "publishedOn": "2026-10-15",
+  "githubPagesBuild": {
+    "status": "built",
+    "commit": "741c9a28fa1e8203cc274eb897b4c5526e90d386",
+    "actionUrl": "https://github.com/astriaai/articles/actions/runs/38731582618"
+  }
 }
