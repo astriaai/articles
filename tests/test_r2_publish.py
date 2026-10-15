@@ -47,6 +47,35 @@ class S3:
                             for key, data in self.objects.items() if key.startswith(Prefix)]}
 
 
+class CredentialTests(unittest.TestCase):
+    def test_local_scoped_key_takes_precedence_over_ambient_credentials(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / ".env.github"
+            path.write_text('CLOUDFLARE_R2_ACCESS_KEY_ID=local-key\n'
+                            'CLOUDFLARE_R2_SECRET_ACCESS_KEY="local-secret"\n')
+            options = module.credential_options(path, environ={
+                "AWS_ACCESS_KEY_ID": "broad-key", "AWS_SECRET_ACCESS_KEY": "broad-secret",
+            })
+            self.assertEqual(options, {"aws_access_key_id": "local-key",
+                                       "aws_secret_access_key": "local-secret"})
+
+    def test_missing_or_incomplete_scoped_key_never_falls_back_to_a_profile(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / ".env.github"
+            with self.assertRaisesRegex(ValueError, "Configure .env.github"):
+                module.credential_options(path, environ={})
+            self.assertEqual(module.credential_options(path, profile="explicit"),
+                             {"profile_name": "explicit"})
+            self.assertEqual(module.credential_options(path, environ={
+                "AWS_ACCESS_KEY_ID": "ci-key", "AWS_SECRET_ACCESS_KEY": "ci-secret",
+            }), {"aws_access_key_id": "ci-key", "aws_secret_access_key": "ci-secret"})
+            path.write_text('CLOUDFLARE_R2_ACCESS_KEY_ID=incomplete\n')
+            with self.assertRaisesRegex(ValueError, "Both CLOUDFLARE_R2"):
+                module.credential_options(path, environ={
+                    "AWS_ACCESS_KEY_ID": "broad-key", "AWS_SECRET_ACCESS_KEY": "broad-secret",
+                })
+
+
 class ReleaseTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()

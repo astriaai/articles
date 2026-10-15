@@ -54,7 +54,7 @@ jobs:
           yarn build
           yarn audit:search
       - name: Publish the verified release to R2
-        if: vars.ARTICLES_R2_CI_ENABLED == 'true'
+        if: github.event_name == 'workflow_dispatch' && vars.ARTICLES_R2_CI_ENABLED == 'true'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}

@@ -42,13 +42,16 @@ Articles are served from the private `astria-articles` R2 bucket by the
 application still owns root robots/sitemaps and `/articles/*.md`. The old Pages
 branch remains available as an origin fallback; it is no longer the publisher.
 
-For local publishing, configure the existing `cloudflare` AWS profile for R2,
-then prepare the Python environment once:
+Publish locally by default with `yarn deploy`; it does not wait for GitHub Actions.
+The publisher automatically reads the scoped R2 key from the ignored `.env.github`
+in this repository. Use the `CLOUDFLARE_R2_ACCESS_KEY_ID` and
+`CLOUDFLARE_R2_SECRET_ACCESS_KEY` variables and keep the file owner-only (`chmod 600`).
+The shared GitHub publishing key is restricted to `astria-academy` and
+`astria-articles`. Prepare the Python environment once:
 
 ```sh
 python3 -m venv .venv-r2
-. .venv-r2/bin/activate
-python3 -m pip install -r scripts/requirements-r2.txt
+.venv-r2/bin/python -m pip install -r scripts/requirements-r2.txt
 yarn deploy
 ```
 
@@ -59,10 +62,14 @@ are retained. Concurrent activation fails safely rather than replacing a newer
 release. Bucket files are never deleted by publishing. `yarn deploy:stage`
 uploads a release without activating it.
 
+To use a credential file elsewhere, pass `--env-file /absolute/path/.env.github`
+to `scripts/publish-r2.py`. AWS profiles require explicit `--profile NAME`; the
+publisher never silently falls back to the broader `cloudflare` profile.
+
 Activate a staged release or roll back to a previous release:
 
 ```sh
-python3 -B scripts/publish-r2.py --activate RELEASE_ID --expected-current CURRENT_RELEASE_ID
+.venv-r2/bin/python -B scripts/publish-r2.py --activate RELEASE_ID --expected-current CURRENT_RELEASE_ID
 ```
 
 The Worker reads the current release on every request and caches public responses
@@ -71,9 +78,9 @@ uses immutable caching. Missing routes serve the actual 404 document with status
 404 and noindex. Legacy article redirects and byte ranges for videos are supported.
 Change Worker code/config with `yarn worker:deploy` using Cloudflare login.
 
-The `Publish articles to R2` workflow validates pushes to main and supports manual
-staging with its `stage` input. Storage publishing stays disabled until the repo
-has encrypted `CLOUDFLARE_R2_ACCESS_KEY_ID` and
-`CLOUDFLARE_R2_SECRET_ACCESS_KEY` secrets restricted to this bucket, and the
-`ARTICLES_R2_CI_ENABLED` repository variable is set to `true`. CI needs R2 object
-read/write/list access, not Worker management or broader Cloudflare credentials.
+The `Publish articles to R2` workflow validates pushes to main. It only publishes
+when manually dispatched, with optional staging via its `stage` input. The repo
+has encrypted `CLOUDFLARE_R2_ACCESS_KEY_ID` and `CLOUDFLARE_R2_SECRET_ACCESS_KEY`
+secrets and `ARTICLES_R2_CI_ENABLED=true` for this manual fallback. CI needs R2
+object read/write/list access, not Worker management or broader Cloudflare
+credentials. Pushes do not activate releases.

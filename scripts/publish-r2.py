@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Publish complete, immutable article releases, then atomically switch traffic.
 
-Requires scripts/requirements-r2.txt. Uses the local cloudflare AWS profile, or
+Requires scripts/requirements-r2.txt. Uses the local .env.github scoped key, or
 AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY in CI. Never deletes older releases.
 """
 import argparse
@@ -13,6 +13,7 @@ import json
 import os
 from pathlib import Path
 import re
+import shlex
 import subprocess
 
 ACCOUNT = "ec873171e61e987246494e6b69f45556"
@@ -20,6 +21,42 @@ BUCKET = "astria-articles"
 ENDPOINT = "https://" + ACCOUNT + ".r2.cloudflarestorage.com"
 RELEASE = re.compile(r"^[a-zA-Z0-9][a-zA-Z0-9._-]{0,100}$")
 UNSET = object()
+
+
+def credential_options(env_file, profile=None, environ=None):
+    """Prefer the scoped local key; broader AWS profiles require explicit selection."""
+    if profile:
+        return {"profile_name": profile}
+    if env_file.is_file():
+        values = {}
+        for line in env_file.read_text().splitlines():
+            if not line.strip() or line.lstrip().startswith("#"):
+                continue
+            name, separator, raw = line.partition("=")
+            if not separator or name.strip() not in (
+                "CLOUDFLARE_R2_ACCESS_KEY_ID", "CLOUDFLARE_R2_SECRET_ACCESS_KEY",
+            ):
+                continue
+            try:
+                parts = shlex.split(raw, comments=True)
+            except ValueError:
+                raise ValueError("Invalid credential entry in " + str(env_file)) from None
+            if len(parts) != 1:
+                raise ValueError("Missing credential value in " + str(env_file))
+            values[name.strip()] = parts[0]
+        access = values.get("CLOUDFLARE_R2_ACCESS_KEY_ID")
+        secret = values.get("CLOUDFLARE_R2_SECRET_ACCESS_KEY")
+        if not access or not secret:
+            raise ValueError("Both CLOUDFLARE_R2 credentials are required in " + str(env_file))
+        return {"aws_access_key_id": access, "aws_secret_access_key": secret}
+    environ = os.environ if environ is None else environ
+    access, secret = environ.get("AWS_ACCESS_KEY_ID"), environ.get("AWS_SECRET_ACCESS_KEY")
+    if access and secret:
+        result = {"aws_access_key_id": access, "aws_secret_access_key": secret}
+        if environ.get("AWS_SESSION_TOKEN"):
+            result["aws_session_token"] = environ["AWS_SESSION_TOKEN"]
+        return result
+    raise ValueError("Configure .env.github, set both AWS credential variables, or select --profile explicitly")
 
 
 def inventory(site):
@@ -170,6 +207,8 @@ def main():
     parser.add_argument("--release")
     parser.add_argument("--source-commit")
     parser.add_argument("--profile")
+    parser.add_argument("--env-file", type=Path,
+                        default=Path(__file__).resolve().parents[1] / ".env.github")
     parser.add_argument("--stage", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--activate", help="Activate an already verified release; also used for rollback")
@@ -177,8 +216,7 @@ def main():
     args = parser.parse_args()
     import boto3
     from botocore.config import Config
-    profile = args.profile or (None if os.environ.get("AWS_ACCESS_KEY_ID") else "cloudflare")
-    session = boto3.Session(profile_name=profile)
+    session = boto3.Session(**credential_options(args.env_file, args.profile))
     client = session.client("s3", endpoint_url=ENDPOINT, region_name="auto", config=Config(
         signature_version="s3v4", max_pool_connections=16,
         retries={"mode": "adaptive", "max_attempts": 8},

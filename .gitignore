@@ -2,6 +2,7 @@
 /node_modules
 /.venv-r2
 /.wrangler
+/.env.github
 
 # Production
 /build

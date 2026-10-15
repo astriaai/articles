@@ -1386,16 +1386,31 @@
   "ci": {
     "validation": "passed",
     "run_url": "https://github.com/astriaai/articles/actions/runs/38760717359",
-    "publishing_enabled": false,
-    "reason": "Approval review rejected copying existing R2 credentials without established bucket scope; bucket-scoped credentials and explicit approval are needed.",
+    "publishing_enabled": true,
     "required_secrets": [
       "CLOUDFLARE_R2_ACCESS_KEY_ID",
       "CLOUDFLARE_R2_SECRET_ACCESS_KEY"
     ],
-    "enable_variable": "ARTICLES_R2_CI_ENABLED=true"
+    "enable_variable": "ARTICLES_R2_CI_ENABLED=true",
+    "publishing_mode": "manual workflow_dispatch only; pushes validate",
+    "credential_scope": [
+      "astria-academy",
+      "astria-articles"
+    ],
+    "credential_name": "GitHub Academy + Articles publishing",
+    "credential_verified": "2026-10-15",
+    "staging_validation": "passed",
+    "staging_run_url": "https://github.com/astriaai/articles/actions/runs/38764864165"
   },
   "rollback": {
     "content": "Activate a previous verified R2 release with scripts/publish-r2.py --activate RELEASE --expected-current CURRENT.",
     "hosting": "Remove the www.astria.ai/articles* Worker route to restore the retained Rails/GitHub Pages origin."
+  },
+  "local_publishing": {
+    "default_command": "yarn deploy",
+    "credential_file": ".env.github (ignored, mode 0600)",
+    "credential_source": "Same Academy + Articles scoped key used by GitHub Actions",
+    "broad_profile_fallback": false,
+    "other_seven_buckets": "AccessDenied verified"
   }
 }
