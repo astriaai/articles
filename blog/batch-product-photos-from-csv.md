@@ -4,7 +4,7 @@ description: "Plan product-photo batches from a SKU CSV with an offline validato
 slug: batch-product-photos-from-csv
 date: 2026-10-07
 authors: [astria]
-tags: [guides, faq]
+tags: [faq]
 ---
 
 To batch product photos from a CSV, give every SKU, colorway and shot its own row, validate the source files, approve one treatment, then run a small reviewed pilot. A spreadsheet can organize the work; it cannot establish that a generated product is accurate.

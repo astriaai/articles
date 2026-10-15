@@ -4,7 +4,7 @@ description: "Review supplier-image permissions, likeness, data processing, comm
 slug: ai-product-photography-rights-checklist
 date: 2026-10-10
 authors: [astria]
-tags: [guides, faq]
+tags: [faq]
 ---
 
 Before uploading product photos to an AI service, confirm that you can authorize processing and the intended commercial use. Check supplier-image rights, any person's likeness, the selected provider's data terms and the final image's claims. Permission to sell a product does not itself answer all four questions.

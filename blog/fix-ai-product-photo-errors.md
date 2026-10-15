@@ -4,7 +4,7 @@ description: "Choose recapture, original-preserving edits, compositing or reject
 slug: fix-ai-product-photo-errors
 date: 2026-10-08
 authors: [astria]
-tags: [guides, faq]
+tags: [faq]
 ---
 
 When AI changes a product's print, buttons, color or label, compare the result with a sharp original before editing again. Repair only what the source proves. Preserve original product pixels where possible, recapture missing details, and reject views that require invented construction.

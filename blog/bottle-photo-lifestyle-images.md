@@ -4,7 +4,7 @@ description: "Build bottle lifestyle scenes with glare-aware capture, preserved 
 slug: bottle-photo-lifestyle-images
 date: 2026-10-13
 authors: [astria]
-tags: [guides, faq]
+tags: [faq]
 ---
 
 For bottle lifestyle images, begin with a sharp bottle photograph whose label is already readable. Keep that original product layer when exact text and geometry matter, and build the scene around it. A generated label that looks plausible is not a faithful product label.

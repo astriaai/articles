@@ -4,7 +4,7 @@ description: "Prepare clothes, light a simple phone setup, capture product detai
 slug: photograph-clothes-with-phone
 date: 2026-10-09
 authors: [astria]
-tags: [guides, faq]
+tags: [faq]
 ---
 
 You can photograph clothes with a phone when the garment is complete, sharp, evenly lit and shown without misleading folds. Prepare one simple setup, test it on a representative item, then batch by garment type. Capture details and measurements before using those photos for AI scenes.
