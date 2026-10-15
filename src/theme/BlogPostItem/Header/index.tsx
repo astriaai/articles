@@ -6,8 +6,7 @@ import BlogPostItemHeaderAuthors from '@theme/BlogPostItem/Header/Authors';
 import Tag from '@theme/Tag';
 import styles from './styles.module.css';
 
-// Repeats the post's tags under the byline so readers see the topic before
-// scrolling; the footer keeps its own tag list.
+// Article pages lead with topics; listing pages retain their author display.
 export default function BlogPostItemHeader(): ReactNode {
   const {metadata, isBlogPostPage} = useBlogPost();
   const {tags} = metadata;
@@ -16,15 +15,18 @@ export default function BlogPostItemHeader(): ReactNode {
     <header>
       <BlogPostItemHeaderTitle />
       <BlogPostItemHeaderInfo />
-      <BlogPostItemHeaderAuthors />
+      {!isBlogPostPage && <BlogPostItemHeaderAuthors />}
       {isBlogPostPage && tags.length > 0 && (
-        <ul className={styles.tags} aria-label="Tags">
-          {tags.map((tag) => (
-            <li key={tag.permalink}>
-              <Tag {...tag} />
-            </li>
-          ))}
-        </ul>
+        <nav className={styles.topics} aria-label="Article topics">
+          <span className={styles.topicLabel}>Topics</span>
+          <ul className={styles.tags}>
+            {tags.map((tag) => (
+              <li key={tag.permalink}>
+                <Tag {...tag} />
+              </li>
+            ))}
+          </ul>
+        </nav>
       )}
     </header>
   );
