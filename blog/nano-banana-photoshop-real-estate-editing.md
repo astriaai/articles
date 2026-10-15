@@ -2,7 +2,7 @@
 title: "Real Estate Photo Editing in Photoshop With Nano Banana"
 description: "Clean up property photos, explore staging and create twilight concepts in Photoshop. Practical Nano Banana workflows for photographers and property teams."
 slug: nano-banana-photoshop-real-estate-editing
-date: 2026-10-18
+date: 2026-10-15
 image: /img/photoshop-video-guides/property-evening.webp
 authors: [astria]
 tags: [guides, photoshop]

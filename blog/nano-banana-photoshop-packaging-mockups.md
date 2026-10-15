@@ -2,7 +2,7 @@
 title: "AI Packaging Mockups in Photoshop for Product Teams"
 description: "Preview packaging patterns, logos, colors and product scenes in Photoshop. Use video examples and a practical workflow for design, brand and ecommerce teams."
 slug: nano-banana-photoshop-packaging-mockups
-date: 2026-10-20
+date: 2026-10-15
 image: /img/photoshop-video-guides/packaging-design.webp
 authors: [astria]
 tags: [guides, photoshop]

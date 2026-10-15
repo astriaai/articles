@@ -2,9 +2,6 @@ name: Publish Photoshop video articles
 
 on:
   workflow_dispatch:
-  schedule:
-    # One daily build during this batch. The date gate also checks the year.
-    - cron: '17 5 15-20 10 *'
 
 permissions:
   contents: write
@@ -19,27 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check the bounded publication window
-        id: release
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import datetime, json, os
-          from zoneinfo import ZoneInfo
-          plan = json.load(open('editorial-notes/photoshop-video-articles-release.json'))
-          today = datetime.datetime.now(ZoneInfo(plan['timezone'])).date().isoformat()
-          dates = sorted(article['date'] for article in plan['articles'])
-          due = dates[0] <= today <= dates[-1]
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
-              output.write(f'due={str(due).lower()}\ndate={today}\n')
-          print(f'Publication date {today}; batch active: {due}')
-          PY
       - uses: actions/setup-node@v4
-        if: steps.release.outputs.due == 'true'
         with:
           node-version: '22'
-      - name: Install locked dependencies and build due articles
-        if: steps.release.outputs.due == 'true'
+      - name: Install locked dependencies and build published articles
         run: |
           corepack enable
           corepack prepare yarn@1.22.22 --activate
@@ -47,18 +27,15 @@ jobs:
           yarn test
           yarn build
       - uses: actions/checkout@v4
-        if: steps.release.outputs.due == 'true'
         with:
           ref: gh-pages
           path: published
       - name: Publish the reviewed site build
-        if: steps.release.outputs.due == 'true'
         env:
-          RELEASE_DATE: ${{ steps.release.outputs.date }}
           GH_TOKEN: ${{ github.token }}
         run: |
           git -C published config user.name 'Astria articles'
           git -C published config user.email 'articles@astria.ai'
-          python3 scripts/publish-photoshop-video-pages.py --build build --pages published --plan editorial-notes/photoshop-video-articles-release.json --message "Publish Photoshop video guides for ${RELEASE_DATE}" --push
+          python3 scripts/publish-photoshop-video-pages.py --build build --pages published --plan editorial-notes/photoshop-video-articles-release.json --message "Publish all Photoshop video guides" --push
           # GITHUB_TOKEN pushes do not automatically trigger legacy Pages builds.
           gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" --jq '.status'

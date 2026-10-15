@@ -8,15 +8,15 @@ Prepared October 14, 2026 for the authorized publication of the seven Photoshop 
 | --- | --- | --- |
 | 2026-10-14 | Nano Banana architecture in Photoshop | 92LGIUy9VK0 |
 | 2026-10-15 | Clothing replacement with references | EVdifaMROfk |
-| 2026-10-16 | Wedding photo retouching | vqCrHL6c1e8 |
-| 2026-10-17 | Fashion campaign variations | Q82FDj2Ub2w |
-| 2026-10-18 | Property photo editing | dryzJgkg3Rw |
-| 2026-10-19 | Portrait and brand editing | QEyWRuBgVno |
-| 2026-10-20 | Packaging mockups | OYnSAHvFQKs |
+| 2026-10-15 | Wedding photo retouching | vqCrHL6c1e8 |
+| 2026-10-15 | Fashion campaign variations | Q82FDj2Ub2w |
+| 2026-10-15 | Property photo editing | dryzJgkg3Rw |
+| 2026-10-15 | Portrait and brand editing | QEyWRuBgVno |
+| 2026-10-15 | Packaging mockups | OYnSAHvFQKs |
 
 The first article expands the existing architecture draft. The six other guides own distinct Photoshop workflow queries; the generic plugin guide remains the installation and overview hub. The older real-estate article remains unlisted. This release does not reopen the unrelated content backlog.
 
-The production repository already uses `plugins/publish-schedule.js` to exclude future articles at build time. The bounded GitHub Actions workflow rebuilds daily during October 15–20, 2026. It reads the manifest's Asia/Jerusalem timezone and preserves one article per calendar day. Scheduled GitHub jobs may run late; a missed day that would release more than one new batch article causes publication to stop for rescheduling rather than silently catching up. Future articles are not live merely because their sources are committed.
+On October 15, 2026, the user explicitly requested: ‘expose all videos now and publish’. This overrides the repository’s default daily cadence for this batch. The architecture guide retains its actual October 14 publication date; all remaining guides use October 15. The manifest retains the replaced scheduled dates for audit. Its explicit immediate-publication mode permits the publisher to release the remaining batch together. The daily workflow schedule is removed; manual deployment remains available. The normal future-date filter remains enabled for the rest of the repository.
 
 ## Video images and provenance
 
@@ -36,4 +36,6 @@ Current panel reference behavior and compatibility were checked against Astria's
 
 The release checkout starts from production main rather than the shared workspace's older branch. The publisher copies only generated build files into a clean gh-pages checkout, preserves unrelated paths, commits explicit file paths and refuses to operate on a dirty checkout. No unrelated shared-workspace files or uncommitted drafts enter the release.
 
-Validation passed: the full seven-article preview build, the production build with the date filter restored, TypeScript checks, all 24 repository tests, and rendered checks for each article's images, video, metadata and FAQ schema. All seven preview layouts were visually inspected. The production build contains only the first batch route and excludes the six future routes from the sitemap. Isolated publisher checks passed for unrelated-file preservation, no-op behavior, dirty-checkout rejection and refusal to publish multiple overdue articles.
+Initial October 14 validation passed: the full seven-article preview build, the production build with the date filter restored, TypeScript checks, all 24 repository tests, and rendered checks for each article's images, video, metadata and FAQ schema. All seven preview layouts were visually inspected. The production build contains only the first batch route and excludes the six future routes from the sitemap. Isolated publisher checks passed for unrelated-file preservation, no-op behavior, dirty-checkout rejection and refusal to publish multiple overdue articles.
+
+October 15 immediate-release validation: all 24 repository tests and the production build passed. All seven article routes are present in the build and sitemap, with their original video IDs, VideoObject and FAQ schema, indexable HTML, and valid local still-image paths. The scheduled daily job was removed following the user’s explicit batch-publication request.

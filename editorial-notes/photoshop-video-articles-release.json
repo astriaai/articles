@@ -1,7 +1,7 @@
 {
   "timezone": "Asia/Jerusalem",
   "created": "2026-10-14",
-  "cadence": "one article per calendar day",
+  "cadence": "All remaining guides published together on 2026-10-15 at the user’s request",
   "articles": [
     {
       "slug": "nano-banana-photoshop-architecture",
@@ -25,46 +25,51 @@
       "slug": "nano-banana-photoshop-wedding-retouching",
       "file": "blog/nano-banana-photoshop-wedding-retouching.md",
       "title": "Wedding Photo Retouching in Photoshop With Nano Banana",
-      "date": "2026-10-16",
+      "date": "2026-10-15",
       "video_id": "vqCrHL6c1e8",
       "hero": "bridal-retouch",
-      "primary_query": "AI wedding photo editing Photoshop"
+      "primary_query": "AI wedding photo editing Photoshop",
+      "original_scheduled_date": "2026-10-16"
     },
     {
       "slug": "nano-banana-photoshop-fashion-campaign-variations",
       "file": "blog/nano-banana-photoshop-fashion-campaign-variations.md",
       "title": "Fashion Campaign Variations in Photoshop With AI",
-      "date": "2026-10-17",
+      "date": "2026-10-15",
       "video_id": "Q82FDj2Ub2w",
       "hero": "campaign-day",
-      "primary_query": "fashion campaign variations Photoshop"
+      "primary_query": "fashion campaign variations Photoshop",
+      "original_scheduled_date": "2026-10-17"
     },
     {
       "slug": "nano-banana-photoshop-real-estate-editing",
       "file": "blog/nano-banana-photoshop-real-estate-editing.md",
       "title": "Real Estate Photo Editing in Photoshop With Nano Banana",
-      "date": "2026-10-18",
+      "date": "2026-10-15",
       "video_id": "dryzJgkg3Rw",
       "hero": "property-evening",
-      "primary_query": "AI real estate photo editing Photoshop"
+      "primary_query": "AI real estate photo editing Photoshop",
+      "original_scheduled_date": "2026-10-18"
     },
     {
       "slug": "nano-banana-photoshop-portrait-brand-editing",
       "file": "blog/nano-banana-photoshop-portrait-brand-editing.md",
       "title": "Portrait and Brand Photo Editing in Photoshop With AI",
-      "date": "2026-10-19",
+      "date": "2026-10-15",
       "video_id": "QEyWRuBgVno",
       "hero": "portrait-office",
-      "primary_query": "AI portrait editing Photoshop"
+      "primary_query": "AI portrait editing Photoshop",
+      "original_scheduled_date": "2026-10-19"
     },
     {
       "slug": "nano-banana-photoshop-packaging-mockups",
       "file": "blog/nano-banana-photoshop-packaging-mockups.md",
       "title": "AI Packaging Mockups in Photoshop for Product Teams",
-      "date": "2026-10-20",
+      "date": "2026-10-15",
       "video_id": "OYnSAHvFQKs",
       "hero": "packaging-design",
-      "primary_query": "AI packaging mockup Photoshop"
+      "primary_query": "AI packaging mockup Photoshop",
+      "original_scheduled_date": "2026-10-20"
     }
   ],
   "visuals": [
@@ -476,5 +481,10 @@
       "reference_provenance": "Source image and optional product references shown in the Astria demonstration",
       "reviewed": "2026-10-14"
     }
-  ]
+  ],
+  "publication_mode": "immediate",
+  "release_override": {
+    "date": "2026-10-15",
+    "instruction": "expose all videos now and publish"
+  }
 }

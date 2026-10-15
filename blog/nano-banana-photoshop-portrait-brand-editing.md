@@ -2,7 +2,7 @@
 title: "Portrait and Brand Photo Editing in Photoshop With AI"
 description: "Adapt portrait backgrounds, wardrobe and styling with the Astria Nano Banana Photoshop plugin. A layered workflow for retouchers and in-house brand teams."
 slug: nano-banana-photoshop-portrait-brand-editing
-date: 2026-10-19
+date: 2026-10-15
 image: /img/photoshop-video-guides/portrait-office.webp
 authors: [astria]
 tags: [guides, photoshop]

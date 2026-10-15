@@ -36,7 +36,7 @@ def main():
         new_articles = [article['slug'] for article in plan['articles']
                         if (build / article['slug'] / 'index.html').is_file()
                         and not (pages / article['slug'] / 'index.html').is_file()]
-        if len(new_articles) > 1:
+        if len(new_articles) > 1 and plan.get('publication_mode') != 'immediate':
             raise SystemExit('Refusing to release several articles on one day. '
                              'Reschedule the missed dates before retrying: '
                              + ', '.join(new_articles))

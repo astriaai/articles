@@ -2,7 +2,7 @@
 title: "Wedding Photo Retouching in Photoshop With Nano Banana"
 description: "Remove distractions and refine bridal photographs in Photoshop with Nano Banana. A workflow for wedding photographers, retouchers and album designers."
 slug: nano-banana-photoshop-wedding-retouching
-date: 2026-10-16
+date: 2026-10-15
 image: /img/photoshop-video-guides/bridal-retouch.webp
 authors: [astria]
 tags: [guides, photoshop]

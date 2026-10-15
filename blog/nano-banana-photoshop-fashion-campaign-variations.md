@@ -2,7 +2,7 @@
 title: "Fashion Campaign Variations in Photoshop With AI"
 description: "Explore fashion settings, lighting, framing and poses in Photoshop with the Astria plugin. Prepare clear campaign options for creative and marketing teams."
 slug: nano-banana-photoshop-fashion-campaign-variations
-date: 2026-10-17
+date: 2026-10-15
 image: /img/photoshop-video-guides/campaign-day.webp
 authors: [astria]
 tags: [guides, photoshop]
