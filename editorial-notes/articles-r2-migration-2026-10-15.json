@@ -1,0 +1,1401 @@
+{
+  "date": "2026-10-15",
+  "status": "live",
+  "account_id": "ec873171e61e987246494e6b69f45556",
+  "bucket": "astria-articles",
+  "worker": "astria-articles",
+  "worker_version": "a065b8ac-06c1-427a-8766-bbd5860c12b6",
+  "release": "migration-20261015-9df299992068",
+  "source_commit": "a9dba762b1721f81546f3bc622b378346911be9d",
+  "published_snapshot_commit": "9df299992068b477e549feea30487cb488290162",
+  "migrated_files": 2495,
+  "unique_content_blobs": 2468,
+  "routing": {
+    "routes": [
+      {
+        "id": "e7698267d8a84b55bded18bdc1f3a871",
+        "pattern": "chat.astria.ai/*",
+        "script": "astria-chat-helper",
+        "request_limit_fail_open": false
+      },
+      {
+        "id": "202914917e044510b6597f3cc7873e5b",
+        "pattern": "www.astria.ai/articles*",
+        "script": "astria-articles",
+        "request_limit_fail_open": false
+      },
+      {
+        "id": "a0b6d0ee40494e918cd1506cc6aa388f",
+        "pattern": "www.astria.ai/academy*",
+        "script": "astria-academy",
+        "request_limit_fail_open": false
+      }
+    ],
+    "managed_domain": {
+      "enabled": false,
+      "bucketId": "726ed262deca44f182c75026ee48ed54",
+      "domain": "pub-726ed262deca44f182c75026ee48ed54.r2.dev"
+    },
+    "custom_domains": {
+      "domains": []
+    }
+  },
+  "verification": {
+    "verified_identical_sitemap_pages": 152,
+    "checks": [
+      "redirect /articles",
+      "redirect /articles/how-to-create-a-lookbook?x=1",
+      "redirect /articles/face-id/",
+      "redirect /articles/on-brand/",
+      "redirect /articles/virtual-tryon/",
+      "redirect /articles/fine-tuning-flux.1",
+      "404",
+      "Rails Markdown unchanged",
+      "video range",
+      "unsatisfiable range",
+      "immutable JS",
+      "conditional 304",
+      "HEAD",
+      "edge cache HIT"
+    ],
+    "release": "migration-20261015-9df299992068",
+    "passed": true
+  },
+  "search_access_audit": {
+    "checked_at": "2026-10-15T15:29:54.479283+00:00",
+    "errors": [],
+    "built_pages": [
+      {
+        "url": "https://www.astria.ai/articles/3d-packshots-ecommerce/",
+        "main_text_characters": 13564,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-fashion-film-guide/",
+        "main_text_characters": 7163,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-fashion-models/",
+        "main_text_characters": 14674,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-fashion-photography-prompts/",
+        "main_text_characters": 17127,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-fashion-photoshoot-guide/",
+        "main_text_characters": 10642,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-footwear-photography/",
+        "main_text_characters": 7233,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-headshots-for-teams/",
+        "main_text_characters": 10456,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-headshots-without-model-training/",
+        "main_text_characters": 8355,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-jewelry-photography/",
+        "main_text_characters": 10436,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "main_text_characters": 13328,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-lookbook-prompts/",
+        "main_text_characters": 8922,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-product-photography-vs-studio/",
+        "main_text_characters": 14338,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-product-photography/",
+        "main_text_characters": 16040,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-vs-traditional-photoshoot-cost/",
+        "main_text_characters": 7912,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/amazon-product-images-apparel/",
+        "main_text_characters": 13394,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/apparel-product-video-guide/",
+        "main_text_characters": 11677,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/archive/",
+        "main_text_characters": 7794,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-image-models/",
+        "main_text_characters": 4202,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-plugin-vs-photoshop-generative-fill/",
+        "main_text_characters": 21811,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-aiuta-fashion-ai/",
+        "main_text_characters": 14699,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-ayna-fashion-ai/",
+        "main_text_characters": 14997,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-botika-fashion-ai/",
+        "main_text_characters": 14776,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-browzwear-fashion-ai/",
+        "main_text_characters": 15784,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-caimera-fashion-ai/",
+        "main_text_characters": 14005,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-creator-max-photoshop-plugin/",
+        "main_text_characters": 21490,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-dressx-fashion-ai/",
+        "main_text_characters": 13824,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-emilia-fashion-ai/",
+        "main_text_characters": 16182,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-eti-image-photoshop-plugin/",
+        "main_text_characters": 19336,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-fashionlab-fashion-ai/",
+        "main_text_characters": 15535,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-fashn-fashion-ai/",
+        "main_text_characters": 14637,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-fermat-fashion-ai/",
+        "main_text_characters": 6886,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-figma-weave-fashion-ai/",
+        "main_text_characters": 14686,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-flora-fashion-ai/",
+        "main_text_characters": 14899,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-graswald-fashion-ai/",
+        "main_text_characters": 16221,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-higgsfield-fashion-ai/",
+        "main_text_characters": 21971,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-lookgen-fashion-ai/",
+        "main_text_characters": 15122,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-looklet-fashion-ai/",
+        "main_text_characters": 15596,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-lumoo-fashion-ai/",
+        "main_text_characters": 6692,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-medicraft-nano-banana-generative-fill/",
+        "main_text_characters": 19602,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-pablo-photoshop-plugin/",
+        "main_text_characters": 18300,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-pixelz-fashion-ai/",
+        "main_text_characters": 15301,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-pletor-fashion-ai/",
+        "main_text_characters": 13741,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-rawshot-fashion-ai/",
+        "main_text_characters": 15465,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-rewarx-fashion-ai/",
+        "main_text_characters": 18345,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-stoodio-fashion-ai/",
+        "main_text_characters": 15312,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-stylic-fashion-ai/",
+        "main_text_characters": 14984,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-stytrix-fashion-ai/",
+        "main_text_characters": 6574,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-tellos-fashion-ai/",
+        "main_text_characters": 15243,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-tolstoy-fashion-ai/",
+        "main_text_characters": 14930,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/astria-vs-wearview-fashion-ai/",
+        "main_text_characters": 6296,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/authors/",
+        "main_text_characters": 45,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/beauty-product-photography-prompts/",
+        "main_text_characters": 7923,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/best-3d-packshot-services-ecommerce/",
+        "main_text_characters": 16638,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/best-ai-fashion-photography-platforms/",
+        "main_text_characters": 12302,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/best-ai-image-models-fashion/",
+        "main_text_characters": 5551,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/best-nano-banana-photoshop-plugins/",
+        "main_text_characters": 18151,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/botika-alternatives/",
+        "main_text_characters": 7506,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/cast-ai-fashion-model-astria-agent/",
+        "main_text_characters": 3328,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/choose-poses-framing-ai-product-photos/",
+        "main_text_characters": 3229,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/choose-product-reference-photos-ai-fashion/",
+        "main_text_characters": 3875,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/consistent-ai-fashion-models/",
+        "main_text_characters": 7893,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/control-ai-lookbook-background-lighting/",
+        "main_text_characters": 3803,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/create-brand-workspace-astria/",
+        "main_text_characters": 2393,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "main_text_characters": 4913,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/create-lookbook-template-astria/",
+        "main_text_characters": 2548,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/define-brand-visual-direction-ai-lookbook/",
+        "main_text_characters": 3501,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ecommerce-product-photography-prompts/",
+        "main_text_characters": 20966,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/fashion-photoshoot-cost/",
+        "main_text_characters": 8048,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/fashion-video-ads-guide/",
+        "main_text_characters": 12602,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/",
+        "main_text_characters": 5778,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/campaign-editorial/",
+        "main_text_characters": 5409,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/consistent-models/",
+        "main_text_characters": 5007,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/ecommerce-catalog/",
+        "main_text_characters": 5238,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/fashion-models/",
+        "main_text_characters": 5630,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/kids-models/",
+        "main_text_characters": 7292,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/lookbook-photos/",
+        "main_text_characters": 5075,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/plus-size-models/",
+        "main_text_characters": 7170,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/product-to-model/",
+        "main_text_characters": 5220,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/product-video/",
+        "main_text_characters": 5620,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/production-workspaces/",
+        "main_text_characters": 5185,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/fine-tuning-flux/",
+        "main_text_characters": 11703,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/flat-lay-to-on-model/",
+        "main_text_characters": 9634,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/flux-3-image-review/",
+        "main_text_characters": 15153,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/generate-multiple-styled-looks-astria/",
+        "main_text_characters": 2995,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ghost-mannequin-alternative/",
+        "main_text_characters": 14367,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ghost-mannequin-photography-ecommerce/",
+        "main_text_characters": 12549,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/gpt-image-2-5-review/",
+        "main_text_characters": 6507,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/gpt-image-2-for-product-photography/",
+        "main_text_characters": 3562,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "main_text_characters": 10624,
+        "schemas": {
+          "FAQPage": 1,
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/how-we-benchmark-ai-image-models/",
+        "main_text_characters": 5860,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/jewelry-photography-prompts/",
+        "main_text_characters": 7144,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/layer-separation-photoshop/",
+        "main_text_characters": 13552,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/lumoo-alternatives/",
+        "main_text_characters": 10321,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/mai-image-2-6-review/",
+        "main_text_characters": 4718,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/muse-image-model-review/",
+        "main_text_characters": 3510,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-2-1-fashion-ecommerce-marketing/",
+        "main_text_characters": 26285,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-2-for-fashion/",
+        "main_text_characters": 3423,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-architecture/",
+        "main_text_characters": 24572,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-fashion-campaign-variations/",
+        "main_text_characters": 5500,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-fashion-references/",
+        "main_text_characters": 5711,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-guide/",
+        "main_text_characters": 8527,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-packaging-mockups/",
+        "main_text_characters": 5873,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-portrait-brand-editing/",
+        "main_text_characters": 5486,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-real-estate-editing/",
+        "main_text_characters": 5405,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-v2/",
+        "main_text_characters": 11775,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/nano-banana-photoshop-wedding-retouching/",
+        "main_text_characters": 5539,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/organize-templates-garment-category/",
+        "main_text_characters": 3064,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/10/",
+        "main_text_characters": 2564,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/11/",
+        "main_text_characters": 1778,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/2/",
+        "main_text_characters": 2483,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/3/",
+        "main_text_characters": 2457,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/4/",
+        "main_text_characters": 2457,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/5/",
+        "main_text_characters": 2491,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/6/",
+        "main_text_characters": 2508,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/7/",
+        "main_text_characters": 2530,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/8/",
+        "main_text_characters": 2522,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/page/9/",
+        "main_text_characters": 2540,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/product-photography-cost-per-sku/",
+        "main_text_characters": 9336,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/reuse-lookbook-creative-direction-templates/",
+        "main_text_characters": 3170,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/review-ai-lookbook-before-template/",
+        "main_text_characters": 1827,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/review-reusable-ai-lookbook-workflow/",
+        "main_text_characters": 2355,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/run-astria-template-new-product/",
+        "main_text_characters": 4464,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/seedream-5-for-fashion/",
+        "main_text_characters": 3447,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/shopify-product-media-guide/",
+        "main_text_characters": 12100,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/style-ai-lookbook-hair-makeup-accessories/",
+        "main_text_characters": 3032,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/stytrix-alternatives/",
+        "main_text_characters": 8782,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/",
+        "main_text_characters": 116,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/comparisons/",
+        "main_text_characters": 2475,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/comparisons/page/2/",
+        "main_text_characters": 2547,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/comparisons/page/3/",
+        "main_text_characters": 2548,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/comparisons/page/4/",
+        "main_text_characters": 2564,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/comparisons/page/5/",
+        "main_text_characters": 1276,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/course/",
+        "main_text_characters": 2469,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/course/page/2/",
+        "main_text_characters": 1222,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/economics/",
+        "main_text_characters": 752,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/engineering/",
+        "main_text_characters": 1011,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/guides/",
+        "main_text_characters": 2461,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/guides/page/2/",
+        "main_text_characters": 2503,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/guides/page/3/",
+        "main_text_characters": 2497,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/guides/page/4/",
+        "main_text_characters": 242,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/models/",
+        "main_text_characters": 2456,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/models/page/2/",
+        "main_text_characters": 496,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/packshots/",
+        "main_text_characters": 1538,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/photoshop/",
+        "main_text_characters": 2451,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/photoshop/page/2/",
+        "main_text_characters": 1502,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/tags/prompts/",
+        "main_text_characters": 1726,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/video-model-comparison-calibration/",
+        "main_text_characters": 5952,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/virtual-try-on-for-fashion-brands/",
+        "main_text_characters": 8377,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/vitamin-supplement-photography-prompts/",
+        "main_text_characters": 8175,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/wedding-dress-photography-prompts/",
+        "main_text_characters": 7363,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/workshops/",
+        "main_text_characters": 3657,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/",
+        "main_text_characters": 2445,
+        "schemas": {},
+        "errors": []
+      }
+    ],
+    "built_sitemap": {
+      "type": "urlset",
+      "urls": 152
+    },
+    "built_schema_counts": {
+      "FAQPage": 78,
+      "HowTo": 16
+    },
+    "built_passed": true,
+    "robots_sitemaps": [
+      "https://www.astria.ai/sitemap.xml"
+    ],
+    "live_sitemaps": [
+      {
+        "url": "https://www.astria.ai/sitemap.xml",
+        "type": "sitemapindex",
+        "entries": 10
+      },
+      {
+        "url": "https://www.astria.ai/articles/sitemap.xml",
+        "type": "urlset",
+        "entries": 152
+      }
+    ],
+    "live_pages": [
+      {
+        "url": "https://www.astria.ai/",
+        "main_text_characters": 881,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/",
+        "main_text_characters": 2445,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/features/",
+        "main_text_characters": 5778,
+        "schemas": {},
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "main_text_characters": 13328,
+        "schemas": {
+          "FAQPage": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "main_text_characters": 10624,
+        "schemas": {
+          "FAQPage": 1,
+          "HowTo": 1
+        },
+        "errors": []
+      },
+      {
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "main_text_characters": 4913,
+        "schemas": {
+          "HowTo": 1
+        },
+        "errors": []
+      }
+    ],
+    "bot_access": [
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/features/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/features/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/features/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/features/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      }
+    ],
+    "live_passed": true,
+    "passed": true
+  },
+  "ci": {
+    "validation": "passed",
+    "run_url": "https://github.com/astriaai/articles/actions/runs/38760717359",
+    "publishing_enabled": false,
+    "reason": "Approval review rejected copying existing R2 credentials without established bucket scope; bucket-scoped credentials and explicit approval are needed.",
+    "required_secrets": [
+      "CLOUDFLARE_R2_ACCESS_KEY_ID",
+      "CLOUDFLARE_R2_SECRET_ACCESS_KEY"
+    ],
+    "enable_variable": "ARTICLES_R2_CI_ENABLED=true"
+  },
+  "rollback": {
+    "content": "Activate a previous verified R2 release with scripts/publish-r2.py --activate RELEASE --expected-current CURRENT.",
+    "hosting": "Remove the www.astria.ai/articles* Worker route to restore the retained Rails/GitHub Pages origin."
+  }
+}
