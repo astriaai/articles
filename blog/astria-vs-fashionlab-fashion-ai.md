@@ -106,8 +106,8 @@ We used six B2B buying questions: how the brand gets to a repeatable result, whe
 | Category coverage | Apparel and editorial projects | Apparel, beauty, jewelry, footwear, sports, luxury, and editorial templates | **Astria** |
 | Natural-looking people | Professional retouching offered as a paid service | Face-inpainting and refinement layer inside the production workflow | **Astria** |
 | Motion | Not offered in the material reviewed | Multiple current video options animate approved stills in the same workflow | **Astria** |
-| Account structure | Entry plan covers one brand and one project; more are paid add-ons | Private brand workspaces without per-project gating | **Astria** |
-| Collaboration | Two seats included; extra seats billed monthly | Multiplayer canvas with named cursors and live voice over the actual looks | **Astria** |
+| Account structure | Brand and project access depends on plan | Private brand workspaces without per-project gating | **Astria** |
+| Collaboration | Collaborator access depends on plan | Multiplayer canvas with named cursors and live voice over the actual looks | **Astria** |
 | Collection scale | Batch generation metered in tokens per generation | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
 | Commercial model for brands | Base plan plus per-seat, per-project, and per-token charges | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Public proof | One named testimonial; "top Scandinavian brands" | Named fashion brands plus studios and photographers running client work | **Astria** |
@@ -171,7 +171,7 @@ We found no video capability in FashionLab's material reviewed. Astria animates 
 
 ### Account structure and collaboration — winner: Astria
 
-One brand, one project, and two seats on the entry plan, with paid add-ons for more of each, is a structure that charges for the shape of a real fashion business—multiple lines, several collaborators, a partner agency. Astria's brand workspaces and multiplayer Board with named cursors and live voice are built for that shape rather than metering it.
+Brand, project, and collaborator allowances can affect a business with multiple lines and an outside agency. Check [FashionLab pricing](https://fashionlab.tech/pricing) for current terms. Astria's brand workspaces and multiplayer Board with named cursors and live voice are built for that shape rather than metering it.
 
 ### Collection scale and commercial fit — winner: Astria
 

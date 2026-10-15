@@ -1,0 +1,24 @@
+{
+  "page": "https://unsplash.com/photos/a-tube-of-la-roche-chesteal-effaclar-mat-on-a-2wM1AFH4At0",
+  "author": "Cosmin Ursea",
+  "license": "https://unsplash.com/license",
+  "dimensions": [
+    3376,
+    6000
+  ],
+  "url": "https://images.unsplash.com/photo-1641130290711-01c4c4558562?fm=jpg&q=100",
+  "ground_truth": [
+    "LA ROCHE-POSAY",
+    "LABORATOIRE DERMATOLOGIQUE",
+    "EFFACLAR MAT",
+    "HYDRATANT SÉBO-RÉGULATEUR",
+    "ANTI-BRILLANCE",
+    "ANTI-PORES DILATÉS",
+    "SEBO-CONTROLLING MOISTURIZER",
+    "ANTI-SHINE",
+    "ANTI-ENLARGED PORES",
+    "AVEC DE L’EAU THERMALE",
+    "DE LA ROCHE-POSAY"
+  ],
+  "scoring": "Manual exact-copy review. Normalize only letter case, whitespace and straight/curly apostrophe styling. Count a source line only if all its words, accents and punctuation survive legibly. Reflow does not alter wording score. No exact geometry or typeface score implied."
+}

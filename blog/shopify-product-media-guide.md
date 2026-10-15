@@ -1,6 +1,6 @@
 ---
-title: "Shopify Product Media: Images, Video, 3D Models, and the Right Order"
-description: "A practical Shopify product media guide: current image, video, and 3D limits; theme and variant constraints; and how to order a PDP gallery around buying questions."
+title: "Shopify Product Media: Image Sizes, Video, and 3D Limits (2026)"
+description: "Every Shopify product media limit in one place — image sizes, video length, 3D formats — plus the gallery order that answers buyer questions before they bounce."
 slug: shopify-product-media-guide
 date: 2026-08-31
 hide_table_of_contents: true

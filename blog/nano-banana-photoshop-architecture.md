@@ -1,27 +1,122 @@
 ---
-title: "Nano Banana for Architecture in Photoshop: From Clay Renders to Material Edits"
-description: "Reference-based Photoshop workflows for architects, urban planners, renovation teams, and interior designers: clay renders, facades, streets, materials, and details."
+title: "Nano Banana Architecture in Photoshop for Design Teams"
+description: "Turn sketches and exported model views into architectural concepts in Photoshop. Compare materials, interiors, lighting and development scenarios."
 slug: nano-banana-photoshop-architecture
-date: 2026-09-17
-draft: true
+date: 2026-10-14
+image: /img/photoshop-video-guides/architecture-daylight-canvas.webp
 authors: [astria]
-tags: [guides]
+tags: [photoshop]
 keywords:
-  - Nano Banana architecture
-  - Nano Banana Photoshop architecture
-  - AI architectural visualization
-  - clay render to realistic render
-  - change materials Photoshop AI
-  - AI interior design Photoshop
+  - "Nano Banana architecture Photoshop"
+  - "AI architectural visualization"
+  - "SketchUp to realistic render"
+  - "Blender render enhancement"
+  - "AI interior design Photoshop"
+  - "property development visualization"
 ---
 
-A client likes the building but wants to see brick instead of stone. A planner needs to explain how a shaded neighborhood square might feel. A homeowner wants to compare a kitchen refresh with a more extensive renovation. Each conversation needs an image of a specific change to a specific place.
+import VideoEditComparison from '@site/src/components/VideoEditComparison';
 
-The **Astria Nano Banana plugin for Photoshop** gives these conversations a practical workflow: start from your own drawing, render, or photograph; select the area to change; add references; and compare the result in a layered document.
+export const videoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Nano Banana plugin for Photoshop - Switch from Sketch to Realism with architecture",
+  "description": "Turn sketches and exported model views into architectural concepts in Photoshop. Compare materials, interiors, lighting and development scenarios.",
+  "thumbnailUrl": "https://www.astria.ai/articles/img/photoshop-video-guides/architecture-daylight-canvas.webp",
+  "uploadDate": "2025-09-15T00:00:00Z",
+  "duration": "PT62S",
+  "embedUrl": "https://www.youtube.com/embed/92LGIUy9VK0"
+};
 
-This guide moves from city and neighborhood scale down to buildings, rooms, materials, and individual details. The prompts are proposed recipes to try on your own references, not measured model comparisons.
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(videoSchema).replace(/</g, "\\u003c")}} />
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can Nano Banana turn a SketchUp or Blender render into a realistic image?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Export an image from SketchUp, Blender or your CAD application, open it in Photoshop, and use that view as the reference for an image edit. The plugin edits pixels; it does not import or update the native project model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I change materials and lighting without changing the design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Select the relevant surfaces, supply material references, and specify the camera and geometry to preserve. Review openings, edges and repeated elements against the source. For an accurate new viewpoint, export that camera from the project model first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is an AI architectural image a project simulation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a concept visualization for communicating appearance and comparing design options. Dimensions, construction, daylight, energy and engineering performance require the project model and the relevant analysis tools."
+      }
+    }
+  ]
+};
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, "\\u003c")}} />
+
+An architect needs to explain a facade option. An interior designer needs to compare finishes in the same room. A development manager needs an image that makes a proposed project understandable to stakeholders. Each needs a visual of a specific change, with the existing design still legible.
+
+The **Astria Nano Banana Photoshop plugin** lets you start with a sketch, a photograph or an exported model view, describe the change, and review the result in a layered Photoshop document. Use it to explore materials, atmosphere and presentation while keeping the underlying design in your modeling application.
 
 <!-- truncate -->
+
+## Watch a sketch become a realistic concept
+
+The architecture demonstration starts with a line drawing of a modern house and pool. It creates a daylight interpretation, then explores night lighting, blue pool illumination, outdoor dining and a different viewpoint. The source is already an image in Photoshop.
+
+<VideoEditComparison
+  before={{"src": "/articles/img/photoshop-video-guides/architecture-source-canvas.webp", "alt": "Before: line drawing of a modern house and pool", "caption": "00:00 — The source sketch establishes the house, pool and camera view.", "width": 946, "height": 630}}
+  after={{"src": "/articles/img/photoshop-video-guides/architecture-daylight-canvas.webp", "alt": "After: daylight architectural concept from the same house and pool sketch", "caption": "00:12 — The generated daylight interpretation adds materials, glazing, planting and reflections.", "width": 946, "height": 630}}
+  layers={{"src": "/articles/img/photoshop-video-guides/architecture-layers.webp", "alt": "Recorded Photoshop Layers panel with a generated image and mask above the source sketch", "caption": "00:12 — The generated image and its mask sit above the original sketch on Layer 0. This is the actual panel from the recording.", "width": 270, "height": 285}}
+/>
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/92LGIUy9VK0?rel=0"
+  title="Nano Banana architecture sketch to realism demonstration"
+  style={{width: '100%', aspectRatio: '16 / 9', border: 0}}
+  loading="lazy"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowFullScreen
+/>
+
+Watch the [original Astria demonstration](https://www.youtube.com/watch?v=92LGIUy9VK0). The recording shows an earlier plugin interface; use the current panel for the selection, reference-image and returned-layer workflow. Illustrations are stills from that recording.
+
+## Match the image to the project decision
+
+| Team role | Decision to support | Photoshop workflow |
+| --- | --- | --- |
+| Building architect | Explain the character of an early design | Materialize a sketch or a clay-render export using the intended palette |
+| Interior designer | Compare flooring, cabinetry and upholstery | Select one surface or furnishing group and attach finish references |
+| Visualization artist | Improve the realism of a model export | Work on material appearance, reflections, planting and atmosphere |
+| Lighting designer | Discuss day, evening and pool lighting | Keep the source view fixed and compare separate lighting interpretations |
+| Development manager | Communicate alternative schemes or project phases | Export each designed option first, then apply a consistent visual treatment |
+| Design director or project lead | Review options with the client | Keep alternatives in named layers and show the same crop for each |
+| Developer marketing team | Explain the planned experience of an amenity | Prepare clearly labeled concept images from approved project views |
+
+## Explore lighting and viewpoints separately
+
+<figure data-source-reference="/articles/img/photoshop-video-guides/architecture-source-canvas.webp">
+  <img src="/articles/img/photoshop-video-guides/architecture-night-canvas.webp" alt="Night concept with blue pool lighting and warm house lighting" loading="lazy" />
+  <figcaption>Lighting option at 00:30. Night atmosphere and pool illumination are visual treatments of the source scene.</figcaption>
+</figure>
+
+<figure data-source-reference="/articles/img/photoshop-video-guides/architecture-source-canvas.webp">
+  <img src="/articles/img/photoshop-video-guides/architecture-angle-canvas.webp" alt="Generated architectural viewpoint beside the house looking toward the pool" loading="lazy" />
+  <figcaption>Viewpoint exploration at 00:53. Generate presentation ideas here; export precise camera views from the project model.</figcaption>
+</figure>
+
+A viewpoint change reveals surfaces the original drawing never supplied. For a client presentation that must match the design, set the camera in Blender, SketchUp or CAD and export that view first. This also lets a project team compare several angles against one authoritative model.
+
+For surface shades, begin with Photoshop adjustment layers when the geometry and texture already work. Use generation when a change needs a new material appearance or reconstructed reflections. Keep lighting variations separate from material comparisons so the brighter image does not become the accidental favorite.
 
 ## Start with the decision, then choose the size of the edit
 
@@ -53,7 +148,7 @@ For each edit:
 
 1. **Select the intended area.** Use a polygonal selection or a path for planar surfaces. Exclude windows, reveals, fixtures, and other elements that must stay.
 2. **Attach relevant references.** Use a material sample for a material edit, a furniture photograph for a furniture edit, or a palette board for a full-view treatment. Name each reference's role in the prompt.
-3. **Choose the model and output settings.** Start comparisons at the same supported resolution, with the same output count. Use 2K or higher for article-quality examples and inspect the returned pixel dimensions.
+3. **Choose the model and output settings.** Start comparisons at the same supported resolution, with the same output count. Choose a supported resolution suited to the final presentation and inspect the returned pixel dimensions.
 4. **Describe the change and the constraints.** State what to alter, which reference governs it, and what to preserve.
 5. **Review the returned layer.** Toggle it against the base; inspect the mask, perspective, repeated elements, and neighboring pixels. Refine the mask in Photoshop before showing the option to a client.
 
@@ -250,7 +345,7 @@ their specified surfaces. Do not introduce signs or lettering.
 
 Place logos, wayfinding, and exact text as editable Photoshop artwork after the edit. For lighting mood options, work from a separate copy of the approved view and explicitly allow lighting to change. Evaluate illumination levels with the lighting-design workflow, rather than reading them from the generated image.
 
-## Which model should you use?
+## Choose a model for the architectural edit
 
 Nano Banana is Google's name for a family of image models, not one fixed model. Google's [image-generation documentation](https://ai.google.dev/gemini-api/docs/image-generation) distinguishes Nano Banana 2 from Nano Banana Pro and describes image-guided editing and resolution options.
 
@@ -290,3 +385,18 @@ Show the source and alternatives at the same crop and size. Label the material o
 The most useful starting exercise is a single material swap on a familiar project. Once that workflow is dependable, extend it to a clay render, an interior palette, or a public-space proposal.
 
 [Get the Astria Photoshop plugin](https://www.astria.ai/nano-banana-photoshop), and consult [Astria pricing](https://www.astria.ai/pricing) for current terms.
+
+
+## Frequently asked questions
+
+### Can Nano Banana turn a SketchUp or Blender render into a realistic image?
+
+Export an image from SketchUp, Blender or your CAD application, open it in Photoshop, and use that view as the reference for an image edit. The plugin edits pixels; it does not import or update the native project model.
+
+### Can I change materials and lighting without changing the design?
+
+Select the relevant surfaces, supply material references, and specify the camera and geometry to preserve. Review openings, edges and repeated elements against the source. For an accurate new viewpoint, export that camera from the project model first.
+
+### Is an AI architectural image a project simulation?
+
+It is a concept visualization for communicating appearance and comparing design options. Dimensions, construction, daylight, energy and engineering performance require the project model and the relevant analysis tools.

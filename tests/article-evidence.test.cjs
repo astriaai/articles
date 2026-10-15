@@ -65,3 +65,23 @@ test('video example retains accessible native playback and a visible poster', ()
   assert.match(html, /<video[^>]*poster="[^"]+"[^>]*controls=""[^>]*playsinline=""[^>]*aria-label="[^"]+"/);
   assert.doesNotMatch(html, /autoplay/);
 });
+
+test('every blog post uses the Astria CTA rail instead of an article outline', () => {
+  const page = fs.readFileSync(path.join(root, 'src/theme/BlogPostPage/index.tsx'), 'utf8');
+  const cta = fs.readFileSync(path.join(root, 'src/components/ArticleCTA/index.tsx'), 'utf8');
+
+  assert.match(page, /<BlogLayout sidebar=\{sidebar\} toc=\{<ArticleCTA \/>\}>/);
+  assert.doesNotMatch(page, /@theme\/TOC|<TOC/);
+  assert.match(cta, /href="\/prompts"/);
+  assert.match(cta, /href="\/gallery\/workspaces"/);
+});
+
+test('video comparisons stack one full-width player per row', () => {
+  const styles = fs.readFileSync(
+    path.join(root, 'src/components/VideoModelComparison/styles.module.css'),
+    'utf8',
+  );
+
+  assert.match(styles, /\.grid\s*\{[^}]*grid-template-columns: minmax\(0, 1fr\)/s);
+  assert.doesNotMatch(styles, /grid-template-columns: repeat\(2,/);
+});

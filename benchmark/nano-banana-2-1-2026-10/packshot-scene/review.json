@@ -1,0 +1,166 @@
+{
+  "method": "Manual exact-copy review. Normalize only letter case, whitespace and straight/curly apostrophe styling. Count a source line only if all its words, accents and punctuation survive legibly. Reflow does not alter wording score. No exact geometry or typeface score implied.",
+  "review": "Every full source and output visually reviewed. Main label and small blue copy inspected at native resolution. Brand/laboratory lines reviewed in full images. No reruns or text repair.",
+  "leading_group": [
+    "nano-banana-2-1",
+    "nano-banana-pro",
+    "sunburst",
+    "flare",
+    "seedream5pro"
+  ],
+  "conclusion": "Five-way tie at 11/11 on this exact-copy metric. Nano Banana 2.0 10/11, AVEC becomes AVBE. No unique model winner or broad accuracy claim.",
+  "results": [
+    {
+      "model": "Nano Banana 2.1",
+      "slug": "nano-banana-2-1",
+      "prompt_id": 47137254,
+      "tune_id": 4180298,
+      "native_dimensions": "1792x2400",
+      "observed_lines": [
+        "LA ROCHE-POSAY",
+        "LABORATOIRE DERMATOLOGIQUE",
+        "EFFACLAR MAT",
+        "HYDRATANT SÉBO-RÉGULATEUR",
+        "ANTI-BRILLANCE",
+        "ANTI-PORES DILATÉS",
+        "SEBO-CONTROLLING MOISTURIZER",
+        "ANTI-SHINE",
+        "ANTI-ENLARGED PORES",
+        "AVEC DE L’EAU THERMALE",
+        "DE LA ROCHE-POSAY"
+      ],
+      "exact_lines": 11,
+      "total_lines": 11,
+      "failed_line_indices": [],
+      "verdict": "11 / 11 text lines preserved, including French accents and the small blue copy. Natural hand-held finish; type weight and cap details are redrawn.",
+      "published": true
+    },
+    {
+      "model": "Nano Banana Pro",
+      "slug": "nano-banana-pro",
+      "prompt_id": 47137255,
+      "tune_id": 3618064,
+      "native_dimensions": "1792x2400",
+      "observed_lines": [
+        "LA ROCHE-POSAY",
+        "LABORATOIRE DERMATOLOGIQUE",
+        "EFFACLAR MAT",
+        "HYDRATANT SÉBO-RÉGULATEUR",
+        "ANTI-BRILLANCE",
+        "ANTI-PORES DILATÉS",
+        "SEBO-CONTROLLING MOISTURIZER",
+        "ANTI-SHINE",
+        "ANTI-ENLARGED PORES",
+        "AVEC DE L’EAU THERMALE",
+        "DE LA ROCHE-POSAY"
+      ],
+      "exact_lines": 11,
+      "total_lines": 11,
+      "failed_line_indices": [],
+      "verdict": "11 / 11 text lines preserved. The small blue copy stays readable; the product sits smaller in the frame than requested.",
+      "published": true
+    },
+    {
+      "model": "Nano Banana 2.0",
+      "slug": "nano-banana-2-0",
+      "prompt_id": 47137257,
+      "tune_id": 5850983,
+      "native_dimensions": "1792x2400",
+      "observed_lines": [
+        "LA ROCHE-POSAY",
+        "LABORATOIRE DERMATOLOGIQUE",
+        "EFFACLAR MAT",
+        "HYDRATANT SÉBO-RÉGULATEUR",
+        "ANTI-BRILLANCE",
+        "ANTI-PORES DILATÉS",
+        "SEBO-CONTROLLING MOISTURIZER",
+        "ANTI-SHINE",
+        "ANTI-ENLARGED PORES",
+        "AVBE DE L’EAU THERMALE",
+        "DE LA ROCHE-POSAY"
+      ],
+      "exact_lines": 10,
+      "total_lines": 11,
+      "failed_line_indices": [
+        9
+      ],
+      "verdict": "10 / 11 text lines preserved. The small blue AVEC becomes AVBE; the remaining wording stays readable.",
+      "published": true
+    },
+    {
+      "model": "GPT Image 2.5 Sunburst",
+      "slug": "sunburst",
+      "prompt_id": 47137258,
+      "tune_id": 5634510,
+      "native_dimensions": "1792x2304",
+      "observed_lines": [
+        "LA ROCHE-POSAY",
+        "LABORATOIRE DERMATOLOGIQUE",
+        "EFFACLAR MAT",
+        "HYDRATANT SÉBO-RÉGULATEUR",
+        "ANTI-BRILLANCE",
+        "ANTI-PORES DILATÉS",
+        "SEBO-CONTROLLING MOISTURIZER",
+        "ANTI-SHINE",
+        "ANTI-ENLARGED PORES",
+        "AVEC DE L’EAU THERMALE",
+        "DE LA ROCHE-POSAY"
+      ],
+      "exact_lines": 11,
+      "total_lines": 11,
+      "failed_line_indices": [],
+      "verdict": "11 / 11 text lines preserved, including the small blue copy. Bright, clear product presentation; typography and cap detail are redrawn.",
+      "published": true
+    },
+    {
+      "model": "GPT Image 2.5 Flare",
+      "slug": "flare",
+      "prompt_id": 47137260,
+      "tune_id": 5634511,
+      "native_dimensions": "1792x2304",
+      "observed_lines": [
+        "LA ROCHE-POSAY",
+        "LABORATOIRE DERMATOLOGIQUE",
+        "EFFACLAR MAT",
+        "HYDRATANT SÉBO-RÉGULATEUR",
+        "ANTI-BRILLANCE",
+        "ANTI-PORES DILATÉS",
+        "SEBO-CONTROLLING MOISTURIZER",
+        "ANTI-SHINE",
+        "ANTI-ENLARGED PORES",
+        "AVEC DE L’EAU THERMALE",
+        "DE LA ROCHE-POSAY"
+      ],
+      "exact_lines": 11,
+      "total_lines": 11,
+      "failed_line_indices": [],
+      "verdict": "11 / 11 text lines preserved, including the small blue copy. Bright real-scene finish with a simplified opaque cap.",
+      "published": true
+    },
+    {
+      "model": "Seedream 5 Pro",
+      "slug": "seedream5pro",
+      "prompt_id": 47137269,
+      "tune_id": 5236038,
+      "native_dimensions": "1776x2368",
+      "observed_lines": [
+        "LA ROCHE-POSAY",
+        "LABORATOIRE DERMATOLOGIQUE",
+        "EFFACLAR MAT",
+        "HYDRATANT SÉBO-RÉGULATEUR",
+        "ANTI-BRILLANCE",
+        "ANTI-PORES DILATÉS",
+        "SEBO-CONTROLLING MOISTURIZER",
+        "ANTI-SHINE",
+        "ANTI-ENLARGED PORES",
+        "AVEC DE L’EAU THERMALE",
+        "DE LA ROCHE-POSAY"
+      ],
+      "exact_lines": 11,
+      "total_lines": 11,
+      "failed_line_indices": [],
+      "verdict": "11 / 11 text lines preserved, including French accents and the small blue copy. Soft daylight and a believable low grip.",
+      "published": true
+    }
+  ]
+}

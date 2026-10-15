@@ -144,7 +144,7 @@ Astria's public materials name fashion brands including Ronny Kobo, Nununu, Gant
 
 Consider a womenswear label with 60 styles going live, needing four images per style at 4K, plus campaign assets and social crops. The team evaluates Emilia against that complete brief.
 
-The first week goes well. The editor is pleasant, packshots and lifestyle scenes look good, and the WooCommerce import saves real time. Then three constraints arrive together. Casting: the brand wants three recurring models for different segments of the line, and Creator allows five custom presenters, which is workable—but Starter would have allowed two, and a brand that grows into more distinct casting needs runs into a ceiling that is a billing conversation rather than a creative one. Credits: use [current Emilia pricing](https://ai.emilia.digital/en/pricing) to budget for every required image and rejected attempt. Storage: the plan caps stored images, so a season's output has to be managed against a ceiling.
+The first week goes well. The editor is pleasant, packshots and lifestyle scenes look good, and the WooCommerce import saves real time. Then three constraints arrive together. Casting: the brand wants three recurring models for different segments of the line, so it needs to check that the plan supports its casting requirements. Credits: use [current Emilia pricing](https://ai.emilia.digital/en/pricing) to budget for every required image and rejected attempt. Storage: the plan caps stored images, so a season's output has to be managed against a ceiling.
 
 Then the campaign brief lands. Campaign kits give four ready-made images per category, which is a starting point rather than a brand's campaign. A real lookbook is not three angle variations. Motion for social is not something we could verify the product does at all.
 
@@ -162,7 +162,7 @@ A product serving food, furniture, and apparel optimizes for what they share: a 
 
 ### Casting that scales with the collection — winner: Astria
 
-This is the sharpest structural difference. Emilia rations custom presenters by plan—one, two, five, eight, or twelve. For a seller shooting one product line that is generous. For a fashion brand, casting is not a feature allowance: a womenswear line, a kids range, and an extended-size offer are three casting requirements before anyone discusses campaigns. Astria treats casting as a reusable library, alongside locations, poses, and brand references that accumulate season over season.
+This is the sharpest structural difference. Emilia makes custom-presenter access depend on the plan; check [current Emilia pricing](https://ai.emilia.digital/en/pricing). For a seller shooting one product line that is generous. For a fashion brand, casting is not a feature allowance: a womenswear line, a kids range, and an extended-size offer are three casting requirements before anyone discusses campaigns. Astria treats casting as a reusable library, alongside locations, poses, and brand references that accumulate season over season.
 
 ### What survives between sessions — winner: Astria
 

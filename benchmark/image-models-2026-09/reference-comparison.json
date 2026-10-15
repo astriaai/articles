@@ -1,0 +1,187 @@
+{
+  "benchmark": "Astria reference-led image-model comparison — Sloane dress hero",
+  "captured_at": "2026-09-11",
+  "workspace_id": 896,
+  "public_evidence_rule": "Only reference-driven outputs are eligible for the article family. Text-to-image substitutes and the rejected jacket benchmark are excluded.",
+  "source_provenance": {
+    "workspace_id": 6,
+    "workspace_title": "Maison Urban",
+    "source_prompt_id": 46557199,
+    "references": [
+      {
+        "role": "identity",
+        "title": "Sloane",
+        "source_tune_id": 3904080,
+        "article_tune_id": 5639061,
+        "model_type": "faceid",
+        "class_name": "woman",
+        "master_dimensions": "679x722",
+        "public_derivative": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-sloane.webp",
+        "public_derivative_dimensions": "679x722",
+        "quality_note": "Below the preferred 1600px source gate. Normalized to a valid JPEG without upscaling; identity conclusions are directional."
+      },
+      {
+        "role": "garment",
+        "title": "05029128725-e2",
+        "description": "Yellow sleeveless belted midi dress",
+        "source_tune_id": 3907553,
+        "article_tune_id": 5639041,
+        "model_type": "faceid",
+        "class_name": "dress",
+        "master_dimensions": "1440x2160",
+        "master_images": 2,
+        "public_derivative": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-dress.webp",
+        "public_derivative_dimensions": "960x1440",
+        "quality_note": "Passes the 1600px long-edge source gate."
+      },
+      {
+        "role": "accessory",
+        "title": "16669610253-e1",
+        "description": "Gold chain bag with circular metallic details",
+        "source_tune_id": 3907242,
+        "article_tune_id": 5639043,
+        "model_type": "faceid",
+        "class_name": "bag",
+        "master_dimensions": "1440x2159",
+        "public_derivative": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-source-bag.webp",
+        "public_derivative_dimensions": "960x1440",
+        "quality_note": "Passes the 1600px long-edge source gate."
+      }
+    ]
+  },
+  "controls": {
+    "semantic_prompt": "Dress hero shot. An off-kilter, flash-lit photograph of the referenced woman in a dynamic, almost off-balance leaning pose against a dark wooden bar counter or pillar at night. Her body creates a diagonal line. She wears the reference dress and holds the reference bag. The strong flash casts a sharp shadow. Blurred shelves with bottles and bar lights define the out-of-focus background. Cool, edgy vibe.",
+    "request_text": "Dress hero shot. An off-kilter, flash-lit photograph of <faceid:5639061:1> woman in a dynamic, almost off-balance leaning pose against a dark wooden bar counter or pillar at night. Her body creates a diagonal line. She wears the reference <faceid:5639041:1> dress and holds the reference <faceid:5639043:1> bag. The strong flash casts a sharp shadow. Blurred shelves with bottles and bar lights define the out-of-focus background. Cool, edgy vibe.",
+    "aspect_ratio_requested": "16:9",
+    "num_images_requested": 1,
+    "selection_rule": "Only returned output; no cherry-picking",
+    "resolution_rule": "Use the highest resolution exposed by the endpoint: 4K for GPT Image 2.5, GPT Image 2, and Nano Banana 2; 2K for Seedream 5 Pro; omit the selector and record native dimensions for Muse and MAI."
+  },
+  "outputs": [
+    {
+      "model": "GPT Image 2.5 Sunburst",
+      "model_id": 5634510,
+      "prompt_id": 46636365,
+      "resolution_requested": "4K",
+      "resolution_actual": "3792x2160",
+      "aspect_ratio_actual": "79:45",
+      "original_media_url": "https://mp.astria.ai/7e7f784hml0aw0p9lg2ucv7lb5bf",
+      "public_asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-sunburst-sloane.webp",
+      "public_asset_dimensions": "1920x1094",
+      "selection_rationale": "Passed article-size quality and all three reference-role gates; strongest diagonal tension.",
+      "fidelity_note": "Bag reaches the frame edge; pleats, belt wrap, and individual bag discs vary."
+    },
+    {
+      "model": "GPT Image 2.5 Flare",
+      "model_id": 5634511,
+      "prompt_id": 46636364,
+      "resolution_requested": "4K",
+      "resolution_actual": "3792x2160",
+      "aspect_ratio_actual": "79:45",
+      "original_media_url": "https://mp.astria.ai/2rsatiyqf0hvkqlz9hs0c0ud2smt",
+      "public_asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-flare-sloane.webp",
+      "public_asset_dimensions": "1920x1094",
+      "selection_rationale": "Passed article-size quality and all three reference-role gates; complete bag and steadier framing.",
+      "fidelity_note": "Dress folds, belt wrap, and individual bag discs vary."
+    },
+    {
+      "model": "GPT Image 2",
+      "model_id": 4665564,
+      "prompt_id": 46670429,
+      "resolution_requested": "4K",
+      "resolution_actual": "3792x2160",
+      "aspect_ratio_actual": "79:45",
+      "original_media_url": "https://mp.astria.ai/9fh2uye2aeip4q8o9actm1fc0fc3",
+      "public_asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-sloane-dress-bag.webp",
+      "public_asset_dimensions": "1920x1094",
+      "selection_rationale": "Passed article-size quality and all three reference-role gates; strong art direction and garment handling.",
+      "fidelity_note": "Bag is less prominent; pleats, belt geometry, chain, and individual discs vary."
+    },
+    {
+      "model": "Nano Banana 2",
+      "model_id": 4180298,
+      "prompt_id": 46636366,
+      "resolution_requested": "4K",
+      "resolution_actual": "5504x3072",
+      "aspect_ratio_actual": "43:24",
+      "original_media_url": "https://mp.astria.ai/4hiab8ufcl093ab9qzpyvhmqo67k",
+      "public_asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-nano-banana-2-sloane.webp",
+      "public_asset_dimensions": "1920x1072",
+      "selection_rationale": "Passed article-size quality and all three reference-role gates; largest, clearest accessory treatment.",
+      "fidelity_note": "Individual bag discs, chain placement, pleat structure, and belt geometry vary."
+    },
+    {
+      "model": "Seedream 5.0 Pro",
+      "model_id": 5236038,
+      "prompt_id": 46670430,
+      "resolution_requested": "2K",
+      "resolution_actual": "2730x1536",
+      "aspect_ratio_actual": "455:256",
+      "original_media_url": "https://mp.astria.ai/jpbyjo7z51djm40qsopuez06zj9e",
+      "public_asset": "/articles/img/model-benchmarks/2026-09/seedream-5-sloane-dress-bag.webp",
+      "public_asset_dimensions": "1920x1080",
+      "selection_rationale": "Passed article-size quality and all three reference-role gates; complete dress and bag framing.",
+      "fidelity_note": "Identity is slightly softened; neckline, folds, belt wrap, and individual bag discs vary."
+    },
+    {
+      "model": "Muse Image",
+      "model_id": 5605622,
+      "prompt_id": 46636363,
+      "resolution_requested": null,
+      "resolution_actual": "1920x1280",
+      "aspect_ratio_actual": "3:2",
+      "aspect_ratio_incompatibility": "Returned 3:2 from a 16:9 request; master was not cropped for the benchmark record.",
+      "original_media_url": "https://mp.astria.ai/vlw67vjsb5tbpvzhlaqv3q3faasi",
+      "public_asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-muse-sloane.webp",
+      "public_asset_dimensions": "1920x1280",
+      "selection_rationale": "Passed article-size quality and all three reference-role gates; coherent reference separation.",
+      "fidelity_note": "Canvas mismatch is material; pleats, belt wrap, and individual bag discs vary."
+    },
+    {
+      "model": "MAI Image 2.6",
+      "model_id": 5605362,
+      "prompt_id": 46670427,
+      "resolution_requested": null,
+      "resolution_actual": "1365x768",
+      "aspect_ratio_actual": "455:256",
+      "original_media_url": "https://mp.astria.ai/j78rg9wogctz668ouww1wznyg1ts",
+      "public_asset": "/articles/img/model-benchmarks/2026-09/mai-image-2-6-sloane-dress-bag.webp",
+      "public_asset_dimensions": "1365x768",
+      "selection_rationale": "Passed article-size quality and all three reference-role gates; strong likeness and distinct products.",
+      "fidelity_note": "Lower native resolution; dress folds, belt wrap, chain, and individual bag discs vary."
+    },
+    {
+      "model": "MAI Image 2.6 Flash",
+      "model_id": 5603706,
+      "prompt_id": 46636367,
+      "resolution_requested": null,
+      "resolution_actual": "1365x768",
+      "aspect_ratio_actual": "455:256",
+      "original_media_url": "https://mp.astria.ai/vy4qmr04s59bc8khk3p7tgrnmm9u",
+      "public_asset": "/articles/img/model-benchmarks/2026-09/gpt-image-2-5-mai-flash-sloane.webp",
+      "public_asset_dimensions": "1365x768",
+      "selection_rationale": "Passed article-size quality and all three reference-role gates; useful graphic tilt.",
+      "fidelity_note": "Lower native resolution and simplified surface, chain, and bag-disc detail."
+    }
+  ],
+  "excluded": [
+    {
+      "subject": "Burnt-orange crane jacket benchmark",
+      "reason": "Source was explicitly rejected as low quality. All jacket-dependent article examples, claims, and covers were removed from the public article family. Historical prompt records remain internal audit material only."
+    },
+    {
+      "subject": "MAI text-only fashion lead",
+      "asset": "/articles/img/model-benchmarks/2026-09/mai-image-2-6-fashion.webp",
+      "reason": "Text-to-image does not demonstrate reference fidelity and is not eligible as public model evidence."
+    },
+    {
+      "prompt_id": 46636297,
+      "model": "Muse Image",
+      "reason": "Failed because the first copied Sloane reference contained PNG data with a JPEG declaration. Kept internal; published outputs use corrected tune 5639061."
+    },
+    {
+      "prompt_ids": [46636293, 46636294, 46636295, 46636296],
+      "reason": "Pre-correction outputs excluded so every public model result uses the same MIME-correct identity tune."
+    }
+  ]
+}

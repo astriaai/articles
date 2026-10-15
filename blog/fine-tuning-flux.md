@@ -1,6 +1,6 @@
 ---
-title: "Fine-Tuning FLUX.1 on Astria: A Developer's Guide to the API"
-description: "Train a FLUX.1 LoRA on your own images through Astria's API — key setup, a working Python fine-tune and generation script, and what changed by 2026."
+title: "Fine-Tuning FLUX on Astria: API Guide with Working Python (2026)"
+description: "Train a FLUX LoRA on your own images through the Astria API — key setup, a copy-paste Python script for training and generation, and what changed since launch."
 slug: fine-tuning-flux
 date: 2024-09-18
 hide_table_of_contents: true

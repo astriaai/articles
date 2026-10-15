@@ -18,7 +18,7 @@ type Props = {
 
 export default function VideoModelComparison({
   items,
-  title = 'Side-by-side video comparison',
+  title = 'Video comparison',
   description,
   poster,
 }: Props) {

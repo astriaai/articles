@@ -5,14 +5,35 @@ and a `(2026)` title. Those are assets while they are true and liabilities the m
 are not. This file is the review schedule.
 
 **Publish dates:** all posts were re-dated on 2026-08-23 to run Aug 1–23 rather than into
-the future. Docusaurus renders future-dated posts immediately, so dating ahead published
-everything at once with future timestamps. Each comparison's in-body "Reviewed" and
-"available on" lines were moved to match its new publish date; the underlying research was
-actually done 2026-08-21/22, which is what the "Last fact check" column records.
+the future. Each comparison's in-body "Reviewed" and "available on" lines were moved to match
+its new publish date; the underlying research was actually done 2026-08-21/22, which is what
+the "Last fact check" column records. **Never date an article ahead.** `plugins/publish-schedule`
+drops any post dated later than build time, so a future-dated article is not built at all: it
+is missing from the site and the sitemap, and every link to it fails the build. (Before that
+plugin existed, Docusaurus published future-dated posts immediately, which is what this
+paragraph used to warn about.)
 
-**Process:** review monthly. For each row past its next-review date, re-verify the volatile
-claims listed, update the article and its `Reviewed` line, then set a new next-review date.
-Comparisons carry the highest risk because competitor pricing and feature scope move fastest.
+**What is tracked, and what is not.** A row exists for articles that assert facts about
+someone else — competitor comparisons and model coverage. Those claims rot in public, which is
+the risk this file manages. Workflow guides that only explain how to do something in our own
+product are deliberately not listed; they age, but they do not become wrong about a third party.
+
+**Ask the file instead of reading it:**
+
+```
+node scripts/content-review.cjs          # what is due now, and why
+node scripts/content-review.cjs --all    # every tracked article, soonest first
+```
+
+`tests/content-ledger.test.cjs` fails the suite if a claim-bearing article has no row, if a row
+points at an article that no longer exists, or if a row is malformed. That check exists because
+this table drifted twice without anyone noticing: a cluster of model reviews was published with
+no rows at all, and another set of rows was written on a branch that never reached the remote.
+
+**Process:** review monthly, or whenever the command above reports something due. For each row
+past its next-review date, re-verify the volatile claims listed, update the article and its
+`Reviewed` line, then set a new next-review date. Comparisons carry the highest risk because
+competitor pricing and feature scope move fastest.
 
 **Volatile claim types**
 - `P` pricing, plans, tiers
@@ -60,7 +81,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | ai-jewelry-photography | ai jewelry photography | 2026-08-19 | 2026-08-22 | F L | 2027-02-20 | guides |
 | ai-fashion-film-guide | ai fashion film | 2026-08-20 | 2026-08-22 | F M | 2027-02-20 | guides |
 | botika-alternatives | botika alternatives | 2026-08-21 | 2026-08-22 | P F | 2026-11-21 | comparisons |
-| nano-banana-photoshop-guide | nano banana photoshop plugin | 2026-08-21 | 2026-08-22 | P M F | 2026-11-21 | engineering |
+| nano-banana-photoshop-guide | nano banana photoshop plugin | 2026-08-21 | 2026-09-13 | P M F | 2026-10-13 | engineering |
 | ai-lookbook-guide | ai lookbook | 2026-08-22 | 2026-08-22 | F | 2027-02-20 | guides |
 | best-ai-fashion-photography-platforms | best ai fashion photography platforms | 2026-08-22 | 2026-09-05 | P F S | 2026-12-05 | comparisons |
 | ai-fashion-photoshoot-guide | ai fashion photoshoot | 2026-08-23 | 2026-08-22 | F | 2027-02-21 | guides |
@@ -88,15 +109,25 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | wedding-dress-photography-prompts | wedding dress photography prompts | 2026-09-01 | 2026-09-07 | F | 2026-12-07 | guides |
 | vitamin-supplement-photography-prompts | vitamin and supplement photography prompts | 2026-08-31 | 2026-09-07 | F | 2026-12-07 | guides |
 | ai-product-photography | AI product photography | 2026-09-07 | 2026-09-07 | F L | 2026-12-07 | guides |
-| astria-image-models | Astria image models | 2026-09-06 | 2026-09-08 | M F P | 2026-10-08 | models |
-| how-we-benchmark-ai-image-models | AI image model benchmark methodology | 2026-09-06 | 2026-09-08 | M F P | 2026-10-08 | models |
-| best-ai-image-models-fashion | best AI image models for fashion | 2026-09-06 | 2026-09-08 | M F P | 2026-10-08 | models |
-| mai-image-2-6-review | MAI Image 2.6 review | 2026-09-08 | 2026-09-08 | M F P | 2026-10-08 | models |
-| nano-banana-2-for-fashion | Nano Banana 2 fashion | 2026-09-09 | 2026-09-08 | M F P | 2026-10-08 | models |
-| gpt-image-2-for-product-photography | GPT Image 2 product photography | 2026-09-10 | 2026-09-08 | M F P | 2026-10-08 | models |
-| seedream-5-for-fashion | Seedream 5 fashion | 2026-09-11 | 2026-09-08 | M F P | 2026-10-08 | models |
-| muse-image-model-review | Muse Image model review | 2026-09-12 | 2026-09-08 | M F P | 2026-10-08 | models |
+| nano-banana-2-1-fashion-ecommerce-marketing | Nano Banana 2.1 fashion ecommerce comparison | 2026-10-07 | 2026-10-07 | M F P | 2026-11-07 | models |
 | flux-3-image-review | FLUX 3 Image comparison | 2026-10-04 | 2026-10-04 | M F P | 2026-11-04 | models |
+| astria-plugin-vs-photoshop-generative-fill | photoshop generative fill vs nano banana plugin | 2026-09-15 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
+| astria-vs-pablo-photoshop-plugin | pablo photoshop plugin | 2026-09-16 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
+| astria-vs-medicraft-nano-banana-generative-fill | nano banana generative fill plugin | 2026-09-17 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
+| astria-vs-eti-image-photoshop-plugin | eti image photoshop plugin | 2026-09-18 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
+| astria-vs-creator-max-photoshop-plugin | creator max photoshop plugin | 2026-09-19 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
+| best-nano-banana-photoshop-plugins | best nano banana photoshop plugin | 2026-09-20 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
+| layer-separation-photoshop | AI layer separation | 2026-10-15 | 2026-10-15 | M F | 2026-11-16 | photoshop |
+| astria-image-models | Astria image models | 2026-09-07 | 2026-09-08 | M F | 2026-11-15 | models |
+| how-we-benchmark-ai-image-models | AI image model benchmark methodology | 2026-09-05 | 2026-09-08 | M F | 2026-11-15 | models |
+| best-ai-image-models-fashion | best AI image models for fashion | 2026-09-06 | 2026-09-08 | M F S | 2026-11-15 | models |
+| video-model-comparison-calibration | AI video model comparison | 2026-09-08 | 2026-09-08 | M F | 2026-11-15 | models |
+| nano-banana-2-for-fashion | Nano Banana 2 fashion | 2026-09-09 | 2026-09-08 | M F | 2026-11-15 | models |
+| gpt-image-2-for-product-photography | GPT Image 2 product photography | 2026-09-10 | 2026-09-08 | M F | 2026-11-15 | models |
+| seedream-5-for-fashion | Seedream 5 fashion | 2026-09-11 | 2026-09-08 | M F | 2026-11-15 | models |
+| muse-image-model-review | Muse Image model review | 2026-09-12 | 2026-09-08 | M F | 2026-11-15 | models |
+| mai-image-2-6-review | MAI Image 2.6 review | 2026-09-13 | 2026-09-08 | M F | 2026-11-15 | models |
+| gpt-image-2-5-review | GPT Image 2.5 review | 2026-09-14 | 2026-09-14 | M F | 2026-11-15 | models |
 
 ## Unlisted (deliberately noindexed)
 
@@ -221,6 +252,21 @@ transactional `AI fashion model generator` landing page remains a main-site impl
 outside this repository. Review page/query overlap in Search Console after an equal 28-day
 live window before releasing beauty, Shopify-specific, or further alternatives pages.
 
+**Photoshop plugin comparison cluster — September 13, 2026:** an explicitly authorized
+exception to the pause, on a separate product line with its own demand evidence (the plugin's
+16,000 first-party sales and existing positions 1–2 on "gemini photoshop plugin" and "nano banana
+photoshop plugin"). Wave 1 of
+`notes/nano-banana-photoshop-plugin-comparison-content-plan-2026-09-13.md`: a round-up hub plus
+head-to-heads against Adobe's native Generative Fill picker, Pablo, Medicraft, Eti Image and
+Creator MAX, dated September 15–20, under the new `photoshop` tag. The existing plugin guide was
+refreshed the same day because its Generative Fill FAQ predated Adobe's partner-model picker.
+Primary queries are the competitor's own brand phrase, with "astria vs <competitor>" secondary;
+flip that convention only if the October 4 review shows the fashion "astria vs" pages ranking.
+No competitor product was purchased or run; returned-resolution and layer-type rows for rivals
+are "Not publicly verified" until the plan's hands-on test happens. Waves 2–3 are conditional on
+Wave 1 impressions six weeks after indexation; at zero impressions the cluster stops at the hub,
+the Adobe piece and Pablo.
+
 **Visual proof and prompt cross-link rollout — September 7, 2026:** every indexed article
 outside the seven prompt libraries now carries one topic-matched evidence module. Where a
 verified source/result pair exists, the module shows both images and links the public Astria
@@ -233,15 +279,6 @@ and `/w/:slug` clicks are measured by destination family without sending the und
 slug to analytics. Recheck public link availability on the same quarterly feature schedule as
 the prompt cluster.
 
-**Model-family cluster and MAI qualification — September 8, 2026:** adds one evidence-backed
-family page for each core model and a separate MAI-Image-2.6/Flash challenger page. The core
-benchmark remains the 131-image, reusable-reference comparison; MAI is not inserted as a fifth
-matched column because its Astria reference-token requests failed while text-to-image and direct
-single-image editing succeeded. The MAI round requested 24 outputs, returned 21, cost $1.61, and
-recorded a blocked benign adult-swimwear cell. The five family articles are staggered one per day
-from September 8 through September 12. Review Search Console query overlap after each has had an
-equal 28-day live window; consolidate a family page if the benchmark hub absorbs its intent.
-
 **Validation and setup:** `yarn install --frozen-lockfile --non-interactive` succeeded;
 `yarn build`, `yarn typecheck`, whitespace checks, rendered metadata/canonical/indexability/link
 checks, FAQ JSON-LD parsing and answer parity, and worked-example arithmetic passed. Run build
@@ -249,6 +286,34 @@ and typecheck sequentially: the existing TypeScript include pattern also sees ge
 files. `npm ci` could not run because the pre-existing npm lockfile is out of sync with
 `package.json`; use the documented Yarn workflow for integration. Neither lockfile was changed.
 Existing warnings about two unlisted posts without truncation markers remain outside this sprint.
+
+**Layer separation guide — October 15, 2026:** `layer-separation-photoshop` documents what layer
+decomposition delivers today. ByteDance documents a `layer_decomposition` flag on Seedream 5.0
+Pro/Flash returning a base image plus up to 16 alpha PNG layers with placement metadata, capped at
+2K. **Our hands-on test that day found the Astria endpoints do not return layered output, with or
+without the flag set explicitly on the request**, so the article documents the per-element
+extraction workflow instead and says so plainly. Six recorded runs from one supplied 4000x6000
+product photograph in workspace 896; see `editorial-notes/layer-separation-2026-10-15.md` for
+prompt ids and provenance. Volatile on two axes: if Astria exposes layered output, the first table
+row and the third FAQ must be rewritten; if Adobe ships Layered Image Editing, announced at MAX in
+October 2025 and still in development, the field section must be rewritten. The Flux 3 review's
+Seedream layer-separation sentence was qualified the same day to match the test.
+
+## CTR rewrite — 2026-10-15
+
+The 2026-10-04 data review was run on 2026-10-15 (`notes/search-console-data-review-2026-10-15.md`).
+It overturned the pause's premise: the pages rank (83 of 96 on page one, average position 8.1)
+but 72 of them took zero clicks on 1,481 impressions. The constraint is the SERP snippet, not
+authority and not indexation.
+
+Titles and descriptions were rewritten on the eight worst offenders, with a before/after table
+and the reasoning in `notes/ctr-rewrite-2026-10-15.md`. No body content changed, so the result
+is attributable. **Re-measure on or after 2026-11-12** against the baseline table there.
+
+One of the eight was not a copy problem at all: `/articles/face-id/` ranked at position 4.1 with
+no clicks because client-redirects emits redirects as 200-status stubs with no `<title>`.
+`scripts/noindex-redirects.js` now fixes that on every build.
+
 
 ## Open items
 
@@ -261,7 +326,7 @@ Existing warnings about two unlisted posts without truncation markers remain out
   `/fashion-educators` → `/creators` redirect. Both redirects were verified live after the
   production rollout.
 - **Covers.** Done — all indexed posts have one in the lilac-editorial series. Keep new
-  ones in `static/img/covers/<slug>.webp`, and never under a path containing `blog`: the
+  ones in `static/img/covers/<slug>.jpg`, and never under a path containing `blog`: the
   www.astria.ai proxy 403s any `/articles/` URL containing that string.
 - **Alternatives cluster.** Botika remains the pilot; StyTrix and Lumoo are the explicitly
   authorized follow-ons. Review all three on October 5 for query overlap with their existing

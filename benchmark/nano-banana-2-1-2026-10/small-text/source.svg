@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1800" viewBox="0 0 2400 1800">
+<defs>
+<linearGradient id="glass"><stop stop-color="#b5a296"/><stop offset=".16" stop-color="#e8ded4"/><stop offset=".4" stop-color="#f4eee6"/><stop offset=".75" stop-color="#d1beb0"/><stop offset="1" stop-color="#a28c7d"/></linearGradient>
+<linearGradient id="metal"><stop stop-color="#686561"/><stop offset=".2" stop-color="#faf9f5"/><stop offset=".45" stop-color="#a6a39d"/><stop offset=".7" stop-color="#e3e0d8"/><stop offset="1" stop-color="#72716b"/></linearGradient>
+<linearGradient id="cap" x2="0" y2="1"><stop stop-color="#33322f"/><stop offset="1" stop-color="#111210"/></linearGradient>
+<radialGradient id="shadow"><stop stop-color="#8a7a6e" stop-opacity=".28"/><stop offset="1" stop-color="#8a7a6e" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="2400" height="1800" fill="#f5f1eb"/>
+<ellipse cx="1200" cy="1470" rx="450" ry="76" fill="url(#shadow)"/>
+<rect x="995" y="490" width="410" height="980" rx="88" fill="url(#glass)" stroke="#ac998a" stroke-width="2"/>
+<rect x="1085" y="425" width="230" height="115" rx="22" fill="url(#metal)"/>
+<rect x="1150" y="325" width="100" height="122" rx="16" fill="url(#metal)"/>
+<path d="M1146 290h272q28 0 28 28v56h-84v-32h-216z" fill="url(#metal)" stroke="#a8a49d" stroke-width="2"/>
+<rect x="1032" y="758" width="336" height="440" rx="2" fill="#fcfaf5" stroke="#e0d5c9"/>
+<g fill="#272523" font-family="Helvetica,Arial,sans-serif" text-anchor="middle">
+<text x="1200" y="838" font-size="46" letter-spacing="5">LUMEN</text>
+<text x="1200" y="890" font-size="20" letter-spacing="3">ROSE SERUM</text>
+<path d="M1086 926h228" stroke="#b2a18e" stroke-width="1"/>
+<text x="1200" y="980" font-size="14">Daily facial serum</text>
+<text x="1200" y="1008" font-size="13">Apply 2 drops to clean skin.</text>
+<text x="1200" y="1036" font-size="12">For external use only.</text>
+<text x="1200" y="1064" font-size="12">Store in a cool, dry place.</text>
+<text x="1200" y="1135" font-size="14">30 mL / 1.0 fl oz</text>
+</g>
+<path d="M1030 620v95M1030 1240v90" stroke="#fff" stroke-opacity=".5" stroke-width="12" stroke-linecap="round"/>
+</svg>

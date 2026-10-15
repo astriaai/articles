@@ -1,0 +1,59 @@
+{
+  "workspace": 896,
+  "source_workspace": 33,
+  "source_workspace_slug": "417",
+  "source_reference": 5685741,
+  "article_reference": 5853237,
+  "source_dimensions": [
+    1606,
+    2856
+  ],
+  "review": "Every source and completed output viewed full size and in native label crops. No reruns, enlargement, retouching or text repair.",
+  "results": {
+    "seedream5pro": {
+      "prompt_id": 47136155,
+      "dimensions": [
+        1776,
+        2368
+      ],
+      "selection": "published",
+      "reason": "Best packaging fidelity: black pattern, leaf emblem and handwritten brand line closest to source; attractive realistic studio product finish. Tiny seal lettering and handwriting are redrawn and need final brand approval."
+    },
+    "nano-banana-2-1": {
+      "prompt_id": 47136143,
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "selection": "internal only",
+      "reason": "Readable main English/French copy and attractive finish; black label pattern becomes gold and leaf seal is redesigned."
+    },
+    "nano-banana-2-0": {
+      "prompt_id": 47136152,
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "selection": "internal only",
+      "reason": "Readable main copy; pattern becomes bronze/gold and seal changes to geometric ornament."
+    },
+    "sunburst": {
+      "prompt_id": 47136153,
+      "dimensions": [
+        1792,
+        2304
+      ],
+      "selection": "internal only",
+      "reason": "Attractive packshot with readable main copy and black pattern; handwritten brand line omitted and seal redesigned."
+    },
+    "flare": {
+      "prompt_id": 47136154,
+      "dimensions": [
+        1792,
+        2304
+      ],
+      "selection": "internal only",
+      "reason": "Attractive packshot with readable main copy and black pattern; handwritten brand line omitted and seal redesigned."
+    }
+  }
+}

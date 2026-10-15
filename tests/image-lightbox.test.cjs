@@ -18,12 +18,29 @@ test('the generic image zoom plugin is absent from runtime configuration and dep
 test('the custom lightbox is mounted globally and targets ordinary article images', () => {
   assert.match(read('src/theme/Root.tsx'), /<ImageLightbox\s*\/>/);
   const lightbox = read('src/components/ImageLightbox/index.tsx');
-  assert.match(lightbox, /\.markdown img:not\(\[data-no-zoom\]\)/);
-  assert.match(lightbox, /target\.closest\('a\[href\]'\)/);
-  assert.match(lightbox, /target\.closest\('\[data-source-reference\]'\)/);
-  assert.match(lightbox, /View source references/);
+  assert.match(lightbox, /ARTICLE_IMAGE_ITEM_SELECTOR\s*=\s*'img:not\(\[data-no-zoom\]\):not\(\[alt=""\]\)'/);
+  assert.match(lightbox, /ARTICLE_IMAGE_SELECTOR\s*=\s*`\.markdown \$\{ARTICLE_IMAGE_ITEM_SELECTOR\}`/);
+  assert.match(lightbox, /element\.closest\('a\[href\]'\)/);
   assert.match(lightbox, /Open source/);
-  assert.match(read('src/css/custom.css'), /\.markdown img:not\(\[data-no-zoom\]\)/);
+  assert.match(lightbox, /element\.closest\('\[data-source-reference\]'\)/);
+  assert.match(lightbox, /View source references/);
+  assert.match(read('src/css/custom.css'), /\.markdown img:not\(\[data-no-zoom\]\):not\(\[alt=""\]\)/);
+});
+
+test('article galleries support buttons, arrow keys, wrapping, and adjacent preloading', () => {
+  const viewer = read('src/components/ImageLightbox/index.tsx');
+  const styles = read('src/components/ImageLightbox/styles.module.css');
+
+  assert.match(viewer, /Array\.from\(article\.querySelectorAll<HTMLImageElement>\(ARTICLE_IMAGE_ITEM_SELECTOR\)\)/);
+  assert.match(viewer, /event\.key === 'ArrowLeft'[\s\S]*?navigate\(-1\)/);
+  assert.match(viewer, /event\.key === 'ArrowRight'[\s\S]*?navigate\(1\)/);
+  assert.match(viewer, /\(current\.index \+ direction \+ current\.images\.length\) % current\.images\.length/);
+  assert.match(viewer, /aria-label="Previous image"/);
+  assert.match(viewer, /aria-label="Next image"/);
+  assert.match(viewer, /aria-live="polite"/);
+  assert.match(viewer, /for \(const offset of \[-1, 1\]\)/);
+  assert.match(styles, /\.navButton/);
+  assert.match(styles, /\.position/);
 });
 
 test('reusable article media uses the custom viewer without nested image wrappers', () => {

@@ -122,7 +122,6 @@ export default function ImageModelComparison({
           <div className={styles.scanStage}>
             <img data-no-zoom src={right.src} alt={right.alt} className={styles.baseImage} />
             <img
-              data-no-zoom
               src={left.src}
               alt={left.alt}
               className={styles.overlayImage}

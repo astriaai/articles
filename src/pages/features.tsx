@@ -165,8 +165,8 @@ const stages = [
 export default function FeaturesPage(): ReactNode {
   return (
     <Layout
-      description="Astria turns a brand's photographic language into a reusable AI production system for products, lookbooks, campaigns, social content, and video."
-      title="One photographic language. A whole collection.">
+      description="Astria turns your brand's photographic language into a reusable production system — product shots, lookbooks, campaigns, social, and video from your references."
+      title="What Astria Does: AI Product, Lookbook, and Campaign Photography">
       <Head>
         <meta property="og:image" content="https://www.astria.ai/articles/img/prompt-recipes/fashion-catalog-result.jpg" />
       </Head>

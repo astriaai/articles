@@ -1,0 +1,83 @@
+{
+  "workspace": 896,
+  "controls": {
+    "aspect_ratio": "4:3",
+    "resolution": "2K",
+    "num_images": 1,
+    "film_grain": false,
+    "inpaint_faces": false,
+    "seed": null,
+    "selection": "Only returned output; no selective reruns"
+  },
+  "model_shortlist": [
+    {
+      "name": "Nano Banana 2.1",
+      "tune_after_verified_deployment": 4180298,
+      "provider_model": "gemini-nano-banana-2.1",
+      "status": "production release v4821 verified"
+    },
+    {
+      "name": "Nano Banana 2.0",
+      "tune_after_verified_deployment": 5850983,
+      "tune_used_before_deployment": 4180298,
+      "provider_model": "gemini-3.1-flash-image"
+    },
+    {
+      "name": "Sunburst",
+      "tune": 5634510,
+      "provider_model": "gpt-image-2.5-sunburst"
+    },
+    {
+      "name": "Flare",
+      "tune": 5634511,
+      "provider_model": "gpt-image-2.5-flare"
+    },
+    {
+      "name": "Seedream Pro",
+      "tune": 5236038,
+      "provider_model": "dola-seedream-5-0-pro-260628"
+    }
+  ],
+  "cases": [
+    {
+      "key": "jacket",
+      "text": "Create a product-only ecommerce photograph of <faceid:5851059:1> jacket on an invisible mannequin, front view with sleeves hanging naturally, against a warm ivory seamless studio background. Preserve the exact burnt-orange silk jacquard leaf weave, all four teal crane motifs and lower floral details, four brass dome buttons, pointed collar, cropped length and scalloped hem. Show the complete garment without clipping. Soft even catalog lighting, realistic material detail. No person, no accessories, no added text, no new logos.",
+      "status": "complete; all five only outputs visually reviewed"
+    },
+    {
+      "key": "serum",
+      "text": "Create a premium beauty campaign advertisement using <faceid:5851060:1> bottle and its matching carton. Place the bottle upright on the right on a pale rose stone plinth, with the carton upright beside it. Preserve the frosted pink cylindrical bottle, exposed silver pump geometry, matching carton and exact source label text: \"ASTRIA\", \"LUMEN SERUM\", \"No. 04 ROSE\", \"30 mL\". Brand direction: restrained rose, ivory and silver, soft directional studio light, subtle reflections. Leave generous clear space on the left and render exactly these three lines of marketing copy: \"LUMEN SERUM\", \"A daily ritual.\", \"DISCOVER THE COLLECTION\". Elegant legible black typography, no other copy, no added ingredients or claims, no people, no flowers.",
+      "status": "complete; all five only outputs visually reviewed"
+    },
+    {
+      "key": "identity-front",
+      "text": "Create a waist-up front-view studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+      "status": "complete; all five only outputs visually reviewed"
+    },
+    {
+      "key": "identity-three-quarter",
+      "text": "Create a waist-up three-quarter studio portrait of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket, turned 30 degrees to camera-left with her face looking at the camera, against a warm ivory seamless background. Preserve her facial proportions, hair, skin details, jacket color, leaf weave, four teal crane motifs, four brass buttons, pointed collar and scalloped hem. Include the whole jacket and hem in the frame. Soft even light, realistic skin and anatomy, no jewelry, no text, no extra people.",
+      "status": "complete; all five only outputs visually reviewed"
+    },
+    {
+      "key": "multi-reference-campaign",
+      "text": "Create a full-length fashion campaign photograph of <faceid:5851882:1> woman wearing <faceid:5851059:1> jacket with plain ivory trousers and <faceid:5851884:1> necklace, in a pale limestone gallery. Brand direction: restrained ivory, burnt orange and teal, warm late-afternoon side light, relaxed walking pose, premium editorial realism. Preserve cast identity, jacket construction, four teal crane motifs, four brass buttons, leaf weave and scalloped hem. Preserve the necklace's nine green stones, white stone separators, rose-gold settings and cable chain; wear it visibly at the neckline without merging it with embroidery. Plausible anatomy and garment contact, no extra people, no additional jewelry, no invented product, no added text.",
+      "status": "complete; all five only outputs visually reviewed"
+    }
+  ],
+  "verification": {
+    "heroku_release": "v4821",
+    "released_at": "2026-10-07T06:30:59Z",
+    "commit": "6b57fe61",
+    "integration_commit": "df389b5ce",
+    "method": "release history and git ancestry plus committed provider mappings",
+    "attempt_telemetry": "not exposed"
+  },
+  "reference_provenance": {
+    "cast": 5851882,
+    "jacket": 5851059,
+    "necklace": 5851884,
+    "serum": 5851060
+  },
+  "cover": "Separate 4K portrait 47133692, cast+jacket; product cover candidate 47133663 excluded for label drift."
+}

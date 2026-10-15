@@ -105,7 +105,7 @@ We used six B2B buying questions: product fidelity on real garments, fashion-spe
 | Template breadth | Scene presets and marketplace export presets for apparel listings | Fashion-specific categories including apparel, beauty, jewelry, footwear, sports, luxury, and editorial | **Astria** |
 | Refinement and corrections | Capped regenerations per image and an edit queue measured in working days | Face-inpainting and refinement layer inside the production workflow | **Astria** |
 | Motion | 10-second catalog videos, metered per second of generation | Multiple current video options animate approved stills in the same workflow | **Astria** |
-| Team production | One to ten seats depending on plan | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
+| Team production | Team access depends on plan | Private workspaces and a multiplayer canvas with named cursors and live voice | **Astria** |
 | Collection scale | Bulk runs output marketplace variations, listing by listing | The full SKU set imports from Shopify or Google Drive and runs against one approved setup | **Astria** |
 | Commercial model for brands | [See current Ayna pricing](https://www.getayna.com/pricing) | Brand pricing scoped to usage — pay for what you create | **Astria** |
 | Best fit | Marketplace sellers and catalog teams automating routine listing imagery and copy | Fashion brands producing on-brand ecommerce, lookbook, campaign, and social assets across a collection | **Astria** |

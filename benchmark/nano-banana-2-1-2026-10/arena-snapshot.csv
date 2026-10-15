@@ -1,0 +1,11 @@
+checked_date,leaderboard_updated,category,rank,rank_low,rank_high,model,score,uncertainty,votes,preliminary
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,1,1,1,gpt-image-2.5-sunburst,1557,10,6958,true
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,2,2,3,gpt-image-2.5-flare,1503,10,6998,true
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,3,2,4,gemini-nano-banana-2.1,1490,13,2389,true
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,4,3,4,gpt-image-2 (medium),1484,7,25342,false
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,5,5,6,seedream-5.0-pro,1431,8,14067,false
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,6,5,6,muse-image,1422,7,20732,false
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,7,7,9,gemini-3.1-flash-image (nano-banana-2) [web-search],1403,7,16876,false
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,8,7,11,ideogram-4.5,1391,16,1327,true
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,9,8,11,gemini-3-pro-image-2k (nano-banana-pro),1384,6,24605,false
+2026-10-07,2026-10-06,multi-image-edit/commercial-design,10,7,11,reve-2.0,1383,14,1795,false

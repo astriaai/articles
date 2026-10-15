@@ -1,0 +1,608 @@
+[
+  {
+    "slug": "nano-banana-2-1",
+    "args": {
+      "workspace": "896",
+      "model": "4180298",
+      "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+      "num_images": "1",
+      "aspect_ratio": "3:4",
+      "resolution": "2K",
+      "film_grain": false,
+      "inpaint_faces": false,
+      "idempotency_key": "nb21-clean-packshot-scene-20261007-nano-banana-2-1"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\":47137254,\"callback\":null,\"trained_at\":null,\"started_training_at\":null,\"failed_at\":null,\"created_at\":\"2026-10-07T12:11:09.536Z\",\"updated_at\":\"2026-10-07T12:11:09.536Z\",\"tune_id\":4180298,\"prompt_likes_count\":0,\"base_pack_id\":null,\"order_id\":null,\"user_id\":2,\"workspace_id\":896,\"is_video\":false,\"user_error\":null,\"cost_mc\":33000,\"num_images\":1,\"input_image\":null,\"input_video\":null,\"mask_image\":null,\"video_first_frame\":null,\"video_last_frame\":null,\"audio_reference\":null,\"image_references\":[],\"video_prompt\":null,\"video_model\":null,\"video_duration\":null,\"text\":\"Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.\",\"negative_prompt\":\"\",\"cfg_scale\":null,\"steps\":null,\"super_resolution\":false,\"resolution\":\"2K\",\"ar\":\"1:1\",\"seed\":null,\"controlnet\":null,\"controlnet_conditioning_scale\":null,\"controlnet_txt2img\":false,\"denoising_strength\":null,\"style\":null,\"color_grading\":null,\"film_grain\":false,\"hires_fix\":false,\"inpaint_faces\":false,\"face_correct\":false,\"face_swap\":false,\"backend_version\":null,\"scheduler\":\"euler_a\",\"use_lpw\":false,\"w\":null,\"h\":null,\"aspect_ratio\":\"3:4\",\"progress_timing_seconds\":253,\"progress_elapsed_seconds\":0,\"url\":\"https://api.astria.ai/tunes/4180298/prompts/47137254.json?ws=896\",\"images\":[],\"filenames\":[],\"content_types\":[],\"liked\":false,\"tune\":{\"id\":4180298,\"title\":\"Nano Banana 2.1\",\"model_type\":null,\"name\":\"\"},\"tunes\":[{\"id\":5853747,\"title\":\"Articles — clean Effaclar Mat studio packshot, Cosmin Ursea\",\"model_type\":\"faceid\",\"name\":\"tube\",\"branch\":\"gemini-2\"}]}"
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "id": 47137254,
+          "callback": null,
+          "trained_at": null,
+          "started_training_at": null,
+          "failed_at": null,
+          "created_at": "2026-10-07T12:11:09.536Z",
+          "updated_at": "2026-10-07T12:11:09.536Z",
+          "tune_id": 4180298,
+          "prompt_likes_count": 0,
+          "base_pack_id": null,
+          "order_id": null,
+          "user_id": 2,
+          "workspace_id": 896,
+          "is_video": false,
+          "user_error": null,
+          "cost_mc": 33000,
+          "num_images": 1,
+          "input_image": null,
+          "input_video": null,
+          "mask_image": null,
+          "video_first_frame": null,
+          "video_last_frame": null,
+          "audio_reference": null,
+          "image_references": [],
+          "video_prompt": null,
+          "video_model": null,
+          "video_duration": null,
+          "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+          "negative_prompt": "",
+          "cfg_scale": null,
+          "steps": null,
+          "super_resolution": false,
+          "resolution": "2K",
+          "ar": "1:1",
+          "seed": null,
+          "controlnet": null,
+          "controlnet_conditioning_scale": null,
+          "controlnet_txt2img": false,
+          "denoising_strength": null,
+          "style": null,
+          "color_grading": null,
+          "film_grain": false,
+          "hires_fix": false,
+          "inpaint_faces": false,
+          "face_correct": false,
+          "face_swap": false,
+          "backend_version": null,
+          "scheduler": "euler_a",
+          "use_lpw": false,
+          "w": null,
+          "h": null,
+          "aspect_ratio": "3:4",
+          "progress_timing_seconds": 253,
+          "progress_elapsed_seconds": 0,
+          "url": "https://api.astria.ai/tunes/4180298/prompts/47137254.json?ws=896",
+          "images": [],
+          "filenames": [],
+          "content_types": [],
+          "liked": false,
+          "tune": {
+            "id": 4180298,
+            "title": "Nano Banana 2.1",
+            "model_type": null,
+            "name": ""
+          },
+          "tunes": [
+            {
+              "id": 5853747,
+              "title": "Articles — clean Effaclar Mat studio packshot, Cosmin Ursea",
+              "model_type": "faceid",
+              "name": "tube",
+              "branch": "gemini-2"
+            }
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "slug": "nano-banana-pro",
+    "args": {
+      "workspace": "896",
+      "model": "3618064",
+      "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+      "num_images": "1",
+      "aspect_ratio": "3:4",
+      "resolution": "2K",
+      "film_grain": false,
+      "inpaint_faces": false,
+      "idempotency_key": "nb21-clean-packshot-scene-20261007-nano-banana-pro"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\":47137255,\"callback\":null,\"trained_at\":null,\"started_training_at\":null,\"failed_at\":null,\"created_at\":\"2026-10-07T12:11:13.178Z\",\"updated_at\":\"2026-10-07T12:11:13.178Z\",\"tune_id\":3618064,\"prompt_likes_count\":0,\"base_pack_id\":null,\"order_id\":null,\"user_id\":2,\"workspace_id\":896,\"is_video\":false,\"user_error\":null,\"cost_mc\":33000,\"num_images\":1,\"input_image\":null,\"input_video\":null,\"mask_image\":null,\"video_first_frame\":null,\"video_last_frame\":null,\"audio_reference\":null,\"image_references\":[],\"video_prompt\":null,\"video_model\":null,\"video_duration\":null,\"text\":\"Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.\",\"negative_prompt\":\"\",\"cfg_scale\":null,\"steps\":null,\"super_resolution\":false,\"resolution\":\"2K\",\"ar\":\"1:1\",\"seed\":null,\"controlnet\":null,\"controlnet_conditioning_scale\":null,\"controlnet_txt2img\":false,\"denoising_strength\":null,\"style\":null,\"color_grading\":null,\"film_grain\":false,\"hires_fix\":false,\"inpaint_faces\":false,\"face_correct\":false,\"face_swap\":false,\"backend_version\":null,\"scheduler\":\"euler_a\",\"use_lpw\":false,\"w\":null,\"h\":null,\"aspect_ratio\":\"3:4\",\"progress_timing_seconds\":139,\"progress_elapsed_seconds\":0,\"url\":\"https://api.astria.ai/tunes/3618064/prompts/47137255.json?ws=896\",\"images\":[],\"filenames\":[],\"content_types\":[],\"liked\":false,\"tune\":{\"id\":3618064,\"title\":\"Nano Banana Pro \",\"model_type\":null,\"name\":null},\"tunes\":[{\"id\":5853747,\"title\":\"Articles — clean Effaclar Mat studio packshot, Cosmin Ursea\",\"model_type\":\"faceid\",\"name\":\"tube\",\"branch\":\"gemini-2\"}]}"
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "id": 47137255,
+          "callback": null,
+          "trained_at": null,
+          "started_training_at": null,
+          "failed_at": null,
+          "created_at": "2026-10-07T12:11:13.178Z",
+          "updated_at": "2026-10-07T12:11:13.178Z",
+          "tune_id": 3618064,
+          "prompt_likes_count": 0,
+          "base_pack_id": null,
+          "order_id": null,
+          "user_id": 2,
+          "workspace_id": 896,
+          "is_video": false,
+          "user_error": null,
+          "cost_mc": 33000,
+          "num_images": 1,
+          "input_image": null,
+          "input_video": null,
+          "mask_image": null,
+          "video_first_frame": null,
+          "video_last_frame": null,
+          "audio_reference": null,
+          "image_references": [],
+          "video_prompt": null,
+          "video_model": null,
+          "video_duration": null,
+          "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+          "negative_prompt": "",
+          "cfg_scale": null,
+          "steps": null,
+          "super_resolution": false,
+          "resolution": "2K",
+          "ar": "1:1",
+          "seed": null,
+          "controlnet": null,
+          "controlnet_conditioning_scale": null,
+          "controlnet_txt2img": false,
+          "denoising_strength": null,
+          "style": null,
+          "color_grading": null,
+          "film_grain": false,
+          "hires_fix": false,
+          "inpaint_faces": false,
+          "face_correct": false,
+          "face_swap": false,
+          "backend_version": null,
+          "scheduler": "euler_a",
+          "use_lpw": false,
+          "w": null,
+          "h": null,
+          "aspect_ratio": "3:4",
+          "progress_timing_seconds": 139,
+          "progress_elapsed_seconds": 0,
+          "url": "https://api.astria.ai/tunes/3618064/prompts/47137255.json?ws=896",
+          "images": [],
+          "filenames": [],
+          "content_types": [],
+          "liked": false,
+          "tune": {
+            "id": 3618064,
+            "title": "Nano Banana Pro ",
+            "model_type": null,
+            "name": null
+          },
+          "tunes": [
+            {
+              "id": 5853747,
+              "title": "Articles — clean Effaclar Mat studio packshot, Cosmin Ursea",
+              "model_type": "faceid",
+              "name": "tube",
+              "branch": "gemini-2"
+            }
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "slug": "nano-banana-2-0",
+    "args": {
+      "workspace": "896",
+      "model": "5850983",
+      "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+      "num_images": "1",
+      "aspect_ratio": "3:4",
+      "resolution": "2K",
+      "film_grain": false,
+      "inpaint_faces": false,
+      "idempotency_key": "nb21-clean-packshot-scene-20261007-nano-banana-2-0"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\":47137257,\"callback\":null,\"trained_at\":null,\"started_training_at\":null,\"failed_at\":null,\"created_at\":\"2026-10-07T12:11:16.701Z\",\"updated_at\":\"2026-10-07T12:11:16.701Z\",\"tune_id\":5850983,\"prompt_likes_count\":0,\"base_pack_id\":null,\"order_id\":null,\"user_id\":2,\"workspace_id\":896,\"is_video\":false,\"user_error\":null,\"cost_mc\":33000,\"num_images\":1,\"input_image\":null,\"input_video\":null,\"mask_image\":null,\"video_first_frame\":null,\"video_last_frame\":null,\"audio_reference\":null,\"image_references\":[],\"video_prompt\":null,\"video_model\":null,\"video_duration\":null,\"text\":\"Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.\",\"negative_prompt\":\"\",\"cfg_scale\":null,\"steps\":null,\"super_resolution\":false,\"resolution\":\"2K\",\"ar\":\"1:1\",\"seed\":null,\"controlnet\":null,\"controlnet_conditioning_scale\":null,\"controlnet_txt2img\":false,\"denoising_strength\":null,\"style\":null,\"color_grading\":null,\"film_grain\":false,\"hires_fix\":false,\"inpaint_faces\":false,\"face_correct\":false,\"face_swap\":false,\"backend_version\":null,\"scheduler\":\"euler_a\",\"use_lpw\":false,\"w\":null,\"h\":null,\"aspect_ratio\":\"3:4\",\"progress_timing_seconds\":253,\"progress_elapsed_seconds\":0,\"url\":\"https://api.astria.ai/tunes/5850983/prompts/47137257.json?ws=896\",\"images\":[],\"filenames\":[],\"content_types\":[],\"liked\":false,\"tune\":{\"id\":5850983,\"title\":\"Nano Banana 2.0\",\"model_type\":null,\"name\":null},\"tunes\":[{\"id\":5853747,\"title\":\"Articles — clean Effaclar Mat studio packshot, Cosmin Ursea\",\"model_type\":\"faceid\",\"name\":\"tube\",\"branch\":\"gemini-2\"}]}"
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "id": 47137257,
+          "callback": null,
+          "trained_at": null,
+          "started_training_at": null,
+          "failed_at": null,
+          "created_at": "2026-10-07T12:11:16.701Z",
+          "updated_at": "2026-10-07T12:11:16.701Z",
+          "tune_id": 5850983,
+          "prompt_likes_count": 0,
+          "base_pack_id": null,
+          "order_id": null,
+          "user_id": 2,
+          "workspace_id": 896,
+          "is_video": false,
+          "user_error": null,
+          "cost_mc": 33000,
+          "num_images": 1,
+          "input_image": null,
+          "input_video": null,
+          "mask_image": null,
+          "video_first_frame": null,
+          "video_last_frame": null,
+          "audio_reference": null,
+          "image_references": [],
+          "video_prompt": null,
+          "video_model": null,
+          "video_duration": null,
+          "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+          "negative_prompt": "",
+          "cfg_scale": null,
+          "steps": null,
+          "super_resolution": false,
+          "resolution": "2K",
+          "ar": "1:1",
+          "seed": null,
+          "controlnet": null,
+          "controlnet_conditioning_scale": null,
+          "controlnet_txt2img": false,
+          "denoising_strength": null,
+          "style": null,
+          "color_grading": null,
+          "film_grain": false,
+          "hires_fix": false,
+          "inpaint_faces": false,
+          "face_correct": false,
+          "face_swap": false,
+          "backend_version": null,
+          "scheduler": "euler_a",
+          "use_lpw": false,
+          "w": null,
+          "h": null,
+          "aspect_ratio": "3:4",
+          "progress_timing_seconds": 253,
+          "progress_elapsed_seconds": 0,
+          "url": "https://api.astria.ai/tunes/5850983/prompts/47137257.json?ws=896",
+          "images": [],
+          "filenames": [],
+          "content_types": [],
+          "liked": false,
+          "tune": {
+            "id": 5850983,
+            "title": "Nano Banana 2.0",
+            "model_type": null,
+            "name": null
+          },
+          "tunes": [
+            {
+              "id": 5853747,
+              "title": "Articles — clean Effaclar Mat studio packshot, Cosmin Ursea",
+              "model_type": "faceid",
+              "name": "tube",
+              "branch": "gemini-2"
+            }
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "slug": "sunburst",
+    "args": {
+      "workspace": "896",
+      "model": "5634510",
+      "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+      "num_images": "1",
+      "aspect_ratio": "3:4",
+      "resolution": "2K",
+      "film_grain": false,
+      "inpaint_faces": false,
+      "idempotency_key": "nb21-clean-packshot-scene-20261007-sunburst"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\":47137258,\"callback\":null,\"trained_at\":null,\"started_training_at\":null,\"failed_at\":null,\"created_at\":\"2026-10-07T12:11:20.295Z\",\"updated_at\":\"2026-10-07T12:11:20.295Z\",\"tune_id\":5634510,\"prompt_likes_count\":0,\"base_pack_id\":null,\"order_id\":null,\"user_id\":2,\"workspace_id\":896,\"is_video\":false,\"user_error\":null,\"cost_mc\":33000,\"num_images\":1,\"input_image\":null,\"input_video\":null,\"mask_image\":null,\"video_first_frame\":null,\"video_last_frame\":null,\"audio_reference\":null,\"image_references\":[],\"video_prompt\":null,\"video_model\":null,\"video_duration\":null,\"text\":\"Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.\",\"negative_prompt\":\"\",\"cfg_scale\":null,\"steps\":null,\"super_resolution\":false,\"resolution\":\"2K\",\"ar\":\"1:1\",\"seed\":null,\"controlnet\":null,\"controlnet_conditioning_scale\":null,\"controlnet_txt2img\":false,\"denoising_strength\":null,\"style\":null,\"color_grading\":null,\"film_grain\":false,\"hires_fix\":false,\"inpaint_faces\":false,\"face_correct\":false,\"face_swap\":false,\"backend_version\":null,\"scheduler\":\"euler_a\",\"use_lpw\":false,\"w\":null,\"h\":null,\"aspect_ratio\":\"3:4\",\"progress_timing_seconds\":359,\"progress_elapsed_seconds\":0,\"url\":\"https://api.astria.ai/tunes/5634510/prompts/47137258.json?ws=896\",\"images\":[],\"filenames\":[],\"content_types\":[],\"liked\":false,\"tune\":{\"id\":5634510,\"title\":\"GPT Image 2.5 Sunburst\",\"model_type\":null,\"name\":null},\"tunes\":[{\"id\":5853747,\"title\":\"Articles — clean Effaclar Mat studio packshot, Cosmin Ursea\",\"model_type\":\"faceid\",\"name\":\"tube\",\"branch\":\"gemini-2\"}]}"
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "id": 47137258,
+          "callback": null,
+          "trained_at": null,
+          "started_training_at": null,
+          "failed_at": null,
+          "created_at": "2026-10-07T12:11:20.295Z",
+          "updated_at": "2026-10-07T12:11:20.295Z",
+          "tune_id": 5634510,
+          "prompt_likes_count": 0,
+          "base_pack_id": null,
+          "order_id": null,
+          "user_id": 2,
+          "workspace_id": 896,
+          "is_video": false,
+          "user_error": null,
+          "cost_mc": 33000,
+          "num_images": 1,
+          "input_image": null,
+          "input_video": null,
+          "mask_image": null,
+          "video_first_frame": null,
+          "video_last_frame": null,
+          "audio_reference": null,
+          "image_references": [],
+          "video_prompt": null,
+          "video_model": null,
+          "video_duration": null,
+          "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+          "negative_prompt": "",
+          "cfg_scale": null,
+          "steps": null,
+          "super_resolution": false,
+          "resolution": "2K",
+          "ar": "1:1",
+          "seed": null,
+          "controlnet": null,
+          "controlnet_conditioning_scale": null,
+          "controlnet_txt2img": false,
+          "denoising_strength": null,
+          "style": null,
+          "color_grading": null,
+          "film_grain": false,
+          "hires_fix": false,
+          "inpaint_faces": false,
+          "face_correct": false,
+          "face_swap": false,
+          "backend_version": null,
+          "scheduler": "euler_a",
+          "use_lpw": false,
+          "w": null,
+          "h": null,
+          "aspect_ratio": "3:4",
+          "progress_timing_seconds": 359,
+          "progress_elapsed_seconds": 0,
+          "url": "https://api.astria.ai/tunes/5634510/prompts/47137258.json?ws=896",
+          "images": [],
+          "filenames": [],
+          "content_types": [],
+          "liked": false,
+          "tune": {
+            "id": 5634510,
+            "title": "GPT Image 2.5 Sunburst",
+            "model_type": null,
+            "name": null
+          },
+          "tunes": [
+            {
+              "id": 5853747,
+              "title": "Articles — clean Effaclar Mat studio packshot, Cosmin Ursea",
+              "model_type": "faceid",
+              "name": "tube",
+              "branch": "gemini-2"
+            }
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "slug": "flare",
+    "args": {
+      "workspace": "896",
+      "model": "5634511",
+      "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+      "num_images": "1",
+      "aspect_ratio": "3:4",
+      "resolution": "2K",
+      "film_grain": false,
+      "inpaint_faces": false,
+      "idempotency_key": "nb21-clean-packshot-scene-20261007-flare"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\":47137260,\"callback\":null,\"trained_at\":null,\"started_training_at\":null,\"failed_at\":null,\"created_at\":\"2026-10-07T12:11:24.750Z\",\"updated_at\":\"2026-10-07T12:11:24.750Z\",\"tune_id\":5634511,\"prompt_likes_count\":0,\"base_pack_id\":null,\"order_id\":null,\"user_id\":2,\"workspace_id\":896,\"is_video\":false,\"user_error\":null,\"cost_mc\":33000,\"num_images\":1,\"input_image\":null,\"input_video\":null,\"mask_image\":null,\"video_first_frame\":null,\"video_last_frame\":null,\"audio_reference\":null,\"image_references\":[],\"video_prompt\":null,\"video_model\":null,\"video_duration\":null,\"text\":\"Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.\",\"negative_prompt\":\"\",\"cfg_scale\":null,\"steps\":null,\"super_resolution\":false,\"resolution\":\"2K\",\"ar\":\"1:1\",\"seed\":null,\"controlnet\":null,\"controlnet_conditioning_scale\":null,\"controlnet_txt2img\":false,\"denoising_strength\":null,\"style\":null,\"color_grading\":null,\"film_grain\":false,\"hires_fix\":false,\"inpaint_faces\":false,\"face_correct\":false,\"face_swap\":false,\"backend_version\":null,\"scheduler\":\"euler_a\",\"use_lpw\":false,\"w\":null,\"h\":null,\"aspect_ratio\":\"3:4\",\"progress_timing_seconds\":45,\"progress_elapsed_seconds\":0,\"url\":\"https://api.astria.ai/tunes/5634511/prompts/47137260.json?ws=896\",\"images\":[],\"filenames\":[],\"content_types\":[],\"liked\":false,\"tune\":{\"id\":5634511,\"title\":\"GPT Image 2.5 Flare\",\"model_type\":null,\"name\":null},\"tunes\":[{\"id\":5853747,\"title\":\"Articles — clean Effaclar Mat studio packshot, Cosmin Ursea\",\"model_type\":\"faceid\",\"name\":\"tube\",\"branch\":\"gemini-2\"}]}"
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "id": 47137260,
+          "callback": null,
+          "trained_at": null,
+          "started_training_at": null,
+          "failed_at": null,
+          "created_at": "2026-10-07T12:11:24.750Z",
+          "updated_at": "2026-10-07T12:11:24.750Z",
+          "tune_id": 5634511,
+          "prompt_likes_count": 0,
+          "base_pack_id": null,
+          "order_id": null,
+          "user_id": 2,
+          "workspace_id": 896,
+          "is_video": false,
+          "user_error": null,
+          "cost_mc": 33000,
+          "num_images": 1,
+          "input_image": null,
+          "input_video": null,
+          "mask_image": null,
+          "video_first_frame": null,
+          "video_last_frame": null,
+          "audio_reference": null,
+          "image_references": [],
+          "video_prompt": null,
+          "video_model": null,
+          "video_duration": null,
+          "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+          "negative_prompt": "",
+          "cfg_scale": null,
+          "steps": null,
+          "super_resolution": false,
+          "resolution": "2K",
+          "ar": "1:1",
+          "seed": null,
+          "controlnet": null,
+          "controlnet_conditioning_scale": null,
+          "controlnet_txt2img": false,
+          "denoising_strength": null,
+          "style": null,
+          "color_grading": null,
+          "film_grain": false,
+          "hires_fix": false,
+          "inpaint_faces": false,
+          "face_correct": false,
+          "face_swap": false,
+          "backend_version": null,
+          "scheduler": "euler_a",
+          "use_lpw": false,
+          "w": null,
+          "h": null,
+          "aspect_ratio": "3:4",
+          "progress_timing_seconds": 45,
+          "progress_elapsed_seconds": 0,
+          "url": "https://api.astria.ai/tunes/5634511/prompts/47137260.json?ws=896",
+          "images": [],
+          "filenames": [],
+          "content_types": [],
+          "liked": false,
+          "tune": {
+            "id": 5634511,
+            "title": "GPT Image 2.5 Flare",
+            "model_type": null,
+            "name": null
+          },
+          "tunes": [
+            {
+              "id": 5853747,
+              "title": "Articles — clean Effaclar Mat studio packshot, Cosmin Ursea",
+              "model_type": "faceid",
+              "name": "tube",
+              "branch": "gemini-2"
+            }
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "slug": "seedream5pro",
+    "args": {
+      "workspace": "896",
+      "model": "5236038",
+      "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+      "num_images": "1",
+      "aspect_ratio": "3:4",
+      "resolution": "2K",
+      "film_grain": false,
+      "inpaint_faces": false,
+      "idempotency_key": "nb21-clean-packshot-scene-20261007-seedream5pro"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"id\":47137269,\"callback\":null,\"trained_at\":null,\"started_training_at\":null,\"failed_at\":null,\"created_at\":\"2026-10-07T12:11:30.493Z\",\"updated_at\":\"2026-10-07T12:11:30.493Z\",\"tune_id\":5236038,\"prompt_likes_count\":0,\"base_pack_id\":null,\"order_id\":null,\"user_id\":2,\"workspace_id\":896,\"is_video\":false,\"user_error\":null,\"cost_mc\":33000,\"num_images\":1,\"input_image\":null,\"input_video\":null,\"mask_image\":null,\"video_first_frame\":null,\"video_last_frame\":null,\"audio_reference\":null,\"image_references\":[],\"video_prompt\":null,\"video_model\":null,\"video_duration\":null,\"text\":\"Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.\",\"negative_prompt\":\"\",\"cfg_scale\":null,\"steps\":null,\"super_resolution\":false,\"resolution\":\"2K\",\"ar\":\"1:1\",\"seed\":null,\"controlnet\":null,\"controlnet_conditioning_scale\":null,\"controlnet_txt2img\":false,\"denoising_strength\":null,\"style\":null,\"color_grading\":null,\"film_grain\":false,\"hires_fix\":false,\"inpaint_faces\":false,\"face_correct\":false,\"face_swap\":false,\"backend_version\":null,\"scheduler\":\"euler_a\",\"use_lpw\":false,\"w\":null,\"h\":null,\"aspect_ratio\":\"3:4\",\"progress_timing_seconds\":132,\"progress_elapsed_seconds\":0,\"url\":\"https://api.astria.ai/tunes/5236038/prompts/47137269.json?ws=896\",\"images\":[],\"filenames\":[],\"content_types\":[],\"liked\":false,\"tune\":{\"id\":5236038,\"title\":\"Seedream 5.0 Pro\",\"model_type\":null,\"name\":null},\"tunes\":[{\"id\":5853747,\"title\":\"Articles — clean Effaclar Mat studio packshot, Cosmin Ursea\",\"model_type\":\"faceid\",\"name\":\"tube\",\"branch\":\"gemini-2\"}]}"
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "id": 47137269,
+          "callback": null,
+          "trained_at": null,
+          "started_training_at": null,
+          "failed_at": null,
+          "created_at": "2026-10-07T12:11:30.493Z",
+          "updated_at": "2026-10-07T12:11:30.493Z",
+          "tune_id": 5236038,
+          "prompt_likes_count": 0,
+          "base_pack_id": null,
+          "order_id": null,
+          "user_id": 2,
+          "workspace_id": 896,
+          "is_video": false,
+          "user_error": null,
+          "cost_mc": 33000,
+          "num_images": 1,
+          "input_image": null,
+          "input_video": null,
+          "mask_image": null,
+          "video_first_frame": null,
+          "video_last_frame": null,
+          "audio_reference": null,
+          "image_references": [],
+          "video_prompt": null,
+          "video_model": null,
+          "video_duration": null,
+          "text": "Create a realistic casual skincare UGC photograph of <faceid:5853747:1> tube from the supplied single-product studio packshot. One adult hand holds this exact white skincare tube upright beside a softly lit bathroom window, supporting it low around the closed cap without covering any label text. Show the complete product centered, occupying about 80 percent of the frame height, with its front label facing the camera. Preserve the exact white tube silhouette, cap, blue rectangular brand mark, black and gray typography and small blue label copy. Reproduce every visible French and English label line exactly from the supplied image, including accents, punctuation, hyphens, spelling and line arrangement. Do not translate, rewrite, simplify, add or remove any packaging text. Keep the entire front label sharp and readable in the photograph. Soft natural daylight, warm ivory bathroom wall and blurred pale towel in the background, believable hand anatomy and candid handheld-camera realism. No face, other products, jewelry, overlay text or added headline.",
+          "negative_prompt": "",
+          "cfg_scale": null,
+          "steps": null,
+          "super_resolution": false,
+          "resolution": "2K",
+          "ar": "1:1",
+          "seed": null,
+          "controlnet": null,
+          "controlnet_conditioning_scale": null,
+          "controlnet_txt2img": false,
+          "denoising_strength": null,
+          "style": null,
+          "color_grading": null,
+          "film_grain": false,
+          "hires_fix": false,
+          "inpaint_faces": false,
+          "face_correct": false,
+          "face_swap": false,
+          "backend_version": null,
+          "scheduler": "euler_a",
+          "use_lpw": false,
+          "w": null,
+          "h": null,
+          "aspect_ratio": "3:4",
+          "progress_timing_seconds": 132,
+          "progress_elapsed_seconds": 0,
+          "url": "https://api.astria.ai/tunes/5236038/prompts/47137269.json?ws=896",
+          "images": [],
+          "filenames": [],
+          "content_types": [],
+          "liked": false,
+          "tune": {
+            "id": 5236038,
+            "title": "Seedream 5.0 Pro",
+            "model_type": null,
+            "name": null
+          },
+          "tunes": [
+            {
+              "id": 5853747,
+              "title": "Articles — clean Effaclar Mat studio packshot, Cosmin Ursea",
+              "model_type": "faceid",
+              "name": "tube",
+              "branch": "gemini-2"
+            }
+          ]
+        }
+      },
+      "isError": false
+    }
+  }
+]

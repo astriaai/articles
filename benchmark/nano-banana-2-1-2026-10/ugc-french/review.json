@@ -1,0 +1,62 @@
+{
+  "source_review": "Full original and native French/English label crop visually reviewed.",
+  "output_review": "All six full images visually reviewed; native label crops inspected. Every result has credible article-size UGC finish and recognizable core bottle/brand/pattern; exact-copy deviations are explicitly labeled.",
+  "winner": "sunburst",
+  "scope": "One shared brief, one output per model, no reruns; editorial winner for this sample, no statistical claim.",
+  "results": [
+    {
+      "model": "Nano Banana 2.1",
+      "slug": "nano-banana-2-1",
+      "prompt_id": 47137040,
+      "tune_id": 4180298,
+      "native_dimensions": "1792x2400",
+      "published": true,
+      "verdict": "Convincing warm UGC finish and readable main copy. Loses the accent in prot\u00e8ge and replaces the small lower label lines with invented text."
+    },
+    {
+      "model": "Nano Banana Pro",
+      "slug": "nano-banana-pro",
+      "prompt_id": 47137042,
+      "tune_id": 3618064,
+      "native_dimensions": "1792x2400",
+      "published": true,
+      "verdict": "Natural window light and recognizable packaging. Changes Apaise to Apaisa and invents the small lower label copy."
+    },
+    {
+      "model": "Nano Banana 2.0",
+      "slug": "nano-banana-2-0",
+      "prompt_id": 47137043,
+      "tune_id": 5850983,
+      "native_dimensions": "1792x2400",
+      "published": true,
+      "verdict": "Readable main French and English copy, convincing hand-held scene. Invents the small lower label lines and changes the spray-head presentation."
+    },
+    {
+      "model": "GPT Image 2.5 Sunburst",
+      "slug": "sunburst",
+      "prompt_id": 47137044,
+      "tune_id": 5634510,
+      "native_dimensions": "1792x2304",
+      "published": true,
+      "verdict": "Winner for label fidelity. Keeps Apaise et prot\u00e8ge, Sans conservateur / Preservative-free, the volume and Made in France legible, with a strong UGC finish."
+    },
+    {
+      "model": "GPT Image 2.5 Flare",
+      "slug": "flare",
+      "prompt_id": 47137045,
+      "tune_id": 5634511,
+      "native_dimensions": "1792x2304",
+      "published": true,
+      "verdict": "Bright, polished UGC image and readable main French copy. Omits Sans conservateur / Preservative-free from the lower label."
+    },
+    {
+      "model": "Seedream 5 Pro",
+      "slug": "seedream5pro",
+      "prompt_id": 47137046,
+      "tune_id": 5236038,
+      "native_dimensions": "1776x2368",
+      "published": true,
+      "verdict": "Soft, believable daylight and readable main copy. The small lower label and origin text become garbled."
+    }
+  ]
+}

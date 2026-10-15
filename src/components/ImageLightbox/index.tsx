@@ -5,12 +5,19 @@ import styles from './styles.module.css';
 const MAX_ZOOM = 8;
 const CLICK_ZOOM = 2;
 const WHEEL_SENSITIVITY = 0.0012;
+export const ARTICLE_IMAGE_ITEM_SELECTOR = 'img:not([data-no-zoom]):not([alt=""])';
+export const ARTICLE_IMAGE_SELECTOR = `.markdown ${ARTICLE_IMAGE_ITEM_SELECTOR}`;
 
 type OpenImage = {
   alt: string;
   href?: string;
   sourceHref?: string;
   src: string;
+};
+
+type Gallery = {
+  images: OpenImage[];
+  index: number;
 };
 
 type View = {
@@ -22,7 +29,7 @@ const initialView: View = {zoom: 1, pan: {x: 0, y: 0}};
 
 export default function ImageLightbox() {
   const [mounted, setMounted] = useState(false);
-  const [openImage, setOpenImage] = useState<OpenImage | null>(null);
+  const [gallery, setGallery] = useState<Gallery | null>(null);
   const [view, setView] = useState<View>(initialView);
   const viewRef = useRef(view);
   const viewportRef = useRef<HTMLDivElement | null>(null);
@@ -49,9 +56,20 @@ export default function ImageLightbox() {
   const resetView = useCallback(() => updateView(initialView), [updateView]);
 
   const close = useCallback(() => {
-    setOpenImage(null);
+    setGallery(null);
     resetView();
-    window.requestAnimationFrame(() => previousFocus.current?.focus());
+    window.requestAnimationFrame(() => previousFocus.current?.focus({preventScroll: true}));
+  }, [resetView]);
+
+  const navigate = useCallback((direction: -1 | 1) => {
+    setGallery((current) => {
+      if (!current || current.images.length < 2) return current;
+      return {
+        ...current,
+        index: (current.index + direction + current.images.length) % current.images.length,
+      };
+    });
+    resetView();
   }, [resetView]);
 
   const clampPan = useCallback((pan: {x: number; y: number}, zoom: number) => {
@@ -95,17 +113,23 @@ export default function ImageLightbox() {
       if (event.defaultPrevented || event.button !== 0) return;
       const target = event.target;
       if (!(target instanceof HTMLImageElement)) return;
-      if (!target.matches('.markdown img:not([data-no-zoom])')) return;
-      const sourceLink = target.closest('a[href]') as HTMLAnchorElement | null;
-      const sourceReference = target.closest('[data-source-reference]') as HTMLElement | null;
+      if (!target.matches(ARTICLE_IMAGE_SELECTOR)) return;
       event.preventDefault();
       event.stopPropagation();
       previousFocus.current = target;
-      setOpenImage({
-        src: target.currentSrc || target.src,
-        alt: target.alt || 'Expanded article image',
-        href: sourceLink?.href,
-        sourceHref: sourceReference?.dataset.sourceReference,
+      const article = target.closest('.markdown');
+      const elements = article
+        ? Array.from(article.querySelectorAll<HTMLImageElement>(ARTICLE_IMAGE_ITEM_SELECTOR))
+        : [target];
+      const images = elements.map((element) => ({
+        src: element.currentSrc || element.src,
+        alt: element.alt || 'Expanded article image',
+        href: (element.closest('a[href]') as HTMLAnchorElement | null)?.href,
+        sourceHref: (element.closest('[data-source-reference]') as HTMLElement | null)?.dataset.sourceReference,
+      }));
+      setGallery({
+        images,
+        index: Math.max(0, elements.indexOf(target)),
       });
       updateView(initialView);
     };
@@ -115,12 +139,11 @@ export default function ImageLightbox() {
   }, [updateView]);
 
   useEffect(() => {
-    if (!openImage) return;
+    if (!gallery) return;
     const previousHtmlOverflow = document.documentElement.style.overflow;
-    const previousBodyOverflow = document.body.style.overflow;
+    const scrollPosition = {left: window.scrollX, top: window.scrollY};
     document.documentElement.style.overflow = 'hidden';
-    document.body.style.overflow = 'hidden';
-    closeRef.current?.focus();
+    closeRef.current?.focus({preventScroll: true});
 
     const handleKey = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
@@ -136,6 +159,12 @@ export default function ImageLightbox() {
       } else if (event.key === '0') {
         event.preventDefault();
         resetView();
+      } else if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        navigate(-1);
+      } else if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        navigate(1);
       }
     };
 
@@ -143,9 +172,18 @@ export default function ImageLightbox() {
     return () => {
       document.removeEventListener('keydown', handleKey);
       document.documentElement.style.overflow = previousHtmlOverflow;
-      document.body.style.overflow = previousBodyOverflow;
+      window.scrollTo({...scrollPosition, behavior: 'instant'});
     };
-  }, [close, openImage, resetView, zoomAt]);
+  }, [close, gallery === null, navigate, resetView, zoomAt]);
+
+  useEffect(() => {
+    if (!gallery || gallery.images.length < 2) return;
+    for (const offset of [-1, 1]) {
+      const neighborIndex = (gallery.index + offset + gallery.images.length) % gallery.images.length;
+      const preload = new Image();
+      preload.src = gallery.images[neighborIndex].src;
+    }
+  }, [gallery]);
 
   const handleWheel = (event: React.WheelEvent) => {
     event.preventDefault();
@@ -229,7 +267,10 @@ export default function ImageLightbox() {
     else zoomAt(CLICK_ZOOM, event.clientX, event.clientY);
   };
 
-  if (!mounted || !openImage) return null;
+  if (!mounted || !gallery) return null;
+
+  const openImage = gallery.images[gallery.index];
+  const hasMultipleImages = gallery.images.length > 1;
 
   return createPortal(
     <div
@@ -250,6 +291,28 @@ export default function ImageLightbox() {
           <path d="M6 6l12 12M18 6 6 18" />
         </svg>
       </button>
+
+      {hasMultipleImages ? (
+        <>
+          <button
+            className={`${styles.navButton} ${styles.previousButton}`}
+            type="button"
+            onClick={() => navigate(-1)}
+            aria-label="Previous image">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+          </button>
+          <button
+            className={`${styles.navButton} ${styles.nextButton}`}
+            type="button"
+            onClick={() => navigate(1)}
+            aria-label="Next image">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+          </button>
+          <div className={styles.position} aria-live="polite">
+            {gallery.index + 1} / {gallery.images.length}
+          </div>
+        </>
+      ) : null}
 
       <div
         ref={viewportRef}

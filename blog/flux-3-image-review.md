@@ -123,7 +123,7 @@ GPT Image 2.5 is the strongest route when the work behaves like design: edit pre
 
 ### Seedream 5 Pro
 
-Seedream 5 Pro combines multi-image fusion with point, lasso, box, sketch, color, and material controls. It can also separate a finished design into independent transparent layers. That makes it especially relevant for posters and dense design work, while our wider Astria benchmark still gives it a specialist role for saturated garments, woven texture, skin, and repeated identity.
+Seedream 5 Pro combines multi-image fusion with point, lasso, box, sketch, color, and material controls. Its provider also documents separating a finished design into independent layers. In our own October 15 test the endpoint did not return transparent layers from a single request, though it did extract individual elements cleanly one pass at a time; see [AI layer separation in Photoshop](./layer-separation-photoshop.md) for what that workflow delivers. Either way the model is especially relevant for posters and dense design work, while our wider Astria benchmark still gives it a specialist role for saturated garments, woven texture, skin, and repeated identity.
 
 ## Resolution and speed
 

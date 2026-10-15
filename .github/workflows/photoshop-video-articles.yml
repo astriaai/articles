@@ -1,0 +1,41 @@
+name: Publish Photoshop video articles
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: articles-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install locked dependencies and build published articles
+        run: |
+          corepack enable
+          corepack prepare yarn@1.22.22 --activate
+          yarn install --frozen-lockfile
+          yarn test
+          yarn build
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: published
+      - name: Publish the reviewed site build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git -C published config user.name 'Astria articles'
+          git -C published config user.email 'articles@astria.ai'
+          python3 scripts/publish-photoshop-video-pages.py --build build --pages published --plan editorial-notes/photoshop-video-articles-release.json --message "Publish all Photoshop video guides" --push
+          # GITHUB_TOKEN pushes do not automatically trigger legacy Pages builds.
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" --jq '.status'
