@@ -1,0 +1,533 @@
+{
+  "prepared_on": "2026-10-15",
+  "audit_baseline": "research/citation-gaps-2026-10-14/editorial-review.json",
+  "baseline_commits": [
+    "1503259d",
+    "0da716a1"
+  ],
+  "source_dates_are_editorial_not_live_publication_dates": true,
+  "publication_status": "ready_for_publication",
+  "citation_improvement_claimed": false,
+  "distinct_interventions": 14,
+  "distinct_question_ids": 44,
+  "coverage": [
+    {
+      "intervention_id": "batch_catalog_kit",
+      "question_ids": [
+        8,
+        13,
+        15,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47
+      ],
+      "page_path": "blog/batch-product-photos-from-csv.md",
+      "intended_url": "https://www.astria.ai/articles/batch-product-photos-from-csv/",
+      "action": "create",
+      "source_date": "2026-10-07",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "offline_planner_tested; live_execution_procedure_only",
+      "source_links": [
+        "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "https://www.astria.ai/articles/choose-product-reference-photos-ai-fashion/",
+        "https://www.astria.ai/articles/cast-ai-fashion-model-astria-agent/",
+        "https://www.astria.ai/articles/define-brand-visual-direction-ai-lookbook/",
+        "https://www.astria.ai/articles/create-lookbook-template-astria/",
+        "https://www.astria.ai/articles/run-astria-template-new-product/"
+      ],
+      "remaining_gates": [
+        "live pilot on authorized catalog references; product acceptance before expansion"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "on_model_walkthrough",
+      "question_ids": [
+        11,
+        12,
+        15,
+        17,
+        18,
+        19
+      ],
+      "page_path": "blog/flat-lay-to-on-model.md",
+      "intended_url": "https://www.astria.ai/articles/flat-lay-to-on-model/",
+      "action": "update",
+      "source_date": "2026-08-15",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "annotated_procedure_linked_to_published_workshops",
+      "source_links": [
+        "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "https://www.astria.ai/articles/choose-product-reference-photos-ai-fashion/",
+        "https://www.astria.ai/articles/cast-ai-fashion-model-astria-agent/",
+        "https://www.astria.ai/articles/define-brand-visual-direction-ai-lookbook/",
+        "https://www.astria.ai/articles/create-lookbook-template-astria/",
+        "https://www.astria.ai/articles/run-astria-template-new-product/"
+      ],
+      "remaining_gates": [
+        "category-specific production outputs not generated in this task"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "accuracy_repairs",
+      "question_ids": [
+        21,
+        23,
+        27,
+        28,
+        30
+      ],
+      "page_path": "blog/fix-ai-product-photo-errors.md",
+      "intended_url": "https://www.astria.ai/articles/fix-ai-product-photo-errors/",
+      "action": "create",
+      "source_date": "2026-10-08",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "symptom_to_action_procedure; no_repair_benchmark",
+      "source_links": [],
+      "remaining_gates": [
+        "controlled color/label repair demonstration remains unperformed"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "phone_first_capture",
+      "question_ids": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "page_path": "blog/photograph-clothes-with-phone.md",
+      "intended_url": "https://www.astria.ai/articles/photograph-clothes-with-phone/",
+      "action": "create",
+      "source_date": "2026-10-09",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "observable_capture_procedure",
+      "source_links": [],
+      "remaining_gates": [
+        "no camera/equipment or capture benchmark performed"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "rights_trust_checklist",
+      "question_ids": [
+        15,
+        20,
+        32,
+        60
+      ],
+      "page_path": "blog/ai-product-photography-rights-checklist.md",
+      "intended_url": "https://www.astria.ai/articles/ai-product-photography-rights-checklist/",
+      "action": "create",
+      "source_date": "2026-10-10",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "current_primary_policy_sources_checked; questionnaire_delivered",
+      "source_links": [
+        "https://www.astria.ai/terms",
+        "https://www.astria.ai/privacy",
+        "https://www.copyright.gov/newsnet/2025/1060.html",
+        "https://www.edpb.europa.eu/sme/learn-the-basics/data-protection-basics_en"
+      ],
+      "remaining_gates": [
+        "project-specific supplier/likeness rights and applicable agreements require actual records"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "rush_without_studio",
+      "question_ids": [
+        4,
+        6,
+        58
+      ],
+      "page_path": "blog/product-photos-without-studio.md",
+      "intended_url": "https://www.astria.ai/articles/product-photos-without-studio/",
+      "action": "create",
+      "source_date": "2026-10-11",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "decision_path_and_launch_checklist",
+      "source_links": [],
+      "remaining_gates": [
+        "actual source readiness and approval schedule determine delivery"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "collaborative_review_sop",
+      "question_ids": [
+        46,
+        57,
+        59
+      ],
+      "page_path": "blog/batch-product-photos-from-csv.md",
+      "intended_url": "https://www.astria.ai/articles/batch-product-photos-from-csv/",
+      "action": "create_section",
+      "source_date": "2026-10-07",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "roles_receipts_review_log_and_release_manifest",
+      "source_links": [],
+      "remaining_gates": [
+        "no live team batch or workflow time result measured"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "campaign_variant_walkthrough",
+      "question_ids": [
+        51,
+        52,
+        54
+      ],
+      "page_path": "blog/product-photo-ad-variations.md",
+      "intended_url": "https://www.astria.ai/articles/product-photo-ad-variations/",
+      "action": "create",
+      "source_date": "2026-10-12",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "proposed_exercise_and_export_matrix; no_generated_variants",
+      "source_links": [],
+      "remaining_gates": [
+        "demonstrated accepted variant set not produced; no ad performance test"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "bottle_scene_recipe",
+      "question_ids": [
+        27,
+        55,
+        56
+      ],
+      "page_path": "blog/bottle-photo-lifestyle-images.md",
+      "intended_url": "https://www.astria.ai/articles/bottle-photo-lifestyle-images/",
+      "action": "create",
+      "source_date": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "source_preserving_layered_procedure; no_accepted_generation_claim",
+      "source_links": [],
+      "remaining_gates": [
+        "accepted reference-based bottle-generation example remains OPEN; earlier failed supplement outputs excluded"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "measured_production_case",
+      "question_ids": [
+        50,
+        57,
+        59
+      ],
+      "page_path": "blog/measure-ai-product-photography-time.md",
+      "intended_url": "https://www.astria.ai/articles/measure-ai-product-photography-time/",
+      "action": "create",
+      "source_date": "2026-10-15",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "measurement_method_and_blank_worksheet_only",
+      "source_links": [],
+      "remaining_gates": [
+        "OPEN: authorized project data, matched-scope time logs, accepted outputs, and publication permission; actual results case not fulfilled"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "reference_roles_walkthrough",
+      "question_ids": [
+        33,
+        37
+      ],
+      "page_path": "blog/consistent-ai-fashion-models.md",
+      "intended_url": "https://www.astria.ai/articles/consistent-ai-fashion-models/",
+      "action": "update",
+      "source_date": "2026-08-15",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "separate_input_roles_and_published_workshop_links",
+      "source_links": [
+        "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "https://www.astria.ai/articles/choose-product-reference-photos-ai-fashion/",
+        "https://www.astria.ai/articles/cast-ai-fashion-model-astria-agent/",
+        "https://www.astria.ai/articles/define-brand-visual-direction-ai-lookbook/",
+        "https://www.astria.ai/articles/create-lookbook-template-astria/",
+        "https://www.astria.ai/articles/run-astria-template-new-product/"
+      ],
+      "remaining_gates": [
+        "no new identity continuity benchmark; acceptance required per output"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "kidswear_without_model",
+      "question_ids": [
+        16
+      ],
+      "page_path": "blog/kidswear-photography-without-model.md",
+      "intended_url": "https://www.astria.ai/articles/kidswear-photography-without-model/",
+      "action": "create",
+      "source_date": "2026-10-14",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "product_only_capture_and_size_evidence_matrix",
+      "source_links": [],
+      "remaining_gates": [
+        "no child generation; no provider child-model support claim; physical fit not established"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "image_to_video_walkthrough",
+      "question_ids": [
+        53
+      ],
+      "page_path": "blog/apparel-product-video-guide.md",
+      "intended_url": "https://www.astria.ai/articles/apparel-product-video-guide/",
+      "action": "update",
+      "source_date": "2026-09-01",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "current_tool_fields_and_named_recorded_tutorial_verified",
+      "source_links": [
+        "https://docs.astria.ai/docs/features/video/",
+        "https://www.astria.ai/academy/watch/showroom-walk/",
+        "https://www.astria.ai/academy/watch/showroom-walk/transcript.txt"
+      ],
+      "remaining_gates": [
+        "new production clip and SKU-fidelity approval not performed; actual clip requires frame review"
+      ],
+      "actual_release_date": null
+    },
+    {
+      "intervention_id": "coding_assistant_walkthrough",
+      "question_ids": [
+        48
+      ],
+      "page_path": "blog/batch-product-photos-from-csv.md",
+      "intended_url": "https://www.astria.ai/articles/batch-product-photos-from-csv/",
+      "action": "create_section",
+      "source_date": "2026-10-07",
+      "checked_on": "2026-10-15",
+      "content_status": "implemented_locally_uncommitted",
+      "evidence_status": "offline_manifest_handling_and_separate_live_authorization",
+      "source_links": [],
+      "remaining_gates": [
+        "no assistant-driven live generation batch executed"
+      ],
+      "actual_release_date": null
+    }
+  ],
+  "assets": {
+    "new_generations": 0,
+    "new_generated_images_published": 0,
+    "new_media_selected": [],
+    "existing_cover_images": "unchanged on the three updated guides; no new generated covers",
+    "new_article_visual_approach": "text, decision tables, real downloadable workflow artifacts; no decorative generated photos",
+    "new_generation_workspace_if_later_authorized": "896"
+  },
+  "rejected_existing_media": [
+    {
+      "prompt_id": 46608981,
+      "workspace": 602,
+      "source_record": "benchmark/video-models-2026-09/live-workspace-runs.json",
+      "source_prompt_id": 46434600,
+      "reviewed_on": "2026-10-15",
+      "visual_review": "Local first-frame image and 1 fps contact sheet inspected; bag geometry/appearance changes during motion. Calibration record is unjudged. Not selected as product-fidelity evidence.",
+      "action": "Removed existing ArticleEvidence video module only from owned apparel-product-video-guide.md; shared component and other articles untouched."
+    }
+  ],
+  "recorded_tutorial": {
+    "title": "Showroom walk",
+    "url": "https://www.astria.ai/academy/watch/showroom-walk/",
+    "walkthrough_starts_seconds": 37,
+    "transcript_url": "https://www.astria.ai/academy/watch/showroom-walk/transcript.txt",
+    "transcript_sha256": "a4e650e54189c6d0dde1ff3b82407c47e394b0cf1070982d18489c9f84b335bf",
+    "verified_on": "2026-10-15",
+    "verified_scope": "Public transcript fetched successfully. Link is a named recording, no generated frame is newly selected or embedded. Current tool schema separately checked. Do not adopt recorded fit/movement claims or fault-proof prompt language as product evidence."
+  },
+  "tool_contract_check": {
+    "checked_on": "2026-10-15",
+    "capability_source": "Connected official Astria MCP tool schemas; read-only list_models call succeeded",
+    "generation_calls": 0,
+    "verified_names": [
+      "list_models",
+      "list_templates",
+      "get_template",
+      "get_reference",
+      "create_upload",
+      "run_template",
+      "generate_images",
+      "generate_video",
+      "list_prompts",
+      "get_prompt",
+      "create_reference"
+    ],
+    "key_scope_notes": [
+      "run_template tune_id slot order and prompt_ids subset must be inspected before execution",
+      "get_prompt requires id and tune",
+      "generate_video first_frame requires supported mode and HTTPS media; video_resolution is separate from image-stage resolution",
+      "Unique idempotency key per distinct live operation; same key/arguments for identical retry",
+      "No API client or new endpoint is implemented by planner",
+      "Follow-up read current create_reference schema: requires image_url HTTPS list, subject name, title and idempotency_key; upload alone does not create a reusable reference. No mutation called."
+    ]
+  },
+  "checks": {
+    "python_tests": {
+      "command": "python3 -B tests/test_catalog_batch_plan.py",
+      "passed": 15,
+      "failed": 0,
+      "actual": true
+    },
+    "csv_headers": "all seven CSV downloads parsed; row lengths match headers",
+    "production_build": {
+      "command": "yarn clear; yarn build (separate commands)",
+      "passed": true,
+      "actual": true,
+      "scope": "Real production configuration, after static download-link and escaped table-pipe corrections; no link checks suppressed.",
+      "latest_command": "yarn build",
+      "latest_scope": "After all three delegated follow-up implementations; dates unchanged so no date-cache reset required."
+    },
+    "full_yarn_test": {
+      "command": "yarn test",
+      "passed": 49,
+      "failed": 0,
+      "actual": true
+    },
+    "typecheck": {
+      "command": "yarn typecheck",
+      "passed": true,
+      "actual": true
+    },
+    "rendered_visual_review": {
+      "actual": true,
+      "pages": [
+        "batch-product-photos-from-csv",
+        "ai-product-photography-rights-checklist"
+      ],
+      "scope": "Desktop localhost screenshots and browser accessibility/DOM review; repaired catalog reference-path table verified after rebuild."
+    },
+    "focused_node_tests": {
+      "command": "node --test tests/catalog-batch-plan.test.cjs tests/content-ledger.test.cjs",
+      "passed": 5,
+      "failed": 0,
+      "actual": true
+    },
+    "task_source_links": "all task-owned relative article and download targets exist",
+    "task_whitespace": "git diff --check passed for explicit owned paths",
+    "rendered_routes": {
+      "passed": 12,
+      "actual": true,
+      "checks": [
+        "canonical",
+        "sitemap",
+        "indexability",
+        "single H1",
+        "FAQPage questions and complete acceptedAnswer text visible",
+        "single BlogPosting",
+        "local href/src targets",
+        "consistent table column counts"
+      ]
+    },
+    "baseline_integrity": {
+      "manifest": "results/2026-10-14.run.json",
+      "files_checked": 206,
+      "hash_mismatches": 1,
+      "actual": true,
+      "mismatched_paths": [
+        ".gitignore"
+      ],
+      "explanation": "Concurrent unrelated additions /.wrangler and /.venv-r2 only. All archived questions, results, raw answers, research, audit scripts and other manifest files still match (205/206). Not changed or reverted by this task."
+    }
+  },
+  "task_baselines": "/tmp/citation-gap-implementer-baselines-2026-10-15/ (three pre-edit copies; originals retained outside deliverables)",
+  "sources": [
+    {
+      "url": "https://www.astria.ai/terms",
+      "checked_on": "2026-10-15",
+      "type": "primary policy or official authority"
+    },
+    {
+      "url": "https://www.astria.ai/privacy",
+      "checked_on": "2026-10-15",
+      "type": "primary policy or official authority"
+    },
+    {
+      "url": "https://www.copyright.gov/newsnet/2025/1060.html",
+      "checked_on": "2026-10-15",
+      "type": "primary policy or official authority"
+    },
+    {
+      "url": "https://www.edpb.europa.eu/sme/learn-the-basics/data-protection-basics_en",
+      "checked_on": "2026-10-15",
+      "type": "primary policy or official authority"
+    }
+  ],
+  "open_measured_case": {
+    "status": "OPEN",
+    "provided_project_data": false,
+    "claim": "No results case study, savings percentage or measured production outcome fabricated."
+  },
+  "download_bundle": {
+    "path": "static/downloads/citation-gap-guides/catalog-starter-kit.zip",
+    "sha256": "fd918558605a3e5eec961b1c620e77d24001b3e1bf3ca53875c670e9bff808f4",
+    "entries": 12,
+    "integrity_and_source_parity_verified": true,
+    "extracted_cli_pilot": "one local jacket reference; one offline job; zero live submissions",
+    "followup_extracted_cli": "Sub-agent extracted kit: three fixture jobs planned, zero submissions; deterministic 12-file ZIP byte parity and metadata independently checked by 14-test suite."
+  },
+  "delegated_followup": {
+    "date": "2026-10-15",
+    "user_requested": true,
+    "agents": [
+      "implement_capture_guides",
+      "implement_production_guides",
+      "implement_catalog_kit"
+    ],
+    "completed": true,
+    "fixes": [
+      "direct buyer-question FAQs and capture/launch execution detail",
+      "source-preserving proposed color/shoe procedures; actual tests remain open",
+      "first-50-word answers and qualified inherited fit/conversion/review claims",
+      "strict malformed-quote CSV parsing and symlink-loop failure handling",
+      "separate one-row/one-candidate pilot plan, one prompt per planned shot",
+      "explicit upload-to-reference handoff and release-cutoff download"
+    ],
+    "evidence_status_upgraded": false,
+    "live_submissions": 0,
+    "commit_or_deploy": false
+  },
+  "public_text_downloads": {
+    "reason": "Production Worker passes .md URLs to Rails; .txt aliases serve identical Markdown text from the articles release. The ZIP retains original .md filenames.",
+    "aliases": [
+      "static/downloads/citation-gap-guides/README.txt",
+      "static/downloads/citation-gap-guides/launch-checklist.txt",
+      "static/downloads/citation-gap-guides/production-time-decision.txt",
+      "static/downloads/citation-gap-guides/provider-questionnaire.txt"
+    ],
+    "byte_parity_verified": true
+  },
+  "publication_preflight": {
+    "base_commit": "07d869abbcaa779cfe89f4025ef42edadf315b46",
+    "repository_tests_passed": 49,
+    "planner_tests_passed": 15,
+    "r2_publisher_tests_passed": 4,
+    "typecheck_passed": true,
+    "production_build_passed": true,
+    "search_access_audit_passed": true,
+    "sitemap_urls": 162,
+    "scope": "clean live-source base plus 36 task-owned paths only",
+    "status": "ready_for_publication"
+  }
+}

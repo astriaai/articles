@@ -1,0 +1,4 @@
+sku,colorway,shot,reference_paths,template_slug,aspect_ratio,output_count,review_owner
+TEE-01,navy,front,TEE-01/navy/front.jpg|TEE-01/navy/detail.jpg,approved-front-treatment,3:4,1,product-lead
+TEE-01,navy,back,TEE-01/navy/back.jpg,approved-back-treatment,3:4,1,product-lead
+BAG-02,tan,three-quarter,BAG-02/tan/three-quarter.jpg|BAG-02/tan/hardware.jpg,approved-accessory-treatment,4:5,1,product-lead

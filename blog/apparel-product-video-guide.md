@@ -58,7 +58,7 @@ export const faqSchema = {
   dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
 />
 
-An apparel product video earns its place when it answers something a shopper cannot confidently resolve from the photographs. Where does the jacket end when someone turns? How does the closure work? What is inside the bag? Each question calls for a different shot—and a different standard of evidence.
+To turn an approved fashion product image into a short social clip, choose one supported image-to-video path, request a small motion, and review the whole clip against the actual SKU. Film the sample when you need to demonstrate real fit, fabric behavior or a working closure.
 
 **Start with one product, one buying question, and one short edit.** Film the physical behavior you need to prove. Use generated motion selectively for presentation, with the actual SKU as the review reference.
 
@@ -80,8 +80,6 @@ An apparel product video earns its place when it answers something a shopper can
     </a>
   </div>
 </aside>
-
-<ArticleEvidence profile="video" />
 
 **Reviewed September 5, 2026.** Platform capabilities below were checked against first-party documentation. Shot lengths, budgets, and pilot design are production recommendations, not measured conversion benchmarks.
 
@@ -110,6 +108,28 @@ Pick one or two questions per clip. Combining a walking sequence, a fabric close
 **Use a hybrid edit when different shots have different jobs.** For example, open on a reviewed editorial frame, cut to filmed footage of a closure, and end on an accurate product still. Keep the demonstration itself intact: changing a background must not change an edge, a fabric property, or the point where a hand touches the garment.
 
 For the source stills, Astria's [ecommerce workflow](https://www.astria.ai/ecommerce) describes product-photo inputs and reusable creative templates. Approve the garment in those outputs before considering animation. Product acceptance remains a production responsibility; access to a generation tool is not proof of accuracy.
+
+## From one approved image to a short social clip
+
+**Workflow addition reviewed October 15, 2026.** The recorded [Astria Academy tutorial “Showroom walk”](https://www.astria.ai/academy/watch/showroom-walk/) shows the image-animation handoff; its walkthrough starts at **00:37**. It is an interface demonstration, not evidence of physical fit or garment behavior. Use the current controls and supported model inputs rather than treating the recording's model recommendation as a permanent requirement.
+
+1. Choose one approved still whose product, face, hands, crop and light already pass review. Keep its actual garment photographs and detail views available as comparison evidence. A plausible generated still is not sufficient proof of hidden construction.
+2. In the recorded flow, choose the image's **Animate image** action, then review the Video tab and motion brief. For a connected-tool workflow, inspect `list_models`, then use `generate_video` with the approved image's HTTPS URL as `first_frame` where supported. A local file needs the current upload workflow first. Select a supported `video_model` family, optional `video_resolution`, duration and candidate count; save the exact request and idempotency key.
+3. Use one bounded action and a fixed camera. A proposed starting brief is: “The model remains facing forward, makes a small weight shift, then settles. Static camera, one continuous take; no turn to an unseen back, no cuts, no garment or label changes.” This is an unrun prompt exercise, not a guaranteed motion control.
+4. Save returned prompt and tune IDs, check completion with `get_prompt`, and inspect the whole clip before export. A successful submission does not establish product acceptance.
+
+The [current Image2Video documentation](https://docs.astria.ai/docs/features/video/) distinguishes first-frame, reference and motion-control paths. Do not combine media modes or assume every family supports every input. `resolution` controls a generated image stage; `video_resolution` is the connected tool's video-output setting. Check the actual returned file rather than inferring its dimensions from a label.
+
+| Review moment | Compare against the approved still and source photos | Reject when |
+| --- | --- | --- |
+| First, middle and final frames | Face, garment silhouette, color, print, label and closures | Identity or product details drift |
+| Maximum movement | Hands, seam boundaries, hem length and contact points | A hand merges into clothing or geometry changes |
+| Newly visible area | Actual side/back/detail evidence | The action invents an unphotographed surface |
+| Every delivery crop | Product boundaries, required detail, captions and safe space | Crop hides the feature or stretches the product |
+
+Review the full sequence frame by frame around transitions; selected frames are only an aid. If product drift persists, shorten or simplify the action, return to the approved still, use a conventional pan/crop where it serves the brief, or film the actual sample. Do not turn simulated stretch, support or drape into a product claim.
+
+Hand off the master, approved social crops, poster, actual dimensions/format, SKU/colorway, source image, motion brief and reviewer. A horizontal master may not support a truthful vertical crop; approve a separately framed source rather than cutting off the garment. Record rework and handoff in the [whole-job time worksheet](./measure-ai-product-photography-time.md).
 
 ## A practical 12-second jacket brief
 
@@ -174,6 +194,11 @@ Set the required sample and decision window from the store's baseline traffic an
 An approved PDP demonstration can also supply evidence for an ad. The [fashion video ads guide](./fashion-video-ads-guide.md) explains how to build and test acquisition edits without turning the product page into an advertising montage.
 
 ## Frequently asked questions
+
+### Can I turn a fashion product image into a short video for social media?
+
+Use an approved still as the supported first-frame input, describe one bounded motion, then review product and identity continuity across the returned clip. Deliver approved crops and a poster with source and approval records. Generated movement does not prove actual fit or fabric behavior.
+
 
 ### How long should an apparel product video be?
 

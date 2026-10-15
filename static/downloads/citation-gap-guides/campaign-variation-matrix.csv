@@ -1,0 +1,6 @@
+variant_id,product_reference,locked_details,change_axis,scene_brief,master_ratio,export_ratio,product_review,creative_review,status
+control,,silhouette color label hardware,none,approved neutral treatment,4:5,4:5,,,planned_not_tested
+scene-01,,silhouette color label hardware,background,dry stone plinth with clear product edges,4:5,4:5,,,planned_not_tested
+season-01,,silhouette color label hardware,season,autumn props outside the product silhouette,4:5,4:5,,,planned_not_tested
+crop-01,,silhouette color label hardware,crop,derive from approved master with safe space,4:5,9:16,,,planned_not_tested
+crop-02,,silhouette color label hardware,crop,derive from approved master with safe space,4:5,1:1,,,planned_not_tested

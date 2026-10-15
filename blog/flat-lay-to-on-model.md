@@ -25,7 +25,7 @@ export const faqSchema = {
       name: "Can you turn a flat lay into an on-model photo?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. The garment is analysed from the product image and rendered on a model with plausible drape, fit, and lighting. Quality depends heavily on the source image: an evenly-lit, complete, unfolded garment shot converts far better than a styled or partial one.",
+        text: "A reference-led workflow can generate a candidate person wearing the garment. Start with a complete, unfolded, evenly lit source and compare every result with it. Plausible drape does not establish garment accuracy or physical fit.",
       },
     },
     {
@@ -41,7 +41,7 @@ export const faqSchema = {
       name: "Do on-model images convert better than flat lays?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "On-model imagery is widely regarded as helping shoppers judge fit and scale, which flat lays cannot convey. The size of the effect varies by category and price point, so it is worth measuring on your own catalog rather than assuming a published figure applies.",
+        text: "This guide does not establish a conversion lift. Reviewed on-model imagery can provide a styled presentation alongside flat lays, details and measurements. Measure the effect on your own catalog, and do not treat a generated body as evidence of physical fit or scale.",
       },
     },
     {
@@ -57,7 +57,7 @@ export const faqSchema = {
       name: "Is this the same as a ghost mannequin shot?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No. A ghost mannequin shows the garment holding a human shape with the mannequin removed — no person. On-model conversion puts the garment on a rendered person, which communicates fit, scale, and styling that a hollow shape cannot.",
+        text: "A ghost mannequin shows the garment with the support removed and no person visible. On-model conversion generates a person wearing it. That adds a styling presentation, but generated drape and relative scale still need review and do not prove physical fit.",
       },
     },
     {
@@ -84,7 +84,7 @@ export const faqSchema = {
   dangerouslySetInnerHTML={{__html: JSON.stringify(faqSchema).replace(/</g, '\\u003c')}}
 />
 
-An AI clothing-on-model generator can turn a flat lay, ghost mannequin, or garment photo into an image of a person wearing the product. That makes on-model coverage possible for catalog items that would not justify another model-and-studio day.
+To show flat-lay clothes on a person, supply a complete garment photograph, select a separate casting reference, and generate a first candidate using the linked lookbook walkthrough. Compare the garment with its sources before publishing. Generated drape and body proportions do not prove physical fit.
 
 **The short version:** use a complete, evenly lit garment reference; tell the workflow what must not change; and check product truth before judging the model or scene. A convincing person does not prove that the clothing is accurate or that it will physically fit a customer.
 
@@ -149,23 +149,50 @@ This is the part that gets skipped, and it causes most disappointing results.
 - Garment on a hanger, distorting the shoulders
 - Screenshots, or images compressed so far that texture is gone
 
-A brand with clean, consistent product photography gets clean, consistent on-model output. A brand whose product shots were taken by six different people over three years gets exactly that variance back, amplified. If your outputs are inconsistent, audit your inputs before blaming the tool.
+Clean, consistent references make product comparison possible, but do not guarantee faithful output. If a result changes color, construction or texture, check the source first, then the reference assignment and direction. Reject unsupported details even when the model looks convincing.
 
 ## What survives conversion, and what needs watching
 
-**Converts reliably:** solid-colour knits and jersey, tees, simple dresses, structured outerwear, tailored pieces with clean lines. Anything where drape is predictable and the surface is uniform.
+**Start with a bounded pilot:** a complete, evenly lit reference of a solid-color tee or another item whose visible construction is easy to compare. A uniform surface may simplify review, but neither category nor appearance guarantees conversion accuracy.
 
 **Needs per-item review:** directional prints and stripes, which can mirror or misalign across a seam; logo scale and placement; sheer and semi-sheer fabric; complex gathering, pleating, and ruching; fine hardware — buckles, eyelets, zip pulls, chain straps.
 
-**Expect to intervene:** garments whose construction is the product. Technical outerwear with visible seam-sealing, structured tailoring, performance wear with panel logic. The output will look plausible and be wrong in the ways your customer specifically cares about.
+**Inspect especially carefully:** garments whose construction is central to the purchase, such as technical outerwear with visible seam-sealing, structured tailoring and performance wear with distinct panels. A plausible result may still change the construction; retain real detail photographs and reject unsupported changes.
 
-The pragmatic approach is triage rather than uniform treatment: batch the easy categories with spot checks, and route the hard ones to individual review. Treating all 600 variants identically means either over-reviewing the simple ones or under-reviewing the difficult ones — usually both.
+Use category triage to plan the review workload. Check product identity, color and visible construction for every selected asset; allocate extra detail review to prints, hardware and unusual construction. Passing one SKU does not approve other products in the batch.
+
+## An annotated path from garment source to reviewed output
+
+**Workflow addition reviewed October 15, 2026.** Follow the recorded [first AI lookbook workshop](./create-first-ai-lookbook-astria.md) for the interface walkthrough, and the [product-reference workshop](./choose-product-reference-photos-ai-fashion.md) for source selection. The steps below add product-specific acceptance decisions rather than duplicate those lessons.
+
+| Handoff | Input and action | Observable output / stop condition |
+| --- | --- | --- |
+| Source to reference | Map the actual SKU/colorway to a complete garment photo and detail views; confirm permission | Correct saved product reference with usable source images; stop for cropped or unclear construction |
+| Casting and direction | Select the approved adult casting reference separately from garment and scene | Named person/reference and fixed treatment; no assumption that body shape proves fit |
+| First look | Combine the garment reference with casting, pose, background and framing in the workshop flow | One candidate whose face and garment can both be compared with their sources |
+| Product acceptance | Inspect front/back only where source views exist; compare print, closures, texture, color and length | Product reviewer accepts or sends a specific defect to recapture, retouch or rejection |
+| Reuse | Save the approved treatment in a template and run a small new-product pilot | Repeatable inputs with a separate review decision for the new SKU |
+
+Write the source and review note before generating: “Use the supplied front photograph of this navy tee; keep its neckline, sleeve length, hem and print orientation. Use the selected casting reference and approved neutral background. Front three-quarter presentation, no invented rear detail.” This is a proposed brief, not a demonstrated output. If the requested angle would expose an unphotographed panel, add evidence or keep the photographed angle.
+
+### Match the reference set to the category
+
+| Category or source | Add to the source set | What the image cannot establish |
+| --- | --- | --- |
+| Supplier photographs | Written scope for editing/AI processing, actual sample/version and needed uncropped views | A supplier listing image does not itself establish upload rights or hidden construction |
+| Footwear | Side, top and sole photographs; size and measured length; distinctive tread/hardware detail | A generated foot does not prove size fit, comfort or unseen outsole geometry |
+| Bags | Front/side/base, strap and hardware details; measured dimensions and relevant capacity photographs | A model carrying it is not capacity evidence and does not verify an invented interior |
+| Swimwear | Front/back, lining, strap/closure details and measurements; adult casting only for this procedure | A render does not prove support, opacity when wet, stretch recovery or physical fit |
+
+Use a measured scale brief and supporting photographs rather than asking for “the right proportions.” If a bag is described only as “small,” the resulting model-to-bag scale has no measurement anchor. Keep the listing's actual dimensions alongside the image. If a difficult feature changes, follow the [product-error repair guide](./fix-ai-product-photo-errors.md); if source capture is the bottleneck, use the [phone shoot plan](./photograph-clothes-with-phone.md).
+
+For a range of SKUs, save casting, product and direction as separate roles in the [consistency workflow](./consistent-ai-fashion-models.md), then use the [reviewed CSV batch kit](./batch-product-photos-from-csv.md) after the pilot passes. New products inherit a treatment, not an automatic accuracy approval.
 
 ## Where drift creeps in
 
 Running a large batch introduces a second-order problem: the individual images are fine and the *set* is not. Same causes as everywhere else in this work — light and grade creeping, crops shifting, casting wandering across a long run.
 
-For a catalog this matters more than for a lookbook, because the grid view puts thirty products side by side and every inconsistency is on display simultaneously. Two habits prevent nearly all of it:
+For a catalog this matters more than for a lookbook, because the grid view puts thirty products side by side and every inconsistency is on display simultaneously. Two habits help make drift visible and easier to manage:
 
 - Fix the treatment — model, light, background, crop, grade — before running volume, and store it rather than re-specifying it.
 - Review in grid view at the size the customer sees, not one image at a time at full resolution.
@@ -174,9 +201,9 @@ The mechanics of holding casting fixed are covered in [consistent AI fashion mod
 
 ## The pre-publish checklist
 
-Per product, and quickly — this should take seconds once you know what you are looking for:
+Compare every selected image with the source at native size and in its delivery crop. Allow more review time for construction, text and fine details:
 
-- **Colour matches the actual garment**, not the source photo's white balance. This is the most common cause of returns from imagery.
+- **Colour matches the actual garment**, checked against a trustworthy source rather than an uncorrected color cast.
 - **Print alignment** across seams, and print scale relative to the body.
 - **Logo** correct in size, position, and orientation.
 - **Closures** — buttons on the correct side, zip direction, buckle threading.
@@ -186,7 +213,7 @@ Per product, and quickly — this should take seconds once you know what you are
 
 ## What this does and does not solve
 
-It solves presentation for the long tail, colorway coverage without reshooting, consistent framing across a catalog, and the ability to change your mind about the treatment without re-booking anything.
+A reviewed workflow can add on-model presentation, reuse an approved treatment and build consistent framing from suitable references. Each colorway needs its own matching product evidence. A different treatment or newly exposed view may still require recapture.
 
 It does not solve fit information — no image tells a customer whether a size 12 will fit them — and it does not replace the photography of your hero products, where the real thing photographed properly still carries weight that a conversion does not.
 
@@ -194,9 +221,30 @@ For the wider production picture, see the [AI product photography guide](./ai-pr
 
 ## Frequently asked questions
 
+### Can I turn mannequin photos into model photos without changing the clothes?
+
+Use the complete mannequin photograph as the product reference and select casting separately. Compare the returned neckline, hem, closures, print and silhouette with the original. Preserve the original product layer or use conventional retouch when exact preservation is essential; a generated person does not guarantee unchanged clothing.
+
+### Can I make on-model photos from supplier images for my online boutique?
+
+Confirm permission for editing, AI processing and the intended publication, then identify the exact SKU, colorway and sample version. Use uncropped supplier originals with the views and details required for the shot. Hold the job if rights or construction are unclear; a listing screenshot is not sufficient evidence.
+
+### What is the easiest way to show shoes being worn when I only have packshots?
+
+Start with one reviewed, stationary worn presentation using a clear front three-quarter shoe reference. Add side, sole and hardware evidence for details the crop will expose, and keep size and measured length in the brief. Check the toe, heel, sole thickness, laces and foot contact; recapture missing views rather than inventing tread or fit.
+
+### Can I create believable lifestyle photos for swimwear from product pictures?
+
+Use cleared front/back and construction references, measurements and an approved adult casting reference. Keep the first pose and setting simple, then compare straps, coverage, seams, pattern and closures. Generated imagery cannot prove wet opacity, support, stretch or physical fit; use real-sample evidence for those claims.
+
+### How can I show the size of a handbag on a person without booking a model?
+
+Use measured bag dimensions and supporting front/side/strap photographs to anchor a reviewed on-model presentation. Keep the actual dimensions with the listing. Reject unsupported relative scale or invented interiors; the generated image alone cannot prove capacity or physical fit.
+
+
 ### Can you turn a flat lay into an on-model photo?
 
-Yes. The garment is analysed from the product image and rendered on a model with plausible drape, fit, and lighting. Quality depends heavily on the source image: an evenly-lit, complete, unfolded garment shot converts far better than a styled or partial one.
+A reference-led workflow can generate a candidate person wearing the garment. Start with a complete, unfolded, evenly lit source and compare every result with it. Plausible drape does not establish garment accuracy or physical fit.
 
 ### What makes a good source image for on-model conversion?
 
@@ -204,7 +252,7 @@ The whole garment visible and unfolded, even diffuse lighting, no heavy shadow, 
 
 ### Do on-model images convert better than flat lays?
 
-On-model imagery is widely regarded as helping shoppers judge fit and scale, which flat lays cannot convey. The size of the effect varies by category and price point, so it is worth measuring on your own catalog rather than assuming a published figure applies.
+This guide does not establish a conversion lift. Reviewed on-model imagery can provide a styled presentation alongside flat lays, details and measurements. Measure the effect on your own catalog, and do not treat a generated body as evidence of physical fit or scale.
 
 ### Which garments do not convert well?
 
@@ -212,7 +260,7 @@ Directional prints across seams, sheer and semi-sheer fabrics, complex drape and
 
 ### Is this the same as a ghost mannequin shot?
 
-No. A ghost mannequin shows the garment holding a human shape with the mannequin removed — no person. On-model conversion puts the garment on a rendered person, which communicates fit, scale, and styling that a hollow shape cannot.
+A ghost mannequin shows the garment with the support removed and no person visible. On-model conversion generates a person wearing it. That adds a styling presentation, but generated drape and relative scale still need review and do not prove physical fit.
 
 ### Can AI put my clothes on a model?
 
