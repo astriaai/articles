@@ -11,6 +11,7 @@ import SearchMetadata from '@theme/SearchMetadata';
 import BlogListPageStructuredData from '@theme/BlogListPage/StructuredData';
 import type {Props} from '@theme/BlogListPage';
 import BlogIndex from '@site/src/components/BlogIndex';
+import CourseBanner from '@site/src/components/CourseBanner';
 
 function BlogListPageMetadata(props: Props): ReactNode {
   const {metadata} = props;
@@ -39,7 +40,7 @@ function BlogListPageContent(props: Props): ReactNode {
         eyebrow="The Astria blog"
         title={metadata.blogTitle}
         description={metadata.blogDescription}
-        showFeatured
+        pinnedContent={metadata.page === 1 ? <CourseBanner /> : undefined}
       />
     </Layout>
   );

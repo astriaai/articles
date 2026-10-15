@@ -53,6 +53,7 @@ export type BlogIndexProps = {
   description?: string;
   showFeatured?: boolean;
   banner?: ReactNode;
+  pinnedContent?: ReactNode;
 };
 
 function useFormattedDate(isoDate: string): string {
@@ -221,6 +222,7 @@ function BlogIndexFeed({
   description,
   showFeatured = false,
   banner,
+  pinnedContent,
 }: BlogIndexProps): ReactNode {
   const allArticlesUrl = useBaseUrl('/');
   const feedId = useId();
@@ -329,6 +331,7 @@ function BlogIndexFeed({
           {description && <p className={styles.subtitle}>{description}</p>}
         </header>
         <CategoryTabs activeLabel={activeLabel} />
+        {pinnedContent}
         {featured && <FeaturedPost content={featured.content} />}
         {gridItems.length > 0 ? (
           <div id={feedId} className={styles.grid} aria-busy={loading}>
