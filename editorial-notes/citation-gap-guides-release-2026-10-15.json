@@ -1,0 +1,482 @@
+{
+  "published_at": "2026-10-15T19:06:16.007219+03:00",
+  "timezone": "Asia/Jerusalem",
+  "publication_date": "2026-10-15",
+  "release": "citation-gap-guides-20261015-e36d4c83",
+  "source_commit": "e36d4c83734085e026d1401af574b6b74576b507",
+  "previous_release": "migration-20261015-9df299992068",
+  "source_commit_url": "https://github.com/astriaai/articles/commit/e36d4c83734085e026d1401af574b6b74576b507",
+  "new_articles": 9,
+  "updated_articles": 3,
+  "repository_tests_passed": 49,
+  "planner_tests_passed": 15,
+  "r2_publisher_tests_passed": 6,
+  "typecheck_passed": true,
+  "build_passed": true,
+  "live_verification": {
+    "release": "citation-gap-guides-20261015-e36d4c83",
+    "source_commit": "e36d4c83734085e026d1401af574b6b74576b507",
+    "checked_on": "2026-10-15",
+    "passed": true,
+    "pages_checked": 12,
+    "downloads_checked": 13,
+    "checks": [
+      {
+        "url": "https://www.astria.ai/articles/ai-product-photography-rights-checklist/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "7ce3411fcc22babc369a37cb35a30e8e63284cba52dfe07edfc98d4e29db078e",
+        "bytes": 38220,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "a5edfbd32e698d572ac92ab7aa39579806b88359fa006d43e4ebf1d52889193f",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/apparel-product-video-guide/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "9ff8b48a7fede8717bc1bc86b0fd606dd9db36012d6c1fe393de775e406e1092",
+        "bytes": 45858,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "d8344226dddfb046d662fc17d1e7b6b132d7e17d632b7e280e2168a9ace2485e",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/batch-product-photos-from-csv/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "5431d02b61854b8fe2e0e8f3b76f3a312c7c98e3812f3d065d5c31f0c0789729",
+        "bytes": 39057,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "e10eb1fbaad67ad3f89840373249d90a8d953605fd22f635f5f25c16cee00faf",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/bottle-photo-lifestyle-images/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "84e3d8ba04d2855e9be320caa837112d3276070aae0c9628c3bbeec9950ca543",
+        "bytes": 34330,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "ba3cd2a44f2bbe3695bb970fa59db9315e7a14e8832d5a55cbcc190ff729aaee",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/consistent-ai-fashion-models/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "eb10627ef64403fd14392a6f61cbd0880c0c19fbf7cc163984935de0d09c9dcc",
+        "bytes": 41911,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "a6fca0e684bfd9bcec988336f7ecb30f9a04dcca7a461fc5bb0bd6c4df17003e",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/fix-ai-product-photo-errors/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "ca68e17b94840147d1ba9c7b84ee39e2cbbbe8082d8c6dbbd36785a16d8b2a27",
+        "bytes": 35689,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "f5730d6df8b1af21b66153f37f51a94df82a0d06416477e166f6a0036c6825ad",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/flat-lay-to-on-model/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "123a7ae93156d3337cdd45ae264e370aa84be726acabc8325d7ed17d7cd37999",
+        "bytes": 52260,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "9f6595e1cb2ed692b584f5715c913de2702ff961fe8e38966d96833319235c9e",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/kidswear-photography-without-model/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "e43bc64dc822d865bc9f22e2eedf195d6af0c15daf777a8888a30187f6791822",
+        "bytes": 31485,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "fc4a681517ce170f60ae789ae672359305e203f2649e13ad73a48f66f44592c6",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/measure-ai-product-photography-time/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "be18302bc1af2b37236050582e901a92921a6ed9d4999aad996ddb996a002e69",
+        "bytes": 36179,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "7811cc5ba6db59b3756a5b7d3cc9c958ebb720b94d747d813ad8e17d4f85c060",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/photograph-clothes-with-phone/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "eb7e86c956ccb2c482beed69edc3a85cde84efdea29cb16ff6129b863f5b54f0",
+        "bytes": 36174,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "e6c6a69b6abea954c982383961a89c19c479137d743d984435516def136a99ad",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/product-photo-ad-variations/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "4ccfe1c924f5a0a8b124a27379c274f0f552a172bbe1a9d9c7fecb3e9d11ec60",
+        "bytes": 32864,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "b50f1f6fd09aadaf229b5ed05e98707da1f58fd038c26a52f14091d4f2851003",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/product-photos-without-studio/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "b9aa13f03f7490cbeea97af926e8ca995c2dbc3c46a44fb1249c834b0021cff8",
+        "bytes": 36843,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "781d5d2194531d05f983cacb55634bd837d49c0a87c199d58df28de54e69f9b7",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "9bb4ddcd8aac7fa8b43589274338aa33f0671cd62067ee11a353f29bafc97d62",
+        "bytes": 51816,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 1,
+        "released_content_sha256": "7cc049496e59f06296bc14b584a7a42e95b3f24c339522e69875ff04eaed7aec",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/sitemap.xml",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "bb065a227c8cbbb7c0d9675f645fdd332bb20bf8beebe13cd9e0a61a1f990a38",
+        "bytes": 25846,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "bb065a227c8cbbb7c0d9675f645fdd332bb20bf8beebe13cd9e0a61a1f990a38",
+        "content_type": "application/xml; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/README.txt",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "d261a42a501f3cfc054e9016cf30c3edd83c9b62f4b92e8781e9823a3366ab3d",
+        "bytes": 5000,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "d261a42a501f3cfc054e9016cf30c3edd83c9b62f4b92e8781e9823a3366ab3d",
+        "content_type": "text/plain; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/accepted-outputs.csv",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "7e6ed9fb852f5509ec0310fc23e06e816c19d94aefe5de400e34211df0dd8396",
+        "bytes": 226,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "7e6ed9fb852f5509ec0310fc23e06e816c19d94aefe5de400e34211df0dd8396",
+        "content_type": "text/csv; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/campaign-variation-matrix.csv",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "787e67f213d845ef764f8052065964d7296f3ac5e61a8e79a448f20637011813",
+        "bytes": 720,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "787e67f213d845ef764f8052065964d7296f3ac5e61a8e79a448f20637011813",
+        "content_type": "text/csv; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/catalog-manifest.csv",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "d434425c8e724b64cfeb5a2f55b636fb6384fb4df9c4e1b820189349f057ece3",
+        "bytes": 401,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "d434425c8e724b64cfeb5a2f55b636fb6384fb4df9c4e1b820189349f057ece3",
+        "content_type": "text/csv; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/catalog-starter-kit.zip",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "fd918558605a3e5eec961b1c620e77d24001b3e1bf3ca53875c670e9bff808f4",
+        "bytes": 11563,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "fd918558605a3e5eec961b1c620e77d24001b3e1bf3ca53875c670e9bff808f4",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/correction-checklist.csv",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "6a8dff00d20e733ef479a7a28f1073f8e01eff0bb910af90f386654e27e51c56",
+        "bytes": 1076,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "6a8dff00d20e733ef479a7a28f1073f8e01eff0bb910af90f386654e27e51c56",
+        "content_type": "text/csv; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/job-receipts.csv",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "37e9c1aee09c1a16e20379833de7db29a5b7ccb7f26a60d46d513cddd56de8bc",
+        "bytes": 265,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "37e9c1aee09c1a16e20379833de7db29a5b7ccb7f26a60d46d513cddd56de8bc",
+        "content_type": "text/csv; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/launch-checklist.txt",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "f64e15892e993b62417961e5cfd5a3101ae96b37c9f272ffeec3c2b75fa16d81",
+        "bytes": 1966,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "f64e15892e993b62417961e5cfd5a3101ae96b37c9f272ffeec3c2b75fa16d81",
+        "content_type": "text/plain; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/plan_catalog_batch.py",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "1b1f30eb1dd32e347b3ee2ef659b20d860b169a9fabc2d383cf55495042af97b",
+        "bytes": 5868,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "1b1f30eb1dd32e347b3ee2ef659b20d860b169a9fabc2d383cf55495042af97b",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/production-time-decision.txt",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "8aa2c2277f4377c4d3b1addbc5b4313cc1961b0fb68f4388728def77a1ce190f",
+        "bytes": 2356,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "8aa2c2277f4377c4d3b1addbc5b4313cc1961b0fb68f4388728def77a1ce190f",
+        "content_type": "text/plain; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/production-time-worksheet.csv",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "11a49ac93fe0bc51ed34facd9a246b79d4a9d8575722a6497445209c3ad486ac",
+        "bytes": 408,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "11a49ac93fe0bc51ed34facd9a246b79d4a9d8575722a6497445209c3ad486ac",
+        "content_type": "text/csv; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/provider-questionnaire.txt",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "da21ddeee95d05cc422b9f09a8df94cb168f8a4e0e689bb10273b37e768c3114",
+        "bytes": 3001,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "da21ddeee95d05cc422b9f09a8df94cb168f8a4e0e689bb10273b37e768c3114",
+        "content_type": "text/plain; charset=utf-8"
+      },
+      {
+        "url": "https://www.astria.ai/articles/downloads/citation-gap-guides/review-log.csv",
+        "status": 200,
+        "release": "citation-gap-guides-20261015-e36d4c83",
+        "sha256": "7bea02bc78c32e303a7cbea96a3c0b6a9b4ac52654e47e5d8e7ba943e0ef776e",
+        "bytes": 139,
+        "cloudflare_analytics_scripts_excluded_from_comparison": 0,
+        "released_content_sha256": "7bea02bc78c32e303a7cbea96a3c0b6a9b4ac52654e47e5d8e7ba943e0ef776e",
+        "content_type": "text/csv; charset=utf-8"
+      }
+    ]
+  },
+  "search_access": {
+    "checked_at": "2026-10-15T16:04:50.379114+00:00",
+    "errors": [],
+    "built_sitemap": {
+      "type": "urlset",
+      "urls": 162
+    },
+    "built_schema_counts": {
+      "FAQPage": 87,
+      "HowTo": 16
+    },
+    "robots_sitemaps": [
+      "https://www.astria.ai/sitemap.xml"
+    ],
+    "live_sitemaps": [
+      {
+        "url": "https://www.astria.ai/sitemap.xml",
+        "type": "sitemapindex",
+        "entries": 10
+      },
+      {
+        "url": "https://www.astria.ai/articles/sitemap.xml",
+        "type": "urlset",
+        "entries": 162
+      }
+    ],
+    "live_passed": true,
+    "passed": true,
+    "bot_access": [
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/features/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/features/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/features/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/features/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/ai-lookbook-guide/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/how-to-create-a-lookbook/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "GPTBot",
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "OAI-SearchBot",
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "ClaudeBot",
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      },
+      {
+        "bot": "PerplexityBot",
+        "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
+        "robots_allowed": true,
+        "http_content_accessible": true
+      }
+    ]
+  },
+  "notes": [
+    "Published from a clean main source base plus task-owned paths. Unfinished changes in the original checkout were not deployed.",
+    "Exactly the observed Cloudflare analytics beacon is excluded from HTML byte comparison; article contents, other scripts, sitemap and downloads match released files.",
+    "Public text downloads use .txt aliases because .md routes remain owned by Rails. ZIP source Markdown filenames are unchanged.",
+    "Actual live release date is distinct from sequential editorial article dates. No citation-improvement claim or measured project results added."
+  ],
+  "remaining_evidence_gates": [
+    "Accepted live batch, controlled repair, bottle and campaign examples remain unperformed.",
+    "Measured production case remains OPEN pending authorized records."
+  ],
+  "main_llm_catalog_refreshed": false
+}

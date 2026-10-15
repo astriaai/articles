@@ -72,3 +72,11 @@ The parent independently ran 14 Python tests, all 49 repository tests, typecheck
 ## Publication preparation
 
 User authorized publication on October 15. Production hosting sends `.md` requests to Rails, so four public `.txt` aliases now expose the exact Markdown download bytes through R2. Article links use these aliases; the ZIP retains its original 12 files and hash. A parity test covers all four. This avoids changing Worker routing or the main application's Markdown endpoints. The release is built from the clean published source plus this task's files; other unfinished local work is excluded. Actual release dates remain null until verified live.
+
+## Published and verified — October 15, 2026
+
+The user's `publish` instruction authorized the release. Nine new guides, three focused updates and their downloads are live in R2 release `citation-gap-guides-20261015-e36d4c83`, from source commit `e36d4c83734085e026d1401af574b6b74576b507`, pushed to main. Publication used an isolated checkout of the live source plus 36 task-owned paths. A concurrent credentials-only main update was retained before the successful push; the broader original working tree was excluded.
+
+The final release passes 49 repository tests, 15 planner tests, six publisher tests, typecheck, the production build and search-access audit. Live checks passed for all 12 article routes, 13 public downloads, index and sitemap. The release header matches; content matches the build after removing only the confirmed injected Cloudflare analytics beacon from HTML comparisons. Raw FAQ text/schema and all four AI bot user agents pass the live search-access audit. Every coverage entry now records the actual release date, October 15; sequential source dates remain editorial dates.
+
+See `citation-gap-guides-release-2026-10-15.json` for exact live URLs and hashes. The main Rails LLM catalog was not refreshed or deployed in this article-hosting release. No live generation, measured case result or new citation-share run was performed; those evidence gates remain open.

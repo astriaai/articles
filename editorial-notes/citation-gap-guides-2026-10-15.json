@@ -6,7 +6,7 @@
     "0da716a1"
   ],
   "source_dates_are_editorial_not_live_publication_dates": true,
-  "publication_status": "ready_for_publication",
+  "publication_status": "published_verified",
   "citation_improvement_claimed": false,
   "distinct_interventions": 14,
   "distinct_question_ids": 44,
@@ -30,7 +30,7 @@
       "action": "create",
       "source_date": "2026-10-07",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "offline_planner_tested; live_execution_procedure_only",
       "source_links": [
         "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
@@ -43,7 +43,7 @@
       "remaining_gates": [
         "live pilot on authorized catalog references; product acceptance before expansion"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "on_model_walkthrough",
@@ -60,7 +60,7 @@
       "action": "update",
       "source_date": "2026-08-15",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "annotated_procedure_linked_to_published_workshops",
       "source_links": [
         "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
@@ -73,7 +73,7 @@
       "remaining_gates": [
         "category-specific production outputs not generated in this task"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "accuracy_repairs",
@@ -89,13 +89,13 @@
       "action": "create",
       "source_date": "2026-10-08",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "symptom_to_action_procedure; no_repair_benchmark",
       "source_links": [],
       "remaining_gates": [
         "controlled color/label repair demonstration remains unperformed"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "phone_first_capture",
@@ -110,13 +110,13 @@
       "action": "create",
       "source_date": "2026-10-09",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "observable_capture_procedure",
       "source_links": [],
       "remaining_gates": [
         "no camera/equipment or capture benchmark performed"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "rights_trust_checklist",
@@ -131,7 +131,7 @@
       "action": "create",
       "source_date": "2026-10-10",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "current_primary_policy_sources_checked; questionnaire_delivered",
       "source_links": [
         "https://www.astria.ai/terms",
@@ -142,7 +142,7 @@
       "remaining_gates": [
         "project-specific supplier/likeness rights and applicable agreements require actual records"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "rush_without_studio",
@@ -156,13 +156,13 @@
       "action": "create",
       "source_date": "2026-10-11",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "decision_path_and_launch_checklist",
       "source_links": [],
       "remaining_gates": [
         "actual source readiness and approval schedule determine delivery"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "collaborative_review_sop",
@@ -176,13 +176,13 @@
       "action": "create_section",
       "source_date": "2026-10-07",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "roles_receipts_review_log_and_release_manifest",
       "source_links": [],
       "remaining_gates": [
         "no live team batch or workflow time result measured"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "campaign_variant_walkthrough",
@@ -196,13 +196,13 @@
       "action": "create",
       "source_date": "2026-10-12",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "proposed_exercise_and_export_matrix; no_generated_variants",
       "source_links": [],
       "remaining_gates": [
         "demonstrated accepted variant set not produced; no ad performance test"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "bottle_scene_recipe",
@@ -216,13 +216,13 @@
       "action": "create",
       "source_date": "2026-10-13",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "source_preserving_layered_procedure; no_accepted_generation_claim",
       "source_links": [],
       "remaining_gates": [
         "accepted reference-based bottle-generation example remains OPEN; earlier failed supplement outputs excluded"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "measured_production_case",
@@ -236,13 +236,13 @@
       "action": "create",
       "source_date": "2026-10-15",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "measurement_method_and_blank_worksheet_only",
       "source_links": [],
       "remaining_gates": [
         "OPEN: authorized project data, matched-scope time logs, accepted outputs, and publication permission; actual results case not fulfilled"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "reference_roles_walkthrough",
@@ -255,7 +255,7 @@
       "action": "update",
       "source_date": "2026-08-15",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "separate_input_roles_and_published_workshop_links",
       "source_links": [
         "https://www.astria.ai/articles/create-first-ai-lookbook-astria/",
@@ -268,7 +268,7 @@
       "remaining_gates": [
         "no new identity continuity benchmark; acceptance required per output"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "kidswear_without_model",
@@ -280,13 +280,13 @@
       "action": "create",
       "source_date": "2026-10-14",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "product_only_capture_and_size_evidence_matrix",
       "source_links": [],
       "remaining_gates": [
         "no child generation; no provider child-model support claim; physical fit not established"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "image_to_video_walkthrough",
@@ -298,7 +298,7 @@
       "action": "update",
       "source_date": "2026-09-01",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "current_tool_fields_and_named_recorded_tutorial_verified",
       "source_links": [
         "https://docs.astria.ai/docs/features/video/",
@@ -308,7 +308,7 @@
       "remaining_gates": [
         "new production clip and SKU-fidelity approval not performed; actual clip requires frame review"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     },
     {
       "intervention_id": "coding_assistant_walkthrough",
@@ -320,13 +320,13 @@
       "action": "create_section",
       "source_date": "2026-10-07",
       "checked_on": "2026-10-15",
-      "content_status": "implemented_locally_uncommitted",
+      "content_status": "published_verified",
       "evidence_status": "offline_manifest_handling_and_separate_live_authorization",
       "source_links": [],
       "remaining_gates": [
         "no assistant-driven live generation batch executed"
       ],
-      "actual_release_date": null
+      "actual_release_date": "2026-10-15"
     }
   ],
   "assets": {
@@ -449,6 +449,14 @@
         ".gitignore"
       ],
       "explanation": "Concurrent unrelated additions /.wrangler and /.venv-r2 only. All archived questions, results, raw answers, research, audit scripts and other manifest files still match (205/206). Not changed or reverted by this task."
+    },
+    "live_verification": {
+      "passed": true,
+      "article_routes": 12,
+      "downloads": 13,
+      "sitemap_and_index_passed": true,
+      "release_header_checked": true,
+      "ai_crawler_access_passed": true
     }
   },
   "task_baselines": "/tmp/citation-gap-implementer-baselines-2026-10-15/ (three pre-edit copies; originals retained outside deliverables)",
@@ -519,15 +527,19 @@
     "byte_parity_verified": true
   },
   "publication_preflight": {
-    "base_commit": "07d869abbcaa779cfe89f4025ef42edadf315b46",
+    "base_commit": "fc0b3c59",
     "repository_tests_passed": 49,
     "planner_tests_passed": 15,
-    "r2_publisher_tests_passed": 4,
+    "r2_publisher_tests_passed": 6,
     "typecheck_passed": true,
     "production_build_passed": true,
     "search_access_audit_passed": true,
     "sitemap_urls": 162,
     "scope": "clean live-source base plus 36 task-owned paths only",
-    "status": "ready_for_publication"
-  }
+    "status": "passed_and_published"
+  },
+  "release": "citation-gap-guides-20261015-e36d4c83",
+  "source_commit": "e36d4c83734085e026d1401af574b6b74576b507",
+  "published_at": "2026-10-15T19:06:16.007219+03:00",
+  "publication_record": "editorial-notes/citation-gap-guides-release-2026-10-15.json"
 }
