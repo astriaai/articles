@@ -162,6 +162,8 @@ Adobe and Astria use different billing systems, and model terms change. Price th
 
 Adobe lists GPT Image 2 and both GPT Image 2.5 variants for Firefly, Boards and Illustrator, not Photoshop. Seedream is absent from Adobe's stack. Inside the Astria panel, GPT Image 2 reads the selection as a mask and Seedream 5 Pro handles long, structured edit prompts, alongside the two Gemini models and Flux 2 Pro. A retoucher who knows which model handles surgical replacement and which handles long structural prompts gets that choice in one dropdown.
 
+That choice opens workflows the picker does not address. Generative Fill returns a generated region for the selection you made; it is not built to take a finished, flattened layout apart. Pulling a flat poster back into editable pieces, the product, the typography and a rebuilt background each on its own layer, is a sequence of extractions against an editing model. We tested what that actually delivers, and where it falls short, in [AI layer separation in Photoshop](./layer-separation-photoshop.md).
+
 ### Bring your own key, and no organizational gate, winner: Astria
 
 Photoshop offers one billing path: Adobe generative credits. On enterprise plans, the Admin Console decides which models a seat can see, and Adobe notes availability may vary by region. The Astria plugin accepts an Astria key or a Google AI Studio key, switched inside the panel, and one Astria key authenticates every model. Install the CCX, paste a key, and the roster is available to that key.

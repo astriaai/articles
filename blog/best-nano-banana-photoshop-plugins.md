@@ -129,6 +129,8 @@ Nine products that a retoucher would actually shortlist, one per category where 
 
 **Higgsfield Plugin for Photoshop.** A different product: tools, not models. Angles, Mockup Studio, Expand, Remove BG and Relight, plus layer decomposition, face and character swap, upscaling and skin enhancement, all on Higgsfield's cloud with a Higgsfield account, on Photoshop 2024+. Its genuine strength is that an existing Higgsfield subscriber gets a lot of tool breadth at no extra cost. The ceiling: you cannot pick the model, individual-plan credits reset every billing cycle, and there is no BYOK.
 
+**A note on layer decomposition.** Higgsfield's plugin is the only panel on this list with a dedicated tool for splitting a flat image into editable layers, and Adobe's own Layered Image Editing, announced in October 2025, is still listed as in development. We tested what the capability delivers through an ordinary image endpoint, and where it falls short, in [AI layer separation in Photoshop](./layer-separation-photoshop.md).
+
 **Magnific plugin for Photoshop.** The plugin needs a paid Magnific plan. Tools cover generate, reframe, relight, upscale, background removal, skin and stock. The genuine strength is upscale and relight inside the panel for someone already subscribed. The ceiling: Magnific chooses the model for each tool, and the panel does not preview usage before a run. Check [Magnific's pricing page](https://www.magnific.com/pricing) for current terms.
 
 ## Why the model list matters more than the model count
