@@ -18,7 +18,7 @@ keywords:
 
 Use your saved lookbook template with a different shirt. You’ll replace the product references, try settings and brief changes for one generation, and choose which shots to run.
 
-Follow [workshop 2.3](https://www.astria.ai/academy/watch/academy-2-3/). The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
+Follow workshop 2.3. The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
 
 <!-- truncate -->
 

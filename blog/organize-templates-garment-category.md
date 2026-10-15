@@ -18,7 +18,7 @@ keywords:
 
 Create a designated template for each garment category you regularly photograph. Start each product from poses, framing and prompts suited to the clothes.
 
-Follow [workshop 2.5](https://www.astria.ai/academy/watch/academy-2-5/). The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
+Follow workshop 2.5. The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
 
 <!-- truncate -->
 

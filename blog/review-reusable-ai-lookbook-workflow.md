@@ -18,7 +18,7 @@ keywords:
 
 Review the workflow you built in Series 2: save the prompts behind a chosen look, reuse them for new products, and keep checking that the images represent the real clothes.
 
-Follow [workshop 2.6](https://www.astria.ai/academy/watch/academy-2-6/). The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
+Follow workshop 2.6. The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
 
 <!-- truncate -->
 

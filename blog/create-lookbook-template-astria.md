@@ -18,7 +18,7 @@ keywords:
 
 Turn a lookbook you like into a template your team can reuse with another product. In this lesson, save the prompts behind five shirt images and name the template **Shirt**.
 
-Follow [workshop 2.2](https://www.astria.ai/academy/watch/academy-2-2/). The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
+Follow workshop 2.2. The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
 
 <!-- truncate -->
 

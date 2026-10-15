@@ -35,6 +35,7 @@ function loadComponent(relativePath) {
 const {getCourseNavigation} = loadComponent('src/components/WorkshopSeries/course.ts');
 const Playlist = loadComponent('src/components/CoursePlaylist/index.tsx').default;
 const {CoursePaginator} = loadComponent('src/components/CourseLayout/index.tsx');
+const CourseVideo = loadComponent('src/components/CourseVideo/index.tsx').default;
 const courseAt = index => getCourseNavigation(`/articles/${lessons[index].slug}/`);
 
 test('course titles include lesson numbers and use Course instead of Guides', () => {
@@ -81,5 +82,32 @@ test('course pagination only links adjacent lessons and uses lesson labels', () 
     assert.doesNotMatch(html, /Newer post|Older post/);
     assert.equal(html.includes('Previous lesson'), index > 0);
     assert.equal(html.includes('Next lesson'), index < lessons.length - 1);
+  }
+});
+
+test('video previews link to each article’s Academy lesson and reuse its reviewed images', () => {
+  for (const lesson of lessons) {
+    const article = fs.readFileSync(path.join(root, 'blog', `${lesson.slug}.md`), 'utf8');
+    assert.match(lesson.academyUrl, /^https:\/\/www\.astria\.ai\/academy\/watch\/academy-\d-\d\/$/);
+    const html = renderToStaticMarkup(React.createElement(CourseVideo, {lesson}));
+    if (!lesson.videoAvailable) {
+      assert.equal(html, '', `${lesson.lesson}: unpublished Academy videos must not appear as playable previews`);
+      assert.ok(!article.includes(lesson.academyUrl), `${lesson.lesson}: remove broken text links too`);
+      continue;
+    }
+    assert.ok(article.includes(lesson.academyUrl), lesson.lesson);
+    assert.equal((html.match(/<a\b/g) || []).length, 1);
+    assert.ok(html.includes(`href="${lesson.academyUrl}"`));
+    assert.ok(html.includes(`Watch lesson ${lesson.lesson}`));
+    assert.match(html, /aria-label="Watch lesson [^"]+ in Astria Academy"/);
+    assert.match(html, /<svg/);
+    assert.match(html, /Video lesson/);
+    assert.doesNotMatch(html, /<iframe|<video|<button/);
+    assert.equal((html.match(/<img\b/g) || []).length, lesson.videoImages.length);
+    for (const image of lesson.videoImages) {
+      assert.ok(article.includes(`/articles${image.src}`));
+      assert.ok(fs.existsSync(path.join(root, 'static', image.src)));
+      assert.ok(html.includes(`src="/articles${image.src}"`));
+    }
   }
 });

@@ -18,7 +18,7 @@ keywords:
 
 Prepare two outfits individually, then generate their lookbook images together. This workshop uses two shirts, with a separate model and outfit selection for each look.
 
-Follow [workshop 2.4](https://www.astria.ai/academy/watch/academy-2-4/). The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
+Follow workshop 2.4. The screenshots show its recorded steps, cropped to keep the relevant controls readable. Keyframe times are relative to the named scene. Click any image to enlarge it.
 
 <!-- truncate -->
 

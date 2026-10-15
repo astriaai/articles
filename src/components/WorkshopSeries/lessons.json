@@ -9,7 +9,16 @@
     "alt": "The workshop visual brief collecting the background swatch, model styling and garment views",
     "width": 1776,
     "height": 936,
-    "shortTitle": "Define your brand’s visual direction"
+    "shortTitle": "Define your brand’s visual direction",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-1/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/define-brand-visual-direction-ai-lookbook/visual-brief.webp",
+        "width": 1776,
+        "height": 936
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "1.2",
@@ -21,7 +30,16 @@
     "alt": "Astria workspace menu with Brand entered and Create workspace available",
     "width": 560,
     "height": 268,
-    "shortTitle": "Create a brand workspace"
+    "shortTitle": "Create a brand workspace",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-2/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/create-brand-workspace-astria/create-workspace.webp",
+        "width": 560,
+        "height": 268
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "1.3",
@@ -33,7 +51,16 @@
     "alt": "Agent message describing long copper-red wavy hair, light freckles and a natural no-makeup look",
     "width": 615,
     "height": 455,
-    "shortTitle": "Cast your fashion model"
+    "shortTitle": "Cast your fashion model",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-3/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/cast-ai-fashion-model-astria-agent/casting-instruction.webp",
+        "width": 615,
+        "height": 455
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "1.4",
@@ -45,7 +72,21 @@
     "alt": "First workshop result showing the cream lace-trimmed shirt, burgundy trousers and tan shoes on a standing model against the neutral wall and floor",
     "width": 1792,
     "height": 2400,
-    "shortTitle": "Create your first lookbook image"
+    "shortTitle": "Create your first lookbook image",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-4/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/first-ai-lookbook/first-look-01.webp",
+        "width": 1792,
+        "height": 2400
+      },
+      {
+        "src": "/img/workshops/first-ai-lookbook/first-look-02.webp",
+        "width": 1792,
+        "height": 2400
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "1.5",
@@ -57,7 +98,21 @@
     "alt": "Reference-based lookbook image of the cream shirt and burgundy trousers under diffused lighting",
     "width": 1792,
     "height": 2400,
-    "shortTitle": "Control backgrounds and lighting"
+    "shortTitle": "Control backgrounds and lighting",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-5/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/control-ai-lookbook-background-lighting/diffused-light.webp",
+        "width": 1792,
+        "height": 2400
+      },
+      {
+        "src": "/img/workshops/control-ai-lookbook-background-lighting/on-camera-flash.webp",
+        "width": 1792,
+        "height": 2400
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "1.6",
@@ -69,7 +124,21 @@
     "alt": "Styled full-length lookbook image with the same referenced outfit, gold hoop earrings and a tan shoulder bag",
     "width": 1792,
     "height": 2400,
-    "shortTitle": "Style hair, makeup and accessories"
+    "shortTitle": "Style hair, makeup and accessories",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-6/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/style-ai-lookbook-hair-makeup-accessories/brand-hair-makeup.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/img/workshops/style-ai-lookbook-hair-makeup-accessories/styled-look.webp",
+        "width": 1792,
+        "height": 2400
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "1.7",
@@ -81,7 +150,21 @@
     "alt": "Back full-length view of the referenced cream shirt, burgundy trousers and shoulder bag",
     "width": 1792,
     "height": 2400,
-    "shortTitle": "Choose poses and framing"
+    "shortTitle": "Choose poses and framing",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-7/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/choose-poses-framing-ai-product-photos/front-view.webp",
+        "width": 1792,
+        "height": 2400
+      },
+      {
+        "src": "/img/workshops/choose-poses-framing-ai-product-photos/back-view.webp",
+        "width": 1792,
+        "height": 2400
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "1.8",
@@ -93,7 +176,21 @@
     "alt": "Original front packshot of the cream lace-collar shirt with its buttons, hem and embroidery visible",
     "width": 1500,
     "height": 2000,
-    "shortTitle": "Choose product references"
+    "shortTitle": "Choose product references",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-8/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/choose-product-reference-photos-ai-fashion/shirt-front-reference.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/img/workshops/choose-product-reference-photos-ai-fashion/shoe-reference.webp",
+        "width": 2048,
+        "height": 2731
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "1.9",
@@ -105,7 +202,16 @@
     "alt": "Finished workshop lookbook front and turned views showing the cream shirt, burgundy trousers, tan bag and suede shoes",
     "width": 2824,
     "height": 1872,
-    "shortTitle": "Review your first lookbook"
+    "shortTitle": "Review your first lookbook",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-1-9/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/review-ai-lookbook-before-template/front-and-angle.webp",
+        "width": 2824,
+        "height": 1872
+      }
+    ],
+    "videoAvailable": true
   },
   {
     "lesson": "2.1",
@@ -117,7 +223,21 @@
     "alt": "Reference-based workshop result showing the blue striped shirt with burgundy trousers and tan shoes in the same studio direction",
     "width": 1792,
     "height": 2400,
-    "shortTitle": "Reuse your creative direction"
+    "shortTitle": "Reuse your creative direction",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-2-1/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-reference.webp",
+        "width": 2048,
+        "height": 2731
+      },
+      {
+        "src": "/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-result.webp",
+        "width": 1792,
+        "height": 2400
+      }
+    ],
+    "videoAvailable": false
   },
   {
     "lesson": "2.2",
@@ -129,7 +249,16 @@
     "alt": "Five lookbook thumbnails checked in blue, with Create template in the bottom selection toolbar",
     "width": 2000,
     "height": 861,
-    "shortTitle": "Create a lookbook template"
+    "shortTitle": "Create a lookbook template",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-2-2/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/create-lookbook-template-astria/02-five-prompts-toolbar.webp",
+        "width": 2000,
+        "height": 861
+      }
+    ],
+    "videoAvailable": false
   },
   {
     "lesson": "2.3",
@@ -141,7 +270,21 @@
     "alt": "Reference-based result of the blue striped shirt against a dark photographic background",
     "width": 1792,
     "height": 2400,
-    "shortTitle": "Run a template on a new product"
+    "shortTitle": "Run a template on a new product",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-2-3/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/run-astria-template-new-product/black-background-result.webp",
+        "width": 1792,
+        "height": 2400
+      },
+      {
+        "src": "/img/workshops/run-astria-template-new-product/pocket-pose-result.webp",
+        "width": 1792,
+        "height": 2400
+      }
+    ],
+    "videoAvailable": false
   },
   {
     "lesson": "2.4",
@@ -153,7 +296,16 @@
     "alt": "Recorded results showing front, back and angled views of the blue striped shirt with cream trousers",
     "width": 1592,
     "height": 660,
-    "shortTitle": "Generate multiple styled looks"
+    "shortTitle": "Generate multiple styled looks",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-2-4/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/generate-multiple-styled-looks-astria/04-results.webp",
+        "width": 1592,
+        "height": 660
+      }
+    ],
+    "videoAvailable": false
   },
   {
     "lesson": "2.5",
@@ -165,7 +317,16 @@
     "alt": "Maison Urban template catalog with cards labeled Urban leather jacket, urban jacket and Urban shirt",
     "width": 2000,
     "height": 1324,
-    "shortTitle": "Organize templates by category"
+    "shortTitle": "Organize templates by category",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-2-5/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/organize-templates-garment-category/02-category-catalog.webp",
+        "width": 2000,
+        "height": 1324
+      }
+    ],
+    "videoAvailable": false
   },
   {
     "lesson": "2.6",
@@ -177,6 +338,15 @@
     "alt": "Saved Shirt template containing the five chosen lookbook prompts",
     "width": 2000,
     "height": 940,
-    "shortTitle": "Review the complete workflow"
+    "shortTitle": "Review the complete workflow",
+    "academyUrl": "https://www.astria.ai/academy/watch/academy-2-6/",
+    "videoImages": [
+      {
+        "src": "/img/workshops/review-reusable-ai-lookbook-workflow/03-saved-shirt-template.webp",
+        "width": 2000,
+        "height": 940
+      }
+    ],
+    "videoAvailable": false
   }
 ]

@@ -1,0 +1,239 @@
+{
+  "checkedOn": "2026-10-15",
+  "series1": "Nine Academy pages and their video files are live; prominent article video previews enabled.",
+  "series2": "Six Academy watch pages return HTTP 404 and are absent from the live Academy manifest. Preview layouts and image selections are ready, but previews are withheld pending Academy publication. Existing broken article text links were removed.",
+  "generationCount": 0,
+  "imageSelection": "Reuses reviewed images already present in each article; portrait examples are paired with CSS, with no new raster media.",
+  "lessons": [
+    {
+      "lesson": "1.1",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-1/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/define-brand-visual-direction-ai-lookbook/visual-brief.webp",
+          "width": 1776,
+          "height": 936
+        }
+      ]
+    },
+    {
+      "lesson": "1.2",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-2/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/create-brand-workspace-astria/create-workspace.webp",
+          "width": 560,
+          "height": 268
+        }
+      ]
+    },
+    {
+      "lesson": "1.3",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-3/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/cast-ai-fashion-model-astria-agent/casting-instruction.webp",
+          "width": 615,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "lesson": "1.4",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-4/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/first-ai-lookbook/first-look-01.webp",
+          "width": 1792,
+          "height": 2400
+        },
+        {
+          "src": "/img/workshops/first-ai-lookbook/first-look-02.webp",
+          "width": 1792,
+          "height": 2400
+        }
+      ]
+    },
+    {
+      "lesson": "1.5",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-5/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/control-ai-lookbook-background-lighting/diffused-light.webp",
+          "width": 1792,
+          "height": 2400
+        },
+        {
+          "src": "/img/workshops/control-ai-lookbook-background-lighting/on-camera-flash.webp",
+          "width": 1792,
+          "height": 2400
+        }
+      ]
+    },
+    {
+      "lesson": "1.6",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-6/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/style-ai-lookbook-hair-makeup-accessories/brand-hair-makeup.webp",
+          "width": 1500,
+          "height": 2000
+        },
+        {
+          "src": "/img/workshops/style-ai-lookbook-hair-makeup-accessories/styled-look.webp",
+          "width": 1792,
+          "height": 2400
+        }
+      ]
+    },
+    {
+      "lesson": "1.7",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-7/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/choose-poses-framing-ai-product-photos/front-view.webp",
+          "width": 1792,
+          "height": 2400
+        },
+        {
+          "src": "/img/workshops/choose-poses-framing-ai-product-photos/back-view.webp",
+          "width": 1792,
+          "height": 2400
+        }
+      ]
+    },
+    {
+      "lesson": "1.8",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-8/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/choose-product-reference-photos-ai-fashion/shirt-front-reference.webp",
+          "width": 1500,
+          "height": 2000
+        },
+        {
+          "src": "/img/workshops/choose-product-reference-photos-ai-fashion/shoe-reference.webp",
+          "width": 2048,
+          "height": 2731
+        }
+      ]
+    },
+    {
+      "lesson": "1.9",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-1-9/",
+      "previewEnabled": true,
+      "httpStatus": 200,
+      "images": [
+        {
+          "src": "/img/workshops/review-ai-lookbook-before-template/front-and-angle.webp",
+          "width": 2824,
+          "height": 1872
+        }
+      ]
+    },
+    {
+      "lesson": "2.1",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-2-1/",
+      "previewEnabled": false,
+      "httpStatus": 404,
+      "images": [
+        {
+          "src": "/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-reference.webp",
+          "width": 2048,
+          "height": 2731
+        },
+        {
+          "src": "/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-result.webp",
+          "width": 1792,
+          "height": 2400
+        }
+      ]
+    },
+    {
+      "lesson": "2.2",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-2-2/",
+      "previewEnabled": false,
+      "httpStatus": 404,
+      "images": [
+        {
+          "src": "/img/workshops/create-lookbook-template-astria/02-five-prompts-toolbar.webp",
+          "width": 2000,
+          "height": 861
+        }
+      ]
+    },
+    {
+      "lesson": "2.3",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-2-3/",
+      "previewEnabled": false,
+      "httpStatus": 404,
+      "images": [
+        {
+          "src": "/img/workshops/run-astria-template-new-product/black-background-result.webp",
+          "width": 1792,
+          "height": 2400
+        },
+        {
+          "src": "/img/workshops/run-astria-template-new-product/pocket-pose-result.webp",
+          "width": 1792,
+          "height": 2400
+        }
+      ]
+    },
+    {
+      "lesson": "2.4",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-2-4/",
+      "previewEnabled": false,
+      "httpStatus": 404,
+      "images": [
+        {
+          "src": "/img/workshops/generate-multiple-styled-looks-astria/04-results.webp",
+          "width": 1592,
+          "height": 660
+        }
+      ]
+    },
+    {
+      "lesson": "2.5",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-2-5/",
+      "previewEnabled": false,
+      "httpStatus": 404,
+      "images": [
+        {
+          "src": "/img/workshops/organize-templates-garment-category/02-category-catalog.webp",
+          "width": 2000,
+          "height": 1324
+        }
+      ]
+    },
+    {
+      "lesson": "2.6",
+      "academyUrl": "https://www.astria.ai/academy/watch/academy-2-6/",
+      "previewEnabled": false,
+      "httpStatus": 404,
+      "images": [
+        {
+          "src": "/img/workshops/review-reusable-ai-lookbook-workflow/03-saved-shirt-template.webp",
+          "width": 2000,
+          "height": 940
+        }
+      ]
+    }
+  ]
+}

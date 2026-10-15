@@ -18,7 +18,7 @@ keywords:
 
 Reuse the creative direction behind a lookbook you’re happy with. In this workshop, you’ll compare the shots on two product pages, identify the prompts behind a consistent image set, and see how a template applies that direction to another shirt.
 
-Follow [workshop 2.1: Why Templates?](https://www.astria.ai/academy/watch/academy-2-1/). This starts Series 2: turning the lookbook into reusable templates for more products.
+Follow workshop 2.1: Why Templates?. This starts Series 2: turning the lookbook into reusable templates for more products.
 
 <!-- truncate -->
 
