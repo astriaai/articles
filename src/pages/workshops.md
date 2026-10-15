@@ -2,6 +2,7 @@
 title: Astria Workshops
 description: Follow 15 illustrated Astria tutorials, from your first AI lookbook image to reusable templates for a collection.
 unlisted: false
+hide_table_of_contents: true
 ---
 
 import WorkshopSeries from '@site/src/components/WorkshopSeries';
