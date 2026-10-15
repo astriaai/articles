@@ -1,11 +1,29 @@
-name: Publish Photoshop video articles
+name: Publish articles to R2
 
 on:
   workflow_dispatch:
+    inputs:
+      stage:
+        description: Upload and verify a release without activating it
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'blog/**'
+      - 'src/**'
+      - 'static/**'
+      - 'plugins/**'
+      - 'docusaurus.config.js'
+      - 'package.json'
+      - 'yarn.lock'
+      - 'scripts/publish-r2.py'
+      - 'scripts/requirements-r2.txt'
+      - 'scripts/noindex-redirects.js'
+      - '.github/workflows/photoshop-video-articles.yml'
 
 permissions:
-  contents: write
-  pages: write
+  contents: read
 
 concurrency:
   group: articles-publication
@@ -16,26 +34,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install locked dependencies and build published articles
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies, test, build and audit
         run: |
           corepack enable
           corepack prepare yarn@1.22.22 --activate
           yarn install --frozen-lockfile
+          python3 -m pip install -r scripts/requirements-r2.txt
           yarn test
+          python3 -B -m unittest discover -s tests -p test_r2_publish.py
+          yarn typecheck
           yarn build
-      - uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          path: published
-      - name: Publish the reviewed site build
+          yarn audit:search
+      - name: Publish the verified release to R2
+        if: vars.ARTICLES_R2_CI_ENABLED == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+          STAGE_ONLY: ${{ inputs.stage }}
         run: |
-          git -C published config user.name 'Astria articles'
-          git -C published config user.email 'articles@astria.ai'
-          python3 scripts/publish-photoshop-video-pages.py --build build --pages published --plan editorial-notes/photoshop-video-articles-release.json --message "Publish all Photoshop video guides" --push
-          # GITHUB_TOKEN pushes do not automatically trigger legacy Pages builds.
-          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" --jq '.status'
+          test -n "$AWS_ACCESS_KEY_ID" && test -n "$AWS_SECRET_ACCESS_KEY"
+          release_id="ci-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA:0:12}"
+          stage_args=()
+          if [[ "$STAGE_ONLY" == "true" ]]; then stage_args+=(--stage); fi
+          python3 -B scripts/publish-r2.py --release "$release_id" --source-commit "$GITHUB_SHA" "${stage_args[@]}"

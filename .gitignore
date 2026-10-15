@@ -1,5 +1,7 @@
 # Dependencies
 /node_modules
+/.venv-r2
+/.wrangler
 
 # Production
 /build

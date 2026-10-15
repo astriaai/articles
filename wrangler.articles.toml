@@ -1,0 +1,14 @@
+name = "astria-articles"
+main = "workers/articles.mjs"
+account_id = "ec873171e61e987246494e6b69f45556"
+compatibility_date = "2026-10-15"
+workers_dev = false
+preview_urls = false
+
+routes = [
+  { pattern = "www.astria.ai/articles*", zone_name = "astria.ai" },
+]
+
+[[r2_buckets]]
+binding = "ARTICLES_BUCKET"
+bucket_name = "astria-articles"
