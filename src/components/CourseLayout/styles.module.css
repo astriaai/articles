@@ -1,0 +1,118 @@
+.layout {
+  align-items: start;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-areas: 'content playlist';
+  grid-template-columns: minmax(0, 1fr) 290px;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.content {
+  grid-area: content;
+  min-width: 0;
+}
+
+.rail {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  grid-area: playlist;
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+.desktop {
+  max-height: calc(100dvh - var(--ifm-navbar-height) - 2rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+.mobile {
+  display: none;
+}
+
+.pagination {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 2rem;
+}
+
+.pagination a {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem;
+}
+
+.pagination a:hover {
+  border-color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.pagination span {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.85rem;
+}
+
+.next {
+  grid-column: 2;
+  text-align: right;
+}
+
+@media (max-width: 996px) {
+  .layout {
+    gap: 1.5rem;
+    grid-template-areas: 'playlist' 'content';
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 1rem;
+  }
+
+  .rail {
+    top: var(--ifm-navbar-height);
+    z-index: 10;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile summary {
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.85rem 1rem;
+  }
+
+  .mobile summary span {
+    color: var(--ifm-color-emphasis-700);
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-left: 0.75rem;
+  }
+
+  .mobilePlaylist {
+    border-top: 1px solid var(--ifm-color-emphasis-200);
+    max-height: 65dvh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+}
+
+@media (max-width: 480px) {
+  .pagination {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .next {
+    grid-column: 1;
+  }
+}

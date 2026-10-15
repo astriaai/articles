@@ -1,5 +1,5 @@
 ---
-title: "How to Review Your AI Lookbook Before Creating a Template"
+title: "1.9: How to Review Your AI Lookbook Before Creating a Template"
 description: "Review your AI lookbook’s styling, lighting, garment accuracy and consistency before turning the selected images into a reusable Astria template."
 slug: review-ai-lookbook-before-template
 date: 2026-10-09
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/review-ai-lookbook-before-template/front-and-angle.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - AI lookbook review checklist
   - Astria reusable template preparation
@@ -50,6 +50,4 @@ Once you’re happy with the set, you can scale up by turning it into a reusable
 
 At this point, you have reviewed the lookbook. Creating and running the template comes next.
 
-[Previous: How to Choose Product Reference Photos for AI Fashion Images](./choose-product-reference-photos-ai-fashion.md) · [All Astria workshops](/articles/workshops/)
-
-[Next: How Astria Templates Reuse Your Lookbook’s Creative Direction](./reuse-lookbook-creative-direction-templates.md)
+[All Astria workshops](/articles/workshops/)

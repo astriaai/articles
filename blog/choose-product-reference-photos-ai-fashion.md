@@ -1,5 +1,5 @@
 ---
-title: "How to Choose Product Reference Photos for AI Fashion Images"
+title: "1.8: How to Choose Product Reference Photos for AI Fashion Images"
 description: "Choose useful product reference photos for Astria: prepare clear garment images, add distinctive back details, use a shoe angle and explain missing fit information."
 slug: choose-product-reference-photos-ai-fashion
 date: 2026-10-08
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/choose-product-reference-photos-ai-fashion/shirt-front-reference.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - product reference photos for AI fashion
   - Astria reference image tutorial
@@ -92,6 +92,4 @@ Generate, compare the fit with the real garment and adjust the wording if it sti
 
 Check that every reference contributes useful information. Your photos should explain the product’s visible details, and the prompt should clarify what those photos cannot show. Compare the output with the real garment’s shape, color and details before keeping it.
 
-[Previous: How to Choose Poses and Framing for AI Product Photos](./choose-poses-framing-ai-product-photos.md) · [All Astria workshops](/articles/workshops/)
-
-[Next: How to Review Your AI Lookbook Before Creating a Template](./review-ai-lookbook-before-template.md)
+[All Astria workshops](/articles/workshops/)

@@ -1,5 +1,5 @@
 ---
-title: "How to Create Your First AI Lookbook Image in Astria"
+title: "1.4: How to Create Your First AI Lookbook Image in Astria"
 description: "Follow Astria workshop 1.4: add clothing references, choose a pose and background, set a portrait format and 2K resolution, and generate your first lookbook images."
 slug: create-first-ai-lookbook-astria
 date: 2026-10-04
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/first-ai-lookbook/first-look-01.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - how to create an AI lookbook in Astria
   - AI lookbook tutorial
@@ -118,4 +118,4 @@ You now have a first look to build on. Continue with [workshop 1.5: Background &
 
 [Open Astria and create your first lookbook image →](https://www.astria.ai/prompts)
 
-[Previous: cast your model](./cast-ai-fashion-model-astria-agent.md) · [All Astria workshops](/articles/workshops/) · [Next: backgrounds and lighting](./control-ai-lookbook-background-lighting.md)
+[All Astria workshops](/articles/workshops/)

@@ -1,5 +1,5 @@
 ---
-title: "How Astria Templates Reuse Your Lookbook’s Creative Direction"
+title: "2.1: How Astria Templates Reuse Your Lookbook’s Creative Direction"
 description: "Learn how Astria templates save a lookbook’s prompts so you can reuse its poses, backgrounds and lighting with different product photos."
 slug: reuse-lookbook-creative-direction-templates
 date: 2026-10-10
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/reuse-lookbook-creative-direction-templates/matching-product-pages.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - Astria templates
   - reusable AI lookbook

@@ -1,5 +1,5 @@
 ---
-title: "How to Run an Astria Template on a New Product"
+title: "2.3: How to Run an Astria Template on a New Product"
 description: "Run an Astria lookbook template with new product photos, adjust settings and the brief for one generation, select shots, and check product accuracy."
 slug: run-astria-template-new-product
 date: 2026-10-12
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/run-astria-template-new-product/01-replace-shirt.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - how to run an Astria template
   - AI lookbook new product references

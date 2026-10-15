@@ -1,0 +1,62 @@
+.playlist {
+  padding: 1.1rem;
+}
+
+.courseTitle {
+  color: var(--ifm-font-color-base);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.position {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.85rem;
+  margin: 0.25rem 0 1.25rem;
+}
+
+.series + .series {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.seriesTitle {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
+}
+
+.lessons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lesson {
+  align-items: baseline;
+  border-radius: 6px;
+  color: var(--ifm-color-emphasis-800);
+  display: grid;
+  font-size: 0.85rem;
+  gap: 0.65rem;
+  grid-template-columns: 1.65rem minmax(0, 1fr);
+  line-height: 1.45;
+  padding: 0.6rem 0.5rem;
+}
+
+.lesson:hover {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.lesson[aria-current='page'] {
+  background: #5251f6;
+  color: white;
+  font-weight: 600;
+}
+
+.number {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}

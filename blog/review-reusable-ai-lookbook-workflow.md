@@ -1,5 +1,5 @@
 ---
-title: "How to Review Your Reusable AI Lookbook Workflow"
+title: "2.6: How to Review Your Reusable AI Lookbook Workflow"
 description: "Review your Astria template workflow: save prompts, replace product references, adjust one run, style multiple rows, and check garment accuracy."
 slug: review-reusable-ai-lookbook-workflow
 date: 2026-10-15
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/review-reusable-ai-lookbook-workflow/03-saved-shirt-template.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - reusable AI lookbook workflow
   - Astria template tutorial recap

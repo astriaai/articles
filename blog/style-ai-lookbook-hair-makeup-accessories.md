@@ -1,5 +1,5 @@
 ---
-title: "How to Style an AI Lookbook with Hair, Makeup and Accessories"
+title: "1.6: How to Style an AI Lookbook with Hair, Makeup and Accessories"
 description: "Style an AI lookbook in Astria: describe hair and makeup, select accessories and shoes, and compare the full outfit while checking garment details."
 slug: style-ai-lookbook-hair-makeup-accessories
 date: 2026-10-06
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/style-ai-lookbook-hair-makeup-accessories/styled-look.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - AI lookbook styling tutorial
   - Astria hair makeup accessories
@@ -74,6 +74,4 @@ Put the first generation beside the result after your styling direction. Review 
 
 Choose the styling you want to carry through the rest of the lookbook. Confirm that the full outfit works together and the products remain recognizable. The next lesson uses that established look to choose poses and framing that show the garment’s fit and details.
 
-[Previous: How to Control Backgrounds and Lighting in an AI Lookbook](./control-ai-lookbook-background-lighting.md) · [All Astria workshops](/articles/workshops/)
-
-[Next: How to Choose Poses and Framing for AI Product Photos](./choose-poses-framing-ai-product-photos.md)
+[All Astria workshops](/articles/workshops/)

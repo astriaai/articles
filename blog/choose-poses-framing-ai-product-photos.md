@@ -1,5 +1,5 @@
 ---
-title: "How to Choose Poses and Framing for AI Product Photos"
+title: "1.7: How to Choose Poses and Framing for AI Product Photos"
 description: "Choose poses and framing for AI product photos in Astria. Study garment galleries, build a shot list, use Lookbook Pose and review consistent views."
 slug: choose-poses-framing-ai-product-photos
 date: 2026-10-07
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/choose-poses-framing-ai-product-photos/front-view.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - AI product photography poses
   - Astria Lookbook Pose tutorial
@@ -81,6 +81,4 @@ These are the full-resolution source images used in the workshop’s final view 
 
 Does each photo have a purpose in the shot list? Can you see the intended collar, hem or other garment detail? Check that the clothes, styling, background and lighting remain consistent across views, and return to any view that hides the product information you need.
 
-[Previous: How to Style an AI Lookbook with Hair, Makeup and Accessories](./style-ai-lookbook-hair-makeup-accessories.md) · [All Astria workshops](/articles/workshops/)
-
-[Next: How to Choose Product Reference Photos for AI Fashion Images](./choose-product-reference-photos-ai-fashion.md)
+[All Astria workshops](/articles/workshops/)

@@ -1,5 +1,5 @@
 ---
-title: "How to Define Your Brand’s Visual Direction for an AI Lookbook"
+title: "1.1: How to Define Your Brand’s Visual Direction for an AI Lookbook"
 description: "Identify your brand’s backgrounds, casting, styling and garment views, then assemble a visual brief for an AI lookbook in Astria."
 slug: define-brand-visual-direction-ai-lookbook
 date: 2026-10-01
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/define-brand-visual-direction-ai-lookbook/background.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - AI lookbook visual brief
   - brand visual direction

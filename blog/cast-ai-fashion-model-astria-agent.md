@@ -1,5 +1,5 @@
 ---
-title: "How to Cast an AI Fashion Model with Astria’s Agent"
+title: "1.3: How to Cast an AI Fashion Model with Astria’s Agent"
 description: "Use Astria’s Agent and unique headshot skill to describe a fashion model’s face and hair, review the casting, and refine one feature at a time."
 slug: cast-ai-fashion-model-astria-agent
 date: 2026-10-03
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/cast-ai-fashion-model-astria-agent/open-agent.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - cast AI fashion model
   - Astria Agent tutorial

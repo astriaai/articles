@@ -1,5 +1,5 @@
 ---
-title: "How to Create a Brand Workspace and Invite Your Team in Astria"
+title: "1.2: How to Create a Brand Workspace and Invite Your Team in Astria"
 description: "Create an Astria workspace for your brand, add its website and logo, and invite a brand manager, photographer or designer to collaborate."
 slug: create-brand-workspace-astria
 date: 2026-10-02
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/create-brand-workspace-astria/create-workspace.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - Astria workspace tutorial
   - create brand workspace

@@ -1,5 +1,5 @@
 ---
-title: "How to Generate Multiple Styled Looks with Astria Templates"
+title: "2.4: How to Generate Multiple Styled Looks with Astria Templates"
 description: "Prepare two styled outfits in separate Astria template rows, choose each look’s clothing and model, generate together, and review against product photos."
 slug: generate-multiple-styled-looks-astria
 date: 2026-10-13
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/generate-multiple-styled-looks-astria/02-two-rows.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - generate multiple AI fashion looks
   - Astria template rows tutorial

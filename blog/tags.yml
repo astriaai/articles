@@ -16,6 +16,11 @@ models:
   permalink: /models
   description: Model selection, benchmarks, strengths, and production tradeoffs for Astria image models.
 
+course:
+  label: Course
+  permalink: /course
+  description: Follow the Astria course, from your first AI lookbook to reusable templates for a collection.
+
 guides:
   label: Guides
   permalink: /guides

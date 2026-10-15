@@ -6,6 +6,8 @@ import {
   useBlogPost,
 } from '@docusaurus/plugin-content-blog/client';
 import ArticleCTA from '@site/src/components/ArticleCTA';
+import CourseLayout, {CoursePaginator} from '@site/src/components/CourseLayout';
+import {getCourseNavigation} from '@site/src/components/WorkshopSeries/course';
 import BlogLayout from '@theme/BlogLayout';
 import BlogPostItem from '@theme/BlogPostItem';
 import BlogPostPaginator from '@theme/BlogPostPaginator';
@@ -24,6 +26,17 @@ function BlogPostPageContent({
 }): ReactNode {
   const {metadata} = useBlogPost();
   const {nextItem, prevItem} = metadata;
+  const course = getCourseNavigation(metadata.permalink);
+
+  if (course) {
+    return (
+      <CourseLayout course={course}>
+        <ContentVisibility metadata={metadata} />
+        <BlogPostItem>{children}</BlogPostItem>
+        <CoursePaginator course={course} />
+      </CourseLayout>
+    );
+  }
 
   return (
     <BlogLayout sidebar={sidebar} toc={<ArticleCTA />}>

@@ -1,5 +1,5 @@
 ---
-title: "How to Create an Astria Template from Your Lookbook Prompts"
+title: "2.2: How to Create an Astria Template from Your Lookbook Prompts"
 description: "Save five lookbook prompts as an Astria template: select your shots, choose Create template, and name the saved set after its garment category."
 slug: create-lookbook-template-astria
 date: 2026-10-11
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/create-lookbook-template-astria/02-five-prompts-toolbar.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - how to create an Astria template
   - AI lookbook prompt template

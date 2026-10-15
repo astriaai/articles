@@ -1,5 +1,5 @@
 ---
-title: "How to Control Backgrounds and Lighting in an AI Lookbook"
+title: "1.5: How to Control Backgrounds and Lighting in an AI Lookbook"
 description: "Refine an AI lookbook in Astria with a background HEX color, a textured reference and lighting instructions. Compare diffused light, flash and the final result."
 slug: control-ai-lookbook-background-lighting
 date: 2026-10-05
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/control-ai-lookbook-background-lighting/diffused-light.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - AI lookbook background and lighting
   - Astria background color tutorial
@@ -84,6 +84,4 @@ Put the first image beside the result after your background and lighting directi
 
 Compare the selected image with both the brand reference and the product photos. Check the background’s color and surface, the direction and softness of shadows, and whether the garment remains accurately represented. Keep the direction that fits your brand before moving on to hair, makeup and accessories.
 
-[Previous: How to Create Your First AI Lookbook Image in Astria](./create-first-ai-lookbook-astria.md) · [All Astria workshops](/articles/workshops/)
-
-[Next: How to Style an AI Lookbook with Hair, Makeup and Accessories](./style-ai-lookbook-hair-makeup-accessories.md)
+[All Astria workshops](/articles/workshops/)

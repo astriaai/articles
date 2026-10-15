@@ -1,5 +1,5 @@
 ---
-title: "How to Choose and Organize Templates by Garment Category"
+title: "2.5: How to Choose and Organize Templates by Garment Category"
 description: "Choose Astria templates by garment category, matching the poses, framing and styling instructions to shirts, dresses and jackets."
 slug: organize-templates-garment-category
 date: 2026-10-14
@@ -7,7 +7,7 @@ unlisted: false
 hide_table_of_contents: false
 image: /img/workshops/organize-templates-garment-category/02-category-catalog.webp
 authors: [astria]
-tags: [guides]
+tags: [course]
 keywords:
   - Astria garment category templates
   - AI fashion photography shot templates

@@ -1,167 +1,182 @@
 [
   {
     "lesson": "1.1",
-    "title": "How to Define Your Brand’s Visual Direction for an AI Lookbook",
+    "title": "1.1: How to Define Your Brand’s Visual Direction for an AI Lookbook",
     "slug": "define-brand-visual-direction-ai-lookbook",
     "date": "2026-10-01",
     "overview": "Turn a brand’s existing photography into a visual brief for backgrounds, casting, styling and product views.",
     "image": "/img/workshops/define-brand-visual-direction-ai-lookbook/visual-brief.webp",
     "alt": "The workshop visual brief collecting the background swatch, model styling and garment views",
     "width": 1776,
-    "height": 936
+    "height": 936,
+    "shortTitle": "Define your brand’s visual direction"
   },
   {
     "lesson": "1.2",
-    "title": "How to Create a Brand Workspace and Invite Your Team in Astria",
+    "title": "1.2: How to Create a Brand Workspace and Invite Your Team in Astria",
     "slug": "create-brand-workspace-astria",
     "date": "2026-10-02",
     "overview": "Set up a dedicated brand workspace, bring in its logo and invite a collaborator to work with you.",
     "image": "/img/workshops/create-brand-workspace-astria/create-workspace.webp",
     "alt": "Astria workspace menu with Brand entered and Create workspace available",
     "width": 560,
-    "height": 268
+    "height": 268,
+    "shortTitle": "Create a brand workspace"
   },
   {
     "lesson": "1.3",
-    "title": "How to Cast an AI Fashion Model with Astria’s Agent",
+    "title": "1.3: How to Cast an AI Fashion Model with Astria’s Agent",
     "slug": "cast-ai-fashion-model-astria-agent",
     "date": "2026-10-03",
     "overview": "Use the Agent’s unique-headshot skill to describe the face, hair and expression for your lookbook model.",
     "image": "/img/workshops/cast-ai-fashion-model-astria-agent/casting-instruction.webp",
     "alt": "Agent message describing long copper-red wavy hair, light freckles and a natural no-makeup look",
     "width": 615,
-    "height": 455
+    "height": 455,
+    "shortTitle": "Cast your fashion model"
   },
   {
     "lesson": "1.4",
-    "title": "How to Create Your First AI Lookbook Image in Astria",
+    "title": "1.4: How to Create Your First AI Lookbook Image in Astria",
     "slug": "create-first-ai-lookbook-astria",
     "date": "2026-10-04",
     "overview": "Combine garment, model, pose and background references to generate your first full-length lookbook image.",
     "image": "/img/workshops/first-ai-lookbook/first-look-01.webp",
     "alt": "First workshop result showing the cream lace-trimmed shirt, burgundy trousers and tan shoes on a standing model against the neutral wall and floor",
     "width": 1792,
-    "height": 2400
+    "height": 2400,
+    "shortTitle": "Create your first lookbook image"
   },
   {
     "lesson": "1.5",
-    "title": "How to Control Backgrounds and Lighting in an AI Lookbook",
+    "title": "1.5: How to Control Backgrounds and Lighting in an AI Lookbook",
     "slug": "control-ai-lookbook-background-lighting",
     "date": "2026-10-05",
     "overview": "Choose a background color or reference, then compare soft lighting with a more defined flash look.",
     "image": "/img/workshops/control-ai-lookbook-background-lighting/diffused-light.webp",
     "alt": "Reference-based lookbook image of the cream shirt and burgundy trousers under diffused lighting",
     "width": 1792,
-    "height": 2400
+    "height": 2400,
+    "shortTitle": "Control backgrounds and lighting"
   },
   {
     "lesson": "1.6",
-    "title": "How to Style an AI Lookbook with Hair, Makeup and Accessories",
+    "title": "1.6: How to Style an AI Lookbook with Hair, Makeup and Accessories",
     "slug": "style-ai-lookbook-hair-makeup-accessories",
     "date": "2026-10-06",
     "overview": "Direct hair, makeup and accessories while checking that the original garments remain recognizable.",
     "image": "/img/workshops/style-ai-lookbook-hair-makeup-accessories/styled-look.webp",
     "alt": "Styled full-length lookbook image with the same referenced outfit, gold hoop earrings and a tan shoulder bag",
     "width": 1792,
-    "height": 2400
+    "height": 2400,
+    "shortTitle": "Style hair, makeup and accessories"
   },
   {
     "lesson": "1.7",
-    "title": "How to Choose Poses and Framing for AI Product Photos",
+    "title": "1.7: How to Choose Poses and Framing for AI Product Photos",
     "slug": "choose-poses-framing-ai-product-photos",
     "date": "2026-10-07",
     "overview": "Build a useful shot list with front, back, angled and detail views that explain the clothes.",
     "image": "/img/workshops/choose-poses-framing-ai-product-photos/back-view.webp",
     "alt": "Back full-length view of the referenced cream shirt, burgundy trousers and shoulder bag",
     "width": 1792,
-    "height": 2400
+    "height": 2400,
+    "shortTitle": "Choose poses and framing"
   },
   {
     "lesson": "1.8",
-    "title": "How to Choose Product Reference Photos for AI Fashion Images",
+    "title": "1.8: How to Choose Product Reference Photos for AI Fashion Images",
     "slug": "choose-product-reference-photos-ai-fashion",
     "date": "2026-10-08",
     "overview": "Choose reference photos that show the product’s shape, details and fit, with extra views where they matter.",
     "image": "/img/workshops/choose-product-reference-photos-ai-fashion/shirt-front-reference.webp",
     "alt": "Original front packshot of the cream lace-collar shirt with its buttons, hem and embroidery visible",
     "width": 1500,
-    "height": 2000
+    "height": 2000,
+    "shortTitle": "Choose product references"
   },
   {
     "lesson": "1.9",
-    "title": "How to Review Your AI Lookbook Before Creating a Template",
+    "title": "1.9: How to Review Your AI Lookbook Before Creating a Template",
     "slug": "review-ai-lookbook-before-template",
     "date": "2026-10-09",
     "overview": "Review the finished images together for garment fidelity, styling and a consistent visual direction.",
     "image": "/img/workshops/review-ai-lookbook-before-template/front-and-angle.webp",
     "alt": "Finished workshop lookbook front and turned views showing the cream shirt, burgundy trousers, tan bag and suede shoes",
     "width": 2824,
-    "height": 1872
+    "height": 1872,
+    "shortTitle": "Review your first lookbook"
   },
   {
     "lesson": "2.1",
-    "title": "How Astria Templates Reuse Your Lookbook’s Creative Direction",
+    "title": "2.1: How Astria Templates Reuse Your Lookbook’s Creative Direction",
     "slug": "reuse-lookbook-creative-direction-templates",
     "date": "2026-10-10",
     "overview": "See how a saved template carries the same poses, setting and lighting onto a different product.",
     "image": "/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-result.webp",
     "alt": "Reference-based workshop result showing the blue striped shirt with burgundy trousers and tan shoes in the same studio direction",
     "width": 1792,
-    "height": 2400
+    "height": 2400,
+    "shortTitle": "Reuse your creative direction"
   },
   {
     "lesson": "2.2",
-    "title": "How to Create an Astria Template from Your Lookbook Prompts",
+    "title": "2.2: How to Create an Astria Template from Your Lookbook Prompts",
     "slug": "create-lookbook-template-astria",
     "date": "2026-10-11",
     "overview": "Select your chosen prompts, save them as a template and check that the complete shot set is included.",
     "image": "/img/workshops/create-lookbook-template-astria/02-five-prompts-toolbar.webp",
     "alt": "Five lookbook thumbnails checked in blue, with Create template in the bottom selection toolbar",
     "width": 2000,
-    "height": 861
+    "height": 861,
+    "shortTitle": "Create a lookbook template"
   },
   {
     "lesson": "2.3",
-    "title": "How to Run an Astria Template on a New Product",
+    "title": "2.3: How to Run an Astria Template on a New Product",
     "slug": "run-astria-template-new-product",
     "date": "2026-10-12",
     "overview": "Replace a product reference, review the settings and try a brief to change the background or pose.",
     "image": "/img/workshops/run-astria-template-new-product/black-background-result.webp",
     "alt": "Reference-based result of the blue striped shirt against a dark photographic background",
     "width": 1792,
-    "height": 2400
+    "height": 2400,
+    "shortTitle": "Run a template on a new product"
   },
   {
     "lesson": "2.4",
-    "title": "How to Generate Multiple Styled Looks with Astria Templates",
+    "title": "2.4: How to Generate Multiple Styled Looks with Astria Templates",
     "slug": "generate-multiple-styled-looks-astria",
     "date": "2026-10-13",
     "overview": "Prepare separate outfit rows, run them together and review the resulting views for each look.",
     "image": "/img/workshops/generate-multiple-styled-looks-astria/04-results.webp",
     "alt": "Recorded results showing front, back and angled views of the blue striped shirt with cream trousers",
     "width": 1592,
-    "height": 660
+    "height": 660,
+    "shortTitle": "Generate multiple styled looks"
   },
   {
     "lesson": "2.5",
-    "title": "How to Choose and Organize Templates by Garment Category",
+    "title": "2.5: How to Choose and Organize Templates by Garment Category",
     "slug": "organize-templates-garment-category",
     "date": "2026-10-14",
     "overview": "Browse category templates and inspect their shot sets to find a suitable starting point for each garment.",
     "image": "/img/workshops/organize-templates-garment-category/02-category-catalog.webp",
     "alt": "Maison Urban template catalog with cards labeled Urban leather jacket, urban jacket and Urban shirt",
     "width": 2000,
-    "height": 1324
+    "height": 1324,
+    "shortTitle": "Organize templates by category"
   },
   {
     "lesson": "2.6",
-    "title": "How to Review Your Reusable AI Lookbook Workflow",
+    "title": "2.6: How to Review Your Reusable AI Lookbook Workflow",
     "slug": "review-reusable-ai-lookbook-workflow",
     "date": "2026-10-15",
     "overview": "Check the complete workflow, from the saved shot set to outfit references and category templates.",
     "image": "/img/workshops/review-reusable-ai-lookbook-workflow/03-saved-shirt-template.webp",
     "alt": "Saved Shirt template containing the five chosen lookbook prompts",
     "width": 2000,
-    "height": 940
+    "height": 940,
+    "shortTitle": "Review the complete workflow"
   }
 ]
