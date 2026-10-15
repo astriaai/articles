@@ -1,1 +1,0 @@
-plan_id,sku,colorway,shot,workspace_id,template_id,selected_template_prompt_ids,reference_ids_in_slot_order,model,resolution,idempotency_key,order_id,prompt_id,tune_id,status,output_url,actual_media_type,actual_dimensions,submitted_at,checked_at,error,review_owner

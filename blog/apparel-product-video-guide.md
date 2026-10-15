@@ -129,7 +129,7 @@ The [current Image2Video documentation](https://docs.astria.ai/docs/features/vid
 
 Review the full sequence frame by frame around transitions; selected frames are only an aid. If product drift persists, shorten or simplify the action, return to the approved still, use a conventional pan/crop where it serves the brief, or film the actual sample. Do not turn simulated stretch, support or drape into a product claim.
 
-Hand off the master, approved social crops, poster, actual dimensions/format, SKU/colorway, source image, motion brief and reviewer. A horizontal master may not support a truthful vertical crop; approve a separately framed source rather than cutting off the garment. Record rework and handoff in the [whole-job time worksheet](./measure-ai-product-photography-time.md).
+Hand off the master, approved social crops, poster, actual dimensions/format, SKU/colorway, source image, motion brief and reviewer. A horizontal master may not support a truthful vertical crop; approve a separately framed source rather than cutting off the garment.
 
 ## A practical 12-second jacket brief
 

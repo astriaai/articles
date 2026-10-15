@@ -204,7 +204,6 @@ the changes do not open the wider article backlog or establish complete indexing
 | how-to-create-a-lookbook | Position ~15 | Shot-list example, page layout, export checklist, and inbound links; owns general planning, wholesale information, and PDF/web delivery |
 | product-photography-cost-per-sku | Position ~7.3 | Formula-led snippet, illustrative USD budget, quote comparison, and explicit style-colourway denominator; no invented market-rate range |
 | StyTrix, Lumoo, Fermat, WearView comparisons | Pricing/review priorities supplied; exact query metrics not supplied | Pricing sections and review metadata on existing comparison URLs, current primary sources, and links from the platform shortlist |
-| ai-product-photography-rights-checklist | AI product photography image rights and provider checklist | 2026-10-10 | 2026-10-15 | F L | 2026-11-15 | guides |
 
 **Cannibalization control:** keep both lookbook slugs. General layout and delivery questions
 belong to `how-to-create-a-lookbook`; generated-image inputs and fidelity questions belong

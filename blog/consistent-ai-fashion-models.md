@@ -155,7 +155,7 @@ Record a seed only when the selected model supports it. Fine-tuned LoRA behavior
 
 One consequence worth stating: consistency work is what makes broad casting practical. If every image is a fresh roll of the dice, representing a range of ages, sizes, and bodies across a collection is unmanageable — you cannot hold six different people consistent when you cannot hold one.
 
-Stored references can organize an approved adult cast across a collection, but every person, body proportion and product still needs review. A rendered body does not establish physical fit or size performance. For children's ranges, the [product-only kidswear guide](./kidswear-photography-without-model.md) covers flatlays, supports and size evidence without assuming child-model generation support.
+Stored references can organize an approved adult cast across a collection, but every person, body proportion and product still needs review. A rendered body does not establish physical fit or size performance. For children's ranges, flatlays, detail photographs and garment measurements can explain the product without relying on a generated body for size information.
 
 For portraits of real employees, the challenge is different: preserve each person while matching the photographic treatment across people. Use the [AI team photos and headshots workflow](./ai-headshots-for-teams.md) for the submission brief and approval process.
 

@@ -1,3 +1,0 @@
-job_id,method,scope_id,sku_colorways,required_shots,required_exports,prep_person_minutes,setup_person_minutes,capture_or_generation_person_minutes,review_person_minutes,rework_person_minutes,handoff_person_minutes,elapsed_start,elapsed_end,candidates,accepted_unique_assets,rejected_candidates,review_rounds,approval_owner,notes
-,existing-workflow,,,,,,,,,,,,,,,,,,
-,reference-led-workflow,,,,,,,,,,,,,,,,,,

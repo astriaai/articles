@@ -184,9 +184,9 @@ Write the source and review note before generating: “Use the supplied front ph
 | Bags | Front/side/base, strap and hardware details; measured dimensions and relevant capacity photographs | A model carrying it is not capacity evidence and does not verify an invented interior |
 | Swimwear | Front/back, lining, strap/closure details and measurements; adult casting only for this procedure | A render does not prove support, opacity when wet, stretch recovery or physical fit |
 
-Use a measured scale brief and supporting photographs rather than asking for “the right proportions.” If a bag is described only as “small,” the resulting model-to-bag scale has no measurement anchor. Keep the listing's actual dimensions alongside the image. If a difficult feature changes, follow the [product-error repair guide](./fix-ai-product-photo-errors.md); if source capture is the bottleneck, use the [phone shoot plan](./photograph-clothes-with-phone.md).
+Use a measured scale brief and supporting photographs rather than asking for “the right proportions.” If a bag is described only as “small,” the resulting model-to-bag scale has no measurement anchor. Keep the listing's actual dimensions alongside the image. For a difficult feature, return to the source photographs and check whether they show enough detail. The [product-reference workshop](./choose-product-reference-photos-ai-fashion.md) explains which views to supply.
 
-For a range of SKUs, save casting, product and direction as separate roles in the [consistency workflow](./consistent-ai-fashion-models.md), then use the [reviewed CSV batch kit](./batch-product-photos-from-csv.md) after the pilot passes. New products inherit a treatment, not an automatic accuracy approval.
+For a range of SKUs, save casting, product and direction as separate roles in the [consistency workflow](./consistent-ai-fashion-models.md), then follow the [collection workflow](./product-photos-whole-collection.md) to reuse the chosen shot set. New products inherit a treatment, not an automatic accuracy approval.
 
 ## Where drift creeps in
 

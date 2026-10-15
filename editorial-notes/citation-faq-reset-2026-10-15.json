@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-15",
+  "status": "withdrawal_and_replacement_prepared",
+  "request": "Delete the nine articles created in the FAQ batch and rebuild the first catalog topic from first principles using the course and Astria.",
+  "withdrawn_source_paths": [
+    "blog/ai-product-photography-rights-checklist.md",
+    "blog/batch-product-photos-from-csv.md",
+    "blog/bottle-photo-lifestyle-images.md",
+    "blog/fix-ai-product-photo-errors.md",
+    "blog/kidswear-photography-without-model.md",
+    "blog/measure-ai-product-photography-time.md",
+    "blog/photograph-clothes-with-phone.md",
+    "blog/product-photo-ad-variations.md",
+    "blog/product-photos-without-studio.md"
+  ],
+  "removed_public_download_count": 17,
+  "removed_kit_code": [
+    "scripts/plan_catalog_batch.py",
+    "tests/test_catalog_batch_plan.py",
+    "tests/catalog-batch-plan.test.cjs"
+  ],
+  "retired_public_keys": [
+    "ai-product-photography-rights-checklist/index.html",
+    "batch-product-photos-from-csv/index.html",
+    "bottle-photo-lifestyle-images/index.html",
+    "fix-ai-product-photo-errors/index.html",
+    "kidswear-photography-without-model/index.html",
+    "measure-ai-product-photography-time/index.html",
+    "photograph-clothes-with-phone/index.html",
+    "product-photo-ad-variations/index.html",
+    "product-photos-without-studio/index.html",
+    "downloads/citation-gap-guides/README.md",
+    "downloads/citation-gap-guides/README.txt",
+    "downloads/citation-gap-guides/accepted-outputs.csv",
+    "downloads/citation-gap-guides/campaign-variation-matrix.csv",
+    "downloads/citation-gap-guides/catalog-manifest.csv",
+    "downloads/citation-gap-guides/catalog-starter-kit.zip",
+    "downloads/citation-gap-guides/correction-checklist.csv",
+    "downloads/citation-gap-guides/job-receipts.csv",
+    "downloads/citation-gap-guides/launch-checklist.md",
+    "downloads/citation-gap-guides/launch-checklist.txt",
+    "downloads/citation-gap-guides/plan_catalog_batch.py",
+    "downloads/citation-gap-guides/production-time-decision.md",
+    "downloads/citation-gap-guides/production-time-decision.txt",
+    "downloads/citation-gap-guides/production-time-worksheet.csv",
+    "downloads/citation-gap-guides/provider-questionnaire.md",
+    "downloads/citation-gap-guides/provider-questionnaire.txt",
+    "downloads/citation-gap-guides/review-log.csv"
+  ],
+  "replacement": {
+    "path": "blog/product-photos-whole-collection.md",
+    "title": "How Can I Create Consistent Photos for a Whole Clothing Collection?",
+    "url": "https://www.astria.ai/articles/product-photos-whole-collection/",
+    "date": "2026-10-15",
+    "tags": [
+      "faq"
+    ],
+    "buyer_problem": "Repeat a coherent product-photo set across a clothing collection while replacing products and styling outfits individually.",
+    "principle": "Choose the photographic direction and views, save the prompts as a template, change product references, prepare separate outfit rows and review each product.",
+    "question_ids_addressed": [
+      39,
+      41,
+      43,
+      44
+    ],
+    "does_not_claim": [
+      "CSV import",
+      "new external kit",
+      "demonstrated hundred-SKU throughput",
+      "perfect fidelity",
+      "measured time savings"
+    ],
+    "other_prior_gap_topics": "Not fulfilled by this single replacement; do not claim 44-question coverage."
+  },
+  "course_review": {
+    "series_structure": [
+      {
+        "lesson": "1.1",
+        "path": "blog/define-brand-visual-direction-ai-lookbook.md",
+        "purpose": "Turn a brand’s existing photography into a visual brief for backgrounds, casting, styling and product views."
+      },
+      {
+        "lesson": "1.2",
+        "path": "blog/create-brand-workspace-astria.md",
+        "purpose": "Set up a dedicated brand workspace, bring in its logo and invite a collaborator to work with you."
+      },
+      {
+        "lesson": "1.3",
+        "path": "blog/cast-ai-fashion-model-astria-agent.md",
+        "purpose": "Use the Agent’s unique-headshot skill to describe the face, hair and expression for your lookbook model."
+      },
+      {
+        "lesson": "1.4",
+        "path": "blog/create-first-ai-lookbook-astria.md",
+        "purpose": "Combine garment, model, pose and background references to generate your first full-length lookbook image."
+      },
+      {
+        "lesson": "1.5",
+        "path": "blog/control-ai-lookbook-background-lighting.md",
+        "purpose": "Choose a background color or reference, then compare soft lighting with a more defined flash look."
+      },
+      {
+        "lesson": "1.6",
+        "path": "blog/style-ai-lookbook-hair-makeup-accessories.md",
+        "purpose": "Direct hair, makeup and accessories while checking that the original garments remain recognizable."
+      },
+      {
+        "lesson": "1.7",
+        "path": "blog/choose-poses-framing-ai-product-photos.md",
+        "purpose": "Build a useful shot list with front, back, angled and detail views that explain the clothes."
+      },
+      {
+        "lesson": "1.8",
+        "path": "blog/choose-product-reference-photos-ai-fashion.md",
+        "purpose": "Choose reference photos that show the product’s shape, details and fit, with extra views where they matter."
+      },
+      {
+        "lesson": "1.9",
+        "path": "blog/review-ai-lookbook-before-template.md",
+        "purpose": "Review the finished images together for garment fidelity, styling and a consistent visual direction."
+      },
+      {
+        "lesson": "2.1",
+        "path": "blog/reuse-lookbook-creative-direction-templates.md",
+        "purpose": "See how a saved template carries the same poses, setting and lighting onto a different product."
+      },
+      {
+        "lesson": "2.2",
+        "path": "blog/create-lookbook-template-astria.md",
+        "purpose": "Select your chosen prompts, save them as a template and check that the complete shot set is included."
+      },
+      {
+        "lesson": "2.3",
+        "path": "blog/run-astria-template-new-product.md",
+        "purpose": "Replace a product reference, review the settings and try a brief to change the background or pose."
+      },
+      {
+        "lesson": "2.4",
+        "path": "blog/generate-multiple-styled-looks-astria.md",
+        "purpose": "Prepare separate outfit rows, run them together and review the resulting views for each look."
+      },
+      {
+        "lesson": "2.5",
+        "path": "blog/organize-templates-garment-category.md",
+        "purpose": "Browse category templates and inspect their shot sets to find a suitable starting point for each garment."
+      },
+      {
+        "lesson": "2.6",
+        "path": "blog/review-reusable-ai-lookbook-workflow.md",
+        "purpose": "Check the complete workflow, from the saved shot set to outfit references and category templates."
+      }
+    ],
+    "primary_workflow_sources": [
+      "blog/create-first-ai-lookbook-astria.md",
+      "blog/choose-product-reference-photos-ai-fashion.md",
+      "blog/review-ai-lookbook-before-template.md",
+      "blog/reuse-lookbook-creative-direction-templates.md",
+      "blog/create-lookbook-template-astria.md",
+      "blog/run-astria-template-new-product.md",
+      "blog/generate-multiple-styled-looks-astria.md",
+      "blog/organize-templates-garment-category.md"
+    ],
+    "controls_used": [
+      "Lookbook mode",
+      "reference slots",
+      "prompt-thumbnail selection",
+      "Create template",
+      "Generate",
+      "Add row"
+    ],
+    "course_articles_modified": false
+  },
+  "media": [
+    {
+      "file": "static/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-reference.webp",
+      "sha256": "c307f93c9adb04e5118ee03ba4c012722b6275225a86760c855e2c3caa828a7f",
+      "role": "product reference",
+      "visually_reviewed_on": "2026-10-15",
+      "selection": "Product reference and original 2K course output show the blue striped shirt; UI shows separate outfit rows and Add row. No new generation or enlarged video thumbnail."
+    },
+    {
+      "file": "static/img/workshops/reuse-lookbook-creative-direction-templates/new-shirt-result.webp",
+      "sha256": "d0fbcafc0652aefdf2f85c36a4d56ea3a666c39af3aaf26de5d595c6f891af1f",
+      "role": "existing course output",
+      "visually_reviewed_on": "2026-10-15",
+      "selection": "Product reference and original 2K course output show the blue striped shirt; UI shows separate outfit rows and Add row. No new generation or enlarged video thumbnail."
+    },
+    {
+      "file": "static/img/workshops/generate-multiple-styled-looks-astria/02-two-rows.webp",
+      "sha256": "5c93687ee16f4d4e53f4e65798527d9098cc724f02fe8f82138a6ae261036662",
+      "role": "recorded template UI",
+      "visually_reviewed_on": "2026-10-15",
+      "selection": "Product reference and original 2K course output show the blue striped shirt; UI shows separate outfit rows and Add row. No new generation or enlarged video thumbnail."
+    }
+  ],
+  "existing_generation": {
+    "workspace": "744",
+    "prompt_id": 47272219,
+    "model": "nano-banana-2",
+    "resolution": "2K",
+    "provenance_record": "editorial-notes/workshops/reuse-lookbook-creative-direction-templates.assets.json",
+    "new_generation_calls": 0
+  },
+  "deployment_plan": "Stage the ordinary verified build, exclude only these exact retired keys from a new immutable manifest, verify all remaining blobs, and activate with expected-current guard. No R2 objects or historical manifests deleted.",
+  "checks": {
+    "status": "passed",
+    "tests": "48/48",
+    "typecheck": "passed",
+    "production_build": "passed after yarn clear",
+    "search_access_audit": {
+      "sitemap_urls": 154,
+      "FAQPage": 79,
+      "HowTo": 16,
+      "errors": []
+    },
+    "withdrawn_build_keys_absent": 26,
+    "faq_index": "one replacement article; withdrawn routes absent",
+    "visual_review": "local embedded-browser title, reference/result pair and outfit-row UI checked"
+  }
+}
