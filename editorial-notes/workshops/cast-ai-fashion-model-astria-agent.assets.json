@@ -1,0 +1,88 @@
+{
+  "lesson": "1.3",
+  "articlePath": "blog/cast-ai-fashion-model-astria-agent.md",
+  "status": "unlisted-draft",
+  "sourceProject": "webinar-builder/script/projects/academy-1-3.yaml",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.3/narration-lock.json",
+  "narrationLockSha256": "ab5bb19a25c30ca223572c27744686d7d78035009d631a51f6ae84252bd02698",
+  "exactTextPath": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.3/narration-locked.tts.txt",
+  "narrationSha256": "53ed4517aeb8387598fe78c4a44aaa8936c85c129f92cd80fb4eacb889439139",
+  "sourceVideo": {
+    "path": "/tmp/astria-workshop-series-media/academy-1-3.mp4",
+    "sha256": "56320de2160551f7c8d2f367a05c821754379651b93b6bb7d7e470c489723179",
+    "version": "published full cut",
+    "url": "https://www.astria.ai/academy/videos/academy-1-3/_full-draft.56320de2.mp4"
+  },
+  "assets": [
+    {
+      "file": "static/img/workshops/cast-ai-fashion-model-astria-agent/open-agent.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-3.mp4",
+        "sha256": "56320de2160551f7c8d2f367a05c821754379651b93b6bb7d7e470c489723179",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-3/_full-draft.56320de2.mp4"
+      },
+      "videoTimeSeconds": 53,
+      "cropXYXY": [
+        72,
+        72,
+        950,
+        300
+      ],
+      "dimensions": [
+        878,
+        228
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "Use Agent at the top of Generate to open the chat.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/cast-ai-fashion-model-astria-agent/unique-headshot-skill.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-3.mp4",
+        "sha256": "56320de2160551f7c8d2f367a05c821754379651b93b6bb7d7e470c489723179",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-3/_full-draft.56320de2.mp4"
+      },
+      "videoTimeSeconds": 59,
+      "cropXYXY": [
+        775,
+        625,
+        1275,
+        1000
+      ],
+      "dimensions": [
+        500,
+        375
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "Select the portrait skill from the list below the message box.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    },
+    {
+      "file": "static/img/workshops/cast-ai-fashion-model-astria-agent/casting-instruction.webp",
+      "sourceVideo": {
+        "path": "/tmp/astria-workshop-series-media/academy-1-3.mp4",
+        "sha256": "56320de2160551f7c8d2f367a05c821754379651b93b6bb7d7e470c489723179",
+        "version": "published full cut",
+        "url": "https://www.astria.ai/academy/videos/academy-1-3/_full-draft.56320de2.mp4"
+      },
+      "videoTimeSeconds": 90,
+      "cropXYXY": [
+        665,
+        540,
+        1280,
+        995
+      ],
+      "dimensions": [
+        615,
+        455
+      ],
+      "annotations": "none; source video cursor marks retained",
+      "selection": "The written description makes the features to review specific.",
+      "visualReview": "selected source frame and final crop visually reviewed; no billing amounts or text-only portrait outputs in crop"
+    }
+  ],
+  "newGenerationJobs": []
+}

@@ -1,0 +1,227 @@
+{
+  "episode": "1.6",
+  "article": "blog/style-ai-lookbook-hair-makeup-accessories.md",
+  "createdOn": "2026-10-15",
+  "publicationDate": "2026-10-06",
+  "status": "implemented-unlisted-review",
+  "sourceVideo": {
+    "url": "https://www.astria.ai/academy/videos/academy-1-6/_full-draft.04d323d9.mp4",
+    "sha256": "04d323d92af36a02628ffb84948fbb911e8bb05f516f3898aecdb85ab6fa8355",
+    "durationSeconds": 70.3,
+    "version": "Published full cut retrieved 2026-10-15; use URL/hash as version identity. Current cast and compositions visually match source segments; journal filenames alone do not establish byte-identical assembly."
+  },
+  "narrationSource": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.6/narration-locked.tts.txt",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.6/narration-lock.json",
+  "projectSource": "/Users/burg/git/astria-course/webinar-builder/script/projects/academy-1-6.yaml",
+  "segmentSources": "/Users/burg/git/astria-course/webinar-builder/script/segments/academy-1-6",
+  "newGenerations": 0,
+  "newGenerationWorkspace": 896,
+  "assets": [
+    {
+      "file": "static/img/workshops/style-ai-lookbook-hair-makeup-accessories/01-styling-prompt.webp",
+      "kind": "video-keyframe",
+      "source": "/tmp/astria-workshop-series-media/refinement/6-34.5.png",
+      "sourceSha256": "248d8e5a7ea7fdcdec2a702d36db1f0c40853ca95ffeac9be0f34653b679af72",
+      "sha256": "e96bfc55b2351cdb0679088cc5616d7d699faceee57ce09353de1992d8ef9609",
+      "dimensions": [
+        1720,
+        638
+      ],
+      "transformation": "Crop from actual video frame, then opaque neutral redaction of known text-only Face previews; original Face label lettering retained where present; WebP encoding, no generative redraw or upscale",
+      "selectionRationale": "Prompt entry and reference row; reader can locate where hair direction belongs",
+      "visuallyReviewed": true,
+      "crop": [
+        128,
+        72,
+        1848,
+        710
+      ],
+      "timestampSeconds": 34.5,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-6/_full-draft.04d323d9.mp4",
+      "sourceVideoSha256": "04d323d92af36a02628ffb84948fbb911e8bb05f516f3898aecdb85ab6fa8355",
+      "redactions": [
+        {
+          "box": [
+            17,
+            60,
+            146,
+            195
+          ],
+          "coordinateSystem": "output image pixels, left/top/right/bottom",
+          "fill": "#E8E8E5",
+          "reason": "Known text-only portrait preview omitted under repository article-image rules"
+        },
+        {
+          "box": [
+            36,
+            336,
+            78,
+            379
+          ],
+          "coordinateSystem": "output image pixels, left/top/right/bottom",
+          "fill": "#E8E8E5",
+          "reason": "Known text-only portrait preview omitted under repository article-image rules"
+        }
+      ],
+      "annotation": "Face preview hidden; neutral opaque redaction, disclosed in caption. Reference-driven result faces unchanged."
+    },
+    {
+      "file": "static/img/workshops/style-ai-lookbook-hair-makeup-accessories/02-accessory-references.webp",
+      "kind": "video-keyframe",
+      "source": "/tmp/astria-workshop-series-media/refinement/6-38.png",
+      "sourceSha256": "8ee38ae7dfb386d068bebc960177eb05bbca50d981e3204a8e145bb9901f8144",
+      "sha256": "29d697b75fa2ad0fffcd37c1379a025e822d181d0a1ef1205409c851a05f3f89",
+      "dimensions": [
+        1226,
+        723
+      ],
+      "transformation": "Crop from actual video frame, then opaque neutral redaction of known text-only Face previews; original Face label lettering retained where present; WebP encoding, no generative redraw or upscale",
+      "selectionRationale": "Accessories, Bags & Belts and Footwear reference squares",
+      "visuallyReviewed": true,
+      "crop": [
+        72,
+        72,
+        1298,
+        795
+      ],
+      "timestampSeconds": 38,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-6/_full-draft.04d323d9.mp4",
+      "sourceVideoSha256": "04d323d92af36a02628ffb84948fbb911e8bb05f516f3898aecdb85ab6fa8355",
+      "redactions": [
+        {
+          "box": [
+            447,
+            173,
+            617,
+            343
+          ],
+          "coordinateSystem": "output image pixels, left/top/right/bottom",
+          "fill": "#E8E8E5",
+          "reason": "Known text-only portrait preview omitted under repository article-image rules"
+        },
+        {
+          "box": [
+            844,
+            174,
+            976,
+            306
+          ],
+          "coordinateSystem": "output image pixels, left/top/right/bottom",
+          "fill": "#E8E8E5",
+          "reason": "Known text-only portrait preview omitted under repository article-image rules"
+        },
+        {
+          "box": [
+            1073,
+            461,
+            1111,
+            501
+          ],
+          "coordinateSystem": "output image pixels, left/top/right/bottom",
+          "fill": "#E8E8E5",
+          "reason": "Known text-only portrait preview omitted under repository article-image rules"
+        }
+      ],
+      "retainedLabel": {
+        "box": [
+          447,
+          308,
+          617,
+          343
+        ],
+        "background": "#666A6A",
+        "method": "Only native bright Face label-letter pixels retained; portrait pixels removed"
+      },
+      "annotation": "Face preview hidden; neutral opaque redaction, disclosed in caption. Reference-driven result faces unchanged."
+    },
+    {
+      "file": "static/img/workshops/style-ai-lookbook-hair-makeup-accessories/first-look.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/L0-47266351-0.jpg",
+      "sourceSha256": "22b6459de9d29d38bdf22b02b07e6e45698442c7bacc8353014d5bb75fc55b5e",
+      "sha256": "c18f876c8f5c026b82c01f9bd2673b1842a8e497fc8f81a75b7540043315dde6",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Current workshop starting image for comparison",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/L0.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266351,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5892943,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5892943:1> background <faceid:5896164:1.0> woman, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera"
+    },
+    {
+      "file": "static/img/workshops/style-ai-lookbook-hair-makeup-accessories/styled-look.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-6/L2-47266546-0.jpg",
+      "sourceSha256": "b739819d11ddd1d42d92778c804257990f3d5569d1cc3729329943f06bc4437c",
+      "sha256": "53834db942e493becb3cc11209d3135639c85b24a4db97b7984fd3847825603b",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Reference-driven styled full-length result: bag and earrings with correct garment color and lace collar",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-6/L2.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266546,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5893656,
+        5893657,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, background and lighting, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, hair pulled back, clean minimal makeup, wearing the gold hoop earrings, the tan bag on her shoulder, light shadows --background_color #D8D5CF"
+    },
+    {
+      "file": "static/img/workshops/style-ai-lookbook-hair-makeup-accessories/brand-hair-makeup.webp",
+      "kind": "source-photograph",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-1/bobo-20261012/AD035_7.jpg",
+      "sourceSha256": "17d759aab4297246fb53b441bba1c47776f6f3e52ab2d8ee58f35182f179d39f",
+      "sha256": "4d5b8049ac6e1fb542282e3d07926caa5fd10362df9fab5b9bb1bc963bb946c7",
+      "dimensions": [
+        1500,
+        2000
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Brand shirt photo: hair over shoulders and minimal visible makeup; real photo, not invented brand accessories",
+      "visuallyReviewed": true
+    }
+  ],
+  "referenceProvenance": {
+    "brandPhotographs": "Existing course-supplied Bobo Choses product gallery originals; reused for the same instructional brand-study context. Originals retained; no rights expansion inferred.",
+    "generatedOutputs": "Existing course workspace744 generations, with supplied product references and series cast5896164. Not new article generation. Shirt5892939, trousers5892940, shoes5892941, background5892943, earrings5893656, bag5893657. Product sources retained in pilot first-ai-lookbook-assets.json and course receipts."
+  },
+  "visualQA": {
+    "status": "Passed: source photos, reference-driven outputs and final control crops inspected; affected Face previews redacted and checked separately",
+    "annotations": "Three affected UI captures across lessons 1.5/1.6 use disclosed neutral opaque redaction of text-only Face previews. No generative edits. Other captures are cropped only; reference-driven result faces remain unchanged.",
+    "excluded": "No rejected/failed output or text-only source generation featured; 1.8 omits manufactured creases, erroneous-back and weak-fit examples. No prices/rates visible in selected crops."
+  },
+  "validation": {
+    "deployment": "Not performed",
+    "fullSiteBuild": "Parent integration handles site compilation",
+    "mdxCompilation": "Passed standalone @mdx-js/mdx compilation with Docusaurus truncate marker removed",
+    "images": "All displayed paths and declared dimensions verified",
+    "navigation": "Previous/next Markdown targets verified; parent owns workshops collection route",
+    "publicationDates": "Oct5–9 sequential dates verified",
+    "pricing": "No public billing, price or credit values in article copy or selected captures"
+  }
+}

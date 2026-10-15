@@ -1,0 +1,165 @@
+{
+  "episode": "1.7",
+  "article": "blog/choose-poses-framing-ai-product-photos.md",
+  "createdOn": "2026-10-15",
+  "publicationDate": "2026-10-07",
+  "status": "implemented-unlisted-review",
+  "sourceVideo": {
+    "url": "https://www.astria.ai/academy/videos/academy-1-7/_full-draft.983cbe6e.mp4",
+    "sha256": "983cbe6e2fffdb95fd31597dd8fc708bd1b1cdf179c3a69816be592d30ea1971",
+    "durationSeconds": 81.7,
+    "version": "Published full cut retrieved 2026-10-15; use URL/hash as version identity. Current cast and compositions visually match source segments; journal filenames alone do not establish byte-identical assembly."
+  },
+  "narrationSource": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.7/narration-locked.tts.txt",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.7/narration-lock.json",
+  "projectSource": "/Users/burg/git/astria-course/webinar-builder/script/projects/academy-1-7.yaml",
+  "segmentSources": "/Users/burg/git/astria-course/webinar-builder/script/segments/academy-1-7",
+  "newGenerations": 0,
+  "newGenerationWorkspace": 896,
+  "assets": [
+    {
+      "file": "static/img/workshops/choose-poses-framing-ai-product-photos/01-pose-picker.webp",
+      "kind": "video-keyframe",
+      "source": "/tmp/astria-workshop-series-media/refinement/7-65.png",
+      "sourceSha256": "c6eafba7d3007197ff36b12401fce40afb1092eb94e91bfe832e1ee5aa84ecf1",
+      "sha256": "40226c20f70d07061f7275f649b2ab16a7634be167e9b903e4d9b4de31582ea3",
+      "dimensions": [
+        1226,
+        936
+      ],
+      "transformation": "Crop only, then WebP encoding; no upscale or retouch",
+      "selectionRationale": "Actual Pose picker and back-view stick figure",
+      "visuallyReviewed": true,
+      "crop": [
+        72,
+        72,
+        1298,
+        1008
+      ],
+      "timestampSeconds": 65,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-7/_full-draft.983cbe6e.mp4",
+      "sourceVideoSha256": "983cbe6e2fffdb95fd31597dd8fc708bd1b1cdf179c3a69816be592d30ea1971"
+    },
+    {
+      "file": "static/img/workshops/choose-poses-framing-ai-product-photos/front-view.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-6/L2-47266546-0.jpg",
+      "sourceSha256": "b739819d11ddd1d42d92778c804257990f3d5569d1cc3729329943f06bc4437c",
+      "sha256": "53834db942e493becb3cc11209d3135639c85b24a4db97b7984fd3847825603b",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Front view of the established full-length look",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-6/L2.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266546,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5893656,
+        5893657,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, background and lighting, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, hair pulled back, clean minimal makeup, wearing the gold hoop earrings, the tan bag on her shoulder, light shadows --background_color #D8D5CF"
+    },
+    {
+      "file": "static/img/workshops/choose-poses-framing-ai-product-photos/back-view.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-back-47266557-0.jpg",
+      "sourceSha256": "326f7bbbfbcb2a4d6af4ba33394e48d0a13437356ffdee0396109844096b5f0f",
+      "sha256": "3e52e2ec2520e0f393289d4ae677781912ec24b30866302e5d3d227bf5dbf128",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Back garment coverage and hem are visible",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-back.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266557,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        4042972,
+        5893656,
+        5893657,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:4042972:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, styling, background and lighting, full body, back view, hair pulled back, light shadows --background_color #D8D5CF"
+    },
+    {
+      "file": "static/img/workshops/choose-poses-framing-ai-product-photos/angled-view.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-45-dark-47266780-0.jpg",
+      "sourceSha256": "0ee5d9ad83b119b7427821c069f23b7223af4d848295afd859181d82f34d9333",
+      "sha256": "942905256dca493f27f20160e59448c011bdddf6f203e65fefd7157490c4e8ef",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Kept angled view selected by final reshoot index; excludes rejected bright 47266568 and 47266605",
+      "visuallyReviewed": true,
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-45-dark.still.receipt.json",
+      "workspace": "744",
+      "promptId": 47266780,
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        4042985,
+        5893656,
+        5893657,
+        5896164
+      ],
+      "semanticPrompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:4042985:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman in the same room and light as the reference photo: the grey concrete wall, soft daylight from the right, the concrete floor, same clothes, styling, background and lighting, full body, 45 angle view, hair pulled back"
+    },
+    {
+      "file": "static/img/workshops/choose-poses-framing-ai-product-photos/shirt-hem-detail.webp",
+      "kind": "source-photograph",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/brand/B226AD035_3.jpg",
+      "sourceSha256": "49cebc15aa594a89abd306b201fe97c4a462affcb37622253d043e433dbbfec8",
+      "sha256": "99fd9e21e918d0e56cbb2007951dbc146b6e3eff25f502720c38de2a4f49953f",
+      "dimensions": [
+        2000,
+        2667
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Original product detail photograph shows hem edge and small embroidery",
+      "visuallyReviewed": true
+    }
+  ],
+  "referenceProvenance": {
+    "brandPhotographs": "Existing course-supplied Bobo Choses product gallery originals; reused for the same instructional brand-study context. Originals retained; no rights expansion inferred.",
+    "generatedOutputs": "Existing course workspace744 generations, with supplied product references and series cast5896164. Not new article generation. Shirt5892939, trousers5892940, shoes5892941, background5892943, earrings5893656, bag5893657. Product sources retained in pilot first-ai-lookbook-assets.json and course receipts."
+  },
+  "visualQA": {
+    "status": "Passed: all selected sources, output comparisons and final control crops visually inspected",
+    "annotations": "None added; crop only, existing recorded cursor retained",
+    "excluded": "No rejected/failed output or text-only source generation featured; 1.8 omits manufactured creases, erroneous-back and weak-fit examples. No prices/rates visible in selected crops."
+  },
+  "validation": {
+    "deployment": "Not performed",
+    "fullSiteBuild": "Parent integration handles site compilation",
+    "mdxCompilation": "Passed standalone @mdx-js/mdx compilation with Docusaurus truncate marker removed",
+    "images": "All displayed paths and declared dimensions verified",
+    "navigation": "Previous/next Markdown targets verified; parent owns workshops collection route",
+    "publicationDates": "Oct5–9 sequential dates verified",
+    "pricing": "No public billing, price or credit values in article copy or selected captures"
+  }
+}

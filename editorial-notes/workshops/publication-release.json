@@ -1,0 +1,129 @@
+{
+  "authorizedOn": "2026-10-15",
+  "authorization": "User: publish",
+  "publication_mode": "immediate",
+  "baseMainCommit": "9c9c6f158bbd4359bd085819632915227c994244",
+  "basePagesCommit": "09b7380d68e8b355954aa81cd041f63d089bcca3",
+  "articles": [
+    {
+      "lesson": "1.1",
+      "slug": "define-brand-visual-direction-ai-lookbook",
+      "date": "2026-10-01",
+      "url": "https://www.astria.ai/articles/define-brand-visual-direction-ai-lookbook/"
+    },
+    {
+      "lesson": "1.2",
+      "slug": "create-brand-workspace-astria",
+      "date": "2026-10-02",
+      "url": "https://www.astria.ai/articles/create-brand-workspace-astria/"
+    },
+    {
+      "lesson": "1.3",
+      "slug": "cast-ai-fashion-model-astria-agent",
+      "date": "2026-10-03",
+      "url": "https://www.astria.ai/articles/cast-ai-fashion-model-astria-agent/"
+    },
+    {
+      "lesson": "1.4",
+      "slug": "create-first-ai-lookbook-astria",
+      "date": "2026-10-04",
+      "url": "https://www.astria.ai/articles/create-first-ai-lookbook-astria/"
+    },
+    {
+      "lesson": "1.5",
+      "slug": "control-ai-lookbook-background-lighting",
+      "date": "2026-10-05",
+      "url": "https://www.astria.ai/articles/control-ai-lookbook-background-lighting/"
+    },
+    {
+      "lesson": "1.6",
+      "slug": "style-ai-lookbook-hair-makeup-accessories",
+      "date": "2026-10-06",
+      "url": "https://www.astria.ai/articles/style-ai-lookbook-hair-makeup-accessories/"
+    },
+    {
+      "lesson": "1.7",
+      "slug": "choose-poses-framing-ai-product-photos",
+      "date": "2026-10-07",
+      "url": "https://www.astria.ai/articles/choose-poses-framing-ai-product-photos/"
+    },
+    {
+      "lesson": "1.8",
+      "slug": "choose-product-reference-photos-ai-fashion",
+      "date": "2026-10-08",
+      "url": "https://www.astria.ai/articles/choose-product-reference-photos-ai-fashion/"
+    },
+    {
+      "lesson": "1.9",
+      "slug": "review-ai-lookbook-before-template",
+      "date": "2026-10-09",
+      "url": "https://www.astria.ai/articles/review-ai-lookbook-before-template/"
+    },
+    {
+      "lesson": "2.1",
+      "slug": "reuse-lookbook-creative-direction-templates",
+      "date": "2026-10-10",
+      "url": "https://www.astria.ai/articles/reuse-lookbook-creative-direction-templates/"
+    },
+    {
+      "lesson": "2.2",
+      "slug": "create-lookbook-template-astria",
+      "date": "2026-10-11",
+      "url": "https://www.astria.ai/articles/create-lookbook-template-astria/"
+    },
+    {
+      "lesson": "2.3",
+      "slug": "run-astria-template-new-product",
+      "date": "2026-10-12",
+      "url": "https://www.astria.ai/articles/run-astria-template-new-product/"
+    },
+    {
+      "lesson": "2.4",
+      "slug": "generate-multiple-styled-looks-astria",
+      "date": "2026-10-13",
+      "url": "https://www.astria.ai/articles/generate-multiple-styled-looks-astria/"
+    },
+    {
+      "lesson": "2.5",
+      "slug": "organize-templates-garment-category",
+      "date": "2026-10-14",
+      "url": "https://www.astria.ai/articles/organize-templates-garment-category/"
+    },
+    {
+      "lesson": "2.6",
+      "slug": "review-reusable-ai-lookbook-workflow",
+      "date": "2026-10-15",
+      "url": "https://www.astria.ai/articles/review-reusable-ai-lookbook-workflow/"
+    }
+  ],
+  "collectionUrl": "https://www.astria.ai/articles/workshops/",
+  "validation": {
+    "productionBuild": "pass from clean current production main; local historical build blockers do not affect release",
+    "tests": {
+      "passed": 28,
+      "failed": 0
+    },
+    "typecheck": "pass",
+    "indexableArticleRoutes": 15,
+    "sitemap": "all15pluscollection",
+    "newGenerationCount": 0,
+    "live": {
+      "result": "pass",
+      "pages": 16,
+      "articlePages": 15,
+      "imageHashesMatched": 73,
+      "allIndexable": true,
+      "sitemap": "pass",
+      "browserCollection": "pass"
+    }
+  },
+  "deploymentState": "published and verified live",
+  "sourceCommit": "b6c3ecfbc3b1ffcb5ebfa04095432651625b12f1",
+  "pagesCommit": "741c9a28fa1e8203cc274eb897b4c5526e90d386",
+  "publishedOn": "2026-10-15",
+  "githubPagesBuild": {
+    "status": "built",
+    "commit": "741c9a28fa1e8203cc274eb897b4c5526e90d386",
+    "actionUrl": "https://github.com/astriaai/articles/actions/runs/38731582618"
+  }
+}

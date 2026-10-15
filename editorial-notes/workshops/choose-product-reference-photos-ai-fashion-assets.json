@@ -1,0 +1,141 @@
+{
+  "episode": "1.8",
+  "article": "blog/choose-product-reference-photos-ai-fashion.md",
+  "createdOn": "2026-10-15",
+  "publicationDate": "2026-10-08",
+  "status": "implemented-unlisted-review",
+  "sourceVideo": {
+    "url": "https://www.astria.ai/academy/videos/academy-1-8/_full-draft.44b4e5a8.mp4",
+    "sha256": "44b4e5a86cbc443486c05c910dcab10e61784e7b6556900f18318165d00a1be0",
+    "durationSeconds": 146.3,
+    "version": "Published full cut retrieved 2026-10-15; use URL/hash as version identity. Current cast and compositions visually match source segments; journal filenames alone do not establish byte-identical assembly."
+  },
+  "narrationSource": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.8/narration-locked.tts.txt",
+  "narrationLock": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.8/narration-lock.json",
+  "projectSource": "/Users/burg/git/astria-course/webinar-builder/script/projects/academy-1-8.yaml",
+  "segmentSources": "/Users/burg/git/astria-course/webinar-builder/script/segments/academy-1-8",
+  "newGenerations": 0,
+  "newGenerationWorkspace": 896,
+  "assets": [
+    {
+      "file": "static/img/workshops/choose-product-reference-photos-ai-fashion/01-crop-references.webp",
+      "kind": "video-keyframe",
+      "source": "/tmp/astria-workshop-series-media/refinement/8-104.png",
+      "sourceSha256": "8fc8eb9e593f9007f0b1cd543846bfa04021d63b820bd3aefb12c3ecbc1c8163",
+      "sha256": "16b8b06f2646a2af3955b5bacc132d5e72c177b2bcdb5031eedb903dc92458c4",
+      "dimensions": [
+        1226,
+        488
+      ],
+      "transformation": "Crop only, then WebP encoding; no upscale or retouch",
+      "selectionRationale": "The footwear reference is removed for the closer crop; incidental result thumbnail excluded",
+      "visuallyReviewed": true,
+      "crop": [
+        72,
+        72,
+        1298,
+        560
+      ],
+      "timestampSeconds": 104,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-8/_full-draft.44b4e5a8.mp4",
+      "sourceVideoSha256": "44b4e5a86cbc443486c05c910dcab10e61784e7b6556900f18318165d00a1be0"
+    },
+    {
+      "file": "static/img/workshops/choose-product-reference-photos-ai-fashion/02-balloon-fit-prompt.webp",
+      "kind": "video-keyframe",
+      "source": "/tmp/astria-workshop-series-media/refinement/8-128.png",
+      "sourceSha256": "a679fad7b65ac441d654cb3f9612f08f2c6c42d98be9c782c504df888cefd3a3",
+      "sha256": "51ecd88bb6070f53aca64f0119bf20541dcaccb40ea44f3f2d80c71266cc3011",
+      "dimensions": [
+        1226,
+        393
+      ],
+      "transformation": "Crop only, then WebP encoding; no upscale or retouch",
+      "selectionRationale": "Actual balloon-fitting wording in composer; no failed fit output shown",
+      "visuallyReviewed": true,
+      "crop": [
+        72,
+        72,
+        1298,
+        465
+      ],
+      "timestampSeconds": 128,
+      "sourceVideoUrl": "https://www.astria.ai/academy/videos/academy-1-8/_full-draft.44b4e5a8.mp4",
+      "sourceVideoSha256": "44b4e5a86cbc443486c05c910dcab10e61784e7b6556900f18318165d00a1be0"
+    },
+    {
+      "file": "static/img/workshops/choose-product-reference-photos-ai-fashion/shirt-front-reference.webp",
+      "kind": "source-photograph",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-1/bobo-20261012/src/B226AD035_1.jpg",
+      "sourceSha256": "69ee19a1be0bf3127949b0e2bf353246105aa99d1c1c02b60bab2a657b9cfc8a",
+      "sha256": "e850ce2a032dde4724cbfe1aaf5918bd0b37351df5654388fba8b39fd3c93d29",
+      "dimensions": [
+        1500,
+        2000
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Clear original shirt packshot: collar, buttons, shape, embroidery",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "static/img/workshops/choose-product-reference-photos-ai-fashion/distinctive-back-reference.webp",
+      "kind": "source-photograph",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-8/brand/b226ad021_3.jpg",
+      "sourceSha256": "f13e60f4b63c602d643662e70cf4088e3979d9086c0109de3f04455396720cc0",
+      "sha256": "dabc3f042d1d48ed78cc9da650673c37fde0be2da54d7630cbdf6e997541fdcd",
+      "dimensions": [
+        2048,
+        2731
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Actual Bobo Choses sweatshirt back with large Monster Tea Club print",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "static/img/workshops/choose-product-reference-photos-ai-fashion/plain-back-reference.webp",
+      "kind": "source-photograph",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-8/brand/b226ad004_4.jpg",
+      "sourceSha256": "0e4d242451a56821074c25fa8e290560f1d7195dbc243f2764627ccae5f43e86",
+      "sha256": "d548a1d3adf0811b1d1b7bbd96b72b7df31317c6191e02b577362ffa8dd908d1",
+      "dimensions": [
+        2048,
+        2731
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Actual Bobo Choses T-shirt back without a print; distinct product explicitly named",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "static/img/workshops/choose-product-reference-photos-ai-fashion/shoe-reference.webp",
+      "kind": "source-photograph",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-8/brand/b226ak002_1.jpg",
+      "sourceSha256": "90a725577c52c81e465e9a5753aab7b5cc85815dde88d082302fded784c2fcc5",
+      "sha256": "0586176263c4df8d3a24f486301ce2eda3273d7e6bf86454f0c4f08d2ef3ecd1",
+      "dimensions": [
+        2048,
+        2731
+      ],
+      "transformation": "WebP encoding only; original dimensions retained",
+      "selectionRationale": "Original Color block suede wallabee shoes from front three-quarter angle; toe, sole and side details readable",
+      "visuallyReviewed": true
+    }
+  ],
+  "referenceProvenance": {
+    "brandPhotographs": "Existing course-supplied Bobo Choses product gallery originals; reused for the same instructional brand-study context. Originals retained; no rights expansion inferred.",
+    "generatedOutputs": "Existing course workspace744 generations, with supplied product references and series cast5896164. Not new article generation. Shirt5892939, trousers5892940, shoes5892941, background5892943, earrings5893656, bag5893657. Product sources retained in pilot first-ai-lookbook-assets.json and course receipts."
+  },
+  "visualQA": {
+    "status": "Passed: all selected sources, output comparisons and final control crops visually inspected",
+    "annotations": "None added; crop only, existing recorded cursor retained",
+    "excluded": "No rejected/failed output or text-only source generation featured; 1.8 omits manufactured creases, erroneous-back and weak-fit examples. No prices/rates visible in selected crops."
+  },
+  "validation": {
+    "deployment": "Not performed",
+    "fullSiteBuild": "Parent integration handles site compilation",
+    "mdxCompilation": "Passed standalone @mdx-js/mdx compilation with Docusaurus truncate marker removed",
+    "images": "All displayed paths and declared dimensions verified",
+    "navigation": "Previous/next Markdown targets verified; parent owns workshops collection route",
+    "publicationDates": "Oct5–9 sequential dates verified",
+    "pricing": "No public billing, price or credit values in article copy or selected captures"
+  }
+}

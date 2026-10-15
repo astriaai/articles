@@ -1,0 +1,335 @@
+{
+  "episode": "1.4",
+  "article": "blog/create-first-ai-lookbook-astria.md",
+  "createdOn": "2026-10-15",
+  "status": "implemented-unlisted-review",
+  "sourceVideo": {
+    "url": "https://www.astria.ai/academy/videos/academy-1-4/_full-draft.eb9a6063.mp4",
+    "sha256": "eb9a606307073ab4d7efd23663d8b4c1d940b522dd5921ab607a7ce083a8652a",
+    "durationSeconds": 98.1,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "version": "Fresh published rework retrieved for full-series implementation 2026-10-15; Face selected and revised L0 pair."
+  },
+  "latestRecordedCut": "academy-1-4-assembly-20261014-170927.mp4",
+  "narrationSource": "/Users/burg/git/astria-course/docs/academy-preproduction/lookbook/1.4/narration-locked.tts.txt",
+  "newGenerations": 0,
+  "newGenerationWorkspace": 896,
+  "referenceImages": [
+    {
+      "file": "static/img/workshops/first-ai-lookbook/shirt-reference.webp",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/packshot-shirt-B226AD035.jpg",
+      "sourceSha256": "079fe18b01d7268f00f8f0134e16c459468a4bc8bbc6071c3c2148387fa13290",
+      "dimensions": [
+        1500,
+        2000
+      ],
+      "sha256": "d95ea55bb571358e64ac364ef031383a3160b0cf75b0041e816932e19a733d2b",
+      "transformation": "WebP encoding only; original dimensions retained"
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/trousers-reference.webp",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/packshot-trousers-B226AD072.jpg",
+      "sourceSha256": "516e840e73659d5d42c85f57113b4bdea440584fa2e9b103f334056522075708",
+      "dimensions": [
+        750,
+        1000
+      ],
+      "sha256": "de4b0398866c365af5ea81ebf966bf6fa515a08f5553c8e6426ab9df1bc18798",
+      "transformation": "WebP encoding only; original dimensions retained"
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/shoes-reference.webp",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/packshot-shoes-B226AK002.jpg",
+      "sourceSha256": "e4b85f452ac3d229d6193005e092ffc36f8481912cb436763b0e6d6d5e3a63be",
+      "dimensions": [
+        2000,
+        2667
+      ],
+      "sha256": "4e5e3b7e3e9ef2ff35c239071333ee33e3a4ca4c2575d6a97cd7f670df87657d",
+      "transformation": "WebP encoding only; original dimensions retained"
+    }
+  ],
+  "assets": [
+    {
+      "file": "static/img/workshops/first-ai-lookbook/01-lookbook-mode.webp",
+      "kind": "video-keyframe",
+      "timestampSeconds": 27.5,
+      "sourceFrameSha256": "bf8ef47184ae4a4d4ab7103a0ce4a6e2b63195e3222796df2c8edc344fa0a962",
+      "crop": [
+        82,
+        145,
+        1290,
+        430
+      ],
+      "dimensions": [
+        1208,
+        285
+      ],
+      "sha256": "32894a621c3cd61081748b903b63dfb1ab5a30117b2060f91275e17b5800e624",
+      "selectionRationale": "Mode menu with Lookbook highlighted",
+      "annotation": "None; crop only, no UI modifications"
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/02-outfit-references.webp",
+      "kind": "video-keyframe",
+      "timestampSeconds": 48,
+      "sourceFrameSha256": "8e2c920d452a75c71447b2e9d06c3e8db60153a386c855f5c5e97a16b3c55cd0",
+      "crop": [
+        82,
+        145,
+        1290,
+        455
+      ],
+      "dimensions": [
+        1208,
+        310
+      ],
+      "sha256": "96133169f667f1bf8ae9265143271aef5a7594b79d0d61b2d788969c902eb2e0",
+      "selectionRationale": "Shirt, trousers and footwear selected",
+      "annotation": "Neutral portrait-preview redaction documented in article; no UI controls or values changed.",
+      "redactions": {
+        "boxesInPublishedCropPixels": [
+          [
+            123,
+            18,
+            209,
+            87
+          ],
+          [
+            330,
+            20,
+            394,
+            84
+          ],
+          [
+            337,
+            96,
+            355,
+            115
+          ]
+        ],
+        "reason": "Hide incidental text-only casting portrait previews; retain Face labels, selected reference name and recorded controls. No reference-driven outfit result is redacted."
+      }
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/03-pose-reference.webp",
+      "kind": "video-keyframe",
+      "timestampSeconds": 52,
+      "sourceFrameSha256": "72bc09bfe98d90292681b0153b5bd3cd803295b88b2d8caacde5ec875e279844",
+      "crop": [
+        82,
+        145,
+        1290,
+        455
+      ],
+      "dimensions": [
+        1208,
+        310
+      ],
+      "sha256": "02a2dc115e1adda776bae5f5150aa25cd37fde4c00159b7f54790044ac7d5960",
+      "selectionRationale": "Stick-figure pose reference",
+      "annotation": "Neutral portrait-preview redaction documented in article; no UI controls or values changed.",
+      "redactions": {
+        "boxesInPublishedCropPixels": [
+          [
+            123,
+            18,
+            209,
+            87
+          ],
+          [
+            330,
+            20,
+            394,
+            84
+          ],
+          [
+            337,
+            160,
+            355,
+            179
+          ]
+        ],
+        "reason": "Hide incidental text-only casting portrait previews; retain Face labels, selected reference name and recorded controls. No reference-driven outfit result is redacted."
+      }
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/04-background-reference.webp",
+      "kind": "video-keyframe",
+      "timestampSeconds": 57,
+      "sourceFrameSha256": "7559e7060805fc3008d157772c109f2bbccdcb603670d0c2cad89065afc3f5dd",
+      "crop": [
+        82,
+        225,
+        1290,
+        902
+      ],
+      "dimensions": [
+        1208,
+        677
+      ],
+      "sha256": "4d1aa4e75307c76b2471fa57bf0d147ab5ff5585004b3198e30d1d9b43df447e",
+      "selectionRationale": "Concrete background reference",
+      "annotation": "None; crop only, no UI modifications"
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/05-aspect-ratio.webp",
+      "kind": "video-keyframe",
+      "timestampSeconds": 70,
+      "sourceFrameSha256": "d665732144d385d6729f5da4453fe48054e3dbb89e6f3769816758791cca2774",
+      "crop": [
+        82,
+        145,
+        1290,
+        810
+      ],
+      "dimensions": [
+        1208,
+        665
+      ],
+      "sha256": "734b4b71166e69863f72e347b46d372741c34e349575b27cdb4886f5325de615",
+      "selectionRationale": "Portrait 3:4 selected in the aspect-ratio menu",
+      "annotation": "Neutral portrait-preview redaction documented in article; no UI controls or values changed.",
+      "redactions": {
+        "boxesInPublishedCropPixels": [
+          [
+            104,
+            15,
+            188,
+            83
+          ],
+          [
+            305,
+            17,
+            367,
+            80
+          ],
+          [
+            312,
+            159,
+            330,
+            178
+          ]
+        ],
+        "reason": "Hide incidental text-only casting portrait previews; retain Face labels, selected reference name and recorded controls. No reference-driven outfit result is redacted."
+      }
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/06-generation-settings.webp",
+      "kind": "video-keyframe",
+      "timestampSeconds": 83.5,
+      "sourceFrameSha256": "efe917a499535fda43518023900f6ffee2349d285e632b7ba6bf513dc9af9cd6",
+      "crop": [
+        82,
+        145,
+        1290,
+        675
+      ],
+      "dimensions": [
+        1208,
+        530
+      ],
+      "sha256": "de48bab8f37043b8d385a11f5d7a806f69ccc9eb97efccb4471d984a4cfa7ecb",
+      "selectionRationale": "Nano Banana 2, portrait 3:4, two images and 2K",
+      "annotation": "Neutral portrait-preview redaction documented in article; no UI controls or values changed.",
+      "redactions": {
+        "boxesInPublishedCropPixels": [
+          [
+            104,
+            15,
+            188,
+            83
+          ],
+          [
+            305,
+            17,
+            367,
+            80
+          ],
+          [
+            312,
+            159,
+            330,
+            178
+          ]
+        ],
+        "reason": "Hide incidental text-only casting portrait previews; retain Face labels, selected reference name and recorded controls. No reference-driven outfit result is redacted."
+      }
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/first-look-01.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/L0-47266351-0.jpg",
+      "sourceSha256": "22b6459de9d29d38bdf22b02b07e6e45698442c7bacc8353014d5bb75fc55b5e",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "sha256": "a6ed7cd87b83148beb034a4f2f804fd8385939dd0b245898b5b95879f0ab2c36",
+      "workspace": 744,
+      "promptId": 47266351,
+      "model": "nano-banana-2",
+      "recordedModelLabel": "Nano Banana 2.1 (tune 4180298)",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5892943,
+        5896164
+      ],
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/L0.still.receipt.json",
+      "selectionRationale": "Current course rework: reference-driven full outfit with the established red-haired model; supplied clothing/background/Face references. Reviewed against the same three product photographs. No new generation."
+    },
+    {
+      "file": "static/img/workshops/first-ai-lookbook/first-look-02.webp",
+      "kind": "existing-course-output",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/L0-b-47266635-0.jpg",
+      "sourceSha256": "827d082c8ed0424806af38af79eca97f9ff81c4933f4acd214b832666cb3da56",
+      "dimensions": [
+        1792,
+        2400
+      ],
+      "sha256": "bb4a9d8f00faab6d743ac4457d94e68d4b45e439af97978147d1bad5b48a4ae8",
+      "workspace": 744,
+      "promptId": 47266635,
+      "model": "nano-banana-2",
+      "recordedModelLabel": "Nano Banana 2.1 (tune 4180298)",
+      "resolution": "2K",
+      "aspectRatio": "3:4",
+      "referenceTuneIds": [
+        5892939,
+        5892940,
+        5892941,
+        5892943,
+        5896164
+      ],
+      "receipt": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-4/L0-b.still.receipt.json",
+      "selectionRationale": "Current course rework: reference-driven full outfit with the established red-haired model; supplied clothing/background/Face references. Reviewed against the same three product photographs. No new generation."
+    }
+  ],
+  "validation": {
+    "articleCompilation": "pass",
+    "imageDimensionsAndHashes": "pass",
+    "browserDesktopAndMobile": "pass, including375px mobile",
+    "localLinks": "pass",
+    "portraitPreviewPolicy": "Four UI crops neutrally redact known text-only portrait previews; source names/control labels preserved and disclosure in article.",
+    "repositoryBuild": "Blocked by pre-existing 11 broken links in five unrelated articles; all workshop routes render without broken links.",
+    "deployment": "not performed"
+  },
+  "publicationDate": "2026-10-04",
+  "previousSourceVideo": {
+    "url": "https://www.astria.ai/academy/videos/academy-1-4/_full-draft.89394562.mp4",
+    "sha256": "8939456213f5aafec76400982e5dfe2d2e630cdb805bb8152221c1b98f16cc21",
+    "durationSeconds": 89.1,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "version": "Currently published cut, retrieved 2026-10-15; latest finished rework is recorded in the course journal but its video file was unavailable locally and in the checked R2 prefixes."
+  }
+}

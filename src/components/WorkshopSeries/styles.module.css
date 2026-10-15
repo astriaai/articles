@@ -1,0 +1,41 @@
+.series {
+  background: transparent;
+  min-height: 0;
+  padding-bottom: 0;
+  margin: 1.5rem 0 3rem;
+}
+
+.preview {
+  align-items: center;
+  aspect-ratio: 4 / 3;
+  background: var(--ifm-background-surface-color);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.preview img {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.lesson {
+  color: var(--ifm-color-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.date {
+  color: var(--blog-muted);
+  font-size: 0.86rem;
+  margin-top: auto;
+  padding-top: 6px;
+}
+
+@media (max-width: 420px) {
+  .series > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "assets": [
+    {
+      "file": "static/img/workshops/run-astria-template-new-product/01-replace-shirt.webp",
+      "kind": "recorded-interface-keyframe",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/captures/academy-2-3/02-scene.mp4",
+      "sourceSha256": "c5614a2d9629538c032ab61b26cbfe4a9f110414d31fe9f821ec98af5cedbffa",
+      "scene": "02",
+      "sceneRelativeSeconds": 15.5,
+      "cropSourcePixels": [
+        575,
+        190,
+        2750,
+        1190
+      ],
+      "width": 2000,
+      "height": 920,
+      "selection": "Settled recorded interface state adjacent to its instruction; crop removes irrelevant chrome and pricing; no UI redrawn.",
+      "redaction": {
+        "reason": "Known text-only-generated casting portrait excluded under repository article-image reference requirement. Only source Face preview pixels hidden; labels, controls, menus and legitimate reference-based result faces preserved.",
+        "rectanglesInExportedPixels": [
+          [
+            244,
+            190,
+            460,
+            376
+          ],
+          [
+            244,
+            376,
+            462,
+            405
+          ]
+        ],
+        "fillRGB": [
+          42,
+          42,
+          42
+        ],
+        "captionDisclosure": "Face preview hidden.",
+        "note": "Neutral image-area mask; no UI redrawn.",
+        "labelPreservation": "Neutralized portrait pixels behind translucent name strip; retained existing bright label glyph pixels without redrawing text."
+      },
+      "publicFileSha256": "1ec307bdde6c497fde5d726615114b9bba3d0b51d3bda91eb5943b715be7b217"
+    },
+    {
+      "file": "static/img/workshops/run-astria-template-new-product/02-generation-settings.webp",
+      "kind": "recorded-interface-keyframe",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/captures/academy-2-3/03-scene.mp4",
+      "sourceSha256": "d42e33e0ef04a87dbfd11a9df0a33d6ab39ababa25ed26929c934e8bda0f56f7",
+      "scene": "03",
+      "sceneRelativeSeconds": 4.6,
+      "cropSourcePixels": [
+        575,
+        180,
+        1890,
+        1160
+      ],
+      "width": 1315,
+      "height": 980,
+      "selection": "Settled recorded interface state adjacent to its instruction; crop removes irrelevant chrome and pricing; no UI redrawn.",
+      "publicFileSha256": "bd4fda4dccf5fad5de54a2fa1581fadc7fa275ba4a53f33a5459d74ffeab6928"
+    },
+    {
+      "file": "static/img/workshops/run-astria-template-new-product/03-brief-control.webp",
+      "kind": "recorded-interface-keyframe",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/captures/academy-2-3/04-scene.mp4",
+      "sourceSha256": "98dbf8363bbb1b7d924ab6fde259b53623948ebd13b092ea56fd2985300456d6",
+      "scene": "04",
+      "sceneRelativeSeconds": 6.7,
+      "cropSourcePixels": [
+        590,
+        105,
+        1680,
+        760
+      ],
+      "width": 1090,
+      "height": 655,
+      "selection": "Settled recorded interface state adjacent to its instruction; crop removes irrelevant chrome and pricing; no UI redrawn.",
+      "publicFileSha256": "b0ca84b920bb5f329dc5731b111bd18f3fbf15faeb653a85ec81dd3d3a7c8366"
+    },
+    {
+      "file": "static/img/workshops/run-astria-template-new-product/04-reopen-template.webp",
+      "kind": "recorded-interface-keyframe",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/captures/academy-2-3/05-scene.mp4",
+      "sourceSha256": "ce3c6bfe011efffeb9f39810e3a6093247ed899ea31fbaaad7220966ca321c4e",
+      "scene": "05",
+      "sceneRelativeSeconds": 10.6,
+      "cropSourcePixels": [
+        575,
+        190,
+        2750,
+        1190
+      ],
+      "width": 2000,
+      "height": 920,
+      "selection": "Settled recorded interface state adjacent to its instruction; crop removes irrelevant chrome and pricing; no UI redrawn.",
+      "redaction": {
+        "reason": "Known text-only-generated casting portrait excluded under repository article-image reference requirement. Only source Face preview pixels hidden; labels, controls, menus and legitimate reference-based result faces preserved.",
+        "rectanglesInExportedPixels": [
+          [
+            244,
+            190,
+            460,
+            376
+          ],
+          [
+            244,
+            376,
+            462,
+            405
+          ]
+        ],
+        "fillRGB": [
+          42,
+          42,
+          42
+        ],
+        "captionDisclosure": "Face preview hidden.",
+        "note": "Neutral image-area mask; no UI redrawn.",
+        "labelPreservation": "Neutralized portrait pixels behind translucent name strip; retained existing bright label glyph pixels without redrawing text."
+      },
+      "publicFileSha256": "694ef11fe2f7c3905f32faa6c8def9f2302138fcf4131381b7179c40f6d9da46"
+    },
+    {
+      "file": "static/img/workshops/run-astria-template-new-product/05-select-one-shot.webp",
+      "kind": "recorded-interface-keyframe",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/captures/academy-2-3/06-scene.mp4",
+      "sourceSha256": "4e93a8dad1390d03c6924f4d1ced17cae56730b849b0f541044d3afd251f5667",
+      "scene": "06",
+      "sceneRelativeSeconds": 5.1,
+      "cropSourcePixels": [
+        575,
+        190,
+        2750,
+        1190
+      ],
+      "width": 2000,
+      "height": 920,
+      "selection": "Settled recorded interface state adjacent to its instruction; crop removes irrelevant chrome and pricing; no UI redrawn.",
+      "redaction": {
+        "reason": "Known text-only-generated casting portrait excluded under repository article-image reference requirement. Only source Face preview pixels hidden; labels, controls, menus and legitimate reference-based result faces preserved.",
+        "rectanglesInExportedPixels": [
+          [
+            244,
+            190,
+            460,
+            376
+          ],
+          [
+            244,
+            376,
+            462,
+            405
+          ]
+        ],
+        "fillRGB": [
+          42,
+          42,
+          42
+        ],
+        "captionDisclosure": "Face preview hidden.",
+        "note": "Neutral image-area mask; no UI redrawn.",
+        "labelPreservation": "Neutralized portrait pixels behind translucent name strip; retained existing bright label glyph pixels without redrawing text."
+      },
+      "publicFileSha256": "4c84c3c4d6f4582ac2ccda6c7e7bdadcc428c321ecda66158d09f1865f262d1c"
+    },
+    {
+      "file": "static/img/workshops/run-astria-template-new-product/new-shirt-reference.webp",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/series-2/new-shirt-AD037-front.jpg",
+      "sourceSha256": "7be6c32602e4aa58d815e129214927a8e079438b37c00c80623b5d02cbad57cd",
+      "width": 2048,
+      "height": 2731,
+      "kind": "reference",
+      "provenance": "Bobo Choses B226AD037 _1 front product photo, supplied course reference. See series-2/assets.json shirt-2.",
+      "selection": "Original clean garment packshot, inspected alongside selected outputs; no upscaling.",
+      "publicFileSha256": "a5fc9882f6d6019e2d652df15cd126445f63df44b2fdd6fb1af630614eea5971"
+    },
+    {
+      "file": "static/img/workshops/run-astria-template-new-product/black-background-result.webp",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-3/brief-black-front-2-47284414-0.jpg",
+      "sourceSha256": "757ece0c7cf3ef77ab197201f7757c03d5084a73cdf11a6693b51ef394120900",
+      "width": 1792,
+      "height": 2400,
+      "kind": "existing-reference-based-course-output",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-3/brief-black-front-2.still.receipt.json",
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "promptId": 47284414,
+      "prompt": "<faceid:5898375:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, black background, light shadows --background_color #000000",
+      "resolution": "2K",
+      "suppliedReferences": [
+        "production tune 5898375: Bobo Choses B226AD037 shirt front/back",
+        "production tune 5892940: B226AD072 trousers",
+        "production tune 5892941: B226AK002 shoes",
+        "production tune 5896164: selected model",
+        "https://mp.astria.ai/s4nw38zle47xpzsoio5uw7lb30gt"
+      ],
+      "selection": "Visually inspected: blue/red stripe placement, collar, sleeve volume and crop remain consistent with supplied shirt; readable at article size. Black example shows a dark photographic background, not an exact flat swatch. Pocket example visibly places a hand in trouser pocket.",
+      "publicFileSha256": "4912e213db9392bc87a687004097adde9628501ce56970545e8ae089ea84a593"
+    },
+    {
+      "file": "static/img/workshops/run-astria-template-new-product/pocket-pose-result.webp",
+      "source": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-3/brief-hand-front-2-47284426-0.jpg",
+      "sourceSha256": "6b2fdcb190c59145882bf2950bb54b02f6274b12e296ccfc7cc0b1bb55a6cbf3",
+      "width": 1792,
+      "height": 2400,
+      "kind": "existing-reference-based-course-output",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-3/brief-hand-front-2.still.receipt.json",
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "promptId": 47284426,
+      "prompt": "<faceid:5898375:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, full body, standing relaxed, weight on one leg, one hand in a trouser pocket, the other arm loose, natural posture, looking at the camera, light shadows --background_color #D8D5CF",
+      "resolution": "2K",
+      "suppliedReferences": [
+        "production tune 5898375: Bobo Choses B226AD037 shirt front/back",
+        "production tune 5892940: B226AD072 trousers",
+        "production tune 5892941: B226AK002 shoes",
+        "production tune 5896164: selected model",
+        "https://mp.astria.ai/s4nw38zle47xpzsoio5uw7lb30gt"
+      ],
+      "selection": "Visually inspected: blue/red stripe placement, collar, sleeve volume and crop remain consistent with supplied shirt; readable at article size. Black example shows a dark photographic background, not an exact flat swatch. Pocket example visibly places a hand in trouser pocket.",
+      "publicFileSha256": "4e079c2dc8f36ed5e12ee99cc6615df0195197032eb65afb68ac0a6dfcbb9239"
+    }
+  ],
+  "courseAssetRegister": "/Users/burg/git/astria-course/webinar-builder/script/series/series-2/assets.json",
+  "newGenerations": false,
+  "generatedPreviewPolicy": "UI keyframes document controls and saved template previews; category catalog tiles are recorded interface examples, not standalone product-fidelity claims. No generated intros or unaudited category hero images exported. Existing course outputs retain original workspace provenance; no new images generated outside Articles workspace896.",
+  "sourceGenerationsVisibleInRecordedUI": [
+    {
+      "promptId": 47272243,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5898375:1> shirt <faceid:5898380:1> pants <faceid:5898381:1> shoes <faceid:4042972:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5897778:1.0> woman, the same woman as in the photo, same clothes, styling, background and lighting, full body, back view, hair pulled back, light shadows --background_color #D8D5CF",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-4/run-2rows-r2-back.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "https://mp.astria.ai/lisaw39wwbj5q0tp6i2vkfb6ndtc"
+    },
+    {
+      "promptId": 47272238,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5898375:1> shirt <faceid:5898380:1> pants <faceid:5898381:1> shoes <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5897778:1.0> woman, the same woman as in the photo, same clothes, background and lighting, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, hair pulled back, clean minimal makeup, wearing the gold hoop earrings, the tan bag on her shoulder, light shadows --background_color #D8D5CF",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-4/run-2rows-r2-styled.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "https://mp.astria.ai/5xr5cvb4e2fil4sikn9ebbqe995n"
+    },
+    {
+      "promptId": 47272232,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5898375:1> shirt <faceid:5898380:1> pants <faceid:5898381:1> shoes <faceid:5897778:1.0> woman, the same woman as in the photo, same clothes, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, light shadows --background_color #D8D5CF",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-4/run-2rows-r2-front.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "https://mp.astria.ai/s4nw38zle47xpzsoio5uw7lb30gt"
+    },
+    {
+      "promptId": 47272280,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5898375:1> shirt <faceid:5898380:1> pants <faceid:5898381:1> shoes <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5897778:1.0> woman, the same woman as in the photo, same clothes, styling, background and lighting, close-up detail crop from the collar down to the shirt's hem, the striped poplin shirt from the shirt reference, hair pulled back, light shadows --background_color #D8D5CF",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-4/run-2rows-r2-detail-v2.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "https://mp.astria.ai/xr8pchquv4f8fcr19it5jtczz1vp"
+    },
+    {
+      "promptId": 47272235,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5898375:1> shirt <faceid:5898380:1> pants <faceid:5898381:1> shoes <faceid:4042985:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5897778:1.0> woman, the same woman in the same room and light as the reference photo: the grey concrete wall, soft daylight from the right, the concrete floor, same clothes, styling, background and lighting, full body, 45 angle view, hair pulled back",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-2-4/run-2rows-r2-side45.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "https://mp.astria.ai/3ubssdeicdh9zx6orl8qvsif6c5c"
+    },
+    {
+      "promptId": 47266456,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, light shadows --background_color #D8D5CF",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-5/L1.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "/Users/liormamon/Desktop/ASTRIA/astria-course/webinar-builder/assets/results/academy-1-4/L0-47266351-0.jpg"
+    },
+    {
+      "promptId": 47266780,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:4042985:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman in the same room and light as the reference photo: the grey concrete wall, soft daylight from the right, the concrete floor, same clothes, styling, background and lighting, full body, 45 angle view, hair pulled back",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-45-dark.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "/Users/liormamon/Desktop/ASTRIA/astria-course/webinar-builder/assets/results/academy-1-5/L1-47266456-0.jpg"
+    },
+    {
+      "promptId": 47266579,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, styling, background and lighting, close-up detail crop from the lace collar down to the shirt's hem with its embroidered motif, hair pulled back, light shadows --background_color #D8D5CF",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-detail-collar-hem.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "/Users/liormamon/Desktop/ASTRIA/astria-course/webinar-builder/assets/results/academy-1-6/L2-47266546-0.jpg"
+    },
+    {
+      "promptId": 47266557,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:4042972:1> pose <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, styling, background and lighting, full body, back view, hair pulled back, light shadows --background_color #D8D5CF",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-7/L3-back.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "/Users/liormamon/Desktop/ASTRIA/astria-course/webinar-builder/assets/results/academy-1-6/L2-47266546-0.jpg"
+    },
+    {
+      "promptId": 47266546,
+      "workspace": "744",
+      "model": "nano-banana-2",
+      "resolution": "2K",
+      "prompt": "<faceid:5892939:1> shirt <faceid:5892940:1> trousers <faceid:5892941:1> shoes <faceid:5893656:1> earrings <faceid:5893657:1> bag <faceid:5896164:1.0> woman, the same woman as in the photo, same clothes, background and lighting, full body, standing relaxed, weight on one leg, arms loose, natural posture, looking at the camera, hair pulled back, clean minimal makeup, wearing the gold hoop earrings, the tan bag on her shoulder, light shadows --background_color #D8D5CF",
+      "receiptSource": "/Users/burg/git/astria-course/webinar-builder/assets/results/academy-1-6/L2.still.receipt.json",
+      "referenceDriven": true,
+      "inputImage": "/Users/liormamon/Desktop/ASTRIA/astria-course/webinar-builder/assets/results/academy-1-5/L1-47266456-0.jpg"
+    }
+  ],
+  "visualReview": {
+    "reviewedOn": "2026-10-15",
+    "method": "Source scene contact sheets, every selected cropped keyframe, standalone generated results at native resolution, and shirt/trouser/shoe source packshots inspected visually. No new drawings required; recorder cursor rings retained.",
+    "fidelity": "Selected examples preserve the referenced garment category, blue/red stripe direction, collar shape, colors and outfit geometry at article size. Each result still requires product-detail inspection; no exact-reproduction claim.",
+    "rejected": "2.3 result-grid keyframe omitted because its visible detail thumbnail still showed the previous cream shirt. Neither that failed result nor any generated intro exported.",
+    "categoryPreviews": "2.5 catalog/template previews retained as genuine navigation evidence only; underlying legacy catalog prompt receipts not available in this repository, so no standalone generated category-example asset or product-fidelity claim."
+  },
+  "portraitPolicyRemediation": "Known text-only casting previews removed from published UI keyframes with discreet image-area redaction, disclosed in captions. Source-reference tokens removed by cropping the affected result card. Legitimate reference-driven generated result faces are unchanged."
+}
