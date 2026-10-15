@@ -96,6 +96,7 @@ Comparisons carry the highest risk because competitor pricing and feature scope 
 | astria-vs-eti-image-photoshop-plugin | eti image photoshop plugin | 2026-09-18 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
 | astria-vs-creator-max-photoshop-plugin | creator max photoshop plugin | 2026-09-19 | 2026-09-13 | P F M | 2026-10-13 | photoshop |
 | best-nano-banana-photoshop-plugins | best nano banana photoshop plugin | 2026-09-20 | 2026-09-13 | P F M S | 2026-10-13 | photoshop |
+| layer-separation-photoshop | AI layer separation | 2026-10-15 | 2026-10-15 | M F | 2026-11-16 | photoshop |
 
 ## Unlisted (deliberately noindexed)
 
@@ -254,6 +255,18 @@ and typecheck sequentially: the existing TypeScript include pattern also sees ge
 files. `npm ci` could not run because the pre-existing npm lockfile is out of sync with
 `package.json`; use the documented Yarn workflow for integration. Neither lockfile was changed.
 Existing warnings about two unlisted posts without truncation markers remain outside this sprint.
+
+**Layer separation guide — October 15, 2026:** `layer-separation-photoshop` documents what layer
+decomposition delivers today. ByteDance documents a `layer_decomposition` flag on Seedream 5.0
+Pro/Flash returning a base image plus up to 16 alpha PNG layers with placement metadata, capped at
+2K. **Our hands-on test that day found the Astria endpoints do not return layered output, with or
+without the flag set explicitly on the request**, so the article documents the per-element
+extraction workflow instead and says so plainly. Six recorded runs from one supplied 4000x6000
+product photograph in workspace 896; see `editorial-notes/layer-separation-2026-10-15.md` for
+prompt ids and provenance. Volatile on two axes: if Astria exposes layered output, the first table
+row and the third FAQ must be rewritten; if Adobe ships Layered Image Editing, announced at MAX in
+October 2025 and still in development, the field section must be rewritten. The Flux 3 review's
+Seedream layer-separation sentence was qualified the same day to match the test.
 
 ## Open items
 
