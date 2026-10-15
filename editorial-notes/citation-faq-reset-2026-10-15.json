@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "withdrawal_and_replacement_prepared",
+  "status": "published_verified",
   "request": "Delete the nine articles created in the FAQ batch and rebuild the first catalog topic from first principles using the course and Astria.",
   "withdrawn_source_paths": [
     "blog/ai-product-photography-rights-checklist.md",
@@ -70,7 +70,8 @@
       "perfect fidelity",
       "measured time savings"
     ],
-    "other_prior_gap_topics": "Not fulfilled by this single replacement; do not claim 44-question coverage."
+    "other_prior_gap_topics": "Not fulfilled by this single replacement; do not claim 44-question coverage.",
+    "actual_release_date": "2026-10-15"
   },
   "course_review": {
     "series_structure": [
@@ -216,5 +217,234 @@
     "withdrawn_build_keys_absent": 26,
     "faq_index": "one replacement article; withdrawn routes absent",
     "visual_review": "local embedded-browser title, reference/result pair and outfit-row UI checked"
+  },
+  "published_on": "2026-10-15",
+  "publication": {
+    "release": "collection-faq-reset-20261015-796ba69f",
+    "source_commit": "796ba69fc433df4ea8fec7a257eb105aa3b7be36",
+    "previous_release": "article-faq-only-20261015-20ff30b4",
+    "removed_paths": [
+      "ai-product-photography-rights-checklist/index.html",
+      "batch-product-photos-from-csv/index.html",
+      "bottle-photo-lifestyle-images/index.html",
+      "downloads/citation-gap-guides/README.md",
+      "downloads/citation-gap-guides/README.txt",
+      "downloads/citation-gap-guides/accepted-outputs.csv",
+      "downloads/citation-gap-guides/campaign-variation-matrix.csv",
+      "downloads/citation-gap-guides/catalog-manifest.csv",
+      "downloads/citation-gap-guides/catalog-starter-kit.zip",
+      "downloads/citation-gap-guides/correction-checklist.csv",
+      "downloads/citation-gap-guides/job-receipts.csv",
+      "downloads/citation-gap-guides/launch-checklist.md",
+      "downloads/citation-gap-guides/launch-checklist.txt",
+      "downloads/citation-gap-guides/plan_catalog_batch.py",
+      "downloads/citation-gap-guides/production-time-decision.md",
+      "downloads/citation-gap-guides/production-time-decision.txt",
+      "downloads/citation-gap-guides/production-time-worksheet.csv",
+      "downloads/citation-gap-guides/provider-questionnaire.md",
+      "downloads/citation-gap-guides/provider-questionnaire.txt",
+      "downloads/citation-gap-guides/review-log.csv",
+      "fix-ai-product-photo-errors/index.html",
+      "kidswear-photography-without-model/index.html",
+      "measure-ai-product-photography-time/index.html",
+      "photograph-clothes-with-phone/index.html",
+      "product-photo-ad-variations/index.html",
+      "product-photos-without-studio/index.html"
+    ],
+    "remaining_files": 2737,
+    "objects_deleted": 0,
+    "active": true
+  },
+  "live_verification": {
+    "checks": [
+      {
+        "path": "ai-product-photography-rights-checklist/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "batch-product-photos-from-csv/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "bottle-photo-lifestyle-images/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "fix-ai-product-photo-errors/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "kidswear-photography-without-model/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "measure-ai-product-photography-time/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "photograph-clothes-with-phone/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "product-photo-ad-variations/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "product-photos-without-studio/",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/README.md",
+        "status": 404,
+        "release": null,
+        "robots": null
+      },
+      {
+        "path": "downloads/citation-gap-guides/README.txt",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/accepted-outputs.csv",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/campaign-variation-matrix.csv",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/catalog-manifest.csv",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/catalog-starter-kit.zip",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/correction-checklist.csv",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/job-receipts.csv",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/launch-checklist.md",
+        "status": 404,
+        "release": null,
+        "robots": null
+      },
+      {
+        "path": "downloads/citation-gap-guides/launch-checklist.txt",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/plan_catalog_batch.py",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/production-time-decision.md",
+        "status": 404,
+        "release": null,
+        "robots": null
+      },
+      {
+        "path": "downloads/citation-gap-guides/production-time-decision.txt",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/production-time-worksheet.csv",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/provider-questionnaire.md",
+        "status": 404,
+        "release": null,
+        "robots": null
+      },
+      {
+        "path": "downloads/citation-gap-guides/provider-questionnaire.txt",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "downloads/citation-gap-guides/review-log.csv",
+        "status": 404,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": "noindex"
+      },
+      {
+        "path": "product-photos-whole-collection/",
+        "status": 200,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": null
+      },
+      {
+        "path": "tags/faq/",
+        "status": 200,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": null
+      },
+      {
+        "path": "sitemap.xml",
+        "status": 200,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": null
+      },
+      {
+        "path": "create-lookbook-template-astria/",
+        "status": 200,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": null
+      },
+      {
+        "path": "generate-multiple-styled-looks-astria/",
+        "status": 200,
+        "release": "collection-faq-reset-20261015-796ba69f",
+        "robots": null
+      }
+    ],
+    "errors": [],
+    "all_passed": true
   }
 }
