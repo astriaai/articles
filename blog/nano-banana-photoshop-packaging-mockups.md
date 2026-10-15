@@ -5,7 +5,7 @@ slug: nano-banana-photoshop-packaging-mockups
 date: 2026-10-15
 image: /img/photoshop-video-guides/packaging-design-canvas.webp
 authors: [astria]
-tags: [guides, photoshop]
+tags: [photoshop]
 keywords:
   - "AI packaging mockup Photoshop"
   - "Nano Banana packaging design"

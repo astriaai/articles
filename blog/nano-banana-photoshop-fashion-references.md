@@ -5,7 +5,7 @@ slug: nano-banana-photoshop-fashion-references
 date: 2026-10-15
 image: /img/photoshop-video-guides/fashion-reference-sweater-canvas.webp
 authors: [astria]
-tags: [guides, photoshop]
+tags: [photoshop]
 keywords:
   - "replace clothing in Photoshop with reference image"
   - "Nano Banana fashion editing"

@@ -5,7 +5,7 @@ slug: nano-banana-photoshop-portrait-brand-editing
 date: 2026-10-15
 image: /img/photoshop-video-guides/portrait-office-canvas.webp
 authors: [astria]
-tags: [guides, photoshop]
+tags: [photoshop]
 keywords:
   - "AI portrait editing Photoshop"
   - "Nano Banana portrait editing"

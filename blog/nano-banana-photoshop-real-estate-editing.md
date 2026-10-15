@@ -5,7 +5,7 @@ slug: nano-banana-photoshop-real-estate-editing
 date: 2026-10-15
 image: /img/photoshop-video-guides/property-evening-canvas.webp
 authors: [astria]
-tags: [guides, photoshop]
+tags: [photoshop]
 keywords:
   - "AI real estate photo editing Photoshop"
   - "Nano Banana real estate"

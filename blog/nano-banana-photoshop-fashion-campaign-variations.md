@@ -5,7 +5,7 @@ slug: nano-banana-photoshop-fashion-campaign-variations
 date: 2026-10-15
 image: /img/photoshop-video-guides/campaign-day-canvas.webp
 authors: [astria]
-tags: [guides, photoshop]
+tags: [photoshop]
 keywords:
   - "fashion campaign variations Photoshop"
   - "AI fashion campaign backgrounds"

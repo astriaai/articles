@@ -5,7 +5,7 @@ slug: nano-banana-photoshop-architecture
 date: 2026-10-14
 image: /img/photoshop-video-guides/architecture-daylight-canvas.webp
 authors: [astria]
-tags: [guides, photoshop]
+tags: [photoshop]
 keywords:
   - "Nano Banana architecture Photoshop"
   - "AI architectural visualization"

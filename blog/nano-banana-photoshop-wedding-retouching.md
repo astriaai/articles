@@ -5,7 +5,7 @@ slug: nano-banana-photoshop-wedding-retouching
 date: 2026-10-15
 image: /img/photoshop-video-guides/bridal-retouch-canvas.webp
 authors: [astria]
-tags: [guides, photoshop]
+tags: [photoshop]
 keywords:
   - "AI wedding photo editing Photoshop"
   - "Nano Banana wedding retouching"

@@ -6,7 +6,7 @@ date: 2026-10-15
 hide_table_of_contents: true
 image: /img/covers/layer-separation-photoshop.webp
 authors: [astria]
-tags: [guides, photoshop]
+tags: [photoshop]
 keywords:
   - AI layer separation
   - layer separation Photoshop
