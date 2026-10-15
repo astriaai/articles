@@ -7,7 +7,7 @@ export default function ArticleCTA(): ReactNode {
     return (
       <aside className="astria-article-cta astria-article-cta--default" aria-label="Edit in Photoshop with Astria">
         <div className="astria-article-cta__mark">
-          <img src="/articles/img/logo@2x.png" alt="" />
+          <img src="/articles/img/logo@2x.webp" alt="" />
         </div>
         <p className="astria-article-cta__eyebrow">Astria Photoshop plugin</p>
         <h2 className="astria-article-cta__title">Explore your next image edit</h2>
@@ -28,7 +28,7 @@ export default function ArticleCTA(): ReactNode {
       className="astria-article-cta astria-article-cta--default"
       aria-label="Start creating with Astria">
       <div className="astria-article-cta__mark">
-        <img src="/articles/img/logo@2x.png" alt="" />
+        <img src="/articles/img/logo@2x.webp" alt="" />
       </div>
       <p className="astria-article-cta__eyebrow">
         Fashion production workspace
