@@ -1,0 +1,14 @@
+.group { margin: 1.5rem 0 2.5rem; }
+.reference { display: grid; grid-template-columns: minmax(120px, 30%) minmax(0, 1fr); align-items: center; gap: 1.25rem; background: #f6f5f1; padding: 1rem; margin: 0 0 1rem; border: 1px solid #d8d7d1; color: #25252b; }
+.reference img { display: block; width: 100%; height: auto; border-radius: 0; }
+.reference figcaption { font-size: .9rem; line-height: 1.5; }
+.reference figcaption p { margin: .5rem 0 0; }
+.reference figcaption p:last-child { font-size: .75rem; color: #6a6972; }
+.variant { border: 1px solid #d8d7d1; padding: 1rem; margin: .7rem 0; }
+.variant > h4 { font-weight: 700; margin: 0; font-size: 1rem; }
+.observation { margin: .9rem 0 0; font-size: .95rem; }
+@media (max-width: 480px) { .reference { grid-template-columns: minmax(85px, 30%) minmax(0, 1fr); gap: .75rem; padding: .7rem; } .reference figcaption { font-size: .8rem; } .variant { padding: .75rem; } }
+.fullFrameLinks { font-size: .85rem; margin: .75rem 0 0; }
+.context { margin: 1rem 0; }
+.context img { display: block; width: 100%; height: auto; }
+.context figcaption { font-size: .85rem; margin-top: .5rem; }

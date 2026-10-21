@@ -1,0 +1,35 @@
+{
+  "example_coverage": "5 on-model examples, one per product reference; ORMA first; VELUNE selected by user",
+  "assets": "25 current image derivatives plus composer poster; historical studio Atelier derivatives retained",
+  "public_gallery_links": "8 previously verified links featured; private new output pairs have no Gallery links",
+  "schema": "FAQ and three-step HowTo match visible content; public indexable article",
+  "strict_build": "Passed on isolated production baseline plus Lynx changes",
+  "preview_build": "Passed strict build; refreshed local preview from isolated release build",
+  "tests": "48/48 passed",
+  "typecheck": "Passed",
+  "search_audit": "Passed: 156 sitemap URLs",
+  "browser": "Final environmental revision: five desktop comparisons, no disclosures or horizontal overflow; logo distortion and correction visibly confirmed. Earlier mobile review passed.",
+  "publication": "User-approved publication; initial release lynx-feature-20261021-bfe512d0 active, environmental revision verified for activation",
+  "preview": "http://127.0.0.1:3020/articles/lynx-product-details/",
+  "baseline_example_coverage": "12/12 on-model, 5/5 product references",
+  "example_order": [
+    "ORMA",
+    "Botanical Atlas (47345816 only)",
+    "VELUNE (47379374)",
+    "ASTRIA Atelier (47379707)",
+    "FIELD CLUB"
+  ],
+  "new_generation": "One user-requested Atelier environmental frame 47379707, matched debug_images/images visually reviewed. Earlier VELUNE trial failures remain excluded.",
+  "composer_video": {
+    "path": "static/video/lynx/enable-lynx.mp4",
+    "duration_seconds": 14.5,
+    "resolution": [
+      1200,
+      640
+    ],
+    "captions": "static/video/lynx/enable-lynx.en.vtt",
+    "browser_playback": "Passed; native playback advances, no media error",
+    "video_bytes": 1176908
+  },
+  "example_presentation": "No collapsed examples or disclosure sections; one visible detail comparison per reference, with links to its complete frames"
+}

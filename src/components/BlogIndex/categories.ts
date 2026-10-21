@@ -14,6 +14,7 @@ export const blogCategories: BlogCategory[] = [
   {label: 'Course', to: '/tags/course/'},
   {label: 'FAQ', to: '/tags/faq/'},
   {label: 'Guides', to: '/tags/guides/'},
+  {label: 'Features', to: '/tags/features/'},
   {label: 'Packshots', to: '/tags/packshots/'},
   {label: 'Economics', to: '/tags/economics/'},
   {label: 'Engineering', to: '/tags/engineering/'},
