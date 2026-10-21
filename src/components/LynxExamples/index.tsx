@@ -24,7 +24,13 @@ export default function LynxExamples({category}: Props) {
       <div className={styles.variant}>
         <h4>{variant.label} · {variant.resolution} setting</h4>
         <p className={styles.observation}>{variant.observation}</p>
-        <p><a href={variant.gallery}>View example in Gallery</a></p>
+        {variant.gallery && <p><a href={variant.gallery}>View example in Gallery</a></p>}
+        {'context' in variant && variant.context && (
+          <figure className={styles.context}>
+            <a href={variant.after}><img src={variant.after} alt={`${group.name}: finished environmental photograph showing the product at its original scale in the scene`} loading="lazy" width="2400" height="1792" /></a>
+            <figcaption>The complete scene shows the small scale of the product detail. Compare the matched crops below.</figcaption>
+          </figure>
+        )}
         <ImageModelComparison
           title={`${group.name} · matched detail`}
           description="The same relative crop from this prompt’s before and finished frames. Switch to Scan line to inspect the difference."

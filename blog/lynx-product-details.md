@@ -61,9 +61,9 @@ For example, with a person and shirt attached:
 
 Lynx handles the detail refinement automatically. Review the completed image at the size you will use it, then zoom in to check the brand mark, wording, print, label and surrounding material.
 
-## Four products, four matched examples
+## Five products, five matched examples
 
-These are original fictional demonstration designs from the **Lynx — Detail Lab** workspace. Each product-only reference is identified separately from its on-model outputs. The four featured references were created as synthetic demonstration assets; they are not customer products or photographs of manufactured items.
+These are original fictional demonstration designs from the **Lynx — Detail Lab** workspace. Each product-only reference is identified separately from its on-model outputs. The five featured references were created as synthetic demonstration assets; they are not customer products or photographs of manufactured items.
 
 Every comparison uses the **before frame and finished frame attached to the same prompt**. The detail crops use the same relative coordinates, and links to the complete frames accompany each example. No manual retouching was applied to the article images. Web copies are resized and encoded for display; the crops are not upscaled.
 
@@ -83,9 +83,15 @@ The featured example shows an additional refinement pass. The caption was alread
 
 <LynxExamples category="Botanical Atlas" />
 
+### VELUNE: a small brass logo in a wide scene
+
+The oxblood handbag is carried through a furnished room, leaving its small brass lettering and crescent plaque at a natural scale. The before frame has malformed lettering; the finished frame reads **VELUNE** and restores the upward-facing crescent with its dot above. The full scene and matched crops show how small the detail is within the photograph.
+
+<LynxExamples category="VELUNE" />
+
 ### ASTRIA Atelier: a small printed logo
 
-A small cream star and two lines of lettering sit on a navy shirt. The brand wording is already readable before Lynx. The finished frame shows subtle edge and symbol changes, so this pair demonstrates inspection of a small mark rather than a dramatic spelling repair.
+A small cream star and two lines of lettering sit on a navy shirt, worn in a wide room scene. **ASTRIA** is readable in the before frame, but the smaller line beneath it is garbled. The finished frame reads **ATELIER**. The full scene establishes the scale of the mark, while the matched crops make the distorted lettering and its correction visible.
 
 <LynxExamples category="ASTRIA Atelier" />
 
@@ -121,7 +127,7 @@ No. Lynx can refine product details automatically during generation, with no man
 
 ### What product details is Lynx for?
 
-Lynx is for reference details such as logos, small text, complex prints, plaques, emblems, labels and fine product features. This demonstration covers a printed shirt, a small chest logo, a woven badge and a woven bag label.
+Lynx is for reference details such as logos, small text, complex prints, plaques, emblems, labels and fine product features. This demonstration covers a printed shirt, a small chest logo, a woven badge, a woven bag label and a brass handbag plaque.
 
 ### Will Lynx reproduce every detail perfectly?
 

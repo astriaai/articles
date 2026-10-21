@@ -42,6 +42,28 @@
     "referenceGallery": "https://www.astria.ai/gallery?user_id=2&text=original+fictional+design&limit=50#prompt_47336164"
   },
   {
+    "name": "VELUNE",
+    "detail": "Brass lettering and crescent plaque",
+    "referenceId": 47336168,
+    "tuneId": 5929780,
+    "reference": "/articles/img/lynx/47336168-reference.webp",
+    "referenceGallery": "https://www.astria.ai/gallery?user_id=2&text=original+fictional+design&limit=50#prompt_47336168",
+    "variants": [
+      {
+        "id": 47379374,
+        "resolution": "4K",
+        "label": "Small plaque in a wide scene",
+        "observation": "The wide room view leaves the bag’s plaque small in the photograph. The malformed lettering becomes readable as VELUNE, with an upward-facing crescent and dot above it. Compare the brass shapes, spacing and leather against the product reference.",
+        "before": "/articles/img/lynx/47379374-before.webp",
+        "beforeDetail": "/articles/img/lynx/47379374-before-detail.webp",
+        "after": "/articles/img/lynx/47379374-after.webp",
+        "afterDetail": "/articles/img/lynx/47379374-after-detail.webp",
+        "gallery": "",
+        "context": true
+      }
+    ]
+  },
+  {
     "name": "ASTRIA Atelier",
     "detail": "Small printed logo",
     "referenceId": 47336166,
@@ -49,15 +71,16 @@
     "reference": "/articles/img/lynx/47336166-reference.webp",
     "variants": [
       {
-        "id": 47340415,
+        "id": 47379707,
         "resolution": "4K",
-        "observation": "ASTRIA and ATELIER are readable in both frames. Changes around the star and letter edges are subtle; this pair does not demonstrate a spelling correction.",
-        "before": "/articles/img/lynx/47340415-before.webp",
-        "beforeDetail": "/articles/img/lynx/47340415-before-detail.webp",
-        "after": "/articles/img/lynx/47340415-after.webp",
-        "afterDetail": "/articles/img/lynx/47340415-after-detail.webp",
-        "gallery": "https://www.astria.ai/gallery?user_id=2&text=5929778&limit=50#prompt_47340415",
-        "label": "Small logo refinement"
+        "observation": "The full room view leaves the chest mark small. ASTRIA is readable before Lynx, but the smaller line is garbled. In the finished frame it reads ATELIER, and the star and letter shapes are redrawn. Compare the complete mark against the reference.",
+        "before": "/articles/img/lynx/47379707-before.webp",
+        "beforeDetail": "/articles/img/lynx/47379707-before-detail.webp",
+        "after": "/articles/img/lynx/47379707-after.webp",
+        "afterDetail": "/articles/img/lynx/47379707-after-detail.webp",
+        "gallery": "",
+        "label": "Small chest logo in a wide scene",
+        "context": true
       }
     ],
     "referenceGallery": "https://www.astria.ai/gallery?user_id=2&text=original+fictional+design&limit=50#prompt_47336166"

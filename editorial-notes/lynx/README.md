@@ -83,6 +83,14 @@ Removed every remaining alternate output from public data, keeping ORMA 47336203
 User authorized commit and publication. Build the exact current production source commit 796ba69fc433df4ea8fec7a257eb105aa3b7be36 plus only the Lynx article, Features tag/tab, four selected comparisons, activation video and internal audit records in an isolated managed worktree. This preserves production content and avoids publishing unrelated changes from the shared checkout. Remove the article’s unlisted flag for public indexing. Strict build, tests, typecheck, search audit and release preservation checks must pass before activation.
 
 
-### Release verification
+### Initial release verification
 
-Strict build, 48 tests, TypeScript and search/schema audit passed on the isolated production baseline plus task files. All 154 production sitemap URLs remain; only the Lynx article and Features category are added. Article is indexable, appears on the article index, has four comparisons and no collapsed examples or visible prompt IDs. Release changes include only the approved task and generated site updates.
+Strict build, 48 tests, TypeScript and search/schema audit passed on the isolated production baseline plus task files. All 154 production sitemap URLs remained; only the Lynx article and Features category were added. The initial release had four comparisons.
+
+## Environmental examples and publication update
+
+The first approved release was activated as `lynx-feature-20261021-bfe512d0` from commit bfe512d0 on the isolated production baseline. While publishing, the user selected VELUNE prompt 47379374 and requested the same wider environmental treatment for ASTRIA Atelier. Generated one new 4K 4:3 frame, 47379707, in the explicitly selected workspace 1092, using inspected Damien, shirt and room references. This supersedes the earlier no-generation restriction for this requested example. Both selected pairs use their own debug_images and finished images. No public Gallery visibility was changed; private outputs have no Gallery link. Original source location imagery is not published.
+
+VELUNE now has readable lettering and the upward crescent with dot above. Atelier has readable ASTRIA but a garbled lower line before refinement; the finished lower line reads ATELIER. Star/letter geometry also changes, so captions retain reference review guidance. Full finished scenes establish scale; same-coordinate crops show the actual deformation. One comparison per reference remains, with ORMA first, no disclosures and no visible IDs. `environmental-selection.json` records source hashes, dimensions, crops, provenance and selection rationale. Original studio Atelier assets remain historical only. Two-image comparisons now use both desktop columns instead of leaving half the grid empty.
+
+Final environmental revision checks: strict build, 48 tests, TypeScript and search/schema audit passed. Desktop browser confirmed five comparisons, no disclosures, no horizontal overflow, full environmental scenes and readable matched logo crops.

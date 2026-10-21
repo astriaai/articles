@@ -1,0 +1,111 @@
+{
+  "id": 47379374,
+  "creation_source": "web",
+  "callback": null,
+  "trained_at": "2026-10-21T17:56:43.062Z",
+  "started_training_at": "2026-10-21T17:55:50.747Z",
+  "failed_at": null,
+  "created_at": "2026-10-21T17:54:56.906Z",
+  "updated_at": "2026-10-21T17:56:43.062Z",
+  "tune_id": 4180298,
+  "prompt_likes_count": 0,
+  "base_pack_id": null,
+  "order_id": null,
+  "user_id": 2,
+  "workspace_id": 1092,
+  "is_video": false,
+  "user_error": null,
+  "cost_mc": 66000,
+  "num_images": 1,
+  "input_image": null,
+  "input_video": null,
+  "mask_image": null,
+  "video_first_frame": null,
+  "video_last_frame": null,
+  "audio_reference": null,
+  "image_references": [],
+  "video_prompt": null,
+  "video_model": null,
+  "video_duration": null,
+  "skill_name": null,
+  "text": "<faceid:3994556:1> woman carrying <faceid:5929780:1> handbag in the <faceid:4241166:1> location . A polished luxury fashion campaign photograph, wide environmental long shot photographed from across the room, complete woman from head to shoes occupying only 55 percent of the image height, generous architecture and furnishings visible around her. Use the location reference for the warm wood-paneled interior, white linen sofa, blue ceramic vases, patterned blue cushions, low timber coffee table and layered daylight. The woman stands beside the far end of the sofa, wearing an unbranded pale ivory silk blouse, flowing charcoal tailored trousers and dark pointed flats, a relaxed natural three-quarter stance. She holds the oxblood structured leather bag by both rolled handles in one lowered hand, resting beside her thigh with its front panel angled toward the camera, fingers and clothing clear of the small brass lettering. Keep the handbag at its realistic small scale in the long shot, roughly one tenth of the frame height; do not enlarge it or make a product close-up. Preserve its trapezoidal silhouette, oxblood pebbled leather, rolled handles, edge paint, brass hardware and the reference's small VELUNE letters with crescent-and-dot symbol. Refined directional window light, realistic depth, gentle warm and cool reflections on brass, subtle foreground depth from the coffee table without occluding the bag. One woman, one handbag, one coherent photograph. Use only this woman's identity, not any other people. No inset, no detail panel, no collage, no graphic overlay. --lynx",
+  "negative_prompt": "",
+  "cfg_scale": null,
+  "steps": null,
+  "super_resolution": false,
+  "resolution": "4K",
+  "ar": "1:1",
+  "seed": null,
+  "controlnet": null,
+  "controlnet_conditioning_scale": null,
+  "controlnet_txt2img": false,
+  "denoising_strength": null,
+  "style": null,
+  "color_grading": null,
+  "film_grain": false,
+  "hires_fix": false,
+  "inpaint_faces": false,
+  "face_correct": false,
+  "face_swap": false,
+  "backend_version": null,
+  "scheduler": "euler_a",
+  "use_lpw": false,
+  "w": null,
+  "h": null,
+  "aspect_ratio": "4:3",
+  "url": "https://api.astria.ai/tunes/4180298/prompts/47379374.json?ws=1092",
+  "images": [
+    "https://mp.astria.ai/js7uhtlw26fzxzi4ee7wlpc3ysc7"
+  ],
+  "filenames": [
+    "47379374-0.jpg"
+  ],
+  "content_types": [
+    "image/jpeg"
+  ],
+  "blob_ids": [
+    229795485
+  ],
+  "debug_images": [
+    "https://mp.astria.ai/bftokjsfx9zftl7kzt6980dj7rj0"
+  ],
+  "debug_filenames": [
+    "47379374-0-0.jpeg"
+  ],
+  "debug_content_types": [
+    "image/jpeg"
+  ],
+  "liked": false,
+  "tune": {
+    "id": 4180298,
+    "title": "Nano Banana 2.1",
+    "model_type": null,
+    "name": ""
+  },
+  "tunes": [
+    {
+      "id": 5929780,
+      "title": "04 · Handbags — VELUNE Leather · Product Reference",
+      "model_type": "faceid",
+      "name": "handbag",
+      "branch": "gemini-2"
+    },
+    {
+      "id": 4241166,
+      "title": "location",
+      "model_type": "faceid",
+      "name": "location",
+      "branch": "gemini-2"
+    },
+    {
+      "id": 3994556,
+      "title": "Sienna",
+      "model_type": "faceid",
+      "name": "woman",
+      "branch": "gemini-2"
+    }
+  ],
+  "creation_client": {
+    "type": "browser"
+  }
+}

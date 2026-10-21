@@ -81,7 +81,7 @@ export default function ImageModelComparison({
       ) : null}
 
       {mode === 'grid' ? (
-        <div className={styles.grid}>
+        <div className={styles.grid} data-count={items.length}>
           {items.map((item) => (
             <figure className={styles.card} key={`${item.label}-${item.src}`}>
               <img loading="lazy" decoding="async" src={item.src} alt={item.alt} />
