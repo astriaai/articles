@@ -1,0 +1,34 @@
+{
+  "example_coverage": "4 on-model examples, one per product reference; ORMA first; VELUNE excluded",
+  "assets": "20 image derivatives referenced by featured examples, plus composer video poster",
+  "public_gallery_links": "8 previously verified links featured",
+  "schema": "FAQ and three-step HowTo match visible content; public indexable article",
+  "strict_build": "Passed on isolated production baseline plus Lynx changes",
+  "preview_build": "Passed with only unrelated broken-link severity changed to warn in temporary config",
+  "tests": "48/48 passed",
+  "typecheck": "Passed",
+  "search_audit": "Passed; all 154 existing sitemap URLs retained, only article and Features category added",
+  "browser": "Desktop 1280x720 and mobile 390x844 reviewed; no horizontal mobile overflow; scan slider works by keyboard",
+  "publication": "Approved and ready for publication; public indexable article",
+  "preview": "http://127.0.0.1:3020/articles/lynx-product-details/",
+  "baseline_example_coverage": "12/12 on-model, 5/5 product references",
+  "example_order": [
+    "ORMA",
+    "Botanical Atlas (47345816 only)",
+    "ASTRIA Atelier",
+    "FIELD CLUB"
+  ],
+  "new_generation": "Trial 47379097 and same-frame Apply Lynx pass 47379246 completed. Both excluded: crescent orientation and dot placement remain inaccurate.",
+  "composer_video": {
+    "path": "static/video/lynx/enable-lynx.mp4",
+    "duration_seconds": 14.5,
+    "resolution": [
+      1200,
+      640
+    ],
+    "captions": "static/video/lynx/enable-lynx.en.vtt",
+    "browser_playback": "Passed; native playback advances, no media error",
+    "video_bytes": 1176908
+  },
+  "example_presentation": "No collapsed examples or disclosure sections; one visible detail comparison per reference, with links to its complete frames"
+}

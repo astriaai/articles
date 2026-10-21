@@ -1,0 +1,15 @@
+{
+  "base_release": "collection-faq-reset-20261015-796ba69f",
+  "base_source_commit": "796ba69fc433df4ea8fec7a257eb105aa3b7be36",
+  "sitemap_existing_preserved": 154,
+  "added_urls": [
+    "https://www.astria.ai/articles/lynx-product-details/",
+    "https://www.astria.ai/articles/tags/features/"
+  ],
+  "article": "public indexable; four references; four always-visible comparisons; Features tag; composer video",
+  "tests": "48/48 passed",
+  "typecheck": "passed",
+  "strict_build": "passed",
+  "search_audit": "passed",
+  "publication": "approved, ready for activation"
+}

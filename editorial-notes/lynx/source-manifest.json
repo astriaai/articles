@@ -1,0 +1,1146 @@
+{
+  "workspace_id": 1092,
+  "workspace_title": "Lynx — Detail Lab",
+  "date": "2026-10-21",
+  "generation_policy": "No new generation. Explicit instruction uses all existing 1092 examples, including synthetic text-only product reference fixtures and the unsuccessful early variant, overriding normal article image selection rules. No files from ~/git/out used.",
+  "media_processing": "WebP encoding and identical normalized rectangular crops only; no retouching, sharpening, compositing or upscaling. Full-frame web copies cap long edge at 2400px; detail crops retain native pixels unless reduced to 1200px.",
+  "examples": [
+    {
+      "prompt_id": 47336164,
+      "role": "synthetic product reference",
+      "tune_id": 5929777,
+      "source": {
+        "prompt_id": 47336164,
+        "role": "reference",
+        "url": "https://mp.astria.ai/aqlqe8ikb1h7p7ye22jrcj8ja1fj",
+        "path": "/private/tmp/lynx-article-sources/47336164-reference.jpg",
+        "sha256": "d4267376c9005a8da79ae0141d3c2894702853329600e1d12c07f4696e64db58"
+      },
+      "native_dimensions": [
+        1792,
+        2400
+      ],
+      "selected_reason": "User-requested original demonstration reference; visually reviewed. Not an on-model Lynx result."
+    },
+    {
+      "prompt_id": 47337975,
+      "reference_tune_id": 5929777,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929777:1> shirt with plain dark indigo straight jeans and neutral sneakers. Full-length front-facing studio lookbook portrait, head to toe, relaxed stance, both arms hanging clear of the chest, shirt untucked and artwork entirely visible. Warm chalk studio cyclorama, large soft key light, gentle natural shadows, elegant contemporary editorial photography. Preserve every motif and line of the source shirt artwork, its true proportions and placement. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "The caption becomes closer to “FIELD NOTES / 021” and the print is redrawn. Its size and some motif details also change; compare the artwork to the source.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47337975,
+            "role": "before",
+            "url": "https://mp.astria.ai/xqgyafenx9tv5prq1qqajbce3f7e",
+            "path": "/private/tmp/lynx-article-sources/47337975-before.jpg",
+            "sha256": "77042237d337f54ca98581f705fa1fa3f9e8af8e79957340b53da4f23119bd4b"
+          },
+          "native_dimensions": [
+            1792,
+            2400
+          ],
+          "normalized_crop": [
+            0.37,
+            0.25,
+            0.64,
+            0.44
+          ],
+          "pixel_crop": [
+            663,
+            600,
+            1147,
+            1056
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            484,
+            456
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47337975,
+            "role": "after",
+            "url": "https://mp.astria.ai/se4srxqdjm4hcu95zsecqn2u6jnj",
+            "path": "/private/tmp/lynx-article-sources/47337975-after.jpg",
+            "sha256": "901ed237b8c543dc6fc78d0d74929e0dae67d21de65c5bd5dda4f9ce95f9a915"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.37,
+            0.25,
+            0.64,
+            0.44
+          ],
+          "pixel_crop": [
+            1918,
+            1736,
+            3318,
+            3055
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            1200,
+            1131
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47345816,
+      "reference_tune_id": 5929777,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929777:1> shirt with plain dark indigo straight jeans and neutral sneakers. Full-length front-facing studio lookbook portrait, head to toe, relaxed stance, both arms hanging clear of the chest, shirt untucked and artwork entirely visible. Warm chalk studio cyclorama, large soft key light, gentle natural shadows, elegant contemporary editorial photography. Preserve every motif and line of the source shirt artwork, its true proportions and placement. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "The before frame is the finished frame from 47337975. This additional pass makes subtle changes to fine artwork and caption strokes; the wording was already close before this pass.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47345816,
+            "role": "before",
+            "url": "https://mp.astria.ai/se4srxqdjm4hcu95zsecqn2u6jnj",
+            "path": "/private/tmp/lynx-article-sources/47345816-before.jpg",
+            "sha256": "901ed237b8c543dc6fc78d0d74929e0dae67d21de65c5bd5dda4f9ce95f9a915"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.37,
+            0.25,
+            0.64,
+            0.44
+          ],
+          "pixel_crop": [
+            1918,
+            1736,
+            3318,
+            3055
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            1200,
+            1131
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47345816,
+            "role": "after",
+            "url": "https://mp.astria.ai/0ipfd5inxbwu8xfe31niq0llukbw",
+            "path": "/private/tmp/lynx-article-sources/47345816-after.jpg",
+            "sha256": "d270794c9041230cbe0b5be834ba4bd3976fac113d23a244618bc83a1ef58828"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.37,
+            0.25,
+            0.64,
+            0.44
+          ],
+          "pixel_crop": [
+            1918,
+            1736,
+            3318,
+            3055
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            1200,
+            1131
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47340448,
+      "reference_tune_id": 5929777,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "4K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929777:1> shirt with plain dark indigo straight jeans and neutral sneakers. Full-length front-facing studio lookbook portrait, head to toe, relaxed stance, both arms hanging clear of the chest, shirt untucked and artwork entirely visible. Warm chalk studio cyclorama, large soft key light, gentle natural shadows, elegant contemporary editorial photography. Preserve every motif and line of the source shirt artwork, its true proportions and placement. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "The print and caption are already recognizable before refinement. The finished frame alters fine lines and lettering, with a smaller visible change than 47337975.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47340448,
+            "role": "before",
+            "url": "https://mp.astria.ai/c9q9r3xfz7zocw5cxvh2b6r8oycz",
+            "path": "/private/tmp/lynx-article-sources/47340448-before.jpg",
+            "sha256": "06f1940cf0263be618cf39f189dd905f07c43db8e75bc318890aef4e5a60a937"
+          },
+          "native_dimensions": [
+            3584,
+            4800
+          ],
+          "normalized_crop": [
+            0.37,
+            0.25,
+            0.64,
+            0.44
+          ],
+          "pixel_crop": [
+            1326,
+            1200,
+            2294,
+            2112
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            968,
+            912
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47340448,
+            "role": "after",
+            "url": "https://mp.astria.ai/o8f3r12yqmwjwormz8z1clu6turx",
+            "path": "/private/tmp/lynx-article-sources/47340448-after.jpg",
+            "sha256": "e0897c91227f2b97cd1b47d6d9c2bfb776768d8111e9bf81a3c1e6750be667f3"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.37,
+            0.25,
+            0.64,
+            0.44
+          ],
+          "pixel_crop": [
+            1918,
+            1736,
+            3318,
+            3055
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            1200,
+            1131
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47336198,
+      "reference_tune_id": 5929777,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929777:1> shirt with plain dark indigo straight jeans and neutral sneakers. Full-length front-facing studio lookbook portrait, head to toe, relaxed stance, both arms hanging clear of the chest, shirt untucked and artwork entirely visible. Warm chalk studio cyclorama, large soft key light, gentle natural shadows, elegant contemporary editorial photography. Preserve every motif and line of the source shirt artwork, its true proportions and placement. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "The caption remains incorrect in the finished frame. This early variant shows why running Lynx still needs a reference check before approval.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47336198,
+            "role": "before",
+            "url": "https://mp.astria.ai/7sc45own0t8l81n0fyb08306x0hq",
+            "path": "/private/tmp/lynx-article-sources/47336198-before.jpg",
+            "sha256": "13cb88cbe2f9507eea17bb296ff80419427d0fa7e88033af35c9c97a6652f36c"
+          },
+          "native_dimensions": [
+            1792,
+            2400
+          ],
+          "normalized_crop": [
+            0.37,
+            0.25,
+            0.64,
+            0.44
+          ],
+          "pixel_crop": [
+            663,
+            600,
+            1147,
+            1056
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            484,
+            456
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47336198,
+            "role": "after",
+            "url": "https://mp.astria.ai/l0ox36vflnikeo1p3ndasg1btu1d",
+            "path": "/private/tmp/lynx-article-sources/47336198-after.jpg",
+            "sha256": "e7daaeba30247ca8954f900948be53865e6865e72156fd39800ad8bf6cd8a075"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.37,
+            0.25,
+            0.64,
+            0.44
+          ],
+          "pixel_crop": [
+            1918,
+            1736,
+            3318,
+            3055
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            1200,
+            1131
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47336166,
+      "role": "synthetic product reference",
+      "tune_id": 5929778,
+      "source": {
+        "prompt_id": 47336166,
+        "role": "reference",
+        "url": "https://mp.astria.ai/95lt7offhi6mt285g5me6kvm524a",
+        "path": "/private/tmp/lynx-article-sources/47336166-reference.jpg",
+        "sha256": "99be0535f1023eb448cf4df983c0c39ab3a39bf09e7be99b52b63f5b2f10e85a"
+      },
+      "native_dimensions": [
+        1792,
+        2400
+      ],
+      "selected_reason": "User-requested original demonstration reference; visually reviewed. Not an on-model Lynx result."
+    },
+    {
+      "prompt_id": 47340415,
+      "reference_tune_id": 5929778,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "4K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929778:1> shirt with light stone tailored trousers and plain white sneakers. Full-length studio fashion photograph, body turned only ten degrees, face toward camera, hands at sides clear of the chest logo, shirt untucked. Cool pale grey seamless set, broad soft frontal lighting, calm premium catalog styling. Preserve the small cream ASTRIA ATELIER wordmark and star exactly as supplied, correct spelling, scale and left-chest placement. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "ASTRIA and ATELIER are readable in both frames. Changes around the star and letter edges are subtle; this pair does not demonstrate a spelling correction.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47340415,
+            "role": "before",
+            "url": "https://mp.astria.ai/c1jvmcn1w20bt6oj4sgccd3fcqq7",
+            "path": "/private/tmp/lynx-article-sources/47340415-before.jpg",
+            "sha256": "7e190c861d11038225d945824967c10a011092b7d9533ef38b463db4d86d4457"
+          },
+          "native_dimensions": [
+            3584,
+            4800
+          ],
+          "normalized_crop": [
+            0.48,
+            0.25,
+            0.66,
+            0.4
+          ],
+          "pixel_crop": [
+            1720,
+            1200,
+            2365,
+            1920
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            645,
+            720
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47340415,
+            "role": "after",
+            "url": "https://mp.astria.ai/xfmwamxax3um0vlnszoohodfzyxf",
+            "path": "/private/tmp/lynx-article-sources/47340415-after.jpg",
+            "sha256": "a7657d66231555e9f31177b2dd702b26bd6d8ebf7553546c87078fe7da5adacd"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.48,
+            0.25,
+            0.66,
+            0.4
+          ],
+          "pixel_crop": [
+            2489,
+            1736,
+            3422,
+            2778
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            933,
+            1042
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47336199,
+      "reference_tune_id": 5929778,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929778:1> shirt with light stone tailored trousers and plain white sneakers. Full-length studio fashion photograph, body turned only ten degrees, face toward camera, hands at sides clear of the chest logo, shirt untucked. Cool pale grey seamless set, broad soft frontal lighting, calm premium catalog styling. Preserve the small cream ASTRIA ATELIER wordmark and star exactly as supplied, correct spelling, scale and left-chest placement. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "Both frames already show the brand wording. Refinement changes fine edges, but there is no clear wording improvement at normal article size.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47336199,
+            "role": "before",
+            "url": "https://mp.astria.ai/o9knvrqax7edooa4gpckvzu5hus1",
+            "path": "/private/tmp/lynx-article-sources/47336199-before.jpg",
+            "sha256": "1fb30b683df5fa175d1b313c07cf26de14ac7b9466354f8a1a4b48caa4c6f0d0"
+          },
+          "native_dimensions": [
+            1792,
+            2400
+          ],
+          "normalized_crop": [
+            0.48,
+            0.25,
+            0.66,
+            0.4
+          ],
+          "pixel_crop": [
+            860,
+            600,
+            1183,
+            960
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            323,
+            360
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47336199,
+            "role": "after",
+            "url": "https://mp.astria.ai/9zwly1whpivbwrqz7sh7fpmg6n3s",
+            "path": "/private/tmp/lynx-article-sources/47336199-after.jpg",
+            "sha256": "576e375ffa5919bd95e36330fed2ddc72ccd8e00b49c9a757f1050bd07d900c5"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.48,
+            0.25,
+            0.66,
+            0.4
+          ],
+          "pixel_crop": [
+            2489,
+            1736,
+            3422,
+            2778
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            933,
+            1042
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47336167,
+      "role": "synthetic product reference",
+      "tune_id": 5929779,
+      "source": {
+        "prompt_id": 47336167,
+        "role": "reference",
+        "url": "https://mp.astria.ai/69yy9a7pwfiz9b0ekzqb43ht8oc5",
+        "path": "/private/tmp/lynx-article-sources/47336167-reference.jpg",
+        "sha256": "35460adca98069a4a083e62b2bae54558b47225e4dd0ce59fadf9efdeac10448"
+      },
+      "native_dimensions": [
+        1792,
+        2400
+      ],
+      "selected_reason": "User-requested original demonstration reference; visually reviewed. Not an on-model Lynx result."
+    },
+    {
+      "prompt_id": 47340410,
+      "reference_tune_id": 5929779,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "4K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929779:1> shirt with forest-green tailored trousers and plain suede loafers. Three-quarter-length fashion portrait from head to below knees, nearly frontal with shoulders turned ten degrees, arms clear of the chest. Warm limestone-colored studio backdrop, soft side key light showing tactile relief without harsh shadows. Preserve the FIELD CLUB woven shield, heron, three stars, thread directions, raised embroidery and cotton pique texture from the reference. Keep emblem at its original small scale and position. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "The malformed ribbon lettering becomes readable as FIELD CLUB. The ribbon, heron and thread-like texture are also redrawn; their shapes still need comparison with the reference.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47340410,
+            "role": "before",
+            "url": "https://mp.astria.ai/2qxgj6f5poxbwbay8s000xr6bisj",
+            "path": "/private/tmp/lynx-article-sources/47340410-before.jpg",
+            "sha256": "99c46fa6562df66b631ac067ed5d5dff6cb771702b30fc0580f1b3ad18d03463"
+          },
+          "native_dimensions": [
+            3584,
+            4800
+          ],
+          "normalized_crop": [
+            0.52,
+            0.26,
+            0.65,
+            0.37
+          ],
+          "pixel_crop": [
+            1864,
+            1248,
+            2330,
+            1776
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            466,
+            528
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47340410,
+            "role": "after",
+            "url": "https://mp.astria.ai/tce4twpwukaychv2ah3lu4dzdasa",
+            "path": "/private/tmp/lynx-article-sources/47340410-after.jpg",
+            "sha256": "fb1b2cc9eae3d8a084acd41717b4ba56d9e8f16130b3602c104bdff2e2cd0968"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.52,
+            0.26,
+            0.65,
+            0.37
+          ],
+          "pixel_crop": [
+            2696,
+            1805,
+            3370,
+            2569
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            674,
+            764
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47337015,
+      "reference_tune_id": 5929779,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929779:1> shirt with forest-green tailored trousers and plain suede loafers. Three-quarter-length fashion portrait from head to below knees, nearly frontal with shoulders turned ten degrees, arms clear of the chest. Warm limestone-colored studio backdrop, soft side key light showing tactile relief without harsh shadows. Preserve the FIELD CLUB woven shield, heron, three stars, thread directions, raised embroidery and cotton pique texture from the reference. Keep emblem at its original small scale and position. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "FIELD CLUB is readable before and after. The badge and ribbon are reworked, with more visible thread-like texture; this is a detail change rather than a spelling fix.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47337015,
+            "role": "before",
+            "url": "https://mp.astria.ai/pr50wt096b1fckb8kkec4i6288be",
+            "path": "/private/tmp/lynx-article-sources/47337015-before.jpg",
+            "sha256": "7b55ea3e62be1e674b70a0daf17b6c3af2dcbc514cbae45553c648141aa05b12"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.52,
+            0.26,
+            0.65,
+            0.37
+          ],
+          "pixel_crop": [
+            2696,
+            1805,
+            3370,
+            2569
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            674,
+            764
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47337015,
+            "role": "after",
+            "url": "https://mp.astria.ai/n0vodb2cmtkybb1jj0r2y3y71iyr",
+            "path": "/private/tmp/lynx-article-sources/47337015-after.jpg",
+            "sha256": "76fd0a92bf751ce0c0ff4b2b2274a6f107e6676e04858118dece817cdb6de0d3"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.52,
+            0.26,
+            0.65,
+            0.37
+          ],
+          "pixel_crop": [
+            2696,
+            1805,
+            3370,
+            2569
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            674,
+            764
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47336201,
+      "reference_tune_id": 5929779,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3979439:1> man wearing <faceid:5929779:1> shirt with forest-green tailored trousers and plain suede loafers. Three-quarter-length fashion portrait from head to below knees, nearly frontal with shoulders turned ten degrees, arms clear of the chest. Warm limestone-colored studio backdrop, soft side key light showing tactile relief without harsh shadows. Preserve the FIELD CLUB woven shield, heron, three stars, thread directions, raised embroidery and cotton pique texture from the reference. Keep emblem at its original small scale and position. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "The distorted ribbon lettering becomes readable as FIELD CLUB. The emblem remains small on the chest, so inspect the enlarged detail as well as the full frame.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47336201,
+            "role": "before",
+            "url": "https://mp.astria.ai/m6mwvbyh75m9z4x51y4pddwnbzs5",
+            "path": "/private/tmp/lynx-article-sources/47336201-before.jpg",
+            "sha256": "95345b257f9c298297ed04a5f8a2089f42d9e02f7c313e329342a98e22d41f65"
+          },
+          "native_dimensions": [
+            1792,
+            2400
+          ],
+          "normalized_crop": [
+            0.52,
+            0.26,
+            0.65,
+            0.37
+          ],
+          "pixel_crop": [
+            932,
+            624,
+            1165,
+            888
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            233,
+            264
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47336201,
+            "role": "after",
+            "url": "https://mp.astria.ai/pr50wt096b1fckb8kkec4i6288be",
+            "path": "/private/tmp/lynx-article-sources/47336201-after.jpg",
+            "sha256": "7b55ea3e62be1e674b70a0daf17b6c3af2dcbc514cbae45553c648141aa05b12"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.52,
+            0.26,
+            0.65,
+            0.37
+          ],
+          "pixel_crop": [
+            2696,
+            1805,
+            3370,
+            2569
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            674,
+            764
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47336168,
+      "role": "synthetic product reference",
+      "tune_id": 5929780,
+      "source": {
+        "prompt_id": 47336168,
+        "role": "reference",
+        "url": "https://mp.astria.ai/jgkz5mp1yb8rvm4t55f4dms02b5r",
+        "path": "/private/tmp/lynx-article-sources/47336168-reference.jpg",
+        "sha256": "b45bc8128584ca4f3409ddd1a97fea1ac049ff9a1894df6aeb07bfdc82cd101e"
+      },
+      "native_dimensions": [
+        1792,
+        2400
+      ],
+      "selected_reason": "User-requested original demonstration reference; visually reviewed. Not an on-model Lynx result."
+    },
+    {
+      "prompt_id": 47336202,
+      "reference_tune_id": 5929780,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3994556:1> woman in a plain ivory blouse, charcoal tailored trousers and minimal black flats, holding <faceid:5929780:1> handbag in her lowered left hand just beside her thigh. Full-length editorial studio photograph, body nearly frontal, bag front squarely visible to camera, hand on handles only and logo unobstructed. Pale warm-grey seamless studio, soft directional light revealing pebbled leather and brushed brass. Preserve the original oxblood trapezoid bag, crescent-and-dot emblem and small VELUNE metal lettering with accurate proportions. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "VELUNE is already readable before refinement and remains readable afterward. The lettering changes subtly; this pair does not establish a dramatic correction or an exact match of every hardware detail.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47336202,
+            "role": "before",
+            "url": "https://mp.astria.ai/fnssaza4ajlpqxxrl20bu0f5ehqv",
+            "path": "/private/tmp/lynx-article-sources/47336202-before.jpg",
+            "sha256": "a41b181a4268a60839fcb88e9aab09f004e235a5e3c18ea7df8865f23c8b5792"
+          },
+          "native_dimensions": [
+            1792,
+            2400
+          ],
+          "normalized_crop": [
+            0.26,
+            0.61,
+            0.48,
+            0.7
+          ],
+          "pixel_crop": [
+            466,
+            1464,
+            860,
+            1680
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            394,
+            216
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47336202,
+            "role": "after",
+            "url": "https://mp.astria.ai/wnbtsdsxamou9eeeszhig17a2vf1",
+            "path": "/private/tmp/lynx-article-sources/47336202-after.jpg",
+            "sha256": "11380ef7736aca033f74c108969097d70370e7cab70e24e3dd754625392d7cc5"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.26,
+            0.61,
+            0.48,
+            0.7
+          ],
+          "pixel_crop": [
+            1348,
+            4236,
+            2489,
+            4861
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            1141,
+            625
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47336169,
+      "role": "synthetic product reference",
+      "tune_id": 5929781,
+      "source": {
+        "prompt_id": 47336169,
+        "role": "reference",
+        "url": "https://mp.astria.ai/jxjhrwebhha1f16ju1snw901l5t9",
+        "path": "/private/tmp/lynx-article-sources/47336169-reference.jpg",
+        "sha256": "58333c28cb866c74dd0a45586d89594f71ceb2a5e62abd814552bf97431af1d9"
+      },
+      "native_dimensions": [
+        1792,
+        2400
+      ],
+      "selected_reason": "User-requested original demonstration reference; visually reviewed. Not an on-model Lynx result."
+    },
+    {
+      "prompt_id": 47336203,
+      "reference_tune_id": 5929781,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3994556:1> woman in a plain white sleeveless top, relaxed navy trousers and neutral flat sandals, carrying <faceid:5929781:1> handbag over her right shoulder, front of bag resting against her outer hip and facing the camera. Three-quarter-length studio lookbook portrait from head to mid-calf, relaxed stance, arms and hair clear of the ORMA label. Pale sky-blue studio cyclorama, soft daylight feel. Preserve the crescent silhouette, coarse flax weave, cobalt strap and piping, silver hardware and small ORMA label with its four-petal symbol. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "The malformed label lettering becomes readable as ORMA. The label and surrounding canvas also change, so review its color, symbol and weave against the source.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47336203,
+            "role": "before",
+            "url": "https://mp.astria.ai/5mcqe9oy045zuxnvq9q3uf1odlyr",
+            "path": "/private/tmp/lynx-article-sources/47336203-before.jpg",
+            "sha256": "c178a402d05bbf9b8bf64c6c8a10575008a24f1d22c57d0fb3d3d16772c229df"
+          },
+          "native_dimensions": [
+            1792,
+            2400
+          ],
+          "normalized_crop": [
+            0.32,
+            0.4,
+            0.57,
+            0.54
+          ],
+          "pixel_crop": [
+            573,
+            960,
+            1021,
+            1296
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            448,
+            336
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47336203,
+            "role": "after",
+            "url": "https://mp.astria.ai/n8muy10f3vp6zxnyp00ajik97813",
+            "path": "/private/tmp/lynx-article-sources/47336203-after.jpg",
+            "sha256": "2793337d6d6cbc214581305548a340f3193006a21bee17dc3ae14fa6f63b3d4e"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.32,
+            0.4,
+            0.57,
+            0.54
+          ],
+          "pixel_crop": [
+            1659,
+            2778,
+            2955,
+            3750
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            1200,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": 47345815,
+      "reference_tune_id": 5929781,
+      "model": "Nano Banana 2.1",
+      "model_tune_id": 4180298,
+      "configured_resolution": "2K",
+      "aspect_ratio": "3:4",
+      "prompt": "<faceid:3994556:1> woman in a plain white sleeveless top, relaxed navy trousers and neutral flat sandals, carrying <faceid:5929781:1> handbag over her right shoulder, front of bag resting against her outer hip and facing the camera. Three-quarter-length studio lookbook portrait from head to mid-calf, relaxed stance, arms and hair clear of the ORMA label. Pale sky-blue studio cyclorama, soft daylight feel. Preserve the crescent silhouette, coarse flax weave, cobalt strap and piping, silver hardware and small ORMA label with its four-petal symbol. One person, one product, one photograph. No inset, no collage, no captions, no extra logos. --lynx",
+      "observation": "ORMA is readable in both frames. The label and small symbol receive subtle changes; the stronger lettering correction is visible in 47336203.",
+      "frames": [
+        {
+          "role": "before",
+          "source": {
+            "prompt_id": 47345815,
+            "role": "before",
+            "url": "https://mp.astria.ai/fmrduy3c4h0jpp533zc6c047jyi6",
+            "path": "/private/tmp/lynx-article-sources/47345815-before.jpg",
+            "sha256": "aedf4348f7f8ace360d2103a67e72a33509db3482f8a4577dc88ee89ca2d816e"
+          },
+          "native_dimensions": [
+            1792,
+            2400
+          ],
+          "normalized_crop": [
+            0.32,
+            0.4,
+            0.57,
+            0.54
+          ],
+          "pixel_crop": [
+            573,
+            960,
+            1021,
+            1296
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            448,
+            336
+          ]
+        },
+        {
+          "role": "after",
+          "source": {
+            "prompt_id": 47345815,
+            "role": "after",
+            "url": "https://mp.astria.ai/1td2dphswoyanj183n6y9r7z34yc",
+            "path": "/private/tmp/lynx-article-sources/47345815-after.jpg",
+            "sha256": "c5bd49e31d3d4d537f1463ec7529bd8e04c2f14ca9910bd53145c716a2fa105f"
+          },
+          "native_dimensions": [
+            5185,
+            6944
+          ],
+          "normalized_crop": [
+            0.32,
+            0.4,
+            0.57,
+            0.54
+          ],
+          "pixel_crop": [
+            1659,
+            2778,
+            2955,
+            3750
+          ],
+          "full_asset_dimensions": [
+            1792,
+            2400
+          ],
+          "detail_asset_dimensions": [
+            1200,
+            900
+          ]
+        }
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "request": "ORMA first; Botanical Atlas 47345816 first; replace VELUNE studio pair with a reference-location long shot",
+      "generation_workspace": 1092,
+      "prompt_id": 47379097,
+      "model_tune_id": 4180298,
+      "configured_model": "nano-banana-2, live default",
+      "resolution": "4K",
+      "aspect_ratio": "4:3",
+      "references": [
+        5929780,
+        3994556,
+        4241166
+      ],
+      "prompt": "<faceid:3994556:1> woman carrying <faceid:5929780:1> handbag in the <faceid:4241166:1> location. A polished luxury fashion campaign photograph, wide environmental long shot photographed from across the room, complete woman from head to shoes occupying only 55 percent of the image height, generous architecture and furnishings visible around her. Use the location reference for the warm wood-paneled interior, white linen sofa, blue ceramic vases, patterned blue cushions, low timber coffee table and layered daylight. The woman stands beside the far end of the sofa, wearing an unbranded pale ivory silk blouse, flowing charcoal tailored trousers and dark pointed flats, a relaxed natural three-quarter stance. She holds the oxblood structured leather bag by both rolled handles in one lowered hand, resting beside her thigh with its front panel angled toward the camera, fingers and clothing clear of the small brass lettering. Keep the handbag at its realistic small scale in the long shot, roughly one tenth of the frame height; do not enlarge it or make a product close-up. Preserve its trapezoidal silhouette, oxblood pebbled leather, rolled handles, edge paint, brass hardware and the reference's small VELUNE letters with crescent-and-dot symbol. Refined directional window light, realistic depth, gentle warm and cool reflections on brass, subtle foreground depth from the coffee table without occluding the bag. One woman, one handbag, one coherent photograph. Use only this woman's identity, not any other people. No inset, no detail panel, no collage, no graphic overlay. --lynx",
+      "frames": [
+        {
+          "role": "before",
+          "url": "https://mp.astria.ai/aa5hi2mlfswhmhd01kq880o8a846",
+          "sha256": "b863316ed4e160e84f741a3e9de9352a61da871bd081eca6dea3f9b17f60b5b7",
+          "native_dimensions": [
+            4800,
+            3584
+          ],
+          "normalized_crop": [
+            0.67,
+            0.6,
+            0.75,
+            0.68
+          ],
+          "pixel_crop": [
+            3216,
+            2150,
+            3600,
+            2437
+          ],
+          "full_asset_dimensions": [
+            2400,
+            1792
+          ],
+          "detail_asset_dimensions": [
+            384,
+            287
+          ]
+        },
+        {
+          "role": "after",
+          "url": "https://mp.astria.ai/7905vavm0gslwsulq7uo48mc5wgl",
+          "sha256": "395d952cb4fae2710f31aba9734ac439602ee64e5b056597f1254cf7826076c3",
+          "native_dimensions": [
+            6944,
+            5185
+          ],
+          "normalized_crop": [
+            0.67,
+            0.6,
+            0.75,
+            0.68
+          ],
+          "pixel_crop": [
+            4652,
+            3111,
+            5208,
+            3526
+          ],
+          "full_asset_dimensions": [
+            2400,
+            1792
+          ],
+          "detail_asset_dimensions": [
+            556,
+            415
+          ]
+        }
+      ],
+      "visual_review": "Full frame and same-coordinate detail pair inspected. Distorted before wordmark becomes readable VELUNE afterward. Bag silhouette, oxblood material and scene remain recognizable; grain and crescent emblem change. No perfect fidelity claim. Native result is a full-body environmental frame rather than the requested 55%-height distant subject.",
+      "selection_rationale": "Rejected by user: crescent orientation and dot placement differ from product reference. Kept in editorial audit only.",
+      "public_gallery": "New prompt remains private during editorial review; no unverified public link embedded.",
+      "selected": false
+    },
+    {
+      "prompt_id": 47379246,
+      "source_prompt_id": 47379097,
+      "operation": "Native Apply Lynx on finished source frame; prompt and reference set unchanged",
+      "workspace_id": 1092,
+      "selected": false,
+      "before_url": "https://mp.astria.ai/7905vavm0gslwsulq7uo48mc5wgl",
+      "after_url": "https://mp.astria.ai/tnkolsidrytxy2vk23sl7t1n3h7b",
+      "sha256": "07efcdf6e3b5f9af4064b1bdf53e78eb1fad2c449ae84fb97fcf9d6ca9a41ce3",
+      "review": "VELUNE lettering readable, but crescent remains sideways and dot below crescent; source is upward-facing crescent with dot above. No convincing fidelity correction on second pass. Not in article."
+    }
+  ]
+}

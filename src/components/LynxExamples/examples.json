@@ -1,0 +1,86 @@
+[
+  {
+    "name": "ORMA",
+    "detail": "Canvas bag and woven label",
+    "referenceId": 47336169,
+    "tuneId": 5929781,
+    "reference": "/articles/img/lynx/47336169-reference.webp",
+    "variants": [
+      {
+        "id": 47336203,
+        "resolution": "2K",
+        "observation": "The malformed label lettering becomes readable as ORMA. The label and surrounding canvas also change, so review its color, symbol and weave against the source.",
+        "before": "/articles/img/lynx/47336203-before.webp",
+        "beforeDetail": "/articles/img/lynx/47336203-before-detail.webp",
+        "after": "/articles/img/lynx/47336203-after.webp",
+        "afterDetail": "/articles/img/lynx/47336203-after-detail.webp",
+        "gallery": "https://www.astria.ai/gallery?user_id=2&text=5929781&limit=50#prompt_47336203",
+        "label": "Woven label correction"
+      }
+    ],
+    "referenceGallery": "https://www.astria.ai/gallery?user_id=2&text=original+fictional+design&limit=50#prompt_47336169"
+  },
+  {
+    "name": "Botanical Atlas",
+    "detail": "Complex print and small caption",
+    "referenceId": 47336164,
+    "tuneId": 5929777,
+    "reference": "/articles/img/lynx/47336164-reference.webp",
+    "variants": [
+      {
+        "id": 47345816,
+        "resolution": "2K",
+        "observation": "The before frame comes from an earlier refinement pass. This additional pass makes subtle changes to fine artwork and caption strokes; the wording was already close before this pass.",
+        "before": "/articles/img/lynx/47345816-before.webp",
+        "beforeDetail": "/articles/img/lynx/47345816-before-detail.webp",
+        "after": "/articles/img/lynx/47345816-after.webp",
+        "afterDetail": "/articles/img/lynx/47345816-after-detail.webp",
+        "gallery": "https://www.astria.ai/gallery?user_id=2&text=5929777&limit=50#prompt_47345816",
+        "label": "Fine print refinement"
+      }
+    ],
+    "referenceGallery": "https://www.astria.ai/gallery?user_id=2&text=original+fictional+design&limit=50#prompt_47336164"
+  },
+  {
+    "name": "ASTRIA Atelier",
+    "detail": "Small printed logo",
+    "referenceId": 47336166,
+    "tuneId": 5929778,
+    "reference": "/articles/img/lynx/47336166-reference.webp",
+    "variants": [
+      {
+        "id": 47340415,
+        "resolution": "4K",
+        "observation": "ASTRIA and ATELIER are readable in both frames. Changes around the star and letter edges are subtle; this pair does not demonstrate a spelling correction.",
+        "before": "/articles/img/lynx/47340415-before.webp",
+        "beforeDetail": "/articles/img/lynx/47340415-before-detail.webp",
+        "after": "/articles/img/lynx/47340415-after.webp",
+        "afterDetail": "/articles/img/lynx/47340415-after-detail.webp",
+        "gallery": "https://www.astria.ai/gallery?user_id=2&text=5929778&limit=50#prompt_47340415",
+        "label": "Small logo refinement"
+      }
+    ],
+    "referenceGallery": "https://www.astria.ai/gallery?user_id=2&text=original+fictional+design&limit=50#prompt_47336166"
+  },
+  {
+    "name": "FIELD CLUB",
+    "detail": "Woven emblem and ribbon text",
+    "referenceId": 47336167,
+    "tuneId": 5929779,
+    "reference": "/articles/img/lynx/47336167-reference.webp",
+    "variants": [
+      {
+        "id": 47340410,
+        "resolution": "4K",
+        "observation": "The malformed ribbon lettering becomes readable as FIELD CLUB. The ribbon, heron and thread-like texture are also redrawn; their shapes still need comparison with the reference.",
+        "before": "/articles/img/lynx/47340410-before.webp",
+        "beforeDetail": "/articles/img/lynx/47340410-before-detail.webp",
+        "after": "/articles/img/lynx/47340410-after.webp",
+        "afterDetail": "/articles/img/lynx/47340410-after-detail.webp",
+        "gallery": "https://www.astria.ai/gallery?user_id=2&text=5929779&limit=50#prompt_47340410",
+        "label": "Ribbon lettering correction"
+      }
+    ],
+    "referenceGallery": "https://www.astria.ai/gallery?user_id=2&text=original+fictional+design&limit=50#prompt_47336167"
+  }
+]

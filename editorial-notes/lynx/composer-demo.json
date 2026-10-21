@@ -1,0 +1,42 @@
+{
+  "source": "Live Astria composer, captured via CUA screenshots during actual UI actions",
+  "url": "https://www.astria.ai/prompts?ws=1092&text=lynx-activation-demo",
+  "workspace": 1092,
+  "capture_frames": 72,
+  "capture_events": [
+    {
+      "t": 3.093,
+      "event": "open advanced",
+      "expanded": "true"
+    },
+    {
+      "t": 6.793,
+      "event": "enable Lynx",
+      "checked": "true"
+    },
+    {
+      "t": 10.09,
+      "event": "close advanced",
+      "lynxVisible": true
+    }
+  ],
+  "source_crop": [
+    60,
+    100,
+    1220,
+    640
+  ],
+  "output": [
+    1200,
+    640
+  ],
+  "duration_seconds": 14.5,
+  "fps": 30,
+  "processing": "Native-resolution crop, instruction captions, animated pointer and click rings; real menu/toggle states, no fabricated interface",
+  "privacy": "Crop excludes account navigation, billing balance and generation metrics",
+  "generation": "No Generate click; no new media generation or charge",
+  "references": [
+    5929781,
+    3994556
+  ]
+}
