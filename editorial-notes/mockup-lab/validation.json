@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-10-22",
+  "tests": {
+    "command": "yarn test",
+    "passed": 48,
+    "failed": 0
+  },
+  "typecheck": {
+    "command": "yarn typecheck",
+    "result": "passed"
+  },
+  "build": {
+    "command": "yarn build",
+    "result": "passed"
+  },
+  "article_checks": {
+    "canonical": "https://www.astria.ai/articles/mockup-lab-ecommerce-product-mockups/",
+    "features_category": true,
+    "sitemap_entry": true,
+    "howto_steps": 6,
+    "faq_questions": 5,
+    "article_images": 17,
+    "missing_assets": 0
+  },
+  "visual_review": "New original bedding and cotton-throw scenes visually reviewed; exports4800x3584, no upscaling or retouching. High-quality preview ON for screenshots. Copyrighted source fixtures and their derivatives removed from static assets. Shirt screenshot already has High-quality preview ON. Final built article before/after grids and new bedding editor screenshot visually checked; all17 images and source references resolve. New preview screenshots saved.",
+  "deployment": "Validated for publication from clean origin/main plus this task only. Deployment verification is recorded in the release process.",
+  "replacement_prompts": {
+    "bedding": 47389549,
+    "cotton_throw": 47389603
+  },
+  "old_copyrighted_static_and_built_assets_absent": true,
+  "release_validation": {
+    "base_commit": "086c955e",
+    "tests_passed": 48,
+    "typecheck": "passed",
+    "build": "passed",
+    "search_audit": "passed",
+    "unrelated_checkout_changes": "excluded"
+  }
+}

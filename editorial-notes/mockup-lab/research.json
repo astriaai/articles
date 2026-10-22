@@ -1,0 +1,71 @@
+{
+  "researched_on": "2026-10-22",
+  "article": "mockup-lab-ecommerce-product-mockups",
+  "audience": "Primary: apparel and home-textile ecommerce brands. Secondary: beauty, accessories, coffee/food and homeware. Practical product/content teams rather than primarily print-on-demand designers.",
+  "search_intent": [
+    {
+      "query": "shirt print mockup",
+      "answer": "On-model front graphic from supplied artwork, small-caption review, printed panel boundaries and export."
+    },
+    {
+      "query": "bedding mockup / bed linen pattern mockup",
+      "answer": "Separate duvet and pillowcase layers, seamless repeat, matching physical motif scale, folds and unprinted fitted sheet."
+    },
+    {
+      "query": "ecommerce product mockups",
+      "answer": "A photo-to-artwork workflow tied to a real SKU, with physical-product review."
+    },
+    {
+      "query": "AI mockup generator",
+      "answer": "Explain scene generation versus compositing supplied artwork; demonstrate actual exports."
+    },
+    {
+      "query": "add logo to AI product photo",
+      "answer": "Lightbox entry, transparent PNG, single placement, surface selection, export."
+    },
+    {
+      "query": "packaging mockup",
+      "answer": "Box faces, separate lid/body, print panel boundaries and dieline limitations."
+    },
+    {
+      "query": "fabric pattern mockup",
+      "answer": "Seamless tile, manufactured repeat scale, folds, weave, trim and fringe."
+    },
+    {
+      "query": "Nano Banana text correction",
+      "answer": "Conditional workaround for an observed error, not an invented model benchmark: apply supplied artwork or use reference refinement."
+    }
+  ],
+  "domain_findings": [
+    "Mockup search spans template-based POD tools, Photoshop smart-object workflows and AI-generated product scenes. The article addresses the gap between a plausible scene and controlled existing artwork.",
+    "Do not confuse print visualization with a manufacturing proof or fulfillment integration.",
+    "Include precise controls and corrective actions rather than an unmeasured product superiority claim.",
+    "No claim of guaranteed search ranking, conversion lift, perfect fidelity, automatic SKU mapping, PSD export or physical measurements."
+  ],
+  "sources": [
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "checked": "Limitations section recommends generating wording before generating an image with text. Used narrowly; no blanket claim of failure or benchmark inference."
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/products/product-media/product-photography",
+      "checked": "Product photographs should show buyers what they receive. Applied to mockup approval; no conversion statistics or platform-spec claims."
+    },
+    {
+      "url": "https://help.printful.com/hc/en-us/articles/50264186389393-What-are-mockup-images",
+      "checked": "Mockups are a printing reference and the correct production print file is separately required. No pricing or integration claims copied."
+    },
+    {
+      "url": "https://helpx.adobe.com/photoshop/desktop/create-manage-layers/smart-objects/smart-objects-overview-and-benefits.html",
+      "checked": "Research context: preserved source artwork in a transformed composite. No Photoshop feature comparison published."
+    }
+  ],
+  "implementation_evidence": [
+    "/Users/burg/git/sdbooth/app/javascript/shared/LightboxViewer.tsx: Mockup action, M shortcut, embedded editor, permissions and still-image context",
+    "/Users/burg/git/sdbooth/app/javascript/shared/MockupLab.tsx: Add pattern first, click selection, Fit/Surface/Finish controls, brush/eraser, high-quality preview",
+    "/Users/burg/git/sdbooth/app/javascript/shared/ImageExportActions.tsx: Download PNG and Save to prompt are separate from editable-state autosave",
+    "/Users/burg/git/sdbooth/app/views/static/mockup_lab.html.slim: original box/cup/throw provenance, sample sheet versus image workflow",
+    "/Users/burg/git/sdbooth/spec/system/mockup_lab_toolbar_spec.rb and mockup_lab_persistence_spec.rb: source-resolution preview, editable state and interaction behavior",
+    "Live production browser: new Articles-workspace prompts opened from image lightboxes, original artwork supplied, selected surfaces adjusted, PNG exports visually reviewed"
+  ]
+}

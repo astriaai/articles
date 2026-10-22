@@ -1,0 +1,81 @@
+{
+  "id": 47389603,
+  "creation_source": "mcp",
+  "callback": null,
+  "trained_at": "2026-10-22T10:25:05.189Z",
+  "started_training_at": "2026-10-22T10:24:38.337Z",
+  "failed_at": null,
+  "created_at": "2026-10-22T10:24:38.223Z",
+  "updated_at": "2026-10-22T10:25:05.189Z",
+  "tune_id": 4180298,
+  "prompt_likes_count": 0,
+  "base_pack_id": null,
+  "order_id": null,
+  "user_id": 2,
+  "workspace_id": 896,
+  "is_video": false,
+  "user_error": null,
+  "cost_mc": 66000,
+  "num_images": 1,
+  "input_image": "https://mp.astria.ai/nbc2y2ewxygnsfez6s500zia1nbv",
+  "input_video": null,
+  "mask_image": null,
+  "video_first_frame": null,
+  "video_last_frame": null,
+  "audio_reference": null,
+  "image_references": [],
+  "video_prompt": null,
+  "video_model": null,
+  "video_duration": null,
+  "skill_name": null,
+  "text": "Use the supplied newly generated room photograph ONLY as a daylight, wall finish and oak-floor reference. Make a different original product scene for a cotton throw: remove the bed, pillow, headboard and bedside block entirely. In their place show a realistically proportioned adult lounge armchair in warm caramel leather with low solid walnut legs, a clearly visible seat cushion, backrest and two curved upholstered arms. The chair is comfortably sized for one adult, approximately 80 cm wide, 85 cm deep, seat height 43 cm, back height 85 cm. Camera at seated eye level, front three-quarter view, full chair and floor around its legs in frame, with the tall window at the left. Drape a lightweight solid ivory woven cotton throw naturally over the chair's left back corner and arm, across part of the seat, with one broad section falling over the front of the seat toward the floor. Show the throw's fine cotton weave, soft natural folds and short tassel fringe on the lower hanging edge. It is a throw used on a chair, not a table runner: no table, dining chair, bench, bed or tablecloth. Keep enough caramel leather exposed to distinguish cloth from upholstery. Keep the textile entirely plain ivory, no printed pattern, logos, stripes, lettering or decorative props. Natural material-rich ecommerce interior photography, soft window daylight, quiet off-white plaster, subtle realistic shadows. Composition and furniture dimensions must be physically plausible.",
+  "negative_prompt": "",
+  "cfg_scale": null,
+  "steps": null,
+  "super_resolution": false,
+  "resolution": "4K",
+  "ar": "1:1",
+  "seed": null,
+  "controlnet": null,
+  "controlnet_conditioning_scale": null,
+  "controlnet_txt2img": false,
+  "denoising_strength": null,
+  "style": null,
+  "color_grading": null,
+  "film_grain": false,
+  "hires_fix": false,
+  "inpaint_faces": false,
+  "face_correct": false,
+  "face_swap": false,
+  "backend_version": null,
+  "scheduler": "euler_a",
+  "use_lpw": false,
+  "w": null,
+  "h": null,
+  "aspect_ratio": "4:3",
+  "url": "https://api.astria.ai/tunes/4180298/prompts/47389603.json?ws=896",
+  "images": [
+    "https://mp.astria.ai/dclhl8jzeeyj8g9qmunhq3g80i4a"
+  ],
+  "filenames": [
+    "47389603-0-0.jpeg"
+  ],
+  "content_types": [
+    "image/jpeg"
+  ],
+  "blob_ids": [
+    229833395
+  ],
+  "liked": false,
+  "tune": {
+    "id": 4180298,
+    "title": "Nano Banana 2.1",
+    "model_type": null,
+    "name": ""
+  },
+  "tunes": [],
+  "creation_client": {
+    "type": "external",
+    "name": "Codex"
+  }
+}
