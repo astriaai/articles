@@ -99,7 +99,7 @@
     "box": "Plain matte rigid box with legible seams; apply repeat to lid only, tile size 35%. Shows face perspective and print boundaries.",
     "cup": "Single transparent logo, tiling off, size 80%, Wrap to shape off, hand and lid excluded. Final exported PNG (14) verified readable: COVE / COFFEE & GOODS / DAILY RITUALS. Honest flat front placement rather than cylindrical-wrap claim.",
     "throw": "New fictional caramel leather lounge-chair scene. Naturally draped ivory cotton throw with fringe, distinct from upholstery. Published repeat applied to cloth only; high-quality preview ON for screenshots and export. Final Tile35%, ShapeDraped, Follow20%, Lens58\u00b0, Depth1.05\u00d7, Multiply100%. Eraser removed fringe from the mask; rendered again and waited until selected-area metric detail was ready. Final print curvature and cloth/furniture boundaries visually reviewed.",
-    "shirt": "Lead apparel example: Tile off, Size80%, X/Y0, Auto wrapped, Multiply100%, high-quality preview. Flipped upload compensates mirrored surface mapping; exported letters match upright master. Same person and pocketless demo garment maintained from final base.",
+    "shirt": "Lead apparel example: Tile off, Size80%, Rotate-4\u00b0, MoveX-6%, MoveY-8%, Auto wrapped, Multiply100%, high-quality preview ON. Graphic moved up and toward torso center; heading aligned to shirt front. Flipped upload still compensates mirrored surface mapping. Final native3584x4800 export reviewed: upright FIELD STUDIES heading, fine caption, three flowers and preserved unprinted skin/garment.",
     "bedding": "New fictional bedroom with correctly supported pillow, low oak bed and plausible room proportions. Duvet and pillowcase independently selected. Tile on: duvet48%, rotation-90; pillow85%, rotation0. Multiply100%, WrapAuto, high-quality preview ON. Fitted sheet, headboard and bedside table excluded. Photo geometry and fabric drape kept from generated base."
   },
   "rejected_exports": [
@@ -117,7 +117,7 @@
   "final_exports": {
     "box": "/Users/burg/Downloads/mockup (11).png",
     "cup": "/Users/burg/Downloads/mockup (14).png",
-    "shirt": "/Users/burg/Downloads/mockup (16).png",
+    "shirt": "/Users/burg/Downloads/mockup (20).png",
     "bedding": "/Users/burg/Downloads/mockup (17).png",
     "throw": "/Users/burg/Downloads/mockup (18).png"
   },
@@ -206,5 +206,31 @@
     "replacement_throw_prompt_id": 47389603,
     "provenance_script": "create-original-room-references.py",
     "high_quality_preview": "Enable and verify ON before every new editor screenshot."
+  },
+  "previous_exports": [
+    {
+      "case": "shirt",
+      "path": "/Users/burg/Downloads/mockup (16).png",
+      "reason": "User requested improved centering and rotation; superseded by final Fit adjustment."
+    }
+  ],
+  "shirt_placement_revision": {
+    "date": "2026-10-22",
+    "prompt_id": 47389029,
+    "fit": {
+      "size_percent": 80,
+      "rotate_degrees": -4,
+      "move_x_percent": -6,
+      "move_y_percent": -8,
+      "tile": false
+    },
+    "high_quality_preview": true,
+    "export": "/Users/burg/Downloads/mockup (20).png",
+    "screenshot": "shirt-centered-editor.png",
+    "published_assets": [
+      "shirt-centered.webp",
+      "shirt-centered-editor.webp"
+    ],
+    "processing": "Native PNG export encoded as WebP; no final image retouching or enlargement."
   }
 }

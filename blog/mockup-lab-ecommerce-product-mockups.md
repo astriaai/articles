@@ -37,12 +37,12 @@ The shirt example uses a pocketless demonstration variant of the sample’s whit
 <figure data-source-reference="/articles/img/mockup-lab/shirt-reference.webp /articles/img/mockup-lab/field-studies-artwork.png">
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem'}}>
     <img style={{display: 'block', width: '100%', height: 'auto'}} src="/articles/img/mockup-lab/shirt-base.webp" alt="Plain white T-shirt on a model before the supplied front graphic is applied" loading="lazy" width="3584" height="4800" />
-    <img style={{display: 'block', width: '100%', height: 'auto'}} src="/articles/img/mockup-lab/shirt-finished.webp" alt="The same T-shirt after the FIELD STUDIES botanical artwork and small caption are placed in Mockup Lab" loading="lazy" width="3584" height="4800" />
+    <img style={{display: 'block', width: '100%', height: 'auto'}} src="/articles/img/mockup-lab/shirt-centered.webp" alt="The same T-shirt after the FIELD STUDIES botanical artwork and small caption are placed in Mockup Lab" loading="lazy" width="3584" height="4800" />
   </div>
   <figcaption>Apparel example: the plain base and the actual exported shirt mockup. Compare the heading, three flowers, fine stems and smaller caption to the artwork master.</figcaption>
 </figure>
 
-Use **Tile artwork off** for a front graphic. Select only the garment, set its size and position in **Fit**, and keep the print inside the actual printable panel. Inspect the neckline, sleeves, side seams and hem as well as the art. Changing the print does not correct an incorrect shirt cut.
+Use **Tile artwork off** for a front graphic. Select only the garment, set its size and position in **Fit**, and keep the print inside the actual printable panel. Inspect the neckline, sleeves, side seams and hem as well as the art. Changing the print does not correct an incorrect shirt cut. In this example, **Rotate −4°**, **Move X −6%** and **Move Y −8%** center the graphic beneath the collar and align it with the shirt front. Those values belong to this image; use the garment’s center and seams to position your own print.
 
 This is also a practical route when a Nano Banana photograph looks right but a printed caption is wrong: generate the fabric plain and apply the approved file. Do not increase the print beyond the manufactured size just to make the text readable. Supply a closer product-detail image when needed.
 
@@ -162,7 +162,7 @@ In **Finish**, choose the blend according to what you need:
 White artwork in Multiply will not behave like opaque white ink on dark cloth. Use a suitable blend and inspect against a physical sample. A finish control cannot establish the appearance of embroidery, foil, embossing or a particular printing process.
 
 <figure data-source-reference="/articles/img/mockup-lab/shirt-reference.webp /articles/img/mockup-lab/field-studies-artwork.png">
-  <img style={{display: 'block', width: '100%', height: 'auto'}} src="/articles/img/mockup-lab/shirt-editor.webp" alt="Mockup editor with the printed shirt, Tile artwork off, and the Surface and Finish controls" loading="lazy" width="1245" height="1238" />
+  <img style={{display: 'block', width: '100%', height: 'auto'}} src="/articles/img/mockup-lab/shirt-centered-editor.webp" alt="Mockup editor with the printed shirt, Tile artwork off, and the Surface and Finish controls" loading="lazy" width="1245" height="1294" />
   <figcaption>The shirt uses one placed graphic with Tile artwork off. The artwork and small caption are checked against the supplied master; the person and the garment construction come from the base photograph.</figcaption>
 </figure>
 

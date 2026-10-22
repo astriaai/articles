@@ -36,5 +36,6 @@
     "build": "passed",
     "search_audit": "passed",
     "unrelated_checkout_changes": "excluded"
-  }
+  },
+  "shirt_placement_revision": "Visually reviewed centered, rotated print in high-quality editor preview and native exported PNG. Size80%, Rotate-4\u00b0, X-6%, Y-8%. Lettering readable and upright. Updated article images use new filenames for cache freshness."
 }
