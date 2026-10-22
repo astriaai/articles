@@ -1,0 +1,81 @@
+{
+  "id": 47389029,
+  "creation_source": "mcp",
+  "callback": null,
+  "trained_at": "2026-10-22T09:45:19.278Z",
+  "started_training_at": "2026-10-22T09:44:50.521Z",
+  "failed_at": null,
+  "created_at": "2026-10-22T09:44:50.399Z",
+  "updated_at": "2026-10-22T09:45:19.282Z",
+  "tune_id": 4180298,
+  "prompt_likes_count": 0,
+  "base_pack_id": null,
+  "order_id": null,
+  "user_id": 2,
+  "workspace_id": 896,
+  "is_video": false,
+  "user_error": null,
+  "cost_mc": 66000,
+  "num_images": 1,
+  "input_image": "https://mp.astria.ai/ynj9icvmo2zf42jdsgofndt914b2",
+  "input_video": null,
+  "mask_image": null,
+  "video_first_frame": null,
+  "video_last_frame": null,
+  "audio_reference": null,
+  "image_references": [],
+  "video_prompt": null,
+  "video_model": null,
+  "video_duration": null,
+  "skill_name": null,
+  "text": "Edit this supplied photograph. Preserve the same adult man, face, hair, pose, white studio, lighting, camera crop, plain white cotton T-shirt, collar, shoulder seams, sleeves, hem and trousers. Remove only the patch pocket from the T-shirt: make the chest a continuous plain white cotton panel with natural gentle folds and no pocket outline or pocket stitching. This is intentionally a pocketless demonstration variant for applying a large front graphic in a separate compositor. Do not add any artwork, text or print. Keep the chest broad and visible.",
+  "negative_prompt": "",
+  "cfg_scale": null,
+  "steps": null,
+  "super_resolution": false,
+  "resolution": "4K",
+  "ar": "1:1",
+  "seed": null,
+  "controlnet": null,
+  "controlnet_conditioning_scale": null,
+  "controlnet_txt2img": false,
+  "denoising_strength": null,
+  "style": null,
+  "color_grading": null,
+  "film_grain": false,
+  "hires_fix": false,
+  "inpaint_faces": false,
+  "face_correct": false,
+  "face_swap": false,
+  "backend_version": null,
+  "scheduler": "euler_a",
+  "use_lpw": false,
+  "w": null,
+  "h": null,
+  "aspect_ratio": "3:4",
+  "url": "https://api.astria.ai/tunes/4180298/prompts/47389029.json?ws=896",
+  "images": [
+    "https://mp.astria.ai/39djiwxn2fbjzbxvgxgvaie7y5gg"
+  ],
+  "filenames": [
+    "47389029-0-0.jpeg"
+  ],
+  "content_types": [
+    "image/jpeg"
+  ],
+  "blob_ids": [
+    229831372
+  ],
+  "liked": false,
+  "tune": {
+    "id": 4180298,
+    "title": "Nano Banana 2.1",
+    "model_type": null,
+    "name": ""
+  },
+  "tunes": [],
+  "creation_client": {
+    "type": "external",
+    "name": "Codex"
+  }
+}

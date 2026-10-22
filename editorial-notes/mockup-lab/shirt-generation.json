@@ -1,0 +1,81 @@
+{
+  "id": 47388869,
+  "creation_source": "mcp",
+  "callback": null,
+  "trained_at": "2026-10-22T09:32:04.335Z",
+  "started_training_at": "2026-10-22T09:31:34.212Z",
+  "failed_at": null,
+  "created_at": "2026-10-22T09:31:33.550Z",
+  "updated_at": "2026-10-22T09:32:04.335Z",
+  "tune_id": 4180298,
+  "prompt_likes_count": 0,
+  "base_pack_id": null,
+  "order_id": null,
+  "user_id": 2,
+  "workspace_id": 896,
+  "is_video": false,
+  "user_error": null,
+  "cost_mc": 66000,
+  "num_images": 1,
+  "input_image": "https://mp.astria.ai/inln1nvb093cdhpqg4qtvh2qo0vb",
+  "input_video": null,
+  "mask_image": null,
+  "video_first_frame": null,
+  "video_last_frame": null,
+  "audio_reference": null,
+  "image_references": [],
+  "video_prompt": null,
+  "video_model": null,
+  "video_duration": null,
+  "skill_name": null,
+  "text": "Using the supplied model-and-shirt photograph as the reference, make a close ecommerce lookbook photograph of the same adult man wearing the same plain white cotton pocket T-shirt. Frame from the top of his head to just below his hips so the shirt is large and clearly visible, three-quarter stance like the reference, arms relaxed and clear of the chest. Preserve the shirt cut, dropped shoulder seam, ribbed crew neck, left chest pocket, cotton texture and gentle folds. Plain white studio background, soft broad daylight, sharp shirt detail. Keep the whole shirt completely plain white and unprinted. Keep all stitching, pocket edges and construction visible. One person, one photograph. This base photograph will receive a separately supplied chest print.",
+  "negative_prompt": "",
+  "cfg_scale": null,
+  "steps": null,
+  "super_resolution": false,
+  "resolution": "4K",
+  "ar": "1:1",
+  "seed": null,
+  "controlnet": null,
+  "controlnet_conditioning_scale": null,
+  "controlnet_txt2img": false,
+  "denoising_strength": null,
+  "style": null,
+  "color_grading": null,
+  "film_grain": false,
+  "hires_fix": false,
+  "inpaint_faces": false,
+  "face_correct": false,
+  "face_swap": false,
+  "backend_version": null,
+  "scheduler": "euler_a",
+  "use_lpw": false,
+  "w": null,
+  "h": null,
+  "aspect_ratio": "3:4",
+  "url": "https://api.astria.ai/tunes/4180298/prompts/47388869.json?ws=896",
+  "images": [
+    "https://mp.astria.ai/ynj9icvmo2zf42jdsgofndt914b2"
+  ],
+  "filenames": [
+    "47388869-0-0.jpeg"
+  ],
+  "content_types": [
+    "image/jpeg"
+  ],
+  "blob_ids": [
+    229830742
+  ],
+  "liked": false,
+  "tune": {
+    "id": 4180298,
+    "title": "Nano Banana 2.1",
+    "model_type": null,
+    "name": ""
+  },
+  "tunes": [],
+  "creation_client": {
+    "type": "external",
+    "name": "Codex"
+  }
+}

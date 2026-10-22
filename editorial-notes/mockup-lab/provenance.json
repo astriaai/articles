@@ -1,0 +1,210 @@
+{
+  "workspace_id": 896,
+  "workspace": "Articles",
+  "created_on": "2026-10-22",
+  "original_sources": {
+    "box": "https://www.astria.ai/mockup-lab/samples/original-presentation-box.jpg",
+    "cup": "https://www.astria.ai/mockup-lab/samples/original-takeaway-cup.jpg",
+    "throw": "https://mp.astria.ai/nbc2y2ewxygnsfez6s500zia1nbv",
+    "shirt": "https://www.astria.ai/mockup-lab/samples/white-pocket-shirt.jpg",
+    "bedding": "editorial-notes/mockup-lab/original-bedding-blockout.png"
+  },
+  "rights_and_origin": "User identified the previous bedroom and cotton-throw fixtures as copyrighted. They and their article derivatives were removed from public assets. Replacement bedroom is generated from a locally authored 3000x2250 scene drawing with no external images. Replacement lounge-chair throw uses that new bedroom generation only for window daylight, plaster and flooring; all furniture was changed. No old bedroom/throw source or derivative was passed to either replacement generation. Shirt, box and cup unchanged. Original fictional artwork applied in the actual Mockup editor.",
+  "source_resolution": [
+    2400,
+    1792
+  ],
+  "generation_resolution_setting": "4K",
+  "actual_base_and_export_dimensions": [
+    4800,
+    3584
+  ],
+  "published_image_processing": "Original exported PNGs encoded as WebP for web delivery at native dimensions, no enlargement and no manual retouching of the composites.",
+  "artwork": {
+    "logo": "Original COVE fictional mark, 1600x1600 transparent PNG, created by create-artwork.py. Arc, wordmark and two small lines.",
+    "repeat": "Original geometric repeat, 1600x1600 PNG. Same supplied file on box and throw.",
+    "shirt": "Original FIELD STUDIES botanical graphic, 1800x2000 transparent PNG; upright master plus horizontally flipped upload-only copy. create-apparel-linen-artwork.py.",
+    "bedding": "Original 1600x1600 seamless botanical repeat from create-apparel-linen-artwork.py."
+  },
+  "cases": [
+    {
+      "key": "box",
+      "prompt_id": 47386916,
+      "source_input": "https://mp.astria.ai/rmtgdg59ygd2x1uwo79orm1ygjn7",
+      "base_image": "https://mp.astria.ai/5c0ap8cxov2kczd833ly5tdblmkr",
+      "model_tune_id": 4180298,
+      "model_name_in_prompt_response": "Nano Banana 2.1",
+      "prompt": "Using the supplied presentation-box photograph as the product reference, photograph this same closed ivory rigid box with separate fitted lid, identical proportions, seams and matte paper texture. Three-quarter view with the lid top and two sides visible, pale lilac studio sweep and soft broad daylight, complete box in frame. Keep every printable surface plain ivory, blank and unprinted. No artwork, lettering, labels, ribbon or additional objects. This plain-surface photograph will receive supplied brand artwork in a separate compositing step.",
+      "resolution": "4K",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "key": "cup",
+      "prompt_id": 47386917,
+      "source_input": "https://mp.astria.ai/r5omwcg4hei17ef2rhyvy5fn4kfh",
+      "base_image": "https://mp.astria.ai/k1b6gew03vt2o0ukb6goz25utdhj",
+      "model_tune_id": 4180298,
+      "model_name_in_prompt_response": "Nano Banana 2.1",
+      "prompt": "Using the supplied takeaway-cup photograph as the reference, retain the same plain ivory tapered paper cup, dark charcoal lid and adult hand holding it below and beside the printable front. Preserve the shape, lid rim, realistic paper texture and natural hand anatomy. Soft daylight, warm taupe background, entire cup visible and sharply focused. Cup body plain ivory and unprinted, no logo or text. Leave the front clear for a separate artwork-compositing step.",
+      "resolution": "4K",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "key": "shirt",
+      "prompt_id": 47389029,
+      "source_input": "https://mp.astria.ai/ynj9icvmo2zf42jdsgofndt914b2",
+      "base_image": "https://mp.astria.ai/39djiwxn2fbjzbxvgxgvaie7y5gg",
+      "model_tune_id": 4180298,
+      "model_name_in_prompt_response": "Nano Banana 2.1",
+      "prompt": "Edit this supplied photograph. Preserve the same adult man, face, hair, pose, white studio, lighting, camera crop, plain white cotton T-shirt, collar, shoulder seams, sleeves, hem and trousers. Remove only the patch pocket from the T-shirt: make the chest a continuous plain white cotton panel with natural gentle folds and no pocket outline or pocket stitching. This is intentionally a pocketless demonstration variant for applying a large front graphic in a separate compositor. Do not add any artwork, text or print. Keep the chest broad and visible.",
+      "resolution": "4K",
+      "aspect_ratio": "3:4",
+      "dimensions": [
+        3584,
+        4800
+      ]
+    },
+    {
+      "key": "bedding",
+      "prompt_id": 47389549,
+      "source_input": "https://mp.astria.ai/fy12cgr5qw33v5vq8zjz3syli3lq",
+      "base_image": "https://mp.astria.ai/nbc2y2ewxygnsfez6s500zia1nbv",
+      "model_tune_id": 4180298,
+      "model_name_in_prompt_response": "Nano Banana 2.1",
+      "prompt": "Turn this original room blockout drawing into an editorial-quality photorealistic ecommerce bed-linen photograph. Use the supplied composition reference, not any existing bedroom photograph. Preserve the distinct low oak bed and wide vertically fluted oak headboard, full bed visible at a foot-left three-quarter angle, tall recessed window on the LEFT wall, one wide pillow leaning against the headboard and muted olive cube bedside table on the RIGHT. The pillow must rest on the mattress, not float. Refine the crude drawn geometry into physically plausible furniture. Quiet adult bedroom, soft off-white plaster walls, pale oak floor, broad soft daylight from the left, calm warm neutral palette. Plain unprinted ivory washed cotton-linen duvet cover with visible fine weave, natural broad gentle folds and a slightly turned-back top edge, a separate plain ivory pillowcase and plain fitted sheet visible between them. Duvet drapes over the foot and right side, clear uncluttered bedding surfaces suitable for a later supplied print. Keep all textile surfaces entirely plain and unprinted. High-end natural interior photography, accurate perspective, subtle shadow detail, full bed in frame, fabric sharply resolved. No wall art, bunting, toys, baskets, decorative cushions, logos, patterns, text or people. The drawing is only a layout and palette reference; the result must look like a real photograph, not a sketch or polygonal render.",
+      "resolution": "4K",
+      "aspect_ratio": "4:3",
+      "dimensions": [
+        4800,
+        3584
+      ]
+    },
+    {
+      "key": "throw",
+      "prompt_id": 47389603,
+      "source_input": "https://mp.astria.ai/nbc2y2ewxygnsfez6s500zia1nbv",
+      "base_image": "https://mp.astria.ai/dclhl8jzeeyj8g9qmunhq3g80i4a",
+      "model_tune_id": 4180298,
+      "model_name_in_prompt_response": "Nano Banana 2.1",
+      "prompt": "Use the supplied newly generated room photograph ONLY as a daylight, wall finish and oak-floor reference. Make a different original product scene for a cotton throw: remove the bed, pillow, headboard and bedside block entirely. In their place show a realistically proportioned adult lounge armchair in warm caramel leather with low solid walnut legs, a clearly visible seat cushion, backrest and two curved upholstered arms. The chair is comfortably sized for one adult, approximately 80 cm wide, 85 cm deep, seat height 43 cm, back height 85 cm. Camera at seated eye level, front three-quarter view, full chair and floor around its legs in frame, with the tall window at the left. Drape a lightweight solid ivory woven cotton throw naturally over the chair's left back corner and arm, across part of the seat, with one broad section falling over the front of the seat toward the floor. Show the throw's fine cotton weave, soft natural folds and short tassel fringe on the lower hanging edge. It is a throw used on a chair, not a table runner: no table, dining chair, bench, bed or tablecloth. Keep enough caramel leather exposed to distinguish cloth from upholstery. Keep the textile entirely plain ivory, no printed pattern, logos, stripes, lettering or decorative props. Natural material-rich ecommerce interior photography, soft window daylight, quiet off-white plaster, subtle realistic shadows. Composition and furniture dimensions must be physically plausible.",
+      "resolution": "4K",
+      "aspect_ratio": "4:3",
+      "dimensions": [
+        4800,
+        3584
+      ]
+    }
+  ],
+  "selection_rationale": {
+    "box": "Plain matte rigid box with legible seams; apply repeat to lid only, tile size 35%. Shows face perspective and print boundaries.",
+    "cup": "Single transparent logo, tiling off, size 80%, Wrap to shape off, hand and lid excluded. Final exported PNG (14) verified readable: COVE / COFFEE & GOODS / DAILY RITUALS. Honest flat front placement rather than cylindrical-wrap claim.",
+    "throw": "New fictional caramel leather lounge-chair scene. Naturally draped ivory cotton throw with fringe, distinct from upholstery. Published repeat applied to cloth only; high-quality preview ON for screenshots and export. Final Tile35%, ShapeDraped, Follow20%, Lens58\u00b0, Depth1.05\u00d7, Multiply100%. Eraser removed fringe from the mask; rendered again and waited until selected-area metric detail was ready. Final print curvature and cloth/furniture boundaries visually reviewed.",
+    "shirt": "Lead apparel example: Tile off, Size80%, X/Y0, Auto wrapped, Multiply100%, high-quality preview. Flipped upload compensates mirrored surface mapping; exported letters match upright master. Same person and pocketless demo garment maintained from final base.",
+    "bedding": "New fictional bedroom with correctly supported pillow, low oak bed and plausible room proportions. Duvet and pillowcase independently selected. Tile on: duvet48%, rotation-90; pillow85%, rotation0. Multiply100%, WrapAuto, high-quality preview ON. Fitted sheet, headboard and bedside table excluded. Photo geometry and fabric drape kept from generated base."
+  },
+  "rejected_exports": [
+    {
+      "case": "cup",
+      "local_original": "/Users/burg/Downloads/mockup (12).png",
+      "reason": "Auto surface produced mirrored lettering after metric/crop processing settled. Early browser-depth preview read correctly; settled preview also showed mirroring, so this was not confirmed to be an export-only bug. Soft mode did not resolve it. Final single front-facing mark uses Wrap to shape off; limitation disclosed in article."
+    },
+    {
+      "case": "shirt-pocket",
+      "prompt_id": 47388869,
+      "reason": "Exploratory pocket-shirt placement not published: pocket seam interrupted small caption. Final intentionally pocketless demo variant used. Automatic surface mapping reversal compensated at upload, never in export."
+    }
+  ],
+  "final_exports": {
+    "box": "/Users/burg/Downloads/mockup (11).png",
+    "cup": "/Users/burg/Downloads/mockup (14).png",
+    "shirt": "/Users/burg/Downloads/mockup (16).png",
+    "bedding": "/Users/burg/Downloads/mockup (17).png",
+    "throw": "/Users/burg/Downloads/mockup (18).png"
+  },
+  "visual_review": "Replacement bedroom base47389549 and chair/throw base47389603 visually inspected at native resolution and article size. Adult bed proportions, supported pillow, natural drape and full scene reviewed. Final duvet and pillowcase prints, plain fitted sheet, headboard and table exclusion checked. Throw placement physically plausible on lounge chair; fabric/fringe mask cleaned, reduced Follow20% retained recognizable supplied curves. High-quality preview ON verified for both new screenshots. Original copyrighted bedroom/throw sources, derivatives and screenshots removed from static assets. No retouching of final exported composites.",
+  "primary_cases": [
+    "shirt",
+    "bedding"
+  ],
+  "secondary_cases": [
+    "box",
+    "cup",
+    "throw"
+  ],
+  "source_dimensions_by_case": {
+    "shirt": [
+      3584,
+      4800
+    ],
+    "bedding": [
+      3000,
+      2250
+    ],
+    "box": [
+      2400,
+      1792
+    ],
+    "cup": [
+      2400,
+      1792
+    ],
+    "throw": [
+      4800,
+      3584
+    ]
+  },
+  "shirt_reference_chain": {
+    "source": "white-pocket-shirt.jpg",
+    "first_reference_driven_prompt_id": 47388869,
+    "final_pocketless_variant_prompt_id": 47389029,
+    "intentional_change": "Remove patch pocket for fictional front-graphic demonstration; explicitly disclosed, not a claim of SKU fidelity."
+  },
+  "superseded_cases": [
+    {
+      "key": "throw",
+      "prompt_id": 47386918,
+      "source_input": "https://mp.astria.ai/pwtw9ci6yl7n7d7ju27nzb4cm69h",
+      "base_image": "https://mp.astria.ai/avl28s1xxf9q05tv7o6igl2jp313",
+      "model_tune_id": 4180298,
+      "model_name_in_prompt_response": "Nano Banana 2.1",
+      "prompt": "Using the supplied cotton-throw photograph as the product and scene reference, retain the same plain ivory cotton throw with fine woven texture and fringe, draped over the pale oak chair with broad visible folds. Soft daylight from the left, warm neutral plaster wall, full chair and hanging textile visible. The textile must be solid ivory with no pattern or print. Preserve the chair geometry and fringed lower edge. This is a base photograph for applying a separately supplied repeating textile print.",
+      "resolution": "4K",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "key": "bedding",
+      "prompt_id": 47388870,
+      "source_input": "https://mp.astria.ai/6li9lvspjnw8wdpzjifmp9jn5ux8",
+      "base_image": "https://mp.astria.ai/qq1gbqmwnampjsum2v2kl4da81d9",
+      "model_tune_id": 4180298,
+      "model_name_in_prompt_response": "Nano Banana 2.1",
+      "prompt": "Use the supplied bedroom-and-bedding photograph as the scene reference. Preserve the same single wooden bed, duvet dimensions and drape, one pillow in its pillowcase, fitted sheet, bedroom proportions, warm plaster walls, window on the right, wood furniture and soft natural daylight. Show the full bed at the same three-quarter angle, close enough to inspect the fabric. Change only the duvet cover and pillowcase fabric to solid warm ivory cotton-linen with no print or pattern, preserving realistic seams, broad gentle wrinkles and texture. Keep the fitted sheet plain ivory. Remove the dress on the wall and replace the two book covers with plain neutral covers to avoid unrelated illustrations and lettering. No added text, no people, no objects on the duvet. This is an unprinted base for a separate supplied textile repeat.",
+      "resolution": "4K",
+      "aspect_ratio": "4:3",
+      "dimensions": [
+        4800,
+        3584
+      ]
+    }
+  ],
+  "copyright_replacement": {
+    "date": "2026-10-22",
+    "removed_public_files": [
+      "bedding-base.webp",
+      "bedding-reference.webp",
+      "bedding-finished.webp",
+      "bedding-editor.webp",
+      "throw-base.webp",
+      "throw-reference.webp",
+      "throw-finished.webp"
+    ],
+    "rejected_new_attempt": {
+      "prompt_id": 47389551,
+      "reason": "Bench setup read as a table runner; user rejected use context and reference proportions. Not published."
+    },
+    "replacement_bedding_prompt_id": 47389549,
+    "replacement_throw_prompt_id": 47389603,
+    "provenance_script": "create-original-room-references.py",
+    "high_quality_preview": "Enable and verify ON before every new editor screenshot."
+  }
+}

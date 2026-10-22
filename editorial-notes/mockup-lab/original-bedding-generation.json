@@ -1,0 +1,81 @@
+{
+  "id": 47389549,
+  "creation_source": "mcp",
+  "callback": null,
+  "trained_at": "2026-10-22T10:22:59.509Z",
+  "started_training_at": "2026-10-22T10:22:24.678Z",
+  "failed_at": null,
+  "created_at": "2026-10-22T10:22:24.546Z",
+  "updated_at": "2026-10-22T10:22:59.509Z",
+  "tune_id": 4180298,
+  "prompt_likes_count": 0,
+  "base_pack_id": null,
+  "order_id": null,
+  "user_id": 2,
+  "workspace_id": 896,
+  "is_video": false,
+  "user_error": null,
+  "cost_mc": 66000,
+  "num_images": 1,
+  "input_image": "https://mp.astria.ai/fy12cgr5qw33v5vq8zjz3syli3lq",
+  "input_video": null,
+  "mask_image": null,
+  "video_first_frame": null,
+  "video_last_frame": null,
+  "audio_reference": null,
+  "image_references": [],
+  "video_prompt": null,
+  "video_model": null,
+  "video_duration": null,
+  "skill_name": null,
+  "text": "Turn this original room blockout drawing into an editorial-quality photorealistic ecommerce bed-linen photograph. Use the supplied composition reference, not any existing bedroom photograph. Preserve the distinct low oak bed and wide vertically fluted oak headboard, full bed visible at a foot-left three-quarter angle, tall recessed window on the LEFT wall, one wide pillow leaning against the headboard and muted olive cube bedside table on the RIGHT. The pillow must rest on the mattress, not float. Refine the crude drawn geometry into physically plausible furniture. Quiet adult bedroom, soft off-white plaster walls, pale oak floor, broad soft daylight from the left, calm warm neutral palette. Plain unprinted ivory washed cotton-linen duvet cover with visible fine weave, natural broad gentle folds and a slightly turned-back top edge, a separate plain ivory pillowcase and plain fitted sheet visible between them. Duvet drapes over the foot and right side, clear uncluttered bedding surfaces suitable for a later supplied print. Keep all textile surfaces entirely plain and unprinted. High-end natural interior photography, accurate perspective, subtle shadow detail, full bed in frame, fabric sharply resolved. No wall art, bunting, toys, baskets, decorative cushions, logos, patterns, text or people. The drawing is only a layout and palette reference; the result must look like a real photograph, not a sketch or polygonal render.",
+  "negative_prompt": "",
+  "cfg_scale": null,
+  "steps": null,
+  "super_resolution": false,
+  "resolution": "4K",
+  "ar": "1:1",
+  "seed": null,
+  "controlnet": null,
+  "controlnet_conditioning_scale": null,
+  "controlnet_txt2img": false,
+  "denoising_strength": null,
+  "style": null,
+  "color_grading": null,
+  "film_grain": false,
+  "hires_fix": false,
+  "inpaint_faces": false,
+  "face_correct": false,
+  "face_swap": false,
+  "backend_version": null,
+  "scheduler": "euler_a",
+  "use_lpw": false,
+  "w": null,
+  "h": null,
+  "aspect_ratio": "4:3",
+  "url": "https://api.astria.ai/tunes/4180298/prompts/47389549.json?ws=896",
+  "images": [
+    "https://mp.astria.ai/nbc2y2ewxygnsfez6s500zia1nbv"
+  ],
+  "filenames": [
+    "47389549-0-0.jpeg"
+  ],
+  "content_types": [
+    "image/jpeg"
+  ],
+  "blob_ids": [
+    229833279
+  ],
+  "liked": false,
+  "tune": {
+    "id": 4180298,
+    "title": "Nano Banana 2.1",
+    "model_type": null,
+    "name": ""
+  },
+  "tunes": [],
+  "creation_client": {
+    "type": "external",
+    "name": "Codex"
+  }
+}
