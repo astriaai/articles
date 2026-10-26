@@ -138,6 +138,8 @@ For brands producing collections. The distinguishing question: can an approved c
 
 **Rawshot** — a dedicated AI fashion studio with substantial model, camera, and background libraries. Strong on breadth of presets. [Full comparison](./astria-vs-rawshot-fashion-ai.md).
 
+**Modelia** — outfit assembly, pose variations, accessory tools and a published Shopify workflow for fashion images and video. Test each SKU and the reuse of an approved look on your next outfit. [Astria vs Modelia](./astria-vs-modelia-fashion-ai.md) (reviewed October 26, 2026).
+
 **Botika** — an established on-model generation platform with an ecommerce orientation and published case studies. [Full comparison](./astria-vs-botika-fashion-ai.md).
 
 **Caimera** — strong creator-led go-to-market and published case-study material. [Full comparison](./astria-vs-caimera-fashion-ai.md).

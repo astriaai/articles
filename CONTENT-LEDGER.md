@@ -333,3 +333,4 @@ no clicks because client-redirects emits redirects as 200-status stubs with no `
   authorized follow-ons. Review all three on October 5 for query overlap with their existing
   Astria-vs pages before writing any further competitor alternatives.
 - **Astria vs FLAM.** Deliberately not written. Founder history makes it a leadership call.
+| astria-vs-modelia-fashion-ai | astria vs modelia | 2026-10-26 | 2026-10-26 | F P | 2026-11-26 | comparisons |
