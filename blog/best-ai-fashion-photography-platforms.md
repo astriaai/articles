@@ -156,6 +156,8 @@ For brands producing collections. The distinguishing question: can an approved c
 
 **Higgsfield** — a broad AI-native creative suite with serious fashion stills, product content, and cinematic video depth. Strongest when model choice, camera control, VFX, UGC, and editing-tool integrations matter; less fashion-specific in how a collection is organized. [Full comparison](./astria-vs-higgsfield-fashion-ai.md).
 
+**Artiso** — collection design, pre-production and visual content in one advertised workflow. Evaluate technical handoff separately from the accuracy and repeatability of launch imagery. [Astria vs Artiso](./astria-vs-artiso-fashion-ai.md) (reviewed October 29, 2026).
+
 ## Virtual try-on
 
 Two different products share this name — see [virtual try-on for fashion brands](./virtual-try-on-for-fashion-brands.md) for why that distinction decides your purchase.
