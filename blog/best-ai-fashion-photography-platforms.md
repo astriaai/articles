@@ -158,6 +158,8 @@ For brands producing collections. The distinguishing question: can an approved c
 
 **Artiso** — collection design, pre-production and visual content in one advertised workflow. Evaluate technical handoff separately from the accuracy and repeatability of launch imagery. [Astria vs Artiso](./astria-vs-artiso-fashion-ai.md) (reviewed October 29, 2026).
 
+**Weon Studio** — fashion imagery, targeted retouching and bulk production, with separate Weon products for shopper sizing and a pilot dressing-room experience. Test revisions and operator handoff on the same garment references. [Astria vs Weon](./astria-vs-weon-fashion-ai.md) (reviewed October 29, 2026).
+
 ## Virtual try-on
 
 Two different products share this name — see [virtual try-on for fashion brands](./virtual-try-on-for-fashion-brands.md) for why that distinction decides your purchase.

@@ -44,6 +44,7 @@ competitor pricing and feature scope move fastest.
 
 | Article | Primary query | Published | Last fact check | Volatile | Next review | Owner |
 | --- | --- | --- | --- | --- | --- | --- |
+| astria-vs-weon-fashion-ai | astria vs weon | 2026-10-29 | 2026-10-29 | F P | 2026-11-29 | comparisons |
 | astria-vs-artiso-fashion-ai | astria vs artiso | 2026-10-29 | 2026-10-29 | F | 2026-11-29 | comparisons |
 | mockup-lab-ecommerce-product-mockups | ecommerce product mockups | 2026-10-22 | 2026-10-22 | F M | 2027-01-22 | features |
 | ai-headshots-without-model-training | AI headshots without training | 2024-04-04 | 2026-08-22 | F M | 2027-02-20 | guides |
