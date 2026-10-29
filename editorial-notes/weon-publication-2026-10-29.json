@@ -1,0 +1,84 @@
+{
+  "release": "weon-20261029-e2c8b4b",
+  "source_commit": "e2c8b4be6615ed7201dc36829f880e0438a05689",
+  "source_branch": "codex/publish-weon-2026-10-29",
+  "base_release": "artiso-20261029-4db3e325",
+  "validation": {
+    "tests": 48,
+    "build": "passed",
+    "typecheck": "passed",
+    "search_schema_audit": "passed",
+    "existing_sitemap_urls_retained": 160,
+    "new_article": "astria-vs-weon-fashion-ai",
+    "visual_review": "header, CTA, table and reference/output panel passed"
+  },
+  "live_verified": true,
+  "checks": [
+    {
+      "url": "https://www.astria.ai/articles/astria-vs-weon-fashion-ai/",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 42121
+    },
+    {
+      "url": "https://www.astria.ai/articles/best-ai-fashion-photography-platforms/",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 46829
+    },
+    {
+      "url": "https://www.astria.ai/articles/sitemap.xml",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 25531
+    },
+    {
+      "url": "https://www.astria.ai/articles/",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 52179
+    },
+    {
+      "url": "https://www.astria.ai/articles/img/competitor-comparisons-2026-10/fashion-hero.webp",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 560644
+    },
+    {
+      "url": "https://www.astria.ai/articles/img/competitor-comparisons-2026-10/fashion-opener.webp",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 1316066
+    },
+    {
+      "url": "https://www.astria.ai/articles/img/competitor-comparisons-2026-10/jacket-reference.webp",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 1006138
+    },
+    {
+      "url": "https://www.astria.ai/articles/img/competitor-comparisons-2026-10/cast-reference.webp",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 940948
+    },
+    {
+      "url": "https://www.astria.ai/articles/assets/css/styles.7063f919.css",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 140370
+    },
+    {
+      "url": "https://www.astria.ai/articles/assets/js/main.fcdde96b.js",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 532998
+    },
+    {
+      "url": "https://www.astria.ai/articles/assets/js/runtime~main.4b5b2c0b.js",
+      "status": 200,
+      "release": "weon-20261029-e2c8b4b",
+      "bytes": 18261
+    }
+  ]
+}

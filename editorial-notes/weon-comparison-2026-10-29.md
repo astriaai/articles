@@ -35,3 +35,7 @@ Build on verified live Artiso release `artiso-20261029-4db3e325`, using source b
 ## Validation
 
 All 48 tests passed, including content-ledger coverage, reference declarations and pricing policy. Production build, TypeScript and search/schema audit passed with zero errors; sitemap has 161 URLs and retains all 160 prior URLs. Browser review passed the header, CTA and comparison table. No unrelated drafts were included.
+
+## Published
+
+Published and verified October 29, 2026: https://www.astria.ai/articles/astria-vs-weon-fashion-ai/ . Release `weon-20261029-e2c8b4b`, based on `artiso-20261029-4db3e325`; source commit `e2c8b4b` on `codex/publish-weon-2026-10-29`. All 11 production checks passed: article, shortlist, homepage, sitemap, four images and three JS/CSS assets. All 160 prior sitemap URLs retained. Browser review also passed the loaded reference/output panel. Detailed checks: `weon-publication-2026-10-29.json`.
