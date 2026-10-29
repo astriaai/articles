@@ -1,0 +1,84 @@
+{
+  "release": "artiso-20261029-4db3e325",
+  "source_commit": "4db3e325e8bb8b0283ad3b311bb77dbfa3bc9b2f",
+  "source_branch": "codex/publish-artiso-2026-10-29",
+  "base_release": "modelia-20261026-d0d919b9",
+  "validation": {
+    "tests": 48,
+    "build": "passed",
+    "typecheck": "passed",
+    "search_schema_audit": "passed",
+    "existing_sitemap_urls_retained": 159,
+    "new_article": "astria-vs-artiso-fashion-ai",
+    "visual_review": "header, CTA, table and reference/output panel passed"
+  },
+  "live_verified": true,
+  "checks": [
+    {
+      "url": "https://www.astria.ai/articles/astria-vs-artiso-fashion-ai/",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 40578
+    },
+    {
+      "url": "https://www.astria.ai/articles/best-ai-fashion-photography-platforms/",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 46474
+    },
+    {
+      "url": "https://www.astria.ai/articles/sitemap.xml",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 25368
+    },
+    {
+      "url": "https://www.astria.ai/articles/",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 52277
+    },
+    {
+      "url": "https://www.astria.ai/articles/img/competitor-comparisons-2026-10/fashion-hero.webp",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 560644
+    },
+    {
+      "url": "https://www.astria.ai/articles/img/competitor-comparisons-2026-10/fashion-opener.webp",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 1316066
+    },
+    {
+      "url": "https://www.astria.ai/articles/img/competitor-comparisons-2026-10/jacket-reference.webp",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 1006138
+    },
+    {
+      "url": "https://www.astria.ai/articles/img/competitor-comparisons-2026-10/cast-reference.webp",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 940948
+    },
+    {
+      "url": "https://www.astria.ai/articles/assets/css/styles.7063f919.css",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 140370
+    },
+    {
+      "url": "https://www.astria.ai/articles/assets/js/main.c8441113.js",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 532463
+    },
+    {
+      "url": "https://www.astria.ai/articles/assets/js/runtime~main.066aa22c.js",
+      "status": 200,
+      "release": "artiso-20261029-4db3e325",
+      "bytes": 18163
+    }
+  ]
+}

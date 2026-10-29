@@ -32,3 +32,7 @@ Build on the verified live release source `d0d919b957579073e33145362633c35e609b0
 - Compared with the live sitemap: all 159 existing URLs retained; only the new Artiso route added.
 - Reviewed the rendered article title, introduction, CTA and comparison table in the local browser.
 - Source changes are isolated to the new article, evidence note, one shortlist entry and one ledger row.
+
+## Published
+
+Published and verified October 29, 2026: https://www.astria.ai/articles/astria-vs-artiso-fashion-ai/ . Release `artiso-20261029-4db3e325`, based on `modelia-20261026-d0d919b9`; source branch `codex/publish-artiso-2026-10-29`, source commit `4db3e325`. All 11 production checks passed (article, shortlist, homepage, sitemap, four images and three JS/CSS assets). All 159 existing sitemap URLs retained. Reference/output panel also passed browser visual review. Detailed checks: `artiso-publication-2026-10-29.json`.
