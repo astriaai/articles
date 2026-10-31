@@ -13,12 +13,13 @@ export default function LynxExamples({category}: Props) {
     <section className={styles.group} aria-label={`${group.name} example`}>
       <figure className={styles.reference}>
         <a href={group.reference}>
-          <img src={group.reference} alt={`${group.name} original synthetic product reference: ${group.detail.toLowerCase()}`} loading="lazy" width="1792" height="2400" />
+          <img src={group.reference} alt={`${group.name} product reference: ${group.detail.toLowerCase()}`} loading="lazy" width={group.referenceWidth ?? 1792} height={group.referenceHeight ?? 2400} />
         </a>
         <figcaption>
           <strong>Product reference · {group.name}</strong>
-          <p>{group.detail}. Original fictional demonstration design; this product-only image is the input used for the on-model example below.</p>
-          <p><a href={group.referenceGallery}>View product reference in Gallery</a></p>
+          <p>{group.referenceDescription ?? `${group.detail}. Original fictional demonstration design; this product-only image is the input used for the on-model example below.`}</p>
+          {group.referenceGallery && <p><a href={group.referenceGallery}>View product reference in Gallery</a></p>}
+          {group.referenceSource && <p><a href={group.referenceSource}>Source: Tudor product page</a></p>}
         </figcaption>
       </figure>
       <div className={styles.variant}>
@@ -27,8 +28,8 @@ export default function LynxExamples({category}: Props) {
         {variant.gallery && <p><a href={variant.gallery}>View example in Gallery</a></p>}
         {'context' in variant && variant.context && (
           <figure className={styles.context}>
-            <a href={variant.after}><img src={variant.after} alt={`${group.name}: finished environmental photograph showing the product at its original scale in the scene`} loading="lazy" width="2400" height="1792" /></a>
-            <figcaption>The complete scene shows the small scale of the product detail. Compare the matched crops below.</figcaption>
+            <a href={variant.after}><img src={variant.after} alt={`${group.name}: finished photograph showing the product at its original scale in the scene`} loading="lazy" width="2400" height="1792" /></a>
+            <figcaption>{'contextCaption' in variant ? variant.contextCaption : 'The complete scene shows the small scale of the product detail. Compare the matched crops below.'}</figcaption>
           </figure>
         )}
         <ImageModelComparison

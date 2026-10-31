@@ -1,0 +1,98 @@
+{
+  "id": 47505171,
+  "creation_source": "mcp",
+  "callback": null,
+  "trained_at": "2026-10-30T13:54:29.225Z",
+  "started_training_at": "2026-10-30T13:52:37.086Z",
+  "failed_at": null,
+  "created_at": "2026-10-30T13:51:42.285Z",
+  "updated_at": "2026-10-30T13:54:29.225Z",
+  "tune_id": 4180298,
+  "prompt_likes_count": 0,
+  "base_pack_id": null,
+  "order_id": null,
+  "user_id": 2,
+  "workspace_id": 896,
+  "is_video": false,
+  "user_error": null,
+  "cost_mc": 66000,
+  "num_images": 1,
+  "input_image": null,
+  "input_video": null,
+  "mask_image": null,
+  "video_first_frame": null,
+  "video_last_frame": null,
+  "audio_reference": null,
+  "image_references": [],
+  "video_prompt": null,
+  "video_model": null,
+  "video_duration": null,
+  "skill_name": null,
+  "text": "Premium editorial watch campaign photograph of <faceid:6000014:1> watch, precise faithful product reproduction. Tight close-up of the Tudor watch worn on an adult man's wrist emerging from a charcoal wool field jacket, hand resting on dry dark coastal rock, distant slate-blue sea softly out of focus. Cool directional daylight with sculpted shadows and carefully controlled warm glints on the steel. Authentic rugged luxury watch campaign photography. Watch occupies about one third of frame width, entire face and bezel sharp and unobscured, camera nearly perpendicular to the dial with a slight natural tilt. Preserve the exact black dial, gilt minute track and text, cream luminous round and baton markers, inverted triangular twelve marker, snowflake hour hand, long minute hand and lollipop seconds hand, black bezel with gilt numerals and red triangle at twelve, silver case and five-link steel bracelet. Match the reference hand positions. Keep the dial inscriptions tiny and precise in their original positions: TUDOR with GENEVE below under the shield, 200m:660ft above MASTER CHRONOMETER in the lower dial, and very small SWISS MADE beneath the six marker. Preserve all character shapes and spacing from the reference. No date window. Crystal clear without rectangular reflections covering the text. Natural skin and fabric texture, restrained dramatic palette, one wrist and one watch, coherent photograph. The separate large Tudor branding outside the reference watch is not part of the scene: no graphic overlay, no campaign headline or watermark. --inpaint_preset strong --lynx",
+  "negative_prompt": "",
+  "cfg_scale": null,
+  "steps": null,
+  "super_resolution": false,
+  "resolution": "4K",
+  "ar": "1:1",
+  "seed": null,
+  "controlnet": null,
+  "controlnet_conditioning_scale": null,
+  "controlnet_txt2img": false,
+  "denoising_strength": null,
+  "style": null,
+  "color_grading": null,
+  "film_grain": false,
+  "hires_fix": false,
+  "inpaint_faces": true,
+  "face_correct": false,
+  "face_swap": false,
+  "backend_version": null,
+  "scheduler": "euler_a",
+  "use_lpw": false,
+  "w": null,
+  "h": null,
+  "aspect_ratio": "4:3",
+  "url": "https://api.astria.ai/tunes/4180298/prompts/47505171.json?ws=896",
+  "images": [
+    "https://mp.astria.ai/prygt2479p2vysgbotbbbnodb5k3"
+  ],
+  "filenames": [
+    "47505171-0.jpg"
+  ],
+  "content_types": [
+    "image/jpeg"
+  ],
+  "blob_ids": [
+    230247878
+  ],
+  "debug_images": [
+    "https://mp.astria.ai/bms103346rhdlr22u7r2vj8fxixo"
+  ],
+  "debug_filenames": [
+    "47505171-0-0.jpeg"
+  ],
+  "debug_content_types": [
+    "image/jpeg"
+  ],
+  "liked": false,
+  "tune": {
+    "id": 4180298,
+    "title": "Nano Banana 2.1",
+    "model_type": null,
+    "name": ""
+  },
+  "tunes": [
+    {
+      "id": 6000014,
+      "title": "Tudor Black Bay 58 M7939A1A0NU-0001 — Lynx article",
+      "model_type": "faceid",
+      "name": "watch",
+      "branch": "gemini-2"
+    }
+  ],
+  "creation_client": {
+    "type": "external",
+    "name": "Codex"
+  }
+}

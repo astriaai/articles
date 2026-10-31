@@ -1,0 +1,83 @@
+{
+  "prompt_id": 47505171,
+  "reference_id": 6000014,
+  "workspace_id": 896,
+  "model": "nano-banana-2",
+  "model_tune_id": 4180298,
+  "resolution": "4K",
+  "aspect_ratio": "4:3",
+  "output_count": 1,
+  "source_page": "https://www.tudorwatch.com/en/watches/black-bay-58/m7939a1a0nu-0001",
+  "reference_url": "https://media.tudorwatch.com/image/upload/v1/catalogue/0yi5ee8b69yh3/upright-cb-centred-with-drop-shadow/tudor-m7939a1a0nu-0001",
+  "reference_sha256": "1d1e437dcd6e4d1ae07873f0db6e38b8f4ecd20c960a3483ed8c16e2dd133f28",
+  "reference_dimensions": [
+    1800,
+    2400
+  ],
+  "processing": "Identical normalized crops, WebP encoding and downsampling only. No retouching or upscaling.",
+  "frames": [
+    {
+      "role": "before",
+      "source_sha256": "b33ede9cb208aff65597e7a07050a306260c93e5fbdf8c72882e0c084115e1e3",
+      "native_dimensions": [
+        4800,
+        3584
+      ],
+      "normalized_crop": [
+        0.43,
+        0.405,
+        0.575,
+        0.595
+      ],
+      "pixel_crop": [
+        2064,
+        1452,
+        2760,
+        2132
+      ],
+      "full_asset": "static/img/lynx/47505171-before.webp",
+      "full_dimensions": [
+        2400,
+        1792
+      ],
+      "detail_asset": "static/img/lynx/47505171-before-detail.webp",
+      "detail_dimensions": [
+        696,
+        680
+      ],
+      "url": "https://mp.astria.ai/bms103346rhdlr22u7r2vj8fxixo"
+    },
+    {
+      "role": "after",
+      "source_sha256": "0d5c6a29e37a81d39b4e18c99d2209f3eb38c48d3c4d29ccb2ef708f3197d482",
+      "native_dimensions": [
+        6944,
+        5185
+      ],
+      "normalized_crop": [
+        0.43,
+        0.405,
+        0.575,
+        0.595
+      ],
+      "pixel_crop": [
+        2986,
+        2100,
+        3993,
+        3085
+      ],
+      "full_asset": "static/img/lynx/47505171-after.webp",
+      "full_dimensions": [
+        2400,
+        1792
+      ],
+      "detail_asset": "static/img/lynx/47505171-after-detail.webp",
+      "detail_dimensions": [
+        1007,
+        985
+      ],
+      "url": "https://mp.astria.ai/prygt2479p2vysgbotbbbnodb5k3"
+    }
+  ],
+  "selection_rationale": "User explicitly selected this exact coastal wristshot pair on 2026-10-31, superseding the still life. Small text changes from malformed to readable. The extra lower TUDOR / GENEVE mark is absent from the reference and is explicitly disclosed in the article caption."
+}

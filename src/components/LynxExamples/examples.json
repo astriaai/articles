@@ -105,5 +105,31 @@
       }
     ],
     "referenceGallery": "https://www.astria.ai/gallery?user_id=2&text=original+fictional+design&limit=50#prompt_47336167"
+  },
+  {
+    "name": "Tudor Black Bay 58",
+    "detail": "Tiny dial inscriptions and maker lettering",
+    "tuneId": 6000014,
+    "reference": "/articles/img/lynx/6000014-reference.webp",
+    "referenceDescription": "Official Tudor product image used as the reference for this generated coastal wristshot. Compare the tiny dial inscriptions, shield, hands, indices and bezel against this source.",
+    "referenceWidth": 1800,
+    "referenceHeight": 2400,
+    "referenceGallery": "",
+    "variants": [
+      {
+        "id": 47505171,
+        "resolution": "4K",
+        "label": "Small dial text in a coastal wristshot",
+        "observation": "The malformed dial lettering becomes readable as TUDOR, GENEVE, MASTER CHRONOMETER and SWISS MADE. The finished frame also adds a second TUDOR / GENEVE mark above the lower inscription, which is absent from the reference. Review text placement, the shield and the surrounding dial as well as legibility.",
+        "before": "/articles/img/lynx/47505171-before.webp",
+        "beforeDetail": "/articles/img/lynx/47505171-before-detail.webp",
+        "after": "/articles/img/lynx/47505171-after.webp",
+        "afterDetail": "/articles/img/lynx/47505171-after-detail.webp",
+        "gallery": "",
+        "context": true,
+        "contextCaption": "The complete wristshot shows how small the dial lettering is in the scene. Compare the matched crops below."
+      }
+    ],
+    "referenceSource": "https://www.tudorwatch.com/en/watches/black-bay-58/m7939a1a0nu-0001"
   }
 ]

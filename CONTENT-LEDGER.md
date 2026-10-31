@@ -44,6 +44,7 @@ competitor pricing and feature scope move fastest.
 
 | Article | Primary query | Published | Last fact check | Volatile | Next review | Owner |
 | --- | --- | --- | --- | --- | --- | --- |
+| lynx-product-details | Astria Lynx small product text | 2026-10-21 | 2026-10-31 | F | 2026-11-30 | features |
 | astria-vs-weon-fashion-ai | astria vs weon | 2026-10-29 | 2026-10-29 | F P | 2026-11-29 | comparisons |
 | astria-vs-artiso-fashion-ai | astria vs artiso | 2026-10-29 | 2026-10-29 | F | 2026-11-29 | comparisons |
 | mockup-lab-ecommerce-product-mockups | ecommerce product mockups | 2026-10-22 | 2026-10-22 | F M | 2027-01-22 | features |

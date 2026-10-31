@@ -61,9 +61,9 @@ For example, with a person and shirt attached:
 
 Lynx handles the detail refinement automatically. Review the completed image at the size you will use it, then zoom in to check the brand mark, wording, print, label and surrounding material.
 
-## Five products, five matched examples
+## Six products, six matched examples
 
-These are original fictional demonstration designs from the **Lynx — Detail Lab** workspace. Each product-only reference is identified separately from its on-model outputs. The five featured references were created as synthetic demonstration assets; they are not customer products or photographs of manufactured items.
+The first five products are original fictional demonstration designs from the **Lynx — Detail Lab** workspace. Their references were created as synthetic demonstration assets; they are not customer products or photographs of manufactured items. The watch example uses an official Tudor product image and a new generated wristshot from the **Articles** workspace. Each product reference is shown separately from its generated output.
 
 Every comparison uses the **before frame and finished frame attached to the same prompt**. The detail crops use the same relative coordinates, and links to the complete frames accompany each example. No manual retouching was applied to the article images. Web copies are resized and encoded for display; the crops are not upscaled.
 
@@ -101,6 +101,12 @@ The ecru polo’s green shield, gold heron, three stars and small ribbon combine
 
 <LynxExamples category="FIELD CLUB" />
 
+### Tudor Black Bay 58: tiny watch-dial lettering
+
+A coastal wristshot places the watch against charcoal wool, dark rock and a softly blurred sea. The reference dial combines **TUDOR / GENEVE** beneath the shield, two small lines above six o’clock and tiny **SWISS MADE** lettering at the bottom. These details need to remain small on the product while staying faithful to the source.
+
+<LynxExamples category="Tudor Black Bay 58" />
+
 ## What to check before approving a result
 
 Compare the product to its source at two scales. At the intended publishing size, check the silhouette, color, print placement and overall appearance. In the detail view, check the exact wording, symbol, motif arrangement, label color and material around the refined area.
@@ -127,7 +133,7 @@ No. Lynx can refine product details automatically during generation, with no man
 
 ### What product details is Lynx for?
 
-Lynx is for reference details such as logos, small text, complex prints, plaques, emblems, labels and fine product features. This demonstration covers a printed shirt, a small chest logo, a woven badge, a woven bag label and a brass handbag plaque.
+Lynx is for reference details such as logos, small text, complex prints, plaques, emblems, labels and fine product features. This demonstration covers a printed shirt, a small chest logo, a woven badge, a woven bag label, a brass handbag plaque and tiny watch-dial lettering.
 
 ### Will Lynx reproduce every detail perfectly?
 
