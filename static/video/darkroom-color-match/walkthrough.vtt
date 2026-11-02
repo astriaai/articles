@@ -1,43 +1,43 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:04.800
-1. Open your photo, then click Darkroom.
+00:00:00.000 --> 00:00:03.625
+Open the photo with the pale trousers. Click Darkroom.
 
-00:00:04.800 --> 00:00:09.600
-2. Scroll to Color match and expand it.
+00:00:03.625 --> 00:00:06.250
+Scroll down the editing panel to Color match.
 
-00:00:09.600 --> 00:00:14.400
-3. Click Add area to start a local color match.
+00:00:06.250 --> 00:00:08.750
+Expand Color match.
 
-00:00:14.400 --> 00:00:19.200
-4. Choose the product reference: the charcoal trousers.
+00:00:08.750 --> 00:00:12.000
+Click Add area to open the photo and its product references.
 
-00:00:19.200 --> 00:00:24.000
-5. Click the trousers in the photo to select the area.
+00:00:12.000 --> 00:00:15.750
+In Photo, click the pale denim on the left thigh.
 
-00:00:24.000 --> 00:00:28.800
-Wait for the selection to trace the fabric.
+00:00:15.750 --> 00:00:19.750
+In Reference, click the indigo denim to set the target color.
 
-00:00:28.800 --> 00:00:33.600
-6. Click the trousers in the reference to match their color.
+00:00:19.750 --> 00:00:23.250
+Check the blue across both legs, then click Done.
 
-00:00:33.600 --> 00:00:38.400
-7. Review the selection, then click Done.
+00:00:23.250 --> 00:00:26.250
+Try Amount 50 for a softer correction.
 
-00:00:38.400 --> 00:00:43.200
-8. Amount controls match strength. Try 50 for a softer correction.
+00:00:26.250 --> 00:00:29.000
+Return Amount to 100 for the full correction.
 
-00:00:43.200 --> 00:00:48.000
-Return Amount to 100 for the full color match.
+00:00:29.000 --> 00:00:32.250
+Set Tone to 0 to keep the lightness of the original trousers.
 
-00:00:48.000 --> 00:00:52.800
-9. Tone at 0 keeps the photo lightness while matching color.
+00:00:32.250 --> 00:00:35.250
+Return Tone to 100 to match the darker indigo reference.
 
-00:00:52.800 --> 00:00:57.600
-Tone at 100 also applies the full reference lightness match.
+00:00:35.250 --> 00:00:37.500
+Scroll down to compare the result.
 
-00:00:57.600 --> 00:01:04.000
-10. Hold Before to compare; release to return to your correction.
+00:00:37.500 --> 00:00:44.500
+Hold Before to see the pale denim. Release to see the indigo.
 
-00:01:04.000 --> 00:01:08.800
-11. Click PNG to download the corrected photo.
+00:00:44.500 --> 00:00:48.125
+Click PNG to download the corrected photo.

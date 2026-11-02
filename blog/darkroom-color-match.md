@@ -40,15 +40,15 @@ In Darkroom, select the trousers in **Photo** and the denim in **Reference**. He
 
 ## Watch the Color match walkthrough
 
-Follow this captioned walkthrough of the actual Darkroom interface using the America Basics photo below. It shows how to select the trousers, choose their product reference, adjust Amount and Tone, compare the result, and download a PNG. The browser captures are paced so you can follow each action; no new photos were generated.
+Watch the denim example above in Darkroom. Click the pale trousers in the boy’s photo, then the indigo fabric in the product reference. Follow the change at his knees as you adjust **Amount** and **Tone**, then hold **Before** to compare the result before downloading it.
 
 <figure className="benchmark-card--source" style={{margin: '1.5rem 0'}}>
-  <video controls playsInline preload="metadata" poster="/articles/img/darkroom-color-match/walkthrough-poster.webp" aria-label="Step-by-step Darkroom Color match walkthrough" style={{display: 'block', width: '100%', height: 'auto', borderRadius: '12px', background: '#10171d'}}>
-    <source src="/articles/video/darkroom-color-match/walkthrough.mp4" type="video/mp4" />
-    <track kind="captions" src="/articles/video/darkroom-color-match/walkthrough.vtt" srcLang="en" label="English" />
-    <a href="/articles/video/darkroom-color-match/walkthrough.mp4">Download the Color match walkthrough</a>
+  <video controls playsInline preload="metadata" poster="/articles/img/darkroom-color-match/walkthrough-poster.webp?v=indigo" aria-label="Darkroom walkthrough matching the boy’s pale trousers to indigo denim" style={{display: 'block', width: '100%', height: 'auto', borderRadius: '12px', background: '#10171d'}}>
+    <source src="/articles/video/darkroom-color-match/walkthrough.mp4?v=indigo" type="video/mp4" />
+    <track kind="captions" src="/articles/video/darkroom-color-match/walkthrough.vtt?v=indigo" srcLang="en" label="English" />
+    <a href="/articles/video/darkroom-color-match/walkthrough.mp4?v=indigo">Download the Color match walkthrough</a>
   </video>
-  <figcaption>1 minute 9 seconds · On-screen instructions · Existing America Basics photo and product reference. The written steps below cover the same workflow.</figcaption>
+  <figcaption>48 seconds · On-screen instructions and English captions. The America Basics example ends with Amount and Tone both set to 100.</figcaption>
 </figure>
 
 ## See Color match on existing workspace photos
