@@ -48,7 +48,7 @@ with subprocess.Popen([
     'ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-f', 'image2pipe',
     '-framerate', str(FPS), '-vcodec', 'mjpeg', '-i', '-', '-an', '-c:v', 'libx264',
     '-preset', 'medium', '-crf', '17', '-pix_fmt', 'yuv420p', '-r', '24',
-    '-movflags', '+faststart', str(VIDEO / 'walkthrough.mp4'),
+    '-movflags', '+faststart', str(VIDEO / 'indigo-denim.mp4'),
 ], stdin=subprocess.PIPE) as encoder:
     for beat in beats:
         start = written
@@ -66,11 +66,11 @@ with subprocess.Popen([
         raise RuntimeError('Video encoding failed')
 
 (NOTES / 'timeline.json').write_text(json.dumps(timeline, indent=2)+'\n')
-(VIDEO / 'walkthrough.vtt').write_text('WEBVTT\n\n'+'\n\n'.join(
+(VIDEO / 'indigo-denim.vtt').write_text('WEBVTT\n\n'+'\n\n'.join(
     f"{timestamp(round(b['start']*FPS))} --> {timestamp(round(b['end']*FPS))}\n{b['label']}"
     for b in timeline)+'\n')
 # Opening comparison: the pale render beside its unselected indigo reference.
 with Image.open(CAPTURE / '00100.jpg') as poster:
-    poster.save(SITE / 'static/img/darkroom-color-match/walkthrough-poster.webp',
+    poster.save(SITE / 'static/img/darkroom-color-match/indigo-denim-poster.webp',
                 'WEBP', quality=92)
 print(f'{written/FPS:.3f} seconds, {len(timeline)} caption cues')
