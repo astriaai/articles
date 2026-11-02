@@ -14,9 +14,11 @@ keywords:
   - Astria Lynx watch dial text
 ---
 
+import WatchDialComparison from '@site/src/components/WatchDialComparison';
+
 **A watch campaign needs a convincing photograph and a convincing watch.** The setting can change from a quiet workbench to a theatre, but the maker's name, dial layout and hand shapes still need to belong to the reference product. Tiny lettering makes that a demanding test.
 
-We created two reference-driven photographs for each of four German watch models, giving each pair its own visual direction. This article shares the eight prompts, a selection of finished images and close-ups of the small inscriptions. The shoot used **Nano Banana 2 at the 4K setting, with Astria Lynx enabled**.
+We created two reference-driven photographs for each of four German watch models, giving each pair its own visual direction. This article shares the eight prompts, five finished images and matching before-and-after views of the dial lettering. The shoot used **Nano Banana 2 at the 4K setting, with Astria Lynx enabled**.
 
 <!-- truncate -->
 
@@ -38,7 +40,7 @@ The creative brief gave each watch a different palette, material setting and lig
 | KUDOKE 1 Anthracite | Geometric studio photography | Concrete pedestal and cobalt acrylic | Folded aluminium and a blue paper arc |
 | Lang & Heyne Friedrich III Manufaktur Edition | Dramatic evening photography | Oxblood velvet and walnut | Theatre-seat wristshot |
 
-The gallery below selects five finished photographs from the eight-shot shoot. Selection matters: a strong atmosphere alone is not enough to approve a watch image.
+The gallery below selects five finished photographs from the eight-shot shoot. Use **Side by side** to read both dials, or switch to **Scan line** and move the divider across a word. Each comparison shows the same area before and after Lynx on a single photograph.
 
 ## Set up a reference-driven watch shoot
 
@@ -57,6 +59,8 @@ The [KUDOKE 1 Anthracite](https://www.kudoke.eu/en/kudoke1_anthracite/) combines
   <figcaption>AI-generated KUDOKE pedestal shot: cobalt acrylic and diagonal shadows frame the small dial.</figcaption>
 </figure>
 
+<WatchDialComparison shot="kudoke-1" />
+
 The second composition repeats the palette with a folded metal surface and a paper arc. It feels like the same campaign while changing the viewpoint and materials. The strap runs out of the frame, so this is an editorial composition rather than a complete-product catalog view.
 
 <figure data-source-reference="https://www.astria.ai/prompts/47528032">
@@ -64,14 +68,8 @@ The second composition repeats the palette with a folded metal surface and a pap
   <figcaption>AI-generated KUDOKE still life on folded aluminium with a muted cobalt paper arc.</figcaption>
 </figure>
 
-### Inspect the plaque and the smaller country inscription
+<WatchDialComparison shot="kudoke-2" />
 
-“KUDOKE” is the larger target. “GERMANY,” just above six, is the more revealing check. Both are readable in the selected pedestal image. Also compare the infinity hand, seconds hand, silver rings and minute markers against the [source photograph](https://www.kudoke.eu/wp-content/uploads/2021/07/KUDOKE1_anthrazit_front_sw.jpg): readable words do not establish exact reproduction of the whole dial.
-
-<figure data-source-reference="https://www.astria.ai/prompts/47528030">
-  <img src="/articles/img/german-watch-photoshoot/kudoke-1-detail.webp" alt="Detail crop from the finished pedestal image: KUDOKE and the smaller GERMANY inscription." width="625" height="674" loading="lazy" style={{display: 'block', maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption>Detail crop from the finished pedestal image: KUDOKE and the smaller GERMANY inscription.</figcaption>
-</figure>
 <details>
 <summary>Prompt 1: concrete pedestal and cobalt plane</summary>
 
@@ -95,12 +93,11 @@ For the Hentschel H1 Chronometer, the brief paired navy fabric and pale teak wit
   <figcaption>AI-generated Hentschel still life: a pale teak chart table, navy fabric and soft cabin light.</figcaption>
 </figure>
 
-The chart-table image leaves the entire dial visible. Its diagonal position creates movement without putting a sleeve across the numerals. “HAMBURG” remains readable beneath the maker's name in the detail crop.
+The chart-table image leaves the entire dial visible. Its diagonal position creates movement without putting a sleeve across the numerals. Both crops below are turned upright so you can read the three inscriptions.
 
-<figure data-source-reference="https://www.astria.ai/prompts/47528036">
-  <img src="/articles/img/german-watch-photoshoot/hentschel-2-detail.webp" alt="Detail crop from the finished Hentschel still life: HENTSCHEL and HAMBURG." width="417" height="674" loading="lazy" style={{display: 'block', maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption>Detail crop from the finished Hentschel still life: HENTSCHEL and HAMBURG.</figcaption>
-</figure>
+<WatchDialComparison shot="hentschel-2" />
+
+
 
 This is why we review the smaller line separately from the main logo. A word can look plausible at page size while containing a malformed character. Inspect each letter before approving an image, then return to the full composition to check reflections, strap attachment and case proportions.
 
@@ -122,21 +119,19 @@ This is why we review the smaller line separately from the main logo. A word can
 
 The [Friedrich III Manufaktur Edition](https://www.lang-und-heyne.de/en/special/friedrich-iii-manufaktur-edition/) has a black enamel dial and ornate Louis XV steel hands. We used deep burgundy velvet, polished walnut and a narrow warm light to echo that decorative detail without filling the frame with props.
 
-The opening still life is the clearest lettering example in this pair. The wristshot below carries the same evening palette into a theatre setting. Its reflections help establish the curved crystal, but make it less useful for inspecting the upper dial than the still life.
+In the velvet still life at the top of the article, look below the maker's name and follow the curve of “MADE IN SAXONY” above the seconds dial.
+
+<WatchDialComparison shot="lang-1" />
+
+The wristshot carries the velvet palette into a theatre. The watch occupies less of the frame here, which makes the two lines under twelve harder to render.
 
 <figure data-source-reference="https://www.astria.ai/prompts/47528039">
   <img src="/articles/img/german-watch-photoshoot/lang-2.webp" alt="AI-generated Lang & Heyne theatre wristshot with ivory cuff, black jacket and warm background lights." width="2400" height="1793" loading="lazy" style={{display: 'block', maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption>AI-generated Lang & Heyne theatre wristshot with ivory cuff, black jacket and warm background lights.</figcaption>
 </figure>
 
-### Three lines of text at different scales
+<WatchDialComparison shot="lang-2" />
 
-The still-life crop shows “LANG & HEYNE,” “DRESDEN” and the smaller curved “MADE IN SAXONY.” All three are readable. The ornate hands remain another review target: their shape and open spaces matter just as much as the letters. The image reference for this pair came from [Swisswatches' editorial coverage](https://swisswatches-magazine.com/lang-heyne-friedrich-iii-manufacture-edition/).
-
-<figure data-source-reference="https://www.astria.ai/prompts/47528037">
-  <img src="/articles/img/german-watch-photoshoot/lang-1-detail.webp" alt="Detail crop from the opening still life: LANG & HEYNE, DRESDEN and MADE IN SAXONY." width="764" height="830" loading="lazy" style={{display: 'block', maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption>Detail crop from the opening still life: LANG & HEYNE, DRESDEN and MADE IN SAXONY.</figcaption>
-</figure>
 <details>
 <summary>Prompt 1: oxblood velvet and walnut</summary>
 
@@ -189,7 +184,7 @@ Lynx can help refine small reference details, but the review still has to cover 
 
 The shoot ran on November 1, 2026 in Astria's Articles workspace. Each of the four references was used for two prompts, with one image requested per prompt. All eight used Nano Banana 2, a 4:3 request, the 4K setting and Lynx enabled. Finished files were returned at 6,944 × 5,185 pixels; the full-scene web copies shown here are reduced to 2,400 pixels wide.
 
-The close-ups are crops of the finished files, not separate generations. No lettering was manually repainted, and no detail crop was upscaled. These selected results demonstrate a creative workflow; they are not a controlled before-and-after measurement of Lynx. For matched before and finished frames, see the [Lynx examples](/lynx-product-details).
+For each comparison, the before image is the frame saved immediately before Lynx on that same prompt. We cropped the same relative area from both files and reduced the larger crop to match the smaller one. Both Hentschel crops were rotated 90° clockwise for reading. No lettering was repainted and no crop was upscaled. See the [Lynx article](/lynx-product-details) for the same comparison across other products.
 
 ## Create a watch campaign from your own references
 

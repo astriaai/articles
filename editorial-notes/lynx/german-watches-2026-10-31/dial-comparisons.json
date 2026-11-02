@@ -1,0 +1,206 @@
+{
+  "workspace": 896,
+  "source": "Before and finished frames from the same archived prompt; one normalized crop per shot. Reviewed side by side before release.",
+  "shots": {
+    "kudoke-1": {
+      "prompt_id": 47528030,
+      "crop_in_before_pixels": [
+        2170,
+        1350,
+        600,
+        800
+      ],
+      "clockwise_rotation_degrees": 0,
+      "sources": {
+        "before": {
+          "url": "https://mp.astria.ai/qz34tp1nnarwkynbu9egd32lfrbi",
+          "sha256": "7dbd4139221c832cede3b5ff2b427d1572b1db774c8df3dceb4ef1e628803076",
+          "dimensions": [
+            4800,
+            3584
+          ],
+          "crop": [
+            2170,
+            1350,
+            600,
+            800
+          ]
+        },
+        "after": {
+          "url": "https://mp.astria.ai/s1jruc4n2rcuwsa7z9nbjur9fkrb",
+          "sha256": "c25b4c6621480f7c0dd60d0f6824fb351b8f789ddc670214cbec16be6384ab2d",
+          "dimensions": [
+            6944,
+            5185
+          ],
+          "crop": [
+            3139,
+            1953,
+            868,
+            1157
+          ]
+        }
+      }
+    },
+    "kudoke-2": {
+      "prompt_id": 47528032,
+      "crop_in_before_pixels": [
+        2080,
+        1480,
+        615,
+        820
+      ],
+      "clockwise_rotation_degrees": 0,
+      "sources": {
+        "before": {
+          "url": "https://mp.astria.ai/rp39naf6g6lt1bezcnh3eo008key",
+          "sha256": "517cab9a83cd2d8ac77b28663630a32fd6f5c4431a3ba1499cd404060851cd6d",
+          "dimensions": [
+            4800,
+            3584
+          ],
+          "crop": [
+            2080,
+            1480,
+            615,
+            820
+          ]
+        },
+        "after": {
+          "url": "https://mp.astria.ai/fhx3cobyemos08vvwu4ldn4u8u5p",
+          "sha256": "fd9cc4754a5bff315f773241502e0009b10675cfadeafa2cac0120bc19d41f9e",
+          "dimensions": [
+            6944,
+            5185
+          ],
+          "crop": [
+            3009,
+            2141,
+            890,
+            1186
+          ]
+        }
+      }
+    },
+    "hentschel-2": {
+      "prompt_id": 47528036,
+      "crop_in_before_pixels": [
+        1980,
+        1800,
+        1024,
+        768
+      ],
+      "clockwise_rotation_degrees": 90,
+      "sources": {
+        "before": {
+          "url": "https://mp.astria.ai/uv11i82hsvq2ey8wu56ld60t2tll",
+          "sha256": "1a91a293919825b7a7998e5600edf9ed939bc66e7af2e0c0298db0e2faebe062",
+          "dimensions": [
+            4800,
+            3584
+          ],
+          "crop": [
+            1980,
+            1800,
+            1024,
+            768
+          ]
+        },
+        "after": {
+          "url": "https://mp.astria.ai/2cnbjdn03lzxdcr92pjn952faxwh",
+          "sha256": "4776e351f1973d15e9803b74902bf94a2fcfe7acbe0770d752d52f8da4721a52",
+          "dimensions": [
+            6944,
+            5185
+          ],
+          "crop": [
+            2864,
+            2604,
+            1481,
+            1111
+          ]
+        }
+      }
+    },
+    "lang-1": {
+      "prompt_id": 47528037,
+      "crop_in_before_pixels": [
+        2110,
+        1320,
+        570,
+        760
+      ],
+      "clockwise_rotation_degrees": 0,
+      "sources": {
+        "before": {
+          "url": "https://mp.astria.ai/94i5blp4nynzd88l02ftujnql0yd",
+          "sha256": "24555a796d613ebd92dcfe180f9f60869cc8f3d3f5cdc6e0fbea7eccce2d8ec3",
+          "dimensions": [
+            4800,
+            3584
+          ],
+          "crop": [
+            2110,
+            1320,
+            570,
+            760
+          ]
+        },
+        "after": {
+          "url": "https://mp.astria.ai/gcrberpv2k0r9ltogxndo0f3r0db",
+          "sha256": "4adde45e08bde0f7a347c0e8263b4d1df59527cd7d218c03e27df8fa58037782",
+          "dimensions": [
+            6944,
+            5185
+          ],
+          "crop": [
+            3052,
+            1910,
+            825,
+            1099
+          ]
+        }
+      }
+    },
+    "lang-2": {
+      "prompt_id": 47528039,
+      "crop_in_before_pixels": [
+        2290,
+        1470,
+        450,
+        600
+      ],
+      "clockwise_rotation_degrees": 0,
+      "sources": {
+        "before": {
+          "url": "https://mp.astria.ai/8osso521k4l1h845t9wljrk94oo1",
+          "sha256": "2c0a4683cef23dcbefe65cf0744f1d0a0f50c2b4f072550aa7cc496248f8767b",
+          "dimensions": [
+            4800,
+            3584
+          ],
+          "crop": [
+            2290,
+            1470,
+            450,
+            600
+          ]
+        },
+        "after": {
+          "url": "https://mp.astria.ai/bvsfsafsl3n2lbmuwqv0t97fcw7h",
+          "sha256": "391e7657e3c0635459e0661cb263a23cff44148d32d975adc8a44e18d5a52312",
+          "dimensions": [
+            6944,
+            5185
+          ],
+          "crop": [
+            3313,
+            2127,
+            651,
+            868
+          ]
+        }
+      }
+    }
+  }
+}
