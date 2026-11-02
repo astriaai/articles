@@ -1,82 +1,136 @@
 [
   {
-    "label": "1. Open your photo, then click Darkroom.",
     "start": 0,
-    "end": 24
+    "end": 29,
+    "label": "Open the photo with the pale trousers. Click Darkroom.",
+    "point": [
+      1174,
+      542
+    ],
+    "at": 1.8
   },
   {
-    "label": "2. Expand Color match in the editing panel.",
-    "start": 24,
-    "end": 48
+    "start": 29,
+    "end": 50,
+    "label": "Scroll down the editing panel to Color match.",
+    "point": null,
+    "at": 0.45
   },
   {
-    "label": "3. Click Add area to start a local color match.",
-    "start": 48,
-    "end": 72
+    "start": 50,
+    "end": 70,
+    "label": "Expand Color match.",
+    "point": [
+      1021,
+      298
+    ],
+    "at": 0.9
   },
   {
-    "label": "4. Choose the product reference: the charcoal trousers.",
-    "start": 72,
-    "end": 96
+    "start": 70,
+    "end": 96,
+    "label": "Click Add area to open the photo and its product references.",
+    "point": [
+      1130,
+      341
+    ],
+    "at": 0.95
   },
   {
-    "label": "5. Click the trousers in the photo to select the area.",
     "start": 96,
-    "end": 120
+    "end": 126,
+    "label": "In Photo, click the pale denim on the left thigh.",
+    "point": [
+      219,
+      481
+    ],
+    "at": 1.25
   },
   {
-    "label": "Wait for the selection to trace the fabric.",
-    "start": 120,
-    "end": 144
+    "start": 126,
+    "end": 158,
+    "label": "In Reference, click the indigo denim to set the target color.",
+    "point": [
+      678,
+      335
+    ],
+    "at": 1.35
   },
   {
-    "label": "6. Click the trousers in the reference to match their color.",
-    "start": 144,
-    "end": 168
+    "start": 158,
+    "end": 186,
+    "label": "Check the blue across both legs, then click Done.",
+    "point": [
+      551,
+      42
+    ],
+    "at": 2.15
   },
   {
-    "label": "7. Review the selection, then click Done.",
-    "start": 168,
-    "end": 192
+    "start": 186,
+    "end": 210,
+    "label": "Try Amount 50 for a softer correction.",
+    "point": [
+      1096,
+      385
+    ],
+    "at": 1
   },
   {
-    "label": "8. Amount controls match strength. Try 50 for a softer correction.",
-    "start": 192,
-    "end": 216
+    "start": 210,
+    "end": 232,
+    "label": "Return Amount to 100 for the full correction.",
+    "point": [
+      1096,
+      359
+    ],
+    "at": 0.8
   },
   {
-    "label": "Return Amount to 100 for the full color match.",
-    "start": 216,
-    "end": 240
+    "start": 232,
+    "end": 258,
+    "label": "Set Tone to 0 to keep the lightness of the original trousers.",
+    "point": [
+      1231,
+      359
+    ],
+    "at": 0.95
   },
   {
-    "label": "9. Tone at 0 keeps the photo lightness while matching color.",
-    "start": 240,
-    "end": 264
+    "start": 258,
+    "end": 282,
+    "label": "Return Tone to 100 to match the darker indigo reference.",
+    "point": [
+      1231,
+      359
+    ],
+    "at": 0.9
   },
   {
-    "label": "Tone at 100 also applies the full reference lightness match.",
-    "start": 264,
-    "end": 288
+    "start": 282,
+    "end": 300,
+    "label": "Scroll down to compare the result.",
+    "point": null,
+    "at": 0.55
   },
   {
-    "label": "10. Hold Before to compare; release to return to your correction.",
-    "start": 288,
-    "end": 320
+    "start": 300,
+    "end": 344,
+    "label": "Hold Before to see the pale denim. Release to see the indigo.",
+    "point": [
+      1025,
+      689
+    ],
+    "at": 1
   },
   {
-    "label": "11. Click PNG to download the corrected photo.",
-    "start": 320,
-    "end": 344
-  },
-  {
-    "label": "2. Scroll to Color match and expand it.",
     "start": 344,
-    "end": 368
-  },
-  {
-    "label": "3. Click Add area to start a local color match.",
-    "start": 368,
-    "end": 392
+    "end": 373,
+    "label": "Click PNG to download the corrected photo.",
+    "point": [
+      1020,
+      650
+    ],
+    "at": 1.25
   }
 ]
