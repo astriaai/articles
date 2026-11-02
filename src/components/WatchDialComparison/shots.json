@@ -1,0 +1,37 @@
+{
+  "kudoke-1": {
+    "title": "KUDOKE · concrete pedestal",
+    "observation": "Read the first letter of GERMANY above six. It looks like a C before Lynx; the G is distinct in the finished frame. The larger KUDOKE plaque is readable in both.",
+    "before": "https://mp.astria.ai/qz34tp1nnarwkynbu9egd32lfrbi",
+    "after": "https://mp.astria.ai/s1jruc4n2rcuwsa7z9nbjur9fkrb",
+    "reference": "https://www.kudoke.eu/wp-content/uploads/2021/07/KUDOKE1_anthrazit_front_sw.jpg"
+  },
+  "kudoke-2": {
+    "title": "KUDOKE · folded aluminium",
+    "observation": "Look at the curved GERMANY inscription and the serifs on the KUDOKE plaque. The finished lettering has more distinct edges.",
+    "before": "https://mp.astria.ai/rp39naf6g6lt1bezcnh3eo008key",
+    "after": "https://mp.astria.ai/fhx3cobyemos08vvwu4ldn4u8u5p",
+    "reference": "https://www.kudoke.eu/wp-content/uploads/2021/07/KUDOKE1_anthrazit_front_sw.jpg"
+  },
+  "hentschel-2": {
+    "title": "Hentschel · chart table",
+    "observation": "HENTSCHEL, HAMBURG and CHRONOMETER are readable in both frames. Follow the smaller lettering to see how little changed in this shot.",
+    "before": "https://mp.astria.ai/uv11i82hsvq2ey8wu56ld60t2tll",
+    "after": "https://mp.astria.ai/2cnbjdn03lzxdcr92pjn952faxwh",
+    "reference": "https://hentschel-hamburg.com/wp-content/uploads/2018/02/Hentschel_H1_St_141116_084_01_Chronometer_2500x1400px.jpg"
+  },
+  "lang-1": {
+    "title": "Lang & Heyne · velvet still life",
+    "observation": "All three inscriptions are readable before Lynx. Move the divider across DRESDEN to compare the letter shapes and spacing.",
+    "before": "https://mp.astria.ai/94i5blp4nynzd88l02ftujnql0yd",
+    "after": "https://mp.astria.ai/gcrberpv2k0r9ltogxndo0f3r0db",
+    "reference": "https://swisswatches-magazine.com/uploads/2025/09/lang-and-heyne-friedrich-iii-manufaktur-edition-new-dial-5.webp"
+  },
+  "lang-2": {
+    "title": "Lang & Heyne · theatre wristshot",
+    "observation": "The Y in HEYNE looks like a T before Lynx. The finished frame reads HEYNE, and the lettering on the MADE IN SAXONY arc is clearer.",
+    "before": "https://mp.astria.ai/8osso521k4l1h845t9wljrk94oo1",
+    "after": "https://mp.astria.ai/bvsfsafsl3n2lbmuwqv0t97fcw7h",
+    "reference": "https://swisswatches-magazine.com/uploads/2025/09/lang-and-heyne-friedrich-iii-manufaktur-edition-new-dial-5.webp"
+  }
+}
