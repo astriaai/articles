@@ -13,6 +13,7 @@ type Props = {
   reference?: ImageComparisonItem;
   title?: string;
   description?: string;
+  aspectRatio?: string;
 };
 
 export default function ImageModelComparison({
@@ -20,6 +21,7 @@ export default function ImageModelComparison({
   reference,
   title = 'Inspect the same product across models',
   description,
+  aspectRatio,
 }: Props) {
   const id = useId();
   const [mode, setMode] = useState<'grid' | 'scan'>('grid');
@@ -43,7 +45,8 @@ export default function ImageModelComparison({
   };
 
   return (
-    <section className={styles.comparison} aria-label={title}>
+    <section className={styles.comparison} aria-label={title}
+      style={aspectRatio ? {'--comparison-aspect-ratio': aspectRatio} as React.CSSProperties : undefined}>
       <header className={styles.header}>
         <div>
           <h3>{title}</h3>

@@ -1,0 +1,68 @@
+[
+  {
+    "example": "sweatshirt",
+    "assets": [
+      {
+        "path": "static/img/darkroom-color-match/sweatshirt-before.webp",
+        "dimensions": "1696x2528",
+        "sha256": "1dc27df27eacb021b9adfff9444d8cf5a6edcb0b19934250ab1abc9251ba6843"
+      },
+      {
+        "path": "static/img/darkroom-color-match/sweatshirt-after.webp",
+        "dimensions": "1696x2528",
+        "sha256": "b5013e2827e94b33eadd9cd47e84a39ecf3bce2acf74798f1ded0d72cce6ed3e"
+      },
+      {
+        "path": "static/img/darkroom-color-match/sweatshirt-reference.webp",
+        "dimensions": "2000x2000",
+        "sha256": "3fb26ff710149acd573f09767638676e369abe23a079bd71572808cece297402"
+      }
+    ],
+    "unaffected_roi": "1000x650+500+0",
+    "differing_pixels": "0 (0)"
+  },
+  {
+    "example": "knit",
+    "assets": [
+      {
+        "path": "static/img/darkroom-color-match/knit-before.webp",
+        "dimensions": "1792x2400",
+        "sha256": "3d7d5fa8711f005361bab55fb68ff696e4d221de6e827f662ef5e024b9d575cb"
+      },
+      {
+        "path": "static/img/darkroom-color-match/knit-after.webp",
+        "dimensions": "1792x2400",
+        "sha256": "fe09f7cf95c2635623fc8799b89f4d3b061a980c86752780644fcea310a89600"
+      },
+      {
+        "path": "static/img/darkroom-color-match/knit-reference.webp",
+        "dimensions": "1440x2160",
+        "sha256": "cdd7ff0d4e535c6677491f15fea6102f5bde879fd110ad4c123fad752b675fbf"
+      }
+    ],
+    "unaffected_roi": "1792x900+0+0",
+    "differing_pixels": "0 (0)"
+  },
+  {
+    "example": "jacket-detail",
+    "assets": [
+      {
+        "path": "static/img/darkroom-color-match/jacket-detail-before.webp",
+        "dimensions": "1696x2528",
+        "sha256": "175e15d69afedec6cbc9c82372fa5c8f9be894445f9a6ebd13c23206fee18e6e"
+      },
+      {
+        "path": "static/img/darkroom-color-match/jacket-detail-after.webp",
+        "dimensions": "1696x2528",
+        "sha256": "a4c78662500ada8cbe47fbf420aca5f93c3bde5d2e5e319397cde305c23f5d37"
+      },
+      {
+        "path": "static/img/darkroom-color-match/jacket-detail-reference.webp",
+        "dimensions": "2000x2000",
+        "sha256": "847e13c5419cdd28e5bde3e9bd2d6483f78327c2287be70699f90a51c374e2fd"
+      }
+    ],
+    "unaffected_roi": "500x350+650+0",
+    "differing_pixels": "0 (0)"
+  }
+]

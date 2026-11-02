@@ -1,0 +1,72 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.8,
+    "label": "1. Open your photo, then click Darkroom."
+  },
+  {
+    "start": 4.8,
+    "end": 9.6,
+    "label": "2. Scroll to Color match and expand it."
+  },
+  {
+    "start": 9.6,
+    "end": 14.4,
+    "label": "3. Click Add area to start a local color match."
+  },
+  {
+    "start": 14.4,
+    "end": 19.2,
+    "label": "4. Choose the product reference: the charcoal trousers."
+  },
+  {
+    "start": 19.2,
+    "end": 24.0,
+    "label": "5. Click the trousers in the photo to select the area."
+  },
+  {
+    "start": 24.0,
+    "end": 28.8,
+    "label": "Wait for the selection to trace the fabric."
+  },
+  {
+    "start": 28.8,
+    "end": 33.6,
+    "label": "6. Click the trousers in the reference to match their color."
+  },
+  {
+    "start": 33.6,
+    "end": 38.4,
+    "label": "7. Review the selection, then click Done."
+  },
+  {
+    "start": 38.4,
+    "end": 43.2,
+    "label": "8. Amount controls match strength. Try 50 for a softer correction."
+  },
+  {
+    "start": 43.2,
+    "end": 48.0,
+    "label": "Return Amount to 100 for the full color match."
+  },
+  {
+    "start": 48.0,
+    "end": 52.8,
+    "label": "9. Tone at 0 keeps the photo lightness while matching color."
+  },
+  {
+    "start": 52.8,
+    "end": 57.6,
+    "label": "Tone at 100 also applies the full reference lightness match."
+  },
+  {
+    "start": 57.6,
+    "end": 64.0,
+    "label": "10. Hold Before to compare; release to return to your correction."
+  },
+  {
+    "start": 64.0,
+    "end": 68.8,
+    "label": "11. Click PNG to download the corrected photo."
+  }
+]

@@ -151,7 +151,7 @@
 }
 
 .card img {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: var(--comparison-aspect-ratio, 3 / 4);
   border-radius: 0 !important;
   cursor: default !important;
   display: block;
@@ -218,7 +218,7 @@
 }
 
 .scanStage {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: var(--comparison-aspect-ratio, 3 / 4);
   background: #d4d3cd;
   overflow: hidden;
   position: relative;

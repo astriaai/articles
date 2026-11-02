@@ -1,0 +1,52 @@
+[
+  {
+    "asset": "static/img/darkroom-color-match/america-before.webp",
+    "original_dimensions": "4718x7031",
+    "web_dimensions": "1718x2560",
+    "original_sha256": "39a8f851c34124db6eb7de74b0202b3247a14e8e649ab1b6da789b74a4937112",
+    "web_sha256": "058f39f87e52a6e556433e7677aa82c298b3dc008bd3cef96cdb547fa81d98d0",
+    "preparation": "Darkroom PNG export, identical downsampling, lossless WebP",
+    "original_file": "/tmp/darkroom-examples/america-baseline.png"
+  },
+  {
+    "asset": "static/img/darkroom-color-match/america-after.webp",
+    "original_dimensions": "4718x7031",
+    "web_dimensions": "1718x2560",
+    "original_sha256": "cdf77607ed8c967fe045bc282cd224e995e26b6bcf9050c0315fd3235ac6ee4a",
+    "web_sha256": "2f666715f54604fc424980e589c56cae946779a9f0f2cf4281309f148b394de6",
+    "preparation": "Darkroom PNG export, identical downsampling, lossless WebP",
+    "original_file": "/tmp/darkroom-examples/america-after.png"
+  },
+  {
+    "asset": "static/img/darkroom-color-match/america-reference.webp",
+    "original_dimensions": "1500x2000",
+    "web_dimensions": "1500x2000",
+    "original_sha256": "47467f8951ef9d8130e2371e1b61927d30bbc6e4882a1a62fef5ea120e8bd97f",
+    "web_sha256": "74fd5ea41117ed4158d738b009357dff9a12fe61caa8d62ef9f90442890588e6"
+  },
+  {
+    "asset": "static/img/darkroom-color-match/maison-before.webp",
+    "original_dimensions": "5504x3072",
+    "web_dimensions": "2560x1429",
+    "original_sha256": "2c33c2f1c81310ca5058a2a448fc96c5d444f6f30db716356cbf45704ebc815b",
+    "web_sha256": "11383b09b0f077024dfd0b372e36c2b4e9c38ec14a6cd4bf6b0f74d48c58c5bf",
+    "preparation": "Darkroom PNG export, identical downsampling, lossless WebP",
+    "original_file": "/tmp/darkroom-examples/maison-baseline.png"
+  },
+  {
+    "asset": "static/img/darkroom-color-match/maison-after.webp",
+    "original_dimensions": "5504x3072",
+    "web_dimensions": "2560x1429",
+    "original_sha256": "14d79b84700aadba8b1ea047d14b096985335286240308d8615e3168085570b5",
+    "web_sha256": "ee6db7fe401211610a0bbd07147cf4ba63cbdc48599694d628c77bb56347fadf",
+    "preparation": "Darkroom PNG export, identical downsampling, lossless WebP",
+    "original_file": "/tmp/darkroom-examples/maison-after.png"
+  },
+  {
+    "asset": "static/img/darkroom-color-match/maison-reference.webp",
+    "original_dimensions": "1440x2160",
+    "web_dimensions": "1440x2160",
+    "original_sha256": "400af6e9a0b753cfbe890579fd550b0186facabbc99cac450cbd8c988f45a613",
+    "web_sha256": "517ea01f2f0a519c273806180a38b236c736b8508a0ee0940f280ba45d23d5c8"
+  }
+]

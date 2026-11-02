@@ -1,0 +1,14 @@
+[
+  {
+    "example": "america",
+    "web_crop": "1500x1200+0+0",
+    "differing_pixels": "0 (0)",
+    "passed": true
+  },
+  {
+    "example": "maison",
+    "web_crop": "280x240+800+20",
+    "differing_pixels": "0 (0)",
+    "passed": true
+  }
+]
