@@ -1,0 +1,305 @@
+{
+  "article": "blog/ai-watch-photography.md",
+  "workspace": 896,
+  "model": "nano-banana-2",
+  "resolution_requested": "4K",
+  "reference_provenance": {
+    "dornblueth": {
+      "page": "https://definewatches.com.au/shop/dornbluth-sohn/dornbluth-99-1-silver-dial/",
+      "image": "https://definewatches.com.au/wp-content/uploads/2022/12/Dornbluth-Sohn-99.1-Silver-Dial-1-1.jpg",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "review": "Visually reviewed; silver dial, cognac strap, fine maker lettering and blue hands. Native 1080 px retailer reference; weaker than preferred 1600 px article-source gate. Retain as shoot exploration; obtain higher-resolution source before public article selection. No upscaling."
+    },
+    "hentschel": {
+      "page": "https://hentschel-hamburg.com/watches/hentschel-h1/h1-chronometer-white-gold-or-stainless-steel.html",
+      "image": "https://hentschel-hamburg.com/wp-content/uploads/2018/02/Hentschel_H1_St_141116_084_01_Chronometer_2500x1400px.jpg",
+      "dimensions": [
+        2500,
+        1400
+      ],
+      "review": "Official photograph reviewed; single silver-dial watch, black strap; HENTSCHEL / HAMBURG and CHRONOMETER visible."
+    },
+    "kudoke": {
+      "page": "https://www.kudoke.eu/en/kudoke1_anthracite/",
+      "image": "https://www.kudoke.eu/wp-content/uploads/2021/07/KUDOKE1_anthrazit_front_sw.jpg",
+      "dimensions": [
+        1920,
+        1920
+      ],
+      "review": "Official front image reviewed; KUDOKE plaque, GERMANY, anthracite dial, seconds at nine and infinity hand."
+    },
+    "lang": {
+      "page": "https://swisswatches-magazine.com/lang-heyne-friedrich-iii-manufacture-edition/",
+      "image": "https://swisswatches-magazine.com/uploads/2025/09/lang-and-heyne-friedrich-iii-manufaktur-edition-new-dial-5.webp",
+      "dimensions": [
+        2000,
+        1600
+      ],
+      "review": "Press editorial image reviewed; exact Manufaktur Edition, black dial and ornate hands, LANG & HEYNE / DRESDEN and MADE IN SAXONY. Source bears SWISSWATCHES watermark. Reference provenance retained; no public republication authorized by this source."
+    }
+  },
+  "references": {
+    "dornblueth": 6001616,
+    "hentschel": 6001605,
+    "kudoke": 6001604,
+    "lang": 6001607
+  },
+  "shots": [
+    {
+      "key": "dornblueth-1",
+      "prompt_id": 47528026,
+      "args": {
+        "text": "Warm artisan workshop editorial photograph of <faceid:6001616:1> watch, the silver-dial D. Dornblueth & Sohn 99.1 with cognac crocodile-pattern leather strap. On an adult wrist emerging from an oatmeal wool cuff, the hand rests naturally on a worn walnut workbench near a blurred watchmaker's loupe and a folded linen cloth. Soft morning window light, warm honey and cream palette, gentle shadows, intimate tactile documentary luxury. Watch about one third of frame width, dial nearly parallel to image plane, lettering visible and naturally small. Preserve the black Arabic numerals and railroad minutes, blue hour and minute hands, small seconds at six, and D. DORNBLUTH & SOHN / Kalbe i/S.A. inscriptions exactly as drawn in the source, including the umlaut and punctuation. Faithfully reproduce the referenced watch: exact case proportions, dial layout, hands, indices, crown and strap. Match the source hand positions. Keep tiny lettering at its original size and position, never enlarged or duplicated. Entire dial sharply resolved, crystal glare controlled so no inscription is obscured. One watch, physically credible materials, real commercial photography, no graphic overlay or watermark.",
+        "workspace": "896",
+        "model": "nano-banana-2",
+        "resolution": "4K",
+        "aspect_ratio": "4:3",
+        "num_images": "1",
+        "lynx": true,
+        "inpaint_preset": "strong",
+        "idempotency_key": "german-watch-20261031-dornblueth-1-v1"
+      },
+      "before": [
+        "https://mp.astria.ai/qflgutle6rnpyw1ilcdayylv99f7"
+      ],
+      "after": [
+        "https://mp.astria.ai/y7nkxfx4qpudt7y93vrl1c6l0jz5"
+      ],
+      "review": {
+        "visually_reviewed": true,
+        "dimensions": [
+          6944,
+          5185
+        ],
+        "sha256": "5fb5d393e8e712ce24ccd5ee043bc7adb3a020a3c9afdbc83aa895b382be4671",
+        "notes": "Warm workshop wrist composition. Maker text visible; small-seconds hand position differs from reference. Native 1080px reference remains below preferred publication source size."
+      }
+    },
+    {
+      "key": "dornblueth-2",
+      "prompt_id": 47528027,
+      "args": {
+        "text": "Quiet warm still-life photograph of <faceid:6001616:1> watch, silver-dial D. Dornblueth & Sohn 99.1 with cognac crocodile-pattern leather strap. Watch laid diagonally on a folded natural linen cloth on a honey-coloured oak desk, loosely curved strap fully visible, an antique brass loupe softly out of focus at the far edge. Low afternoon window light skims the wood grain, gentle shadows, warm ivory and amber tones, understated hand-crafted atmosphere. High three-quarter camera angle close to dial normal, watch occupies the middle third of a horizontal composition, all dial details sharp. Preserve black Arabic numbers and railroad minute track, blue hour and minute hands, small seconds at six and tiny maker and Kalbe inscriptions in their original positions. Faithfully reproduce the referenced watch: exact case proportions, dial layout, hands, indices, crown and strap. Match the source hand positions. Keep tiny lettering at its original size and position, never enlarged or duplicated. Entire dial sharply resolved, crystal glare controlled so no inscription is obscured. One watch, physically credible materials, real commercial photography, no graphic overlay or watermark.",
+        "workspace": "896",
+        "model": "nano-banana-2",
+        "resolution": "4K",
+        "aspect_ratio": "4:3",
+        "num_images": "1",
+        "lynx": true,
+        "inpaint_preset": "strong",
+        "idempotency_key": "german-watch-20261031-dornblueth-2-v1"
+      },
+      "before": [
+        "https://mp.astria.ai/rcdtu3bu76q0rr8w2zpv8798jo1v"
+      ],
+      "after": [
+        "https://mp.astria.ai/cn8evet9lmxjhodaqbgwbv992g07"
+      ],
+      "review": {
+        "visually_reviewed": true,
+        "dimensions": [
+          6944,
+          5185
+        ],
+        "sha256": "f379d5605f1ed1460514af02633eb3331edc6bb4c2761c9b9747ae680c10a7d3",
+        "notes": "Warm linen and oak still life. Dial and maker lettering visible; small-seconds hand position differs. Obtain sharper reference before publication."
+      }
+    },
+    {
+      "key": "kudoke-1",
+      "prompt_id": 47528030,
+      "args": {
+        "text": "Graphic contemporary product photograph of <faceid:6001604:1> watch. The KUDOKE 1 Anthracite sits upright with its black strap gently curved on a pale concrete cylinder beside a single cobalt-blue acrylic plane. Crisp diagonal afternoon shadows against a warm off-white seamless backdrop, minimal geometric composition, cool silver highlights and tactile charcoal dial. Camera almost perpendicular to dial, product occupies one third of the landscape frame, deliberate negative space. Preserve the small rectangular KUDOKE plaque at three and tiny GERMANY above six, small seconds at nine and the sculptural infinity hour hand. Faithfully reproduce the referenced watch: exact case proportions, dial layout, hands, indices, crown and strap. Match the source hand positions. Keep the tiny lettering at its original relative size and position, never enlarged or duplicated. Entire dial sharply resolved, crystal glare controlled so no inscription is obscured. One watch, physically credible materials, a real commercial photograph, no added graphic text or watermark.",
+        "workspace": "896",
+        "model": "nano-banana-2",
+        "resolution": "4K",
+        "aspect_ratio": "4:3",
+        "num_images": "1",
+        "lynx": true,
+        "inpaint_preset": "strong",
+        "idempotency_key": "german-watch-20261101-kudoke-1-funded-v1"
+      },
+      "before": [
+        "https://mp.astria.ai/qz34tp1nnarwkynbu9egd32lfrbi"
+      ],
+      "after": [
+        "https://mp.astria.ai/s1jruc4n2rcuwsa7z9nbjur9fkrb"
+      ],
+      "review": {
+        "visually_reviewed": true,
+        "dimensions": [
+          6944,
+          5185
+        ],
+        "sha256": "c25b4c6621480f7c0dd60d0f6824fb351b8f789ddc670214cbec16be6384ab2d",
+        "notes": "Strong graphic pedestal composition. KUDOKE and GERMANY readable in native-resolution inspection crop. Retains plaque, small seconds and infinity hand; no assertion of exact microscopic geometry."
+      }
+    },
+    {
+      "key": "kudoke-2",
+      "prompt_id": 47528032,
+      "args": {
+        "text": "Architectural still-life photograph of <faceid:6001604:1> watch. The KUDOKE 1 Anthracite lies diagonally across a brushed aluminium folded sheet with a muted cobalt paper arc behind it, viewed from a high three-quarter angle close to the dial normal. Hard clean studio sunlight makes precise geometric shadows on off-white plaster; sophisticated modern design magazine aesthetic, restrained silver, charcoal and cobalt palette. Entire watch visible, dial occupies one quarter of frame width, foreground clean and sharp, props secondary. Preserve the small KUDOKE plaque at three, tiny GERMANY above six, small seconds at nine and infinity hour hand. Faithfully reproduce the referenced watch: exact case proportions, dial layout, hands, indices, crown and strap. Match the source hand positions. Keep the tiny lettering at its original relative size and position, never enlarged or duplicated. Entire dial sharply resolved, crystal glare controlled so no inscription is obscured. One watch, physically credible materials, a real commercial photograph, no added graphic text or watermark.",
+        "workspace": "896",
+        "model": "nano-banana-2",
+        "resolution": "4K",
+        "aspect_ratio": "4:3",
+        "num_images": "1",
+        "lynx": true,
+        "inpaint_preset": "strong",
+        "idempotency_key": "german-watch-20261101-kudoke-2-funded-v1"
+      },
+      "before": [
+        "https://mp.astria.ai/rp39naf6g6lt1bezcnh3eo008key"
+      ],
+      "after": [
+        "https://mp.astria.ai/fhx3cobyemos08vvwu4ldn4u8u5p"
+      ],
+      "review": {
+        "visually_reviewed": true,
+        "dimensions": [
+          6944,
+          5185
+        ],
+        "sha256": "fd9cc4754a5bff315f773241502e0009b10675cfadeafa2cac0120bc19d41f9e",
+        "notes": "Strong geometric still life. KUDOKE and GERMANY readable in inspection crop. Strap extends beyond frame despite request for entire watch."
+      }
+    },
+    {
+      "key": "hentschel-1",
+      "prompt_id": 47528033,
+      "args": {
+        "text": "Cool maritime editorial product photograph of <faceid:6001605:1> watch. The silver-dial Hentschel H1 Chronometer is worn on an adult wrist with a navy cotton overshirt cuff, the hand resting naturally on dry weathered teak beside a harbour window. Defocused misty Hamburg harbour and pale water behind, soft overcast northern daylight, blue-grey and weathered teak palette, understated authentic maritime elegance. Tight framing includes hand and cuff, watch about one third of image width, dial nearly facing camera. Preserve silver dial, slender Arabic numerals, leaf hands, black leather strap, HENTSCHEL over tiny HAMBURG below twelve and small CHRONOMETER below the seconds dial at six. Faithfully reproduce the referenced watch: exact case proportions, dial layout, hands, indices, crown and strap. Match the source hand positions. Keep the tiny lettering at its original relative size and position, never enlarged or duplicated. Entire dial sharply resolved, crystal glare controlled so no inscription is obscured. One watch, physically credible materials, a real commercial photograph, no added graphic text or watermark.",
+        "workspace": "896",
+        "model": "nano-banana-2",
+        "resolution": "4K",
+        "aspect_ratio": "4:3",
+        "num_images": "1",
+        "lynx": true,
+        "inpaint_preset": "strong",
+        "idempotency_key": "german-watch-20261101-hentschel-1-funded-v1"
+      },
+      "before": [
+        "https://mp.astria.ai/46jqojx8ov7juvyxjzi0jsiq3kud"
+      ],
+      "after": [
+        "https://mp.astria.ai/2llvpaje46qgm1yy8ksblm86mwj5"
+      ],
+      "review": {
+        "visually_reviewed": true,
+        "dimensions": [
+          6944,
+          5185
+        ],
+        "sha256": "7004d67028a1802ff58ff98c5d08f77c6712fd716f7929c42eacaf3765a82c14",
+        "notes": "Attractive maritime wristshot, but HAMBURG has a malformed U that reads as O/C in inspection crop. Cuff covers left dial edge. Do not select as an exact-lettering article example."
+      }
+    },
+    {
+      "key": "hentschel-2",
+      "prompt_id": 47528036,
+      "args": {
+        "text": "Maritime still-life campaign photograph of <faceid:6001605:1> watch. The silver Hentschel H1 Chronometer rests with black leather strap loosely curved on a dry pale teak chart table inside a sailing cabin, an out-of-focus brass divider and folded navy canvas set well behind it. Cool diffused skylight from the left, subtle water-reflected light on the wall, quiet blue-grey palette with natural wood, realistic fine surface texture. Camera high three-quarter view close to perpendicular to the dial, dial one third of image width. Keep HENTSCHEL / HAMBURG lettering and curved CHRONOMETER inscription small and exact, small seconds at six. Faithfully reproduce the referenced watch: exact case proportions, dial layout, hands, indices, crown and strap. Match the source hand positions. Keep the tiny lettering at its original relative size and position, never enlarged or duplicated. Entire dial sharply resolved, crystal glare controlled so no inscription is obscured. One watch, physically credible materials, a real commercial photograph, no added graphic text or watermark.",
+        "workspace": "896",
+        "model": "nano-banana-2",
+        "resolution": "4K",
+        "aspect_ratio": "4:3",
+        "num_images": "1",
+        "lynx": true,
+        "inpaint_preset": "strong",
+        "idempotency_key": "german-watch-20261101-hentschel-2-funded-v1"
+      },
+      "before": [
+        "https://mp.astria.ai/uv11i82hsvq2ey8wu56ld60t2tll"
+      ],
+      "after": [
+        "https://mp.astria.ai/2cnbjdn03lzxdcr92pjn952faxwh"
+      ],
+      "review": {
+        "visually_reviewed": true,
+        "dimensions": [
+          6944,
+          5185
+        ],
+        "sha256": "4776e351f1973d15e9803b74902bf94a2fcfe7acbe0770d752d52f8da4721a52",
+        "notes": "Maritime still life with readable HENTSCHEL / HAMBURG in inspection crop and CHRONOMETER visible. Stronger lettering candidate than wristshot."
+      }
+    },
+    {
+      "key": "lang-1",
+      "prompt_id": 47528037,
+      "args": {
+        "text": "Dramatic evening luxury still-life photograph of <faceid:6001607:1> watch, the exact Lang & Heyne Friedrich III Manufaktur Edition with black enamel dial. Watch lies on a deep oxblood velvet cushion on a dark polished walnut console. A narrow warm key light outlines the steel case and intricate silver Louis XV hands; soft cool fill keeps black enamel and tiny white inscriptions legible. Chiaroscuro, rich burgundy and black palette, quiet old-world Dresden salon mood, background falling into shadow. Camera almost face-on to the dial, full watch visible, dial one third of frame width. Preserve LANG & HEYNE / DRESDEN beneath XII and curved tiny MADE IN SAXONY above small seconds. Faithfully reproduce the referenced watch: exact case proportions, dial layout, hands, indices, crown and strap. Match the source hand positions. Keep the tiny lettering at its original relative size and position, never enlarged or duplicated. Entire dial sharply resolved, crystal glare controlled so no inscription is obscured. One watch, physically credible materials, a real commercial photograph, no added graphic text or watermark.",
+        "workspace": "896",
+        "model": "nano-banana-2",
+        "resolution": "4K",
+        "aspect_ratio": "4:3",
+        "num_images": "1",
+        "lynx": true,
+        "inpaint_preset": "strong",
+        "idempotency_key": "german-watch-20261101-lang-1-funded-v1"
+      },
+      "before": [
+        "https://mp.astria.ai/94i5blp4nynzd88l02ftujnql0yd"
+      ],
+      "after": [
+        "https://mp.astria.ai/gcrberpv2k0r9ltogxndo0f3r0db"
+      ],
+      "review": {
+        "visually_reviewed": true,
+        "dimensions": [
+          6944,
+          5185
+        ],
+        "sha256": "4adde45e08bde0f7a347c0e8263b4d1df59527cd7d218c03e27df8fa58037782",
+        "notes": "Strong velvet still life. LANG & HEYNE, DRESDEN and MADE IN SAXONY readable in inspection crop; ornate hands visible. Preferred candidate for text-focused review."
+      }
+    },
+    {
+      "key": "lang-2",
+      "prompt_id": 47528039,
+      "args": {
+        "text": "Elegant evening editorial wrist photograph of <faceid:6001607:1> watch, exact black-enamel Lang & Heyne Friedrich III Manufaktur Edition. Adult hand rests on the oxblood velvet armrest of a theatre seat, ivory shirt cuff beneath a black dinner jacket, distant amber theatre lights softly blurred. Intimate cinematic close-up, deep burgundy, ivory and black, directional warm light on the steel case with gentle fill across the dial, natural skin. Watch occupies one third of the frame, dial turned towards camera and entirely sharp. Preserve ornate silver Louis XV hands, Roman numerals, black strap and small LANG & HEYNE / DRESDEN and curved MADE IN SAXONY text. Faithfully reproduce the referenced watch: exact case proportions, dial layout, hands, indices, crown and strap. Match the source hand positions. Keep the tiny lettering at its original relative size and position, never enlarged or duplicated. Entire dial sharply resolved, crystal glare controlled so no inscription is obscured. One watch, physically credible materials, a real commercial photograph, no added graphic text or watermark.",
+        "workspace": "896",
+        "model": "nano-banana-2",
+        "resolution": "4K",
+        "aspect_ratio": "4:3",
+        "num_images": "1",
+        "lynx": true,
+        "inpaint_preset": "strong",
+        "idempotency_key": "german-watch-20261101-lang-2-funded-v1"
+      },
+      "before": [
+        "https://mp.astria.ai/8osso521k4l1h845t9wljrk94oo1"
+      ],
+      "after": [
+        "https://mp.astria.ai/bvsfsafsl3n2lbmuwqv0t97fcw7h"
+      ],
+      "review": {
+        "visually_reviewed": true,
+        "dimensions": [
+          6944,
+          5185
+        ],
+        "sha256": "391e7657e3c0635459e0661cb263a23cff44148d32d975adc8a44e18d5a52312",
+        "notes": "Cinematic theatre wristshot. All three inscriptions readable in inspection crop. Crystal reflections cross upper dial and lower-right track; still life is clearer for instructional comparison."
+      }
+    }
+  ],
+  "public_full_frames": [
+    "kudoke-1",
+    "kudoke-2",
+    "hentschel-2",
+    "lang-1",
+    "lang-2"
+  ],
+  "public_detail_crops": [
+    "kudoke-1",
+    "hentschel-2",
+    "lang-1"
+  ],
+  "cover": "lang-1"
+}

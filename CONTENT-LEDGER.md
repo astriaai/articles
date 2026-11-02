@@ -44,6 +44,7 @@ competitor pricing and feature scope move fastest.
 
 | Article | Primary query | Published | Last fact check | Volatile | Next review | Owner |
 | --- | --- | --- | --- | --- | --- | --- |
+| ai-watch-photography | AI watch photography | 2026-11-01 | 2026-11-01 | F M | 2026-12-01 | guides |
 | lynx-product-details | Astria Lynx small product text | 2026-10-21 | 2026-10-31 | F | 2026-11-30 | features |
 | astria-vs-weon-fashion-ai | astria vs weon | 2026-10-29 | 2026-10-29 | F P | 2026-11-29 | comparisons |
 | astria-vs-artiso-fashion-ai | astria vs artiso | 2026-10-29 | 2026-10-29 | F | 2026-11-29 | comparisons |
