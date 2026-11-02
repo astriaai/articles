@@ -18,7 +18,7 @@ import WatchDialComparison from '@site/src/components/WatchDialComparison';
 
 **A watch campaign needs a convincing photograph and a convincing watch.** The setting can change from a quiet workbench to a theatre, but the maker's name, dial layout and hand shapes still need to belong to the reference product. Tiny lettering makes that a demanding test.
 
-We created two reference-driven photographs for each of four German watch models, giving each pair its own visual direction. This article shares the eight prompts, five finished images and matching before-and-after views of the dial lettering. The shoot used **Nano Banana 2 at the 4K setting, with Astria Lynx enabled**.
+We created two reference-driven photographs for each of four German watch models, giving each pair its own visual direction. This article shares the eight prompts, four finished images and matching before-and-after views of the dial lettering. The shoot used **Nano Banana 2 at the 4K setting, with Astria Lynx enabled**.
 
 <!-- truncate -->
 
@@ -40,7 +40,7 @@ The creative brief gave each watch a different palette, material setting and lig
 | KUDOKE 1 Anthracite | Geometric studio photography | Concrete pedestal and cobalt acrylic | Folded aluminium and a blue paper arc |
 | Lang & Heyne Friedrich III Manufaktur Edition | Dramatic evening photography | Oxblood velvet and walnut | Theatre-seat wristshot |
 
-The gallery below selects five finished photographs from the eight-shot shoot. Use **Side by side** to read both dials, or switch to **Scan line** and move the divider across a word. Each comparison shows the same area before and after Lynx on a single photograph.
+The gallery below selects four finished photographs from the eight-shot shoot. Use **Side by side** to read both dials, or switch to **Scan line** and move the divider across a word. Each comparison shows the same area before and after Lynx on a single photograph.
 
 ## Set up a reference-driven watch shoot
 
@@ -86,20 +86,9 @@ The second composition repeats the palette with a folded metal surface and a pap
 
 ## Hentschel: a quiet maritime still life
 
-For the Hentschel H1 Chronometer, the brief paired navy fabric and pale teak with cool window light. The [official reference photograph](https://hentschel-hamburg.com/wp-content/uploads/2018/02/Hentschel_H1_St_141116_084_01_Chronometer_2500x1400px.jpg) shows the silver-colored dial, slender numerals and three inscriptions to check: “HENTSCHEL,” “HAMBURG” and “CHRONOMETER.”
+For the H1 Chronometer we paired navy fabric and pale teak with cool window light. The harbour-window wristshot and the chart-table still life share that palette. The two prompts are below.
 
-<figure data-source-reference="https://www.astria.ai/prompts/47528036">
-  <img src="/articles/img/german-watch-photoshoot/hentschel-2.webp" alt="AI-generated Hentschel still life: a pale teak chart table, navy fabric and soft cabin light." width="2400" height="1793" loading="lazy" style={{display: 'block', maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption>AI-generated Hentschel still life: a pale teak chart table, navy fabric and soft cabin light.</figcaption>
-</figure>
-
-The chart-table image leaves the entire dial visible. Its diagonal position creates movement without putting a sleeve across the numerals. Both crops below are turned upright so you can read the three inscriptions.
-
-<WatchDialComparison shot="hentschel-2" />
-
-
-
-This is why we review the smaller line separately from the main logo. A word can look plausible at page size while containing a malformed character. Inspect each letter before approving an image, then return to the full composition to check reflections, strap attachment and case proportions.
+On the original dial, **HAMBURG** sits beneath **HENTSCHEL** in small serif capitals. In the chart-table shot the word was legible, but the letter shapes differed from the original. We marked those two lines on the reference and ran Lynx again on the same frame. The second pass left the city lettering visibly unchanged, so we excluded the photograph from the gallery. [Inspect the lettering on Hentschel’s original dial](https://hentschel-hamburg.com/wp-content/uploads/2018/02/Hentschel_H1_St_141116_084_01_Chronometer_2500x1400px.jpg).
 
 <details>
 <summary>Prompt 1: harbour-window wristshot</summary>
@@ -184,7 +173,7 @@ Lynx can help refine small reference details, but the review still has to cover 
 
 The shoot ran on November 1, 2026 in Astria's Articles workspace. Each of the four references was used for two prompts, with one image requested per prompt. All eight used Nano Banana 2, a 4:3 request, the 4K setting and Lynx enabled. Finished files were returned at 6,944 × 5,185 pixels; the full-scene web copies shown here are reduced to 2,400 pixels wide.
 
-For each comparison, the before image is the frame saved immediately before Lynx on that same prompt. We cropped the same relative area from both files and reduced the larger crop to match the smaller one. Both Hentschel crops were rotated 90° clockwise for reading. No lettering was repainted and no crop was upscaled. See the [Lynx article](/lynx-product-details) for the same comparison across other products.
+For each comparison, the before image is the frame saved immediately before Lynx on that same prompt. We cropped the same relative area from both files and reduced the larger crop to match the smaller one. No lettering was repainted and no crop was upscaled. See the [Lynx article](/lynx-product-details) for the same comparison across other products.
 
 ## Create a watch campaign from your own references
 

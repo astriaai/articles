@@ -1,0 +1,72 @@
+{
+  "prompt": 47536699,
+  "workspace": 896,
+  "reference": 6001605,
+  "source_region": [
+    {
+      "size": [
+        2500,
+        1400
+      ],
+      "regions": [
+        {
+          "coarse": [
+            679,
+            86,
+            1864,
+            1165
+          ],
+          "fine": [
+            1285,
+            295,
+            1573,
+            551
+          ],
+          "required_text": "HENTSCHEL\nHAMBURG",
+          "prompt": "Match the two printed lines on the dial exactly. HAMBURG has seven separate uppercase serif letters, centered below HENTSCHEL, smaller than the maker line. Preserve the fine serifs, spacing, alignment, ink color and relative sizes shown in this reference."
+        }
+      ]
+    }
+  ],
+  "before": [
+    "https://mp.astria.ai/2cnbjdn03lzxdcr92pjn952faxwh"
+  ],
+  "after": [
+    "https://mp.astria.ai/9prhfmv7jjpe0wu3n27uk8jy7pvz"
+  ],
+  "completed": "2026-11-02T13:43:39.510Z",
+  "original_prompt": 47528036,
+  "purpose": "Target the printed HENTSCHEL / HAMBURG lettering on the published chart-table frame.",
+  "operation": "Apply Lynx (one refinement of the existing frame)",
+  "review_crops": {
+    "before": {
+      "dimensions": [
+        6944,
+        5185
+      ],
+      "crop_xywh": [
+        3081,
+        2807,
+        312,
+        651
+      ],
+      "sha256": "4776e351f1973d15e9803b74902bf94a2fcfe7acbe0770d752d52f8da4721a52"
+    },
+    "after": {
+      "dimensions": [
+        6944,
+        5185
+      ],
+      "crop_xywh": [
+        3081,
+        2807,
+        312,
+        651
+      ],
+      "sha256": "9d719f233392c061e773c3c7e5442669b8ee4d61ecc7ed4efa786d02e8cce28f"
+    }
+  },
+  "inspection_rotation_clockwise_degrees": 90,
+  "finding": "Both frames spell HAMBURG. The reference has distinct serif lettering. In matched native-pixel crops the additional pass still leaves the city lettering visually unchanged and does not establish a correction.",
+  "editorial_decision": "Withdraw the Hentschel image and comparison from the article; retain its two prompt directions and link to the official reference. Four full photographs remain, each with a matched viewer."
+}
